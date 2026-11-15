@@ -1,0 +1,3471 @@
+{
+ "play_amb_avg_solarschool_auditorium_busy": {
+  "kind": [
+   "amb",
+   "bgm"
+  ],
+  "usedBy": [
+   "3027",
+   "7027",
+   "7029",
+   "7032",
+   "7034",
+   "8014"
+  ]
+ },
+ "play_amb_avg_solarschool_auditorium_quiet": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "1040",
+   "1044",
+   "14200",
+   "3024",
+   "4020",
+   "4021",
+   "7028",
+   "7033",
+   "8008",
+   "8009",
+   "8010",
+   "8011",
+   "8012"
+  ]
+ },
+ "play_amb_avg_solarschool_bus_inside": {
+  "kind": [
+   "amb"
+  ],
+  "usedBy": [
+   "7034"
+  ]
+ },
+ "play_amb_avg_solarschool_busstation": {
+  "kind": [
+   "amb"
+  ],
+  "usedBy": [
+   "1001",
+   "1002",
+   "location"
+  ]
+ },
+ "play_amb_avg_solarschool_classroom_busy": {
+  "kind": [
+   "amb",
+   "bgm"
+  ],
+  "usedBy": [
+   "1015",
+   "1016",
+   "1038",
+   "12007",
+   "16002",
+   "6013",
+   "7031",
+   "9004"
+  ]
+ },
+ "play_amb_avg_solarschool_classroom_busy_summer": {
+  "kind": [
+   "amb"
+  ],
+  "usedBy": [
+   "7042"
+  ]
+ },
+ "play_amb_avg_solarschool_classroom_quiet": {
+  "kind": [
+   "amb",
+   "bgm"
+  ],
+  "usedBy": [
+   "1015",
+   "1016",
+   "1020",
+   "1032",
+   "1038",
+   "13001",
+   "13002",
+   "13003",
+   "13004",
+   "13005",
+   "13006",
+   "17001",
+   "17002",
+   "17003",
+   "17004",
+   "17005",
+   "17006",
+   "17007",
+   "17008",
+   "17009",
+   "17010",
+   "2006",
+   "2007",
+   "3026",
+   "7005",
+   "7025",
+   "7030",
+   "9012",
+   "location"
+  ]
+ },
+ "play_amb_avg_solarschool_classroom_quiet_summer": {
+  "kind": [
+   "amb",
+   "bgm"
+  ],
+  "usedBy": [
+   "11003",
+   "11005",
+   "11010",
+   "7042",
+   "7043"
+  ]
+ },
+ "play_amb_avg_solarschool_home_day": {
+  "kind": [
+   "amb",
+   "bgm"
+  ],
+  "usedBy": [
+   "1003",
+   "1005",
+   "1013",
+   "1026",
+   "1029",
+   "1031",
+   "1036",
+   "1037",
+   "1050",
+   "13106",
+   "13108",
+   "14100",
+   "14101",
+   "14102",
+   "14103",
+   "14104",
+   "14105",
+   "14106",
+   "14107",
+   "14108",
+   "14109",
+   "14110",
+   "15002",
+   "15006",
+   "2008",
+   "2009",
+   "3004",
+   "3014",
+   "3019",
+   "3021",
+   "3022",
+   "3028",
+   "3031",
+   "3032",
+   "3033",
+   "3034",
+   "3035",
+   "3036",
+   "3037",
+   "5001",
+   "5003",
+   "5005",
+   "5010",
+   "5011",
+   "6024",
+   "7001",
+   "7003",
+   "7016",
+   "7017",
+   "7035",
+   "8004",
+   "9001",
+   "9005",
+   "location",
+   "x3"
+  ]
+ },
+ "play_amb_avg_solarschool_home_night": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "1012",
+   "1035",
+   "1045",
+   "15004",
+   "3012",
+   "3013",
+   "3020",
+   "3107",
+   "3108",
+   "7038",
+   "7040",
+   "7045",
+   "7046"
+  ]
+ },
+ "play_amb_avg_solarschool_office_day": {
+  "kind": [
+   "amb",
+   "bgm"
+  ],
+  "usedBy": [
+   "1017",
+   "1018",
+   "1033",
+   "1034",
+   "1041",
+   "11011",
+   "16001",
+   "17021",
+   "17022",
+   "17023",
+   "17024",
+   "17025",
+   "3006",
+   "3007",
+   "3008",
+   "3009",
+   "3010",
+   "3023",
+   "4009",
+   "4010",
+   "4011",
+   "4012",
+   "4016",
+   "4017",
+   "4018",
+   "4019",
+   "5015",
+   "6004",
+   "6008",
+   "6012",
+   "6019",
+   "6023",
+   "6025",
+   "6026",
+   "6028",
+   "7006",
+   "7026",
+   "7031",
+   "9002",
+   "9004",
+   "9011",
+   "9015"
+  ]
+ },
+ "play_amb_avg_solarschool_office_day_summer": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "11001",
+   "11002",
+   "11004",
+   "11009",
+   "11012",
+   "7007",
+   "7008",
+   "7009",
+   "7010",
+   "7011",
+   "7012",
+   "7013",
+   "7018",
+   "7019",
+   "7020",
+   "7021",
+   "7022",
+   "7023",
+   "7024",
+   "7044"
+  ]
+ },
+ "play_amb_avg_solarschool_office_day_work": {
+  "kind": [
+   "amb",
+   "bgm"
+  ],
+  "usedBy": [
+   "1023",
+   "1024",
+   "1027",
+   "11008",
+   "12001",
+   "12004",
+   "12009",
+   "12010",
+   "13100",
+   "13101",
+   "13102",
+   "13103",
+   "13104",
+   "13105",
+   "13109",
+   "13111",
+   "13112",
+   "17011",
+   "17012",
+   "17013",
+   "17014",
+   "17015",
+   "17016",
+   "17017",
+   "17018",
+   "17019",
+   "17020",
+   "2001",
+   "2010",
+   "2011",
+   "4004",
+   "4005",
+   "4006",
+   "6003",
+   "6005",
+   "6008",
+   "6010",
+   "6014",
+   "6016",
+   "6029",
+   "9002",
+   "9004",
+   "9013",
+   "location"
+  ]
+ },
+ "play_amb_avg_solarschool_office_night": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "11006"
+  ]
+ },
+ "play_amb_avg_solarschool_office_rain": {
+  "kind": [
+   "amb",
+   "bgm"
+  ],
+  "usedBy": [
+   "12006",
+   "6030"
+  ]
+ },
+ "play_amb_avg_solarschool_playground": {
+  "kind": [
+   "amb",
+   "bgm"
+  ],
+  "usedBy": [
+   "1039",
+   "14004",
+   "17026",
+   "17027",
+   "17028",
+   "17029",
+   "17030",
+   "2004",
+   "6020",
+   "6027",
+   "9005",
+   "9013",
+   "location"
+  ]
+ },
+ "play_amb_avg_solarschool_restarea": {
+  "kind": [
+   "amb",
+   "bgm"
+  ],
+  "usedBy": [
+   "1009",
+   "1048",
+   "12003",
+   "12012",
+   "3025",
+   "3105",
+   "3106",
+   "4013",
+   "5008",
+   "5009",
+   "5013",
+   "5014",
+   "5020",
+   "6004",
+   "6015",
+   "6018",
+   "6021",
+   "9002",
+   "9012",
+   "location"
+  ]
+ },
+ "play_amb_avg_solarschool_restarea_night": {
+  "kind": [
+   "amb",
+   "bgm"
+  ],
+  "usedBy": [
+   "11007",
+   "15005",
+   "6009",
+   "6012",
+   "6018",
+   "7014",
+   "9001"
+  ]
+ },
+ "play_amb_avg_solarschool_restarea_night_firework": {
+  "kind": [
+   "amb"
+  ],
+  "usedBy": [
+   "9001"
+  ]
+ },
+ "play_amb_avg_solarschool_restaurant_busy": {
+  "kind": [
+   "amb",
+   "bgm"
+  ],
+  "usedBy": [
+   "1004",
+   "1011",
+   "1025",
+   "14001",
+   "17033",
+   "17034",
+   "17035",
+   "17036",
+   "17037",
+   "2002",
+   "3015",
+   "4014",
+   "4015",
+   "5007",
+   "5018",
+   "5019",
+   "6001",
+   "6029",
+   "7037",
+   "8015",
+   "8022",
+   "9003",
+   "location"
+  ]
+ },
+ "play_amb_avg_solarschool_restaurant_quiet": {
+  "kind": [
+   "amb",
+   "bgm"
+  ],
+  "usedBy": [
+   "13107",
+   "6030",
+   "7041",
+   "7048"
+  ]
+ },
+ "play_amb_avg_solarschool_riverbank_night_busy": {
+  "kind": [
+   "amb"
+  ],
+  "usedBy": [
+   "3017"
+  ]
+ },
+ "play_amb_avg_solarschool_riverbank_night_quiet": {
+  "kind": [
+   "amb"
+  ],
+  "usedBy": [
+   "3017"
+  ]
+ },
+ "play_amb_avg_solarschool_seaside": {
+  "kind": [
+   "amb",
+   "bgm"
+  ],
+  "usedBy": [
+   "1028",
+   "13110",
+   "15003",
+   "16003",
+   "17043",
+   "17044",
+   "17045",
+   "17046",
+   "17047",
+   "2005",
+   "5012",
+   "5017",
+   "6002",
+   "6006",
+   "location"
+  ]
+ },
+ "play_amb_avg_solarschool_spookhouse": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "8017",
+   "8018",
+   "8019"
+  ]
+ },
+ "play_amb_avg_solarschool_spookhouse_start": {
+  "kind": [
+   "amb"
+  ],
+  "usedBy": [
+   "8016"
+  ]
+ },
+ "play_amb_avg_solarschool_square_busy": {
+  "kind": [
+   "amb",
+   "bgm"
+  ],
+  "usedBy": [
+   "1014",
+   "1046",
+   "17031",
+   "17032",
+   "5006",
+   "7047",
+   "8005",
+   "8016",
+   "8020",
+   "8021",
+   "8022",
+   "8023",
+   "8024",
+   "8025",
+   "location"
+  ]
+ },
+ "play_amb_avg_solarschool_square_night": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "1043",
+   "1047",
+   "12002",
+   "8007"
+  ]
+ },
+ "play_amb_avg_solarschool_square_quiet": {
+  "kind": [
+   "amb",
+   "bgm"
+  ],
+  "usedBy": [
+   "1008",
+   "1019",
+   "1051",
+   "12005",
+   "14005",
+   "3005",
+   "3029",
+   "4001",
+   "4002",
+   "4003",
+   "6006",
+   "6017",
+   "8006"
+  ]
+ },
+ "play_amb_avg_solarschool_square_rain": {
+  "kind": [
+   "amb"
+  ],
+  "usedBy": [
+   "12005",
+   "6030"
+  ]
+ },
+ "play_amb_avg_solarschool_store_busy": {
+  "kind": [
+   "amb",
+   "bgm"
+  ],
+  "usedBy": [
+   "1010",
+   "1030",
+   "14002",
+   "14237",
+   "14238",
+   "14239",
+   "14240",
+   "14241",
+   "14242",
+   "14243",
+   "14244",
+   "14245",
+   "14246",
+   "16001",
+   "17038",
+   "17039",
+   "17040",
+   "17041",
+   "17042",
+   "2003",
+   "4007",
+   "4008",
+   "5002",
+   "5004",
+   "5016",
+   "6007",
+   "6011",
+   "6022",
+   "6024",
+   "6028",
+   "location"
+  ]
+ },
+ "play_amb_avg_solarschool_store_quiet": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "1042"
+  ]
+ },
+ "play_amb_avg_solarschool_store_quiet_summer": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "1049",
+   "7036",
+   "7039"
+  ]
+ },
+ "play_amb_avg_solarschool_street_day": {
+  "kind": [
+   "amb",
+   "bgm"
+  ],
+  "usedBy": [
+   "1006",
+   "1007",
+   "1021",
+   "14003",
+   "15001",
+   "16001",
+   "17048",
+   "3011",
+   "4022",
+   "4023",
+   "6002",
+   "6009",
+   "6015",
+   "6028",
+   "7004",
+   "8013",
+   "location"
+  ]
+ },
+ "play_amb_avg_solarschool_street_night": {
+  "kind": [
+   "amb",
+   "bgm"
+  ],
+  "usedBy": [
+   "12008",
+   "12011",
+   "7048",
+   "9014",
+   "9015"
+  ]
+ },
+ "play_amb_avg_solarschool_tenniscourt_night": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "7015"
+  ]
+ },
+ "play_amb_avg_solarschool_theater": {
+  "kind": [
+   "amb"
+  ],
+  "usedBy": [
+   "location"
+  ]
+ },
+ "play_amb_avg_solarschool_train_inside": {
+  "kind": [
+   "amb",
+   "bgm"
+  ],
+  "usedBy": [
+   "1001",
+   "1002",
+   "3018"
+  ]
+ },
+ "play_amb_avg_solarschool_trainstation_day": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "3016"
+  ]
+ },
+ "play_amb_avg_solarschool_trainstation_night": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "3030"
+  ]
+ },
+ "play_avg_music_3_8_autumn_day": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "7042",
+   "7043",
+   "7044",
+   "7047"
+  ]
+ },
+ "play_avg_music_3_8_autumn_evening": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "7048"
+  ]
+ },
+ "play_avg_music_3_8_cafe_day": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "1010",
+   "1028"
+  ]
+ },
+ "play_avg_music_3_8_cafe_night": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "1035"
+  ]
+ },
+ "play_avg_music_3_8_festival": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "8006",
+   "8014",
+   "8021"
+  ]
+ },
+ "play_avg_music_3_8_funny_03": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "1001",
+   "1002",
+   "1020",
+   "1034",
+   "9013"
+  ]
+ },
+ "play_avg_music_3_8_op_ending": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "endingsummary"
+  ]
+ },
+ "play_avg_music_3_8_slience": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "1001",
+   "1002",
+   "1004",
+   "1008",
+   "1009",
+   "1010",
+   "1011",
+   "1013",
+   "1015",
+   "1016",
+   "1017",
+   "1018",
+   "1019",
+   "1034",
+   "1039",
+   "1040",
+   "1043",
+   "1044",
+   "1045",
+   "1047",
+   "11002",
+   "11004",
+   "11005",
+   "11007",
+   "11009",
+   "11010",
+   "12001",
+   "12004",
+   "12005",
+   "12006",
+   "12009",
+   "12010",
+   "14101",
+   "14107",
+   "16002",
+   "16003",
+   "3004",
+   "3008",
+   "3009",
+   "3010",
+   "3011",
+   "3014",
+   "3019",
+   "3021",
+   "3030",
+   "3031",
+   "3032",
+   "3033",
+   "3034",
+   "3035",
+   "3036",
+   "3037",
+   "6003",
+   "6004",
+   "6006",
+   "6026",
+   "6027",
+   "6028",
+   "6029",
+   "6030",
+   "7006",
+   "7007",
+   "7008",
+   "7009",
+   "7018",
+   "7019",
+   "7020",
+   "7041",
+   "8007",
+   "8009",
+   "8010",
+   "8011",
+   "8012",
+   "8014",
+   "8015",
+   "8016",
+   "8020",
+   "9001",
+   "9002",
+   "9003",
+   "9004",
+   "9011",
+   "9014",
+   "9015"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_01": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "1044",
+   "11005",
+   "12004",
+   "12006",
+   "7041",
+   "9015"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_02": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "7037"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_03": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "11007",
+   "7014",
+   "7015",
+   "7045"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_04": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "3015",
+   "7041",
+   "8015"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_05": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "1041",
+   "13104",
+   "3019",
+   "6004",
+   "6010",
+   "6012",
+   "7006",
+   "7038",
+   "9002"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_06": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "3006",
+   "3007",
+   "3009",
+   "3013",
+   "6030",
+   "7006",
+   "7010",
+   "7011",
+   "7012",
+   "7021",
+   "7022",
+   "7023",
+   "9002",
+   "9005"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_07": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "8017",
+   "8018",
+   "8019",
+   "9014"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_08": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "1039",
+   "1045",
+   "11004",
+   "11005",
+   "11006",
+   "11012",
+   "12001",
+   "12004",
+   "12006",
+   "13111",
+   "3004",
+   "3014",
+   "4001",
+   "4002",
+   "4003",
+   "4007",
+   "4008",
+   "4013",
+   "4014",
+   "4015",
+   "4018",
+   "4019",
+   "4022",
+   "4023",
+   "6003",
+   "6021",
+   "6024",
+   "6027",
+   "7001",
+   "7013",
+   "7016",
+   "7017",
+   "7024",
+   "7041",
+   "7046",
+   "8013",
+   "9001",
+   "9011",
+   "9013",
+   "x3"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_09": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "6001",
+   "6023"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_10": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "1014",
+   "11001",
+   "3028",
+   "8005",
+   "8015"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_11": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "3025",
+   "4005",
+   "6002",
+   "6011",
+   "6015",
+   "8022"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_12": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "3029"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_13": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "13110",
+   "6009"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_14": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "9014"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_15": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "3014",
+   "3023",
+   "9011"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_16": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "1004",
+   "1010",
+   "1018",
+   "11002",
+   "11007",
+   "7006",
+   "8015"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_17": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "1011",
+   "1045",
+   "8010"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_18": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "1033",
+   "1034",
+   "1040",
+   "11002",
+   "12001",
+   "7041",
+   "9012"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_19": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "8015"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_20": {
+  "kind": [
+   "bgm",
+   "voice"
+  ],
+  "usedBy": [
+   "1002",
+   "3010",
+   "3011",
+   "3030",
+   "x1"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_21": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "12006",
+   "3024",
+   "8011"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_22": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "12002",
+   "9015"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_23": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "13105",
+   "13106",
+   "13107",
+   "14005",
+   "6002",
+   "6003",
+   "6004",
+   "6008",
+   "6013",
+   "6016",
+   "6022",
+   "9004"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_24": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "13108",
+   "13109",
+   "6020"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_25": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "1044",
+   "1051",
+   "13112",
+   "16001",
+   "3008",
+   "3022",
+   "6005",
+   "6007",
+   "6012",
+   "6014",
+   "6017",
+   "6029",
+   "8009",
+   "9003",
+   "9004"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_26": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "1004",
+   "1011",
+   "1025",
+   "13100",
+   "14001",
+   "14002",
+   "16002"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_27": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "1003",
+   "1015",
+   "1018",
+   "1029",
+   "1032",
+   "1034",
+   "11002",
+   "12001",
+   "13101",
+   "13102",
+   "13103",
+   "14004",
+   "6019",
+   "8016",
+   "8020",
+   "9012"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_28": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "11002",
+   "12001",
+   "3012",
+   "3026",
+   "6025",
+   "6026",
+   "6028",
+   "7041"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_29": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "11003",
+   "11004",
+   "11008",
+   "11011",
+   "14003"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_30": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "3005",
+   "3016",
+   "3105",
+   "3106",
+   "4004",
+   "4005",
+   "4006",
+   "4009",
+   "4010",
+   "4011",
+   "4012",
+   "4016",
+   "4017",
+   "4020",
+   "4021",
+   "7006",
+   "7048",
+   "9001",
+   "9005"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_32": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "7041"
+  ]
+ },
+ "play_avg_music_3_8_solarschool_33": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "3027",
+   "8012"
+  ]
+ },
+ "play_avg_music_3_8_spring_day": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "1008",
+   "1014",
+   "1015",
+   "1016",
+   "1020",
+   "1023",
+   "1024",
+   "1026",
+   "1027",
+   "1030",
+   "1031",
+   "1032",
+   "1034",
+   "1036",
+   "1037",
+   "1039",
+   "7003"
+  ]
+ },
+ "play_avg_music_3_8_spring_summer_evening": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "1006",
+   "1007",
+   "1012",
+   "1021",
+   "12003",
+   "12007",
+   "12008",
+   "12011",
+   "6006",
+   "6018",
+   "7004",
+   "7035",
+   "7036",
+   "9001"
+  ]
+ },
+ "play_avg_music_3_8_summer_day": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "11001",
+   "12005",
+   "12012",
+   "7005",
+   "7039"
+  ]
+ },
+ "play_avg_music_3_8_winter_day": {
+  "kind": [
+   "bgm"
+  ],
+  "usedBy": [
+   "3006",
+   "3007"
+  ]
+ },
+ "play_ui_solarschool_avg_abu_eat": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1018",
+   "15005"
+  ]
+ },
+ "play_ui_solarschool_avg_abu_happy": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1003",
+   "1018",
+   "3014",
+   "4013",
+   "7006",
+   "7013",
+   "7024"
+  ]
+ },
+ "play_ui_solarschool_avg_abu_shock": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1001",
+   "1002",
+   "1004",
+   "1018",
+   "3015",
+   "7006",
+   "7010",
+   "7021",
+   "8015"
+  ]
+ },
+ "play_ui_solarschool_avg_alarmclock": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "3004"
+  ]
+ },
+ "play_ui_solarschool_avg_audition": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1008",
+   "12005",
+   "12006",
+   "12008",
+   "12011",
+   "3024",
+   "7028",
+   "8011"
+  ]
+ },
+ "play_ui_solarschool_avg_boat_horn": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "13110"
+  ]
+ },
+ "play_ui_solarschool_avg_bookflip_crowd": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "11003",
+   "16001",
+   "4001",
+   "4002",
+   "7042"
+  ]
+ },
+ "play_ui_solarschool_avg_bottleopen": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "14004",
+   "3015",
+   "6029"
+  ]
+ },
+ "play_ui_solarschool_avg_breakingnews": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "3013"
+  ]
+ },
+ "play_ui_solarschool_avg_breathing_deep": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "12002"
+  ]
+ },
+ "play_ui_solarschool_avg_breathing_fast": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "11001",
+   "11002",
+   "11012",
+   "17030"
+  ]
+ },
+ "play_ui_solarschool_avg_bucketdrop": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "11007"
+  ]
+ },
+ "play_ui_solarschool_avg_bus_honk": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1006",
+   "1007"
+  ]
+ },
+ "play_ui_solarschool_avg_camerashutter": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "3015",
+   "3027",
+   "3029",
+   "7047"
+  ]
+ },
+ "play_ui_solarschool_avg_carhorn": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "9013"
+  ]
+ },
+ "play_ui_solarschool_avg_caropendoor": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1014"
+  ]
+ },
+ "play_ui_solarschool_avg_carstart": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "6015"
+  ]
+ },
+ "play_ui_solarschool_avg_cat": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "9014"
+  ]
+ },
+ "play_ui_solarschool_avg_chairdrag": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "11005",
+   "2001",
+   "7025",
+   "7030"
+  ]
+ },
+ "play_ui_solarschool_avg_cheer": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1038",
+   "11003",
+   "12006",
+   "2004",
+   "8020",
+   "8021",
+   "9005"
+  ]
+ },
+ "play_ui_solarschool_avg_cheer_02": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "3017",
+   "3023",
+   "3029",
+   "6027",
+   "7032",
+   "8009",
+   "8014"
+  ]
+ },
+ "play_ui_solarschool_avg_clocktick": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "12002"
+  ]
+ },
+ "play_ui_solarschool_avg_computeralert": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "6016"
+  ]
+ },
+ "play_ui_solarschool_avg_cook": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1029"
+  ]
+ },
+ "play_ui_solarschool_avg_crowd_swell": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "12006"
+  ]
+ },
+ "play_ui_solarschool_avg_cutleryclatter": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1004",
+   "11008",
+   "13107",
+   "14001",
+   "14107",
+   "2002",
+   "4014",
+   "4018",
+   "6001",
+   "6029"
+  ]
+ },
+ "play_ui_solarschool_avg_device_table": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1004"
+  ]
+ },
+ "play_ui_solarschool_avg_distantbell": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "11007"
+  ]
+ },
+ "play_ui_solarschool_avg_door_01": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1010",
+   "14001",
+   "14002",
+   "2002",
+   "7037",
+   "8022"
+  ]
+ },
+ "play_ui_solarschool_avg_door_02": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1015",
+   "11008",
+   "12001",
+   "12004",
+   "2010",
+   "4004",
+   "4005",
+   "4014",
+   "4016",
+   "6005",
+   "6029",
+   "8020",
+   "9015"
+  ]
+ },
+ "play_ui_solarschool_avg_door_03": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "11007",
+   "6018"
+  ]
+ },
+ "play_ui_solarschool_avg_doorcreak": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "8018"
+  ]
+ },
+ "play_ui_solarschool_avg_doorkick": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "9011"
+  ]
+ },
+ "play_ui_solarschool_avg_doorslam_office": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "11005",
+   "8017"
+  ]
+ },
+ "play_ui_solarschool_avg_drink": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1010",
+   "4018",
+   "6029"
+  ]
+ },
+ "play_ui_solarschool_avg_drinkpour": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "11008",
+   "2010",
+   "4005",
+   "4018",
+   "8022"
+  ]
+ },
+ "play_ui_solarschool_avg_eat": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1004",
+   "14001",
+   "6029"
+  ]
+ },
+ "play_ui_solarschool_avg_eat_02": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "7036",
+   "7037"
+  ]
+ },
+ "play_ui_solarschool_avg_eat_03": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "7041"
+  ]
+ },
+ "play_ui_solarschool_avg_emergency": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1008",
+   "11004",
+   "7042",
+   "8022"
+  ]
+ },
+ "play_ui_solarschool_avg_envelope_open": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "3005",
+   "3105",
+   "3106"
+  ]
+ },
+ "play_ui_solarschool_avg_evenlope_handclap": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1032",
+   "9002"
+  ]
+ },
+ "play_ui_solarschool_avg_evenlope_songcanbao": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1033",
+   "8015",
+   "8022"
+  ]
+ },
+ "play_ui_solarschool_avg_exambell_01": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "7025",
+   "7030"
+  ]
+ },
+ "play_ui_solarschool_avg_exambell_02": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "7026",
+   "7031"
+  ]
+ },
+ "play_ui_solarschool_avg_explosion": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "3019",
+   "8015"
+  ]
+ },
+ "play_ui_solarschool_avg_facilityfall": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "9011",
+   "9014"
+  ]
+ },
+ "play_ui_solarschool_avg_feibi_tablepound": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "8015"
+  ]
+ },
+ "play_ui_solarschool_avg_firework_01": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "3017",
+   "3028",
+   "9001",
+   "9013"
+  ]
+ },
+ "play_ui_solarschool_avg_firework_02": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "3008",
+   "3009",
+   "6024",
+   "8023"
+  ]
+ },
+ "play_ui_solarschool_avg_firework_spark": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "11007"
+  ]
+ },
+ "play_ui_solarschool_avg_footstep_01": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1001",
+   "1002",
+   "11001",
+   "11002",
+   "12006",
+   "12007",
+   "2011"
+  ]
+ },
+ "play_ui_solarschool_avg_footstep_02": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1009",
+   "1051",
+   "15003",
+   "4020",
+   "4023",
+   "6030",
+   "7014",
+   "9001",
+   "9015"
+  ]
+ },
+ "play_ui_solarschool_avg_footstep_crowd": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "3019"
+  ]
+ },
+ "play_ui_solarschool_avg_gamegunshot": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "3019"
+  ]
+ },
+ "play_ui_solarschool_avg_glasscrash": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "3015",
+   "9013"
+  ]
+ },
+ "play_ui_solarschool_avg_glasscrash_crowd": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "3008"
+  ]
+ },
+ "play_ui_solarschool_avg_handclap": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1044",
+   "12006",
+   "14200",
+   "16001",
+   "3026",
+   "4022",
+   "6027",
+   "7048",
+   "8010",
+   "9002"
+  ]
+ },
+ "play_ui_solarschool_avg_handling": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1010",
+   "11002",
+   "11004",
+   "12005",
+   "12007",
+   "14237",
+   "14238",
+   "14239",
+   "14240",
+   "14241",
+   "14242",
+   "14243",
+   "14244",
+   "14245",
+   "14246",
+   "2001",
+   "2003",
+   "4007",
+   "6011",
+   "6024"
+  ]
+ },
+ "play_ui_solarschool_avg_heartbeat_loop": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "11002",
+   "12006",
+   "6027",
+   "9014"
+  ]
+ },
+ "play_ui_solarschool_avg_highfive": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "4005"
+  ]
+ },
+ "play_ui_solarschool_avg_hotpoop": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1004",
+   "1034",
+   "13107",
+   "3015",
+   "7041",
+   "8015"
+  ]
+ },
+ "play_ui_solarschool_avg_hug": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "6027",
+   "9011"
+  ]
+ },
+ "play_ui_solarschool_avg_hungry": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1034",
+   "14001"
+  ]
+ },
+ "play_ui_solarschool_avg_iceclatter": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "8022"
+  ]
+ },
+ "play_ui_solarschool_avg_katixiya_sing": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1008"
+  ]
+ },
+ "play_ui_solarschool_avg_katixiya_ultimate": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "3008",
+   "9011"
+  ]
+ },
+ "play_ui_solarschool_avg_keyboardtype": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1041",
+   "17048",
+   "4005",
+   "6010",
+   "6016",
+   "7039"
+  ]
+ },
+ "play_ui_solarschool_avg_knockdoor": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "13104",
+   "2010",
+   "3014"
+  ]
+ },
+ "play_ui_solarschool_avg_lightswitch": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "6024"
+  ]
+ },
+ "play_ui_solarschool_avg_lockercrash": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "8019"
+  ]
+ },
+ "play_ui_solarschool_avg_micblow": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1040",
+   "8018"
+  ]
+ },
+ "play_ui_solarschool_avg_mood_discontent": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1018",
+   "1032",
+   "1034",
+   "1040",
+   "1041",
+   "1045",
+   "11004",
+   "11005",
+   "12001",
+   "12006",
+   "13104",
+   "3005",
+   "3008",
+   "3019",
+   "3105",
+   "3106",
+   "7006",
+   "7008",
+   "7019",
+   "7036",
+   "7037",
+   "7039",
+   "7041",
+   "7042",
+   "7044",
+   "7045",
+   "8006",
+   "9004"
+  ]
+ },
+ "play_ui_solarschool_avg_mood_embarrassed": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1003",
+   "1008",
+   "1010",
+   "1011",
+   "1018",
+   "1021",
+   "1040",
+   "1041",
+   "1045",
+   "1051",
+   "11005",
+   "12001",
+   "12003",
+   "16002",
+   "2001",
+   "3009",
+   "3030",
+   "7006",
+   "7010",
+   "7021",
+   "7037",
+   "7041",
+   "7045",
+   "8006",
+   "8015",
+   "8022"
+  ]
+ },
+ "play_ui_solarschool_avg_mood_firm": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1040",
+   "1041",
+   "1042",
+   "1051",
+   "11001",
+   "11007",
+   "11008",
+   "12003",
+   "12004",
+   "12005",
+   "12006",
+   "12008",
+   "12011",
+   "13001",
+   "13101",
+   "13104",
+   "13110",
+   "15003",
+   "17025",
+   "3004",
+   "3008",
+   "3009",
+   "3011",
+   "3027",
+   "3030",
+   "4001",
+   "4009",
+   "4014",
+   "4016",
+   "7006",
+   "7013",
+   "7024",
+   "7037",
+   "7039",
+   "7040",
+   "7041",
+   "8013",
+   "8014",
+   "8015",
+   "9013"
+  ]
+ },
+ "play_ui_solarschool_avg_mood_gentle": {
+  "kind": [
+   "sfx",
+   "voice"
+  ],
+  "usedBy": [
+   "1051",
+   "12001",
+   "12004",
+   "12006",
+   "12008",
+   "12011",
+   "13003",
+   "13110",
+   "14002",
+   "17042",
+   "2010",
+   "3005",
+   "3006",
+   "3007",
+   "3010",
+   "3013",
+   "3030",
+   "3105",
+   "3106",
+   "4009",
+   "4017",
+   "4018",
+   "4019",
+   "4020",
+   "4023",
+   "5008",
+   "6028",
+   "6030",
+   "7006",
+   "7041",
+   "8011",
+   "8015",
+   "x1"
+  ]
+ },
+ "play_ui_solarschool_avg_mood_happy": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1008",
+   "1021",
+   "1034",
+   "1039",
+   "1040",
+   "1041",
+   "1042",
+   "1046",
+   "1051",
+   "11004",
+   "11007",
+   "12002",
+   "12003",
+   "12004",
+   "12006",
+   "12008",
+   "12011",
+   "13105",
+   "13107",
+   "17010",
+   "17014",
+   "17019",
+   "17022",
+   "17024",
+   "17036",
+   "17039",
+   "17047",
+   "17048",
+   "3005",
+   "3006",
+   "3008",
+   "3009",
+   "3015",
+   "3017",
+   "3105",
+   "3106",
+   "4007",
+   "4022",
+   "5006",
+   "5012",
+   "5013",
+   "5016",
+   "6026",
+   "7004",
+   "7015",
+   "7037",
+   "7041",
+   "8004",
+   "8006",
+   "8011",
+   "8013",
+   "8014",
+   "8015",
+   "8021",
+   "8025"
+  ]
+ },
+ "play_ui_solarschool_avg_mood_inspiring": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1033",
+   "1045",
+   "12003",
+   "12004",
+   "12007",
+   "12008",
+   "12011",
+   "13005",
+   "17027",
+   "2011",
+   "3009",
+   "3018",
+   "4002",
+   "5001",
+   "7004",
+   "7006",
+   "7013",
+   "7024",
+   "7037",
+   "8015"
+  ]
+ },
+ "play_ui_solarschool_avg_mood_nervous": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1008",
+   "1011",
+   "1040",
+   "1045",
+   "11001",
+   "11002",
+   "11005",
+   "3005",
+   "3006",
+   "3029",
+   "3030",
+   "3105",
+   "3106",
+   "7041",
+   "7044",
+   "8010",
+   "8014",
+   "8015",
+   "8022",
+   "9013"
+  ]
+ },
+ "play_ui_solarschool_avg_mood_shock": {
+  "kind": [
+   "sfx",
+   "voice"
+  ],
+  "usedBy": [
+   "1006",
+   "1007",
+   "1008",
+   "1011",
+   "1014",
+   "1021",
+   "1032",
+   "1034",
+   "1039",
+   "1040",
+   "1041",
+   "1042",
+   "1045",
+   "1051",
+   "11004",
+   "11007",
+   "12003",
+   "12005",
+   "13101",
+   "17048",
+   "3008",
+   "3015",
+   "4002",
+   "6026",
+   "7006",
+   "7037",
+   "7041",
+   "7042",
+   "7044",
+   "8006",
+   "8011",
+   "8014",
+   "8015",
+   "8019",
+   "8022",
+   "9002",
+   "9012",
+   "9014",
+   "x1"
+  ]
+ },
+ "play_ui_solarschool_avg_mood_shy": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1008",
+   "1015",
+   "1040",
+   "1041",
+   "1042",
+   "14005",
+   "17037",
+   "3005",
+   "3105",
+   "3106",
+   "4002",
+   "5018",
+   "5020",
+   "7041",
+   "8014"
+  ]
+ },
+ "play_ui_solarschool_avg_mood_touched": {
+  "kind": [
+   "sfx",
+   "voice"
+  ],
+  "usedBy": [
+   "11002",
+   "11007",
+   "11012",
+   "12006",
+   "13111",
+   "15005",
+   "3011",
+   "3030",
+   "4001",
+   "4002",
+   "4003",
+   "4011",
+   "4013",
+   "4015",
+   "4021",
+   "5010",
+   "6027",
+   "7006",
+   "7035",
+   "8014",
+   "x1"
+  ]
+ },
+ "play_ui_solarschool_avg_mood_unhappy": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1011",
+   "1015",
+   "1020",
+   "1021",
+   "1034",
+   "1039",
+   "1041",
+   "1042",
+   "1045",
+   "11005",
+   "12003",
+   "12004",
+   "3007",
+   "3009",
+   "3011",
+   "3013",
+   "3015",
+   "6025",
+   "7014",
+   "7015",
+   "7040",
+   "7041",
+   "7042",
+   "7044",
+   "7045"
+  ]
+ },
+ "play_ui_solarschool_avg_mousekeyboard": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "17048",
+   "4005",
+   "7037"
+  ]
+ },
+ "play_ui_solarschool_avg_oldclock": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "8019"
+  ]
+ },
+ "play_ui_solarschool_avg_orchestra_disrupted": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "9013"
+  ]
+ },
+ "play_ui_solarschool_avg_paperflip": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1050",
+   "11002",
+   "11005",
+   "11006",
+   "12003",
+   "12006",
+   "12008",
+   "12011",
+   "13101",
+   "14200",
+   "2010",
+   "2011",
+   "4015",
+   "4021",
+   "6025",
+   "7025",
+   "7026",
+   "7030",
+   "7031",
+   "8006"
+  ]
+ },
+ "play_ui_solarschool_avg_paperflutter": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "11007"
+  ]
+ },
+ "play_ui_solarschool_avg_paperwriting": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "17045",
+   "6019",
+   "6025",
+   "7028"
+  ]
+ },
+ "play_ui_solarschool_avg_phonealert": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "6006",
+   "9003",
+   "9004"
+  ]
+ },
+ "play_ui_solarschool_avg_phonecall": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "9004"
+  ]
+ },
+ "play_ui_solarschool_avg_piano_phrase": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "16001",
+   "6012"
+  ]
+ },
+ "play_ui_solarschool_avg_podiumslap": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "7042"
+  ]
+ },
+ "play_ui_solarschool_avg_pressurecooker": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "12003"
+  ]
+ },
+ "play_ui_solarschool_avg_qiangqiang": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1010",
+   "11002"
+  ]
+ },
+ "play_ui_solarschool_avg_remote": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1040"
+  ]
+ },
+ "play_ui_solarschool_avg_run_01": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1021",
+   "11004",
+   "11007",
+   "12001",
+   "14004",
+   "15004",
+   "16002",
+   "6002",
+   "6004",
+   "7004",
+   "7043",
+   "8015",
+   "9012",
+   "9013"
+  ]
+ },
+ "play_ui_solarschool_avg_run_02": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1041",
+   "3015",
+   "6028"
+  ]
+ },
+ "play_ui_solarschool_avg_rustling": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "2003"
+  ]
+ },
+ "play_ui_solarschool_avg_sandjump": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "2004"
+  ]
+ },
+ "play_ui_solarschool_avg_schoolbell": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1015",
+   "1016",
+   "1020",
+   "1032",
+   "1038",
+   "15004",
+   "7004",
+   "7042"
+  ]
+ },
+ "play_ui_solarschool_avg_seagull": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "6002"
+  ]
+ },
+ "play_ui_solarschool_avg_shimmer_01": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1008",
+   "17032"
+  ]
+ },
+ "play_ui_solarschool_avg_shouanren_ensemble": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "3010"
+  ]
+ },
+ "play_ui_solarschool_avg_shouanren_ensemble_rusty": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "3010"
+  ]
+ },
+ "play_ui_solarschool_avg_shoulderpat": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "11007",
+   "12004",
+   "13104",
+   "4009"
+  ]
+ },
+ "play_ui_solarschool_avg_sleeping": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1042",
+   "9012"
+  ]
+ },
+ "play_ui_solarschool_avg_sneeze": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "11002",
+   "12006"
+  ]
+ },
+ "play_ui_solarschool_avg_sodaspray": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "3015"
+  ]
+ },
+ "play_ui_solarschool_avg_spoondrop": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "13101",
+   "7041",
+   "8018"
+  ]
+ },
+ "play_ui_solarschool_avg_tablecrash": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "11007",
+   "7044"
+  ]
+ },
+ "play_ui_solarschool_avg_tabletap_heavy": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "8021",
+   "8022"
+  ]
+ },
+ "play_ui_solarschool_avg_tabletap_light": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "11003",
+   "14002",
+   "2010",
+   "4023",
+   "8015",
+   "8022"
+  ]
+ },
+ "play_ui_solarschool_avg_tennis": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "7015"
+  ]
+ },
+ "play_ui_solarschool_avg_thunderstorm": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "12001"
+  ]
+ },
+ "play_ui_solarschool_avg_tireskid": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "3015",
+   "8015"
+  ]
+ },
+ "play_ui_solarschool_avg_train_stop": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1001",
+   "1002"
+  ]
+ },
+ "play_ui_solarschool_avg_trainstart": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "3016"
+  ]
+ },
+ "play_ui_solarschool_avg_trainwheel_loop": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "3016"
+  ]
+ },
+ "play_ui_solarschool_avg_waterdrink": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "12002",
+   "14004"
+  ]
+ },
+ "play_ui_solarschool_avg_watering": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "6013"
+  ]
+ },
+ "play_ui_solarschool_avg_whoosh": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "3008",
+   "7041",
+   "9013"
+  ]
+ },
+ "play_ui_solarschool_avg_wind": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1001",
+   "1002",
+   "6021",
+   "8022"
+  ]
+ },
+ "play_ui_solarschool_avg_wolfhowl": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "6009"
+  ]
+ },
+ "play_vo_avg_3_8_abu_02": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_abu_06": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_buling_01": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_buling_03": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_buling_07": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_buling_08": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_changli_01": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_changli_03": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_changli_04": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_changli_16": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_feibi_02": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_feibi_03": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_feibi_09": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_feibi_13": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_jiabeilina_01": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_jiabeilina_02": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_jiabeilina_06": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_jiabeilina_09": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_katixiya_02": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_katixiya_03": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_katixiya_06": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_katixiya_08": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_katixiya_13": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_katixiya_14": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_luokeke_01": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_luokeke_03": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_luokeke_07": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_luokeke_08": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_luokeke_09": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_nanzhu_01": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_nanzhu_02": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_nanzhu_03": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_nanzhu_04": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_nanzhu_05": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_nanzhu_06": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_nanzhu_07": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_nvzhu_01": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_nvzhu_02": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_nvzhu_03": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_nvzhu_04": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_nvzhu_05": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_nvzhu_06": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_nvzhu_07": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_qianxiao_01": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_qianxiao_06": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_qianxiao_07": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_qianxiao_09": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_qianxiao_10": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_weilinai_02": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_weilinai_03": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_weilinai_04": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_weilinai_06": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_xiakong_02": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_xiakong_03": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_xiakong_04": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_xiakong_06": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_xiakong_10": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_xiangliyao_01": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_xiangliyao_03": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_xiangliyao_05": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_avg_3_8_xiangliyao_09": {
+  "kind": [
+   "voice"
+  ],
+  "usedBy": [
+   "rolespine"
+  ]
+ },
+ "play_vo_silence_placeholder": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "7038"
+  ]
+ },
+ "stop_ui_solarschool_avg_heartbeat_loop": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "11002",
+   "12006",
+   "6027",
+   "9014"
+  ]
+ },
+ "stop_ui_solarschool_avg_hotpoop": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "1004",
+   "1034",
+   "13107",
+   "3015",
+   "7041",
+   "8015"
+  ]
+ },
+ "stop_ui_solarschool_avg_trainwheel_loop": {
+  "kind": [
+   "sfx"
+  ],
+  "usedBy": [
+   "3016"
+  ]
+ }
+}

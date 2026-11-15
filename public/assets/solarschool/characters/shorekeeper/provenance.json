@@ -1,0 +1,47 @@
+{
+  "talkerId": 700003,
+  "name": "Shorekeeper",
+  "skeletonVersion": "4.1.23",
+  "sourceAtlas": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Shouanren/SolarSchool_Shouanren.SolarSchool_Shouanren-atlas",
+  "sourceSkeleton": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Shouanren/SolarSchool_Shouanren.SolarSchool_Shouanren-data",
+  "sourceArchive": "/game/SteamLibrary/steamapps/common/Wuthering Waves/Wuthering Waves Game/Client/Content/Paks/pakchunk7-WindowsNoEditor.pak",
+  "members": [
+    "../../../Client/Content/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Shouanren/SolarSchool_Shouanren.uasset",
+    "../../../Client/Content/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Shouanren/SolarSchool_Shouanren.uexp"
+  ],
+  "archiveIndexHashes": {
+    "primary_index_sha1": "9a1e5dbec896904f03bc7f0858c78065b5f9d36b",
+    "directory_index_sha1": "3f4cd33025cfe669d7373b582ed319966b503628"
+  },
+  "extractionHelpers": "/tmp/solarschool-changli-inspection-NKHWT5",
+  "helperHashes": {
+    "inspect_changli.py": "f529926159db8012b5d36758cb150fbccdf77a2790246e5bd04856f1f3ac43f5",
+    "extract_changli.py": "e55a20c0d10aa14c7aafa0ae119cbad51b202814933ccee6fdf58fb3e3071ad0",
+    "inspect_spine_package.py": "fbafa1ef6bbbbb14dc3875465f3fed91d704e1ffda9e2f0b4cdaf1b40aa3278e"
+  },
+  "runtime": {
+    "file": "../changli/spine-player.js",
+    "version": "4.1.56",
+    "license": "../changli/SPINE-LICENSE.txt"
+  },
+  "texture": {
+    "file": "SolarSchool_Shouanren.webp",
+    "sourceWebp": "WW_Asset_Webp/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Shouanren/SolarSchool_Shouanren.webp",
+    "origin": "Existing local WW_Asset_Webp bytes, used directly; not a game texture export",
+    "dimensions": [
+      4096,
+      2048
+    ],
+    "sourceSha256": "114659bcf60cd2afddb518e46f9333eb8b152fcb82790e172c37930225a0142a",
+    "atlasPage": "SolarSchool_Shouanren.png",
+    "atlasDimensionsVerified": true,
+    "storage": "hardlink to existing cache"
+  },
+  "placement": "Provisional, fixed reference pose; generated SchoolPortraitCatalog.ts",
+  "sha256": {
+    "SolarSchool_Shouanren.atlas": "850ee492ead52e37ae28ca052d4209c486bdb9cb7e405c52322ce76a0fffeb58",
+    "SolarSchool_Shouanren.skel": "4adcc7ee3f90434b3c80f120cc79f7b9fab21772f29142f1fe76f8f0086025c4",
+    "SolarSchool_Shouanren.webp": "114659bcf60cd2afddb518e46f9333eb8b152fcb82790e172c37930225a0142a",
+    "shorekeeper.animation-metadata.json": "34578b89090a9e3688d904fb2262f36b830c6854d42c0cde673861325caac8bf"
+  }
+}

@@ -1,0 +1,1003 @@
+{
+ "attrs": [
+  {
+   "Id": 1,
+   "ActivityId": 111700001,
+   "AttrType": 1,
+   "Name": "SolarSchoolParameterNaming_knowledge",
+   "IconSmall": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolZS01.T_IconSolarSchoolZS01",
+   "YellowIconSmall": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolZS01.T_IconSolarSchoolZS01",
+   "IconReach": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/NoticeIocn/T_SolarSchoolNoticeItemIcon011.T_SolarSchoolNoticeItemIcon011",
+   "IconNotReach": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/NoticeIocn/T_SolarSchoolNoticeItemIcon001.T_SolarSchoolNoticeItemIcon001",
+   "Ranks": [
+    35,
+    60,
+    100,
+    150,
+    250,
+    400,
+    600,
+    850
+   ],
+   "RankIcon": [
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreD.T_SolarSchoolScoreD",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreDE.T_SolarSchoolScoreDE",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreC.T_SolarSchoolScoreC",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreCE.T_SolarSchoolScoreCE",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreB.T_SolarSchoolScoreB",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreBE.T_SolarSchoolScoreBE",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreA.T_SolarSchoolScoreA",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreAE.T_SolarSchoolScoreAE",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreS.T_SolarSchoolScoreS",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreSE.T_SolarSchoolScoreSE"
+   ],
+   "InitValue": 20,
+   "MinValue": 1,
+   "MaxValue": 9999,
+   "DailyMax": 301
+  },
+  {
+   "Id": 2,
+   "ActivityId": 111700001,
+   "AttrType": 2,
+   "Name": "SolarSchoolParameterNaming_thinking",
+   "IconSmall": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolZS02.T_IconSolarSchoolZS02",
+   "YellowIconSmall": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolZS02.T_IconSolarSchoolZS02",
+   "IconReach": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/NoticeIocn/T_SolarSchoolNoticeItemIcon012.T_SolarSchoolNoticeItemIcon012",
+   "IconNotReach": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/NoticeIocn/T_SolarSchoolNoticeItemIcon002.T_SolarSchoolNoticeItemIcon002",
+   "Ranks": [
+    35,
+    60,
+    100,
+    150,
+    250,
+    400,
+    600,
+    850
+   ],
+   "RankIcon": [
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreD.T_SolarSchoolScoreD",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreDE.T_SolarSchoolScoreDE",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreC.T_SolarSchoolScoreC",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreCE.T_SolarSchoolScoreCE",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreB.T_SolarSchoolScoreB",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreBE.T_SolarSchoolScoreBE",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreA.T_SolarSchoolScoreA",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreAE.T_SolarSchoolScoreAE",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreS.T_SolarSchoolScoreS",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreSE.T_SolarSchoolScoreSE"
+   ],
+   "InitValue": 20,
+   "MinValue": 1,
+   "MaxValue": 9999,
+   "DailyMax": 301
+  },
+  {
+   "Id": 3,
+   "ActivityId": 111700001,
+   "AttrType": 3,
+   "Name": "SolarSchoolParameterNaming_art",
+   "IconSmall": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolZS03.T_IconSolarSchoolZS03",
+   "YellowIconSmall": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolZS03.T_IconSolarSchoolZS03",
+   "IconReach": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/NoticeIocn/T_SolarSchoolNoticeItemIcon013.T_SolarSchoolNoticeItemIcon013",
+   "IconNotReach": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/NoticeIocn/T_SolarSchoolNoticeItemIcon003.T_SolarSchoolNoticeItemIcon003",
+   "Ranks": [
+    35,
+    60,
+    100,
+    150,
+    250,
+    400,
+    600,
+    850
+   ],
+   "RankIcon": [
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreD.T_SolarSchoolScoreD",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreDE.T_SolarSchoolScoreDE",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreC.T_SolarSchoolScoreC",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreCE.T_SolarSchoolScoreCE",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreB.T_SolarSchoolScoreB",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreBE.T_SolarSchoolScoreBE",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreA.T_SolarSchoolScoreA",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreAE.T_SolarSchoolScoreAE",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreS.T_SolarSchoolScoreS",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreSE.T_SolarSchoolScoreSE"
+   ],
+   "InitValue": 20,
+   "MinValue": 1,
+   "MaxValue": 9999,
+   "DailyMax": 301
+  },
+  {
+   "Id": 4,
+   "ActivityId": 111700001,
+   "AttrType": 4,
+   "Name": "SolarSchoolParameterNaming_physique",
+   "IconSmall": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolZS05.T_IconSolarSchoolZS05",
+   "YellowIconSmall": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolZS05.T_IconSolarSchoolZS05",
+   "IconReach": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/NoticeIocn/T_SolarSchoolNoticeItemIcon015.T_SolarSchoolNoticeItemIcon015",
+   "IconNotReach": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/NoticeIocn/T_SolarSchoolNoticeItemIcon005.T_SolarSchoolNoticeItemIcon005",
+   "Ranks": [
+    35,
+    60,
+    100,
+    150,
+    250,
+    400,
+    600,
+    850
+   ],
+   "RankIcon": [
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreD.T_SolarSchoolScoreD",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreDE.T_SolarSchoolScoreDE",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreC.T_SolarSchoolScoreC",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreCE.T_SolarSchoolScoreCE",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreB.T_SolarSchoolScoreB",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreBE.T_SolarSchoolScoreBE",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreA.T_SolarSchoolScoreA",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreAE.T_SolarSchoolScoreAE",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreS.T_SolarSchoolScoreS",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreSE.T_SolarSchoolScoreSE"
+   ],
+   "InitValue": 20,
+   "MinValue": 1,
+   "MaxValue": 9999,
+   "DailyMax": 301
+  },
+  {
+   "Id": 5,
+   "ActivityId": 111700001,
+   "AttrType": 5,
+   "Name": "SolarSchoolParameterNaming_emotion",
+   "IconSmall": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolZS04.T_IconSolarSchoolZS04",
+   "YellowIconSmall": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolZS04.T_IconSolarSchoolZS04",
+   "IconReach": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/NoticeIocn/T_SolarSchoolNoticeItemIcon014.T_SolarSchoolNoticeItemIcon014",
+   "IconNotReach": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/NoticeIocn/T_SolarSchoolNoticeItemIcon004.T_SolarSchoolNoticeItemIcon004",
+   "Ranks": [
+    30,
+    50,
+    75,
+    120,
+    180,
+    250,
+    400,
+    600
+   ],
+   "RankIcon": [
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreD.T_SolarSchoolScoreD",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreDE.T_SolarSchoolScoreDE",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreC.T_SolarSchoolScoreC",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreCE.T_SolarSchoolScoreCE",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreB.T_SolarSchoolScoreB",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreBE.T_SolarSchoolScoreBE",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreA.T_SolarSchoolScoreA",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreAE.T_SolarSchoolScoreAE",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreS.T_SolarSchoolScoreS",
+    "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolScoreSE.T_SolarSchoolScoreSE"
+   ],
+   "InitValue": 20,
+   "MinValue": 1,
+   "MaxValue": 9999,
+   "DailyMax": 301
+  },
+  {
+   "Id": 6,
+   "ActivityId": 111700001,
+   "AttrType": 6,
+   "Name": "SolarSchoolParameterNaming_popularity",
+   "IconSmall": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolZS00Renqi.T_IconSolarSchoolZS00Renqi",
+   "YellowIconSmall": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolZS00Renqi.T_IconSolarSchoolZS00Renqi",
+   "IconReach": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/NoticeIocn/T_SolarSchoolNoticeItemIcon017.T_SolarSchoolNoticeItemIcon017",
+   "IconNotReach": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/NoticeIocn/T_SolarSchoolNoticeItemIcon007.T_SolarSchoolNoticeItemIcon007",
+   "Ranks": [],
+   "RankIcon": [],
+   "InitValue": 0,
+   "MinValue": 0,
+   "MaxValue": 999999,
+   "DailyMax": 200000
+  },
+  {
+   "Id": 7,
+   "ActivityId": 111700001,
+   "AttrType": 7,
+   "Name": "SolarSchoolParameterNaming_fatigue",
+   "IconSmall": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolZS00Pilao.T_IconSolarSchoolZS00Pilao",
+   "YellowIconSmall": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolZS00Pilao.T_IconSolarSchoolZS00Pilao",
+   "IconReach": "",
+   "IconNotReach": "",
+   "Ranks": [],
+   "RankIcon": [],
+   "InitValue": 0,
+   "MinValue": 0,
+   "MaxValue": 100,
+   "DailyMax": 9999
+  },
+  {
+   "Id": 8,
+   "ActivityId": 111700001,
+   "AttrType": 8,
+   "Name": "SolarSchoolParameterNaming_currency",
+   "IconSmall": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolZS00Coin02.T_IconSolarSchoolZS00Coin02",
+   "YellowIconSmall": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolZS00Coin.T_IconSolarSchoolZS00Coin",
+   "IconReach": "/Game/Aki/UI/UIResources/Common/Image/IconA160/Activity/Activity38/SolorSchool/T_IconA160_Activity38SolorSchool12_UI.T_IconA160_Activity38SolorSchool12_UI",
+   "IconNotReach": "/Game/Aki/UI/UIResources/Common/Image/IconA160/Activity/Activity38/SolorSchool/T_IconA160_Activity38SolorSchool12_UI.T_IconA160_Activity38SolorSchool12_UI",
+   "Ranks": [],
+   "RankIcon": [],
+   "InitValue": 0,
+   "MinValue": 0,
+   "MaxValue": 9999999,
+   "DailyMax": 300000
+  }
+ ],
+ "params": [
+  {
+   "Id": 1,
+   "ActivityId": 111700001,
+   "Key": "TiredThreshold",
+   "IntValue": 30,
+   "StringValue": "",
+   "IntArrayValue": [],
+   "Comments": "疲劳阈值 a(疲惫下限)"
+  },
+  {
+   "Id": 2,
+   "ActivityId": 111700001,
+   "Key": "SickThreshold",
+   "IntValue": 80,
+   "StringValue": "",
+   "IntArrayValue": [],
+   "Comments": "疲劳阈值 b(生病下限)"
+  },
+  {
+   "Id": 3,
+   "ActivityId": 111700001,
+   "Key": "TotalDays",
+   "IntValue": 262,
+   "StringValue": "",
+   "IntArrayValue": [],
+   "Comments": "游戏总天数"
+  },
+  {
+   "Id": 4,
+   "ActivityId": 111700001,
+   "Key": "TextAnimSpeed",
+   "IntValue": 25,
+   "StringValue": "",
+   "IntArrayValue": [],
+   "Comments": "文本动画速度(字符/s)"
+  },
+  {
+   "Id": 7,
+   "ActivityId": 111700001,
+   "Key": "NormalLikeVal",
+   "IntValue": 10,
+   "StringValue": "",
+   "IntArrayValue": [],
+   "Comments": "普通道具加的好感数值"
+  },
+  {
+   "Id": 8,
+   "ActivityId": 111700001,
+   "Key": "HighLikeVal",
+   "IntValue": 20,
+   "StringValue": "",
+   "IntArrayValue": [],
+   "Comments": "喜爱道具加的好感数值"
+  },
+  {
+   "Id": 9,
+   "ActivityId": 111700001,
+   "Key": "VisualNovelFastForwardRate",
+   "IntValue": 260,
+   "StringValue": "",
+   "IntArrayValue": [],
+   "Comments": "视觉小说长按加速播放倍率(百分比，100=1倍)"
+  },
+  {
+   "Id": 10,
+   "ActivityId": 111700001,
+   "Key": "VisualNovelUltraFastForwardRate",
+   "IntValue": 10000,
+   "StringValue": "",
+   "IntArrayValue": [],
+   "Comments": "视觉小说超高速播放倍率(百分比，100=1倍)"
+  },
+  {
+   "Id": 11,
+   "ActivityId": 111700001,
+   "Key": "BehaviorIdleDuration",
+   "IntValue": 130,
+   "StringValue": "",
+   "IntArrayValue": [],
+   "Comments": "执行行为界面: idle播放时长(ms), 到点自动进成功/失败阶段"
+  },
+  {
+   "Id": 12,
+   "ActivityId": 111700001,
+   "Key": "BehaviorIdleLockTime",
+   "IntValue": 0,
+   "StringValue": "",
+   "IntArrayValue": [],
+   "Comments": "执行行为界面: idle阶段禁止点击时长(ms), 之后点击可提前结束idle"
+  },
+  {
+   "Id": 13,
+   "ActivityId": 111700001,
+   "Key": "BehaviorResultLockTime",
+   "IntValue": 0,
+   "StringValue": "",
+   "IntArrayValue": [],
+   "Comments": "执行行为界面: 成功/失败阶段禁止点击时长(ms), 之后点击关闭界面"
+  },
+  {
+   "Id": 14,
+   "ActivityId": 111700001,
+   "Key": "HeroChoiceEnterSpineIdList",
+   "IntValue": 0,
+   "StringValue": "",
+   "IntArrayValue": [
+    4001,
+    4002
+   ],
+   "Comments": "男主选项进入随机角色表现：SolarSchoolRoleSpine.Id"
+  },
+  {
+   "Id": 15,
+   "ActivityId": 111700001,
+   "Key": "HeroChoiceCorrectSpineIdList",
+   "IntValue": 0,
+   "StringValue": "",
+   "IntArrayValue": [
+    4011,
+    4012
+   ],
+   "Comments": "男主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+  },
+  {
+   "Id": 16,
+   "ActivityId": 111700001,
+   "Key": "HeroChoiceFailSpineIdList",
+   "IntValue": 0,
+   "StringValue": "",
+   "IntArrayValue": [
+    4021,
+    4022,
+    4023
+   ],
+   "Comments": "男主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+  },
+  {
+   "Id": 17,
+   "ActivityId": 111700001,
+   "Key": "HeroineChoiceEnterSpineIdList",
+   "IntValue": 0,
+   "StringValue": "",
+   "IntArrayValue": [
+    4031,
+    4032
+   ],
+   "Comments": "女主选项进入随机角色表现：SolarSchoolRoleSpine.Id"
+  },
+  {
+   "Id": 18,
+   "ActivityId": 111700001,
+   "Key": "HeroineChoiceCorrectSpineIdList",
+   "IntValue": 0,
+   "StringValue": "",
+   "IntArrayValue": [
+    4041,
+    4042
+   ],
+   "Comments": "女主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+  },
+  {
+   "Id": 19,
+   "ActivityId": 111700001,
+   "Key": "HeroineChoiceFailSpineIdList",
+   "IntValue": 0,
+   "StringValue": "",
+   "IntArrayValue": [
+    4051,
+    4052,
+    4053
+   ],
+   "Comments": "女主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+  },
+  {
+   "Id": 20,
+   "ActivityId": 111700001,
+   "Key": "ScoreTexInTxtRate",
+   "IntValue": 6000,
+   "StringValue": "",
+   "IntArrayValue": [],
+   "Comments": "分数档位图标在文本内的显示倍率(万分比)"
+  },
+  {
+   "Id": 21,
+   "ActivityId": 111700001,
+   "Key": "ShopSpineIdList",
+   "IntValue": 0,
+   "StringValue": "",
+   "IntArrayValue": [
+    5001,
+    5002
+   ],
+   "Comments": "商店随机角色表现：SolarSchoolRoleSpine.Id"
+  },
+  {
+   "Id": 22,
+   "ActivityId": 111700001,
+   "Key": "ShopSpineIdListBuy",
+   "IntValue": 0,
+   "StringValue": "",
+   "IntArrayValue": [
+    5011,
+    5012
+   ],
+   "Comments": "商店购买角色表现：SolarSchoolRoleSpine.Id"
+  },
+  {
+   "Id": 23,
+   "ActivityId": 111700001,
+   "Key": "EventCheckSuccessOverlapColor",
+   "IntValue": 0,
+   "StringValue": "C7E788CC",
+   "IntArrayValue": [],
+   "Comments": "事件检定-成功重叠部分颜色"
+  },
+  {
+   "Id": 24,
+   "ActivityId": 111700001,
+   "Key": "EventCheckFailOverlapColor",
+   "IntValue": 0,
+   "StringValue": "95C6DD66",
+   "IntArrayValue": [],
+   "Comments": "事件检定-失败重叠部分颜色"
+  },
+  {
+   "Id": 25,
+   "ActivityId": 111700001,
+   "Key": "ExamResultHoldDuration",
+   "IntValue": 1500,
+   "StringValue": "",
+   "IntArrayValue": [],
+   "Comments": "考试答题结果揭晓后的停留时长(ms)"
+  },
+  {
+   "Id": 26,
+   "ActivityId": 111700001,
+   "Key": "AffairsChoiceHoldDuration",
+   "IntValue": 1500,
+   "StringValue": "",
+   "IntArrayValue": [],
+   "Comments": "政务选择完成后的停留时长(ms)"
+  },
+  {
+   "Id": 32,
+   "ActivityId": 111700001,
+   "Key": "MapUnlockResizeRatio",
+   "IntValue": 7000,
+   "StringValue": "",
+   "IntArrayValue": [],
+   "Comments": "地图地点解锁时缩放倍率(万分比)"
+  },
+  {
+   "Id": 33,
+   "ActivityId": 111700001,
+   "Key": "EventCheckRadarDuration",
+   "IntValue": 2000,
+   "StringValue": "",
+   "IntArrayValue": [],
+   "Comments": "事件检定雷达图展开时长(ms)"
+  },
+  {
+   "Id": 34,
+   "ActivityId": 111700001,
+   "Key": "EventCheckTargetMoveDuration",
+   "IntValue": 3000,
+   "StringValue": "",
+   "IntArrayValue": [],
+   "Comments": "事件检定准心移动时长(ms)"
+  },
+  {
+   "Id": 36,
+   "ActivityId": 111700001,
+   "Key": "QuestDeadlineCountDownTime",
+   "IntValue": 7,
+   "StringValue": "",
+   "IntArrayValue": [],
+   "Comments": "任务紧急剩余时间阈值"
+  },
+  {
+   "Id": 37,
+   "ActivityId": 111700001,
+   "Key": "BehaviorFastForwardRate",
+   "IntValue": 230,
+   "StringValue": "",
+   "IntArrayValue": [],
+   "Comments": "执行行为界面加速播放倍率(百分比，100=1倍)"
+  },
+  {
+   "Id": 38,
+   "ActivityId": 111700001,
+   "Key": "BehaviorFastForwardNoResultTime",
+   "IntValue": 1820,
+   "StringValue": "",
+   "IntArrayValue": [],
+   "Comments": "执行行为界面: 加速模式无成功/失败时自动结束等待时间(ms)"
+  },
+  {
+   "Id": 39,
+   "ActivityId": 111700001,
+   "Key": "BehaviorFastForwardResultTime",
+   "IntValue": 1820,
+   "StringValue": "",
+   "IntArrayValue": [],
+   "Comments": "执行行为界面: 加速模式成功/失败后自动结束等待时间(ms)"
+  },
+  {
+   "Id": 40,
+   "ActivityId": 111700001,
+   "Key": "MapMoveSpeed",
+   "IntValue": 150000,
+   "StringValue": "",
+   "IntArrayValue": [],
+   "Comments": "地图轴移动速度倍率(万分比)"
+  },
+  {
+   "Id": 41,
+   "ActivityId": 111700001,
+   "Key": "SpecialAcceptMaxInProgress",
+   "IntValue": 3,
+   "StringValue": "",
+   "IntArrayValue": [],
+   "Comments": "特批进行中数量上限，达到后再接取弹二次确认(确认框649)"
+  },
+  {
+   "Id": 42,
+   "ActivityId": 111700001,
+   "Key": "VisualNovelReadFastForwardRate",
+   "IntValue": 7000,
+   "StringValue": "",
+   "IntArrayValue": [],
+   "Comments": "视觉小说已读长按加速播放倍率(百分比，100=1倍)"
+  },
+  {
+   "Id": 43,
+   "ActivityId": 111700001,
+   "Key": "SolarSchoolCsCheckResVersion",
+   "IntValue": 1,
+   "StringValue": "",
+   "IntArrayValue": [],
+   "Comments": "索拉学院活动内版本号"
+  }
+ ],
+ "avgFlags": [
+  {
+   "Id": 1,
+   "ActivityId": 111700001,
+   "Key": "key1",
+   "BitFlag": 1
+  },
+  {
+   "Id": 2,
+   "ActivityId": 111700001,
+   "Key": "key2",
+   "BitFlag": 2
+  },
+  {
+   "Id": 3,
+   "ActivityId": 111700001,
+   "Key": "key3",
+   "BitFlag": 3
+  },
+  {
+   "Id": 4,
+   "ActivityId": 111700001,
+   "Key": "key4",
+   "BitFlag": 4
+  },
+  {
+   "Id": 5,
+   "ActivityId": 111700001,
+   "Key": "key5",
+   "BitFlag": 5
+  },
+  {
+   "Id": 6,
+   "ActivityId": 111700001,
+   "Key": "key6",
+   "BitFlag": 6
+  },
+  {
+   "Id": 7,
+   "ActivityId": 111700001,
+   "Key": "key7",
+   "BitFlag": 7
+  },
+  {
+   "Id": 8,
+   "ActivityId": 111700001,
+   "Key": "key8",
+   "BitFlag": 8
+  },
+  {
+   "Id": 9,
+   "ActivityId": 111700001,
+   "Key": "key9",
+   "BitFlag": 9
+  },
+  {
+   "Id": 10,
+   "ActivityId": 111700001,
+   "Key": "key10",
+   "BitFlag": 10
+  },
+  {
+   "Id": 11,
+   "ActivityId": 111700001,
+   "Key": "key11",
+   "BitFlag": 11
+  },
+  {
+   "Id": 12,
+   "ActivityId": 111700001,
+   "Key": "key12",
+   "BitFlag": 12
+  },
+  {
+   "Id": 13,
+   "ActivityId": 111700001,
+   "Key": "key13",
+   "BitFlag": 13
+  },
+  {
+   "Id": 14,
+   "ActivityId": 111700001,
+   "Key": "key14",
+   "BitFlag": 14
+  },
+  {
+   "Id": 15,
+   "ActivityId": 111700001,
+   "Key": "key15",
+   "BitFlag": 15
+  },
+  {
+   "Id": 16,
+   "ActivityId": 111700001,
+   "Key": "key16",
+   "BitFlag": 16
+  },
+  {
+   "Id": 17,
+   "ActivityId": 111700001,
+   "Key": "key17",
+   "BitFlag": 17
+  },
+  {
+   "Id": 18,
+   "ActivityId": 111700001,
+   "Key": "key18",
+   "BitFlag": 18
+  },
+  {
+   "Id": 19,
+   "ActivityId": 111700001,
+   "Key": "key19",
+   "BitFlag": 19
+  },
+  {
+   "Id": 20,
+   "ActivityId": 111700001,
+   "Key": "key20",
+   "BitFlag": 20
+  },
+  {
+   "Id": 21,
+   "ActivityId": 111700001,
+   "Key": "key21",
+   "BitFlag": 21
+  },
+  {
+   "Id": 22,
+   "ActivityId": 111700001,
+   "Key": "key22",
+   "BitFlag": 22
+  },
+  {
+   "Id": 23,
+   "ActivityId": 111700001,
+   "Key": "key23",
+   "BitFlag": 23
+  },
+  {
+   "Id": 24,
+   "ActivityId": 111700001,
+   "Key": "key24",
+   "BitFlag": 24
+  },
+  {
+   "Id": 25,
+   "ActivityId": 111700001,
+   "Key": "key25",
+   "BitFlag": 25
+  },
+  {
+   "Id": 26,
+   "ActivityId": 111700001,
+   "Key": "key26",
+   "BitFlag": 26
+  },
+  {
+   "Id": 27,
+   "ActivityId": 111700001,
+   "Key": "key27",
+   "BitFlag": 27
+  },
+  {
+   "Id": 28,
+   "ActivityId": 111700001,
+   "Key": "key28",
+   "BitFlag": 28
+  },
+  {
+   "Id": 29,
+   "ActivityId": 111700001,
+   "Key": "key29",
+   "BitFlag": 29
+  },
+  {
+   "Id": 30,
+   "ActivityId": 111700001,
+   "Key": "key30",
+   "BitFlag": 30
+  },
+  {
+   "Id": 31,
+   "ActivityId": 111700001,
+   "Key": "key31",
+   "BitFlag": 31
+  },
+  {
+   "Id": 32,
+   "ActivityId": 111700001,
+   "Key": "key32",
+   "BitFlag": 32
+  },
+  {
+   "Id": 33,
+   "ActivityId": 111700001,
+   "Key": "key33",
+   "BitFlag": 33
+  },
+  {
+   "Id": 34,
+   "ActivityId": 111700001,
+   "Key": "key34",
+   "BitFlag": 34
+  },
+  {
+   "Id": 35,
+   "ActivityId": 111700001,
+   "Key": "key35",
+   "BitFlag": 35
+  },
+  {
+   "Id": 36,
+   "ActivityId": 111700001,
+   "Key": "key36",
+   "BitFlag": 36
+  },
+  {
+   "Id": 37,
+   "ActivityId": 111700001,
+   "Key": "key37",
+   "BitFlag": 37
+  },
+  {
+   "Id": 38,
+   "ActivityId": 111700001,
+   "Key": "key38",
+   "BitFlag": 38
+  },
+  {
+   "Id": 39,
+   "ActivityId": 111700001,
+   "Key": "key39",
+   "BitFlag": 39
+  },
+  {
+   "Id": 40,
+   "ActivityId": 111700001,
+   "Key": "key40",
+   "BitFlag": 40
+  },
+  {
+   "Id": 41,
+   "ActivityId": 111700001,
+   "Key": "key41",
+   "BitFlag": 41
+  },
+  {
+   "Id": 42,
+   "ActivityId": 111700001,
+   "Key": "key42",
+   "BitFlag": 42
+  },
+  {
+   "Id": 43,
+   "ActivityId": 111700001,
+   "Key": "key43",
+   "BitFlag": 43
+  },
+  {
+   "Id": 44,
+   "ActivityId": 111700001,
+   "Key": "key44",
+   "BitFlag": 44
+  },
+  {
+   "Id": 45,
+   "ActivityId": 111700001,
+   "Key": "key45",
+   "BitFlag": 45
+  },
+  {
+   "Id": 46,
+   "ActivityId": 111700001,
+   "Key": "key46",
+   "BitFlag": 46
+  },
+  {
+   "Id": 47,
+   "ActivityId": 111700001,
+   "Key": "key47",
+   "BitFlag": 47
+  },
+  {
+   "Id": 48,
+   "ActivityId": 111700001,
+   "Key": "key48",
+   "BitFlag": 48
+  },
+  {
+   "Id": 49,
+   "ActivityId": 111700001,
+   "Key": "key49",
+   "BitFlag": 49
+  },
+  {
+   "Id": 50,
+   "ActivityId": 111700001,
+   "Key": "key50",
+   "BitFlag": 50
+  },
+  {
+   "Id": 51,
+   "ActivityId": 111700001,
+   "Key": "key51",
+   "BitFlag": 51
+  },
+  {
+   "Id": 52,
+   "ActivityId": 111700001,
+   "Key": "key52",
+   "BitFlag": 52
+  },
+  {
+   "Id": 53,
+   "ActivityId": 111700001,
+   "Key": "key53",
+   "BitFlag": 53
+  },
+  {
+   "Id": 54,
+   "ActivityId": 111700001,
+   "Key": "key54",
+   "BitFlag": 54
+  },
+  {
+   "Id": 55,
+   "ActivityId": 111700001,
+   "Key": "key55",
+   "BitFlag": 55
+  },
+  {
+   "Id": 56,
+   "ActivityId": 111700001,
+   "Key": "key56",
+   "BitFlag": 56
+  },
+  {
+   "Id": 57,
+   "ActivityId": 111700001,
+   "Key": "key57",
+   "BitFlag": 57
+  },
+  {
+   "Id": 58,
+   "ActivityId": 111700001,
+   "Key": "key58",
+   "BitFlag": 58
+  },
+  {
+   "Id": 59,
+   "ActivityId": 111700001,
+   "Key": "key59",
+   "BitFlag": 59
+  },
+  {
+   "Id": 60,
+   "ActivityId": 111700001,
+   "Key": "key60",
+   "BitFlag": 60
+  },
+  {
+   "Id": 61,
+   "ActivityId": 111700001,
+   "Key": "key61",
+   "BitFlag": 61
+  },
+  {
+   "Id": 62,
+   "ActivityId": 111700001,
+   "Key": "key62",
+   "BitFlag": 62
+  },
+  {
+   "Id": 63,
+   "ActivityId": 111700001,
+   "Key": "key63",
+   "BitFlag": 63
+  },
+  {
+   "Id": 64,
+   "ActivityId": 111700001,
+   "Key": "key64",
+   "BitFlag": 64
+  },
+  {
+   "Id": 65,
+   "ActivityId": 111700001,
+   "Key": "key65",
+   "BitFlag": 65
+  },
+  {
+   "Id": 66,
+   "ActivityId": 111700001,
+   "Key": "key66",
+   "BitFlag": 66
+  },
+  {
+   "Id": 67,
+   "ActivityId": 111700001,
+   "Key": "key67",
+   "BitFlag": 67
+  },
+  {
+   "Id": 68,
+   "ActivityId": 111700001,
+   "Key": "key68",
+   "BitFlag": 68
+  },
+  {
+   "Id": 69,
+   "ActivityId": 111700001,
+   "Key": "key69",
+   "BitFlag": 69
+  },
+  {
+   "Id": 70,
+   "ActivityId": 111700001,
+   "Key": "key70",
+   "BitFlag": 70
+  },
+  {
+   "Id": 71,
+   "ActivityId": 111700001,
+   "Key": "key71",
+   "BitFlag": 71
+  }
+ ]
+}

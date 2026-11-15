@@ -1,0 +1,2597 @@
+{
+  "schema": 1,
+  "source": {
+    "repository": "alt3ri/WW_Asset_Webp",
+    "revision": "53692bed10f6b82cdcff0a36b72cc01cc329852c",
+    "method": "local-files"
+  },
+  "backgrounds": {
+    "700003": {
+      "label": "学生理事会",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_3_1.T_SolarSchool_bg_3_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_3_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_3_1.webp",
+        "sha256": "8a2c794e3cb64b143b74ded68e5828821e27414b48f4d090b81d137e6f950059",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 997862,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_3_1.T_SolarSchool_bg_3_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_3_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_3_1.webp",
+        "sha256": "8a2c794e3cb64b143b74ded68e5828821e27414b48f4d090b81d137e6f950059",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 997862,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700004": {
+      "label": "社团联合",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_4_1.T_SolarSchool_bg_4_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_4_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_4_1.webp",
+        "sha256": "9fd0d3dbeb3b8280ad904d64239b9c19e5a1568e01db4849fa04dd6648a951b5",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1009444,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_4_2.T_SolarSchool_bg_4_2",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_4_2.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_4_2.webp",
+        "sha256": "766fdd11a3bf66b5ba873349c68d219003c64cecdd20dcda4337b83b5b864903",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1041242,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700005": {
+      "label": "外联中心",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_5_1.T_SolarSchool_bg_5_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_5_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_5_1.webp",
+        "sha256": "07f7daa60c0b81ec4956d0338468fe2d901ed78ddf6472463dd3acb39122fbaf",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 933338,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_5_1.T_SolarSchool_bg_5_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_5_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_5_1.webp",
+        "sha256": "07f7daa60c0b81ec4956d0338468fe2d901ed78ddf6472463dd3acb39122fbaf",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 933338,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700006": {
+      "label": "校内休息处",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_6_1.T_SolarSchool_bg_6_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_6_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_6_1.webp",
+        "sha256": "51224bdba9f29bd641fb3bfc0d54a3b717c4725631c1ee6e7b8e390483ac80bc",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1383170,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_6_2.T_SolarSchool_bg_6_2",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_6_2.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_6_2.webp",
+        "sha256": "5dffb25959a174e5a11686e815ba68924f68ab141422727676a7a131e587ea2f",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1337648,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700007": {
+      "label": "巴士站",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_7_1.T_SolarSchool_bg_7_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_7_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_7_1.webp",
+        "sha256": "b8195c9451bb40080e3c2b8989db2dbb5cd98abce9dd8b2d10be6aeb93721ba5",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1327826,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_7_2.T_SolarSchool_bg_7_2",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_7_2.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_7_2.webp",
+        "sha256": "7215186077e8eb2670e8e8f5430473c383b920bc321bd5c7a091f933b18ba07c",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1079610,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700008": {
+      "label": "网球场",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_8_1.T_SolarSchool_bg_8_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_8_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_8_1.webp",
+        "sha256": "b13ef26f1957b931fb7b2ae351f347f4d382d35bd5f23378c2aeac044c0efa44",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1751508,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_8_2.T_SolarSchool_bg_8_2",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_8_2.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_8_2.webp",
+        "sha256": "00a8454dce79b9a4eb2c8110e6e4891e2ef3fe3fa0c75f9ea6825c71f1b144e7",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1747100,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700009": {
+      "label": "商店街",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_9_1.T_SolarSchool_bg_9_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_9_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_9_1.webp",
+        "sha256": "6f51bde0e9518f7a5b2ab8006f05956dfe79397486d018a074f6f3eb8c8a4a6d",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1371428,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_9_2.T_SolarSchool_bg_9_2",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_9_2.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_9_2.webp",
+        "sha256": "00e4f9f3a8631b9718a479c40280f5a8e6d2c5c39d8f7ade546ff498949ba5ee",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1282722,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700010": {
+      "label": "操场",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_10_1.T_SolarSchool_bg_10_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_10_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_10_1.webp",
+        "sha256": "db63d4f403536a2ec1e1bd9351b6f5f97ba7ba3719ff31edee13fd759a7c1c28",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1274802,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_10_2.T_SolarSchool_bg_10_2",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_10_2.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_10_2.webp",
+        "sha256": "cbcee9c74db03017543404f40301d17ab70d03a108c0cc39274f216608a5df7c",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1285124,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700011": {
+      "label": "商店",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_11_1.T_SolarSchool_bg_11_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_11_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_11_1.webp",
+        "sha256": "591dfa4bc63bae9bb00b93f8f08015c2284303e9f549996bcf4e532cf6657d30",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1071752,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_11_2.T_SolarSchool_bg_11_2",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_11_2.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_11_2.webp",
+        "sha256": "7e81c5d7b5e899fea6cea0aeabb52c39e2f8209bb8a0a09f84f1f9ed4779b361",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1002748,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700012": {
+      "label": "家庭餐厅",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_12_1.T_SolarSchool_bg_12_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_12_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_12_1.webp",
+        "sha256": "88565965f924fd2d41af504ff69aca0f4119a95a80d18ca1e579b674512a9449",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 940338,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_12_2.T_SolarSchool_bg_12_2",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_12_2.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_12_2.webp",
+        "sha256": "fd6191b588aed75a2d0adbe130e4cac37a8c283c86b04fcf0ccf91d3cf3dafd4",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 975820,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700013": {
+      "label": "街道",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_13_1.T_SolarSchool_bg_13_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_13_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_13_1.webp",
+        "sha256": "d7bec3a3c9c50ac4096afd19e8579f2ecf2f6ac7727a9b7a5e6e1301777d591b",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1277690,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_13_2.T_SolarSchool_bg_13_2",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_13_2.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_13_2.webp",
+        "sha256": "e8013dcdc95b8b9f04a261da70bc10659ae417eefce7650794ff9ce72a58c8c2",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1357536,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700014": {
+      "label": "广场",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_14_1.T_SolarSchool_bg_14_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_14_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_14_1.webp",
+        "sha256": "627c7f7281d6416ae1ae266ae122ad1604cfda1f6e2c493b74bf19a14d680269",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1426866,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_14_2.T_SolarSchool_bg_14_2",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_14_2.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_14_2.webp",
+        "sha256": "571ce4d7d3b1201b2000a36aaa06271af5c14ba7625ffcdfcb9a47ad5d632dee",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1508054,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700015": {
+      "label": "海边",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_15_1.T_SolarSchool_bg_15_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_15_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_15_1.webp",
+        "sha256": "832d8953a9fc23f2ccd46c7c4771951c6fbaf11cbbec8f9ece03c60d0c8ec65b",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 967378,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_15_2.T_SolarSchool_bg_15_2",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_15_2.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_15_2.webp",
+        "sha256": "0246e21ca2c0426718145baf1f685d90861561d96d78facd9a7f407babdf4588",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 896554,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700016": {
+      "label": "车站",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_16_1.T_SolarSchool_bg_16_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_16_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_16_1.webp",
+        "sha256": "2462b9a17f9f50cfa52528eb536c2e618ffabe3455f22deaf7841a5e9774eeb4",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1227066,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_16_2.T_SolarSchool_bg_16_2",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_16_2.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_16_2.webp",
+        "sha256": "a86a77fc03a1f697a2b3fb587eb17e93bdffee3aa7b7a6fdfbc1f23e4ce6cc35",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1259310,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700017": {
+      "label": "校内走廊",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_17_1.T_SolarSchool_bg_17_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_17_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_17_1.webp",
+        "sha256": "5fbd5f77c8f4ff5596284594da1d7ef82d7031986bcff21188b7d3fbb556d7a2",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1176012,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_17_2.T_SolarSchool_bg_17_2",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_17_2.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_17_2.webp",
+        "sha256": "82e3f3ed628f587591134ee18f1c1726dcc5f1a4aee4f703cf788ebf0a072271",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1163338,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700018": {
+      "label": "办公室",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_18_1.T_SolarSchool_bg_18_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_18_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_18_1.webp",
+        "sha256": "f4f1153b2db1437e11e78a1fcb3f354d015e3a160089a7d296d3cb58cce4472e",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1002342,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_18_1.T_SolarSchool_bg_18_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_18_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_18_1.webp",
+        "sha256": "f4f1153b2db1437e11e78a1fcb3f354d015e3a160089a7d296d3cb58cce4472e",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1002342,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700019": {
+      "label": "礼堂",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_19_1.T_SolarSchool_bg_19_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_19_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_19_1.webp",
+        "sha256": "e06106abd1abf2cbaeceb33b1c6febdad86fb6c65c6ab1b55a3d845a6ae7066b",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1061760,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_19_1.T_SolarSchool_bg_19_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_19_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_19_1.webp",
+        "sha256": "e06106abd1abf2cbaeceb33b1c6febdad86fb6c65c6ab1b55a3d845a6ae7066b",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1061760,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700020": {
+      "label": "教室",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_MainBg001A.T_SolarSchool_MainBg001A",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_MainBg001A.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_MainBg001A.webp",
+        "sha256": "0a37a09af7f7d9178e45eeef6ef1149cb6e325fe1ffe882d7f67a40678104b4a",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1245698,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_MainBg001B.T_SolarSchool_MainBg001B",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_MainBg001B.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_MainBg001B.webp",
+        "sha256": "398e940cb30efd7c4ec15da581f7bdf89d9fd08e8b996818ef3f38589a9fb03a",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1234508,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700021": {
+      "label": "家",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_MainBg002A.T_SolarSchool_MainBg002A",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_MainBg002A.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_MainBg002A.webp",
+        "sha256": "f16f786041dfa33070731b59260b5587d9557e2948d9b3c37af55ff3e9d0b925",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1403002,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_MainBg002B.T_SolarSchool_MainBg002B",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_MainBg002B.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_MainBg002B.webp",
+        "sha256": "a2a49dbaa95c72f674a2eed5614a71d16de50614feb4e31574ee20683c5b033f",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1173834,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700022": {
+      "label": "天台上午",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_1.T_SolarSchool_bg_20_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_1.webp",
+        "sha256": "b5d9fafc3cc18f40040ae234086e1e969281654ffa6cf678a9f131a35fd83dc4",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1586912,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_1.T_SolarSchool_bg_20_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_1.webp",
+        "sha256": "b5d9fafc3cc18f40040ae234086e1e969281654ffa6cf678a9f131a35fd83dc4",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1586912,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700023": {
+      "label": "天台黄昏",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_2.T_SolarSchool_bg_20_2",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_2.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_2.webp",
+        "sha256": "c21857fc26c94792f6ab35820951ecb9d705ef081ba10109036bd3602d7a0e22",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1745902,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_2.T_SolarSchool_bg_20_2",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_2.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_2.webp",
+        "sha256": "c21857fc26c94792f6ab35820951ecb9d705ef081ba10109036bd3602d7a0e22",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1745902,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700024": {
+      "label": "天台晚上",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_3.T_SolarSchool_bg_20_3",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_3.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_3.webp",
+        "sha256": "1e5e3e7f93744d8836df4cd543f046b9d17229cb9666df38bad1a89e213a72a2",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1901024,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_3.T_SolarSchool_bg_20_3",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_3.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_3.webp",
+        "sha256": "1e5e3e7f93744d8836df4cd543f046b9d17229cb9666df38bad1a89e213a72a2",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1901024,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700025": {
+      "label": "仓库（卡提线占位）",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_21_1.T_SolarSchool_bg_21_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_21_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_21_1.webp",
+        "sha256": "a77fe9d9a2e600db801868bf7bf11b54e0bceb217627e95637ef16f0341554d0",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 396340,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_21_1.T_SolarSchool_bg_21_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_21_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_21_1.webp",
+        "sha256": "a77fe9d9a2e600db801868bf7bf11b54e0bceb217627e95637ef16f0341554d0",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 396340,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700029": {
+      "label": "病房（长离线占位）",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_29_1.T_SolarSchool_bg_29_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_29_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_29_1.webp",
+        "sha256": "a41fb8ddee377ab1cbe0e02d945d54e49f06b9f8f0989e8bbce2f5e2c2a86718",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 388698,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_29_1.T_SolarSchool_bg_29_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_29_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_29_1.webp",
+        "sha256": "a41fb8ddee377ab1cbe0e02d945d54e49f06b9f8f0989e8bbce2f5e2c2a86718",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 388698,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700034": {
+      "label": "长离个人线高级背景",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_27_2.T_SolarSchool_bg_27_2",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_27_2.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_27_2.webp",
+        "sha256": "43fea8f6c30b4c3b4d3aa965a82f50cfd79fc68794dd14ebd7c42f279ad6096a",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 564460,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_27_2.T_SolarSchool_bg_27_2",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_27_2.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_27_2.webp",
+        "sha256": "43fea8f6c30b4c3b4d3aa965a82f50cfd79fc68794dd14ebd7c42f279ad6096a",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 564460,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700035": {
+      "label": "长离情感结局背景",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_26_2.T_SolarSchool_bg_26_2",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_26_2.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_26_2.webp",
+        "sha256": "5538f13fd5271ac8f84d31feffc3ad152f4683ea5a96f46281d92e4e148d4788",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 899828,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_26_2.T_SolarSchool_bg_26_2",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_26_2.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_26_2.webp",
+        "sha256": "5538f13fd5271ac8f84d31feffc3ad152f4683ea5a96f46281d92e4e148d4788",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 899828,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700036": {
+      "label": "守岸人真结局背景",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_28_1.T_SolarSchool_bg_28_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_28_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_28_1.webp",
+        "sha256": "35b1e73a6ca5701bac5f958bbf3802b7c72fa503b4ec0126775f974af4c5e948",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1074676,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_28_1.T_SolarSchool_bg_28_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_28_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_28_1.webp",
+        "sha256": "35b1e73a6ca5701bac5f958bbf3802b7c72fa503b4ec0126775f974af4c5e948",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1074676,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "700038": {
+      "label": "纯黑背景",
+      "day": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_Black.T_SolarSchool_bg_Black",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_Black.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_Black.webp",
+        "sha256": "bc4fb6b262d7b7ecb28138b68fc748bcd268617ce06eff694be7ea39bdb976a4",
+        "width": 512,
+        "height": 512,
+        "bytes": 2464,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "night": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_Black.T_SolarSchool_bg_Black",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_Black.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_Black.webp",
+        "sha256": "bc4fb6b262d7b7ecb28138b68fc748bcd268617ce06eff694be7ea39bdb976a4",
+        "width": 512,
+        "height": 512,
+        "bytes": 2464,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "800001": {
+      "label": null,
+      "day": {
+        "sourceRef": null,
+        "repositoryPath": null,
+        "status": "missing",
+        "localPath": null,
+        "reason": "No asset reference in assets.manifest.json"
+      },
+      "night": {
+        "sourceRef": null,
+        "repositoryPath": null,
+        "status": "missing",
+        "localPath": null,
+        "reason": "No asset reference in assets.manifest.json"
+      }
+    }
+  },
+  "cgs": {
+    "700001": {
+      "label": "千咲漂打工",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_101_b.T_SolarSchool_101_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_101_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_101_b.webp",
+        "sha256": "49a1d618227f44ec7144f762437de688413d253abc543fc05fc36938c6f7becb",
+        "width": 1500,
+        "height": 900,
+        "bytes": 603766,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_101_a.T_SolarSchool_101_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_101_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_101_a.webp",
+        "sha256": "5bb26a9a926f25e5cc61591e683aaae0956342b6faf4da1cfa3ba941f0aa34c5",
+        "width": 1500,
+        "height": 900,
+        "bytes": 607804,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700002": {
+      "label": "卜灵发帖",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_102.T_SolarSchool_102",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_102.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_102.webp",
+        "sha256": "262abd32a7ac3a8408adca21c4588b8512dd48278298f46d3fa20d7f1d1c8778",
+        "width": 1500,
+        "height": 900,
+        "bytes": 561606,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_102.T_SolarSchool_102",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_102.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_102.webp",
+        "sha256": "262abd32a7ac3a8408adca21c4588b8512dd48278298f46d3fa20d7f1d1c8778",
+        "width": 1500,
+        "height": 900,
+        "bytes": 561606,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700003": {
+      "label": "传奇学生",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_103_a.T_SolarSchool_103_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_103_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_103_a.webp",
+        "sha256": "c9ff30130ce323b66a61ff923e4478f667f732b19079e3cea26c9c3aeb7b4cd4",
+        "width": 1500,
+        "height": 900,
+        "bytes": 564858,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_103_b.T_SolarSchool_103_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_103_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_103_b.webp",
+        "sha256": "bb4057d1419395c58df5af7ddf026f2d1cf076d59d3095eaa035184df37264e0",
+        "width": 1500,
+        "height": 900,
+        "bytes": 491478,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700004": {
+      "label": "签订对赌协议",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_104.T_SolarSchool_104",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_104.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_104.webp",
+        "sha256": "29f9dae437ec6fa349219ffa5534efca28afece83cbc0647d8e61b9c85488963",
+        "width": 1500,
+        "height": 900,
+        "bytes": 574866,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_104.T_SolarSchool_104",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_104.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_104.webp",
+        "sha256": "29f9dae437ec6fa349219ffa5534efca28afece83cbc0647d8e61b9c85488963",
+        "width": 1500,
+        "height": 900,
+        "bytes": 574866,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700005": {
+      "label": "梅塔结局",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_201.T_SolarSchool_201",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_201.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_201.webp",
+        "sha256": "a285a9ad9511f019a8de2ce6693087c4c40ec21b37dd16ad203f4425cc8d902e",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 761442,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_201.T_SolarSchool_201",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_201.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_201.webp",
+        "sha256": "a285a9ad9511f019a8de2ce6693087c4c40ec21b37dd16ad203f4425cc8d902e",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 761442,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700006": {
+      "label": "夏空小卡初见",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_202_b.T_SolarSchool_202_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_202_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_202_b.webp",
+        "sha256": "fe622f5c15de48166904b60bdaaa92534601436517da95bf52f383d3a7e6ff25",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1204928,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_202_a.T_SolarSchool_202_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_202_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_202_a.webp",
+        "sha256": "5323149ed5ad11cf05a3482288a2ad35a0d26c99d907d629c13aa92e8c2daffc",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1040282,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700007": {
+      "label": "车站送别差分1",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_204_b_1.T_SolarSchool_204_b_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_204_b_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_204_b_1.webp",
+        "sha256": "45112bb835b207a9c47e92104578d74c195ffbe31608ad2707921982d18e11b7",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 550744,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_204_a_1.T_SolarSchool_204_a_1",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_204_a_1.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_204_a_1.webp",
+        "sha256": "7ebcdd27bad5a5e354a370c3709e26452d86048812ef39fa0216327b5815947e",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 506816,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700008": {
+      "label": "车站送别差分2",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_204_b_2.T_SolarSchool_204_b_2",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_204_b_2.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_204_b_2.webp",
+        "sha256": "3b426ed08af584ec8209233faba66c111907716d12b48d193754bff864d78c41",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 623632,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_204_a_2.T_SolarSchool_204_a_2",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_204_a_2.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_204_a_2.webp",
+        "sha256": "f9435fee56cede80d34e5575854a888c0eb6788d6c75ad0c71e22b921a10e659",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 597816,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700009": {
+      "label": "万人迷结局",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_206_b.T_SolarSchool_206_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_206_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_206_b.webp",
+        "sha256": "51a6485ed5dd57d583e35ada9399f1631adf06c196b91f2394218fdf1bdde93d",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 540016,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_206_a.T_SolarSchool_206_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_206_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_206_a.webp",
+        "sha256": "8e44bef68a1fcb7e5f08f2df854a8d9de09b0322e7c8fa44f080879f511e1107",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 530966,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700011": {
+      "label": "千咲送餐宝",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_220.T_SolarSchool_220",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_220.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_220.webp",
+        "sha256": "abdf3d0949b581953d4acb3048f1dbaa6da2cba60bcd10411ea4913ea21f2d72",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 677556,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_220.T_SolarSchool_220",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_220.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_220.webp",
+        "sha256": "abdf3d0949b581953d4acb3048f1dbaa6da2cba60bcd10411ea4913ea21f2d72",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 677556,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700012": {
+      "label": "守岸人开局",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_221.T_SolarSchool_221",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_221.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_221.webp",
+        "sha256": "38c8e285a833f7e5d8ac17213dab66942b03d884b67c9a3a8c6bfdd63a504efc",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 755356,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_221.T_SolarSchool_221",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_221.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_221.webp",
+        "sha256": "38c8e285a833f7e5d8ac17213dab66942b03d884b67c9a3a8c6bfdd63a504efc",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 755356,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700013": {
+      "label": "火锅派对六人（无漂泊者）",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222.T_SolarSchool_222",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222.webp",
+        "sha256": "644e2cf02a7e4df75dbf53d7d4e96951bc7a1c4bf11fe07999028d846971df75",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 997274,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222.T_SolarSchool_222",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222.webp",
+        "sha256": "644e2cf02a7e4df75dbf53d7d4e96951bc7a1c4bf11fe07999028d846971df75",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 997274,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700017": {
+      "label": "豆汁",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_109_b.T_SolarSchool_109_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_109_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_109_b.webp",
+        "sha256": "a339e80c04cae3b646472c9045d5a9ad8d0854404ab93d6a3b61ff739983edb5",
+        "width": 1500,
+        "height": 900,
+        "bytes": 567084,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_109_a.T_SolarSchool_109_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_109_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_109_a.webp",
+        "sha256": "cf3edf9cfc57aa6788fda82d1a0eb2b8fe705caa0573707624ae83d4478b8f80",
+        "width": 1500,
+        "height": 900,
+        "bytes": 559930,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700018": {
+      "label": "千咲发明展示",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_110.T_SolarSchool_110",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_110.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_110.webp",
+        "sha256": "ace533a70eb995613da7ef1d340e171ad79f193c6da8ed43655654133a4cc0ea",
+        "width": 1500,
+        "height": 900,
+        "bytes": 586690,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_110.T_SolarSchool_110",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_110.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_110.webp",
+        "sha256": "ace533a70eb995613da7ef1d340e171ad79f193c6da8ed43655654133a4cc0ea",
+        "width": 1500,
+        "height": 900,
+        "bytes": 586690,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700019": {
+      "label": "夏空勾肩搭背",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_111_b.T_SolarSchool_111_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_111_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_111_b.webp",
+        "sha256": "350f2fe5b63635626d999b0f88532d87e91888a5c8840b69e13eccfaf63b2592",
+        "width": 1500,
+        "height": 900,
+        "bytes": 533586,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_111_a.T_SolarSchool_111_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_111_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_111_a.webp",
+        "sha256": "ff9ac0f967cff73b44db65228e867334b6b04fdbfceec7fe2831e2d1c0597aa2",
+        "width": 1500,
+        "height": 900,
+        "bytes": 529848,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700020": {
+      "label": "阿布汽水",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_112.T_SolarSchool_112",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_112.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_112.webp",
+        "sha256": "e6cf0d13bf7d4b8f435707167fc17c9cd07a3ac5d010898d58bb957ae95230f8",
+        "width": 1500,
+        "height": 900,
+        "bytes": 580844,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_112.T_SolarSchool_112",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_112.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_112.webp",
+        "sha256": "e6cf0d13bf7d4b8f435707167fc17c9cd07a3ac5d010898d58bb957ae95230f8",
+        "width": 1500,
+        "height": 900,
+        "bytes": 580844,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700021": {
+      "label": "长离相里要漂泊者",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_203_b.T_SolarSchool_203_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_203_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_203_b.webp",
+        "sha256": "232cca6358a5a842454001912fd9c7d9cfce0f6a3848ecce7f9516e4a1c9a9c4",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1120460,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_203_a.T_SolarSchool_203_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_203_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_203_a.webp",
+        "sha256": "576ea5329225393ac9ab108b7e6d6ad5478dd8e0dfa82bd01e18ec3fcda48bd1",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1110636,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700022": {
+      "label": "大富翁结局",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_205_b.T_SolarSchool_205_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_205_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_205_b.webp",
+        "sha256": "b52ee2b2f15ba1d1ceb6f9eae96e01949e926cbf4c93642eeef03ed1b3104316",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 880040,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_205_a.T_SolarSchool_205_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_205_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_205_a.webp",
+        "sha256": "4cccb5526aee948c57a60e80a39762085d318713210d11bc078682c9b56b2c00",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 891056,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700023": {
+      "label": "阿布养你结局",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_207_b.T_SolarSchool_207_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_207_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_207_b.webp",
+        "sha256": "1dc0592dcf666d8528d1a17f3e8e737eacd13fda7934710985422b289255e888",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 711110,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_207_a.T_SolarSchool_207_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_207_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_207_a.webp",
+        "sha256": "b9f29c9a5e26b9664d45cbf97bef1850fbd98342a914712bbe232811e605ee80",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 765974,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700024": {
+      "label": "发明家决策顾问结局",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_209_b.T_SolarSchool_209_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_209_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_209_b.webp",
+        "sha256": "14ab7e96dd70a5ef9099a43eedf5deef242a45fd1593cd4b218c8ae8890c62fd",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 623038,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_209_a.T_SolarSchool_209_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_209_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_209_a.webp",
+        "sha256": "9593ad1875a12374636f510fff61b53456f113f18fd59931cae66413de782fae",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 540732,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700025": {
+      "label": "艺术家结局",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_210_b.T_SolarSchool_210_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_210_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_210_b.webp",
+        "sha256": "278d57732f91712c3491c344da8b7867f9735bd60782ad2d3169260f353b8704",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 527738,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_210_a.T_SolarSchool_210_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_210_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_210_a.webp",
+        "sha256": "3a8a3d321c2a17a92c65fb354894aee578108911aa9b511d6f7525377918a57f",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 515864,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700026": {
+      "label": "运动员登山家考察员结局",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_211_b.T_SolarSchool_211_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_211_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_211_b.webp",
+        "sha256": "751356aaecee497f256a25678dd1f0332562e9b4c989d95dd88b152c0677197f",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 668516,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_211_a.T_SolarSchool_211_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_211_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_211_a.webp",
+        "sha256": "f07620195b3c1b0958275022c8e5bedcee3a9b18fa7b625165d804d55024cb74",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 703400,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700027": {
+      "label": "返校任教结局",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_212_b.T_SolarSchool_212_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_212_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_212_b.webp",
+        "sha256": "bf76475136889b181320a4ca288863c330a756347cabe41199abb77b0fa58b48",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 902498,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_212_a.T_SolarSchool_212_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_212_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_212_a.webp",
+        "sha256": "fb93aad1d1613026f35f204f67019ec2946f5eda0c88c39cfe51e4013d5049d9",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 971018,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700028": {
+      "label": "卡提线拔剑",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_216.T_SolarSchool_216",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_216.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_216.webp",
+        "sha256": "b697aac3b3dabfa7ee5b93d8770c74646ad98f77caaf84c48347300a5585de7b",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 875302,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_216.T_SolarSchool_216",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_216.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_216.webp",
+        "sha256": "b697aac3b3dabfa7ee5b93d8770c74646ad98f77caaf84c48347300a5585de7b",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 875302,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700029": {
+      "label": "二周目岸弹琴",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_217_b.T_SolarSchool_217_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_217_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_217_b.webp",
+        "sha256": "12f2c524802f204ec464a729ea9bdc16109d556b410001cb1a15873f4397a9ee",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 774154,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_217_a.T_SolarSchool_217_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_217_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_217_a.webp",
+        "sha256": "bb414841291155e652503e25b072381d8d6db4248a862e5e01c8318852960027",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 702502,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700030": {
+      "label": "卡提CG2仓库",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_218_b.T_SolarSchool_218_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_218_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_218_b.webp",
+        "sha256": "ccc20cadf2303810fef1cf4a0a7c0510930c2b04d4a5775761556e517f8c987b",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 914824,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_218_a.T_SolarSchool_218_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_218_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_218_a.webp",
+        "sha256": "f970088ea08aefb2ef36d700350cd949663cd54f1231bcc473f80ce5717cd20c",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 922052,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700031": {
+      "label": "长离CG2医院",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_219.T_SolarSchool_219",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_219.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_219.webp",
+        "sha256": "7e4dbc85d3cc1b8211f9efdc67258ec276fc03d51e41d3a0851b3b2748dae8e8",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 518404,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_219.T_SolarSchool_219",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_219.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_219.webp",
+        "sha256": "7e4dbc85d3cc1b8211f9efdc67258ec276fc03d51e41d3a0851b3b2748dae8e8",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 518404,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700032": {
+      "label": "学生会阵营中期CG2",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_223_b.T_SolarSchool_223_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_223_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_223_b.webp",
+        "sha256": "2330381cf7941455a22c3f974de62d5296e890ca74c49b202e45d40a8245b5ab",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1074610,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_223_a.T_SolarSchool_223_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_223_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_223_a.webp",
+        "sha256": "8e689405444a15b21230ecf0f1deec4bc33d97942dd99f08d9b48c293544504b",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1073404,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700033": {
+      "label": "社联阵营中期CG2",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_224.T_SolarSchool_224",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_224.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_224.webp",
+        "sha256": "ba488e871f3cb993d125f56a54f52d3420156aa4d6ff641fd094ef773d954835",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1248184,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_224.T_SolarSchool_224",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_224.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_224.webp",
+        "sha256": "ba488e871f3cb993d125f56a54f52d3420156aa4d6ff641fd094ef773d954835",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1248184,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700034": {
+      "label": "菲比校庆独唱",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_225.T_SolarSchool_225",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_225.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_225.webp",
+        "sha256": "1099405da4262ed2fe92f82eb5c85c49245aa4871433cc1fbd9589f5572863e3",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 910586,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_225.T_SolarSchool_225",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_225.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_225.webp",
+        "sha256": "1099405da4262ed2fe92f82eb5c85c49245aa4871433cc1fbd9589f5572863e3",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 910586,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700042": {
+      "label": "社联1",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_105_b.T_SolarSchool_105_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_105_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_105_b.webp",
+        "sha256": "1994495fe2cd5247365abe6447b2869186c1ac3eafb0112a5e742440e1b48275",
+        "width": 1500,
+        "height": 900,
+        "bytes": 611038,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_105_a.T_SolarSchool_105_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_105_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_105_a.webp",
+        "sha256": "6ee903bde3840e43a3f3869abfc373cba48fed2236c333cf6da3facb57e1243b",
+        "width": 1500,
+        "height": 900,
+        "bytes": 610694,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700043": {
+      "label": "社联2",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_106.T_SolarSchool_106",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_106.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_106.webp",
+        "sha256": "64543deb23b5dea9b3cb857c74276b14318b8e195e9c8d17c2af9f20d74a4c2a",
+        "width": 1500,
+        "height": 900,
+        "bytes": 586704,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_106.T_SolarSchool_106",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_106.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_106.webp",
+        "sha256": "64543deb23b5dea9b3cb857c74276b14318b8e195e9c8d17c2af9f20d74a4c2a",
+        "width": 1500,
+        "height": 900,
+        "bytes": 586704,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700044": {
+      "label": "理事会1",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_107.T_SolarSchool_107",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_107.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_107.webp",
+        "sha256": "eb6cb233fd330405cffc4eca37b2b87d2d6aa61db38efb913b9693ecb67d08ce",
+        "width": 1500,
+        "height": 900,
+        "bytes": 574746,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_107.T_SolarSchool_107",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_107.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_107.webp",
+        "sha256": "eb6cb233fd330405cffc4eca37b2b87d2d6aa61db38efb913b9693ecb67d08ce",
+        "width": 1500,
+        "height": 900,
+        "bytes": 574746,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700045": {
+      "label": "理事会2",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_108.T_SolarSchool_108",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_108.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_108.webp",
+        "sha256": "e2b1aa7e12715d5b35b02348de9c0dc9f55ecccdc03772cbad35a3d23dff6de4",
+        "width": 1500,
+        "height": 900,
+        "bytes": 568694,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_108.T_SolarSchool_108",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_108.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_108.webp",
+        "sha256": "e2b1aa7e12715d5b35b02348de9c0dc9f55ecccdc03772cbad35a3d23dff6de4",
+        "width": 1500,
+        "height": 900,
+        "bytes": 568694,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700046": {
+      "label": "千咲个人线",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_114_b.T_SolarSchool_114_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_114_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_114_b.webp",
+        "sha256": "6404021950b18f954f7538cbc9171656c6eea78554cdad397ca0b6a05c8a94f7",
+        "width": 1500,
+        "height": 900,
+        "bytes": 580366,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_114_a.T_SolarSchool_114_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_114_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_114_a.webp",
+        "sha256": "9d9d72020b05e137ab05cf1009fc8f369814db2c3a6e69777a0d9bec4d8d9027",
+        "width": 1500,
+        "height": 900,
+        "bytes": 576866,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700047": {
+      "label": "卜灵个人线",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_116_b.T_SolarSchool_116_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_116_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_116_b.webp",
+        "sha256": "96b3cddc27903a0ef38dc5793205257d812511e39d21d48b270221d04b863c19",
+        "width": 1500,
+        "height": 900,
+        "bytes": 549674,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_116_a.T_SolarSchool_116_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_116_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_116_a.webp",
+        "sha256": "7919a672633ac75dc2c34c1a7d38fbd85c4d560d6133cc503bfe63def89a5f5e",
+        "width": 1500,
+        "height": 900,
+        "bytes": 550318,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700048": {
+      "label": "维里奈个人线",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_117_b.T_SolarSchool_117_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_117_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_117_b.webp",
+        "sha256": "85682bbf584a11041a4d3b3d905d3e548d75b31364e1867db8d359208ed7e508",
+        "width": 1500,
+        "height": 900,
+        "bytes": 579952,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_117_a.T_SolarSchool_117_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_117_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_117_a.webp",
+        "sha256": "abcfddeb6cc33c0fe034a264691f9a026e3ac0d3962e3235a0b24eaf8ffbb27c",
+        "width": 1500,
+        "height": 900,
+        "bytes": 574810,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700049": {
+      "label": "嘉贝莉娜个人线",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_118_b.T_SolarSchool_118_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_118_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_118_b.webp",
+        "sha256": "9ed1ac5cec24ac461e012c69ad793e9838fe06112dc162f0747ce2ee6479651a",
+        "width": 1500,
+        "height": 900,
+        "bytes": 586462,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_118_a.T_SolarSchool_118_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_118_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_118_a.webp",
+        "sha256": "d34967da59d655cf46c2cc28a5c912c3ebe43d1a79f5f7dc01e95bd91eebc72d",
+        "width": 1500,
+        "height": 900,
+        "bytes": 585004,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700050": {
+      "label": "相里要个人线",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_119_b.T_SolarSchool_119_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_119_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_119_b.webp",
+        "sha256": "22f54a98d9df7ed063dbe93767929345b4352c9c880411674a8b40838878d867",
+        "width": 1500,
+        "height": 900,
+        "bytes": 583492,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_119_a.T_SolarSchool_119_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_119_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_119_a.webp",
+        "sha256": "1facc332052e5d944533f1a4a3b09780e6f26ead3a522ef8f1b35afc8b63211f",
+        "width": 1500,
+        "height": 900,
+        "bytes": 584200,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700051": {
+      "label": "菲比个人线",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_120_b.T_SolarSchool_120_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_120_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_120_b.webp",
+        "sha256": "9e0a5f6d44f61705e7c400b92e29b3bad00668f3a58dcb9340cc70df504dbdc5",
+        "width": 1500,
+        "height": 900,
+        "bytes": 562506,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_120_a.T_SolarSchool_120_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_120_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_120_a.webp",
+        "sha256": "e12a7572bb8487ddd00f49c604d427a3fef3761c5b0e432a941fba034551ca3e",
+        "width": 1500,
+        "height": 900,
+        "bytes": 560574,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700052": {
+      "label": "相里要主持",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_121_b.T_SolarSchool_121_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_121_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_121_b.webp",
+        "sha256": "1dd24672251b49404000f7024301bdb0016a68d36801d3012f68bea7ed943160",
+        "width": 1500,
+        "height": 900,
+        "bytes": 637640,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_121_b.T_SolarSchool_121_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_121_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_121_b.webp",
+        "sha256": "1dd24672251b49404000f7024301bdb0016a68d36801d3012f68bea7ed943160",
+        "width": 1500,
+        "height": 900,
+        "bytes": 637640,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700054": {
+      "label": "学者结局",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_208_b.T_SolarSchool_208_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_208_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_208_b.webp",
+        "sha256": "94ca3d06a113cb8880d122aac54401968ce7337b292ca145dfa4703a0456ea7d",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 792952,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_208_a.T_SolarSchool_208_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_208_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_208_a.webp",
+        "sha256": "d2c0047f42c7fb1abadbe12800c069522536c193f43a0bdadebda4cfde1de018",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 767580,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700055": {
+      "label": "市长结局",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_213_b.T_SolarSchool_213_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_213_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_213_b.webp",
+        "sha256": "0a910bb61a057d4d9e563eb32c651a94a4b8c5e7bfc53a37fd83224f6373509e",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1275422,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_213_a.T_SolarSchool_213_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_213_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_213_a.webp",
+        "sha256": "ef904c1423377d783f042abe56296b4cda65962b23176402c49168fdcabaead8",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1271364,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700056": {
+      "label": "开学考",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_214.T_SolarSchool_214",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_214.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_214.webp",
+        "sha256": "5766a9d07a2445a0d977f9ede4692f81f0bede3cc778384bba4e8c6759bffab4",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 928912,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_214.T_SolarSchool_214",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_214.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_214.webp",
+        "sha256": "5766a9d07a2445a0d977f9ede4692f81f0bede3cc778384bba4e8c6759bffab4",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 928912,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700057": {
+      "label": "长离虚弱",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_215.T_SolarSchool_215",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_215.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_215.webp",
+        "sha256": "803f519afec6ae8c4d7749cacea69bd67afd8c3c4ae26d9b9451762f97537a75",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 723630,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_215.T_SolarSchool_215",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_215.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_215.webp",
+        "sha256": "803f519afec6ae8c4d7749cacea69bd67afd8c3c4ae26d9b9451762f97537a75",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 723630,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700058": {
+      "label": "火锅八人（不带漂泊者）",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222_2.T_SolarSchool_222_2",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222_2.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222_2.webp",
+        "sha256": "b58bd5f85a88ade6f043945643f870b0acf27e0439013b5946faa9bdce6ae80d",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1108430,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222_2.T_SolarSchool_222_2",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222_2.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222_2.webp",
+        "sha256": "b58bd5f85a88ade6f043945643f870b0acf27e0439013b5946faa9bdce6ae80d",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1108430,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700059": {
+      "label": "洛可可个人线",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_113_b.T_SolarSchool_113_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_113_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_113_b.webp",
+        "sha256": "7e0fad6a4286325962670a706f5b9af19bad940bbdaf862933ad96d787399eef",
+        "width": 1500,
+        "height": 900,
+        "bytes": 524938,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_113_a.T_SolarSchool_113_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_113_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_113_a.webp",
+        "sha256": "fcc631b81298218cdbc911f90e7207fca5e185ad6b7083179c2c142f25128580",
+        "width": 1500,
+        "height": 900,
+        "bytes": 526828,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700060": {
+      "label": "夏空个人线",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_115_b.T_SolarSchool_115_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_115_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_115_b.webp",
+        "sha256": "7244ba11a4fb72098f8eeab7f8178bbb886230ccfae256f12452662a7fbf7908",
+        "width": 1500,
+        "height": 900,
+        "bytes": 565494,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_115_a.T_SolarSchool_115_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_115_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_115_a.webp",
+        "sha256": "de3298dffca4ecfd1ee39d334bc41cba62a1646282d5e09fca62c89bdcfa2c4b",
+        "width": 1500,
+        "height": 900,
+        "bytes": 601170,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700063": {
+      "label": "相里要喇叭差分",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_121_a.T_SolarSchool_121_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_121_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_121_a.webp",
+        "sha256": "403ea567d752794bcc9815be87da399c5f6747efa0133e9bdd985c733324b1ff",
+        "width": 1500,
+        "height": 900,
+        "bytes": 637616,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_121_a.T_SolarSchool_121_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_121_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_121_a.webp",
+        "sha256": "403ea567d752794bcc9815be87da399c5f6747efa0133e9bdd985c733324b1ff",
+        "width": 1500,
+        "height": 900,
+        "bytes": 637616,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700064": {
+      "label": "弗洛logo",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1001.T_SolarSchool_A1001",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1001.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1001.webp",
+        "sha256": "4881155bfdbdf3d8d4ed7a12f86fbda2c62405d532a8632112d66794f3f8ea0d",
+        "width": 1500,
+        "height": 900,
+        "bytes": 144780,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1001.T_SolarSchool_A1001",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1001.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1001.webp",
+        "sha256": "4881155bfdbdf3d8d4ed7a12f86fbda2c62405d532a8632112d66794f3f8ea0d",
+        "width": 1500,
+        "height": 900,
+        "bytes": 144780,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700065": {
+      "label": "物流logo",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1002.T_SolarSchool_A1002",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1002.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1002.webp",
+        "sha256": "e6b1f4830d0fb675797a74d2c1e9d4f5683338fe4de2e2c0debddec30cc401a5",
+        "width": 1500,
+        "height": 900,
+        "bytes": 148030,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1002.T_SolarSchool_A1002",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1002.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1002.webp",
+        "sha256": "e6b1f4830d0fb675797a74d2c1e9d4f5683338fe4de2e2c0debddec30cc401a5",
+        "width": 1500,
+        "height": 900,
+        "bytes": 148030,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700066": {
+      "label": "秧秧简画",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1003.T_SolarSchool_A1003",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1003.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1003.webp",
+        "sha256": "e92a2ca4d5b511993958f9976567508852c9a0f54d33ff906db1f19c730d76a3",
+        "width": 1500,
+        "height": 900,
+        "bytes": 164792,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1003.T_SolarSchool_A1003",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1003.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1003.webp",
+        "sha256": "e92a2ca4d5b511993958f9976567508852c9a0f54d33ff906db1f19c730d76a3",
+        "width": 1500,
+        "height": 900,
+        "bytes": 164792,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700067": {
+      "label": "简画2",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1004.T_SolarSchool_A1004",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1004.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1004.webp",
+        "sha256": "33c9dc83a8da0636d021167606a5ba74d797a458691677a8d2e20fbc3fe9b09f",
+        "width": 1500,
+        "height": 900,
+        "bytes": 112206,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1004.T_SolarSchool_A1004",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1004.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1004.webp",
+        "sha256": "33c9dc83a8da0636d021167606a5ba74d797a458691677a8d2e20fbc3fe9b09f",
+        "width": 1500,
+        "height": 900,
+        "bytes": 112206,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700068": {
+      "label": "秧秧pv",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1005.T_SolarSchool_A1005",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1005.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1005.webp",
+        "sha256": "9815395fd4b67a20149ee2ca296d0657148b1b0860154349cc65127aea63af68",
+        "width": 1500,
+        "height": 900,
+        "bytes": 177976,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1005.T_SolarSchool_A1005",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1005.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1005.webp",
+        "sha256": "9815395fd4b67a20149ee2ca296d0657148b1b0860154349cc65127aea63af68",
+        "width": 1500,
+        "height": 900,
+        "bytes": 177976,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700069": {
+      "label": "pv2",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1006.T_SolarSchool_A1006",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1006.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1006.webp",
+        "sha256": "57a7aa5e21592e5f2aac532588e2d2faed50315b997c808493ec3eb193d4eca2",
+        "width": 1500,
+        "height": 900,
+        "bytes": 189866,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1006.T_SolarSchool_A1006",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1006.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1006.webp",
+        "sha256": "57a7aa5e21592e5f2aac532588e2d2faed50315b997c808493ec3eb193d4eca2",
+        "width": 1500,
+        "height": 900,
+        "bytes": 189866,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700071": {
+      "label": "四个物品",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1007.T_SolarSchool_A1007",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1007.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1007.webp",
+        "sha256": "a92ea0fe63bdedb2b67a1ddc8dd3fe689557bc914f6bd18232c5425547787963",
+        "width": 1500,
+        "height": 900,
+        "bytes": 227126,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1007.T_SolarSchool_A1007",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1007.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1007.webp",
+        "sha256": "a92ea0fe63bdedb2b67a1ddc8dd3fe689557bc914f6bd18232c5425547787963",
+        "width": 1500,
+        "height": 900,
+        "bytes": 227126,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700072": {
+      "label": "三个物品",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1008.T_SolarSchool_A1008",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1008.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1008.webp",
+        "sha256": "fe5d93ee4277d1e37481d1c1d4b4c3c568e2b5aa7d031ce084c6741de3ab737b",
+        "width": 1500,
+        "height": 900,
+        "bytes": 248236,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1008.T_SolarSchool_A1008",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1008.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1008.webp",
+        "sha256": "fe5d93ee4277d1e37481d1c1d4b4c3c568e2b5aa7d031ce084c6741de3ab737b",
+        "width": 1500,
+        "height": 900,
+        "bytes": 248236,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700073": {
+      "label": "饮品",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1009.T_SolarSchool_A1009",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1009.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1009.webp",
+        "sha256": "3b5d449095496a4b6f29ab99020499b57472d97aa1da80fa0bab9c441a2c0af0",
+        "width": 1500,
+        "height": 900,
+        "bytes": 171376,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1009.T_SolarSchool_A1009",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1009.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1009.webp",
+        "sha256": "3b5d449095496a4b6f29ab99020499b57472d97aa1da80fa0bab9c441a2c0af0",
+        "width": 1500,
+        "height": 900,
+        "bytes": 171376,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700074": {
+      "label": "饼干",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1010.T_SolarSchool_A1010",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1010.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1010.webp",
+        "sha256": "4e7a68138d510fe0449f7f2e146704fa29bcee1147efcd5dc84c0c4e62353162",
+        "width": 1500,
+        "height": 900,
+        "bytes": 171580,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1010.T_SolarSchool_A1010",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1010.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1010.webp",
+        "sha256": "4e7a68138d510fe0449f7f2e146704fa29bcee1147efcd5dc84c0c4e62353162",
+        "width": 1500,
+        "height": 900,
+        "bytes": 171580,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700075": {
+      "label": "三个波仔",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A2010.T_SolarSchool_A2010",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A2010.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A2010.webp",
+        "sha256": "19965265c8bb26036cb5f354174167993e28d457c0023fbace18f534e64e8961",
+        "width": 1500,
+        "height": 900,
+        "bytes": 193432,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A2010.T_SolarSchool_A2010",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A2010.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A2010.webp",
+        "sha256": "19965265c8bb26036cb5f354174167993e28d457c0023fbace18f534e64e8961",
+        "width": 1500,
+        "height": 900,
+        "bytes": 193432,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700076": {
+      "label": "一个波仔",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A2011.T_SolarSchool_A2011",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A2011.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A2011.webp",
+        "sha256": "d3ada3116a2f201685e87c61f96cde629ac30046a3fc71df361ed39e833b43fe",
+        "width": 1500,
+        "height": 900,
+        "bytes": 150610,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A2011.T_SolarSchool_A2011",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A2011.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A2011.webp",
+        "sha256": "d3ada3116a2f201685e87c61f96cde629ac30046a3fc71df361ed39e833b43fe",
+        "width": 1500,
+        "height": 900,
+        "bytes": 150610,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700077": {
+      "label": "火锅派对所有人",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222_5_b.T_SolarSchool_222_5_b",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222_5_b.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222_5_b.webp",
+        "sha256": "0944d7bb3c5bb2a05434cdfeaf436e140e7ac25a3f8229b33795240cf11baa51",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1096014,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222_5_a.T_SolarSchool_222_5_a",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222_5_a.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222_5_a.webp",
+        "sha256": "d6d53c93eb7fed51eb22e893fa61fcefc7fa4167773c1e6f6f5bfa90aea3d829",
+        "width": 3200,
+        "height": 1440,
+        "bytes": 1096104,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    },
+    "700079": {
+      "label": "鬼屋背景",
+      "female": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A5005.T_SolarSchool_A5005",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A5005.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A5005.webp",
+        "sha256": "e079eb4235314753f65dc37e287a2dcf25fb131185ad3c3a26b4c11fc2f8ed5d",
+        "width": 1500,
+        "height": 900,
+        "bytes": 506214,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "male": {
+        "sourceRef": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A5005.T_SolarSchool_A5005",
+        "repositoryPath": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A5005.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A5005.webp",
+        "sha256": "e079eb4235314753f65dc37e287a2dcf25fb131185ad3c3a26b4c11fc2f8ed5d",
+        "width": 1500,
+        "height": 900,
+        "bytes": 506214,
+        "validation": "exact-local-path-and-webp-header"
+      },
+      "maleUsesBase": false
+    }
+  },
+  "quizzes": {
+    "1": {
+      "label": "SolarSchool_Examtitle_1",
+      "question": {
+        "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2001.T_IconSolarSchoolExam2001",
+        "repositoryPath": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2001.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2001.webp",
+        "sha256": "50bf8ebf585746833fd4a4692eab39616df1bc317be4ee5461da6442d97296a4",
+        "width": 844,
+        "height": 364,
+        "bytes": 139544,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "10": {
+      "label": "SolarSchool_Examtitle_4",
+      "question": {
+        "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2006.T_IconSolarSchoolExam2006",
+        "repositoryPath": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2006.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2006.webp",
+        "sha256": "edf8c9ecad9f5a1e07c4b8e0df7924fa2222440c3868cc76f1a6dc3663e25332",
+        "width": 844,
+        "height": 364,
+        "bytes": 195150,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "11": {
+      "label": "SolarSchool_Examtitle_4",
+      "question": {
+        "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2007.T_IconSolarSchoolExam2007",
+        "repositoryPath": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2007.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2007.webp",
+        "sha256": "3812b15496027ab879c8b3d3946644425d0914676d650da60bbc9dcd002fcda4",
+        "width": 844,
+        "height": 364,
+        "bytes": 136632,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "12": {
+      "label": "SolarSchool_Examtitle_4",
+      "question": {
+        "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2003.T_IconSolarSchoolExam2003",
+        "repositoryPath": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2003.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2003.webp",
+        "sha256": "3b13ed42c0af6fdc68d9f77fb88498393f0b1bd553740f23d3bd04d1135afc99",
+        "width": 844,
+        "height": 364,
+        "bytes": 87666,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "13": {
+      "label": "SolarSchool_Examtitle_5",
+      "question": {
+        "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2005.T_IconSolarSchoolExam2005",
+        "repositoryPath": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2005.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2005.webp",
+        "sha256": "47b04a638ae4e05316effc40831466b56688154b73f247b601014775ff309405",
+        "width": 844,
+        "height": 364,
+        "bytes": 135362,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "14": {
+      "label": "SolarSchool_Examtitle_5",
+      "question": {
+        "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2001.T_IconSolarSchoolExam2001",
+        "repositoryPath": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2001.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2001.webp",
+        "sha256": "50bf8ebf585746833fd4a4692eab39616df1bc317be4ee5461da6442d97296a4",
+        "width": 844,
+        "height": 364,
+        "bytes": 139544,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "15": {
+      "label": "SolarSchool_Examtitle_6",
+      "question": {
+        "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2003.T_IconSolarSchoolExam2003",
+        "repositoryPath": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2003.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2003.webp",
+        "sha256": "3b13ed42c0af6fdc68d9f77fb88498393f0b1bd553740f23d3bd04d1135afc99",
+        "width": 844,
+        "height": 364,
+        "bytes": 87666,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "16": {
+      "label": "SolarSchool_Examtitle_6",
+      "question": {
+        "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2007.T_IconSolarSchoolExam2007",
+        "repositoryPath": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2007.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2007.webp",
+        "sha256": "3812b15496027ab879c8b3d3946644425d0914676d650da60bbc9dcd002fcda4",
+        "width": 844,
+        "height": 364,
+        "bytes": 136632,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "2": {
+      "label": "SolarSchool_Examtitle_1",
+      "question": {
+        "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2002.T_IconSolarSchoolExam2002",
+        "repositoryPath": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2002.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2002.webp",
+        "sha256": "5de5576457af8e125b1e3013b390545660780b59421e66756e7c0a947312106e",
+        "width": 844,
+        "height": 364,
+        "bytes": 99636,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "3": {
+      "label": "SolarSchool_Examtitle_1",
+      "question": {
+        "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2005.T_IconSolarSchoolExam2005",
+        "repositoryPath": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2005.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2005.webp",
+        "sha256": "47b04a638ae4e05316effc40831466b56688154b73f247b601014775ff309405",
+        "width": 844,
+        "height": 364,
+        "bytes": 135362,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "4": {
+      "label": "SolarSchool_Examtitle_2",
+      "question": {
+        "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2003.T_IconSolarSchoolExam2003",
+        "repositoryPath": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2003.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2003.webp",
+        "sha256": "3b13ed42c0af6fdc68d9f77fb88498393f0b1bd553740f23d3bd04d1135afc99",
+        "width": 844,
+        "height": 364,
+        "bytes": 87666,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "5": {
+      "label": "SolarSchool_Examtitle_2",
+      "question": {
+        "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2006.T_IconSolarSchoolExam2006",
+        "repositoryPath": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2006.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2006.webp",
+        "sha256": "edf8c9ecad9f5a1e07c4b8e0df7924fa2222440c3868cc76f1a6dc3663e25332",
+        "width": 844,
+        "height": 364,
+        "bytes": 195150,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "6": {
+      "label": "SolarSchool_Examtitle_2",
+      "question": {
+        "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2007.T_IconSolarSchoolExam2007",
+        "repositoryPath": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2007.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2007.webp",
+        "sha256": "3812b15496027ab879c8b3d3946644425d0914676d650da60bbc9dcd002fcda4",
+        "width": 844,
+        "height": 364,
+        "bytes": 136632,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "7": {
+      "label": "SolarSchool_Examtitle_3",
+      "question": {
+        "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2001.T_IconSolarSchoolExam2001",
+        "repositoryPath": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2001.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2001.webp",
+        "sha256": "50bf8ebf585746833fd4a4692eab39616df1bc317be4ee5461da6442d97296a4",
+        "width": 844,
+        "height": 364,
+        "bytes": 139544,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "8": {
+      "label": "SolarSchool_Examtitle_3",
+      "question": {
+        "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2002.T_IconSolarSchoolExam2002",
+        "repositoryPath": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2002.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2002.webp",
+        "sha256": "5de5576457af8e125b1e3013b390545660780b59421e66756e7c0a947312106e",
+        "width": 844,
+        "height": 364,
+        "bytes": 99636,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    },
+    "9": {
+      "label": "SolarSchool_Examtitle_3",
+      "question": {
+        "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2005.T_IconSolarSchoolExam2005",
+        "repositoryPath": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2005.webp",
+        "status": "ready",
+        "localPath": "media/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2005.webp",
+        "sha256": "47b04a638ae4e05316effc40831466b56688154b73f247b601014775ff309405",
+        "width": 844,
+        "height": 364,
+        "bytes": 135362,
+        "validation": "exact-local-path-and-webp-header"
+      }
+    }
+  },
+  "report": {
+    "uniqueReferencedFiles": 142,
+    "readyFiles": 142
+  }
+}

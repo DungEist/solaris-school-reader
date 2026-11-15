@@ -1,0 +1,19 @@
+{
+ "schema": 2,
+ "activityId": 111700001,
+ "titleKey": "Activity_111700001_Title",
+ "source": {
+  "gameVersion": "3.8.0",
+  "resVersion": "3.8.6",
+  "changelist": 9383927
+ },
+ "defaultLocale": "en",
+ "locales": [
+  "en"
+ ],
+ "scripts": "scripts.index.json",
+ "endings": "maps/endings.json",
+ "story": "maps/story-graph.json",
+ "assets": "assets.manifest.json",
+ "report": "build-report.json"
+}

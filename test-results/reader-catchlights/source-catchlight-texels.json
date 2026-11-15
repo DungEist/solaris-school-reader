@@ -1,0 +1,322 @@
+{
+  "result": "PASS",
+  "method": "Actual serving atlas texels selected by the parsed Spine mesh UV triangles; alpha >=32, white RGB channels >=180 with spread <=80.",
+  "scope": "Confirms white texels in the source catchlight cutouts. Animation classification remains the independent iris-relative native-mesh audit.",
+  "textureCount": 12,
+  "uniqueCatchlightCutouts": 13,
+  "contactSheet": "test-results/reader-catchlights/source-catchlight-uv-contact-sheet.png",
+  "checks": [
+    {
+      "character": "abby",
+      "slot": "01_A_\u9ad8\u5149",
+      "attachment": "01_A_\u9ad8\u5149",
+      "atlasRegion": "01_A_\u9ad8\u5149",
+      "firstExpression": 700006,
+      "texturePath": "public/assets/solarschool/characters/abby/SolarSchool_Abu.png",
+      "textureSha256": "d4f2ce52f56ffba7f4188e564dac13393abe88f4864425fc411f1b6aa4a83c08",
+      "sourceUvBoundsPixels": [
+        3583,
+        2717,
+        4078,
+        2859
+      ],
+      "uvMaskedVisibleTexels": 3965,
+      "uvMaskedWhiteTexels": 3953,
+      "whiteFractionOfVisibleTexels": 0.9969735182849937,
+      "whiteTexelBoundsPixels": [
+        3586,
+        2719,
+        4075,
+        2854
+      ]
+    },
+    {
+      "character": "cartethyia",
+      "slot": "\u6b63\u5e38\u5de6\u773c_6",
+      "attachment": "\u6b63\u5e38\u5de6\u773c_6",
+      "atlasRegion": "\u6b63\u5e38\u5de6\u773c_6",
+      "firstExpression": 700001,
+      "texturePath": "public/assets/solarschool/characters/cartethyia/SolarSchool_Katixiya.webp",
+      "textureSha256": "f18d1394aa5434ca9cab38d48a08cd231d0d89d3495a0faf3de05f72548396f3",
+      "sourceUvBoundsPixels": [
+        92,
+        3936,
+        108,
+        3950
+      ],
+      "uvMaskedVisibleTexels": 141,
+      "uvMaskedWhiteTexels": 63,
+      "whiteFractionOfVisibleTexels": 0.44680851063829785,
+      "whiteTexelBoundsPixels": [
+        95,
+        3938,
+        105,
+        3945
+      ]
+    },
+    {
+      "character": "cartethyia",
+      "slot": "\u6b63\u5e38\u53f3\u773c_8",
+      "attachment": "\u6b63\u5e38\u53f3\u773c_8",
+      "atlasRegion": "\u6b63\u5e38\u53f3\u773c_8",
+      "firstExpression": 700001,
+      "texturePath": "public/assets/solarschool/characters/cartethyia/SolarSchool_Katixiya.webp",
+      "textureSha256": "f18d1394aa5434ca9cab38d48a08cd231d0d89d3495a0faf3de05f72548396f3",
+      "sourceUvBoundsPixels": [
+        2,
+        3906,
+        18,
+        3922
+      ],
+      "uvMaskedVisibleTexels": 161,
+      "uvMaskedWhiteTexels": 62,
+      "whiteFractionOfVisibleTexels": 0.38509316770186336,
+      "whiteTexelBoundsPixels": [
+        5,
+        3909,
+        14,
+        3917
+      ]
+    },
+    {
+      "character": "shorekeeper",
+      "slot": "A_eye_\u9ad8\u4eae",
+      "attachment": "A_eye_\u9ad8\u4eae",
+      "atlasRegion": "A_eye_\u9ad8\u4eae",
+      "firstExpression": 700088,
+      "texturePath": "public/assets/solarschool/characters/shorekeeper/SolarSchool_Shouanren.webp",
+      "textureSha256": "114659bcf60cd2afddb518e46f9333eb8b152fcb82790e172c37930225a0142a",
+      "sourceUvBoundsPixels": [
+        2202,
+        1907,
+        2404,
+        1966
+      ],
+      "uvMaskedVisibleTexels": 199,
+      "uvMaskedWhiteTexels": 181,
+      "whiteFractionOfVisibleTexels": 0.9095477386934674,
+      "whiteTexelBoundsPixels": [
+        2203,
+        1909,
+        2401,
+        1965
+      ]
+    },
+    {
+      "character": "phoebe",
+      "slot": "eye_\u9ad8\u4eae",
+      "attachment": "eye_\u9ad8\u4eae",
+      "atlasRegion": "eye_\u9ad8\u4eae",
+      "firstExpression": 700005,
+      "texturePath": "public/assets/solarschool/characters/phoebe/SolarSchool_Feibi.webp",
+      "textureSha256": "1b6065845ba32b3437fb295823e5f72208c0da9f8b60e043cf9c588a5bd5a56a",
+      "sourceUvBoundsPixels": [
+        418,
+        3535,
+        607,
+        3569
+      ],
+      "uvMaskedVisibleTexels": 189,
+      "uvMaskedWhiteTexels": 144,
+      "whiteFractionOfVisibleTexels": 0.7619047619047619,
+      "whiteTexelBoundsPixels": [
+        419,
+        3536,
+        604,
+        3567
+      ]
+    },
+    {
+      "character": "buling",
+      "slot": "eye_\u9ad8\u4eae",
+      "attachment": "eye_\u9ad8\u4eae",
+      "atlasRegion": "eye_\u9ad8\u4eae",
+      "firstExpression": 700011,
+      "texturePath": "public/assets/solarschool/characters/buling/SolarSchool_Buling.webp",
+      "textureSha256": "0064b25626aa1614d587dc68307ebefe5251a91a1d7868193bae4ff87050c35e",
+      "sourceUvBoundsPixels": [
+        1277,
+        3675,
+        1623,
+        3783
+      ],
+      "uvMaskedVisibleTexels": 682,
+      "uvMaskedWhiteTexels": 451,
+      "whiteFractionOfVisibleTexels": 0.6612903225806451,
+      "whiteTexelBoundsPixels": [
+        1281,
+        3681,
+        1617,
+        3776
+      ]
+    },
+    {
+      "character": "roccia",
+      "slot": "A_\u9ad8\u4eae",
+      "attachment": "A_\u9ad8\u4eae",
+      "atlasRegion": "A_\u9ad8\u4eae",
+      "firstExpression": 700004,
+      "texturePath": "public/assets/solarschool/characters/roccia/SolarSchool_Luokeke.webp",
+      "textureSha256": "2f860f64513f9a71050fe698432a74d4e35c5bddc4d2bce77dfe586295ae06c3",
+      "sourceUvBoundsPixels": [
+        140,
+        2532,
+        492,
+        2648
+      ],
+      "uvMaskedVisibleTexels": 1042,
+      "uvMaskedWhiteTexels": 994,
+      "whiteFractionOfVisibleTexels": 0.9539347408829175,
+      "whiteTexelBoundsPixels": [
+        142,
+        2534,
+        490,
+        2644
+      ]
+    },
+    {
+      "character": "verina",
+      "slot": "A_03_\u9ad8\u4eae",
+      "attachment": "A_03_\u9ad8\u4eae",
+      "atlasRegion": "A_03_\u9ad8\u4eae",
+      "firstExpression": 700136,
+      "texturePath": "public/assets/solarschool/characters/verina/SolarSchool_Weilinai.webp",
+      "textureSha256": "39fca21c94831fa3feeb16a4aa76dc0d077378e5f6a2c3b065f1f651656966b9",
+      "sourceUvBoundsPixels": [
+        1166,
+        667,
+        1413,
+        700
+      ],
+      "uvMaskedVisibleTexels": 771,
+      "uvMaskedWhiteTexels": 722,
+      "whiteFractionOfVisibleTexels": 0.9364461738002594,
+      "whiteTexelBoundsPixels": [
+        1167,
+        668,
+        1412,
+        697
+      ]
+    },
+    {
+      "character": "rover-male",
+      "slot": "01_\u9ad8\u4eae",
+      "attachment": "01_\u9ad8\u4eae",
+      "atlasRegion": "01_\u9ad8\u4eae",
+      "firstExpression": 700012,
+      "texturePath": "public/assets/solarschool/characters/rover-male/SolarSchool_Male.webp",
+      "textureSha256": "555889e0840bad8a9c054808ae1d165aa99b180073786bc507c2ea3043725806",
+      "sourceUvBoundsPixels": [
+        1259,
+        2216,
+        1318,
+        2388
+      ],
+      "uvMaskedVisibleTexels": 205,
+      "uvMaskedWhiteTexels": 46,
+      "whiteFractionOfVisibleTexels": 0.22439024390243903,
+      "whiteTexelBoundsPixels": [
+        1264,
+        2221,
+        1312,
+        2382
+      ]
+    },
+    {
+      "character": "rover-female",
+      "slot": "eye_\u9ad8\u4eae",
+      "attachment": "eye_\u9ad8\u4eae",
+      "atlasRegion": "eye_\u9ad8\u4eae",
+      "firstExpression": 700052,
+      "texturePath": "public/assets/solarschool/characters/rover-female/SolarSchool_Female.webp",
+      "textureSha256": "500673fbde6a00fe90bbff194c5e9791d31bd2a39f6070d86724c276f1327ce5",
+      "sourceUvBoundsPixels": [
+        64,
+        3721,
+        214,
+        3757
+      ],
+      "uvMaskedVisibleTexels": 90,
+      "uvMaskedWhiteTexels": 90,
+      "whiteFractionOfVisibleTexels": 1.0,
+      "whiteTexelBoundsPixels": [
+        65,
+        3722,
+        212,
+        3755
+      ]
+    },
+    {
+      "character": "xiangli-yao",
+      "slot": "A_\u9ad8\u4eae",
+      "attachment": "A_\u9ad8\u4eae",
+      "atlasRegion": "A_\u9ad8\u4eae",
+      "firstExpression": 700007,
+      "texturePath": "public/assets/solarschool/characters/xiangli-yao/SolarSchool_Xiangliyao.webp",
+      "textureSha256": "dfddf25491d719026a7a7444cfb7ad465a28502ccfe45c31243ff1591b6e9972",
+      "sourceUvBoundsPixels": [
+        126,
+        3112,
+        370,
+        3180
+      ],
+      "uvMaskedVisibleTexels": 188,
+      "uvMaskedWhiteTexels": 188,
+      "whiteFractionOfVisibleTexels": 1.0,
+      "whiteTexelBoundsPixels": [
+        127,
+        3114,
+        367,
+        3177
+      ]
+    },
+    {
+      "character": "galbrena",
+      "slot": "A_\u9ad8\u5149 EX",
+      "attachment": "A_\u9ad8\u5149 EX",
+      "atlasRegion": "A_\u9ad8\u5149 EX",
+      "firstExpression": 700166,
+      "texturePath": "public/assets/solarschool/characters/galbrena/SolarSchool_Jiabeilina.webp",
+      "textureSha256": "a694aeaf6ac959853ea170ddd1cb1ad33c706c9e1d75401c2b8ea8b2c67da49a",
+      "sourceUvBoundsPixels": [
+        965,
+        29,
+        1255,
+        136
+      ],
+      "uvMaskedVisibleTexels": 264,
+      "uvMaskedWhiteTexels": 264,
+      "whiteFractionOfVisibleTexels": 1.0,
+      "whiteTexelBoundsPixels": [
+        967,
+        32,
+        1251,
+        133
+      ]
+    },
+    {
+      "character": "ciaccona",
+      "slot": "A_\u9ad8\u4eae",
+      "attachment": "A_\u9ad8\u4eae",
+      "atlasRegion": "A_\u9ad8\u4eae",
+      "firstExpression": 700061,
+      "texturePath": "public/assets/solarschool/characters/ciaccona/SolarSchool_Xiakong.webp",
+      "textureSha256": "1c30c667913a607c87d338a041b41a934333b6f6a3e3a24aee75445afef0ed57",
+      "sourceUvBoundsPixels": [
+        811,
+        261,
+        1079,
+        310
+      ],
+      "uvMaskedVisibleTexels": 272,
+      "uvMaskedWhiteTexels": 256,
+      "whiteFractionOfVisibleTexels": 0.9411764705882353,
+      "whiteTexelBoundsPixels": [
+        812,
+        262,
+        1077,
+        309
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "talkerId": 700012,
+  "name": "Verina",
+  "skeletonVersion": "4.1.23",
+  "sourceAtlas": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Weilinai/SolarSchool_Weilinai.SolarSchool_Weilinai-atlas",
+  "sourceSkeleton": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Weilinai/SolarSchool_Weilinai.SolarSchool_Weilinai-data",
+  "sourceArchive": "/game/SteamLibrary/steamapps/common/Wuthering Waves/Wuthering Waves Game/Client/Content/Paks/pakchunk7-WindowsNoEditor.pak",
+  "members": [
+    "../../../Client/Content/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Weilinai/SolarSchool_Weilinai.uasset",
+    "../../../Client/Content/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Weilinai/SolarSchool_Weilinai.uexp"
+  ],
+  "archiveIndexHashes": {
+    "primary_index_sha1": "9a1e5dbec896904f03bc7f0858c78065b5f9d36b",
+    "directory_index_sha1": "3f4cd33025cfe669d7373b582ed319966b503628"
+  },
+  "extractionHelpers": "/tmp/solarschool-changli-inspection-NKHWT5",
+  "helperHashes": {
+    "inspect_changli.py": "f529926159db8012b5d36758cb150fbccdf77a2790246e5bd04856f1f3ac43f5",
+    "extract_changli.py": "e55a20c0d10aa14c7aafa0ae119cbad51b202814933ccee6fdf58fb3e3071ad0",
+    "inspect_spine_package.py": "fbafa1ef6bbbbb14dc3875465f3fed91d704e1ffda9e2f0b4cdaf1b40aa3278e"
+  },
+  "runtime": {
+    "file": "../changli/spine-player.js",
+    "version": "4.1.56",
+    "license": "../changli/SPINE-LICENSE.txt"
+  },
+  "texture": {
+    "file": "SolarSchool_Weilinai.webp",
+    "sourceWebp": "WW_Asset_Webp/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Weilinai/SolarSchool_Weilinai.webp",
+    "origin": "Existing local WW_Asset_Webp bytes, used directly; not a game texture export",
+    "dimensions": [
+      4096,
+      2048
+    ],
+    "sourceSha256": "39fca21c94831fa3feeb16a4aa76dc0d077378e5f6a2c3b065f1f651656966b9",
+    "atlasPage": "SolarSchool_Weilinai.png",
+    "atlasDimensionsVerified": true,
+    "storage": "hardlink to existing cache"
+  },
+  "placement": "Provisional, fixed reference pose; generated SchoolPortraitCatalog.ts",
+  "sha256": {
+    "SolarSchool_Weilinai.atlas": "de0ed4d02557758241ae798bab82fde3ab7b3e768fd9f415069575cb3164c634",
+    "SolarSchool_Weilinai.skel": "aa00eb4347392e34772e72a0281db1f143fd25ebaf1ff8191f2665f4263b4633",
+    "SolarSchool_Weilinai.webp": "39fca21c94831fa3feeb16a4aa76dc0d077378e5f6a2c3b065f1f651656966b9",
+    "verina.animation-metadata.json": "81573d7b68407598411ceb7e7138ffe6588522f8e1fd6b5a1088abdbd503bd3b"
+  }
+}

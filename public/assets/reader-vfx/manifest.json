@@ -1,0 +1,2320 @@
+{
+  "schema": 1,
+  "source": "Selected installed Wuthering Waves 3.8 prefab/Niagara/material packages; stored SHA1 matched and decoded length verified",
+  "effects": {
+    "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_BUG.UiItem_FxLoop_BUG": {
+      "name": "UiItem_FxLoop_BUG",
+      "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_BUG.UiItem_FxLoop_BUG",
+      "fxType": "Persistent",
+      "status": "resolved",
+      "sourceVerified": true,
+      "behaviorVerified": false,
+      "durationMs": null,
+      "prefab": {
+        "uassetSha256": "8b293e4121463bfc810a476fee5bfbc4a565bdc4164f6597d40dbf7d707226fe",
+        "uexpSha256": "a516d349977605a6cc7fc306141826120d344e5696759003bb8ad36ad547609b"
+      },
+      "imports": [
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxStart_Bug_Close.Ani_UiItem_FxStart_Bug_Close"
+        },
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxStart_Bug_Start.Ani_UiItem_FxStart_Bug_Start"
+        },
+        {
+          "className": "NiagaraSystem",
+          "path": "/Game/Aki/Effect/UI/Niagaras/Events/DaoGuan/NS_Fx_LGUI_DaoGuan_Guzhang01.NS_Fx_LGUI_DaoGuan_Guzhang01"
+        },
+        {
+          "className": "NiagaraSystem",
+          "path": "/Game/Aki/Effect/UI/Niagaras/Pata/NS_Fx_LGUI_NewPata_Guzhang02.NS_Fx_LGUI_NewPata_Guzhang02"
+        },
+        {
+          "className": "NiagaraSystem",
+          "path": "/Game/Aki/Effect/UI/Niagaras/Pata/NS_Fx_LGUI_NewPata_Guzhang05.NS_Fx_LGUI_NewPata_Guzhang05"
+        }
+      ],
+      "limitations": [
+        "Native Niagara particle parameters, material shader processing, and 3D/vertex-animation trajectories are not reproduced or visually verified against original game playback."
+      ],
+      "images": [
+        {
+          "package": "Aki/Effect/UI/Textures/Mask/T_UI_Mask_013",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Mask/T_UI_Mask_013.T_UI_Mask_013",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "2b238af39fcb562ba0ca8f29dab1ba9cbb29637f98c93cd6e1389a212110f874",
+          "nativeUexpSha256": "b43912c8b772b439129631a62f745d1fdbaf4886ceac13318fdff62e0f0f380f",
+          "decodedBc7Sha256": "144d59d9495192e5ded7445a9bd586674ac103daf7dbd6607fe126091f5ecf34",
+          "sha256": "309da59ca05ac6b7ca593247808147742928d35d04ea8af525c52ff4adcd81a0",
+          "file": "T_UI_Mask_013.png",
+          "role": "mask",
+          "columns": 2,
+          "rows": 2,
+          "atlasMode": "variants",
+          "layoutEvidence": {
+            "niagara": "/Game/Aki/Effect/UI/Niagaras/Events/DaoGuan/NS_Fx_LGUI_DaoGuan_Guzhang01.NS_Fx_LGUI_DaoGuan_Guzhang01",
+            "property": "SubImageSize",
+            "uexpOffset": 44608,
+            "material": "/Game/Aki/Effect/UI/Materials/Ins/MI_Glow/MI_UI_Glow_45012.MI_UI_Glow_45012",
+            "parameter": "Base"
+          },
+          "url": "/assets/reader-vfx/T_UI_Mask_013.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Sub/T_UI_Sub_Lizi_002",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Sub/T_UI_Sub_Lizi_002.T_UI_Sub_Lizi_002",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "cdf4bcbdc021594646007d1d582c5524899deb7c5399721ce22c0ad8c5b7ba55",
+          "nativeUexpSha256": "f191412b782e48cf58d241cdcbbf66a09f42298a42387078bd0f037f082a1876",
+          "decodedBc7Sha256": "15c0ea77b6fe1edf5288a9d166f9aac24ce84a36d5a3e0bb0bd532a4a7256e18",
+          "sha256": "20085374eb3bcfbc8419fef2fd0ff8784bfe53d932a8dfef8ca2480302df7a10",
+          "file": "T_UI_Sub_Lizi_002.png",
+          "role": "sprite",
+          "url": "/assets/reader-vfx/T_UI_Sub_Lizi_002.png",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Sub/T_UI_Sub_Switch_26001",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Sub/T_UI_Sub_Switch_26001.T_UI_Sub_Switch_26001",
+          "width": 512,
+          "height": 512,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "cdad10a1e47c01714db2402c2c753197dafc7fa300dc58ff0889a861481d03e3",
+          "nativeUexpSha256": "0da895e843ae60ae4c92add64d59635026bda0f34d5b76dc27312f3803583d48",
+          "decodedBc7Sha256": "508b76de5b44fa7cede5520af91d812f22eb469c9c52b4ea90aa86b77c41d3ed",
+          "sha256": "7f79bccf67d44430a916cdf8054a257ce23d27bb01115081cb061e680523a9b9",
+          "file": "T_UI_Sub_Switch_26001.png",
+          "role": "sprite",
+          "url": "/assets/reader-vfx/T_UI_Sub_Switch_26001.png",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Sub/T_UI_Sub_Switch_26002",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Sub/T_UI_Sub_Switch_26002.T_UI_Sub_Switch_26002",
+          "width": 512,
+          "height": 512,
+          "mode": "RGBA",
+          "alpha": false,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "74220139720a58ad22ea7e91b1bd49e98e426ab3526c9a8f84d1259b4554a3ea",
+          "nativeUexpSha256": "2d5ddd13e79cb78cef17c400cac5360fd96a3eccdbbe23fb897076e0243ad651",
+          "decodedBc7Sha256": "022212571a6936c3cd852525ca7a128ca99a1266f50588f4ee7278c3b8e9e4cc",
+          "sha256": "c4a5bff0836d65e623c8f98cf57b870d698ff928cd512fbc1ce5d78a6d5f1bac",
+          "file": "T_UI_Sub_Switch_26002.png",
+          "role": "sprite",
+          "url": "/assets/reader-vfx/T_UI_Sub_Switch_26002.png",
+          "alphaExtrema": [
+            255,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Tile/T_UI_Tile_028",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Tile/T_UI_Tile_028.T_UI_Tile_028",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "9216c0214a58e18cb393141d77cf7f024518fffc85e034004b44d8b497c0f73e",
+          "nativeUexpSha256": "6aead2dec6368e0a282aab81b69ce044e01e93700a35f2db1d3b45d6d065bb9a",
+          "decodedBc7Sha256": "4024fb65cceb23ef043c2c5682a43d3b8b929b423b672c1b3a303e2d2d95a828",
+          "sha256": "1210de74cf499d470db772b0f03ea324e181c128351535d8e8434aa500a61868",
+          "file": "T_UI_Tile_028.png",
+          "role": "noise",
+          "url": "/assets/reader-vfx/T_UI_Tile_028.png",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Tile/T_UI_Tile_26001",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Tile/T_UI_Tile_26001.T_UI_Tile_26001",
+          "width": 512,
+          "height": 512,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "c8e2c3a1960b4cd846b7f969b3097a2a18cf6fffd4e5073b11e28f3d5138c2bc",
+          "nativeUexpSha256": "f68dfbcd913253cf7fce91bc45603816c424e18d84ca3a746d13eedcb6a4956b",
+          "decodedBc7Sha256": "77cb2a6be751ef85332c883d7aec8f8215b857ba6830d3fadac16b0147b50e43",
+          "sha256": "954c7cdfb783676b9484de54a522202b4a1a14b9e3dc534d46551ff2381fdcc7",
+          "file": "T_UI_Tile_26001.png",
+          "role": "noise",
+          "url": "/assets/reader-vfx/T_UI_Tile_26001.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Tile/T_UI_Tile_90003",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Tile/T_UI_Tile_90003.T_UI_Tile_90003",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "e9d4db243d64c1467d670df4158dd166cfc3cce14b25f661ac4c5603a5a47e93",
+          "nativeUexpSha256": "364c85bc9f626a397c480b53b459cc8e9172cfaa642904743023893097626abc",
+          "decodedBc7Sha256": "b3372ba9dc3de825b7e47ed3d7d7b34fb96dffe9fb0f05122fa3360f05f4c95e",
+          "sha256": "3d303423a7a6590646c4a107cc6bf97a22f1e7b3a4e215ca2612f8d8d392191d",
+          "file": "T_UI_Tile_90003.png",
+          "role": "noise",
+          "url": "/assets/reader-vfx/T_UI_Tile_90003.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Wenli/T_UI_Mosaic_90001",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Wenli/T_UI_Mosaic_90001.T_UI_Mosaic_90001",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "7d434770eed104ed3c1498a1fc9633b5a2534832a8b2f618b9b9b2818a71518c",
+          "nativeUexpSha256": "889e79c8ecf2ac04662c976a3bcd37ca16a92b678546d47895fd0f42bedc2820",
+          "decodedBc7Sha256": "1d84c03cac9bbb6f227711c14972b3552b96e0f718fe466a1582ade3a951d5cf",
+          "sha256": "49b83cf29a0598f9921d89707e1a24fbeef6c12dcae51904537c8b38752519ee",
+          "file": "T_UI_Mosaic_90001.png",
+          "role": "noise",
+          "url": "/assets/reader-vfx/T_UI_Mosaic_90001.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        }
+      ],
+      "primaryImage": "/assets/reader-vfx/T_UI_Sub_Switch_26001.png",
+      "primaryImageRef": "/Game/Aki/Effect/UI/Textures/Sub/T_UI_Sub_Switch_26001.T_UI_Sub_Switch_26001"
+    },
+    "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_Celebrate.UiItem_FxLoop_Celebrate": {
+      "name": "UiItem_FxLoop_Celebrate",
+      "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_Celebrate.UiItem_FxLoop_Celebrate",
+      "fxType": "Persistent",
+      "status": "resolved",
+      "sourceVerified": true,
+      "behaviorVerified": false,
+      "durationMs": null,
+      "prefab": {
+        "uassetSha256": "369c65e6d52b757719a287c1a0b27648aa45333df18cd42b2c536a6d8a9cfa69",
+        "uexpSha256": "7b9486f7313c64e5bb334c0859fcff3cf80ca7936070e0d05c07963dffff24c2"
+      },
+      "imports": [
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxLoop_Celebrate_Close.Ani_UiItem_FxLoop_Celebrate_Close"
+        },
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxLoop_Celebrate_Start.Ani_UiItem_FxLoop_Celebrate_Start"
+        },
+        {
+          "className": "NiagaraSystem",
+          "path": "/Game/Aki/Effect/UI/Niagaras/Events/Backpack/NS_Fx_LGUI_Backpack_Burst6.NS_Fx_LGUI_Backpack_Burst6"
+        },
+        {
+          "className": "NiagaraSystem",
+          "path": "/Game/Aki/Effect/UI/Niagaras/Events/Backpack/NS_Fx_LGUI_Backpack_Caidai.NS_Fx_LGUI_Backpack_Caidai"
+        }
+      ],
+      "limitations": [
+        "Native Niagara particle parameters, material shader processing, and 3D/vertex-animation trajectories are not reproduced or visually verified against original game playback."
+      ],
+      "images": [
+        {
+          "package": "Aki/Effect/UI/Textures/Mask/T_UI_Mask_013",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Mask/T_UI_Mask_013.T_UI_Mask_013",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "2b238af39fcb562ba0ca8f29dab1ba9cbb29637f98c93cd6e1389a212110f874",
+          "nativeUexpSha256": "b43912c8b772b439129631a62f745d1fdbaf4886ceac13318fdff62e0f0f380f",
+          "decodedBc7Sha256": "144d59d9495192e5ded7445a9bd586674ac103daf7dbd6607fe126091f5ecf34",
+          "sha256": "309da59ca05ac6b7ca593247808147742928d35d04ea8af525c52ff4adcd81a0",
+          "file": "T_UI_Mask_013.png",
+          "role": "mask",
+          "columns": 2,
+          "rows": 2,
+          "atlasMode": "variants",
+          "layoutEvidence": {
+            "niagara": "/Game/Aki/Effect/UI/Niagaras/Events/DaoGuan/NS_Fx_LGUI_DaoGuan_Guzhang01.NS_Fx_LGUI_DaoGuan_Guzhang01",
+            "property": "SubImageSize",
+            "uexpOffset": 44608,
+            "material": "/Game/Aki/Effect/UI/Materials/Ins/MI_Glow/MI_UI_Glow_45012.MI_UI_Glow_45012",
+            "parameter": "Base"
+          },
+          "url": "/assets/reader-vfx/T_UI_Mask_013.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Sub/T_Sub_X140009",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Sub/T_Sub_X140009.T_Sub_X140009",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "0f0f950dead5297d96b5c0c5cceddcbbbe4c9fce74cebbe94baa9b895f6897fe",
+          "nativeUexpSha256": "0c4f1e211c1f5d97fc13046ad9bbf826b91291769fa309a3a353eb142bf23726",
+          "decodedBc7Sha256": "a33f58d270eb6b31fcacb279e3d3c00cecaf2183a9c7af34d9491cb3781db910",
+          "sha256": "92fed2903727eed76412bd58ec39a271da858a8aaba2629c0df0875754923749",
+          "file": "T_Sub_X140009.png",
+          "role": "sprite",
+          "columns": 2,
+          "rows": 3,
+          "atlasMode": "variants",
+          "layoutEvidence": {
+            "niagara": "/Game/Aki/Effect/UI/Niagaras/Events/Backpack/NS_Fx_LGUI_Backpack_Caidai.NS_Fx_LGUI_Backpack_Caidai",
+            "property": "SubImageSize",
+            "uexpOffset": 36271,
+            "material": "/Game/Aki/Effect/UI/Materials/Ins/MI_Sub/MI_UI_Sub_Lizi_X140010.MI_UI_Sub_Lizi_X140010",
+            "parameter": "Base"
+          },
+          "url": "/assets/reader-vfx/T_Sub_X140009.png",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Sub/T_UI_Sub_45016",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Sub/T_UI_Sub_45016.T_UI_Sub_45016",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "258784a7cd29f415240129bd36dc703bbe764ffc3632f6ffd67ea94ac1c653b0",
+          "nativeUexpSha256": "346b5ccbb00ddea51b7c52119ca2597db7d9f68da4e806e53dee1e2bb520ba16",
+          "decodedBc7Sha256": "e56e7db98c6974fb1976643f9016b0048d15c6a451008909169bf2fa1a3a73a5",
+          "sha256": "cce53c64b612097a222bd6a66cd70de73b4e2dc1729d6acb7419166d596bd35f",
+          "file": "T_UI_Sub_45016.png",
+          "role": "sprite",
+          "columns": 3,
+          "rows": 3,
+          "atlasMode": "variants",
+          "layoutEvidence": {
+            "niagara": "/Game/Aki/Effect/UI/Niagaras/Events/Backpack/NS_Fx_LGUI_Backpack_Burst6.NS_Fx_LGUI_Backpack_Burst6",
+            "property": "SubImageSize",
+            "uexpOffset": 157370,
+            "material": "/Game/Aki/Effect/UI/Materials/Ins/MI_Sub/MI_UI_Sub_Lizi_45039.MI_UI_Sub_Lizi_45039",
+            "parameter": "Base"
+          },
+          "url": "/assets/reader-vfx/T_UI_Sub_45016.png",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Trail/T_UI_Trail_90005",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Trail/T_UI_Trail_90005.T_UI_Trail_90005",
+          "width": 256,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "ee8085f1c8dd44d3d11b5924809db2f7e224bfe91ac657bd1ee34f752041245c",
+          "nativeUexpSha256": "ef8afca3328d98a7ea2388843cb1ba14f08090689680c6914f04152d670e7bac",
+          "decodedBc7Sha256": "e8009a651cbc325bf7775235da367282feff8484a4c0eb985b17781897e55571",
+          "sha256": "e2333841e316058086f4084dadf3b217c8cbaae44ed52ca182e1a6b6e9b88360",
+          "file": "T_UI_Trail_90005.png",
+          "role": "sprite",
+          "url": "/assets/reader-vfx/T_UI_Trail_90005.png",
+          "alphaExtrema": [
+            0,
+            246
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Trail/T_UI_Trail_90006",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Trail/T_UI_Trail_90006.T_UI_Trail_90006",
+          "width": 256,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "25f0acae4c07a73c9348660bf568ea8e48ee335fcdeefbdabd832af0b3096a3e",
+          "nativeUexpSha256": "788ee573b7e323eaa8643c86aa11bf0298075d4d6f714dfa91aa55e2991553c6",
+          "decodedBc7Sha256": "52ba230ab0f70b7f4eb3bbdc6ba7a22c871e3cfe226bdd9b784389e546636942",
+          "sha256": "557d2245a523762839dd6b8c86e7bb43593146e8bc1c98f7a088a53595955dce",
+          "file": "T_UI_Trail_90006.png",
+          "role": "sprite",
+          "columns": 3,
+          "rows": 3,
+          "atlasMode": "variants",
+          "layoutEvidence": {
+            "niagara": "/Game/Aki/Effect/UI/Niagaras/Events/Backpack/NS_Fx_LGUI_Backpack_Burst6.NS_Fx_LGUI_Backpack_Burst6",
+            "property": "SubImageSize",
+            "uexpOffset": 157370,
+            "material": "/Game/Aki/Effect/UI/Materials/Ins/MI_UI_Trail_21009.MI_UI_Trail_21009",
+            "parameter": "Base"
+          },
+          "url": "/assets/reader-vfx/T_UI_Trail_90006.png",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "primaryImage": "/assets/reader-vfx/T_Sub_X140009.png",
+      "primaryImageRef": "/Game/Aki/Effect/UI/Textures/Sub/T_Sub_X140009.T_Sub_X140009"
+    },
+    "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_Danger.UiItem_FxLoop_Danger": {
+      "name": "UiItem_FxLoop_Danger",
+      "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_Danger.UiItem_FxLoop_Danger",
+      "fxType": "Persistent",
+      "status": "resolved",
+      "sourceVerified": true,
+      "behaviorVerified": false,
+      "durationMs": null,
+      "prefab": {
+        "uassetSha256": "d9eed1517730a703398427b6f3587e26431ab4e7a3fdc9a425ad598a9e94bcee",
+        "uexpSha256": "610a35466a924a9fdfe5482e060909d36c6b7362fde614696ebefe7a81fde474"
+      },
+      "imports": [
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxStart_Danger_Close.Ani_UiItem_FxStart_Danger_Close"
+        },
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxStart_Danger_Start.Ani_UiItem_FxStart_Danger_Start"
+        },
+        {
+          "className": "MaterialInstanceConstant",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/Materials/Activity38/SolarSchool/MI_DangerFx.MI_DangerFx"
+        },
+        {
+          "className": "MaterialInstanceConstant",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/Materials/Activity38/SolarSchool/MI_DangerFx_2.MI_DangerFx_2"
+        },
+        {
+          "className": "Texture2D",
+          "path": "/Game/Aki/UI/UIResources/Common/Image/T_CommonDefault_UI.T_CommonDefault_UI"
+        }
+      ],
+      "limitations": [
+        "Native Niagara particle parameters, material shader processing, and 3D/vertex-animation trajectories are not reproduced or visually verified against original game playback.",
+        "Visible Reader canvas material approximation; original shader and sequence curves remain unverified."
+      ],
+      "images": [
+        {
+          "package": "Aki/Effect/UI/Textures/Mask/T_UI_Mask_061",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Mask/T_UI_Mask_061.T_UI_Mask_061",
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha": false,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "356379047241494b800ca0ce50f18946c6b0704d09b98a7866b2cbd8caf7c1b9",
+          "nativeUexpSha256": "f861af1b332998d1cc37e2c8fdcde6aea44206e202daa0504b107b418c71d347",
+          "decodedBc7Sha256": "7ed82617bf62327580c02db6b546790457bc76e87ab968438718233c13f54390",
+          "sha256": "7ee1439837eed65854d2a230d35aac323fef002983542512e61493651214c6dd",
+          "file": "T_UI_Mask_061.png",
+          "role": "mask",
+          "url": "/assets/reader-vfx/T_UI_Mask_061.png",
+          "alphaExtrema": [
+            255,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Mask/T_UI_Mask_21015",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Mask/T_UI_Mask_21015.T_UI_Mask_21015",
+          "width": 256,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "e22adb6bf3c10ea8fd8a566229f362fc2a2ce4c2866d0f07473cbe526b4a4f04",
+          "nativeUexpSha256": "e4d8315cde9361e5f50581bcbd853b547c88ddb34658e4eb3f0240702ab4a09d",
+          "decodedBc7Sha256": "acb272562701f1225a7e137a386634f816bdaab9d24ed03dbf3b3fa998fe6bd5",
+          "sha256": "06f33a90ac353eecd11f153f2668d7cc530af938613db643065095851658009b",
+          "file": "T_UI_Mask_21015.png",
+          "role": "mask",
+          "url": "/assets/reader-vfx/T_UI_Mask_21015.png",
+          "alphaExtrema": [
+            4,
+            244
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Tile/T_UI_Tile_15004",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Tile/T_UI_Tile_15004.T_UI_Tile_15004",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "7c566134f828940fd9ed6f5956f1ec80f1324aff6e06fe6123a505981b6c8656",
+          "nativeUexpSha256": "f30494e8d37a5883be303c549d87c571aee88267d14f0600379261d2557f2d6c",
+          "decodedBc7Sha256": "ce2d682d418b4dc97af50fa352ef970ee3c12cd1d495eed822205ec584dcf7ab",
+          "sha256": "c85252cecb6df8e21d77c54267ea2c2e3755b136927c1f5e8d822c06cc13b247",
+          "file": "T_UI_Tile_15004.png",
+          "role": "noise",
+          "url": "/assets/reader-vfx/T_UI_Tile_15004.png",
+          "alphaExtrema": [
+            252,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Tile/T_UI_Tile_21001",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Tile/T_UI_Tile_21001.T_UI_Tile_21001",
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "2471fe6217979b3137f7ebe01aaaf53bb27afbc5cfe741c6791691eac1ee6987",
+          "nativeUexpSha256": "4f7ce578246213ea18f9143fafdff42f06355ff0728c16f0ff1f461dd892d323",
+          "decodedBc7Sha256": "cafd5cca7cd5137f4f9f938af5b3d63eb7e9855270a01e0a99eb791a948e1d71",
+          "sha256": "26677b915e830a81a354585e8694abc140a6591f3080129ab39cf3e7de660c6f",
+          "file": "T_UI_Tile_21001.png",
+          "role": "noise",
+          "url": "/assets/reader-vfx/T_UI_Tile_21001.png",
+          "alphaExtrema": [
+            2,
+            248
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Tile/T_UI_Tile_21002",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Tile/T_UI_Tile_21002.T_UI_Tile_21002",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "a3726ea342f2924ac47422b148330dd7b1ebdf0115ae9b4321998062fead1bf7",
+          "nativeUexpSha256": "11d306b91c5302421fc07f100e00b26bc4b096f791201d597628162f13eca6ed",
+          "decodedBc7Sha256": "0a81a5e4543853077660b461647db33c191a2b25d96bfc7da0f7753fbd28040e",
+          "sha256": "3825ff654e679228415b22c3a6ca9394b5ca9aff8cf55105c29db538b2a88674",
+          "file": "T_UI_Tile_21002.png",
+          "role": "noise",
+          "url": "/assets/reader-vfx/T_UI_Tile_21002.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        }
+      ],
+      "primaryImage": null,
+      "primaryImageRef": null,
+      "readerRenderer": "danger"
+    },
+    "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_Fog.UiItem_FxLoop_Fog": {
+      "name": "UiItem_FxLoop_Fog",
+      "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_Fog.UiItem_FxLoop_Fog",
+      "fxType": "Persistent",
+      "status": "resolved",
+      "sourceVerified": true,
+      "behaviorVerified": false,
+      "durationMs": null,
+      "prefab": {
+        "uassetSha256": "9957325245bdbee227e63562348ddeff8452fcc7840078762ab0c2ed90362f80",
+        "uexpSha256": "a6d5602ab0b1a6dc139e1d9aff97d97752e4f27385807c6981a75bbbd98a6604"
+      },
+      "imports": [
+        {
+          "className": "BlueprintGeneratedClass",
+          "path": "/Game/Aki/Render/RuntimeBP/ScreenEffect/Controller/SE_UINiagaraController.SE_UINiagaraController_C"
+        },
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxLoop_Fog_Close.Ani_UiItem_FxLoop_Fog_Close"
+        },
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxLoop_Fog_Start.Ani_UiItem_FxLoop_Fog_Start"
+        },
+        {
+          "className": "NiagaraSystem",
+          "path": "/Game/Aki/Effect/UI/Niagaras/Events/BaBieTa/NS_Fx_LGUI_Babieta_Screen.NS_Fx_LGUI_Babieta_Screen"
+        },
+        {
+          "className": "SE_UINiagaraController_C",
+          "path": "/Game/Aki/Render/RuntimeBP/ScreenEffect/Controller/SE_UINiagaraController.Default__SE_UINiagaraController_C"
+        }
+      ],
+      "limitations": [
+        "Native Niagara particle parameters, material shader processing, and 3D/vertex-animation trajectories are not reproduced or visually verified against original game playback.",
+        "Visible Reader canvas material approximation; original shader and sequence curves remain unverified."
+      ],
+      "images": [
+        {
+          "package": "Aki/Effect/UI/Textures/Tile/T_UI_Tile_017",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Tile/T_UI_Tile_017.T_UI_Tile_017",
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "35287f4b51a5976cb19189645b25770e45b3dcba97b886136c5c4947f5fd8a98",
+          "nativeUexpSha256": "2684f35ec6573f73427a960caad38986f86304886d629c17f406f8b559e1fad0",
+          "decodedBc7Sha256": "25e4e21933e094ad6245e5ac02425431fcbfab241f24a1d5bb79980706fdd6c1",
+          "sha256": "b7525ab310774e0a4e1a074346a95cb3bb2596a04b592449e69784bfecabca01",
+          "file": "T_UI_Tile_017.png",
+          "role": "noise",
+          "url": "/assets/reader-vfx/T_UI_Tile_017.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Tile/T_UI_Tile_022",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Tile/T_UI_Tile_022.T_UI_Tile_022",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "6e1a8bbc3c7707386fb76a19d022479bf225532b242912a2cf3403083d101cac",
+          "nativeUexpSha256": "cd8dd132d6f16d6e20680d4ea3b8d19274f8543a07778036bb1f931dc13b8759",
+          "decodedBc7Sha256": "8c9e7948811b47fa352d2fc58233a4cc70714cb455ebc01727bbb6bd265d7a50",
+          "sha256": "1c166e131a31d95fefce6ad8e2dfd0724f61eb335cf43752b42fabfe580a352d",
+          "file": "T_UI_Tile_022.png",
+          "role": "noise",
+          "url": "/assets/reader-vfx/T_UI_Tile_022.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Trail/T_UI_Trail_90005",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Trail/T_UI_Trail_90005.T_UI_Trail_90005",
+          "width": 256,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "ee8085f1c8dd44d3d11b5924809db2f7e224bfe91ac657bd1ee34f752041245c",
+          "nativeUexpSha256": "ef8afca3328d98a7ea2388843cb1ba14f08090689680c6914f04152d670e7bac",
+          "decodedBc7Sha256": "e8009a651cbc325bf7775235da367282feff8484a4c0eb985b17781897e55571",
+          "sha256": "e2333841e316058086f4084dadf3b217c8cbaae44ed52ca182e1a6b6e9b88360",
+          "file": "T_UI_Trail_90005.png",
+          "role": "sprite",
+          "url": "/assets/reader-vfx/T_UI_Trail_90005.png",
+          "alphaExtrema": [
+            0,
+            246
+          ]
+        }
+      ],
+      "primaryImage": "/assets/reader-vfx/T_UI_Tile_017.png",
+      "primaryImageRef": "/Game/Aki/Effect/UI/Textures/Tile/T_UI_Tile_017.T_UI_Tile_017",
+      "readerRenderer": "fog"
+    },
+    "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_Huaban.UiItem_FxLoop_Huaban": {
+      "name": "UiItem_FxLoop_Huaban",
+      "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_Huaban.UiItem_FxLoop_Huaban",
+      "fxType": "Persistent",
+      "status": "resolved",
+      "sourceVerified": true,
+      "behaviorVerified": false,
+      "durationMs": null,
+      "prefab": {
+        "uassetSha256": "8ae6245f4ea062f88e665c7ff83b95c1ff120362d4f039ceac059f56e0e005fe",
+        "uexpSha256": "0ddbfb81a8ba57df9a7476a29c3629f06957d562631463b0eae872e03332976c"
+      },
+      "imports": [
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxLoop_Huaban_Close.Ani_UiItem_FxLoop_Huaban_Close"
+        },
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxLoop_Huaban_Start.Ani_UiItem_FxLoop_Huaban_Start"
+        },
+        {
+          "className": "NiagaraSystem",
+          "path": "/Game/Aki/Effect/UI/Niagaras/Events/QianDao/NS_Fx_LGUI_QianDao_Flower.NS_Fx_LGUI_QianDao_Flower"
+        }
+      ],
+      "limitations": [
+        "Native Niagara particle parameters, material shader processing, and 3D/vertex-animation trajectories are not reproduced or visually verified against original game playback."
+      ],
+      "images": [
+        {
+          "package": "Aki/Effect/UI/Textures/Sub/T_UI_Sub_HuaBan_21003",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Sub/T_UI_Sub_HuaBan_21003.T_UI_Sub_HuaBan_21003",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "6eea1be9b480c760d806ebc8daff3fa3e0e2c3b7115482f3c1be38226ee246fc",
+          "nativeUexpSha256": "fd0d851d00675f28db574037a7b096ecb92fddb0789c2a1ed1a7be82e1d379ee",
+          "decodedBc7Sha256": "5fcb9a79f6b43357a1c884a59d3acf372b066e710d54dcbd33c4c1a38f8f4e82",
+          "sha256": "411334ed51d71f125333a1fa596322cc8c81a82568d5e6225872e7e3c5eb203f",
+          "file": "T_UI_Sub_HuaBan_21003.png",
+          "role": "sprite",
+          "columns": 2,
+          "rows": 2,
+          "atlasMode": "variants",
+          "layoutEvidence": {
+            "niagara": "/Game/Aki/Effect/UI/Niagaras/Events/QianDao/NS_Fx_LGUI_QianDao_Flower.NS_Fx_LGUI_QianDao_Flower",
+            "property": "SubImageSize",
+            "uexpOffset": 105780,
+            "material": "/Game/Aki/Effect/UI/Materials/Ins/MI_Sub/MI_UI_Sub_Lizi_21015.MI_UI_Sub_Lizi_21015",
+            "parameter": "Base"
+          },
+          "url": "/assets/reader-vfx/T_UI_Sub_HuaBan_21003.png",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "primaryImage": "/assets/reader-vfx/T_UI_Sub_HuaBan_21003.png",
+      "primaryImageRef": "/Game/Aki/Effect/UI/Textures/Sub/T_UI_Sub_HuaBan_21003.T_UI_Sub_HuaBan_21003"
+    },
+    "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_PurpleHuaban.UiItem_FxLoop_PurpleHuaban": {
+      "name": "UiItem_FxLoop_PurpleHuaban",
+      "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_PurpleHuaban.UiItem_FxLoop_PurpleHuaban",
+      "fxType": "Persistent",
+      "status": "resolved",
+      "sourceVerified": true,
+      "behaviorVerified": false,
+      "durationMs": null,
+      "prefab": {
+        "uassetSha256": "ceb40b15fae6e948b3746ed8bb54561eaaac7fd4fa76ea9043d6d86272f06c83",
+        "uexpSha256": "edd186c6694bc186f1c757f727df4a28b04c54dff37b3e49c9b21a60d6bf684b"
+      },
+      "imports": [
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxLoop_PurpleHuaban_Close.Ani_UiItem_FxLoop_PurpleHuaban_Close"
+        },
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxLoop_PurpleHuaban_Start.Ani_UiItem_FxLoop_PurpleHuaban_Start"
+        },
+        {
+          "className": "NiagaraSystem",
+          "path": "/Game/Aki/Effect/UI/Niagaras/Yanchu/NS_Fx_LGUI_XLY_Flowers_Loop.NS_Fx_LGUI_XLY_Flowers_Loop"
+        }
+      ],
+      "limitations": [
+        "Native Niagara particle parameters, material shader processing, and 3D/vertex-animation trajectories are not reproduced or visually verified against original game playback."
+      ],
+      "images": [
+        {
+          "package": "Aki/Effect/UI/Textures/Sub/T_UI_Sub_90005",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Sub/T_UI_Sub_90005.T_UI_Sub_90005",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "eab99bd34d273f344a7fccef8df976bf87861fc7125267bb675e9bfd0fb8a0d0",
+          "nativeUexpSha256": "786744155c230b13f02e3cd053d496df92a2ae643882631e71f4413300f19122",
+          "decodedBc7Sha256": "ffdb8493a039d9c3a9810b270f52b827ba6ba5aa33f89439f215bb1e67a6cc2a",
+          "sha256": "1205ff506290293dda44cc6f537605d2efd153455f2d070e4a28ee1405bf8178",
+          "file": "T_UI_Sub_90005.png",
+          "role": "sprite",
+          "columns": 2,
+          "rows": 2,
+          "atlasMode": "variants",
+          "layoutEvidence": {
+            "niagara": "/Game/Aki/Effect/UI/Niagaras/Yanchu/NS_Fx_LGUI_XLY_Flowers_Loop.NS_Fx_LGUI_XLY_Flowers_Loop",
+            "property": "SubImageSize",
+            "uexpOffset": 36466,
+            "material": "/Game/Aki/Effect/UI/Materials/Ins/MI_Sub/MI_UI_Sub_Lizi_90013.MI_UI_Sub_Lizi_90013",
+            "parameter": "Base"
+          },
+          "url": "/assets/reader-vfx/T_UI_Sub_90005.png",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "primaryImage": "/assets/reader-vfx/T_UI_Sub_90005.png",
+      "primaryImageRef": "/Game/Aki/Effect/UI/Textures/Sub/T_UI_Sub_90005.T_UI_Sub_90005"
+    },
+    "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_Star.UiItem_FxLoop_Star": {
+      "name": "UiItem_FxLoop_Star",
+      "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_Star.UiItem_FxLoop_Star",
+      "fxType": "Persistent",
+      "status": "resolved",
+      "sourceVerified": true,
+      "behaviorVerified": false,
+      "durationMs": null,
+      "prefab": {
+        "uassetSha256": "ade8af82b39916ad55e04ad989ad9f7af57edfb75609d4dd1b352a5f9cdf005a",
+        "uexpSha256": "d44da3de7e7fb09cd155ea29f44fd607455c2ec110a90596da0d61ca7b566156"
+      },
+      "imports": [
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxLoop_Star_Close.Ani_UiItem_FxLoop_Star_Close"
+        },
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxLoop_Star_Start.Ani_UiItem_FxLoop_Star_Start"
+        },
+        {
+          "className": "NiagaraSystem",
+          "path": "/Game/Aki/Effect/UI/Niagaras/Events/BaBieTa/NS_Fx_LGUI_Babieta_Lizi.NS_Fx_LGUI_Babieta_Lizi"
+        },
+        {
+          "className": "NiagaraSystem",
+          "path": "/Game/Aki/Effect/UI/Niagaras/Events/Heihaian/NS_Fx_LGUI_Heihaian_Spark_Star.NS_Fx_LGUI_Heihaian_Spark_Star"
+        },
+        {
+          "className": "NiagaraSystem",
+          "path": "/Game/Aki/Effect/UI/Niagaras/Events/RoleGuidance/NS_Fx_LGUI_RoleGuidance_LuoKeKe_Sparks.NS_Fx_LGUI_RoleGuidance_LuoKeKe_Sparks"
+        }
+      ],
+      "limitations": [
+        "Native Niagara particle parameters, material shader processing, and 3D/vertex-animation trajectories are not reproduced or visually verified against original game playback."
+      ],
+      "images": [
+        {
+          "package": "Aki/Effect/UI/Textures/Flare/T_UI_Flare_001",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Flare/T_UI_Flare_001.T_UI_Flare_001",
+          "width": 512,
+          "height": 512,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "62c946464e0615604c5ec72e8e2a36611e6d9dc8b368467c2fe7da407526b093",
+          "nativeUexpSha256": "474585f74e02f1e6582158951ac3cbabc71bbf76f416c29ac2a91f4a437cc9bb",
+          "decodedBc7Sha256": "813d663ee73a8fe02d03b0c2940bbed69cdd6c816810e6f9f086c4afc80e63a5",
+          "sha256": "aeaf3b9be71948efef9c7e23e83a3c0893fb3dde2bc39c912ffee2839d5f8f24",
+          "file": "T_UI_Flare_001.png",
+          "role": "sprite",
+          "url": "/assets/reader-vfx/T_UI_Flare_001.png",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Flare/T_UI_Flare_30060",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Flare/T_UI_Flare_30060.T_UI_Flare_30060",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "3bbca69e14035586da3d81752a2a487cc958ad6171742ddf9cbf8fad271a32d9",
+          "nativeUexpSha256": "2a24a7a963afcd790200c2947bece2a24be76ffdd59be15aab80777f0955884c",
+          "decodedBc7Sha256": "981559cb4ad25e0b66a7b7df95955fe5dfda59cb8740e03c571f944b7c17270e",
+          "sha256": "e751a29c2ff3cc29e890015b6a879ac6b730c3aceb44f84545bebbdc4eed08c5",
+          "file": "T_UI_Flare_30060.png",
+          "role": "sprite",
+          "url": "/assets/reader-vfx/T_UI_Flare_30060.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Flare/T_UI_Flare_30062",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Flare/T_UI_Flare_30062.T_UI_Flare_30062",
+          "width": 512,
+          "height": 512,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "b24d89aa7bc655f1ac82d2e6008a318054fdb9b0cfc6a5648ae75a47addc868b",
+          "nativeUexpSha256": "91201a842426fe6bfc8713e79ddfda8ea38ceb847752e2fc5b128df1ffc76122",
+          "decodedBc7Sha256": "eeb166a8474ae17bd7fed4041b1212aa602a0d001e75938e92d1d64d2b8e03d0",
+          "sha256": "bd3c0396d644e5e36ac85801f7d409ad9da41fd90acf40e8eb241fb4ba7584f4",
+          "file": "T_UI_Flare_30062.png",
+          "role": "sprite",
+          "url": "/assets/reader-vfx/T_UI_Flare_30062.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Flare/T_UI_Glow_001",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Flare/T_UI_Glow_001.T_UI_Glow_001",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": false,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "baf020194d1cd90e9f95f80ec0d1eba02d0c65ca4148f6cfcbd0370db797fd4b",
+          "nativeUexpSha256": "5fb49cac13149eb662ac625f3266a3984828be6632c0e6c451c632250a1315db",
+          "decodedBc7Sha256": "119d37e90ba05a3831a289823477652bf7235681a3bacfe13293d5092e1e9a7a",
+          "sha256": "eb72dde624ccf93c774a9f6d8f4dfe00f7a5ce5e45d546f5b9e0b4035864e5b9",
+          "file": "T_UI_Glow_001.png",
+          "role": "sprite",
+          "url": "/assets/reader-vfx/T_UI_Glow_001.png",
+          "alphaExtrema": [
+            255,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Flare/T_UI_Spark_30001",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Flare/T_UI_Spark_30001.T_UI_Spark_30001",
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "c3261b5f63961a049ba3ac6054fe87ab5400299c30e3cb5711f3411a6bcfa4e2",
+          "nativeUexpSha256": "71b01fb3deda85ac51f88e2fc53d9b81931b60beca605faf74cd947419afd58d",
+          "decodedBc7Sha256": "aab08aaed4ece96568640a35b89a44991c5ec61770055d6cff16eb59b9894174",
+          "sha256": "6505b6e7064c154bf65d691237360fa38dc0dba8f6f591b90f2571bffea69717",
+          "file": "T_UI_Spark_30001.png",
+          "role": "sprite",
+          "url": "/assets/reader-vfx/T_UI_Spark_30001.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        }
+      ],
+      "primaryImage": "/assets/reader-vfx/T_UI_Flare_30060.png",
+      "primaryImageRef": "/Game/Aki/Effect/UI/Textures/Flare/T_UI_Flare_30060.T_UI_Flare_30060"
+    },
+    "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_SunGlow.UiItem_FxLoop_SunGlow": {
+      "name": "UiItem_FxLoop_SunGlow",
+      "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_SunGlow.UiItem_FxLoop_SunGlow",
+      "fxType": "Persistent",
+      "status": "resolved",
+      "sourceVerified": true,
+      "behaviorVerified": false,
+      "durationMs": null,
+      "prefab": {
+        "uassetSha256": "56adba1b157ee4d208b2147cb0cb52ea81aa7df2e54de924a1d5cf994305d855",
+        "uexpSha256": "9a3e41b9959a9feef00c95387be92cf9f7c76be84555110f27e806bc5cbac8cd"
+      },
+      "imports": [
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxLoop_SunGlow_Close.Ani_UiItem_FxLoop_SunGlow_Close"
+        },
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxLoop_SunGlow_Start.Ani_UiItem_FxLoop_SunGlow_Start"
+        },
+        {
+          "className": "NiagaraSystem",
+          "path": "/Game/Aki/Effect/UI/Niagaras/RouGe/JuNei/NS_Fx_LGUI_Bulin.NS_Fx_LGUI_Bulin"
+        }
+      ],
+      "limitations": [
+        "Native Niagara particle parameters, material shader processing, and 3D/vertex-animation trajectories are not reproduced or visually verified against original game playback.",
+        "Exact native SubImageIndex selection and final material/particle color remain unverified; the source 4x4 atlas layout and Base texture binding are verified."
+      ],
+      "images": [
+        {
+          "package": "Aki/Effect/UI/Textures/Sub/T_UI_Sub_Glow_70001",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Sub/T_UI_Sub_Glow_70001.T_UI_Sub_Glow_70001",
+          "width": 512,
+          "height": 512,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "387f343b5f14235178e0f00efbe6a816bf6de0df85c9783671a1a579e8b34f56",
+          "nativeUexpSha256": "f532d4b8e66fc6c596fe1ef94e3954f43e6815cd9788fd342c8c204b72f39e58",
+          "decodedBc7Sha256": "6e4c532318ca07a7aecd3de32fc9b06624182173d427c3878a1d61c250587993",
+          "sha256": "90f5b77a259618829e3c7b234378cd17c5b64bf8e53e88390582e418e92dd52d",
+          "file": "T_UI_Sub_Glow_70001.png",
+          "role": "sprite",
+          "columns": 4,
+          "rows": 4,
+          "atlasMode": "variants",
+          "layoutEvidence": {
+            "niagara": "/Game/Aki/Effect/UI/Niagaras/ShengRi/NS_Fx_LGUI_Birthday_Sun_Glow_02.NS_Fx_LGUI_Birthday_Sun_Glow_02",
+            "property": "SubImageSize",
+            "uexpOffset": 159967,
+            "material": "/Game/Aki/Effect/UI/Materials/Ins/MI_Sub/MI_UI_Sub_Lizi_004.MI_UI_Sub_Lizi_004",
+            "parameter": "Base"
+          },
+          "url": "/assets/reader-vfx/T_UI_Sub_Glow_70001.png",
+          "alphaExtrema": [
+            0,
+            241
+          ]
+        }
+      ],
+      "primaryImage": "/assets/reader-vfx/T_UI_Sub_Glow_70001.png",
+      "primaryImageRef": "/Game/Aki/Effect/UI/Textures/Sub/T_UI_Sub_Glow_70001.T_UI_Sub_Glow_70001"
+    },
+    "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_SunGlowBig_2.UiItem_FxLoop_SunGlowBig_2": {
+      "name": "UiItem_FxLoop_SunGlowBig_2",
+      "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_SunGlowBig_2.UiItem_FxLoop_SunGlowBig_2",
+      "fxType": "Persistent",
+      "status": "resolved",
+      "sourceVerified": true,
+      "behaviorVerified": false,
+      "durationMs": null,
+      "prefab": {
+        "uassetSha256": "f0de9d54e8133e924ee20ab45bd148c3a1fe798a45f8c517bddde56c2857e2c5",
+        "uexpSha256": "52b05d68ecbac66e0a573552d5e9689bc48e01b5e6e17ba57eb5688c3f433ce2"
+      },
+      "imports": [
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxLoop_SunGlowBig2_Close.Ani_UiItem_FxLoop_SunGlowBig2_Close"
+        },
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxLoop_SunGlowBig2_Start.Ani_UiItem_FxLoop_SunGlowBig2_Start"
+        },
+        {
+          "className": "NiagaraSystem",
+          "path": "/Game/Aki/Effect/UI/Niagaras/Events/Xinshoujianianhua/NS_Fx_LGUI_JiaNanHua_Glow_Loop.NS_Fx_LGUI_JiaNanHua_Glow_Loop"
+        }
+      ],
+      "limitations": [
+        "Native Niagara particle parameters, material shader processing, and 3D/vertex-animation trajectories are not reproduced or visually verified against original game playback.",
+        "The native glow shader tint, distribution and final particle geometry remain unverified."
+      ],
+      "images": [
+        {
+          "package": "Aki/Effect/UI/Textures/Mask/T_UI_Mask_21003",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Mask/T_UI_Mask_21003.T_UI_Mask_21003",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "9bea0409deada27992a49abfd8feb1d7df77e0643f612ceae3735ccf1eb174ba",
+          "nativeUexpSha256": "42b96d0eca2d9fc5770598a696c4915dd97e4fc3b160e0981d42dfb3f590378a",
+          "decodedBc7Sha256": "265b600ee1637c02abf92f8a3706ab021b2958993d3392a6dadd477884c6ebd1",
+          "sha256": "4cf9d4d44e76e33a55c4f9d94ad34d629c59f636b15c2f42035b28d33e30dbd6",
+          "file": "T_UI_Mask_21003.png",
+          "role": "mask",
+          "url": "/assets/reader-vfx/T_UI_Mask_21003.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        }
+      ],
+      "primaryImage": "/assets/reader-vfx/T_UI_Mask_21003.png",
+      "primaryImageRef": "/Game/Aki/Effect/UI/Textures/Mask/T_UI_Mask_21003.T_UI_Mask_21003"
+    },
+    "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_SunLight.UiItem_FxLoop_SunLight": {
+      "name": "UiItem_FxLoop_SunLight",
+      "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_SunLight.UiItem_FxLoop_SunLight",
+      "fxType": "Persistent",
+      "status": "resolved",
+      "sourceVerified": true,
+      "behaviorVerified": false,
+      "durationMs": null,
+      "prefab": {
+        "uassetSha256": "7099312206dbfb2892940e8bb5503de8da0f3049a87a8be2dd3e4705469bdc7d",
+        "uexpSha256": "76c5024fa50ea11ddd24480cd853ddb94368c78b7d8dceef7f89fa09b3fc9264"
+      },
+      "imports": [
+        {
+          "className": "BlueprintGeneratedClass",
+          "path": "/Game/Aki/Render/RuntimeBP/ScreenEffect/Controller/SE_UINiagaraController.SE_UINiagaraController_C"
+        },
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxLoop_SunLight_Close.Ani_UiItem_FxLoop_SunLight_Close"
+        },
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxLoop_SunLight_Start.Ani_UiItem_FxLoop_SunLight_Start"
+        },
+        {
+          "className": "NiagaraSystem",
+          "path": "/Game/Aki/Effect/UI/Niagaras/Events/KaChi/NS_Fx_LGUI_KachiEvent_Glow.NS_Fx_LGUI_KachiEvent_Glow"
+        },
+        {
+          "className": "NiagaraSystem",
+          "path": "/Game/Aki/Effect/UI/Niagaras/ShengRi/NS_Fx_LGUI_Birthday_Sun_Glow_02.NS_Fx_LGUI_Birthday_Sun_Glow_02"
+        },
+        {
+          "className": "SE_UINiagaraController_C",
+          "path": "/Game/Aki/Render/RuntimeBP/ScreenEffect/Controller/SE_UINiagaraController.Default__SE_UINiagaraController_C"
+        }
+      ],
+      "limitations": [
+        "Native Niagara particle parameters, material shader processing, and 3D/vertex-animation trajectories are not reproduced or visually verified against original game playback."
+      ],
+      "images": [
+        {
+          "package": "Aki/Effect/UI/Textures/Color/T_UI_Color_21019",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Color/T_UI_Color_21019.T_UI_Color_21019",
+          "width": 512,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "bf385bc906341fa3d87252095edf41411d1212be68f2583805a440ea5d119a47",
+          "nativeUexpSha256": "67bf73bcd77860430a706ebef1a622aac08672df79ae7777d43fe362a540d140",
+          "decodedBc7Sha256": "4d0c70173e67b9a940cde8eb148b121f04255cdf3e619f1a4a138447fca6a1ff",
+          "sha256": "e01450dcbde9afd62f343a5127e19b9369ea01eeeda5931033772b3db8e899ff",
+          "file": "T_UI_Color_21019.png",
+          "role": "sprite",
+          "columns": 4,
+          "rows": 4,
+          "atlasMode": "variants",
+          "layoutEvidence": {
+            "niagara": "/Game/Aki/Effect/UI/Niagaras/ShengRi/NS_Fx_LGUI_Birthday_Sun_Glow_02.NS_Fx_LGUI_Birthday_Sun_Glow_02",
+            "property": "SubImageSize",
+            "uexpOffset": 159967,
+            "material": "/Game/Aki/Effect/UI/Materials/Ins/MI_Lizi/MI_UI_Lizi_21043.MI_UI_Lizi_21043",
+            "parameter": "Base"
+          },
+          "url": "/assets/reader-vfx/T_UI_Color_21019.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Flare/T_UI_Glow_002",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Flare/T_UI_Glow_002.T_UI_Glow_002",
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "e3e580809cc58ec6c458ff52ef0c56faca2e46570cca0c4d084867d9e3c0b2e3",
+          "nativeUexpSha256": "191625e24b4afaf11b97f5e4bd25684ecb4e83b1da4a4df7d06a83a096b5eef3",
+          "decodedBc7Sha256": "85610dc346dc6f6e31404fb4a8705b396c260c647cdde088d877a2f93b0be010",
+          "sha256": "034e3ae7008f4d3b483fb3be4e7e8ebd7c95a116b8dcf18ebb99ca5dc65728d4",
+          "file": "T_UI_Glow_002.png",
+          "role": "sprite",
+          "url": "/assets/reader-vfx/T_UI_Glow_002.png",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Mask/T_UI_MaskClame_011",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Mask/T_UI_MaskClame_011.T_UI_MaskClame_011",
+          "width": 64,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": false,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "8825e0bc417b72aa1b8ab508819376cfcfc21aaa99c3a4650858f80e65df4d8e",
+          "nativeUexpSha256": "d8c675352c488b69f4f8767406c395fd3ce521478e2c3e521184c55589dfb171",
+          "decodedBc7Sha256": "17a34629eda62c1ac3b1d5a81ea6bc304d0a92686954c4c4530651a1447241bf",
+          "sha256": "0430a38ed920a30b5a2e03c9c286abd26b3c3dffbdf5bb47030a92638c5dd66b",
+          "file": "T_UI_MaskClame_011.png",
+          "role": "mask",
+          "url": "/assets/reader-vfx/T_UI_MaskClame_011.png",
+          "alphaExtrema": [
+            255,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Mask/T_UI_Mask_037",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Mask/T_UI_Mask_037.T_UI_Mask_037",
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "45aaae1b3e655b5d6ef453ad6a2d8d8b399a6474f0823bb464b31f5ca19cf116",
+          "nativeUexpSha256": "8a9f536ceee0de404cfc9ba7bc1aa4dd05407d14aa9cef6d6af187831d32d867",
+          "decodedBc7Sha256": "cfbdf4af95989da55169763da65ae8c1209b2af78dbe9e610416dc573c44bd16",
+          "sha256": "26779f5547ae048fc8061ad978db786f4be13e532dec9e345d43f904d5cbb197",
+          "file": "T_UI_Mask_037.png",
+          "role": "mask",
+          "url": "/assets/reader-vfx/T_UI_Mask_037.png",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Mask/T_UI_Mask_061",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Mask/T_UI_Mask_061.T_UI_Mask_061",
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha": false,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "356379047241494b800ca0ce50f18946c6b0704d09b98a7866b2cbd8caf7c1b9",
+          "nativeUexpSha256": "f861af1b332998d1cc37e2c8fdcde6aea44206e202daa0504b107b418c71d347",
+          "decodedBc7Sha256": "7ed82617bf62327580c02db6b546790457bc76e87ab968438718233c13f54390",
+          "sha256": "7ee1439837eed65854d2a230d35aac323fef002983542512e61493651214c6dd",
+          "file": "T_UI_Mask_061.png",
+          "role": "mask",
+          "url": "/assets/reader-vfx/T_UI_Mask_061.png",
+          "alphaExtrema": [
+            255,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Sub/T_UI_Sub_Glow_70001",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Sub/T_UI_Sub_Glow_70001.T_UI_Sub_Glow_70001",
+          "width": 512,
+          "height": 512,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "387f343b5f14235178e0f00efbe6a816bf6de0df85c9783671a1a579e8b34f56",
+          "nativeUexpSha256": "f532d4b8e66fc6c596fe1ef94e3954f43e6815cd9788fd342c8c204b72f39e58",
+          "decodedBc7Sha256": "6e4c532318ca07a7aecd3de32fc9b06624182173d427c3878a1d61c250587993",
+          "sha256": "90f5b77a259618829e3c7b234378cd17c5b64bf8e53e88390582e418e92dd52d",
+          "file": "T_UI_Sub_Glow_70001.png",
+          "role": "sprite",
+          "columns": 4,
+          "rows": 4,
+          "atlasMode": "variants",
+          "layoutEvidence": {
+            "niagara": "/Game/Aki/Effect/UI/Niagaras/ShengRi/NS_Fx_LGUI_Birthday_Sun_Glow_02.NS_Fx_LGUI_Birthday_Sun_Glow_02",
+            "property": "SubImageSize",
+            "uexpOffset": 159967,
+            "material": "/Game/Aki/Effect/UI/Materials/Ins/MI_Sub/MI_UI_Sub_Lizi_004.MI_UI_Sub_Lizi_004",
+            "parameter": "Base"
+          },
+          "url": "/assets/reader-vfx/T_UI_Sub_Glow_70001.png",
+          "alphaExtrema": [
+            0,
+            241
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Tile/T_UI_Tile_45001",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Tile/T_UI_Tile_45001.T_UI_Tile_45001",
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "97ce2c36ec616673e46097b9deddf9adaef515a662c99a53a4e1a529f6824496",
+          "nativeUexpSha256": "d36fede5593377bfbd74a078e1b2401c3ab2dd97abbec21df714d155dc12e43c",
+          "decodedBc7Sha256": "c127d35f0284116c1f68b94382a3509c06a9c656fb770b0e25c183be6cf993a7",
+          "sha256": "651b54657e1038ed47560e5b856eefa3c79d0a2a74d80a77b7cf458a30bf763e",
+          "file": "T_UI_Tile_45001.png",
+          "role": "noise",
+          "url": "/assets/reader-vfx/T_UI_Tile_45001.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Tile/T_UI_Tile_90005",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Tile/T_UI_Tile_90005.T_UI_Tile_90005",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "d5227968757d3b63acf7c1bf3c2d511c010da615fcb868b64ba9fc6807a1ff37",
+          "nativeUexpSha256": "6d15ecaaa3afdf2e0d86ae27f1f3212dab4b5b59d49d1378dfa73999c54a0aaf",
+          "decodedBc7Sha256": "c9e59d795f4554273f9eb247751bd996e849da7e88a689e138f07eab5dc2af41",
+          "sha256": "736a3547b40d3935baaa226b5a3147a66217d0b3703978c671411d6c5f152893",
+          "file": "T_UI_Tile_90005.png",
+          "role": "noise",
+          "url": "/assets/reader-vfx/T_UI_Tile_90005.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Tile/T_UI_Tile_90017",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Tile/T_UI_Tile_90017.T_UI_Tile_90017",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "75e7cfa29bf8d6dad069144e6a3ec747164c63fa55f3a6f9c67045435c9d3fd4",
+          "nativeUexpSha256": "97b99436e646cc4e398006cdd3df499afb2d4719913b44d81c51a324fd1ed772",
+          "decodedBc7Sha256": "e5e72f693888991573545b806046dd47d1665445118e261c0f5daa6128542dad",
+          "sha256": "7f1c689f247c86198121233530c0189f92dc508bfc801e3d54c07d33610c994b",
+          "file": "T_UI_Tile_90017.png",
+          "role": "noise",
+          "url": "/assets/reader-vfx/T_UI_Tile_90017.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        }
+      ],
+      "primaryImage": "/assets/reader-vfx/T_UI_Sub_Glow_70001.png",
+      "primaryImageRef": "/Game/Aki/Effect/UI/Textures/Sub/T_UI_Sub_Glow_70001.T_UI_Sub_Glow_70001"
+    },
+    "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxStart/UiItem_FxStart_Black.UiItem_FxStart_Black": {
+      "name": "UiItem_FxStart_Black",
+      "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxStart/UiItem_FxStart_Black.UiItem_FxStart_Black",
+      "fxType": "OneShot",
+      "status": "resolved",
+      "sourceVerified": true,
+      "behaviorVerified": false,
+      "durationMs": null,
+      "prefab": {
+        "uassetSha256": "b9cd23422f2f5557b07be818fc82b4f967c7086735f5b5bedcac89a5e971417e",
+        "uexpSha256": "40618b290fb2a46ae6f43be3cb2885189e4a717205a92a4bac3d6773f8acdfb0"
+      },
+      "imports": [
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxStart_Black_Start.Ani_UiItem_FxStart_Black_Start"
+        },
+        {
+          "className": "LGUITexturePackerSpriteData",
+          "path": "/Game/Aki/UI/UIResources/Common/Atlas/SP_CommonDefault.SP_CommonDefault"
+        }
+      ],
+      "limitations": [
+        "Native Niagara particle parameters, material shader processing, and 3D/vertex-animation trajectories are not reproduced or visually verified against original game playback.",
+        "This prefab uses an LGUI sprite or procedural material; a standalone effect bitmap is not verified.",
+        "Visible Reader canvas material approximation; original shader and sequence curves remain unverified."
+      ],
+      "images": [],
+      "primaryImage": null,
+      "primaryImageRef": null,
+      "readerRenderer": "black"
+    },
+    "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxStart/UiItem_FxStart_Butterfly.UiItem_FxStart_Butterfly": {
+      "name": "UiItem_FxStart_Butterfly",
+      "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxStart/UiItem_FxStart_Butterfly.UiItem_FxStart_Butterfly",
+      "fxType": "OneShot",
+      "status": "resolved",
+      "sourceVerified": true,
+      "behaviorVerified": false,
+      "durationMs": null,
+      "prefab": {
+        "uassetSha256": "3aee3be9e187562c96cd7ba4faec35e0d2893bad29697603c1f317b2b98e44c6",
+        "uexpSha256": "10a6ffcc00cf5b1412e65dd59e284211bee1d4cfa86cf18e5b8db58f1df05a7f"
+      },
+      "imports": [
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiView_SolarSchoolCom_Butterfly.Ani_UiView_SolarSchoolCom_Butterfly"
+        },
+        {
+          "className": "NiagaraSystem",
+          "path": "/Game/Aki/Effect/UI/Niagaras/Events/Xueyuan/NS_Fx_LGUI_Xueyuan_Trail.NS_Fx_LGUI_Xueyuan_Trail"
+        }
+      ],
+      "limitations": [
+        "Native Niagara particle parameters, material shader processing, and 3D/vertex-animation trajectories are not reproduced or visually verified against original game playback."
+      ],
+      "images": [
+        {
+          "package": "Aki/Effect/UI/Textures/Flare/T_UI_Glow_001",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Flare/T_UI_Glow_001.T_UI_Glow_001",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": false,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "baf020194d1cd90e9f95f80ec0d1eba02d0c65ca4148f6cfcbd0370db797fd4b",
+          "nativeUexpSha256": "5fb49cac13149eb662ac625f3266a3984828be6632c0e6c451c632250a1315db",
+          "decodedBc7Sha256": "119d37e90ba05a3831a289823477652bf7235681a3bacfe13293d5092e1e9a7a",
+          "sha256": "eb72dde624ccf93c774a9f6d8f4dfe00f7a5ce5e45d546f5b9e0b4035864e5b9",
+          "file": "T_UI_Glow_001.png",
+          "role": "sprite",
+          "url": "/assets/reader-vfx/T_UI_Glow_001.png",
+          "alphaExtrema": [
+            255,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Flare/T_UI_Ring_004",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Flare/T_UI_Ring_004.T_UI_Ring_004",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "9a9a056f0603d040170d305797f574e00499321359e9f5ab0ce395289139a555",
+          "nativeUexpSha256": "1aea3e623dda94523c0319e8a323ab22cb993b8171bf62819eb110653e72ee0d",
+          "decodedBc7Sha256": "f0205c7f4e63193477cc698d390400687a98e052b105d526c2a08927c0314806",
+          "sha256": "0798c916fd1418d9271291a850a3db21b8633c2d0b0efd71e9593283cdbaa82e",
+          "file": "T_UI_Ring_004.png",
+          "role": "sprite",
+          "url": "/assets/reader-vfx/T_UI_Ring_004.png",
+          "alphaExtrema": [
+            0,
+            195
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Flare/T_UI_Spark_30001",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Flare/T_UI_Spark_30001.T_UI_Spark_30001",
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "c3261b5f63961a049ba3ac6054fe87ab5400299c30e3cb5711f3411a6bcfa4e2",
+          "nativeUexpSha256": "71b01fb3deda85ac51f88e2fc53d9b81931b60beca605faf74cd947419afd58d",
+          "decodedBc7Sha256": "aab08aaed4ece96568640a35b89a44991c5ec61770055d6cff16eb59b9894174",
+          "sha256": "6505b6e7064c154bf65d691237360fa38dc0dba8f6f591b90f2571bffea69717",
+          "file": "T_UI_Spark_30001.png",
+          "role": "sprite",
+          "url": "/assets/reader-vfx/T_UI_Spark_30001.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Mask/T_UI_Mask_017",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Mask/T_UI_Mask_017.T_UI_Mask_017",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "2d3dc6649450044338fd5072bf05e2c21a0cb2e2cb9eb74b38ce535d45b8895e",
+          "nativeUexpSha256": "2868a53755c0683a43316853e047c1f7f4eab9fefe1e4e8ef0c2baac31e2abbf",
+          "decodedBc7Sha256": "f50bc1c5fc74bc0589962417ebd11eafcd9b35053f0b8dd24dad504b4a65f6da",
+          "sha256": "fc30effa64254d7cc69159a7a6c8c06a8a93efd49a9362c4e2a930b7d6ba850c",
+          "file": "T_UI_Mask_017.png",
+          "role": "mask",
+          "url": "/assets/reader-vfx/T_UI_Mask_017.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Mask/T_UI_Mask_036",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Mask/T_UI_Mask_036.T_UI_Mask_036",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "9a97436a8db62a41d9e738eabe01291284629d0b7f6cedab50c41ec4b6444916",
+          "nativeUexpSha256": "09eea444341e422508eabdd79da1246d6d3f2d03f249664dc8d88f57699d26b6",
+          "decodedBc7Sha256": "161d147457daaf4bd3899008be09b96a264d3cc836bf5f26f3715a332a6bea97",
+          "sha256": "6e9d26bcb0762a7ae71e74de5ace2b34cb389abf79f91f6f309cb15dd4e35b67",
+          "file": "T_UI_Mask_036.png",
+          "role": "mask",
+          "url": "/assets/reader-vfx/T_UI_Mask_036.png",
+          "alphaExtrema": [
+            0,
+            246
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Mask/T_UI_Mask_21003",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Mask/T_UI_Mask_21003.T_UI_Mask_21003",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "9bea0409deada27992a49abfd8feb1d7df77e0643f612ceae3735ccf1eb174ba",
+          "nativeUexpSha256": "42b96d0eca2d9fc5770598a696c4915dd97e4fc3b160e0981d42dfb3f590378a",
+          "decodedBc7Sha256": "265b600ee1637c02abf92f8a3706ab021b2958993d3392a6dadd477884c6ebd1",
+          "sha256": "4cf9d4d44e76e33a55c4f9d94ad34d629c59f636b15c2f42035b28d33e30dbd6",
+          "file": "T_UI_Mask_21003.png",
+          "role": "mask",
+          "url": "/assets/reader-vfx/T_UI_Mask_21003.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Mask/T_UI_Mask_300124",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Mask/T_UI_Mask_300124.T_UI_Mask_300124",
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha": false,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "7a94fde050addf0017766f4b7698d513bf99896ee8f3c150cab91e612142832c",
+          "nativeUexpSha256": "bf58c85f3ea6a689448bd7e7546ca1990147094fc4f1b13297ef318a397dfe88",
+          "decodedBc7Sha256": "93dfd4da47fd66c1e3481eafbf74ec1674a3158a516b19099fd0f28347b105a3",
+          "sha256": "52027e81b972d8816c24aaad7094ea92b1b92b92f64499ebb7e56ca029326ff0",
+          "file": "T_UI_Mask_300124.png",
+          "role": "mask",
+          "url": "/assets/reader-vfx/T_UI_Mask_300124.png",
+          "alphaExtrema": [
+            255,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Tile/T_UI_Tile_90005",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Tile/T_UI_Tile_90005.T_UI_Tile_90005",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "d5227968757d3b63acf7c1bf3c2d511c010da615fcb868b64ba9fc6807a1ff37",
+          "nativeUexpSha256": "6d15ecaaa3afdf2e0d86ae27f1f3212dab4b5b59d49d1378dfa73999c54a0aaf",
+          "decodedBc7Sha256": "c9e59d795f4554273f9eb247751bd996e849da7e88a689e138f07eab5dc2af41",
+          "sha256": "736a3547b40d3935baaa226b5a3147a66217d0b3703978c671411d6c5f152893",
+          "file": "T_UI_Tile_90005.png",
+          "role": "noise",
+          "url": "/assets/reader-vfx/T_UI_Tile_90005.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Trail/T_UI_Trail_45006",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Trail/T_UI_Trail_45006.T_UI_Trail_45006",
+          "width": 512,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "24dd332ca74f8c93ad4e5ec2456539dea8309254d90534b8de10e892759d3403",
+          "nativeUexpSha256": "346935856841ced01767f4571d1fca773ae07812b38a9ab80bffe8102ea39502",
+          "decodedBc7Sha256": "9d18f92e00f8de73871c33d9fb41907df5d6dad265532a6007f56769943e8b70",
+          "sha256": "2c425d914595d816ec14b3f1e1d98761a9733449800003e869fb0e088ac74526",
+          "file": "T_UI_Trail_45006.png",
+          "role": "sprite",
+          "url": "/assets/reader-vfx/T_UI_Trail_45006.png",
+          "alphaExtrema": [
+            0,
+            246
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Trail/T_UI_Trail_45014",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Trail/T_UI_Trail_45014.T_UI_Trail_45014",
+          "width": 512,
+          "height": 512,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "9f3db3e461d17988bdc5b2b274b3c1e3a9a2cf85d979c8b3eb568a7807422f3c",
+          "nativeUexpSha256": "02687055a0b2c6527614d70a4cb93b47bfd5d3691243de0730c58074a652c2b9",
+          "decodedBc7Sha256": "953d93e353ac8060dc95040797de67c780d17842d205d5d94f334988e9b4b1b9",
+          "sha256": "c6d3070016c66a8e787d3bf8690a23e61b8bb6df0f95758ca23eccfd32de6489",
+          "file": "T_UI_Trail_45014.png",
+          "role": "sprite",
+          "url": "/assets/reader-vfx/T_UI_Trail_45014.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Trail/T_UI_Trail_90001",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Trail/T_UI_Trail_90001.T_UI_Trail_90001",
+          "width": 512,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "92fc00dd123da8496c6b0d12e08084106aa457411bfc87fe33cd064063c3cdb0",
+          "nativeUexpSha256": "6272bffd49f30b2c05475c24fa21fd4e232a7be31202e0de64c953fd825f0d5e",
+          "decodedBc7Sha256": "2b304a2a762384afc5a842bf54044d0c4eb73384ec5796718ada049ad77921e8",
+          "sha256": "641eb3b72851d2d62f21acd0e7eb94010db52320fc267cc1c83058686ff8a014",
+          "file": "T_UI_Trail_90001.png",
+          "role": "sprite",
+          "url": "/assets/reader-vfx/T_UI_Trail_90001.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Wenli/T_UI_Wenli_10025",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Wenli/T_UI_Wenli_10025.T_UI_Wenli_10025",
+          "width": 512,
+          "height": 512,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "930f2a93d9e70bce409ca89191fed7e6c742c5e32b240c4a435bfb0a95ecb9cb",
+          "nativeUexpSha256": "f2d63adcf94bdb92b29561dbfb17b2dfe48bf0af062c006614778194338c96f4",
+          "decodedBc7Sha256": "300ef95e7d3e8e7f13598d2d2cfdf17678a8cc217e59bc05cac4be27f6af0cc2",
+          "sha256": "96b073a4446715beb53c53cf8ec1ab82abc7eccb422a72a679dc11c5a2062fba",
+          "file": "T_UI_Wenli_10025.png",
+          "role": "noise",
+          "url": "/assets/reader-vfx/T_UI_Wenli_10025.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Wenli/T_UI_Wenli_21004",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Wenli/T_UI_Wenli_21004.T_UI_Wenli_21004",
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha": false,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "cc609a94b9ac1b662edd1d09bfb73d77ea19377eb424abe1c1d757f675db3912",
+          "nativeUexpSha256": "ddfa0f3544c746152821f652123ff15a454225ac097b49e767321db3c6dd1e4a",
+          "decodedBc7Sha256": "28a307e9a349573f0cc345d135a76839e912af3fcf585d979ed7e6b7fbb640d5",
+          "sha256": "d99e09baf7def8155c5b03c68979d321358c7a27a21eb2acc12da26c20a85661",
+          "file": "T_UI_Wenli_21004.png",
+          "role": "noise",
+          "url": "/assets/reader-vfx/T_UI_Wenli_21004.png",
+          "alphaExtrema": [
+            255,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Wenli/T_UI_Wenli_45022",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Wenli/T_UI_Wenli_45022.T_UI_Wenli_45022",
+          "width": 512,
+          "height": 512,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "1149f950747f011971a94a577fdb6426c46a1939e031c5bc6716bc56cc55120b",
+          "nativeUexpSha256": "0153abb4d845261d1aa46534876bf5e5d24b252adffb375d7cdfea0db7b9131b",
+          "decodedBc7Sha256": "243af2554913313087b3a46f63783f63b721acf9d235e4baff79845467cd3a16",
+          "sha256": "6c3d585de8959c64c03d88d449825ad6af411b64e431722e54829a1ae4f7b83c",
+          "file": "T_UI_Wenli_45022.png",
+          "role": "noise",
+          "url": "/assets/reader-vfx/T_UI_Wenli_45022.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Wenli/T_UI_Wenli_X140011",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Wenli/T_UI_Wenli_X140011.T_UI_Wenli_X140011",
+          "width": 256,
+          "height": 512,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "a49df985b6bc1b9cb96861926d0257719a62d62ae5fb7595fc1af9efdc24eb7c",
+          "nativeUexpSha256": "ae97509756689c705c78f36978d5db6422373dce387e71f4a866221252117f5c",
+          "decodedBc7Sha256": "c7b18be93a59132e2e1c511132af2fce5b74145086ea6492f0cb20aa7d5a03bc",
+          "sha256": "9edeca55d631211513c83ecaa08407f55a0484704ab6a8db8268c6488b3f2527",
+          "file": "T_UI_Wenli_X140011.png",
+          "role": "sprite",
+          "url": "/assets/reader-vfx/T_UI_Wenli_X140011.png",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "primaryImage": "/assets/reader-vfx/T_UI_Wenli_X140011.png",
+      "primaryImageRef": "/Game/Aki/Effect/UI/Textures/Wenli/T_UI_Wenli_X140011.T_UI_Wenli_X140011"
+    },
+    "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxStart/UiItem_FxStart_Celebrate.UiItem_FxStart_Celebrate": {
+      "name": "UiItem_FxStart_Celebrate",
+      "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxStart/UiItem_FxStart_Celebrate.UiItem_FxStart_Celebrate",
+      "fxType": "OneShot",
+      "status": "resolved",
+      "sourceVerified": true,
+      "behaviorVerified": false,
+      "durationMs": null,
+      "prefab": {
+        "uassetSha256": "ba754a3fdb5d763f0db595039257592240dd20d443fbb6dcac89677638591103",
+        "uexpSha256": "0c4f2f28c797e884c246cb3f091a9b49084357bf6af07c5c3b471d738be87d0f"
+      },
+      "imports": [
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxStart_Celebrate_Start.Ani_UiItem_FxStart_Celebrate_Start"
+        },
+        {
+          "className": "NiagaraSystem",
+          "path": "/Game/Aki/Effect/UI/Niagaras/Events/Backpack/NS_Fx_LGUI_Backpack_Burst6.NS_Fx_LGUI_Backpack_Burst6"
+        }
+      ],
+      "limitations": [
+        "Native Niagara particle parameters, material shader processing, and 3D/vertex-animation trajectories are not reproduced or visually verified against original game playback."
+      ],
+      "images": [
+        {
+          "package": "Aki/Effect/UI/Textures/Mask/T_UI_Mask_013",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Mask/T_UI_Mask_013.T_UI_Mask_013",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "2b238af39fcb562ba0ca8f29dab1ba9cbb29637f98c93cd6e1389a212110f874",
+          "nativeUexpSha256": "b43912c8b772b439129631a62f745d1fdbaf4886ceac13318fdff62e0f0f380f",
+          "decodedBc7Sha256": "144d59d9495192e5ded7445a9bd586674ac103daf7dbd6607fe126091f5ecf34",
+          "sha256": "309da59ca05ac6b7ca593247808147742928d35d04ea8af525c52ff4adcd81a0",
+          "file": "T_UI_Mask_013.png",
+          "role": "mask",
+          "columns": 2,
+          "rows": 2,
+          "atlasMode": "variants",
+          "layoutEvidence": {
+            "niagara": "/Game/Aki/Effect/UI/Niagaras/Events/DaoGuan/NS_Fx_LGUI_DaoGuan_Guzhang01.NS_Fx_LGUI_DaoGuan_Guzhang01",
+            "property": "SubImageSize",
+            "uexpOffset": 44608,
+            "material": "/Game/Aki/Effect/UI/Materials/Ins/MI_Glow/MI_UI_Glow_45012.MI_UI_Glow_45012",
+            "parameter": "Base"
+          },
+          "url": "/assets/reader-vfx/T_UI_Mask_013.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Sub/T_UI_Sub_45016",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Sub/T_UI_Sub_45016.T_UI_Sub_45016",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "258784a7cd29f415240129bd36dc703bbe764ffc3632f6ffd67ea94ac1c653b0",
+          "nativeUexpSha256": "346b5ccbb00ddea51b7c52119ca2597db7d9f68da4e806e53dee1e2bb520ba16",
+          "decodedBc7Sha256": "e56e7db98c6974fb1976643f9016b0048d15c6a451008909169bf2fa1a3a73a5",
+          "sha256": "cce53c64b612097a222bd6a66cd70de73b4e2dc1729d6acb7419166d596bd35f",
+          "file": "T_UI_Sub_45016.png",
+          "role": "sprite",
+          "columns": 3,
+          "rows": 3,
+          "atlasMode": "variants",
+          "layoutEvidence": {
+            "niagara": "/Game/Aki/Effect/UI/Niagaras/Events/Backpack/NS_Fx_LGUI_Backpack_Burst6.NS_Fx_LGUI_Backpack_Burst6",
+            "property": "SubImageSize",
+            "uexpOffset": 157370,
+            "material": "/Game/Aki/Effect/UI/Materials/Ins/MI_Sub/MI_UI_Sub_Lizi_45039.MI_UI_Sub_Lizi_45039",
+            "parameter": "Base"
+          },
+          "url": "/assets/reader-vfx/T_UI_Sub_45016.png",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Trail/T_UI_Trail_90005",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Trail/T_UI_Trail_90005.T_UI_Trail_90005",
+          "width": 256,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "ee8085f1c8dd44d3d11b5924809db2f7e224bfe91ac657bd1ee34f752041245c",
+          "nativeUexpSha256": "ef8afca3328d98a7ea2388843cb1ba14f08090689680c6914f04152d670e7bac",
+          "decodedBc7Sha256": "e8009a651cbc325bf7775235da367282feff8484a4c0eb985b17781897e55571",
+          "sha256": "e2333841e316058086f4084dadf3b217c8cbaae44ed52ca182e1a6b6e9b88360",
+          "file": "T_UI_Trail_90005.png",
+          "role": "sprite",
+          "url": "/assets/reader-vfx/T_UI_Trail_90005.png",
+          "alphaExtrema": [
+            0,
+            246
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Trail/T_UI_Trail_90006",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Trail/T_UI_Trail_90006.T_UI_Trail_90006",
+          "width": 256,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "25f0acae4c07a73c9348660bf568ea8e48ee335fcdeefbdabd832af0b3096a3e",
+          "nativeUexpSha256": "788ee573b7e323eaa8643c86aa11bf0298075d4d6f714dfa91aa55e2991553c6",
+          "decodedBc7Sha256": "52ba230ab0f70b7f4eb3bbdc6ba7a22c871e3cfe226bdd9b784389e546636942",
+          "sha256": "557d2245a523762839dd6b8c86e7bb43593146e8bc1c98f7a088a53595955dce",
+          "file": "T_UI_Trail_90006.png",
+          "role": "sprite",
+          "columns": 3,
+          "rows": 3,
+          "atlasMode": "variants",
+          "layoutEvidence": {
+            "niagara": "/Game/Aki/Effect/UI/Niagaras/Events/Backpack/NS_Fx_LGUI_Backpack_Burst6.NS_Fx_LGUI_Backpack_Burst6",
+            "property": "SubImageSize",
+            "uexpOffset": 157370,
+            "material": "/Game/Aki/Effect/UI/Materials/Ins/MI_UI_Trail_21009.MI_UI_Trail_21009",
+            "parameter": "Base"
+          },
+          "url": "/assets/reader-vfx/T_UI_Trail_90006.png",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "primaryImage": "/assets/reader-vfx/T_UI_Sub_45016.png",
+      "primaryImageRef": "/Game/Aki/Effect/UI/Textures/Sub/T_UI_Sub_45016.T_UI_Sub_45016"
+    },
+    "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxStart/UiItem_FxStart_GreenHuaban.UiItem_FxStart_GreenHuaban": {
+      "name": "UiItem_FxStart_GreenHuaban",
+      "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxStart/UiItem_FxStart_GreenHuaban.UiItem_FxStart_GreenHuaban",
+      "fxType": "OneShot",
+      "status": "resolved",
+      "sourceVerified": true,
+      "behaviorVerified": false,
+      "durationMs": null,
+      "prefab": {
+        "uassetSha256": "72f113797fe06bfda4bbe8765e62895c14527fcf28e6c3f7c9311f0562db3bdb",
+        "uexpSha256": "d22f63e135eb6c4f7f03045b356bcea6d3234b59a7d42e90077c14c45f3b5652"
+      },
+      "imports": [
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxStart_Huaban_Start.Ani_UiItem_FxStart_Huaban_Start"
+        },
+        {
+          "className": "NiagaraSystem",
+          "path": "/Game/Aki/Effect/UI/Niagaras/Events/NS_Fx_LGUI_Leaf_Burst.NS_Fx_LGUI_Leaf_Burst"
+        }
+      ],
+      "limitations": [
+        "Native Niagara particle parameters, material shader processing, and 3D/vertex-animation trajectories are not reproduced or visually verified against original game playback."
+      ],
+      "images": [
+        {
+          "package": "Aki/Effect/UI/Textures/Sub/T_UI_Leaves_90001",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Sub/T_UI_Leaves_90001.T_UI_Leaves_90001",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "152947317a8a498e6e0046c9d0e2c5a16555b80f6ba34b012412edac912c4166",
+          "nativeUexpSha256": "6ffb5feec722421c17821ba7ea52026f56436a8905373879846b061333eab3e0",
+          "decodedBc7Sha256": "c0961c5ebafa5139094129fcd160b008ea5d0ad888526baf6be1bdd8e160f340",
+          "sha256": "e45effeaf12c8e02d0ed1a18402d967f93578e88fac8b54d4e19e78542835e41",
+          "file": "T_UI_Leaves_90001.png",
+          "role": "sprite",
+          "url": "/assets/reader-vfx/T_UI_Leaves_90001.png",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "primaryImage": "/assets/reader-vfx/T_UI_Leaves_90001.png",
+      "primaryImageRef": "/Game/Aki/Effect/UI/Textures/Sub/T_UI_Leaves_90001.T_UI_Leaves_90001"
+    },
+    "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxStart/UiItem_FxStart_Huaban.UiItem_FxStart_Huaban": {
+      "name": "UiItem_FxStart_Huaban",
+      "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxStart/UiItem_FxStart_Huaban.UiItem_FxStart_Huaban",
+      "fxType": "OneShot",
+      "status": "resolved",
+      "sourceVerified": true,
+      "behaviorVerified": false,
+      "durationMs": null,
+      "prefab": {
+        "uassetSha256": "ffebe329cd004f0e2ffe49fcc1275726e9b3cac75eac6c2b0ccae3ba4c0256ca",
+        "uexpSha256": "0ceaa6e5d0228d98f02a7f4800265dd66bf27bffb9595f322aaa88cbbbe4aee3"
+      },
+      "imports": [
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxStart_Huaban_Start.Ani_UiItem_FxStart_Huaban_Start"
+        },
+        {
+          "className": "NiagaraSystem",
+          "path": "/Game/Aki/Effect/UI/Niagaras/Gacha/NS_Fx_LGUI_FeiXue_Huaban_Sparks.NS_Fx_LGUI_FeiXue_Huaban_Sparks"
+        }
+      ],
+      "limitations": [
+        "Native Niagara particle parameters, material shader processing, and 3D/vertex-animation trajectories are not reproduced or visually verified against original game playback."
+      ],
+      "images": [
+        {
+          "package": "Aki/Effect/UI/Textures/Sub/T_UI_Sub_21042",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Sub/T_UI_Sub_21042.T_UI_Sub_21042",
+          "width": 1024,
+          "height": 1024,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "e924bc3b73684c2f1ceb5ffda629a90b5c96762f45bba6972e9b7e17e53e0b0f",
+          "nativeUexpSha256": "0b6776d3a46cf689b19463b306fabef96dd89d615afcd027cc4f89e71a1ba252",
+          "decodedBc7Sha256": "e7462e2d749009473e6289ff621767b629bf3fb22f645508bf178f208f6e938e",
+          "sha256": "9fb21b6fa4fbd641568edacab09abb12abcf3616572c9ec1b337aad8d0ce2752",
+          "file": "T_UI_Sub_21042.png",
+          "role": "sprite",
+          "columns": 2,
+          "rows": 2,
+          "atlasMode": "variants",
+          "layoutEvidence": {
+            "niagara": "/Game/Aki/Effect/UI/Niagaras/Gacha/NS_Fx_LGUI_FeiXue_Huaban_Sparks.NS_Fx_LGUI_FeiXue_Huaban_Sparks",
+            "property": "SubImageSize",
+            "uexpOffset": 105483,
+            "material": "/Game/Aki/Effect/UI/Materials/Ins/MI_Sub/MI_UI_Sub_Lizi_21093.MI_UI_Sub_Lizi_21093",
+            "parameter": "Base"
+          },
+          "url": "/assets/reader-vfx/T_UI_Sub_21042.png",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Tile/T_UI_Tile_035",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Tile/T_UI_Tile_035.T_UI_Tile_035",
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "04825e9c4367abf45decf534d27c023a68c2eb86d7f17a24e8b59fb1dd9f5f5f",
+          "nativeUexpSha256": "ffe05c86a9f81234ac4798cfbb6c6c96a2b2e2e2ab4c50d0dbf8c39308061d48",
+          "decodedBc7Sha256": "9bd17d56fbb86bcc19bc163ed57baebadc8933106cb58b4b2bfd1f017f36327a",
+          "sha256": "71aabab6a758b668bff26511b5b4700e40ca54532fa3e1a805fce522bbd88f3b",
+          "file": "T_UI_Tile_035.png",
+          "role": "noise",
+          "url": "/assets/reader-vfx/T_UI_Tile_035.png",
+          "alphaExtrema": [
+            80,
+            237
+          ]
+        }
+      ],
+      "primaryImage": "/assets/reader-vfx/T_UI_Sub_21042.png",
+      "primaryImageRef": "/Game/Aki/Effect/UI/Textures/Sub/T_UI_Sub_21042.T_UI_Sub_21042"
+    },
+    "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxStart/UiItem_FxStart_Sound.UiItem_FxStart_Sound": {
+      "name": "UiItem_FxStart_Sound",
+      "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxStart/UiItem_FxStart_Sound.UiItem_FxStart_Sound",
+      "fxType": "OneShot",
+      "status": "resolved",
+      "sourceVerified": true,
+      "behaviorVerified": false,
+      "durationMs": null,
+      "prefab": {
+        "uassetSha256": "1de820fbd47f47ab98cd38cf8c3f92422e65d37f6fb0362a0674eb6e24b14a8d",
+        "uexpSha256": "4da530fdbf28c96cec101e0270c5119b24693e92a159461cfb17a11baf1648e5"
+      },
+      "imports": [
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxStart_Sound_Start.Ani_UiItem_FxStart_Sound_Start"
+        },
+        {
+          "className": "NiagaraSystem",
+          "path": "/Game/Aki/Effect/UI/Niagaras/Events/JieZouFeiChuan/NS_Fx_LGUI_JieZou_Lizi_Loop05.NS_Fx_LGUI_JieZou_Lizi_Loop05"
+        }
+      ],
+      "limitations": [
+        "Native Niagara particle parameters, material shader processing, and 3D/vertex-animation trajectories are not reproduced or visually verified against original game playback."
+      ],
+      "images": [
+        {
+          "package": "Aki/Effect/UI/Textures/Sub/T_UI_Sub_45007",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Sub/T_UI_Sub_45007.T_UI_Sub_45007",
+          "width": 512,
+          "height": 512,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "f75de78a82997627ee197bf54e96a0d10374d69a3007d25fa0a0a71fe40ac25a",
+          "nativeUexpSha256": "9e28f5a98ab1a3153164a06cbc5d3252d2a24037802452cdcca5f0d29e5ef951",
+          "decodedBc7Sha256": "accb73da940577ea959c2c1e692987af1cbdf2c46f266fe66d2f405bb09b7b4b",
+          "sha256": "7573935ea273338afc15ce6b80868e923263ec8ef3dcc1cf93b47590608b4573",
+          "file": "T_UI_Sub_45007.png",
+          "role": "sprite",
+          "columns": 3,
+          "rows": 3,
+          "atlasMode": "variants",
+          "layoutEvidence": {
+            "niagara": "/Game/Aki/Effect/UI/Niagaras/Events/JieZouFeiChuan/NS_Fx_LGUI_JieZou_Lizi_Loop05.NS_Fx_LGUI_JieZou_Lizi_Loop05",
+            "property": "SubImageSize",
+            "uexpOffset": 63291,
+            "material": "/Game/Aki/Effect/UI/Materials/Ins/MI_Sub/MI_UI_Sub_Lizi_45026.MI_UI_Sub_Lizi_45026",
+            "parameter": "Base"
+          },
+          "url": "/assets/reader-vfx/T_UI_Sub_45007.png",
+          "alphaExtrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "primaryImage": "/assets/reader-vfx/T_UI_Sub_45007.png",
+      "primaryImageRef": "/Game/Aki/Effect/UI/Textures/Sub/T_UI_Sub_45007.T_UI_Sub_45007"
+    },
+    "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxStart/UiItem_FxStart_SpeedLine.UiItem_FxStart_SpeedLine": {
+      "name": "UiItem_FxStart_SpeedLine",
+      "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxStart/UiItem_FxStart_SpeedLine.UiItem_FxStart_SpeedLine",
+      "fxType": "OneShot",
+      "status": "resolved",
+      "sourceVerified": true,
+      "behaviorVerified": false,
+      "durationMs": null,
+      "prefab": {
+        "uassetSha256": "83973056e3abba47bb68ec9894ea2df3a01b7908da4bd29479cccf42136484d9",
+        "uexpSha256": "f8c828f388b8556aa295a7a26ced5ec7bb854e5de7dfc5ab3850dad758fd0941"
+      },
+      "imports": [
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxStart_SpeedLine_Start.Ani_UiItem_FxStart_SpeedLine_Start"
+        },
+        {
+          "className": "MaterialInstanceConstant",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/Materials/Activity38/SolarSchool/MI_SpeedLine.MI_SpeedLine"
+        },
+        {
+          "className": "MaterialInstanceConstant",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/Materials/Activity38/SolarSchool/MI_SpeedLine_2.MI_SpeedLine_2"
+        },
+        {
+          "className": "MaterialInstanceConstant",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/Materials/Activity38/SolarSchool/MI_SpeedLine_3.MI_SpeedLine_3"
+        },
+        {
+          "className": "Texture2D",
+          "path": "/Game/Aki/UI/UIResources/Common/Image/T_CommonDefault_UI.T_CommonDefault_UI"
+        }
+      ],
+      "limitations": [
+        "Native Niagara particle parameters, material shader processing, and 3D/vertex-animation trajectories are not reproduced or visually verified against original game playback.",
+        "Visible Reader canvas material approximation; original shader and sequence curves remain unverified."
+      ],
+      "images": [
+        {
+          "package": "Aki/Effect/UI/Textures/Mask/T_UI_Mask_061",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Mask/T_UI_Mask_061.T_UI_Mask_061",
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha": false,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "356379047241494b800ca0ce50f18946c6b0704d09b98a7866b2cbd8caf7c1b9",
+          "nativeUexpSha256": "f861af1b332998d1cc37e2c8fdcde6aea44206e202daa0504b107b418c71d347",
+          "decodedBc7Sha256": "7ed82617bf62327580c02db6b546790457bc76e87ab968438718233c13f54390",
+          "sha256": "7ee1439837eed65854d2a230d35aac323fef002983542512e61493651214c6dd",
+          "file": "T_UI_Mask_061.png",
+          "role": "mask",
+          "url": "/assets/reader-vfx/T_UI_Mask_061.png",
+          "alphaExtrema": [
+            255,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Mask/T_UI_Mask_21015",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Mask/T_UI_Mask_21015.T_UI_Mask_21015",
+          "width": 256,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "e22adb6bf3c10ea8fd8a566229f362fc2a2ce4c2866d0f07473cbe526b4a4f04",
+          "nativeUexpSha256": "e4d8315cde9361e5f50581bcbd853b547c88ddb34658e4eb3f0240702ab4a09d",
+          "decodedBc7Sha256": "acb272562701f1225a7e137a386634f816bdaab9d24ed03dbf3b3fa998fe6bd5",
+          "sha256": "06f33a90ac353eecd11f153f2668d7cc530af938613db643065095851658009b",
+          "file": "T_UI_Mask_21015.png",
+          "role": "mask",
+          "url": "/assets/reader-vfx/T_UI_Mask_21015.png",
+          "alphaExtrema": [
+            4,
+            244
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Tile/T_UI_Tile_21002",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Tile/T_UI_Tile_21002.T_UI_Tile_21002",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "a3726ea342f2924ac47422b148330dd7b1ebdf0115ae9b4321998062fead1bf7",
+          "nativeUexpSha256": "11d306b91c5302421fc07f100e00b26bc4b096f791201d597628162f13eca6ed",
+          "decodedBc7Sha256": "0a81a5e4543853077660b461647db33c191a2b25d96bfc7da0f7753fbd28040e",
+          "sha256": "3825ff654e679228415b22c3a6ca9394b5ca9aff8cf55105c29db538b2a88674",
+          "file": "T_UI_Tile_21002.png",
+          "role": "noise",
+          "url": "/assets/reader-vfx/T_UI_Tile_21002.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Tile/T_UI_Tile_21010",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Tile/T_UI_Tile_21010.T_UI_Tile_21010",
+          "width": 512,
+          "height": 512,
+          "mode": "RGBA",
+          "alpha": false,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "dea28fe70c2611a424c1869c89953bde51556782273b88823c2fd85dadb923e9",
+          "nativeUexpSha256": "5d7cbd1446052646037794e445f388ec3d45827cd715af17a18d16532283cc08",
+          "decodedBc7Sha256": "cc93260a0060d89f79dd70fc43cd9770fbc13b3c6d3610826bdadd6103c748c2",
+          "sha256": "d4b26430e7a83a61ed3e92167e7b7261874e598bcb41eb49642703fd5e653c03",
+          "file": "T_UI_Tile_21010.png",
+          "role": "noise",
+          "url": "/assets/reader-vfx/T_UI_Tile_21010.png",
+          "alphaExtrema": [
+            255,
+            255
+          ]
+        }
+      ],
+      "primaryImage": null,
+      "primaryImageRef": null,
+      "readerRenderer": "speed-line"
+    },
+    "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxStart/UiItem_FxStart_SpeedLineBlack.UiItem_FxStart_SpeedLineBlack": {
+      "name": "UiItem_FxStart_SpeedLineBlack",
+      "sourceRef": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxStart/UiItem_FxStart_SpeedLineBlack.UiItem_FxStart_SpeedLineBlack",
+      "fxType": "OneShot",
+      "status": "resolved",
+      "sourceVerified": true,
+      "behaviorVerified": false,
+      "durationMs": null,
+      "prefab": {
+        "uassetSha256": "b77872a01dfccf136c4f71d2d0ca547bab022170547a626fb628c8b763956428",
+        "uexpSha256": "56e1fbed745eab4c84d590f7496632402204410c389b1e531b02d9fe1f83e88c"
+      },
+      "imports": [
+        {
+          "className": "LevelSequence",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/LevelSequence/Activity38/SolarSchool/Main/Ani_UiItem_FxStart_SpeedLine_Start.Ani_UiItem_FxStart_SpeedLine_Start"
+        },
+        {
+          "className": "MaterialInstanceConstant",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/Materials/Activity38/SolarSchool/MI_SpeedLine.MI_SpeedLine"
+        },
+        {
+          "className": "MaterialInstanceConstant",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/Materials/Activity38/SolarSchool/MI_SpeedLine_2.MI_SpeedLine_2"
+        },
+        {
+          "className": "MaterialInstanceConstant",
+          "path": "/Game/Aki/UI/UIResources/UiActivity/Materials/Activity38/SolarSchool/MI_SpeedLine_3.MI_SpeedLine_3"
+        },
+        {
+          "className": "Texture2D",
+          "path": "/Game/Aki/UI/UIResources/Common/Image/T_CommonDefault_UI.T_CommonDefault_UI"
+        }
+      ],
+      "limitations": [
+        "Native Niagara particle parameters, material shader processing, and 3D/vertex-animation trajectories are not reproduced or visually verified against original game playback.",
+        "Visible Reader canvas material approximation; original shader and sequence curves remain unverified."
+      ],
+      "images": [
+        {
+          "package": "Aki/Effect/UI/Textures/Mask/T_UI_Mask_061",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Mask/T_UI_Mask_061.T_UI_Mask_061",
+          "width": 128,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha": false,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "356379047241494b800ca0ce50f18946c6b0704d09b98a7866b2cbd8caf7c1b9",
+          "nativeUexpSha256": "f861af1b332998d1cc37e2c8fdcde6aea44206e202daa0504b107b418c71d347",
+          "decodedBc7Sha256": "7ed82617bf62327580c02db6b546790457bc76e87ab968438718233c13f54390",
+          "sha256": "7ee1439837eed65854d2a230d35aac323fef002983542512e61493651214c6dd",
+          "file": "T_UI_Mask_061.png",
+          "role": "mask",
+          "url": "/assets/reader-vfx/T_UI_Mask_061.png",
+          "alphaExtrema": [
+            255,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Mask/T_UI_Mask_21015",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Mask/T_UI_Mask_21015.T_UI_Mask_21015",
+          "width": 256,
+          "height": 128,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "e22adb6bf3c10ea8fd8a566229f362fc2a2ce4c2866d0f07473cbe526b4a4f04",
+          "nativeUexpSha256": "e4d8315cde9361e5f50581bcbd853b547c88ddb34658e4eb3f0240702ab4a09d",
+          "decodedBc7Sha256": "acb272562701f1225a7e137a386634f816bdaab9d24ed03dbf3b3fa998fe6bd5",
+          "sha256": "06f33a90ac353eecd11f153f2668d7cc530af938613db643065095851658009b",
+          "file": "T_UI_Mask_21015.png",
+          "role": "mask",
+          "url": "/assets/reader-vfx/T_UI_Mask_21015.png",
+          "alphaExtrema": [
+            4,
+            244
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Tile/T_UI_Tile_21002",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Tile/T_UI_Tile_21002.T_UI_Tile_21002",
+          "width": 256,
+          "height": 256,
+          "mode": "RGBA",
+          "alpha": true,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "a3726ea342f2924ac47422b148330dd7b1ebdf0115ae9b4321998062fead1bf7",
+          "nativeUexpSha256": "11d306b91c5302421fc07f100e00b26bc4b096f791201d597628162f13eca6ed",
+          "decodedBc7Sha256": "0a81a5e4543853077660b461647db33c191a2b25d96bfc7da0f7753fbd28040e",
+          "sha256": "3825ff654e679228415b22c3a6ca9394b5ca9aff8cf55105c29db538b2a88674",
+          "file": "T_UI_Tile_21002.png",
+          "role": "noise",
+          "url": "/assets/reader-vfx/T_UI_Tile_21002.png",
+          "alphaExtrema": [
+            254,
+            255
+          ]
+        },
+        {
+          "package": "Aki/Effect/UI/Textures/Tile/T_UI_Tile_21010",
+          "sourceRef": "/Game/Aki/Effect/UI/Textures/Tile/T_UI_Tile_21010.T_UI_Tile_21010",
+          "width": 512,
+          "height": 512,
+          "mode": "RGBA",
+          "alpha": false,
+          "nativeFormat": "PF_BC7",
+          "nativeUassetSha256": "dea28fe70c2611a424c1869c89953bde51556782273b88823c2fd85dadb923e9",
+          "nativeUexpSha256": "5d7cbd1446052646037794e445f388ec3d45827cd715af17a18d16532283cc08",
+          "decodedBc7Sha256": "cc93260a0060d89f79dd70fc43cd9770fbc13b3c6d3610826bdadd6103c748c2",
+          "sha256": "d4b26430e7a83a61ed3e92167e7b7261874e598bcb41eb49642703fd5e653c03",
+          "file": "T_UI_Tile_21010.png",
+          "role": "noise",
+          "url": "/assets/reader-vfx/T_UI_Tile_21010.png",
+          "alphaExtrema": [
+            255,
+            255
+          ]
+        }
+      ],
+      "primaryImage": null,
+      "primaryImageRef": null,
+      "readerRenderer": "speed-line-black"
+    }
+  },
+  "limitations": [
+    "Native shader/particle/3D/VAT behavior is not visually verified; browser previews use traced texture assets.",
+    "Standalone bitmaps for Black, Danger and SpeedLine shader effects are not verified.",
+    "Exact native screen/portrait Shake and EyeOpen sequence curves are not verified."
+  ],
+  "decodeLimitations": [
+    {
+      "package": "Aki/UI/UIResources/Common/Image/T_CommonDefault_UI",
+      "formats": [
+        "PF_B8G8R8A8"
+      ],
+      "reason": "Only BC7Prep decoded in this bounded sprite pass"
+    },
+    {
+      "package": "Aki/Effect/UI/Textures/Mask/T_UI_Mask_300153",
+      "reason": "Command '['dotnet', '/tmp/reader-vfx-decode/Decode.dll', '/tmp/reader-vfx-prefabs/dependencies/Aki/Effect/UI/Textures/Mask/T_UI_Mask_300153.uexp', '/tmp/reader-vfx-decoded-textures/T_UI_Mask_300153.bc"
+    },
+    {
+      "package": "Aki/Effect/UI/Textures/Color/T_UI_Color_003",
+      "formats": [
+        "PF_B8G8R8A8"
+      ],
+      "reason": "Only BC7Prep decoded in this bounded sprite pass"
+    },
+    {
+      "package": "Aki/Effect/UI/Textures/Mask/T_UI_Mask_009",
+      "reason": "Command '['dotnet', '/tmp/reader-vfx-decode/Decode.dll', '/tmp/reader-vfx-prefabs/dependencies/Aki/Effect/UI/Textures/Mask/T_UI_Mask_009.uexp', '/tmp/reader-vfx-decoded-textures/T_UI_Mask_009.bc7']' d"
+    },
+    {
+      "package": "Aki/Effect/UI/Textures/Mask/T_UI_Mask_022",
+      "reason": "Command '['dotnet', '/tmp/reader-vfx-decode/Decode.dll', '/tmp/reader-vfx-prefabs/dependencies/Aki/Effect/UI/Textures/Mask/T_UI_Mask_022.uexp', '/tmp/reader-vfx-decoded-textures/T_UI_Mask_022.bc7']' d"
+    },
+    {
+      "package": "Aki/Effect/UI/Textures/Mask/T_UI_Mask_023",
+      "reason": "Command '['dotnet', '/tmp/reader-vfx-decode/Decode.dll', '/tmp/reader-vfx-prefabs/dependencies/Aki/Effect/UI/Textures/Mask/T_UI_Mask_023.uexp', '/tmp/reader-vfx-decoded-textures/T_UI_Mask_023.bc7']' d"
+    },
+    {
+      "package": "Aki/Effect/UI/Textures/Normal/T_UI_Normal_001",
+      "formats": [
+        "PF_BC5"
+      ],
+      "reason": "Only BC7Prep decoded in this bounded sprite pass"
+    },
+    {
+      "package": "Aki/Effect/UI/Textures/Normal/T_UI_Normal_007",
+      "formats": [
+        "PF_BC5"
+      ],
+      "reason": "Only BC7Prep decoded in this bounded sprite pass"
+    },
+    {
+      "package": "Aki/Effect/UI/Textures/Normal/T_UI_Normal_011",
+      "formats": [
+        "PF_BC5"
+      ],
+      "reason": "Only BC7Prep decoded in this bounded sprite pass"
+    },
+    {
+      "package": "Aki/Effect/UI/Textures/Tile/T_UI_Tile_21009",
+      "formats": [
+        "PF_DXT1"
+      ],
+      "reason": "Only BC7Prep decoded in this bounded sprite pass"
+    },
+    {
+      "package": "Aki/Effect/UI/Textures/VertexAnimationTools/T_Shouanren_Butterfly_01_VAT",
+      "formats": [
+        "PF_FloatRGBA"
+      ],
+      "reason": "Only BC7Prep decoded in this bounded sprite pass"
+    },
+    {
+      "package": "Aki/Render/Common/T_DefaultColorWhite_D",
+      "formats": [
+        "PF_B8G8R8A8"
+      ],
+      "reason": "Only BC7Prep decoded in this bounded sprite pass"
+    },
+    {
+      "package": "Aki/Render/Common/T_DefaultColorBlack_Linear_D",
+      "formats": [
+        "PF_B8G8R8A8"
+      ],
+      "reason": "Only BC7Prep decoded in this bounded sprite pass"
+    },
+    {
+      "package": "Aki/Render/Common/T_DefaultColorWhite_Linear_D",
+      "formats": [
+        "PF_B8G8R8A8"
+      ],
+      "reason": "Only BC7Prep decoded in this bounded sprite pass"
+    },
+    {
+      "package": "Aki/Render/Common/T_Default_Matcap_Metal",
+      "formats": [
+        "PF_DXT1"
+      ],
+      "reason": "Only BC7Prep decoded in this bounded sprite pass"
+    }
+  ]
+}

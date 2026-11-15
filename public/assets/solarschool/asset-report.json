@@ -1,0 +1,30 @@
+{
+  "source": {
+    "repository": "alt3ri/WW_Asset_Webp",
+    "revision": "53692bed10f6b82cdcff0a36b72cc01cc329852c",
+    "method": "local-files"
+  },
+  "generatedAt": "2026-11-12T17:28:06.635435+00:00",
+  "backgroundIds": 29,
+  "cgIds": 63,
+  "quizIds": 16,
+  "uniqueReferencedFiles": 142,
+  "readyFiles": 142,
+  "missingReferences": [
+    {
+      "kind": "backgrounds",
+      "id": "800001",
+      "variant": "day",
+      "reason": "No asset reference in assets.manifest.json"
+    },
+    {
+      "kind": "backgrounds",
+      "id": "800001",
+      "variant": "night",
+      "reason": "No asset reference in assets.manifest.json"
+    }
+  ],
+  "unavailableFiles": [],
+  "invalidReferences": [],
+  "transportError": null
+}

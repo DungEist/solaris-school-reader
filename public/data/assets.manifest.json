@@ -1,0 +1,4095 @@
+{
+ "note": "ids and UE paths only; no binary assets are part of this data set",
+ "backgrounds": {
+  "700003": {
+   "label": "学生理事会",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_3_1.T_SolarSchool_bg_3_1",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_3_1.T_SolarSchool_bg_3_1"
+  },
+  "700004": {
+   "label": "社团联合",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_4_1.T_SolarSchool_bg_4_1",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_4_2.T_SolarSchool_bg_4_2"
+  },
+  "700005": {
+   "label": "外联中心",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_5_1.T_SolarSchool_bg_5_1",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_5_1.T_SolarSchool_bg_5_1"
+  },
+  "700006": {
+   "label": "校内休息处",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_6_1.T_SolarSchool_bg_6_1",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_6_2.T_SolarSchool_bg_6_2"
+  },
+  "700007": {
+   "label": "巴士站",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_7_1.T_SolarSchool_bg_7_1",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_7_2.T_SolarSchool_bg_7_2"
+  },
+  "700008": {
+   "label": "网球场",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_8_1.T_SolarSchool_bg_8_1",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_8_2.T_SolarSchool_bg_8_2"
+  },
+  "700009": {
+   "label": "商店街",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_9_1.T_SolarSchool_bg_9_1",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_9_2.T_SolarSchool_bg_9_2"
+  },
+  "700010": {
+   "label": "操场",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_10_1.T_SolarSchool_bg_10_1",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_10_2.T_SolarSchool_bg_10_2"
+  },
+  "700011": {
+   "label": "商店",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_11_1.T_SolarSchool_bg_11_1",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_11_2.T_SolarSchool_bg_11_2"
+  },
+  "700012": {
+   "label": "家庭餐厅",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_12_1.T_SolarSchool_bg_12_1",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_12_2.T_SolarSchool_bg_12_2"
+  },
+  "700013": {
+   "label": "街道",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_13_1.T_SolarSchool_bg_13_1",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_13_2.T_SolarSchool_bg_13_2"
+  },
+  "700014": {
+   "label": "广场",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_14_1.T_SolarSchool_bg_14_1",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_14_2.T_SolarSchool_bg_14_2"
+  },
+  "700015": {
+   "label": "海边",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_15_1.T_SolarSchool_bg_15_1",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_15_2.T_SolarSchool_bg_15_2"
+  },
+  "700016": {
+   "label": "车站",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_16_1.T_SolarSchool_bg_16_1",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_16_2.T_SolarSchool_bg_16_2"
+  },
+  "700017": {
+   "label": "校内走廊",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_17_1.T_SolarSchool_bg_17_1",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_17_2.T_SolarSchool_bg_17_2"
+  },
+  "700018": {
+   "label": "办公室",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_18_1.T_SolarSchool_bg_18_1",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_18_1.T_SolarSchool_bg_18_1"
+  },
+  "700019": {
+   "label": "礼堂",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_19_1.T_SolarSchool_bg_19_1",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_19_1.T_SolarSchool_bg_19_1"
+  },
+  "700020": {
+   "label": "教室",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_MainBg001A.T_SolarSchool_MainBg001A",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_MainBg001B.T_SolarSchool_MainBg001B"
+  },
+  "700021": {
+   "label": "家",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_MainBg002A.T_SolarSchool_MainBg002A",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_MainBg002B.T_SolarSchool_MainBg002B"
+  },
+  "700022": {
+   "label": "天台上午",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_1.T_SolarSchool_bg_20_1",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_1.T_SolarSchool_bg_20_1"
+  },
+  "700023": {
+   "label": "天台黄昏",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_2.T_SolarSchool_bg_20_2",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_2.T_SolarSchool_bg_20_2"
+  },
+  "700024": {
+   "label": "天台晚上",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_3.T_SolarSchool_bg_20_3",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_3.T_SolarSchool_bg_20_3"
+  },
+  "700025": {
+   "label": "仓库（卡提线占位）",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_21_1.T_SolarSchool_bg_21_1",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_21_1.T_SolarSchool_bg_21_1"
+  },
+  "700029": {
+   "label": "病房（长离线占位）",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_29_1.T_SolarSchool_bg_29_1",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_29_1.T_SolarSchool_bg_29_1"
+  },
+  "700034": {
+   "label": "长离个人线高级背景",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_27_2.T_SolarSchool_bg_27_2",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_27_2.T_SolarSchool_bg_27_2"
+  },
+  "700035": {
+   "label": "长离情感结局背景",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_26_2.T_SolarSchool_bg_26_2",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_26_2.T_SolarSchool_bg_26_2"
+  },
+  "700036": {
+   "label": "守岸人真结局背景",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_28_1.T_SolarSchool_bg_28_1",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_28_1.T_SolarSchool_bg_28_1"
+  },
+  "700038": {
+   "label": "纯黑背景",
+   "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_Black.T_SolarSchool_bg_Black",
+   "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_Black.T_SolarSchool_bg_Black"
+  }
+ },
+ "cgs": {
+  "700001": {
+   "label": "千咲漂打工",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_101_b.T_SolarSchool_101_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_101_a.T_SolarSchool_101_a"
+  },
+  "700002": {
+   "label": "卜灵发帖",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_102.T_SolarSchool_102",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_102.T_SolarSchool_102"
+  },
+  "700003": {
+   "label": "传奇学生",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_103_a.T_SolarSchool_103_a",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_103_b.T_SolarSchool_103_b"
+  },
+  "700004": {
+   "label": "签订对赌协议",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_104.T_SolarSchool_104",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_104.T_SolarSchool_104"
+  },
+  "700005": {
+   "label": "梅塔结局",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_201.T_SolarSchool_201",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_201.T_SolarSchool_201"
+  },
+  "700006": {
+   "label": "夏空小卡初见",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_202_b.T_SolarSchool_202_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_202_a.T_SolarSchool_202_a"
+  },
+  "700007": {
+   "label": "车站送别差分1",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_204_b_1.T_SolarSchool_204_b_1",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_204_a_1.T_SolarSchool_204_a_1"
+  },
+  "700008": {
+   "label": "车站送别差分2",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_204_b_2.T_SolarSchool_204_b_2",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_204_a_2.T_SolarSchool_204_a_2"
+  },
+  "700009": {
+   "label": "万人迷结局",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_206_b.T_SolarSchool_206_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_206_a.T_SolarSchool_206_a"
+  },
+  "700011": {
+   "label": "千咲送餐宝",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_220.T_SolarSchool_220",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_220.T_SolarSchool_220"
+  },
+  "700012": {
+   "label": "守岸人开局",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_221.T_SolarSchool_221",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_221.T_SolarSchool_221"
+  },
+  "700013": {
+   "label": "火锅派对六人（无漂泊者）",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222.T_SolarSchool_222",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222.T_SolarSchool_222"
+  },
+  "700017": {
+   "label": "豆汁",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_109_b.T_SolarSchool_109_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_109_a.T_SolarSchool_109_a"
+  },
+  "700018": {
+   "label": "千咲发明展示",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_110.T_SolarSchool_110",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_110.T_SolarSchool_110"
+  },
+  "700019": {
+   "label": "夏空勾肩搭背",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_111_b.T_SolarSchool_111_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_111_a.T_SolarSchool_111_a"
+  },
+  "700020": {
+   "label": "阿布汽水",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_112.T_SolarSchool_112",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_112.T_SolarSchool_112"
+  },
+  "700021": {
+   "label": "长离相里要漂泊者",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_203_b.T_SolarSchool_203_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_203_a.T_SolarSchool_203_a"
+  },
+  "700022": {
+   "label": "大富翁结局",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_205_b.T_SolarSchool_205_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_205_a.T_SolarSchool_205_a"
+  },
+  "700023": {
+   "label": "阿布养你结局",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_207_b.T_SolarSchool_207_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_207_a.T_SolarSchool_207_a"
+  },
+  "700024": {
+   "label": "发明家决策顾问结局",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_209_b.T_SolarSchool_209_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_209_a.T_SolarSchool_209_a"
+  },
+  "700025": {
+   "label": "艺术家结局",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_210_b.T_SolarSchool_210_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_210_a.T_SolarSchool_210_a"
+  },
+  "700026": {
+   "label": "运动员登山家考察员结局",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_211_b.T_SolarSchool_211_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_211_a.T_SolarSchool_211_a"
+  },
+  "700027": {
+   "label": "返校任教结局",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_212_b.T_SolarSchool_212_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_212_a.T_SolarSchool_212_a"
+  },
+  "700028": {
+   "label": "卡提线拔剑",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_216.T_SolarSchool_216",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_216.T_SolarSchool_216"
+  },
+  "700029": {
+   "label": "二周目岸弹琴",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_217_b.T_SolarSchool_217_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_217_a.T_SolarSchool_217_a"
+  },
+  "700030": {
+   "label": "卡提CG2仓库",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_218_b.T_SolarSchool_218_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_218_a.T_SolarSchool_218_a"
+  },
+  "700031": {
+   "label": "长离CG2医院",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_219.T_SolarSchool_219",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_219.T_SolarSchool_219"
+  },
+  "700032": {
+   "label": "学生会阵营中期CG2",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_223_b.T_SolarSchool_223_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_223_a.T_SolarSchool_223_a"
+  },
+  "700033": {
+   "label": "社联阵营中期CG2",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_224.T_SolarSchool_224",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_224.T_SolarSchool_224"
+  },
+  "700034": {
+   "label": "菲比校庆独唱",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_225.T_SolarSchool_225",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_225.T_SolarSchool_225"
+  },
+  "700042": {
+   "label": "社联1",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_105_b.T_SolarSchool_105_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_105_a.T_SolarSchool_105_a"
+  },
+  "700043": {
+   "label": "社联2",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_106.T_SolarSchool_106",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_106.T_SolarSchool_106"
+  },
+  "700044": {
+   "label": "理事会1",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_107.T_SolarSchool_107",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_107.T_SolarSchool_107"
+  },
+  "700045": {
+   "label": "理事会2",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_108.T_SolarSchool_108",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_108.T_SolarSchool_108"
+  },
+  "700046": {
+   "label": "千咲个人线",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_114_b.T_SolarSchool_114_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_114_a.T_SolarSchool_114_a"
+  },
+  "700047": {
+   "label": "卜灵个人线",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_116_b.T_SolarSchool_116_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_116_a.T_SolarSchool_116_a"
+  },
+  "700048": {
+   "label": "维里奈个人线",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_117_b.T_SolarSchool_117_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_117_a.T_SolarSchool_117_a"
+  },
+  "700049": {
+   "label": "嘉贝莉娜个人线",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_118_b.T_SolarSchool_118_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_118_a.T_SolarSchool_118_a"
+  },
+  "700050": {
+   "label": "相里要个人线",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_119_b.T_SolarSchool_119_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_119_a.T_SolarSchool_119_a"
+  },
+  "700051": {
+   "label": "菲比个人线",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_120_b.T_SolarSchool_120_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_120_a.T_SolarSchool_120_a"
+  },
+  "700052": {
+   "label": "相里要主持",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_121_b.T_SolarSchool_121_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_121_b.T_SolarSchool_121_b"
+  },
+  "700054": {
+   "label": "学者结局",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_208_b.T_SolarSchool_208_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_208_a.T_SolarSchool_208_a"
+  },
+  "700055": {
+   "label": "市长结局",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_213_b.T_SolarSchool_213_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_213_a.T_SolarSchool_213_a"
+  },
+  "700056": {
+   "label": "开学考",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_214.T_SolarSchool_214",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_214.T_SolarSchool_214"
+  },
+  "700057": {
+   "label": "长离虚弱",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_215.T_SolarSchool_215",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_215.T_SolarSchool_215"
+  },
+  "700058": {
+   "label": "火锅八人（不带漂泊者）",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222_2.T_SolarSchool_222_2",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222_2.T_SolarSchool_222_2"
+  },
+  "700059": {
+   "label": "洛可可个人线",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_113_b.T_SolarSchool_113_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_113_a.T_SolarSchool_113_a"
+  },
+  "700060": {
+   "label": "夏空个人线",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_115_b.T_SolarSchool_115_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_115_a.T_SolarSchool_115_a"
+  },
+  "700063": {
+   "label": "相里要喇叭差分",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_121_a.T_SolarSchool_121_a",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_121_a.T_SolarSchool_121_a"
+  },
+  "700064": {
+   "label": "弗洛logo",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1001.T_SolarSchool_A1001",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1001.T_SolarSchool_A1001"
+  },
+  "700065": {
+   "label": "物流logo",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1002.T_SolarSchool_A1002",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1002.T_SolarSchool_A1002"
+  },
+  "700066": {
+   "label": "秧秧简画",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1003.T_SolarSchool_A1003",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1003.T_SolarSchool_A1003"
+  },
+  "700067": {
+   "label": "简画2",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1004.T_SolarSchool_A1004",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1004.T_SolarSchool_A1004"
+  },
+  "700068": {
+   "label": "秧秧pv",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1005.T_SolarSchool_A1005",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1005.T_SolarSchool_A1005"
+  },
+  "700069": {
+   "label": "pv2",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1006.T_SolarSchool_A1006",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1006.T_SolarSchool_A1006"
+  },
+  "700071": {
+   "label": "四个物品",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1007.T_SolarSchool_A1007",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1007.T_SolarSchool_A1007"
+  },
+  "700072": {
+   "label": "三个物品",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1008.T_SolarSchool_A1008",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1008.T_SolarSchool_A1008"
+  },
+  "700073": {
+   "label": "饮品",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1009.T_SolarSchool_A1009",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1009.T_SolarSchool_A1009"
+  },
+  "700074": {
+   "label": "饼干",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1010.T_SolarSchool_A1010",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1010.T_SolarSchool_A1010"
+  },
+  "700075": {
+   "label": "三个波仔",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A2010.T_SolarSchool_A2010",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A2010.T_SolarSchool_A2010"
+  },
+  "700076": {
+   "label": "一个波仔",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A2011.T_SolarSchool_A2011",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A2011.T_SolarSchool_A2011"
+  },
+  "700077": {
+   "label": "火锅派对所有人",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222_5_b.T_SolarSchool_222_5_b",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222_5_a.T_SolarSchool_222_5_a"
+  },
+  "700079": {
+   "label": "鬼屋背景",
+   "path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A5005.T_SolarSchool_A5005",
+   "pathMale": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A5005.T_SolarSchool_A5005"
+  }
+ },
+ "quizzes": {
+  "1": {
+   "label": "SolarSchool_Examtitle_1",
+   "path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2001.T_IconSolarSchoolExam2001"
+  },
+  "2": {
+   "label": "SolarSchool_Examtitle_1",
+   "path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2002.T_IconSolarSchoolExam2002"
+  },
+  "4": {
+   "label": "SolarSchool_Examtitle_2",
+   "path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2003.T_IconSolarSchoolExam2003"
+  },
+  "5": {
+   "label": "SolarSchool_Examtitle_2",
+   "path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2006.T_IconSolarSchoolExam2006"
+  },
+  "7": {
+   "label": "SolarSchool_Examtitle_3",
+   "path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2001.T_IconSolarSchoolExam2001"
+  },
+  "8": {
+   "label": "SolarSchool_Examtitle_3",
+   "path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2002.T_IconSolarSchoolExam2002"
+  },
+  "9": {
+   "label": "SolarSchool_Examtitle_3",
+   "path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2005.T_IconSolarSchoolExam2005"
+  },
+  "10": {
+   "label": "SolarSchool_Examtitle_4",
+   "path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2006.T_IconSolarSchoolExam2006"
+  },
+  "11": {
+   "label": "SolarSchool_Examtitle_4",
+   "path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2007.T_IconSolarSchoolExam2007"
+  },
+  "12": {
+   "label": "SolarSchool_Examtitle_4",
+   "path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2003.T_IconSolarSchoolExam2003"
+  },
+  "13": {
+   "label": "SolarSchool_Examtitle_5",
+   "path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2005.T_IconSolarSchoolExam2005"
+  },
+  "14": {
+   "label": "SolarSchool_Examtitle_5",
+   "path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2001.T_IconSolarSchoolExam2001"
+  },
+  "3": {
+   "label": "SolarSchool_Examtitle_1",
+   "path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2005.T_IconSolarSchoolExam2005"
+  },
+  "6": {
+   "label": "SolarSchool_Examtitle_2",
+   "path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2007.T_IconSolarSchoolExam2007"
+  },
+  "15": {
+   "label": "SolarSchool_Examtitle_6",
+   "path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2003.T_IconSolarSchoolExam2003"
+  },
+  "16": {
+   "label": "SolarSchool_Examtitle_6",
+   "path": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2007.T_IconSolarSchoolExam2007"
+  }
+ },
+ "talkers": {
+  "700001": {
+   "name": "卡提希娅",
+   "spineSource": "SolarSchool",
+   "spineAtlas": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Katixiya/SolarSchool_Katixiya.SolarSchool_Katixiya-atlas",
+   "spineSkeleton": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Katixiya/SolarSchool_Katixiya.SolarSchool_Katixiya-data",
+   "portraitTexture": null,
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": -800,
+    "Scale": 0.34
+   },
+   "headIconTransform": {
+    "PosX": -30,
+    "PosY": 100,
+    "Scale": 1
+   },
+   "defaultExpressionId": 700027
+  },
+  "700003": {
+   "name": "守岸人",
+   "spineSource": "SolarSchool",
+   "spineAtlas": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Shouanren/SolarSchool_Shouanren.SolarSchool_Shouanren-atlas",
+   "spineSkeleton": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Shouanren/SolarSchool_Shouanren.SolarSchool_Shouanren-data",
+   "portraitTexture": null,
+   "portraitTransform": {
+    "PosX": -10,
+    "PosY": -750,
+    "Scale": 0.45
+   },
+   "headIconTransform": {
+    "PosX": -50,
+    "PosY": 200,
+    "Scale": 1
+   },
+   "defaultExpressionId": 700092
+  },
+  "700004": {
+   "name": "菲比",
+   "spineSource": "SolarSchool",
+   "spineAtlas": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Feibi/SolarSchool_Feibi.SolarSchool_Feibi-atlas",
+   "spineSkeleton": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Feibi/SolarSchool_Feibi.SolarSchool_Feibi-data",
+   "portraitTexture": null,
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": -630,
+    "Scale": 0.44
+   },
+   "headIconTransform": {
+    "PosX": -50,
+    "PosY": 250,
+    "Scale": 1
+   },
+   "defaultExpressionId": 700110
+  },
+  "700005": {
+   "name": "阿布",
+   "spineSource": "SolarSchool",
+   "spineAtlas": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Abu/SolarSchool_Abu.SolarSchool_Abu-atlas",
+   "spineSkeleton": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Abu/SolarSchool_Abu.SolarSchool_Abu-data",
+   "portraitTexture": null,
+   "portraitTransform": {
+    "PosX": 60,
+    "PosY": 0,
+    "Scale": 0.25
+   },
+   "headIconTransform": {
+    "PosX": -100,
+    "PosY": 550,
+    "Scale": 0.75
+   },
+   "defaultExpressionId": 700212
+  },
+  "700006": {
+   "name": "卜灵",
+   "spineSource": "SolarSchool",
+   "spineAtlas": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Buling/SolarSchool_Buling.SolarSchool_Buling-atlas",
+   "spineSkeleton": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Buling/SolarSchool_Buling.SolarSchool_Buling-data",
+   "portraitTexture": null,
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": -700,
+    "Scale": 0.33
+   },
+   "headIconTransform": {
+    "PosX": -50,
+    "PosY": 200,
+    "Scale": 0.9
+   },
+   "defaultExpressionId": 700073
+  },
+  "700009": {
+   "name": "洛可可",
+   "spineSource": "SolarSchool",
+   "spineAtlas": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Luokeke/SolarSchool_Luokeke.SolarSchool_Luokeke-atlas",
+   "spineSkeleton": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Luokeke/SolarSchool_Luokeke.SolarSchool_Luokeke-data",
+   "portraitTexture": null,
+   "portraitTransform": {
+    "PosX": 40,
+    "PosY": -500,
+    "Scale": 0.33
+   },
+   "headIconTransform": {
+    "PosX": 50,
+    "PosY": 300,
+    "Scale": 1
+   },
+   "defaultExpressionId": 700198
+  },
+  "700012": {
+   "name": "维里奈",
+   "spineSource": "SolarSchool",
+   "spineAtlas": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Weilinai/SolarSchool_Weilinai.SolarSchool_Weilinai-atlas",
+   "spineSkeleton": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Weilinai/SolarSchool_Weilinai.SolarSchool_Weilinai-data",
+   "portraitTexture": null,
+   "portraitTransform": {
+    "PosX": 80,
+    "PosY": -800,
+    "Scale": 0.3
+   },
+   "headIconTransform": {
+    "PosX": 0,
+    "PosY": 100,
+    "Scale": 1
+   },
+   "defaultExpressionId": 700136
+  },
+  "700013": {
+   "name": "守岸人（未命名",
+   "spineSource": "SolarSchool",
+   "spineAtlas": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Shouanren/SolarSchool_Shouanren.SolarSchool_Shouanren-atlas",
+   "spineSkeleton": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Shouanren/SolarSchool_Shouanren.SolarSchool_Shouanren-data",
+   "portraitTexture": null,
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": -900,
+    "Scale": 0.34
+   },
+   "headIconTransform": {
+    "PosX": -50,
+    "PosY": 200,
+    "Scale": 1
+   },
+   "defaultExpressionId": 0
+  },
+  "700014": {
+   "name": "芬莱克",
+   "spineSource": "SolarSchool",
+   "spineAtlas": null,
+   "spineSkeleton": null,
+   "portraitTexture": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC001.T_IconSolarSchoolNPC001",
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": 0,
+    "Scale": 1
+   },
+   "headIconTransform": {
+    "PosX": 0,
+    "PosY": 200,
+    "Scale": 1
+   },
+   "defaultExpressionId": 0
+  },
+  "700015": {
+   "name": "安保人员",
+   "spineSource": "SolarSchool",
+   "spineAtlas": null,
+   "spineSkeleton": null,
+   "portraitTexture": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC002.T_IconSolarSchoolNPC002",
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": 0,
+    "Scale": 1
+   },
+   "headIconTransform": {
+    "PosX": 0,
+    "PosY": 200,
+    "Scale": 1
+   },
+   "defaultExpressionId": 0
+  },
+  "700016": {
+   "name": "安保组长",
+   "spineSource": "SolarSchool",
+   "spineAtlas": null,
+   "spineSkeleton": null,
+   "portraitTexture": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC003.T_IconSolarSchoolNPC003",
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": 0,
+    "Scale": 1
+   },
+   "headIconTransform": {
+    "PosX": 0,
+    "PosY": 200,
+    "Scale": 1
+   },
+   "defaultExpressionId": 0
+  },
+  "700017": {
+   "name": "「梅塔」",
+   "spineSource": "SolarSchool",
+   "spineAtlas": null,
+   "spineSkeleton": null,
+   "portraitTexture": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC004.T_IconSolarSchoolNPC004",
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": 0,
+    "Scale": 1
+   },
+   "headIconTransform": {
+    "PosX": 0,
+    "PosY": 200,
+    "Scale": 1
+   },
+   "defaultExpressionId": 0
+  },
+  "700018": {
+   "name": "小镇居民A",
+   "spineSource": "SolarSchool",
+   "spineAtlas": null,
+   "spineSkeleton": null,
+   "portraitTexture": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC005.T_IconSolarSchoolNPC005",
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": 0,
+    "Scale": 1
+   },
+   "headIconTransform": {
+    "PosX": 0,
+    "PosY": 200,
+    "Scale": 1
+   },
+   "defaultExpressionId": 0
+  },
+  "700019": {
+   "name": "学生A",
+   "spineSource": "SolarSchool",
+   "spineAtlas": null,
+   "spineSkeleton": null,
+   "portraitTexture": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC006.T_IconSolarSchoolNPC006",
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": 0,
+    "Scale": 1
+   },
+   "headIconTransform": {
+    "PosX": 0,
+    "PosY": 200,
+    "Scale": 1
+   },
+   "defaultExpressionId": 0
+  },
+  "700020": {
+   "name": "小镇居民B",
+   "spineSource": "SolarSchool",
+   "spineAtlas": null,
+   "spineSkeleton": null,
+   "portraitTexture": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC007.T_IconSolarSchoolNPC007",
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": 0,
+    "Scale": 1
+   },
+   "headIconTransform": {
+    "PosX": 0,
+    "PosY": 200,
+    "Scale": 1
+   },
+   "defaultExpressionId": 0
+  },
+  "700021": {
+   "name": "学生B",
+   "spineSource": "SolarSchool",
+   "spineAtlas": null,
+   "spineSkeleton": null,
+   "portraitTexture": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC008.T_IconSolarSchoolNPC008",
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": 0,
+    "Scale": 1
+   },
+   "headIconTransform": {
+    "PosX": 0,
+    "PosY": 200,
+    "Scale": 1
+   },
+   "defaultExpressionId": 0
+  },
+  "700022": {
+   "name": "学生C",
+   "spineSource": "SolarSchool",
+   "spineAtlas": null,
+   "spineSkeleton": null,
+   "portraitTexture": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC006.T_IconSolarSchoolNPC006",
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": 0,
+    "Scale": 1
+   },
+   "headIconTransform": {
+    "PosX": 0,
+    "PosY": 200,
+    "Scale": 1
+   },
+   "defaultExpressionId": 0
+  },
+  "700023": {
+   "name": "学生D",
+   "spineSource": "SolarSchool",
+   "spineAtlas": null,
+   "spineSkeleton": null,
+   "portraitTexture": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC008.T_IconSolarSchoolNPC008",
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": 0,
+    "Scale": 1
+   },
+   "headIconTransform": {
+    "PosX": 0,
+    "PosY": 200,
+    "Scale": 1
+   },
+   "defaultExpressionId": 0
+  },
+  "700029": {
+   "name": "校董A",
+   "spineSource": "SolarSchool",
+   "spineAtlas": null,
+   "spineSkeleton": null,
+   "portraitTexture": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC005.T_IconSolarSchoolNPC005",
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": 0,
+    "Scale": 0.34
+   },
+   "headIconTransform": {
+    "PosX": 0,
+    "PosY": 200,
+    "Scale": 1
+   },
+   "defaultExpressionId": 0
+  },
+  "700030": {
+   "name": "校董B",
+   "spineSource": "SolarSchool",
+   "spineAtlas": null,
+   "spineSkeleton": null,
+   "portraitTexture": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC007.T_IconSolarSchoolNPC007",
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": 0,
+    "Scale": 1
+   },
+   "headIconTransform": {
+    "PosX": 0,
+    "PosY": 200,
+    "Scale": 1
+   },
+   "defaultExpressionId": 0
+  },
+  "700031": {
+   "name": "天马集团员工",
+   "spineSource": "SolarSchool",
+   "spineAtlas": null,
+   "spineSkeleton": null,
+   "portraitTexture": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC002.T_IconSolarSchoolNPC002",
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": 0,
+    "Scale": 1
+   },
+   "headIconTransform": {
+    "PosX": 0,
+    "PosY": 200,
+    "Scale": 1
+   },
+   "defaultExpressionId": 0
+  },
+  "700032": {
+   "name": "天马集团组长",
+   "spineSource": "SolarSchool",
+   "spineAtlas": null,
+   "spineSkeleton": null,
+   "portraitTexture": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC003.T_IconSolarSchoolNPC003",
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": 0,
+    "Scale": 1
+   },
+   "headIconTransform": {
+    "PosX": 0,
+    "PosY": 200,
+    "Scale": 1
+   },
+   "defaultExpressionId": 0
+  },
+  "700033": {
+   "name": "管弦乐社成员A",
+   "spineSource": "SolarSchool",
+   "spineAtlas": null,
+   "spineSkeleton": null,
+   "portraitTexture": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC009_M.T_IconSolarSchoolNPC009_M",
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": 0,
+    "Scale": 1
+   },
+   "headIconTransform": {
+    "PosX": 0,
+    "PosY": 200,
+    "Scale": 1
+   },
+   "defaultExpressionId": 0
+  },
+  "700034": {
+   "name": "管弦乐社成员C",
+   "spineSource": "SolarSchool",
+   "spineAtlas": null,
+   "spineSkeleton": null,
+   "portraitTexture": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC009_M.T_IconSolarSchoolNPC009_M",
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": 0,
+    "Scale": 1
+   },
+   "headIconTransform": {
+    "PosX": 0,
+    "PosY": 200,
+    "Scale": 1
+   },
+   "defaultExpressionId": 0
+  },
+  "700037": {
+   "name": "管弦乐社成员B",
+   "spineSource": "SolarSchool",
+   "spineAtlas": null,
+   "spineSkeleton": null,
+   "portraitTexture": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC009_F.T_IconSolarSchoolNPC009_F",
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": 0,
+    "Scale": 1
+   },
+   "headIconTransform": {
+    "PosX": 0,
+    "PosY": 200,
+    "Scale": 1
+   },
+   "defaultExpressionId": 0
+  },
+  "700038": {
+   "name": "管弦乐社成员D",
+   "spineSource": "SolarSchool",
+   "spineAtlas": null,
+   "spineSkeleton": null,
+   "portraitTexture": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC009_F.T_IconSolarSchoolNPC009_F",
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": 0,
+    "Scale": 1
+   },
+   "headIconTransform": {
+    "PosX": 0,
+    "PosY": 200,
+    "Scale": 1
+   },
+   "defaultExpressionId": 0
+  },
+  "700043": {
+   "name": "医生",
+   "spineSource": "SolarSchool",
+   "spineAtlas": null,
+   "spineSkeleton": null,
+   "portraitTexture": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC007.T_IconSolarSchoolNPC007",
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": 0,
+    "Scale": 1
+   },
+   "headIconTransform": {
+    "PosX": 0,
+    "PosY": 200,
+    "Scale": 1
+   },
+   "defaultExpressionId": 0
+  },
+  "700045": {
+   "name": "记者A",
+   "spineSource": "SolarSchool",
+   "spineAtlas": null,
+   "spineSkeleton": null,
+   "portraitTexture": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC005.T_IconSolarSchoolNPC005",
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": 0,
+    "Scale": 1
+   },
+   "headIconTransform": {
+    "PosX": 0,
+    "PosY": 200,
+    "Scale": 1
+   },
+   "defaultExpressionId": 0
+  },
+  "700046": {
+   "name": "记者B",
+   "spineSource": "SolarSchool",
+   "spineAtlas": null,
+   "spineSkeleton": null,
+   "portraitTexture": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC007.T_IconSolarSchoolNPC007",
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": 0,
+    "Scale": 1
+   },
+   "headIconTransform": {
+    "PosX": 0,
+    "PosY": 200,
+    "Scale": 1
+   },
+   "defaultExpressionId": 0
+  },
+  "850001": {
+   "name": "男{PlayerName}AVG主角",
+   "spineSource": "SolarSchool",
+   "spineAtlas": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Male/SolarSchool_Male.SolarSchool_Male-atlas",
+   "spineSkeleton": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Male/SolarSchool_Male.SolarSchool_Male-data",
+   "portraitTexture": null,
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": -800,
+    "Scale": 0.3
+   },
+   "headIconTransform": {
+    "PosX": 20,
+    "PosY": 100,
+    "Scale": 1
+   },
+   "defaultExpressionId": 700126
+  },
+  "850002": {
+   "name": "女{PlayerName}AVG主角",
+   "spineSource": "SolarSchool",
+   "spineAtlas": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Female/SolarSchool_Female.SolarSchool_Female-atlas",
+   "spineSkeleton": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Female/SolarSchool_Female.SolarSchool_Female-data",
+   "portraitTexture": null,
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": -800,
+    "Scale": 0.3
+   },
+   "headIconTransform": {
+    "PosX": -80,
+    "PosY": 150,
+    "Scale": 1
+   },
+   "defaultExpressionId": 700052
+  },
+  "850003": {
+   "name": "相里要",
+   "spineSource": "SolarSchool",
+   "spineAtlas": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Xiangliyao/SolarSchool_Xiangliyao.SolarSchool_Xiangliyao-atlas",
+   "spineSkeleton": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Xiangliyao/SolarSchool_Xiangliyao.SolarSchool_Xiangliyao-data",
+   "portraitTexture": null,
+   "portraitTransform": {
+    "PosX": 50,
+    "PosY": -800,
+    "Scale": 0.4
+   },
+   "headIconTransform": {
+    "PosX": 0,
+    "PosY": 150,
+    "Scale": 1
+   },
+   "defaultExpressionId": 700179
+  },
+  "850006": {
+   "name": "长离",
+   "spineSource": "SolarSchool",
+   "spineAtlas": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Changli/SolarSchool_Changli.SolarSchool_Changli-atlas",
+   "spineSkeleton": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Changli/SolarSchool_Changli.SolarSchool_Changli-data",
+   "portraitTexture": null,
+   "portraitTransform": {
+    "PosX": -20,
+    "PosY": -700,
+    "Scale": 0.34
+   },
+   "headIconTransform": {
+    "PosX": -80,
+    "PosY": 150,
+    "Scale": 0.9
+   },
+   "defaultExpressionId": 700048
+  },
+  "850009": {
+   "name": "嘉贝莉娜",
+   "spineSource": "SolarSchool",
+   "spineAtlas": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Jiabeilina/SolarSchool_Jiabeilina.SolarSchool_Jiabeilina-atlas",
+   "spineSkeleton": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Jiabeilina/SolarSchool_Jiabeilina.SolarSchool_Jiabeilina-data",
+   "portraitTexture": null,
+   "portraitTransform": {
+    "PosX": 60,
+    "PosY": -700,
+    "Scale": 0.44
+   },
+   "headIconTransform": {
+    "PosX": -50,
+    "PosY": 180,
+    "Scale": 1
+   },
+   "defaultExpressionId": 700166
+  },
+  "850012": {
+   "name": "夏空",
+   "spineSource": "SolarSchool",
+   "spineAtlas": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Xiakong/SolarSchool_Xiakong.SolarSchool_Xiakong-atlas",
+   "spineSkeleton": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Xiakong/SolarSchool_Xiakong.SolarSchool_Xiakong-data",
+   "portraitTexture": null,
+   "portraitTransform": {
+    "PosX": 20,
+    "PosY": -750,
+    "Scale": 0.32
+   },
+   "headIconTransform": {
+    "PosX": -60,
+    "PosY": 80,
+    "Scale": 0.9
+   },
+   "defaultExpressionId": 700067
+  },
+  "850013": {
+   "name": "？？？",
+   "spineSource": "SolarSchool",
+   "spineAtlas": null,
+   "spineSkeleton": null,
+   "portraitTexture": null,
+   "portraitTransform": {
+    "PosX": 0,
+    "PosY": -700,
+    "Scale": 0.34
+   },
+   "headIconTransform": {
+    "PosX": 0,
+    "PosY": 200,
+    "Scale": 1
+   },
+   "defaultExpressionId": 0
+  },
+  "850014": {
+   "name": "千咲",
+   "spineSource": "SolarSchool",
+   "spineAtlas": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Qianxiao/SolarSchool_Qianxiao.SolarSchool_Qianxiao-atlas",
+   "spineSkeleton": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Qianxiao/SolarSchool_Qianxiao.SolarSchool_Qianxiao-data",
+   "portraitTexture": null,
+   "portraitTransform": {
+    "PosX": -20,
+    "PosY": -650,
+    "Scale": 0.47
+   },
+   "headIconTransform": {
+    "PosX": -20,
+    "PosY": 200,
+    "Scale": 1.25
+   },
+   "defaultExpressionId": 700152
+  }
+ },
+ "expressions": {
+  "700001": {
+   "talkerId": 700001,
+   "label": "张手站（帽）-正常表情",
+   "body": "dongzuo1_maozi",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhengchang_bizui"
+  },
+  "700002": {
+   "talkerId": 700001,
+   "label": "张手站（帽）-得意",
+   "body": "dongzuo1_maozi",
+   "eye": "dongzuo1_deyi",
+   "mouth": "dongzuo1_deyi_zui"
+  },
+  "700004": {
+   "talkerId": 700009,
+   "label": "临时测试洛可可",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_zhengchang_zhengtyan",
+   "mouth": "dongzuo1_zhengchang_zui"
+  },
+  "700006": {
+   "talkerId": 700005,
+   "label": "临时测试阿布",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhengchang_bizui"
+  },
+  "700007": {
+   "talkerId": 850003,
+   "label": "临时测试相里要",
+   "body": "dongzuo1_zhangchangzhan",
+   "eye": "dongzuo1_zhangchang_zhengyan",
+   "mouth": "dongzuo1_zhangchang_bizui"
+  },
+  "700013": {
+   "talkerId": 700001,
+   "label": "张手站（帽）-开心",
+   "body": "dongzuo1_maozi",
+   "eye": "dongzuo1_kaixin_zhengyan",
+   "mouth": "dongzuo1_zhengchang_bizui"
+  },
+  "700014": {
+   "talkerId": 700001,
+   "label": "张手站（帽）-迷糊",
+   "body": "dongzuo1_maozi",
+   "eye": "dongzuo1_mihu",
+   "mouth": "dongzuo1_mihu_zui"
+  },
+  "700015": {
+   "talkerId": 700001,
+   "label": "托腮站-感动",
+   "body": "dongzuo2_wumao",
+   "eye": "dongzuo2_gandong_zhengyan",
+   "mouth": "dongzuo2_gandong_zui"
+  },
+  "700016": {
+   "talkerId": 700001,
+   "label": "托腮站-思考",
+   "body": "dongzuo2_wumao",
+   "eye": "dongzuo2_sikao_zhengyan",
+   "mouth": "dongzuo2_sikao_zui"
+  },
+  "700017": {
+   "talkerId": 700001,
+   "label": "托腮站-得意",
+   "body": "dongzuo2_wumao",
+   "eye": "dongzuo2_deyi",
+   "mouth": "dongzuo2_deyi_zui"
+  },
+  "700018": {
+   "talkerId": 700001,
+   "label": "托腮站-严肃",
+   "body": "dongzuo2_wumao",
+   "eye": "dongzuo2_yansu_zhengyan",
+   "mouth": "dongzuo2_yansu_zui"
+  },
+  "700019": {
+   "talkerId": 700001,
+   "label": "托腮站-迷糊",
+   "body": "dongzuo2_wumao",
+   "eye": "dongzuo2_mihu",
+   "mouth": "dongzuo2_mihu_zui"
+  },
+  "700020": {
+   "talkerId": 700001,
+   "label": "托腮站-苦恼",
+   "body": "dongzuo2_wumao",
+   "eye": "dongzuo2_kunao_zhengyan",
+   "mouth": "dongzuo2_kunao_zui"
+  },
+  "700021": {
+   "talkerId": 700001,
+   "label": "自然站-感动",
+   "body": "dongzuo3_wumao",
+   "eye": "dongzuo2_gandong_zhengyan",
+   "mouth": "dongzuo2_gandong_zui"
+  },
+  "700022": {
+   "talkerId": 700001,
+   "label": "自然站-严肃",
+   "body": "dongzuo3_wumao",
+   "eye": "dongzuo2_yansu_zhengyan",
+   "mouth": "dongzuo2_yansu_zui"
+  },
+  "700023": {
+   "talkerId": 700001,
+   "label": "自然站-苦恼",
+   "body": "dongzuo3_wumao",
+   "eye": "dongzuo2_kunao_zhengyan",
+   "mouth": "dongzuo2_kunao_zui"
+  },
+  "700024": {
+   "talkerId": 700001,
+   "label": "自然站-得意",
+   "body": "dongzuo3_wumao",
+   "eye": "dongzuo2_deyi",
+   "mouth": "dongzuo2_deyi_zui"
+  },
+  "700025": {
+   "talkerId": 700001,
+   "label": "挥手站（帽）-迷糊",
+   "body": "dongzuo4_maozi",
+   "eye": "dongzuo2_mihu",
+   "mouth": "dongzuo2_mihu_zui"
+  },
+  "700026": {
+   "talkerId": 700001,
+   "label": "挥手站（帽）-得意",
+   "body": "dongzuo4_maozi",
+   "eye": "dongzuo2_deyi",
+   "mouth": "dongzuo2_deyi_zui"
+  },
+  "700027": {
+   "talkerId": 700001,
+   "label": "挥手站（帽）-开心",
+   "body": "dongzuo4_maozi",
+   "eye": "dongzuo2_kaixin_zhengyan",
+   "mouth": "dongzuo2_zhengchang_bizui"
+  },
+  "700028": {
+   "talkerId": 700001,
+   "label": "掩嘴站（帽）-感动",
+   "body": "dongzuo5_maozi",
+   "eye": "dongzuo2_gandong_zhengyan",
+   "mouth": "dongzuo2_gandong_zui"
+  },
+  "700029": {
+   "talkerId": 700001,
+   "label": "掩嘴站（帽）-思考",
+   "body": "dongzuo5_maozi",
+   "eye": "dongzuo2_sikao_zhengyan",
+   "mouth": "dongzuo2_sikao_zui"
+  },
+  "700030": {
+   "talkerId": 700001,
+   "label": "掩嘴站（帽）-得意",
+   "body": "dongzuo5_maozi",
+   "eye": "dongzuo2_deyi",
+   "mouth": "dongzuo2_deyi_zui"
+  },
+  "700031": {
+   "talkerId": 700001,
+   "label": "掩嘴站（帽）-严肃",
+   "body": "dongzuo5_maozi",
+   "eye": "dongzuo2_yansu_zhengyan",
+   "mouth": "dongzuo2_yansu_zui"
+  },
+  "700032": {
+   "talkerId": 700001,
+   "label": "掩嘴站（帽）-迷糊",
+   "body": "dongzuo5_maozi",
+   "eye": "dongzuo2_mihu",
+   "mouth": "dongzuo2_mihu_zui"
+  },
+  "700033": {
+   "talkerId": 700001,
+   "label": "掩嘴站（帽）-苦恼",
+   "body": "dongzuo5_maozi",
+   "eye": "dongzuo2_kunao_zhengyan",
+   "mouth": "dongzuo2_kunao_zui"
+  },
+  "700034": {
+   "talkerId": 700001,
+   "label": "自然站（帽）-感动",
+   "body": "dongzuo6_maozi",
+   "eye": "dongzuo2_gandong_zhengyan",
+   "mouth": "dongzuo2_gandong_zui"
+  },
+  "700035": {
+   "talkerId": 700001,
+   "label": "自然站（帽）-严肃",
+   "body": "dongzuo6_maozi",
+   "eye": "dongzuo2_yansu_zhengyan",
+   "mouth": "dongzuo2_yansu_zui"
+  },
+  "700036": {
+   "talkerId": 700001,
+   "label": "自然站（帽）-苦恼",
+   "body": "dongzuo6_maozi",
+   "eye": "dongzuo2_kunao_zhengyan",
+   "mouth": "dongzuo2_kunao_zui"
+  },
+  "700037": {
+   "talkerId": 700001,
+   "label": "自然站（帽）-得意",
+   "body": "dongzuo6_maozi",
+   "eye": "dongzuo2_deyi",
+   "mouth": "dongzuo2_deyi_zui"
+  },
+  "700038": {
+   "talkerId": 850006,
+   "label": "托腮站-默认思考",
+   "body": "dongzuo1_tuosaizhan",
+   "eye": "dongzuo1_morensikao_zhengyan",
+   "mouth": "dongzuo1_morensikao_zui"
+  },
+  "700039": {
+   "talkerId": 850006,
+   "label": "托腮站-惊讶",
+   "body": "dongzuo1_tuosaizhan",
+   "eye": "dongzuo1_jingya_zhengyan",
+   "mouth": "dongzuo1_jingya_zui"
+  },
+  "700041": {
+   "talkerId": 850006,
+   "label": "托腮站-苦恼",
+   "body": "dongzuo1_tuosaizhan",
+   "eye": "dongzuo1_kunao_zhengyan",
+   "mouth": "dongzuo1_kunao_zui"
+  },
+  "700042": {
+   "talkerId": 850006,
+   "label": "戳脸站-默认思考",
+   "body": "dongzuo2_chuolianzhan",
+   "eye": "dongzuo1_morensikao_zhengyan",
+   "mouth": "dongzuo1_morensikao_zui"
+  },
+  "700043": {
+   "talkerId": 850006,
+   "label": "戳脸站-惊讶",
+   "body": "dongzuo2_chuolianzhan",
+   "eye": "dongzuo1_jingya_zhengyan",
+   "mouth": "dongzuo1_jingya_zui"
+  },
+  "700044": {
+   "talkerId": 850006,
+   "label": "戳脸站-苦恼",
+   "body": "dongzuo2_chuolianzhan",
+   "eye": "dongzuo1_kunao_zhengyan",
+   "mouth": "dongzuo1_kunao_zui"
+  },
+  "700045": {
+   "talkerId": 850006,
+   "label": "掩嘴站-默认思考",
+   "body": "dongzuo3_yanzuizhan",
+   "eye": "dongzuo1_morensikao_zhengyan",
+   "mouth": "dongzuo1_morensikao_zui"
+  },
+  "700046": {
+   "talkerId": 850006,
+   "label": "掩嘴站-惊讶",
+   "body": "dongzuo3_yanzuizhan",
+   "eye": "dongzuo1_jingya_zhengyan",
+   "mouth": "dongzuo1_jingya_zui"
+  },
+  "700047": {
+   "talkerId": 850006,
+   "label": "掩嘴站-苦恼",
+   "body": "dongzuo3_yanzuizhan",
+   "eye": "dongzuo1_kunao_zhengyan",
+   "mouth": "dongzuo1_kunao_zui"
+  },
+  "700048": {
+   "talkerId": 850006,
+   "label": "垂手站-默认正常",
+   "body": "dongzuo4_chuishouzhan",
+   "eye": "dongzuo4_pingjing_zhengyan",
+   "mouth": "dongzuo4_pingjing_zui"
+  },
+  "700049": {
+   "talkerId": 850006,
+   "label": "垂手站-严肃",
+   "body": "dongzuo4_chuishouzhan",
+   "eye": "dongzuo4_yansu_zhengyan",
+   "mouth": "dongzuo4_yansu_zui"
+  },
+  "700050": {
+   "talkerId": 850006,
+   "label": "垂手站-开心",
+   "body": "dongzuo4_chuishouzhan",
+   "eye": "dongzuo4_kaixin_zhengyan",
+   "mouth": "dongzuo4_kaixin_zui"
+  },
+  "700051": {
+   "talkerId": 850006,
+   "label": "垂手站-叹气",
+   "body": "dongzuo4_chuishouzhan",
+   "eye": "dongzuo4_tanqi_biyan",
+   "mouth": "dongzuo4_tanqi_zui"
+  },
+  "700052": {
+   "talkerId": 850002,
+   "label": "普通站-普通",
+   "body": "dongzuo1_putongzhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhengchang_zui"
+  },
+  "700053": {
+   "talkerId": 850002,
+   "label": "普通站-难过闭眼",
+   "body": "dongzuo1_putongzhan",
+   "eye": "dongzuo1_biyannanguo",
+   "mouth": "dongzuo1_ zhoumei_zui"
+  },
+  "700054": {
+   "talkerId": 850002,
+   "label": "普通站-皱眉",
+   "body": "dongzuo1_putongzhan",
+   "eye": "dongzuo1_zhoumei_zhengyan",
+   "mouth": "dongzuo1_ zhoumei_zui"
+  },
+  "700055": {
+   "talkerId": 850002,
+   "label": "普通站-开心",
+   "body": "dongzuo1_putongzhan",
+   "eye": "dongzuo1_kaixin",
+   "mouth": "dongzuo1_kaixin_zui"
+  },
+  "700056": {
+   "talkerId": 850002,
+   "label": "思考站-普通",
+   "body": "dongzuo2_sikaozhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhengchang_zui"
+  },
+  "700057": {
+   "talkerId": 850002,
+   "label": "思考站-难过闭眼",
+   "body": "dongzuo2_sikaozhan",
+   "eye": "dongzuo1_biyannanguo",
+   "mouth": "dongzuo1_ zhoumei_zui"
+  },
+  "700058": {
+   "talkerId": 850002,
+   "label": "思考站-皱眉",
+   "body": "dongzuo2_sikaozhan",
+   "eye": "dongzuo1_zhoumei_zhengyan",
+   "mouth": "dongzuo1_ zhoumei_zui"
+  },
+  "700059": {
+   "talkerId": 850002,
+   "label": "思考站-开心",
+   "body": "dongzuo2_sikaozhan",
+   "eye": "dongzuo1_kaixin",
+   "mouth": "dongzuo1_kaixin_zui"
+  },
+  "700061": {
+   "talkerId": 850012,
+   "label": "正常站（无乐器）-微笑",
+   "body": "dongzuo1_zhengchangzhan_wuyueqi",
+   "eye": "dongzuo1_zhengchang_zhengtyan",
+   "mouth": "dongzuo1_weixiao_zui"
+  },
+  "700062": {
+   "talkerId": 850012,
+   "label": "正常站（无乐器）-咧嘴笑",
+   "body": "dongzuo1_zhengchangzhan_wuyueqi",
+   "eye": "dongzuo1_zhengchang_zhengtyan",
+   "mouth": "dongzuo1_liezuixiao_zui"
+  },
+  "700063": {
+   "talkerId": 850012,
+   "label": "正常站（无乐器）-落寞",
+   "body": "dongzuo1_zhengchangzhan_wuyueqi",
+   "eye": "dongzuo1_luomo_zhengyan",
+   "mouth": "dongzuo1_luomo_zui"
+  },
+  "700064": {
+   "talkerId": 850012,
+   "label": "正常站（无乐器）-Wink",
+   "body": "dongzuo1_zhengchangzhan_wuyueqi",
+   "eye": "dongzuo1_wink",
+   "mouth": "dongzuo1_wink_zui"
+  },
+  "700065": {
+   "talkerId": 850012,
+   "label": "正常站（无乐器）-生气",
+   "body": "dongzuo1_zhengchangzhan_wuyueqi",
+   "eye": "dongzuo1_shengqi_zhengyan",
+   "mouth": "dongzuo1_shengqi_zui"
+  },
+  "700066": {
+   "talkerId": 850012,
+   "label": "正常站（有乐器）-微笑",
+   "body": "dongzuo2_zhengchangzhan_youyueqi",
+   "eye": "dongzuo1_zhengchang_zhengtyan",
+   "mouth": "dongzuo1_weixiao_zui"
+  },
+  "700067": {
+   "talkerId": 850012,
+   "label": "正常站（有乐器）-咧嘴笑",
+   "body": "dongzuo2_zhengchangzhan_youyueqi",
+   "eye": "dongzuo1_zhengchang_zhengtyan",
+   "mouth": "dongzuo1_liezuixiao_zui"
+  },
+  "700068": {
+   "talkerId": 850012,
+   "label": "正常站（有乐器）-落寞",
+   "body": "dongzuo2_zhengchangzhan_youyueqi",
+   "eye": "dongzuo1_luomo_zhengyan",
+   "mouth": "dongzuo1_luomo_zui"
+  },
+  "700069": {
+   "talkerId": 850012,
+   "label": "正常站（有乐器）-Wink",
+   "body": "dongzuo2_zhengchangzhan_youyueqi",
+   "eye": "dongzuo1_wink",
+   "mouth": "dongzuo1_wink_zui"
+  },
+  "700070": {
+   "talkerId": 850012,
+   "label": "正常站（有乐器）-生气",
+   "body": "dongzuo2_zhengchangzhan_youyueqi",
+   "eye": "dongzuo1_shengqi_zhengyan",
+   "mouth": "dongzuo1_shengqi_zui"
+  },
+  "700071": {
+   "talkerId": 850012,
+   "label": "侧站（有乐器）-微笑",
+   "body": "dongzuo3_cezhan",
+   "eye": "dongzuo3_zhengchang_zhengyan",
+   "mouth": "dongzuo3_weixiao_zui"
+  },
+  "700072": {
+   "talkerId": 850012,
+   "label": "侧站（有乐器）-咧嘴笑",
+   "body": "dongzuo3_cezhan",
+   "eye": "dongzuo3_zhengchang_zhengyan",
+   "mouth": "dongzuo3_liezuixiao_zui"
+  },
+  "700073": {
+   "talkerId": 700006,
+   "label": "常态站-微笑",
+   "body": "dongzuo1_changtaizhan",
+   "eye": "dongzuo1_kaixin_zhengyan",
+   "mouth": "dongzuo1_kaixin_zui"
+  },
+  "700074": {
+   "talkerId": 700006,
+   "label": "常态站-张嘴笑",
+   "body": "dongzuo1_changtaizhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhangzuixiao_zui"
+  },
+  "700075": {
+   "talkerId": 700006,
+   "label": "常态站-闭眼笑",
+   "body": "dongzuo1_changtaizhan",
+   "eye": "dongzuo1_biyanxiao_yan",
+   "mouth": "dongzuo1_biyanxiao_zui"
+  },
+  "700076": {
+   "talkerId": 700006,
+   "label": "常态站-嫌弃",
+   "body": "dongzuo1_changtaizhan",
+   "eye": "dongzuo1_xianqi_zhengyan",
+   "mouth": "dongzuo1_xianqi_zui"
+  },
+  "700077": {
+   "talkerId": 700006,
+   "label": "常态站-皱眉",
+   "body": "dongzuo1_changtaizhan",
+   "eye": "dongzuo1_zhoumei_zhengyan",
+   "mouth": "dongzuo1_zhoumei_zui"
+  },
+  "700078": {
+   "talkerId": 700006,
+   "label": "举手站-微笑",
+   "body": "dongzuo2_jushouzhan",
+   "eye": "dongzuo1_kaixin_zhengyan",
+   "mouth": "dongzuo1_kaixin_zui"
+  },
+  "700079": {
+   "talkerId": 700006,
+   "label": "举手站-张嘴笑",
+   "body": "dongzuo2_jushouzhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhangzuixiao_zui"
+  },
+  "700080": {
+   "talkerId": 700006,
+   "label": "举手站-闭眼笑",
+   "body": "dongzuo2_jushouzhan",
+   "eye": "dongzuo1_biyanxiao_yan",
+   "mouth": "dongzuo1_biyanxiao_zui"
+  },
+  "700081": {
+   "talkerId": 700006,
+   "label": "举手站-嫌弃",
+   "body": "dongzuo2_jushouzhan",
+   "eye": "dongzuo1_xianqi_zhengyan",
+   "mouth": "dongzuo1_xianqi_zui"
+  },
+  "700082": {
+   "talkerId": 700006,
+   "label": "举手站-皱眉",
+   "body": "dongzuo2_jushouzhan",
+   "eye": "dongzuo1_zhoumei_zhengyan",
+   "mouth": "dongzuo1_zhoumei_zui"
+  },
+  "700083": {
+   "talkerId": 700006,
+   "label": "比耶站-微笑",
+   "body": "dongzuo3_biyezhan",
+   "eye": "dongzuo1_kaixin_zhengyan",
+   "mouth": "dongzuo1_kaixin_zui"
+  },
+  "700084": {
+   "talkerId": 700006,
+   "label": "比耶站-张嘴笑",
+   "body": "dongzuo3_biyezhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhangzuixiao_zui"
+  },
+  "700085": {
+   "talkerId": 700006,
+   "label": "比耶站-闭眼笑",
+   "body": "dongzuo3_biyezhan",
+   "eye": "dongzuo1_biyanxiao_yan",
+   "mouth": "dongzuo1_biyanxiao_zui"
+  },
+  "700088": {
+   "talkerId": 700003,
+   "label": "扶臂站-害羞",
+   "body": "dongzuo1_fubizhan",
+   "eye": "dongzuo1_haixiu_zhengyan",
+   "mouth": "dongzuo1_haixiu_zui"
+  },
+  "700089": {
+   "talkerId": 700003,
+   "label": "扶臂站-严肃",
+   "body": "dongzuo1_fubizhan",
+   "eye": "dongzuo1_yansu_zhengyan",
+   "mouth": "dongzuo1_yansu_zui"
+  },
+  "700090": {
+   "talkerId": 700003,
+   "label": "扶臂站-疑惑",
+   "body": "dongzuo1_fubizhan",
+   "eye": "dongzuo1_yihuo_zhengyan",
+   "mouth": "dongzuo1_yihuo_zui"
+  },
+  "700091": {
+   "talkerId": 700003,
+   "label": "扶臂站-平静",
+   "body": "dongzuo1_fubizhan",
+   "eye": "dongzuo1_pingjing_zhengyan",
+   "mouth": "dongzuo1_pingjing_zui"
+  },
+  "700092": {
+   "talkerId": 700003,
+   "label": "扶臂站-微笑",
+   "body": "dongzuo1_fubizhan",
+   "eye": "dongzuo1_weixiao_zhengyan",
+   "mouth": "dongzuo1_weixiao_zui"
+  },
+  "700093": {
+   "talkerId": 700003,
+   "label": "扶臂站-闭眼",
+   "body": "dongzuo1_fubizhan",
+   "eye": "dongzuo1_biyan",
+   "mouth": "dongzuo1_biyan_zui"
+  },
+  "700094": {
+   "talkerId": 700003,
+   "label": "抬手站-害羞",
+   "body": "dongzuo2_taishouzhan",
+   "eye": "dongzuo1_haixiu_zhengyan",
+   "mouth": "dongzuo1_haixiu_zui"
+  },
+  "700095": {
+   "talkerId": 700003,
+   "label": "抬手站-严肃",
+   "body": "dongzuo2_taishouzhan",
+   "eye": "dongzuo1_yansu_zhengyan",
+   "mouth": "dongzuo1_yansu_zui"
+  },
+  "700096": {
+   "talkerId": 700003,
+   "label": "抬手站-疑惑",
+   "body": "dongzuo2_taishouzhan",
+   "eye": "dongzuo1_yihuo_zhengyan",
+   "mouth": "dongzuo1_yihuo_zui"
+  },
+  "700098": {
+   "talkerId": 700003,
+   "label": "抬手站-微笑",
+   "body": "dongzuo2_taishouzhan",
+   "eye": "dongzuo1_weixiao_zhengyan",
+   "mouth": "dongzuo1_weixiao_zui"
+  },
+  "700102": {
+   "talkerId": 700004,
+   "label": "正常站-普通",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhengchang_bizui"
+  },
+  "700103": {
+   "talkerId": 700004,
+   "label": "正常站-微笑",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_weixiao_zui"
+  },
+  "700104": {
+   "talkerId": 700004,
+   "label": "正常站-开心",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_kaixin_zhengyan",
+   "mouth": "dongzuo1_kaixin_zui"
+  },
+  "700105": {
+   "talkerId": 700004,
+   "label": "正常站-流汗",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_liuhan_zhengyan",
+   "mouth": "dongzuo1_liuhan_zui"
+  },
+  "700106": {
+   "talkerId": 700004,
+   "label": "正常站-超开心",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_kaixin_zhengyan",
+   "mouth": "dongzuo1_zhaokaixin_zui"
+  },
+  "700107": {
+   "talkerId": 700004,
+   "label": "正常站-生气",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_shengqi_zhengyan",
+   "mouth": "dongzuo1_shengqi_zui"
+  },
+  "700108": {
+   "talkerId": 700004,
+   "label": "正常站-难过",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_nanguo_zhengyan",
+   "mouth": "dongzuo1_nanguo_zui"
+  },
+  "700109": {
+   "talkerId": 700004,
+   "label": "正常站-害羞",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_haixiu_zhengyan",
+   "mouth": "dongzuo1_haixiu_zui"
+  },
+  "700110": {
+   "talkerId": 700004,
+   "label": "扶肩站-普通",
+   "body": "dongzuo2_fujianzhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhengchang_bizui"
+  },
+  "700111": {
+   "talkerId": 700004,
+   "label": "扶肩站-微笑",
+   "body": "dongzuo2_fujianzhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_weixiao_zui"
+  },
+  "700112": {
+   "talkerId": 700004,
+   "label": "扶肩站-开心",
+   "body": "dongzuo2_fujianzhan",
+   "eye": "dongzuo1_kaixin_zhengyan",
+   "mouth": "dongzuo1_kaixin_zui"
+  },
+  "700113": {
+   "talkerId": 700004,
+   "label": "扶肩站-流汗",
+   "body": "dongzuo2_fujianzhan",
+   "eye": "dongzuo1_liuhan_zhengyan",
+   "mouth": "dongzuo1_liuhan_zui"
+  },
+  "700115": {
+   "talkerId": 700004,
+   "label": "扶肩站-生气",
+   "body": "dongzuo2_fujianzhan",
+   "eye": "dongzuo1_shengqi_zhengyan",
+   "mouth": "dongzuo1_shengqi_zui"
+  },
+  "700116": {
+   "talkerId": 700004,
+   "label": "扶肩站-难过",
+   "body": "dongzuo2_fujianzhan",
+   "eye": "dongzuo1_nanguo_zhengyan",
+   "mouth": "dongzuo1_nanguo_zui"
+  },
+  "700117": {
+   "talkerId": 700004,
+   "label": "扶肩站-害羞",
+   "body": "dongzuo2_fujianzhan",
+   "eye": "dongzuo1_haixiu_zhengyan",
+   "mouth": "dongzuo1_haixiu_zui"
+  },
+  "700118": {
+   "talkerId": 700004,
+   "label": "威严站-普通",
+   "body": "dongzuo3_weiyanzhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhengchang_bizui"
+  },
+  "700119": {
+   "talkerId": 700004,
+   "label": "威严站-微笑",
+   "body": "dongzuo3_weiyanzhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_weixiao_zui"
+  },
+  "700120": {
+   "talkerId": 700004,
+   "label": "威严站-开心",
+   "body": "dongzuo3_weiyanzhan",
+   "eye": "dongzuo1_kaixin_zhengyan",
+   "mouth": "dongzuo1_kaixin_zui"
+  },
+  "700121": {
+   "talkerId": 700004,
+   "label": "威严站-流汗",
+   "body": "dongzuo3_weiyanzhan",
+   "eye": "dongzuo1_liuhan_zhengyan",
+   "mouth": "dongzuo1_liuhan_zui"
+  },
+  "700122": {
+   "talkerId": 700004,
+   "label": "威严站-超开心",
+   "body": "dongzuo3_weiyanzhan",
+   "eye": "dongzuo1_kaixin_zhengyan",
+   "mouth": "dongzuo1_zhaokaixin_zui"
+  },
+  "700123": {
+   "talkerId": 700004,
+   "label": "威严站-生气",
+   "body": "dongzuo3_weiyanzhan",
+   "eye": "dongzuo1_shengqi_zhengyan",
+   "mouth": "dongzuo1_shengqi_zui"
+  },
+  "700124": {
+   "talkerId": 700004,
+   "label": "威严站-难过",
+   "body": "dongzuo3_weiyanzhan",
+   "eye": "dongzuo1_nanguo_zhengyan",
+   "mouth": "dongzuo1_nanguo_zui"
+  },
+  "700125": {
+   "talkerId": 700004,
+   "label": "威严站-害羞",
+   "body": "dongzuo3_weiyanzhan",
+   "eye": "dongzuo1_haixiu_zhengyan",
+   "mouth": "dongzuo1_haixiu_zui"
+  },
+  "700126": {
+   "talkerId": 850001,
+   "label": "普通站-普通",
+   "body": "dongzuo1_putongzhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhengchang_bizui"
+  },
+  "700127": {
+   "talkerId": 850001,
+   "label": "普通站-开心",
+   "body": "dongzuo1_putongzhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_kaixin_zui"
+  },
+  "700128": {
+   "talkerId": 850001,
+   "label": "普通站-严肃",
+   "body": "dongzuo1_putongzhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_yansu_zui"
+  },
+  "700129": {
+   "talkerId": 850001,
+   "label": "普通站-无奈",
+   "body": "dongzuo1_putongzhan",
+   "eye": "dongzuo1_wunai_biyan",
+   "mouth": "dongzuo1_wunai_zui"
+  },
+  "700130": {
+   "talkerId": 850001,
+   "label": "普通站-难过",
+   "body": "dongzuo1_putongzhan",
+   "eye": "dongzuo1_nanguo_zhengyan",
+   "mouth": "dongzuo1_nanguo_zui"
+  },
+  "700131": {
+   "talkerId": 850001,
+   "label": "思考站-普通",
+   "body": "dongzuo2_sikaozhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhengchang_bizui"
+  },
+  "700132": {
+   "talkerId": 850001,
+   "label": "思考站-开心",
+   "body": "dongzuo2_sikaozhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_kaixin_zui"
+  },
+  "700133": {
+   "talkerId": 850001,
+   "label": "思考站-严肃",
+   "body": "dongzuo2_sikaozhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_yansu_zui"
+  },
+  "700134": {
+   "talkerId": 850001,
+   "label": "思考站-无奈",
+   "body": "dongzuo2_sikaozhan",
+   "eye": "dongzuo1_wunai_biyan",
+   "mouth": "dongzuo1_wunai_zui"
+  },
+  "700135": {
+   "talkerId": 850001,
+   "label": "思考站-难过",
+   "body": "dongzuo2_sikaozhan",
+   "eye": "dongzuo1_nanguo_zhengyan",
+   "mouth": "dongzuo1_nanguo_zui"
+  },
+  "700136": {
+   "talkerId": 700012,
+   "label": "正常站-普通",
+   "body": "dongzuo1_putongzhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhengchang_zui"
+  },
+  "700137": {
+   "talkerId": 700012,
+   "label": "正常站-普通张嘴",
+   "body": "dongzuo1_putongzhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhengchang_zhangzui1"
+  },
+  "700138": {
+   "talkerId": 700012,
+   "label": "正常站-开心",
+   "body": "dongzuo1_putongzhan",
+   "eye": "dongzuo1_kaixin_zhengyan",
+   "mouth": "dongzuo1_kaixin_zui"
+  },
+  "700139": {
+   "talkerId": 700012,
+   "label": "正常站-眯眼笑",
+   "body": "dongzuo1_putongzhan",
+   "eye": "dongzuo1_miyanxiao_biyan",
+   "mouth": "dongzuo1_miyanxiao_zui"
+  },
+  "700140": {
+   "talkerId": 700012,
+   "label": "正常站-生气",
+   "body": "dongzuo1_putongzhan",
+   "eye": "dongzuo1_shengqi_zhengyan",
+   "mouth": "dongzuo1_shengqi_zui"
+  },
+  "700141": {
+   "talkerId": 700012,
+   "label": "正常站-思考",
+   "body": "dongzuo1_putongzhan",
+   "eye": "dongzuo1_sikao_zhengyan",
+   "mouth": "dongzuo1_sikao_zui"
+  },
+  "700142": {
+   "talkerId": 700012,
+   "label": "正常站-苦笑",
+   "body": "dongzuo1_putongzhan",
+   "eye": "dongzuo1_kuxiao_zhengyan",
+   "mouth": "dongzuo1_kuxiao_zui"
+  },
+  "700143": {
+   "talkerId": 700012,
+   "label": "正常站-难过",
+   "body": "dongzuo1_putongzhan",
+   "eye": "dongzuo1_nanguo_biyan",
+   "mouth": "dongzuo1_nanguo_zui"
+  },
+  "700144": {
+   "talkerId": 700012,
+   "label": "扶包站-普通",
+   "body": "dongzuo2_fubaozhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhengchang_zui"
+  },
+  "700145": {
+   "talkerId": 700012,
+   "label": "扶包站--普通张嘴",
+   "body": "dongzuo2_fubaozhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhengchang_zhangzui1"
+  },
+  "700146": {
+   "talkerId": 700012,
+   "label": "扶包站-开心",
+   "body": "dongzuo2_fubaozhan",
+   "eye": "dongzuo1_kaixin_zhengyan",
+   "mouth": "dongzuo1_kaixin_zui"
+  },
+  "700147": {
+   "talkerId": 700012,
+   "label": "扶包站--眯眼笑",
+   "body": "dongzuo2_fubaozhan",
+   "eye": "dongzuo1_miyanxiao_biyan",
+   "mouth": "dongzuo1_miyanxiao_zui"
+  },
+  "700149": {
+   "talkerId": 700012,
+   "label": "扶包站--思考",
+   "body": "dongzuo2_fubaozhan",
+   "eye": "dongzuo1_sikao_zhengyan",
+   "mouth": "dongzuo1_sikao_zui"
+  },
+  "700150": {
+   "talkerId": 700012,
+   "label": "扶包站-苦笑",
+   "body": "dongzuo2_fubaozhan",
+   "eye": "dongzuo1_kuxiao_zhengyan",
+   "mouth": "dongzuo1_kuxiao_zui"
+  },
+  "700151": {
+   "talkerId": 700012,
+   "label": "扶包站-难过",
+   "body": "dongzuo2_fubaozhan",
+   "eye": "dongzuo1_nanguo_biyan",
+   "mouth": "dongzuo1_nanguo_zui"
+  },
+  "700152": {
+   "talkerId": 850014,
+   "label": "正常站-普通",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhengchang_bizui"
+  },
+  "700153": {
+   "talkerId": 850014,
+   "label": "正常站-普通张嘴",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhengchang_zhangzui1"
+  },
+  "700154": {
+   "talkerId": 850014,
+   "label": "正常站-微笑",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_weixiao_zhengyan",
+   "mouth": "dongzuo1_weixiao_zui"
+  },
+  "700155": {
+   "talkerId": 850014,
+   "label": "正常站-难过",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_nanguo_zhengyan",
+   "mouth": "dongzuo1_nanguo_zui"
+  },
+  "700156": {
+   "talkerId": 850014,
+   "label": "正常站-严肃",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_yansu_zhengyan",
+   "mouth": "dongzuo1_yansu_zui"
+  },
+  "700157": {
+   "talkerId": 850014,
+   "label": "正常站-害羞",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_haixiu_zhengyan",
+   "mouth": "dongzuo1_haixiu_zui"
+  },
+  "700158": {
+   "talkerId": 850014,
+   "label": "正常站-叹气",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_tanqi_biyan",
+   "mouth": "dongzuo1_nanguo_zui"
+  },
+  "700159": {
+   "talkerId": 850014,
+   "label": "扶包站-普通",
+   "body": "dongzuo2_fubaozhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhengchang_bizui"
+  },
+  "700160": {
+   "talkerId": 850014,
+   "label": "扶包站-普通张嘴",
+   "body": "dongzuo2_fubaozhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhengchang_zhangzui1"
+  },
+  "700161": {
+   "talkerId": 850014,
+   "label": "扶包站-微笑",
+   "body": "dongzuo2_fubaozhan",
+   "eye": "dongzuo1_weixiao_zhengyan",
+   "mouth": "dongzuo1_weixiao_zui"
+  },
+  "700162": {
+   "talkerId": 850014,
+   "label": "扶包站-难过",
+   "body": "dongzuo2_fubaozhan",
+   "eye": "dongzuo1_nanguo_zhengyan",
+   "mouth": "dongzuo1_nanguo_zui"
+  },
+  "700163": {
+   "talkerId": 850014,
+   "label": "扶包站-严肃",
+   "body": "dongzuo2_fubaozhan",
+   "eye": "dongzuo1_yansu_zhengyan",
+   "mouth": "dongzuo1_yansu_zui"
+  },
+  "700164": {
+   "talkerId": 850014,
+   "label": "扶包站-害羞",
+   "body": "dongzuo2_fubaozhan",
+   "eye": "dongzuo1_haixiu_zhengyan",
+   "mouth": "dongzuo1_haixiu_zui"
+  },
+  "700165": {
+   "talkerId": 850014,
+   "label": "扶包站-叹气",
+   "body": "dongzuo2_fubaozhan",
+   "eye": "dongzuo1_tanqi_biyan",
+   "mouth": "dongzuo1_nanguo_zui"
+  },
+  "700166": {
+   "talkerId": 850009,
+   "label": "正常站-普通",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhengchang_bizui"
+  },
+  "700168": {
+   "talkerId": 850009,
+   "label": "正常站-微笑",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_weixiao_zhengyan",
+   "mouth": "dongzuo1_weixiao_zui"
+  },
+  "700169": {
+   "talkerId": 850009,
+   "label": "正常站-皱眉",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_zhoumei_zhengyan",
+   "mouth": "dongzuo1_zhoumei_zui"
+  },
+  "700170": {
+   "talkerId": 850009,
+   "label": "正常站-思考",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_sikao_zhengyan",
+   "mouth": "dongzuo1_sikao_zui"
+  },
+  "700171": {
+   "talkerId": 850009,
+   "label": "正常站-无奈",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_wunai_biyan",
+   "mouth": "dongzuo1_wunai_zui"
+  },
+  "700172": {
+   "talkerId": 850009,
+   "label": "思考站-普通",
+   "body": "dongzuo2_sikaozhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhengchang_bizui"
+  },
+  "700173": {
+   "talkerId": 850009,
+   "label": "思考站-普通说话",
+   "body": "dongzuo2_sikaozhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhengchang_zhangzui2"
+  },
+  "700174": {
+   "talkerId": 850009,
+   "label": "思考站-微笑",
+   "body": "dongzuo2_sikaozhan",
+   "eye": "dongzuo1_weixiao_zhengyan",
+   "mouth": "dongzuo1_weixiao_zui"
+  },
+  "700175": {
+   "talkerId": 850009,
+   "label": "思考站-皱眉",
+   "body": "dongzuo2_sikaozhan",
+   "eye": "dongzuo1_zhoumei_zhengyan",
+   "mouth": "dongzuo1_zhoumei_zui"
+  },
+  "700176": {
+   "talkerId": 850009,
+   "label": "思考站-思考",
+   "body": "dongzuo2_sikaozhan",
+   "eye": "dongzuo1_sikao_zhengyan",
+   "mouth": "dongzuo1_sikao_zui"
+  },
+  "700178": {
+   "talkerId": 850009,
+   "label": "正常站-普通说话",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhengchang_zhangzui2"
+  },
+  "700179": {
+   "talkerId": 850003,
+   "label": "正常站-普通",
+   "body": "dongzuo1_zhangchangzhan",
+   "eye": "dongzuo1_zhangchang_zhengyan",
+   "mouth": "dongzuo1_zhangchang_bizui"
+  },
+  "700180": {
+   "talkerId": 850003,
+   "label": "正常站-普通说话",
+   "body": "dongzuo1_zhangchangzhan",
+   "eye": "dongzuo1_zhangchang_zhengyan",
+   "mouth": "dongzuo1_zhangchang_zhangzui1"
+  },
+  "700181": {
+   "talkerId": 850003,
+   "label": "正常站-微笑说话",
+   "body": "dongzuo1_zhangchangzhan",
+   "eye": "dongzuo1_zhangchang_zhengyan",
+   "mouth": "dongzuo1_zhangchang_zhangzui2"
+  },
+  "700182": {
+   "talkerId": 850003,
+   "label": "正常站-微笑",
+   "body": "dongzuo1_zhangchangzhan",
+   "eye": "dongzuo1_weixiao_zhengyan",
+   "mouth": "dongzuo1_weixiao_zui"
+  },
+  "700183": {
+   "talkerId": 850003,
+   "label": "正常站-严肃",
+   "body": "dongzuo1_zhangchangzhan",
+   "eye": "dongzuo1_yansu_zhengyan",
+   "mouth": "dongzuo1_yansu_zui"
+  },
+  "700184": {
+   "talkerId": 850003,
+   "label": "正常站-难过",
+   "body": "dongzuo1_zhangchangzhan",
+   "eye": "dongzuo1_nanguo_zhengyan",
+   "mouth": "dongzuo1_nanguo_zui"
+  },
+  "700185": {
+   "talkerId": 850003,
+   "label": "思考站-普通",
+   "body": "dongzuo2_sikaozhan",
+   "eye": "dongzuo1_zhangchang_zhengyan",
+   "mouth": "dongzuo1_zhangchang_bizui"
+  },
+  "700186": {
+   "talkerId": 850003,
+   "label": "思考站-普通说话",
+   "body": "dongzuo2_sikaozhan",
+   "eye": "dongzuo1_zhangchang_zhengyan",
+   "mouth": "dongzuo1_zhangchang_zhangzui1"
+  },
+  "700187": {
+   "talkerId": 850003,
+   "label": "思考站-微笑说话",
+   "body": "dongzuo2_sikaozhan",
+   "eye": "dongzuo1_zhangchang_zhengyan",
+   "mouth": "dongzuo1_zhangchang_zhangzui2"
+  },
+  "700188": {
+   "talkerId": 850003,
+   "label": "思考站-微笑",
+   "body": "dongzuo2_sikaozhan",
+   "eye": "dongzuo1_weixiao_zhengyan",
+   "mouth": "dongzuo1_weixiao_zui"
+  },
+  "700189": {
+   "talkerId": 850003,
+   "label": "思考站-严肃",
+   "body": "dongzuo2_sikaozhan",
+   "eye": "dongzuo1_yansu_zhengyan",
+   "mouth": "dongzuo1_yansu_zui"
+  },
+  "700190": {
+   "talkerId": 850003,
+   "label": "思考站-难过",
+   "body": "dongzuo2_sikaozhan",
+   "eye": "dongzuo1_nanguo_zhengyan",
+   "mouth": "dongzuo1_nanguo_zui"
+  },
+  "700191": {
+   "talkerId": 700009,
+   "label": "正常站-普通",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_zhengchang_zhengtyan",
+   "mouth": "dongzuo1_zhengchang_zui"
+  },
+  "700192": {
+   "talkerId": 700009,
+   "label": "正常站-浅笑",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_zhengchang_zhengtyan",
+   "mouth": "dongzuo1_zhengchang_bizui"
+  },
+  "700193": {
+   "talkerId": 700009,
+   "label": "正常站-张嘴",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_zhengchang_zhengtyan",
+   "mouth": "dongzuo1_zhengchang_zhangzui1"
+  },
+  "700194": {
+   "talkerId": 700009,
+   "label": "正常站-微笑",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_weixiao_zhengyan",
+   "mouth": "dongzuo1_weixiao_zui"
+  },
+  "700196": {
+   "talkerId": 700009,
+   "label": "正常站-难过",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_nanguo_zhengyan",
+   "mouth": "dongzuo1_nanguo_zui"
+  },
+  "700197": {
+   "talkerId": 700009,
+   "label": "正常站-疑惑",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_yihuo_zhengyan",
+   "mouth": "dongzuo1_yihuo_zui"
+  },
+  "700198": {
+   "talkerId": 700009,
+   "label": "举手站-普通",
+   "body": "dongzuo2_jushouzhan",
+   "eye": "dongzuo1_zhengchang_zhengtyan",
+   "mouth": "dongzuo1_zhengchang_zui"
+  },
+  "700199": {
+   "talkerId": 700009,
+   "label": "举手站-浅笑",
+   "body": "dongzuo2_jushouzhan",
+   "eye": "dongzuo1_zhengchang_zhengtyan",
+   "mouth": "dongzuo1_zhengchang_bizui"
+  },
+  "700200": {
+   "talkerId": 700009,
+   "label": "举手站-张嘴",
+   "body": "dongzuo2_jushouzhan",
+   "eye": "dongzuo1_zhengchang_zhengtyan",
+   "mouth": "dongzuo1_zhengchang_zhangzui1"
+  },
+  "700201": {
+   "talkerId": 700009,
+   "label": "举手站-微笑",
+   "body": "dongzuo2_jushouzhan",
+   "eye": "dongzuo1_weixiao_zhengyan",
+   "mouth": "dongzuo1_weixiao_zui"
+  },
+  "700203": {
+   "talkerId": 700009,
+   "label": "举手站-难过",
+   "body": "dongzuo2_jushouzhan",
+   "eye": "dongzuo1_nanguo_zhengyan",
+   "mouth": "dongzuo1_nanguo_zui"
+  },
+  "700204": {
+   "talkerId": 700009,
+   "label": "举手站-疑惑",
+   "body": "dongzuo2_jushouzhan",
+   "eye": "dongzuo1_yihuo_zhengyan",
+   "mouth": "dongzuo1_yihuo_zui"
+  },
+  "700205": {
+   "talkerId": 700009,
+   "label": "思考站-普通",
+   "body": "dongzuo3_sikaozhan",
+   "eye": "dongzuo1_zhengchang_zhengtyan",
+   "mouth": "dongzuo1_zhengchang_zui"
+  },
+  "700206": {
+   "talkerId": 700009,
+   "label": "思考站-浅笑",
+   "body": "dongzuo3_sikaozhan",
+   "eye": "dongzuo1_zhengchang_zhengtyan",
+   "mouth": "dongzuo1_zhengchang_bizui"
+  },
+  "700207": {
+   "talkerId": 700009,
+   "label": "思考站-张嘴",
+   "body": "dongzuo3_sikaozhan",
+   "eye": "dongzuo1_zhengchang_zhengtyan",
+   "mouth": "dongzuo1_zhengchang_zhangzui1"
+  },
+  "700208": {
+   "talkerId": 700009,
+   "label": "思考站-微笑",
+   "body": "dongzuo3_sikaozhan",
+   "eye": "dongzuo1_weixiao_zhengyan",
+   "mouth": "dongzuo1_weixiao_zui"
+  },
+  "700210": {
+   "talkerId": 700009,
+   "label": "思考站-难过",
+   "body": "dongzuo3_sikaozhan",
+   "eye": "dongzuo1_nanguo_zhengyan",
+   "mouth": "dongzuo1_nanguo_zui"
+  },
+  "700211": {
+   "talkerId": 700009,
+   "label": "思考站-疑惑",
+   "body": "dongzuo3_sikaozhan",
+   "eye": "dongzuo1_yihuo_zhengyan",
+   "mouth": "dongzuo1_yihuo_zui"
+  },
+  "700212": {
+   "talkerId": 700005,
+   "label": "正常站-普通",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhengchang_bizui"
+  },
+  "700213": {
+   "talkerId": 700005,
+   "label": "正常站-星星眼",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_xingxingyan_zhengyan",
+   "mouth": "dongzuo1_xingxingyan_zui"
+  },
+  "700214": {
+   "talkerId": 700005,
+   "label": "正常站-恐惧",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_kongju_biyan",
+   "mouth": "dongzuo1_kongju_zui"
+  },
+  "700215": {
+   "talkerId": 700005,
+   "label": "正常站-思考",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_sikao_zhengyan",
+   "mouth": "dongzuo1_sikao_zui"
+  },
+  "700216": {
+   "talkerId": 700005,
+   "label": "正常站-生气",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_shengqi_zhengyan",
+   "mouth": "dongzuo1_shengqi_zui"
+  },
+  "700217": {
+   "talkerId": 700005,
+   "label": "正常站-震惊",
+   "body": "dongzuo1_zhengchangzhan",
+   "eye": "dongzuo1_zhenjing_zhengyan",
+   "mouth": "dongzuo1_zhenjing_zui"
+  },
+  "700218": {
+   "talkerId": 700005,
+   "label": "捧脸站-星星眼",
+   "body": "dongzuo2_penglianzhan",
+   "eye": "dongzuo1_xingxingyan_zhengyan",
+   "mouth": "dongzuo1_xingxingyan_zui"
+  },
+  "700219": {
+   "talkerId": 700005,
+   "label": "捧脸站-恐惧",
+   "body": "dongzuo2_penglianzhan",
+   "eye": "dongzuo1_kongju_biyan",
+   "mouth": "dongzuo1_kongju_zui"
+  },
+  "700220": {
+   "talkerId": 700005,
+   "label": "捧脸站-思考",
+   "body": "dongzuo2_penglianzhan",
+   "eye": "dongzuo1_sikao_zhengyan",
+   "mouth": "dongzuo1_sikao_zui"
+  },
+  "700221": {
+   "talkerId": 700005,
+   "label": "捧脸站-震惊",
+   "body": "dongzuo2_penglianzhan",
+   "eye": "dongzuo1_zhenjing_zhengyan",
+   "mouth": "dongzuo1_zhenjing_zui"
+  },
+  "700222": {
+   "talkerId": 700005,
+   "label": "抬头站-开心",
+   "body": "dongzuo3_taitouzhan",
+   "eye": "dongzuo3_taitouzhan_zhengyan",
+   "mouth": "dongzuo3_taitouzhan_zui"
+  },
+  "700223": {
+   "talkerId": 700005,
+   "label": "伸手站-星星眼",
+   "body": "dongzuo4_shenshouzhan",
+   "eye": "dongzuo1_xingxingyan_zhengyan",
+   "mouth": "dongzuo1_xingxingyan_zui"
+  },
+  "700224": {
+   "talkerId": 700005,
+   "label": "伸手站-恐惧",
+   "body": "dongzuo4_shenshouzhan",
+   "eye": "dongzuo1_kongju_biyan",
+   "mouth": "dongzuo1_kongju_zui"
+  },
+  "700225": {
+   "talkerId": 700005,
+   "label": "伸手站-思考",
+   "body": "dongzuo4_shenshouzhan",
+   "eye": "dongzuo1_sikao_zhengyan",
+   "mouth": "dongzuo1_sikao_zui"
+  },
+  "700226": {
+   "talkerId": 700005,
+   "label": "伸手站-生气",
+   "body": "dongzuo4_shenshouzhan",
+   "eye": "dongzuo1_shengqi_zhengyan",
+   "mouth": "dongzuo1_shengqi_zui"
+  },
+  "700227": {
+   "talkerId": 700005,
+   "label": "伸手站-震惊",
+   "body": "dongzuo4_shenshouzhan",
+   "eye": "dongzuo1_zhenjing_zhengyan",
+   "mouth": "dongzuo1_zhenjing_zui"
+  },
+  "700228": {
+   "talkerId": 700005,
+   "label": "托脸站-普通",
+   "body": "dongzuo5_tuolianzhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo1_zhengchang_bizui"
+  },
+  "700229": {
+   "talkerId": 700005,
+   "label": "托脸站-思考",
+   "body": "dongzuo5_tuolianzhan",
+   "eye": "dongzuo1_sikao_zhengyan",
+   "mouth": "dongzuo1_sikao_zui"
+  },
+  "700230": {
+   "talkerId": 700005,
+   "label": "低头站-普通",
+   "body": "dongzuo6_ditouzhan",
+   "eye": "dongzuo6_ditouzhan_zhengyan",
+   "mouth": "dongzuo6_ditouzhan_zui"
+  },
+  "700231": {
+   "talkerId": 700005,
+   "label": "对手指站-星星眼",
+   "body": "dongzuo7_duishouzhizhan",
+   "eye": "dongzuo1_xingxingyan_zhengyan",
+   "mouth": "dongzuo1_xingxingyan_zui"
+  },
+  "700232": {
+   "talkerId": 700005,
+   "label": "对手指站-恐惧",
+   "body": "dongzuo7_duishouzhizhan",
+   "eye": "dongzuo1_kongju_biyan",
+   "mouth": "dongzuo1_kongju_zui"
+  },
+  "700234": {
+   "talkerId": 850001,
+   "label": "思考站-带描边",
+   "body": "dongzuo3_sikaozhan",
+   "eye": "dongzuo1_sikao_zhengyan",
+   "mouth": "dongzuo1_sikao_zui"
+  },
+  "700235": {
+   "talkerId": 850002,
+   "label": "思考站-带描边",
+   "body": "dongzuo3_sikaozhan",
+   "eye": "dongzuo1_zhengchang_zhengyan",
+   "mouth": "dongzuo2_sikao_zui"
+  }
+ },
+ "audio": {
+  "play_amb_avg_solarschool_auditorium_busy": {
+   "kind": [
+    "amb",
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_auditorium_quiet": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_bus_inside": {
+   "kind": [
+    "amb"
+   ]
+  },
+  "play_amb_avg_solarschool_busstation": {
+   "kind": [
+    "amb"
+   ]
+  },
+  "play_amb_avg_solarschool_classroom_busy": {
+   "kind": [
+    "amb",
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_classroom_busy_summer": {
+   "kind": [
+    "amb"
+   ]
+  },
+  "play_amb_avg_solarschool_classroom_quiet": {
+   "kind": [
+    "amb",
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_classroom_quiet_summer": {
+   "kind": [
+    "amb",
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_home_day": {
+   "kind": [
+    "amb",
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_home_night": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_office_day": {
+   "kind": [
+    "amb",
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_office_day_summer": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_office_day_work": {
+   "kind": [
+    "amb",
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_office_night": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_office_rain": {
+   "kind": [
+    "amb",
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_playground": {
+   "kind": [
+    "amb",
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_restarea": {
+   "kind": [
+    "amb",
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_restarea_night": {
+   "kind": [
+    "amb",
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_restarea_night_firework": {
+   "kind": [
+    "amb"
+   ]
+  },
+  "play_amb_avg_solarschool_restaurant_busy": {
+   "kind": [
+    "amb",
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_restaurant_quiet": {
+   "kind": [
+    "amb",
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_riverbank_night_busy": {
+   "kind": [
+    "amb"
+   ]
+  },
+  "play_amb_avg_solarschool_riverbank_night_quiet": {
+   "kind": [
+    "amb"
+   ]
+  },
+  "play_amb_avg_solarschool_seaside": {
+   "kind": [
+    "amb",
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_spookhouse": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_spookhouse_start": {
+   "kind": [
+    "amb"
+   ]
+  },
+  "play_amb_avg_solarschool_square_busy": {
+   "kind": [
+    "amb",
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_square_night": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_square_quiet": {
+   "kind": [
+    "amb",
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_square_rain": {
+   "kind": [
+    "amb"
+   ]
+  },
+  "play_amb_avg_solarschool_store_busy": {
+   "kind": [
+    "amb",
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_store_quiet": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_store_quiet_summer": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_street_day": {
+   "kind": [
+    "amb",
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_street_night": {
+   "kind": [
+    "amb",
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_tenniscourt_night": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_theater": {
+   "kind": [
+    "amb"
+   ]
+  },
+  "play_amb_avg_solarschool_train_inside": {
+   "kind": [
+    "amb",
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_trainstation_day": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_amb_avg_solarschool_trainstation_night": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_autumn_day": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_autumn_evening": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_cafe_day": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_cafe_night": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_festival": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_funny_03": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_op_ending": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_slience": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_01": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_02": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_03": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_04": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_05": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_06": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_07": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_08": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_09": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_10": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_11": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_12": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_13": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_14": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_15": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_16": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_17": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_18": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_19": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_20": {
+   "kind": [
+    "bgm",
+    "voice"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_21": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_22": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_23": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_24": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_25": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_26": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_27": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_28": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_29": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_30": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_32": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_solarschool_33": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_spring_day": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_spring_summer_evening": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_summer_day": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_avg_music_3_8_winter_day": {
+   "kind": [
+    "bgm"
+   ]
+  },
+  "play_ui_solarschool_avg_abu_eat": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_abu_happy": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_abu_shock": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_alarmclock": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_audition": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_boat_horn": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_bookflip_crowd": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_bottleopen": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_breakingnews": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_breathing_deep": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_breathing_fast": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_bucketdrop": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_bus_honk": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_camerashutter": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_carhorn": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_caropendoor": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_carstart": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_cat": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_chairdrag": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_cheer": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_cheer_02": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_clocktick": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_computeralert": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_cook": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_crowd_swell": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_cutleryclatter": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_device_table": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_distantbell": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_door_01": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_door_02": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_door_03": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_doorcreak": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_doorkick": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_doorslam_office": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_drink": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_drinkpour": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_eat": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_eat_02": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_eat_03": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_emergency": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_envelope_open": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_evenlope_handclap": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_evenlope_songcanbao": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_exambell_01": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_exambell_02": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_explosion": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_facilityfall": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_feibi_tablepound": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_firework_01": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_firework_02": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_firework_spark": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_footstep_01": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_footstep_02": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_footstep_crowd": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_gamegunshot": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_glasscrash": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_glasscrash_crowd": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_handclap": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_handling": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_heartbeat_loop": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_highfive": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_hotpoop": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_hug": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_hungry": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_iceclatter": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_katixiya_sing": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_katixiya_ultimate": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_keyboardtype": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_knockdoor": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_lightswitch": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_lockercrash": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_micblow": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_mood_discontent": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_mood_embarrassed": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_mood_firm": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_mood_gentle": {
+   "kind": [
+    "sfx",
+    "voice"
+   ]
+  },
+  "play_ui_solarschool_avg_mood_happy": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_mood_inspiring": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_mood_nervous": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_mood_shock": {
+   "kind": [
+    "sfx",
+    "voice"
+   ]
+  },
+  "play_ui_solarschool_avg_mood_shy": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_mood_touched": {
+   "kind": [
+    "sfx",
+    "voice"
+   ]
+  },
+  "play_ui_solarschool_avg_mood_unhappy": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_mousekeyboard": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_oldclock": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_orchestra_disrupted": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_paperflip": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_paperflutter": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_paperwriting": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_phonealert": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_phonecall": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_piano_phrase": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_podiumslap": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_pressurecooker": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_qiangqiang": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_remote": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_run_01": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_run_02": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_rustling": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_sandjump": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_schoolbell": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_seagull": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_shimmer_01": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_shouanren_ensemble": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_shouanren_ensemble_rusty": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_shoulderpat": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_sleeping": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_sneeze": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_sodaspray": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_spoondrop": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_tablecrash": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_tabletap_heavy": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_tabletap_light": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_tennis": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_thunderstorm": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_tireskid": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_train_stop": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_trainstart": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_trainwheel_loop": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_waterdrink": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_watering": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_whoosh": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_wind": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_ui_solarschool_avg_wolfhowl": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "play_vo_avg_3_8_abu_02": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_abu_06": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_buling_01": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_buling_03": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_buling_07": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_buling_08": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_changli_01": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_changli_03": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_changli_04": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_changli_16": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_feibi_02": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_feibi_03": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_feibi_09": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_feibi_13": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_jiabeilina_01": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_jiabeilina_02": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_jiabeilina_06": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_jiabeilina_09": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_katixiya_02": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_katixiya_03": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_katixiya_06": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_katixiya_08": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_katixiya_13": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_katixiya_14": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_luokeke_01": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_luokeke_03": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_luokeke_07": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_luokeke_08": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_luokeke_09": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_nanzhu_01": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_nanzhu_02": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_nanzhu_03": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_nanzhu_04": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_nanzhu_05": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_nanzhu_06": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_nanzhu_07": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_nvzhu_01": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_nvzhu_02": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_nvzhu_03": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_nvzhu_04": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_nvzhu_05": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_nvzhu_06": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_nvzhu_07": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_qianxiao_01": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_qianxiao_06": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_qianxiao_07": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_qianxiao_09": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_qianxiao_10": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_weilinai_02": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_weilinai_03": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_weilinai_04": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_weilinai_06": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_xiakong_02": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_xiakong_03": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_xiakong_04": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_xiakong_06": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_xiakong_10": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_xiangliyao_01": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_xiangliyao_03": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_xiangliyao_05": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_avg_3_8_xiangliyao_09": {
+   "kind": [
+    "voice"
+   ]
+  },
+  "play_vo_silence_placeholder": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "stop_ui_solarschool_avg_heartbeat_loop": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "stop_ui_solarschool_avg_hotpoop": {
+   "kind": [
+    "sfx"
+   ]
+  },
+  "stop_ui_solarschool_avg_trainwheel_loop": {
+   "kind": [
+    "sfx"
+   ]
+  }
+ },
+ "fx": {
+  "UiItem_FxLoop_PurpleHuaban": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_PurpleHuaban.UiItem_FxLoop_PurpleHuaban",
+  "Shake": null,
+  "UiItem_FxStart_Butterfly": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxStart/UiItem_FxStart_Butterfly.UiItem_FxStart_Butterfly",
+  "UiItem_FxStart_Huaban": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxStart/UiItem_FxStart_Huaban.UiItem_FxStart_Huaban",
+  "UiItem_FxStart_Sound": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxStart/UiItem_FxStart_Sound.UiItem_FxStart_Sound",
+  "UiItem_FxStart_Black": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxStart/UiItem_FxStart_Black.UiItem_FxStart_Black",
+  "UiItem_FxLoop_Fog": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_Fog.UiItem_FxLoop_Fog",
+  "UiItem_FxLoop_SunGlow": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_SunGlow.UiItem_FxLoop_SunGlow",
+  "UiItem_FxStart_Celebrate": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxStart/UiItem_FxStart_Celebrate.UiItem_FxStart_Celebrate",
+  "UiItem_FxLoop_Celebrate": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_Celebrate.UiItem_FxLoop_Celebrate",
+  "UiItem_FxStart_SpeedLine": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxStart/UiItem_FxStart_SpeedLine.UiItem_FxStart_SpeedLine",
+  "UiItem_FxLoop_SunLight": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_SunLight.UiItem_FxLoop_SunLight",
+  "BurstEye": null,
+  "UiItem_FxLoop_SunGlowBig_2": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_SunGlowBig_2.UiItem_FxLoop_SunGlowBig_2",
+  "UiItem_FxLoop_Huaban": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_Huaban.UiItem_FxLoop_Huaban",
+  "UiItem_FxLoop_Star": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_Star.UiItem_FxLoop_Star",
+  "UiItem_FxLoop_Danger": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_Danger.UiItem_FxLoop_Danger",
+  "UiItem_FxLoop_BUG": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxLoop/UiItem_FxLoop_BUG.UiItem_FxLoop_BUG",
+  "UiItem_FxStart_SpeedLineBlack": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxStart/UiItem_FxStart_SpeedLineBlack.UiItem_FxStart_SpeedLineBlack",
+  "UiItem_FxStart_GreenHuaban": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/CGFxStart/UiItem_FxStart_GreenHuaban.UiItem_FxStart_GreenHuaban"
+ }
+}

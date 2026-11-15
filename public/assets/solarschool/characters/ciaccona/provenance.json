@@ -1,0 +1,47 @@
+{
+  "talkerId": 850012,
+  "name": "Ciaccona",
+  "skeletonVersion": "4.1.23",
+  "sourceAtlas": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Xiakong/SolarSchool_Xiakong.SolarSchool_Xiakong-atlas",
+  "sourceSkeleton": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Xiakong/SolarSchool_Xiakong.SolarSchool_Xiakong-data",
+  "sourceArchive": "/game/SteamLibrary/steamapps/common/Wuthering Waves/Wuthering Waves Game/Client/Content/Paks/pakchunk7-WindowsNoEditor.pak",
+  "members": [
+    "../../../Client/Content/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Xiakong/SolarSchool_Xiakong.uasset",
+    "../../../Client/Content/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Xiakong/SolarSchool_Xiakong.uexp"
+  ],
+  "archiveIndexHashes": {
+    "primary_index_sha1": "9a1e5dbec896904f03bc7f0858c78065b5f9d36b",
+    "directory_index_sha1": "3f4cd33025cfe669d7373b582ed319966b503628"
+  },
+  "extractionHelpers": "/tmp/solarschool-changli-inspection-NKHWT5",
+  "helperHashes": {
+    "inspect_changli.py": "f529926159db8012b5d36758cb150fbccdf77a2790246e5bd04856f1f3ac43f5",
+    "extract_changli.py": "e55a20c0d10aa14c7aafa0ae119cbad51b202814933ccee6fdf58fb3e3071ad0",
+    "inspect_spine_package.py": "fbafa1ef6bbbbb14dc3875465f3fed91d704e1ffda9e2f0b4cdaf1b40aa3278e"
+  },
+  "runtime": {
+    "file": "../changli/spine-player.js",
+    "version": "4.1.56",
+    "license": "../changli/SPINE-LICENSE.txt"
+  },
+  "texture": {
+    "file": "SolarSchool_Xiakong.webp",
+    "sourceWebp": "WW_Asset_Webp/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Xiakong/SolarSchool_Xiakong.webp",
+    "origin": "Existing local WW_Asset_Webp bytes, used directly; not a game texture export",
+    "dimensions": [
+      4096,
+      4096
+    ],
+    "sourceSha256": "1c30c667913a607c87d338a041b41a934333b6f6a3e3a24aee75445afef0ed57",
+    "atlasPage": "SolarSchool_Xiakong.png",
+    "atlasDimensionsVerified": true,
+    "storage": "hardlink to existing cache"
+  },
+  "placement": "Provisional, fixed reference pose; generated SchoolPortraitCatalog.ts",
+  "sha256": {
+    "SolarSchool_Xiakong.atlas": "a8188a30b2eb56e384445ba2952e95c9c65e371e7b17f8eb86c52c2a32a82e42",
+    "SolarSchool_Xiakong.skel": "9de8fdd7fff104a5b9e4c89194b9899cbfe9d1574600dbce8ae01c91111c3a4f",
+    "SolarSchool_Xiakong.webp": "1c30c667913a607c87d338a041b41a934333b6f6a3e3a24aee75445afef0ed57",
+    "ciaccona.animation-metadata.json": "dd81b486600d630fc1254ed1edb6c444f9458e17a3ef87289a0d525a03fa0fab"
+  }
+}

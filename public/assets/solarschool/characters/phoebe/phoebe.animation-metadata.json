@@ -1,0 +1,281 @@
+{
+  "talker_id": 700004,
+  "spine_version": "4.1.23",
+  "dataset_animation_rows": [
+    {
+      "Id": 700005,
+      "AvgTalkerId": 700004,
+      "AnimationName": "临时测试菲比",
+      "BodyAnimation": "dongzuo1_zhengchangzhan",
+      "MouthAnimation": "dongzuo1_zhengchang_bizui",
+      "MouthOpenSmallAnimation": "",
+      "MouthOpenLargeAnimation": "",
+      "EyeAnimation": "dongzuo1_kaixin_zhengyan",
+      "BlinkAnimation": "dongzuo1_kaixin_zhayan"
+    },
+    {
+      "Id": 700102,
+      "AvgTalkerId": 700004,
+      "AnimationName": "正常站-普通",
+      "BodyAnimation": "dongzuo1_zhengchangzhan",
+      "MouthAnimation": "dongzuo1_zhengchang_bizui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_zhengchang_zhengyan",
+      "BlinkAnimation": "dongzuo1_zhengchang_zhayan"
+    },
+    {
+      "Id": 700103,
+      "AvgTalkerId": 700004,
+      "AnimationName": "正常站-微笑",
+      "BodyAnimation": "dongzuo1_zhengchangzhan",
+      "MouthAnimation": "dongzuo1_weixiao_zui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_zhengchang_zhengyan",
+      "BlinkAnimation": "dongzuo1_zhengchang_zhayan"
+    },
+    {
+      "Id": 700104,
+      "AvgTalkerId": 700004,
+      "AnimationName": "正常站-开心",
+      "BodyAnimation": "dongzuo1_zhengchangzhan",
+      "MouthAnimation": "dongzuo1_kaixin_zui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_kaixin_zhengyan",
+      "BlinkAnimation": "dongzuo1_kaixin_zhayan"
+    },
+    {
+      "Id": 700105,
+      "AvgTalkerId": 700004,
+      "AnimationName": "正常站-流汗",
+      "BodyAnimation": "dongzuo1_zhengchangzhan",
+      "MouthAnimation": "dongzuo1_liuhan_zui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_liuhan_zhengyan",
+      "BlinkAnimation": "dongzuo1_liuhan_zhayan"
+    },
+    {
+      "Id": 700106,
+      "AvgTalkerId": 700004,
+      "AnimationName": "正常站-超开心",
+      "BodyAnimation": "dongzuo1_zhengchangzhan",
+      "MouthAnimation": "dongzuo1_zhaokaixin_zui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_kaixin_zhengyan",
+      "BlinkAnimation": ""
+    },
+    {
+      "Id": 700107,
+      "AvgTalkerId": 700004,
+      "AnimationName": "正常站-生气",
+      "BodyAnimation": "dongzuo1_zhengchangzhan",
+      "MouthAnimation": "dongzuo1_shengqi_zui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_shengqi_zhengyan",
+      "BlinkAnimation": "dongzuo1_shengqi_zhayan"
+    },
+    {
+      "Id": 700108,
+      "AvgTalkerId": 700004,
+      "AnimationName": "正常站-难过",
+      "BodyAnimation": "dongzuo1_zhengchangzhan",
+      "MouthAnimation": "dongzuo1_nanguo_zui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_nanguo_zhengyan",
+      "BlinkAnimation": "dongzuo1_nanguo_zhayan"
+    },
+    {
+      "Id": 700109,
+      "AvgTalkerId": 700004,
+      "AnimationName": "正常站-害羞",
+      "BodyAnimation": "dongzuo1_zhengchangzhan",
+      "MouthAnimation": "dongzuo1_haixiu_zui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_haixiu_zhengyan",
+      "BlinkAnimation": "dongzuo1_haixiu_zhayan"
+    },
+    {
+      "Id": 700110,
+      "AvgTalkerId": 700004,
+      "AnimationName": "扶肩站-普通",
+      "BodyAnimation": "dongzuo2_fujianzhan",
+      "MouthAnimation": "dongzuo1_zhengchang_bizui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_zhengchang_zhengyan",
+      "BlinkAnimation": "dongzuo1_zhengchang_zhayan"
+    },
+    {
+      "Id": 700111,
+      "AvgTalkerId": 700004,
+      "AnimationName": "扶肩站-微笑",
+      "BodyAnimation": "dongzuo2_fujianzhan",
+      "MouthAnimation": "dongzuo1_weixiao_zui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_zhengchang_zhengyan",
+      "BlinkAnimation": "dongzuo1_zhengchang_zhayan"
+    },
+    {
+      "Id": 700112,
+      "AvgTalkerId": 700004,
+      "AnimationName": "扶肩站-开心",
+      "BodyAnimation": "dongzuo2_fujianzhan",
+      "MouthAnimation": "dongzuo1_kaixin_zui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_kaixin_zhengyan",
+      "BlinkAnimation": "dongzuo1_kaixin_zhayan"
+    },
+    {
+      "Id": 700113,
+      "AvgTalkerId": 700004,
+      "AnimationName": "扶肩站-流汗",
+      "BodyAnimation": "dongzuo2_fujianzhan",
+      "MouthAnimation": "dongzuo1_liuhan_zui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_liuhan_zhengyan",
+      "BlinkAnimation": "dongzuo1_liuhan_zhayan"
+    },
+    {
+      "Id": 700114,
+      "AvgTalkerId": 700004,
+      "AnimationName": "扶肩站-超开心",
+      "BodyAnimation": "dongzuo2_fujianzhan",
+      "MouthAnimation": "dongzuo1_zhaokaixin_zui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_kaixin_zhengyan",
+      "BlinkAnimation": "dongzuo1_kaixin_zhayan"
+    },
+    {
+      "Id": 700115,
+      "AvgTalkerId": 700004,
+      "AnimationName": "扶肩站-生气",
+      "BodyAnimation": "dongzuo2_fujianzhan",
+      "MouthAnimation": "dongzuo1_shengqi_zui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_shengqi_zhengyan",
+      "BlinkAnimation": "dongzuo1_shengqi_zhayan"
+    },
+    {
+      "Id": 700116,
+      "AvgTalkerId": 700004,
+      "AnimationName": "扶肩站-难过",
+      "BodyAnimation": "dongzuo2_fujianzhan",
+      "MouthAnimation": "dongzuo1_nanguo_zui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_nanguo_zhengyan",
+      "BlinkAnimation": "dongzuo1_nanguo_zhayan"
+    },
+    {
+      "Id": 700117,
+      "AvgTalkerId": 700004,
+      "AnimationName": "扶肩站-害羞",
+      "BodyAnimation": "dongzuo2_fujianzhan",
+      "MouthAnimation": "dongzuo1_haixiu_zui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_haixiu_zhengyan",
+      "BlinkAnimation": "dongzuo1_haixiu_zhayan"
+    },
+    {
+      "Id": 700118,
+      "AvgTalkerId": 700004,
+      "AnimationName": "威严站-普通",
+      "BodyAnimation": "dongzuo3_weiyanzhan",
+      "MouthAnimation": "dongzuo1_zhengchang_bizui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_zhengchang_zhengyan",
+      "BlinkAnimation": "dongzuo1_zhengchang_zhayan"
+    },
+    {
+      "Id": 700119,
+      "AvgTalkerId": 700004,
+      "AnimationName": "威严站-微笑",
+      "BodyAnimation": "dongzuo3_weiyanzhan",
+      "MouthAnimation": "dongzuo1_weixiao_zui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_zhengchang_zhengyan",
+      "BlinkAnimation": "dongzuo1_zhengchang_zhayan"
+    },
+    {
+      "Id": 700120,
+      "AvgTalkerId": 700004,
+      "AnimationName": "威严站-开心",
+      "BodyAnimation": "dongzuo3_weiyanzhan",
+      "MouthAnimation": "dongzuo1_kaixin_zui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_kaixin_zhengyan",
+      "BlinkAnimation": "dongzuo1_kaixin_zhayan"
+    },
+    {
+      "Id": 700121,
+      "AvgTalkerId": 700004,
+      "AnimationName": "威严站-流汗",
+      "BodyAnimation": "dongzuo3_weiyanzhan",
+      "MouthAnimation": "dongzuo1_liuhan_zui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_liuhan_zhengyan",
+      "BlinkAnimation": "dongzuo1_liuhan_zhayan"
+    },
+    {
+      "Id": 700122,
+      "AvgTalkerId": 700004,
+      "AnimationName": "威严站-超开心",
+      "BodyAnimation": "dongzuo3_weiyanzhan",
+      "MouthAnimation": "dongzuo1_zhaokaixin_zui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_kaixin_zhengyan",
+      "BlinkAnimation": "dongzuo1_kaixin_zhayan"
+    },
+    {
+      "Id": 700123,
+      "AvgTalkerId": 700004,
+      "AnimationName": "威严站-生气",
+      "BodyAnimation": "dongzuo3_weiyanzhan",
+      "MouthAnimation": "dongzuo1_shengqi_zui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_shengqi_zhengyan",
+      "BlinkAnimation": "dongzuo1_shengqi_zhayan"
+    },
+    {
+      "Id": 700124,
+      "AvgTalkerId": 700004,
+      "AnimationName": "威严站-难过",
+      "BodyAnimation": "dongzuo3_weiyanzhan",
+      "MouthAnimation": "dongzuo1_nanguo_zui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_nanguo_zhengyan",
+      "BlinkAnimation": "dongzuo1_nanguo_zhayan"
+    },
+    {
+      "Id": 700125,
+      "AvgTalkerId": 700004,
+      "AnimationName": "威严站-害羞",
+      "BodyAnimation": "dongzuo3_weiyanzhan",
+      "MouthAnimation": "dongzuo1_haixiu_zui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_haixiu_zhengyan",
+      "BlinkAnimation": "dongzuo1_haixiu_zhayan"
+    }
+  ]
+}

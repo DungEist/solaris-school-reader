@@ -1,0 +1,6601 @@
+{
+  "case": "abby-avatar",
+  "frames": [
+    {
+      "frame": 0,
+      "timeSeconds": 0.008699999988079072,
+      "eyeTrackTime": 0.015071566689517368,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0000.png",
+      "sha256": "f7055e9c1ad7747bf5d39ac386c7726d89e560576f90278254126c4469cd65ab",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0000.png",
+      "trackedSha256": "4ed690655d3fd511dba0ccda5f588c7e4d248b301ed134d8eb6a81e352a3bce6",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12798,
+          "reflectionCenter": [
+            206.06849315068493,
+            127.5582191780822
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5684931506849296,
+            -45.9417808219178
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011365892396267606,
+            -0.3533983140147523
+          ],
+          "reflectionBounds": [
+            196,
+            119,
+            22,
+            16
+          ],
+          "reflectionAreaPixels": 292,
+          "whitePixelsInUpperIris": 534,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8111344391447801,
+            -41.254040455378515
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10734,
+          "reflectionCenter": [
+            496.71981776765375,
+            115.02505694760819
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.280182232346249,
+            -46.97494305239181
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07729460325072368,
+            -0.3947474206083345
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            31,
+            22
+          ],
+          "reflectionAreaPixels": 439,
+          "whitePixelsInUpperIris": 457,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.223309516159645,
+            -41.534859671611656
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1,
+      "timeSeconds": 0.20559999999403952,
+      "eyeTrackTime": 0.24847156668951884,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0001.png",
+      "sha256": "9dbfabc4a85be3ff3972d50af394a9fb7148e3cf9a07861ebfacc729316aec2b",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0001.png",
+      "trackedSha256": "57e2919efc7ac17b807ea21f02afbec6325f862096691bffd8d017bca5fedb4f",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12790,
+          "reflectionCenter": [
+            206.11340206185565,
+            127.59106529209622
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.613402061855652,
+            -45.90893470790378
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011691319288809073,
+            -0.35314565159925987
+          ],
+          "reflectionBounds": [
+            196,
+            120,
+            22,
+            15
+          ],
+          "reflectionAreaPixels": 291,
+          "whitePixelsInUpperIris": 544,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8560433503155025,
+            -41.221194341364495
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10743,
+          "reflectionCenter": [
+            496.7734939759036,
+            115.02168674698795
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.226506024096409,
+            -46.97831325301205
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07689102273756698,
+            -0.39477574162194995
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            30,
+            22
+          ],
+          "reflectionAreaPixels": 415,
+          "whitePixelsInUpperIris": 434,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.169633307909805,
+            -41.538229872231895
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "timeSeconds": 0.27080000001192095,
+      "eyeTrackTime": 0.31517156668951596,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0002.png",
+      "sha256": "e2be13de034b4963876e753d4230ba8f15ba3d8b55fbe8a1b1c5f280e40b775a",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0002.png",
+      "trackedSha256": "27967b8929c0ee9ee276c3adad9ff4ddd42814e47f79a5bec38fb1475bd54cef",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12843,
+          "reflectionCenter": [
+            205.4738955823293,
+            127.11646586345381
+          ],
+          "reflectionRelativeToIrisPixels": [
+            0.9738955823293054,
+            -46.88353413654619
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.007057214364705112,
+            -0.3634382491205131
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 249,
+          "whitePixelsInUpperIris": 493,
+          "candidateComponentCount": 5,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.21653687078915596,
+            -41.6957937700069
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10777,
+          "reflectionCenter": [
+            496.5718309859155,
+            115.15492957746478
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.428169014084517,
+            -46.845070422535215
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07840728582018434,
+            -0.39365605397088416
+          ],
+          "reflectionBounds": [
+            486,
+            105,
+            23,
+            22
+          ],
+          "reflectionAreaPixels": 355,
+          "whitePixelsInUpperIris": 386,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.371296297897914,
+            -41.404987041755064
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "timeSeconds": 0.332,
+      "eyeTrackTime": 0.38177156668951817,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0003.png",
+      "sha256": "8aaf2e8ff58a4927b332832f0d4e6b9ccd76e0bbc32d8bceb65529f421b60766",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0003.png",
+      "trackedSha256": "94f5e922f9683cbfeb780121878286f8cd9bf073ff89be86278b832d42bcd76c",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12829,
+          "reflectionCenter": [
+            206.18021201413427,
+            127.71378091872792
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6802120141342698,
+            -46.28621908127208
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.012175449377784564,
+            -0.3588078998548223
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 283,
+          "whitePixelsInUpperIris": 513,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.9228533025941204,
+            -41.09847871473279
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10614,
+          "reflectionCenter": [
+            497.2584269662921,
+            115.29213483146067
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -9.74157303370788,
+            -46.70786516853933
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07324491002787879,
+            -0.3925030686431876
+          ],
+          "reflectionBounds": [
+            481,
+            106,
+            32,
+            21
+          ],
+          "reflectionAreaPixels": 445,
+          "whitePixelsInUpperIris": 476,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -11.684700317521276,
+            -41.267781787759176
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "timeSeconds": 0.37909999999403954,
+      "eyeTrackTime": 0.4318715666895167,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0004.png",
+      "sha256": "a3233fe20c71f5062a41dbfd46eca93db4c843927600d94b4898a5949d9a2c89",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0004.png",
+      "trackedSha256": "8429ff60f25ff0fe4fced51aae515a184ce7a16546521f12031b730e8b3ca2ea",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12791,
+          "reflectionCenter": [
+            206.06849315068493,
+            127.5582191780822
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5684931506849296,
+            -45.9417808219178
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011365892396267606,
+            -0.3533983140147523
+          ],
+          "reflectionBounds": [
+            196,
+            119,
+            22,
+            16
+          ],
+          "reflectionAreaPixels": 292,
+          "whitePixelsInUpperIris": 539,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8111344391447801,
+            -41.254040455378515
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10736,
+          "reflectionCenter": [
+            496.61502347417843,
+            115.01173708920187
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.384976525821571,
+            -46.98826291079813
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07808253026933512,
+            -0.3948593521915809
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            30,
+            22
+          ],
+          "reflectionAreaPixels": 426,
+          "whitePixelsInUpperIris": 444,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.328103809634968,
+            -41.548179530017975
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "timeSeconds": 0.4283000000119209,
+      "eyeTrackTime": 0.46507156668951743,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0005.png",
+      "sha256": "a6407cc8fb58c2a89adf5b879dbd0703074040e82f41403a6f453b63a6b1bd09",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0005.png",
+      "trackedSha256": "2a4df4e01afc80eb86da57db0016bc6194112d0692cad3cdecf123046aca4368",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12796,
+          "reflectionCenter": [
+            206.06825938566553,
+            127.53583617747441
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5682593856655274,
+            -45.96416382252559
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011364198446851648,
+            -0.35357049094250453
+          ],
+          "reflectionBounds": [
+            196,
+            119,
+            22,
+            16
+          ],
+          "reflectionAreaPixels": 293,
+          "whitePixelsInUpperIris": 547,
+          "candidateComponentCount": 5,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8109006741253779,
+            -41.276423455986304
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10810,
+          "reflectionCenter": [
+            496.6914600550964,
+            115.0495867768595
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.3085399449036,
+            -46.9504132231405
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07750781913461353,
+            -0.394541287589416
+          ],
+          "reflectionBounds": [
+            485,
+            105,
+            25,
+            22
+          ],
+          "reflectionAreaPixels": 363,
+          "whitePixelsInUpperIris": 382,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.251667228716997,
+            -41.51032984236035
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "timeSeconds": 0.48190000000596045,
+      "eyeTrackTime": 0.5317715666895182,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0006.png",
+      "sha256": "9732d3a411995d915e23005383651ae47b033339e9710e0efdd59c307352c945",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0006.png",
+      "trackedSha256": "89ac1748a526ed777b8628ea8b90fc5e48bac7b74a7abd783fd8ad44b7460bd0",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12833,
+          "reflectionCenter": [
+            206.10320284697508,
+            127.70106761565836
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6032028469750799,
+            -46.29893238434164
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011617411934602029,
+            -0.35890645259179565
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 281,
+          "whitePixelsInUpperIris": 512,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8458441354349304,
+            -41.11119201780235
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10753,
+          "reflectionCenter": [
+            496.7154471544716,
+            115.15176151761517
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.284552845528424,
+            -46.84823848238483
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07732746500397311,
+            -0.3936826763225616
+          ],
+          "reflectionBounds": [
+            485,
+            105,
+            25,
+            22
+          ],
+          "reflectionAreaPixels": 369,
+          "whitePixelsInUpperIris": 400,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.22768012934182,
+            -41.40815510160468
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "timeSeconds": 0.5270999999940396,
+      "eyeTrackTime": 0.5650715666895174,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0007.png",
+      "sha256": "e2f24878564eba33acf5b53a124f2a2c679775f7ce7a5da7c007fb5e8679e810",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0007.png",
+      "trackedSha256": "e419264d24ce8bb989f591a16a81b1523a2c0df995faf40c4cf6bb7cb66df9a6",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12836,
+          "reflectionCenter": [
+            206.1743772241993,
+            127.72953736654804
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6743772241993042,
+            -46.270462633451956
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.012133168291299306,
+            -0.35868575684846477
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 281,
+          "whitePixelsInUpperIris": 511,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.9170185126591548,
+            -41.08272226691267
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10652,
+          "reflectionCenter": [
+            497.2324561403509,
+            115.30043859649123
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -9.767543859649095,
+            -46.69956140350877
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07344017939585785,
+            -0.3924332891051157
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            31,
+            22
+          ],
+          "reflectionAreaPixels": 456,
+          "whitePixelsInUpperIris": 487,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -11.710671143462491,
+            -41.259478022728615
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "timeSeconds": 0.5764000000059605,
+      "eyeTrackTime": 0.615171566689516,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0008.png",
+      "sha256": "a528a1bc71674225af57017701c3ce2aaa4a50f0d81d5a61734dd6576fc8f444",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0008.png",
+      "trackedSha256": "48f365d8dc4ddf008173d7ef6397878a7e95eb5e4314e4643294a91b299f5d33",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12798,
+          "reflectionCenter": [
+            206.06849315068493,
+            127.5582191780822
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5684931506849296,
+            -45.9417808219178
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011365892396267606,
+            -0.3533983140147523
+          ],
+          "reflectionBounds": [
+            196,
+            119,
+            22,
+            16
+          ],
+          "reflectionAreaPixels": 292,
+          "whitePixelsInUpperIris": 534,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8111344391447801,
+            -41.254040455378515
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10734,
+          "reflectionCenter": [
+            496.71981776765375,
+            115.02505694760819
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.280182232346249,
+            -46.97494305239181
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07729460325072368,
+            -0.3947474206083345
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            31,
+            22
+          ],
+          "reflectionAreaPixels": 439,
+          "whitePixelsInUpperIris": 457,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.223309516159645,
+            -41.534859671611656
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "timeSeconds": 0.628,
+      "eyeTrackTime": 0.6650715666895175,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0009.png",
+      "sha256": "a6407cc8fb58c2a89adf5b879dbd0703074040e82f41403a6f453b63a6b1bd09",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0009.png",
+      "trackedSha256": "235cc3d426b74f9769911459d19d04914eb9315933f75181ed5a1f8657fce51f",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12796,
+          "reflectionCenter": [
+            206.06825938566553,
+            127.53583617747441
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5682593856655274,
+            -45.96416382252559
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011364198446851648,
+            -0.35357049094250453
+          ],
+          "reflectionBounds": [
+            196,
+            119,
+            22,
+            16
+          ],
+          "reflectionAreaPixels": 293,
+          "whitePixelsInUpperIris": 547,
+          "candidateComponentCount": 5,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8109006741253779,
+            -41.276423455986304
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10810,
+          "reflectionCenter": [
+            496.6914600550964,
+            115.0495867768595
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.3085399449036,
+            -46.9504132231405
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07750781913461353,
+            -0.394541287589416
+          ],
+          "reflectionBounds": [
+            485,
+            105,
+            25,
+            22
+          ],
+          "reflectionAreaPixels": 363,
+          "whitePixelsInUpperIris": 382,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.251667228716997,
+            -41.51032984236035
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "timeSeconds": 0.6695999999940395,
+      "eyeTrackTime": 0.7150715666895175,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0010.png",
+      "sha256": "e2be13de034b4963876e753d4230ba8f15ba3d8b55fbe8a1b1c5f280e40b775a",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0010.png",
+      "trackedSha256": "a1f884243ae8b6f04a130233d7b84ab913469cdc88ebd794a6f3357d3dd37275",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12843,
+          "reflectionCenter": [
+            205.4738955823293,
+            127.11646586345381
+          ],
+          "reflectionRelativeToIrisPixels": [
+            0.9738955823293054,
+            -46.88353413654619
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.007057214364705112,
+            -0.3634382491205131
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 249,
+          "whitePixelsInUpperIris": 493,
+          "candidateComponentCount": 5,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.21653687078915596,
+            -41.6957937700069
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10777,
+          "reflectionCenter": [
+            496.5718309859155,
+            115.15492957746478
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.428169014084517,
+            -46.845070422535215
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07840728582018434,
+            -0.39365605397088416
+          ],
+          "reflectionBounds": [
+            486,
+            105,
+            23,
+            22
+          ],
+          "reflectionAreaPixels": 355,
+          "whitePixelsInUpperIris": 386,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.371296297897914,
+            -41.404987041755064
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 11,
+      "timeSeconds": 0.7144000000059605,
+      "eyeTrackTime": 0.7651715666895161,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0011.png",
+      "sha256": "7193fad69caa910d45412e0c281e702b21438f84fd74980f4dbe5c1980185470",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0011.png",
+      "trackedSha256": "af04f03f2212907635033be3dfe750e8967d2315849de876d35f26b526b134c8",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12835,
+          "reflectionCenter": [
+            206.2127659574468,
+            127.73758865248227
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.7127659574468055,
+            -46.26241134751773
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.012411347517730474,
+            -0.3586233437792072
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 282,
+          "whitePixelsInUpperIris": 512,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.955407245906656,
+            -41.07467098097844
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10652,
+          "reflectionCenter": [
+            497.2324561403509,
+            115.30043859649123
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -9.767543859649095,
+            -46.69956140350877
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07344017939585785,
+            -0.3924332891051157
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            31,
+            22
+          ],
+          "reflectionAreaPixels": 456,
+          "whitePixelsInUpperIris": 487,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -11.710671143462491,
+            -41.259478022728615
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "timeSeconds": 0.758699999988079,
+      "eyeTrackTime": 0.798471566689519,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0012.png",
+      "sha256": "26dc4d45cf83736793065202b780828b74a8981939b8ce179baa1e5c3bb52d47",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0012.png",
+      "trackedSha256": "8d3094eb89ae97c76e0bb23f9678623aeea079047663cd6e86c32a74e1fdba79",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12806,
+          "reflectionCenter": [
+            206.14532871972318,
+            127.6401384083045
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6453287197231816,
+            -45.859861591695505
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.01192267188205204,
+            -0.3527681660899654
+          ],
+          "reflectionBounds": [
+            196,
+            120,
+            22,
+            15
+          ],
+          "reflectionAreaPixels": 289,
+          "whitePixelsInUpperIris": 530,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8879700081830322,
+            -41.17212122515622
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10631,
+          "reflectionCenter": [
+            497.5493273542601,
+            115.20403587443946
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -9.450672645739928,
+            -46.795964125560545
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07105768906571375,
+            -0.3932433960131138
+          ],
+          "reflectionBounds": [
+            482,
+            106,
+            31,
+            21
+          ],
+          "reflectionAreaPixels": 446,
+          "whitePixelsInUpperIris": 464,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -11.393799929553325,
+            -41.35588074478039
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 13,
+      "timeSeconds": 0.8031999999880791,
+      "eyeTrackTime": 0.8484715666895191,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0013.png",
+      "sha256": "815d0c912fdba66bf81c02b4b0125ad6f7a5ea5f3acd19d2ceda562100b49d3d",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0013.png",
+      "trackedSha256": "a4c978411df70db40c3587643c422981802221b8736462a2b0cbbecf607a3090",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12790,
+          "reflectionCenter": [
+            206.11340206185565,
+            127.59106529209622
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.613402061855652,
+            -45.90893470790378
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011691319288809073,
+            -0.35314565159925987
+          ],
+          "reflectionBounds": [
+            196,
+            120,
+            22,
+            15
+          ],
+          "reflectionAreaPixels": 291,
+          "whitePixelsInUpperIris": 544,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8560433503155025,
+            -41.221194341364495
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10743,
+          "reflectionCenter": [
+            496.7734939759036,
+            115.02168674698795
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.226506024096409,
+            -46.97831325301205
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07689102273756698,
+            -0.39477574162194995
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            30,
+            22
+          ],
+          "reflectionAreaPixels": 415,
+          "whitePixelsInUpperIris": 434,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.169633307909805,
+            -41.538229872231895
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 14,
+      "timeSeconds": 0.8515999999940396,
+      "eyeTrackTime": 0.8984715666895191,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0014.png",
+      "sha256": "6866b6d55df08c5dab031c10530edae30cccbd81eb388cd9254eb8bac12610b4",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0014.png",
+      "trackedSha256": "5a8cca59f4135bb7cf247fa3bb80ec88016f314cd52ad22623a3ea655d6c8b8d",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12802,
+          "reflectionCenter": [
+            206.1443661971831,
+            127.59507042253522
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6443661971831034,
+            -46.404929577464785
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.01191569708103698,
+            -0.3597281362594169
+          ],
+          "reflectionBounds": [
+            196,
+            120,
+            22,
+            15
+          ],
+          "reflectionAreaPixels": 284,
+          "whitePixelsInUpperIris": 530,
+          "candidateComponentCount": 5,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.887007485642954,
+            -41.2171892109255
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10789,
+          "reflectionCenter": [
+            496.5762711864407,
+            115.12429378531073
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.423728813559308,
+            -46.875706214689274
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07837390085382938,
+            -0.3939134976024309
+          ],
+          "reflectionBounds": [
+            486,
+            105,
+            23,
+            22
+          ],
+          "reflectionAreaPixels": 354,
+          "whitePixelsInUpperIris": 385,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.366856097372704,
+            -41.43562283390912
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 15,
+      "timeSeconds": 0.895699999988079,
+      "eyeTrackTime": 0.9317715666895183,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0015.png",
+      "sha256": "9732d3a411995d915e23005383651ae47b033339e9710e0efdd59c307352c945",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0015.png",
+      "trackedSha256": "185c73cf376f01d94a7987779d59a43b675bde48123c27816dc0e86f6f2d8776",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12833,
+          "reflectionCenter": [
+            206.10320284697508,
+            127.70106761565836
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6032028469750799,
+            -46.29893238434164
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011617411934602029,
+            -0.35890645259179565
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 281,
+          "whitePixelsInUpperIris": 512,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8458441354349304,
+            -41.11119201780235
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10753,
+          "reflectionCenter": [
+            496.7154471544716,
+            115.15176151761517
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.284552845528424,
+            -46.84823848238483
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07732746500397311,
+            -0.3936826763225616
+          ],
+          "reflectionBounds": [
+            485,
+            105,
+            25,
+            22
+          ],
+          "reflectionAreaPixels": 369,
+          "whitePixelsInUpperIris": 400,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.22768012934182,
+            -41.40815510160468
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "timeSeconds": 0.9445999999940395,
+      "eyeTrackTime": 0.9817715666895184,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0016.png",
+      "sha256": "8aaf2e8ff58a4927b332832f0d4e6b9ccd76e0bbc32d8bceb65529f421b60766",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0016.png",
+      "trackedSha256": "c0265f28ad377c885bcc94c62cf0101050ee8c2957de838540828124285865d7",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12829,
+          "reflectionCenter": [
+            206.18021201413427,
+            127.71378091872792
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6802120141342698,
+            -46.28621908127208
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.012175449377784564,
+            -0.3588078998548223
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 283,
+          "whitePixelsInUpperIris": 513,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.9228533025941204,
+            -41.09847871473279
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10614,
+          "reflectionCenter": [
+            497.2584269662921,
+            115.29213483146067
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -9.74157303370788,
+            -46.70786516853933
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07324491002787879,
+            -0.3925030686431876
+          ],
+          "reflectionBounds": [
+            481,
+            106,
+            32,
+            21
+          ],
+          "reflectionAreaPixels": 445,
+          "whitePixelsInUpperIris": 476,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -11.684700317521276,
+            -41.267781787759176
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 17,
+      "timeSeconds": 0.9905,
+      "eyeTrackTime": 1.0317715666895184,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0017.png",
+      "sha256": "a3233fe20c71f5062a41dbfd46eca93db4c843927600d94b4898a5949d9a2c89",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0017.png",
+      "trackedSha256": "73fd4da52173677e78382ac256f162639258749a26dd1ed243b1ebf497f51d99",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12791,
+          "reflectionCenter": [
+            206.06849315068493,
+            127.5582191780822
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5684931506849296,
+            -45.9417808219178
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011365892396267606,
+            -0.3533983140147523
+          ],
+          "reflectionBounds": [
+            196,
+            119,
+            22,
+            16
+          ],
+          "reflectionAreaPixels": 292,
+          "whitePixelsInUpperIris": 539,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8111344391447801,
+            -41.254040455378515
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10736,
+          "reflectionCenter": [
+            496.61502347417843,
+            115.01173708920187
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.384976525821571,
+            -46.98826291079813
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07808253026933512,
+            -0.3948593521915809
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            30,
+            22
+          ],
+          "reflectionAreaPixels": 426,
+          "whitePixelsInUpperIris": 444,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.328103809634968,
+            -41.548179530017975
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 18,
+      "timeSeconds": 1.040699999988079,
+      "eyeTrackTime": 1.0817715666895185,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0018.png",
+      "sha256": "f1d3ae0d7c01f4113973e48c68eb924641cffdc771cefa0d964b806a0a701fac",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0018.png",
+      "trackedSha256": "84312c0f511cdd31734e32103c3289e088a772db5b2b49f65732b2c88f41049c",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12807,
+          "reflectionCenter": [
+            206.08802816901408,
+            127.65140845070422
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5880281690140805,
+            -46.348591549295776
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011507450500102033,
+            -0.359291407358882
+          ],
+          "reflectionBounds": [
+            196,
+            120,
+            22,
+            15
+          ],
+          "reflectionAreaPixels": 284,
+          "whitePixelsInUpperIris": 538,
+          "candidateComponentCount": 5,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8306694574739311,
+            -41.16085118275649
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10786,
+          "reflectionCenter": [
+            496.59773371104814,
+            115.10198300283287
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.402266288951864,
+            -46.89801699716713
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07821252848835988,
+            -0.39410098316947173
+          ],
+          "reflectionBounds": [
+            486,
+            105,
+            23,
+            22
+          ],
+          "reflectionAreaPixels": 353,
+          "whitePixelsInUpperIris": 384,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.34539357276526,
+            -41.45793361638698
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 19,
+      "timeSeconds": 1.0855,
+      "eyeTrackTime": 1.1317715666895185,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0019.png",
+      "sha256": "9732d3a411995d915e23005383651ae47b033339e9710e0efdd59c307352c945",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0019.png",
+      "trackedSha256": "05d53584832b0ef681efd11308bffd64b26dc1fb366fad680815f19f446ceb89",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12833,
+          "reflectionCenter": [
+            206.10320284697508,
+            127.70106761565836
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6032028469750799,
+            -46.29893238434164
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011617411934602029,
+            -0.35890645259179565
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 281,
+          "whitePixelsInUpperIris": 512,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8458441354349304,
+            -41.11119201780235
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10753,
+          "reflectionCenter": [
+            496.7154471544716,
+            115.15176151761517
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.284552845528424,
+            -46.84823848238483
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07732746500397311,
+            -0.3936826763225616
+          ],
+          "reflectionBounds": [
+            485,
+            105,
+            25,
+            22
+          ],
+          "reflectionAreaPixels": 369,
+          "whitePixelsInUpperIris": 400,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.22768012934182,
+            -41.40815510160468
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 20,
+      "timeSeconds": 1.1261999999880792,
+      "eyeTrackTime": 1.1650715666895177,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0020.png",
+      "sha256": "e2f24878564eba33acf5b53a124f2a2c679775f7ce7a5da7c007fb5e8679e810",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0020.png",
+      "trackedSha256": "fa208b7e0ce6ab82765cb6dbad5dc84bf9c78b436376cdab0ec4430c9f8cc7ca",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12836,
+          "reflectionCenter": [
+            206.1743772241993,
+            127.72953736654804
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6743772241993042,
+            -46.270462633451956
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.012133168291299306,
+            -0.35868575684846477
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 281,
+          "whitePixelsInUpperIris": 511,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.9170185126591548,
+            -41.08272226691267
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10652,
+          "reflectionCenter": [
+            497.2324561403509,
+            115.30043859649123
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -9.767543859649095,
+            -46.69956140350877
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07344017939585785,
+            -0.3924332891051157
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            31,
+            22
+          ],
+          "reflectionAreaPixels": 456,
+          "whitePixelsInUpperIris": 487,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -11.710671143462491,
+            -41.259478022728615
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 21,
+      "timeSeconds": 1.174300000011921,
+      "eyeTrackTime": 1.2150715666895178,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0021.png",
+      "sha256": "a528a1bc71674225af57017701c3ce2aaa4a50f0d81d5a61734dd6576fc8f444",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0021.png",
+      "trackedSha256": "502811b5ae092c6a01162815ed2fb9a70b2d860bca92cf7fb1ab3e21e76abfc5",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12798,
+          "reflectionCenter": [
+            206.06849315068493,
+            127.5582191780822
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5684931506849296,
+            -45.9417808219178
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011365892396267606,
+            -0.3533983140147523
+          ],
+          "reflectionBounds": [
+            196,
+            119,
+            22,
+            16
+          ],
+          "reflectionAreaPixels": 292,
+          "whitePixelsInUpperIris": 534,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8111344391447801,
+            -41.254040455378515
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10734,
+          "reflectionCenter": [
+            496.71981776765375,
+            115.02505694760819
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.280182232346249,
+            -46.97494305239181
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07729460325072368,
+            -0.3947474206083345
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            31,
+            22
+          ],
+          "reflectionAreaPixels": 439,
+          "whitePixelsInUpperIris": 457,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.223309516159645,
+            -41.534859671611656
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 22,
+      "timeSeconds": 1.2255,
+      "eyeTrackTime": 1.2651715666895162,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0022.png",
+      "sha256": "a6407cc8fb58c2a89adf5b879dbd0703074040e82f41403a6f453b63a6b1bd09",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0022.png",
+      "trackedSha256": "0e31bfad7144bfebe813e2e4ee3b66f849a38b39a5c26161c516045c0728a0c6",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12796,
+          "reflectionCenter": [
+            206.06825938566553,
+            127.53583617747441
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5682593856655274,
+            -45.96416382252559
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011364198446851648,
+            -0.35357049094250453
+          ],
+          "reflectionBounds": [
+            196,
+            119,
+            22,
+            16
+          ],
+          "reflectionAreaPixels": 293,
+          "whitePixelsInUpperIris": 547,
+          "candidateComponentCount": 5,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8109006741253779,
+            -41.276423455986304
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10810,
+          "reflectionCenter": [
+            496.6914600550964,
+            115.0495867768595
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.3085399449036,
+            -46.9504132231405
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07750781913461353,
+            -0.394541287589416
+          ],
+          "reflectionBounds": [
+            485,
+            105,
+            25,
+            22
+          ],
+          "reflectionAreaPixels": 363,
+          "whitePixelsInUpperIris": 382,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.251667228716997,
+            -41.51032984236035
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 23,
+      "timeSeconds": 1.299199999988079,
+      "eyeTrackTime": 1.348371566689517,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0023.png",
+      "sha256": "821c307ac3d916ef18e39338673e30ea98cce6badc4d21c1d101da23f2eac99d",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0023.png",
+      "trackedSha256": "87731b60dde231d7651dce15753ac19c74bb213db16d7df6b2c424528efec1f4",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12850,
+          "reflectionCenter": [
+            206.3065693430657,
+            127.56934306569343
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.8065693430656893,
+            -46.43065693430657
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.013091082196128184,
+            -0.35992757313415946
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 274,
+          "whitePixelsInUpperIris": 499,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            1.0492106315255398,
+            -41.24291656776728
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10672,
+          "reflectionCenter": [
+            496.77241379310345,
+            115.10574712643678
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.227586206896547,
+            -46.89425287356322
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07689914441275598,
+            -0.39406935187868253
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            30,
+            22
+          ],
+          "reflectionAreaPixels": 435,
+          "whitePixelsInUpperIris": 466,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.170713490709943,
+            -41.454169492783066
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 24,
+      "timeSeconds": 1.347699999988079,
+      "eyeTrackTime": 1.3983715666895171,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0024.png",
+      "sha256": "26dc4d45cf83736793065202b780828b74a8981939b8ce179baa1e5c3bb52d47",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0024.png",
+      "trackedSha256": "c726c9cf370a6dbdd90c561ebece7451de0163faa2aff631dccc6e926a0ce0de",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12806,
+          "reflectionCenter": [
+            206.14532871972318,
+            127.6401384083045
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6453287197231816,
+            -45.859861591695505
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.01192267188205204,
+            -0.3527681660899654
+          ],
+          "reflectionBounds": [
+            196,
+            120,
+            22,
+            15
+          ],
+          "reflectionAreaPixels": 289,
+          "whitePixelsInUpperIris": 530,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8879700081830322,
+            -41.17212122515622
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10631,
+          "reflectionCenter": [
+            497.5493273542601,
+            115.20403587443946
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -9.450672645739928,
+            -46.795964125560545
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07105768906571375,
+            -0.3932433960131138
+          ],
+          "reflectionBounds": [
+            482,
+            106,
+            31,
+            21
+          ],
+          "reflectionAreaPixels": 446,
+          "whitePixelsInUpperIris": 464,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -11.393799929553325,
+            -41.35588074478039
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 25,
+      "timeSeconds": 1.3985999999940395,
+      "eyeTrackTime": 1.4484715666895194,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0025.png",
+      "sha256": "815d0c912fdba66bf81c02b4b0125ad6f7a5ea5f3acd19d2ceda562100b49d3d",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0025.png",
+      "trackedSha256": "f26704a9dbb6a5ceffebb78bd9072065502729427245f6d0fc684c88eb10c214",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12790,
+          "reflectionCenter": [
+            206.11340206185565,
+            127.59106529209622
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.613402061855652,
+            -45.90893470790378
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011691319288809073,
+            -0.35314565159925987
+          ],
+          "reflectionBounds": [
+            196,
+            120,
+            22,
+            15
+          ],
+          "reflectionAreaPixels": 291,
+          "whitePixelsInUpperIris": 544,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8560433503155025,
+            -41.221194341364495
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10743,
+          "reflectionCenter": [
+            496.7734939759036,
+            115.02168674698795
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.226506024096409,
+            -46.97831325301205
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07689102273756698,
+            -0.39477574162194995
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            30,
+            22
+          ],
+          "reflectionAreaPixels": 415,
+          "whitePixelsInUpperIris": 434,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.169633307909805,
+            -41.538229872231895
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 26,
+      "timeSeconds": 1.443699999988079,
+      "eyeTrackTime": 1.4817715666895186,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0026.png",
+      "sha256": "f1d3ae0d7c01f4113973e48c68eb924641cffdc771cefa0d964b806a0a701fac",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0026.png",
+      "trackedSha256": "4869bc6bbb4fc499c9d5189c69ab11616b939fd91bc5b7ddc406f639a1910c42",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12807,
+          "reflectionCenter": [
+            206.08802816901408,
+            127.65140845070422
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5880281690140805,
+            -46.348591549295776
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011507450500102033,
+            -0.359291407358882
+          ],
+          "reflectionBounds": [
+            196,
+            120,
+            22,
+            15
+          ],
+          "reflectionAreaPixels": 284,
+          "whitePixelsInUpperIris": 538,
+          "candidateComponentCount": 5,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8306694574739311,
+            -41.16085118275649
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10786,
+          "reflectionCenter": [
+            496.59773371104814,
+            115.10198300283287
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.402266288951864,
+            -46.89801699716713
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07821252848835988,
+            -0.39410098316947173
+          ],
+          "reflectionBounds": [
+            486,
+            105,
+            23,
+            22
+          ],
+          "reflectionAreaPixels": 353,
+          "whitePixelsInUpperIris": 384,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.34539357276526,
+            -41.45793361638698
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 27,
+      "timeSeconds": 1.490199999988079,
+      "eyeTrackTime": 1.5317715666895186,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0027.png",
+      "sha256": "9732d3a411995d915e23005383651ae47b033339e9710e0efdd59c307352c945",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0027.png",
+      "trackedSha256": "1084d42505639304bb1b4fc8528caa32a623fb1896343d308650fa9585bb4392",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12833,
+          "reflectionCenter": [
+            206.10320284697508,
+            127.70106761565836
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6032028469750799,
+            -46.29893238434164
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011617411934602029,
+            -0.35890645259179565
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 281,
+          "whitePixelsInUpperIris": 512,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8458441354349304,
+            -41.11119201780235
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10753,
+          "reflectionCenter": [
+            496.7154471544716,
+            115.15176151761517
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.284552845528424,
+            -46.84823848238483
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07732746500397311,
+            -0.3936826763225616
+          ],
+          "reflectionBounds": [
+            485,
+            105,
+            25,
+            22
+          ],
+          "reflectionAreaPixels": 369,
+          "whitePixelsInUpperIris": 400,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.22768012934182,
+            -41.40815510160468
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 28,
+      "timeSeconds": 1.537800000011921,
+      "eyeTrackTime": 1.5816715666895165,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0028.png",
+      "sha256": "8aaf2e8ff58a4927b332832f0d4e6b9ccd76e0bbc32d8bceb65529f421b60766",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0028.png",
+      "trackedSha256": "2fce9d084c5331186407d62e295e57fb77acc811b21ce00ddb2d123787ffe85b",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12829,
+          "reflectionCenter": [
+            206.18021201413427,
+            127.71378091872792
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6802120141342698,
+            -46.28621908127208
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.012175449377784564,
+            -0.3588078998548223
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 283,
+          "whitePixelsInUpperIris": 513,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.9228533025941204,
+            -41.09847871473279
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10614,
+          "reflectionCenter": [
+            497.2584269662921,
+            115.29213483146067
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -9.74157303370788,
+            -46.70786516853933
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07324491002787879,
+            -0.3925030686431876
+          ],
+          "reflectionBounds": [
+            481,
+            106,
+            32,
+            21
+          ],
+          "reflectionAreaPixels": 445,
+          "whitePixelsInUpperIris": 476,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -11.684700317521276,
+            -41.267781787759176
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 29,
+      "timeSeconds": 1.5819000000059604,
+      "eyeTrackTime": 1.6317715666895187,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0029.png",
+      "sha256": "a3233fe20c71f5062a41dbfd46eca93db4c843927600d94b4898a5949d9a2c89",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0029.png",
+      "trackedSha256": "c6a3684677863794a677ff9dae0a4dcce6c3d78905329a07ddbcddce7b875616",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12791,
+          "reflectionCenter": [
+            206.06849315068493,
+            127.5582191780822
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5684931506849296,
+            -45.9417808219178
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011365892396267606,
+            -0.3533983140147523
+          ],
+          "reflectionBounds": [
+            196,
+            119,
+            22,
+            16
+          ],
+          "reflectionAreaPixels": 292,
+          "whitePixelsInUpperIris": 539,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8111344391447801,
+            -41.254040455378515
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10736,
+          "reflectionCenter": [
+            496.61502347417843,
+            115.01173708920187
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.384976525821571,
+            -46.98826291079813
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07808253026933512,
+            -0.3948593521915809
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            30,
+            22
+          ],
+          "reflectionAreaPixels": 426,
+          "whitePixelsInUpperIris": 444,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.328103809634968,
+            -41.548179530017975
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 30,
+      "timeSeconds": 1.629199999988079,
+      "eyeTrackTime": 1.665071566689518,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0030.png",
+      "sha256": "a6407cc8fb58c2a89adf5b879dbd0703074040e82f41403a6f453b63a6b1bd09",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0030.png",
+      "trackedSha256": "5c95097bcfca51d1192087b487d874671bd3c94a0ebad3d831683f03f59bec20",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12796,
+          "reflectionCenter": [
+            206.06825938566553,
+            127.53583617747441
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5682593856655274,
+            -45.96416382252559
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011364198446851648,
+            -0.35357049094250453
+          ],
+          "reflectionBounds": [
+            196,
+            119,
+            22,
+            16
+          ],
+          "reflectionAreaPixels": 293,
+          "whitePixelsInUpperIris": 547,
+          "candidateComponentCount": 5,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8109006741253779,
+            -41.276423455986304
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10810,
+          "reflectionCenter": [
+            496.6914600550964,
+            115.0495867768595
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.3085399449036,
+            -46.9504132231405
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07750781913461353,
+            -0.394541287589416
+          ],
+          "reflectionBounds": [
+            485,
+            105,
+            25,
+            22
+          ],
+          "reflectionAreaPixels": 363,
+          "whitePixelsInUpperIris": 382,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.251667228716997,
+            -41.51032984236035
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 31,
+      "timeSeconds": 1.6778000000119209,
+      "eyeTrackTime": 1.715071566689518,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0031.png",
+      "sha256": "e2be13de034b4963876e753d4230ba8f15ba3d8b55fbe8a1b1c5f280e40b775a",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0031.png",
+      "trackedSha256": "3c13d01df18c3b7780ab90fe5a67804819c4d6e2fc32f8eedf8d65ebfd32c639",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12843,
+          "reflectionCenter": [
+            205.4738955823293,
+            127.11646586345381
+          ],
+          "reflectionRelativeToIrisPixels": [
+            0.9738955823293054,
+            -46.88353413654619
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.007057214364705112,
+            -0.3634382491205131
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 249,
+          "whitePixelsInUpperIris": 493,
+          "candidateComponentCount": 5,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.21653687078915596,
+            -41.6957937700069
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10777,
+          "reflectionCenter": [
+            496.5718309859155,
+            115.15492957746478
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.428169014084517,
+            -46.845070422535215
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07840728582018434,
+            -0.39365605397088416
+          ],
+          "reflectionBounds": [
+            486,
+            105,
+            23,
+            22
+          ],
+          "reflectionAreaPixels": 355,
+          "whitePixelsInUpperIris": 386,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.371296297897914,
+            -41.404987041755064
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 32,
+      "timeSeconds": 1.726199999988079,
+      "eyeTrackTime": 1.765071566689518,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0032.png",
+      "sha256": "e2f24878564eba33acf5b53a124f2a2c679775f7ce7a5da7c007fb5e8679e810",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0032.png",
+      "trackedSha256": "ff34bbdb389ae123fa097b15dbee5a8abc37c25ee351951c274cac5cfc94f33f",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12836,
+          "reflectionCenter": [
+            206.1743772241993,
+            127.72953736654804
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6743772241993042,
+            -46.270462633451956
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.012133168291299306,
+            -0.35868575684846477
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 281,
+          "whitePixelsInUpperIris": 511,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.9170185126591548,
+            -41.08272226691267
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10652,
+          "reflectionCenter": [
+            497.2324561403509,
+            115.30043859649123
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -9.767543859649095,
+            -46.69956140350877
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07344017939585785,
+            -0.3924332891051157
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            31,
+            22
+          ],
+          "reflectionAreaPixels": 456,
+          "whitePixelsInUpperIris": 487,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -11.710671143462491,
+            -41.259478022728615
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 33,
+      "timeSeconds": 1.7745,
+      "eyeTrackTime": 1.815071566689518,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0033.png",
+      "sha256": "a528a1bc71674225af57017701c3ce2aaa4a50f0d81d5a61734dd6576fc8f444",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0033.png",
+      "trackedSha256": "a6e32d25bab4681eaf53cbc18ef1b646b9e6609ffb3b304b534892fbf7dcb6af",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12798,
+          "reflectionCenter": [
+            206.06849315068493,
+            127.5582191780822
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5684931506849296,
+            -45.9417808219178
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011365892396267606,
+            -0.3533983140147523
+          ],
+          "reflectionBounds": [
+            196,
+            119,
+            22,
+            16
+          ],
+          "reflectionAreaPixels": 292,
+          "whitePixelsInUpperIris": 534,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8111344391447801,
+            -41.254040455378515
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10734,
+          "reflectionCenter": [
+            496.71981776765375,
+            115.02505694760819
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.280182232346249,
+            -46.97494305239181
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07729460325072368,
+            -0.3947474206083345
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            31,
+            22
+          ],
+          "reflectionAreaPixels": 439,
+          "whitePixelsInUpperIris": 457,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.223309516159645,
+            -41.534859671611656
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 34,
+      "timeSeconds": 1.824699999988079,
+      "eyeTrackTime": 1.8650715666895181,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0034.png",
+      "sha256": "a6407cc8fb58c2a89adf5b879dbd0703074040e82f41403a6f453b63a6b1bd09",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0034.png",
+      "trackedSha256": "c03850504ad38e43241b79f60fd058e0363a1707296c963d85d35c3a6d0f8915",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12796,
+          "reflectionCenter": [
+            206.06825938566553,
+            127.53583617747441
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5682593856655274,
+            -45.96416382252559
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011364198446851648,
+            -0.35357049094250453
+          ],
+          "reflectionBounds": [
+            196,
+            119,
+            22,
+            16
+          ],
+          "reflectionAreaPixels": 293,
+          "whitePixelsInUpperIris": 547,
+          "candidateComponentCount": 5,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8109006741253779,
+            -41.276423455986304
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10810,
+          "reflectionCenter": [
+            496.6914600550964,
+            115.0495867768595
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.3085399449036,
+            -46.9504132231405
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07750781913461353,
+            -0.394541287589416
+          ],
+          "reflectionBounds": [
+            485,
+            105,
+            25,
+            22
+          ],
+          "reflectionAreaPixels": 363,
+          "whitePixelsInUpperIris": 382,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.251667228716997,
+            -41.51032984236035
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 35,
+      "timeSeconds": 1.8705,
+      "eyeTrackTime": 1.9150715666895182,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0035.png",
+      "sha256": "e2be13de034b4963876e753d4230ba8f15ba3d8b55fbe8a1b1c5f280e40b775a",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0035.png",
+      "trackedSha256": "74f09172d4923fa70d43c66989dd3b29c2cd7b919226eae9bcbb60d0656f437d",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12843,
+          "reflectionCenter": [
+            205.4738955823293,
+            127.11646586345381
+          ],
+          "reflectionRelativeToIrisPixels": [
+            0.9738955823293054,
+            -46.88353413654619
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.007057214364705112,
+            -0.3634382491205131
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 249,
+          "whitePixelsInUpperIris": 493,
+          "candidateComponentCount": 5,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.21653687078915596,
+            -41.6957937700069
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10777,
+          "reflectionCenter": [
+            496.5718309859155,
+            115.15492957746478
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.428169014084517,
+            -46.845070422535215
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07840728582018434,
+            -0.39365605397088416
+          ],
+          "reflectionBounds": [
+            486,
+            105,
+            23,
+            22
+          ],
+          "reflectionAreaPixels": 355,
+          "whitePixelsInUpperIris": 386,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.371296297897914,
+            -41.404987041755064
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 36,
+      "timeSeconds": 1.9175999999940396,
+      "eyeTrackTime": 1.9650715666895182,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0036.png",
+      "sha256": "e2f24878564eba33acf5b53a124f2a2c679775f7ce7a5da7c007fb5e8679e810",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0036.png",
+      "trackedSha256": "62d48bce5dc2ec5eea316e6071a3f8a8f81a17f0c2b4b32ccf7ae54fdd7e98df",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12836,
+          "reflectionCenter": [
+            206.1743772241993,
+            127.72953736654804
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6743772241993042,
+            -46.270462633451956
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.012133168291299306,
+            -0.35868575684846477
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 281,
+          "whitePixelsInUpperIris": 511,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.9170185126591548,
+            -41.08272226691267
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10652,
+          "reflectionCenter": [
+            497.2324561403509,
+            115.30043859649123
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -9.767543859649095,
+            -46.69956140350877
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07344017939585785,
+            -0.3924332891051157
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            31,
+            22
+          ],
+          "reflectionAreaPixels": 456,
+          "whitePixelsInUpperIris": 487,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -11.710671143462491,
+            -41.259478022728615
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 37,
+      "timeSeconds": 1.9699000000059605,
+      "eyeTrackTime": 2.0150715666895183,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0037.png",
+      "sha256": "a528a1bc71674225af57017701c3ce2aaa4a50f0d81d5a61734dd6576fc8f444",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0037.png",
+      "trackedSha256": "b29fbb461bd0e260f7bc335fcfdfc231e41f246fca2ccca006866cd9cdfa4ea1",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12798,
+          "reflectionCenter": [
+            206.06849315068493,
+            127.5582191780822
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5684931506849296,
+            -45.9417808219178
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011365892396267606,
+            -0.3533983140147523
+          ],
+          "reflectionBounds": [
+            196,
+            119,
+            22,
+            16
+          ],
+          "reflectionAreaPixels": 292,
+          "whitePixelsInUpperIris": 534,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8111344391447801,
+            -41.254040455378515
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10734,
+          "reflectionCenter": [
+            496.71981776765375,
+            115.02505694760819
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.280182232346249,
+            -46.97494305239181
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07729460325072368,
+            -0.3947474206083345
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            31,
+            22
+          ],
+          "reflectionAreaPixels": 439,
+          "whitePixelsInUpperIris": 457,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.223309516159645,
+            -41.534859671611656
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 38,
+      "timeSeconds": 2.0160999999940397,
+      "eyeTrackTime": 2.065071566689518,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0038.png",
+      "sha256": "a6407cc8fb58c2a89adf5b879dbd0703074040e82f41403a6f453b63a6b1bd09",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0038.png",
+      "trackedSha256": "ab8a0d16408a557623366b623702df9d071e9db170eca907f38b504bff309c95",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12796,
+          "reflectionCenter": [
+            206.06825938566553,
+            127.53583617747441
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5682593856655274,
+            -45.96416382252559
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011364198446851648,
+            -0.35357049094250453
+          ],
+          "reflectionBounds": [
+            196,
+            119,
+            22,
+            16
+          ],
+          "reflectionAreaPixels": 293,
+          "whitePixelsInUpperIris": 547,
+          "candidateComponentCount": 5,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8109006741253779,
+            -41.276423455986304
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10810,
+          "reflectionCenter": [
+            496.6914600550964,
+            115.0495867768595
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.3085399449036,
+            -46.9504132231405
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07750781913461353,
+            -0.394541287589416
+          ],
+          "reflectionBounds": [
+            485,
+            105,
+            25,
+            22
+          ],
+          "reflectionAreaPixels": 363,
+          "whitePixelsInUpperIris": 382,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.251667228716997,
+            -41.51032984236035
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 39,
+      "timeSeconds": 2.0585999999940396,
+      "eyeTrackTime": 2.0983715666895173,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0039.png",
+      "sha256": "6866b6d55df08c5dab031c10530edae30cccbd81eb388cd9254eb8bac12610b4",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0039.png",
+      "trackedSha256": "d32c593052b4096a2e16c83618910fc445256001af92f171f2ec9990039508cf",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12802,
+          "reflectionCenter": [
+            206.1443661971831,
+            127.59507042253522
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6443661971831034,
+            -46.404929577464785
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.01191569708103698,
+            -0.3597281362594169
+          ],
+          "reflectionBounds": [
+            196,
+            120,
+            22,
+            15
+          ],
+          "reflectionAreaPixels": 284,
+          "whitePixelsInUpperIris": 530,
+          "candidateComponentCount": 5,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.887007485642954,
+            -41.2171892109255
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10789,
+          "reflectionCenter": [
+            496.5762711864407,
+            115.12429378531073
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.423728813559308,
+            -46.875706214689274
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07837390085382938,
+            -0.3939134976024309
+          ],
+          "reflectionBounds": [
+            486,
+            105,
+            23,
+            22
+          ],
+          "reflectionAreaPixels": 354,
+          "whitePixelsInUpperIris": 385,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.366856097372704,
+            -41.43562283390912
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 40,
+      "timeSeconds": 2.100699999988079,
+      "eyeTrackTime": 2.148371566689517,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0040.png",
+      "sha256": "821c307ac3d916ef18e39338673e30ea98cce6badc4d21c1d101da23f2eac99d",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0040.png",
+      "trackedSha256": "dd5bb75ad5ea647153dadce25959024027077708aa56985d2325d520eed32614",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12850,
+          "reflectionCenter": [
+            206.3065693430657,
+            127.56934306569343
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.8065693430656893,
+            -46.43065693430657
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.013091082196128184,
+            -0.35992757313415946
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 274,
+          "whitePixelsInUpperIris": 499,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            1.0492106315255398,
+            -41.24291656776728
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10672,
+          "reflectionCenter": [
+            496.77241379310345,
+            115.10574712643678
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.227586206896547,
+            -46.89425287356322
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07689914441275598,
+            -0.39406935187868253
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            30,
+            22
+          ],
+          "reflectionAreaPixels": 435,
+          "whitePixelsInUpperIris": 466,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.170713490709943,
+            -41.454169492783066
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 41,
+      "timeSeconds": 2.1444000000059606,
+      "eyeTrackTime": 2.1816715666895163,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0041.png",
+      "sha256": "8aaf2e8ff58a4927b332832f0d4e6b9ccd76e0bbc32d8bceb65529f421b60766",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0041.png",
+      "trackedSha256": "7f8055aafb66478b5c1e414e4e1faa1589d057a04375419e19bab44dfcfaeeaa",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12829,
+          "reflectionCenter": [
+            206.18021201413427,
+            127.71378091872792
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6802120141342698,
+            -46.28621908127208
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.012175449377784564,
+            -0.3588078998548223
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 283,
+          "whitePixelsInUpperIris": 513,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.9228533025941204,
+            -41.09847871473279
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10614,
+          "reflectionCenter": [
+            497.2584269662921,
+            115.29213483146067
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -9.74157303370788,
+            -46.70786516853933
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07324491002787879,
+            -0.3925030686431876
+          ],
+          "reflectionBounds": [
+            481,
+            106,
+            32,
+            21
+          ],
+          "reflectionAreaPixels": 445,
+          "whitePixelsInUpperIris": 476,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -11.684700317521276,
+            -41.267781787759176
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 42,
+      "timeSeconds": 2.1884000000059602,
+      "eyeTrackTime": 2.231671566689516,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0042.png",
+      "sha256": "a3233fe20c71f5062a41dbfd46eca93db4c843927600d94b4898a5949d9a2c89",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0042.png",
+      "trackedSha256": "a40d10ed25680e62b66a017d74d3dad1e65299fe8eef92c1ba25db009e1f6f26",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12791,
+          "reflectionCenter": [
+            206.06849315068493,
+            127.5582191780822
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5684931506849296,
+            -45.9417808219178
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011365892396267606,
+            -0.3533983140147523
+          ],
+          "reflectionBounds": [
+            196,
+            119,
+            22,
+            16
+          ],
+          "reflectionAreaPixels": 292,
+          "whitePixelsInUpperIris": 539,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8111344391447801,
+            -41.254040455378515
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10736,
+          "reflectionCenter": [
+            496.61502347417843,
+            115.01173708920187
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.384976525821571,
+            -46.98826291079813
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07808253026933512,
+            -0.3948593521915809
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            30,
+            22
+          ],
+          "reflectionAreaPixels": 426,
+          "whitePixelsInUpperIris": 444,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.328103809634968,
+            -41.548179530017975
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 43,
+      "timeSeconds": 2.2335,
+      "eyeTrackTime": 2.2817715666895184,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0043.png",
+      "sha256": "f1d3ae0d7c01f4113973e48c68eb924641cffdc771cefa0d964b806a0a701fac",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0043.png",
+      "trackedSha256": "5a0cbfcdbbed4f7021a72ddcd7f7c3a68164d9569cd7a72ccfb0bb8aeff7f614",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12807,
+          "reflectionCenter": [
+            206.08802816901408,
+            127.65140845070422
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5880281690140805,
+            -46.348591549295776
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011507450500102033,
+            -0.359291407358882
+          ],
+          "reflectionBounds": [
+            196,
+            120,
+            22,
+            15
+          ],
+          "reflectionAreaPixels": 284,
+          "whitePixelsInUpperIris": 538,
+          "candidateComponentCount": 5,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8306694574739311,
+            -41.16085118275649
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10786,
+          "reflectionCenter": [
+            496.59773371104814,
+            115.10198300283287
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.402266288951864,
+            -46.89801699716713
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07821252848835988,
+            -0.39410098316947173
+          ],
+          "reflectionBounds": [
+            486,
+            105,
+            23,
+            22
+          ],
+          "reflectionAreaPixels": 353,
+          "whitePixelsInUpperIris": 384,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.34539357276526,
+            -41.45793361638698
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 44,
+      "timeSeconds": 2.2700999999940397,
+      "eyeTrackTime": 2.314971566689519,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0044.png",
+      "sha256": "e2be13de034b4963876e753d4230ba8f15ba3d8b55fbe8a1b1c5f280e40b775a",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0044.png",
+      "trackedSha256": "a19987861be6791c1cac0e1069d3be32e43d9ebe0e664b2c811d219899813da5",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12843,
+          "reflectionCenter": [
+            205.4738955823293,
+            127.11646586345381
+          ],
+          "reflectionRelativeToIrisPixels": [
+            0.9738955823293054,
+            -46.88353413654619
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.007057214364705112,
+            -0.3634382491205131
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 249,
+          "whitePixelsInUpperIris": 493,
+          "candidateComponentCount": 5,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.21653687078915596,
+            -41.6957937700069
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10777,
+          "reflectionCenter": [
+            496.5718309859155,
+            115.15492957746478
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.428169014084517,
+            -46.845070422535215
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07840728582018434,
+            -0.39365605397088416
+          ],
+          "reflectionBounds": [
+            486,
+            105,
+            23,
+            22
+          ],
+          "reflectionAreaPixels": 355,
+          "whitePixelsInUpperIris": 386,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.371296297897914,
+            -41.404987041755064
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 45,
+      "timeSeconds": 2.3145999999940394,
+      "eyeTrackTime": 2.365071566689518,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0045.png",
+      "sha256": "e2f24878564eba33acf5b53a124f2a2c679775f7ce7a5da7c007fb5e8679e810",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0045.png",
+      "trackedSha256": "b37abd94cc1b8365bc22b6d07e51769de9edd38014052be5e657b927b7933640",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12836,
+          "reflectionCenter": [
+            206.1743772241993,
+            127.72953736654804
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6743772241993042,
+            -46.270462633451956
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.012133168291299306,
+            -0.35868575684846477
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 281,
+          "whitePixelsInUpperIris": 511,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.9170185126591548,
+            -41.08272226691267
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10652,
+          "reflectionCenter": [
+            497.2324561403509,
+            115.30043859649123
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -9.767543859649095,
+            -46.69956140350877
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07344017939585785,
+            -0.3924332891051157
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            31,
+            22
+          ],
+          "reflectionAreaPixels": 456,
+          "whitePixelsInUpperIris": 487,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -11.710671143462491,
+            -41.259478022728615
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 46,
+      "timeSeconds": 2.356199999988079,
+      "eyeTrackTime": 2.398371566689517,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0046.png",
+      "sha256": "26dc4d45cf83736793065202b780828b74a8981939b8ce179baa1e5c3bb52d47",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0046.png",
+      "trackedSha256": "417ef9867140ee600c40a462d7421131243e490c42875b67ed16b78207015dcf",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12806,
+          "reflectionCenter": [
+            206.14532871972318,
+            127.6401384083045
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6453287197231816,
+            -45.859861591695505
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.01192267188205204,
+            -0.3527681660899654
+          ],
+          "reflectionBounds": [
+            196,
+            120,
+            22,
+            15
+          ],
+          "reflectionAreaPixels": 289,
+          "whitePixelsInUpperIris": 530,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8879700081830322,
+            -41.17212122515622
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10631,
+          "reflectionCenter": [
+            497.5493273542601,
+            115.20403587443946
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -9.450672645739928,
+            -46.795964125560545
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07105768906571375,
+            -0.3932433960131138
+          ],
+          "reflectionBounds": [
+            482,
+            106,
+            31,
+            21
+          ],
+          "reflectionAreaPixels": 446,
+          "whitePixelsInUpperIris": 464,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -11.393799929553325,
+            -41.35588074478039
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 47,
+      "timeSeconds": 2.3969000000059606,
+      "eyeTrackTime": 2.448371566689517,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0047.png",
+      "sha256": "815d0c912fdba66bf81c02b4b0125ad6f7a5ea5f3acd19d2ceda562100b49d3d",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0047.png",
+      "trackedSha256": "84a0549c6da9ecc40139783b019ae0fd6bf726fbd45364702dba56799448b95e",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12790,
+          "reflectionCenter": [
+            206.11340206185565,
+            127.59106529209622
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.613402061855652,
+            -45.90893470790378
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011691319288809073,
+            -0.35314565159925987
+          ],
+          "reflectionBounds": [
+            196,
+            120,
+            22,
+            15
+          ],
+          "reflectionAreaPixels": 291,
+          "whitePixelsInUpperIris": 544,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8560433503155025,
+            -41.221194341364495
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10743,
+          "reflectionCenter": [
+            496.7734939759036,
+            115.02168674698795
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.226506024096409,
+            -46.97831325301205
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07689102273756698,
+            -0.39477574162194995
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            30,
+            22
+          ],
+          "reflectionAreaPixels": 415,
+          "whitePixelsInUpperIris": 434,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.169633307909805,
+            -41.538229872231895
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 48,
+      "timeSeconds": 2.433300000011921,
+      "eyeTrackTime": 2.481671566689516,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0048.png",
+      "sha256": "f1d3ae0d7c01f4113973e48c68eb924641cffdc771cefa0d964b806a0a701fac",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0048.png",
+      "trackedSha256": "a8575e3241f6485eebb5b4608c5de64d1693063c0e8b139f584158e15d1745be",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12807,
+          "reflectionCenter": [
+            206.08802816901408,
+            127.65140845070422
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5880281690140805,
+            -46.348591549295776
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011507450500102033,
+            -0.359291407358882
+          ],
+          "reflectionBounds": [
+            196,
+            120,
+            22,
+            15
+          ],
+          "reflectionAreaPixels": 284,
+          "whitePixelsInUpperIris": 538,
+          "candidateComponentCount": 5,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8306694574739311,
+            -41.16085118275649
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10786,
+          "reflectionCenter": [
+            496.59773371104814,
+            115.10198300283287
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.402266288951864,
+            -46.89801699716713
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07821252848835988,
+            -0.39410098316947173
+          ],
+          "reflectionBounds": [
+            486,
+            105,
+            23,
+            22
+          ],
+          "reflectionAreaPixels": 353,
+          "whitePixelsInUpperIris": 384,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.34539357276526,
+            -41.45793361638698
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 49,
+      "timeSeconds": 2.474199999988079,
+      "eyeTrackTime": 2.515071566689518,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0049.png",
+      "sha256": "e2be13de034b4963876e753d4230ba8f15ba3d8b55fbe8a1b1c5f280e40b775a",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0049.png",
+      "trackedSha256": "9135e917da1e32d28e271f2d8e6797b2d922ff2621e40a9d3e4ff554202fa4f9",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12843,
+          "reflectionCenter": [
+            205.4738955823293,
+            127.11646586345381
+          ],
+          "reflectionRelativeToIrisPixels": [
+            0.9738955823293054,
+            -46.88353413654619
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.007057214364705112,
+            -0.3634382491205131
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 249,
+          "whitePixelsInUpperIris": 493,
+          "candidateComponentCount": 5,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.21653687078915596,
+            -41.6957937700069
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10777,
+          "reflectionCenter": [
+            496.5718309859155,
+            115.15492957746478
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.428169014084517,
+            -46.845070422535215
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07840728582018434,
+            -0.39365605397088416
+          ],
+          "reflectionBounds": [
+            486,
+            105,
+            23,
+            22
+          ],
+          "reflectionAreaPixels": 355,
+          "whitePixelsInUpperIris": 386,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.371296297897914,
+            -41.404987041755064
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 50,
+      "timeSeconds": 2.5155,
+      "eyeTrackTime": 2.5650715666895176,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0050.png",
+      "sha256": "e2f24878564eba33acf5b53a124f2a2c679775f7ce7a5da7c007fb5e8679e810",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0050.png",
+      "trackedSha256": "97a4971e7b3c4850eccabf68fa5a9238d00219e2e303cd3b574e94c9a4cf6fa4",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12836,
+          "reflectionCenter": [
+            206.1743772241993,
+            127.72953736654804
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6743772241993042,
+            -46.270462633451956
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.012133168291299306,
+            -0.35868575684846477
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 281,
+          "whitePixelsInUpperIris": 511,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.9170185126591548,
+            -41.08272226691267
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10652,
+          "reflectionCenter": [
+            497.2324561403509,
+            115.30043859649123
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -9.767543859649095,
+            -46.69956140350877
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07344017939585785,
+            -0.3924332891051157
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            31,
+            22
+          ],
+          "reflectionAreaPixels": 456,
+          "whitePixelsInUpperIris": 487,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -11.710671143462491,
+            -41.259478022728615
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 51,
+      "timeSeconds": 2.5549000000059605,
+      "eyeTrackTime": 2.598371566689517,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0051.png",
+      "sha256": "26dc4d45cf83736793065202b780828b74a8981939b8ce179baa1e5c3bb52d47",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0051.png",
+      "trackedSha256": "cb43dc8bfe8938f54154118cd45f83a94949792165f76c9850e7d5da812b11e0",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12806,
+          "reflectionCenter": [
+            206.14532871972318,
+            127.6401384083045
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6453287197231816,
+            -45.859861591695505
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.01192267188205204,
+            -0.3527681660899654
+          ],
+          "reflectionBounds": [
+            196,
+            120,
+            22,
+            15
+          ],
+          "reflectionAreaPixels": 289,
+          "whitePixelsInUpperIris": 530,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8879700081830322,
+            -41.17212122515622
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10631,
+          "reflectionCenter": [
+            497.5493273542601,
+            115.20403587443946
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -9.450672645739928,
+            -46.795964125560545
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07105768906571375,
+            -0.3932433960131138
+          ],
+          "reflectionBounds": [
+            482,
+            106,
+            31,
+            21
+          ],
+          "reflectionAreaPixels": 446,
+          "whitePixelsInUpperIris": 464,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -11.393799929553325,
+            -41.35588074478039
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 52,
+      "timeSeconds": 2.599699999988079,
+      "eyeTrackTime": 2.6483715666895167,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0052.png",
+      "sha256": "815d0c912fdba66bf81c02b4b0125ad6f7a5ea5f3acd19d2ceda562100b49d3d",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0052.png",
+      "trackedSha256": "5b0a6110ee644e2586a43e944023403f32750150c765939198f917bdca3bdf4c",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12790,
+          "reflectionCenter": [
+            206.11340206185565,
+            127.59106529209622
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.613402061855652,
+            -45.90893470790378
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011691319288809073,
+            -0.35314565159925987
+          ],
+          "reflectionBounds": [
+            196,
+            120,
+            22,
+            15
+          ],
+          "reflectionAreaPixels": 291,
+          "whitePixelsInUpperIris": 544,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8560433503155025,
+            -41.221194341364495
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10743,
+          "reflectionCenter": [
+            496.7734939759036,
+            115.02168674698795
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.226506024096409,
+            -46.97831325301205
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07689102273756698,
+            -0.39477574162194995
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            30,
+            22
+          ],
+          "reflectionAreaPixels": 415,
+          "whitePixelsInUpperIris": 434,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.169633307909805,
+            -41.538229872231895
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 53,
+      "timeSeconds": 2.6430999999940394,
+      "eyeTrackTime": 2.681671566689516,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0053.png",
+      "sha256": "f1d3ae0d7c01f4113973e48c68eb924641cffdc771cefa0d964b806a0a701fac",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0053.png",
+      "trackedSha256": "0a1352cb82af38f36d7b2be0fa1d932bd5bbea5385d0eb47161b2bb3fa1c4c04",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12807,
+          "reflectionCenter": [
+            206.08802816901408,
+            127.65140845070422
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5880281690140805,
+            -46.348591549295776
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011507450500102033,
+            -0.359291407358882
+          ],
+          "reflectionBounds": [
+            196,
+            120,
+            22,
+            15
+          ],
+          "reflectionAreaPixels": 284,
+          "whitePixelsInUpperIris": 538,
+          "candidateComponentCount": 5,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8306694574739311,
+            -41.16085118275649
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10786,
+          "reflectionCenter": [
+            496.59773371104814,
+            115.10198300283287
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.402266288951864,
+            -46.89801699716713
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07821252848835988,
+            -0.39410098316947173
+          ],
+          "reflectionBounds": [
+            486,
+            105,
+            23,
+            22
+          ],
+          "reflectionAreaPixels": 353,
+          "whitePixelsInUpperIris": 384,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.34539357276526,
+            -41.45793361638698
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 54,
+      "timeSeconds": 2.685199999988079,
+      "eyeTrackTime": 2.7316715666895157,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0054.png",
+      "sha256": "9732d3a411995d915e23005383651ae47b033339e9710e0efdd59c307352c945",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0054.png",
+      "trackedSha256": "c8cd6ff3e71fa043e76285edd93343f2b9a762dab5b102038b27d1c04fd6e58f",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12833,
+          "reflectionCenter": [
+            206.10320284697508,
+            127.70106761565836
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6032028469750799,
+            -46.29893238434164
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011617411934602029,
+            -0.35890645259179565
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 281,
+          "whitePixelsInUpperIris": 512,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8458441354349304,
+            -41.11119201780235
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10753,
+          "reflectionCenter": [
+            496.7154471544716,
+            115.15176151761517
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.284552845528424,
+            -46.84823848238483
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07732746500397311,
+            -0.3936826763225616
+          ],
+          "reflectionBounds": [
+            485,
+            105,
+            25,
+            22
+          ],
+          "reflectionAreaPixels": 369,
+          "whitePixelsInUpperIris": 400,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.22768012934182,
+            -41.40815510160468
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 55,
+      "timeSeconds": 2.7261999999880793,
+      "eyeTrackTime": 2.7649715666895185,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0055.png",
+      "sha256": "e2f24878564eba33acf5b53a124f2a2c679775f7ce7a5da7c007fb5e8679e810",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0055.png",
+      "trackedSha256": "6e46599fed0c88c47eea7888bc290444bb7389d76ac5e3e5673a02639c661199",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12836,
+          "reflectionCenter": [
+            206.1743772241993,
+            127.72953736654804
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6743772241993042,
+            -46.270462633451956
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.012133168291299306,
+            -0.35868575684846477
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 281,
+          "whitePixelsInUpperIris": 511,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.9170185126591548,
+            -41.08272226691267
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10652,
+          "reflectionCenter": [
+            497.2324561403509,
+            115.30043859649123
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -9.767543859649095,
+            -46.69956140350877
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07344017939585785,
+            -0.3924332891051157
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            31,
+            22
+          ],
+          "reflectionAreaPixels": 456,
+          "whitePixelsInUpperIris": 487,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -11.710671143462491,
+            -41.259478022728615
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 56,
+      "timeSeconds": 2.7659000000059604,
+      "eyeTrackTime": 2.8149715666895183,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0056.png",
+      "sha256": "a528a1bc71674225af57017701c3ce2aaa4a50f0d81d5a61734dd6576fc8f444",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0056.png",
+      "trackedSha256": "c6f78ada14c545c94ffad78b9e41970efaf9626a9894be4a58b5e4c658571a15",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12798,
+          "reflectionCenter": [
+            206.06849315068493,
+            127.5582191780822
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5684931506849296,
+            -45.9417808219178
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011365892396267606,
+            -0.3533983140147523
+          ],
+          "reflectionBounds": [
+            196,
+            119,
+            22,
+            16
+          ],
+          "reflectionAreaPixels": 292,
+          "whitePixelsInUpperIris": 534,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8111344391447801,
+            -41.254040455378515
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10734,
+          "reflectionCenter": [
+            496.71981776765375,
+            115.02505694760819
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.280182232346249,
+            -46.97494305239181
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07729460325072368,
+            -0.3947474206083345
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            31,
+            22
+          ],
+          "reflectionAreaPixels": 439,
+          "whitePixelsInUpperIris": 457,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.223309516159645,
+            -41.534859671611656
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 57,
+      "timeSeconds": 2.8035,
+      "eyeTrackTime": 2.848371566689516,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0057.png",
+      "sha256": "815d0c912fdba66bf81c02b4b0125ad6f7a5ea5f3acd19d2ceda562100b49d3d",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0057.png",
+      "trackedSha256": "913f16ab2ed570b7e325902c42839c44ab1568264c7c0dc2ca69ba570250a6ef",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12790,
+          "reflectionCenter": [
+            206.11340206185565,
+            127.59106529209622
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.613402061855652,
+            -45.90893470790378
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011691319288809073,
+            -0.35314565159925987
+          ],
+          "reflectionBounds": [
+            196,
+            120,
+            22,
+            15
+          ],
+          "reflectionAreaPixels": 291,
+          "whitePixelsInUpperIris": 544,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8560433503155025,
+            -41.221194341364495
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10743,
+          "reflectionCenter": [
+            496.7734939759036,
+            115.02168674698795
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.226506024096409,
+            -46.97831325301205
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07689102273756698,
+            -0.39477574162194995
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            30,
+            22
+          ],
+          "reflectionAreaPixels": 415,
+          "whitePixelsInUpperIris": 434,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.169633307909805,
+            -41.538229872231895
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 58,
+      "timeSeconds": 2.844,
+      "eyeTrackTime": 2.881671566689515,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0058.png",
+      "sha256": "f1d3ae0d7c01f4113973e48c68eb924641cffdc771cefa0d964b806a0a701fac",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0058.png",
+      "trackedSha256": "b2b5fe1f91c870169067039ef89ce07d701fb2bc3f9aad3f2b69c7eaf903e315",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12807,
+          "reflectionCenter": [
+            206.08802816901408,
+            127.65140845070422
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5880281690140805,
+            -46.348591549295776
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011507450500102033,
+            -0.359291407358882
+          ],
+          "reflectionBounds": [
+            196,
+            120,
+            22,
+            15
+          ],
+          "reflectionAreaPixels": 284,
+          "whitePixelsInUpperIris": 538,
+          "candidateComponentCount": 5,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8306694574739311,
+            -41.16085118275649
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10786,
+          "reflectionCenter": [
+            496.59773371104814,
+            115.10198300283287
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.402266288951864,
+            -46.89801699716713
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07821252848835988,
+            -0.39410098316947173
+          ],
+          "reflectionBounds": [
+            486,
+            105,
+            23,
+            22
+          ],
+          "reflectionAreaPixels": 353,
+          "whitePixelsInUpperIris": 384,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.34539357276526,
+            -41.45793361638698
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 59,
+      "timeSeconds": 2.8845,
+      "eyeTrackTime": 2.9317715666895174,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0059.png",
+      "sha256": "9732d3a411995d915e23005383651ae47b033339e9710e0efdd59c307352c945",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0059.png",
+      "trackedSha256": "cffd05199497598be2a37389d18c9ed1fc55a088c6f3cdda33ae6fd66a1252fb",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12833,
+          "reflectionCenter": [
+            206.10320284697508,
+            127.70106761565836
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6032028469750799,
+            -46.29893238434164
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011617411934602029,
+            -0.35890645259179565
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 281,
+          "whitePixelsInUpperIris": 512,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8458441354349304,
+            -41.11119201780235
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10753,
+          "reflectionCenter": [
+            496.7154471544716,
+            115.15176151761517
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.284552845528424,
+            -46.84823848238483
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07732746500397311,
+            -0.3936826763225616
+          ],
+          "reflectionBounds": [
+            485,
+            105,
+            25,
+            22
+          ],
+          "reflectionAreaPixels": 369,
+          "whitePixelsInUpperIris": 400,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.22768012934182,
+            -41.40815510160468
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 60,
+      "timeSeconds": 2.9254000000059603,
+      "eyeTrackTime": 2.9650715666895167,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0060.png",
+      "sha256": "e2f24878564eba33acf5b53a124f2a2c679775f7ce7a5da7c007fb5e8679e810",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0060.png",
+      "trackedSha256": "d368adae0ca9d6014123f7d503d321fb64b506378bb12de5188a8d05e01dbab6",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12836,
+          "reflectionCenter": [
+            206.1743772241993,
+            127.72953736654804
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6743772241993042,
+            -46.270462633451956
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.012133168291299306,
+            -0.35868575684846477
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 281,
+          "whitePixelsInUpperIris": 511,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.9170185126591548,
+            -41.08272226691267
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10652,
+          "reflectionCenter": [
+            497.2324561403509,
+            115.30043859649123
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -9.767543859649095,
+            -46.69956140350877
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07344017939585785,
+            -0.3924332891051157
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            31,
+            22
+          ],
+          "reflectionAreaPixels": 456,
+          "whitePixelsInUpperIris": 487,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -11.710671143462491,
+            -41.259478022728615
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 61,
+      "timeSeconds": 2.972,
+      "eyeTrackTime": 3.0150715666895165,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0061.png",
+      "sha256": "a528a1bc71674225af57017701c3ce2aaa4a50f0d81d5a61734dd6576fc8f444",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0061.png",
+      "trackedSha256": "43f2ec94b45b186ce6559b56d378f1f986932fc12db27bfa3e0662b1a0646bac",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12798,
+          "reflectionCenter": [
+            206.06849315068493,
+            127.5582191780822
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5684931506849296,
+            -45.9417808219178
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011365892396267606,
+            -0.3533983140147523
+          ],
+          "reflectionBounds": [
+            196,
+            119,
+            22,
+            16
+          ],
+          "reflectionAreaPixels": 292,
+          "whitePixelsInUpperIris": 534,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8111344391447801,
+            -41.254040455378515
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10734,
+          "reflectionCenter": [
+            496.71981776765375,
+            115.02505694760819
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.280182232346249,
+            -46.97494305239181
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07729460325072368,
+            -0.3947474206083345
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            31,
+            22
+          ],
+          "reflectionAreaPixels": 439,
+          "whitePixelsInUpperIris": 457,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.223309516159645,
+            -41.534859671611656
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 62,
+      "timeSeconds": 3.0180999999940394,
+      "eyeTrackTime": 3.0650715666895163,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0062.png",
+      "sha256": "a6407cc8fb58c2a89adf5b879dbd0703074040e82f41403a6f453b63a6b1bd09",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0062.png",
+      "trackedSha256": "9f68d8cad8ac6210c0d7ace8b53ddbaee15df0cb257e476054282f4044936f1c",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12796,
+          "reflectionCenter": [
+            206.06825938566553,
+            127.53583617747441
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5682593856655274,
+            -45.96416382252559
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011364198446851648,
+            -0.35357049094250453
+          ],
+          "reflectionBounds": [
+            196,
+            119,
+            22,
+            16
+          ],
+          "reflectionAreaPixels": 293,
+          "whitePixelsInUpperIris": 547,
+          "candidateComponentCount": 5,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8109006741253779,
+            -41.276423455986304
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10810,
+          "reflectionCenter": [
+            496.6914600550964,
+            115.0495867768595
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.3085399449036,
+            -46.9504132231405
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07750781913461353,
+            -0.394541287589416
+          ],
+          "reflectionBounds": [
+            485,
+            105,
+            25,
+            22
+          ],
+          "reflectionAreaPixels": 363,
+          "whitePixelsInUpperIris": 382,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.251667228716997,
+            -41.51032984236035
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 63,
+      "timeSeconds": 3.0595,
+      "eyeTrackTime": 3.0983715666895155,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0063.png",
+      "sha256": "6866b6d55df08c5dab031c10530edae30cccbd81eb388cd9254eb8bac12610b4",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0063.png",
+      "trackedSha256": "7aacbb6a6b675773ff5b2ab6bcc7861c7ee4198446327e9ac67e971b98367a69",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12802,
+          "reflectionCenter": [
+            206.1443661971831,
+            127.59507042253522
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6443661971831034,
+            -46.404929577464785
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.01191569708103698,
+            -0.3597281362594169
+          ],
+          "reflectionBounds": [
+            196,
+            120,
+            22,
+            15
+          ],
+          "reflectionAreaPixels": 284,
+          "whitePixelsInUpperIris": 530,
+          "candidateComponentCount": 5,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.887007485642954,
+            -41.2171892109255
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10789,
+          "reflectionCenter": [
+            496.5762711864407,
+            115.12429378531073
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.423728813559308,
+            -46.875706214689274
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07837390085382938,
+            -0.3939134976024309
+          ],
+          "reflectionBounds": [
+            486,
+            105,
+            23,
+            22
+          ],
+          "reflectionAreaPixels": 354,
+          "whitePixelsInUpperIris": 385,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.366856097372704,
+            -41.43562283390912
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 64,
+      "timeSeconds": 3.095800000011921,
+      "eyeTrackTime": 3.1483715666895153,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0064.png",
+      "sha256": "821c307ac3d916ef18e39338673e30ea98cce6badc4d21c1d101da23f2eac99d",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0064.png",
+      "trackedSha256": "553fd50db8521acee53e5a09b04d08dabcc01dbc429fe26c9a5404cdebeace97",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12850,
+          "reflectionCenter": [
+            206.3065693430657,
+            127.56934306569343
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.8065693430656893,
+            -46.43065693430657
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.013091082196128184,
+            -0.35992757313415946
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 274,
+          "whitePixelsInUpperIris": 499,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            1.0492106315255398,
+            -41.24291656776728
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10672,
+          "reflectionCenter": [
+            496.77241379310345,
+            115.10574712643678
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.227586206896547,
+            -46.89425287356322
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07689914441275598,
+            -0.39406935187868253
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            30,
+            22
+          ],
+          "reflectionAreaPixels": 435,
+          "whitePixelsInUpperIris": 466,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.170713490709943,
+            -41.454169492783066
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 65,
+      "timeSeconds": 3.1385999999940397,
+      "eyeTrackTime": 3.1816715666895146,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0065.png",
+      "sha256": "8aaf2e8ff58a4927b332832f0d4e6b9ccd76e0bbc32d8bceb65529f421b60766",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0065.png",
+      "trackedSha256": "243e8939ff6705ad1cc48dfb782a36e19af0a99d4c7ef92d1ef74cbdd820c3df",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            110,
+            138,
+            129
+          ],
+          "irisCenter": [
+            204.5,
+            174.0
+          ],
+          "coloredIrisPixels": 12829,
+          "reflectionCenter": [
+            206.18021201413427,
+            127.71378091872792
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.6802120141342698,
+            -46.28621908127208
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.012175449377784564,
+            -0.3588078998548223
+          ],
+          "reflectionBounds": [
+            196,
+            121,
+            22,
+            14
+          ],
+          "reflectionAreaPixels": 283,
+          "whitePixelsInUpperIris": 513,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.9228533025941204,
+            -41.09847871473279
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10614,
+          "reflectionCenter": [
+            497.2584269662921,
+            115.29213483146067
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -9.74157303370788,
+            -46.70786516853933
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07324491002787879,
+            -0.3925030686431876
+          ],
+          "reflectionBounds": [
+            481,
+            106,
+            32,
+            21
+          ],
+          "reflectionAreaPixels": 445,
+          "whitePixelsInUpperIris": 476,
+          "candidateComponentCount": 3,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -11.684700317521276,
+            -41.267781787759176
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 66,
+      "timeSeconds": 3.173699999988079,
+      "eyeTrackTime": 3.215071566689516,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0066.png",
+      "sha256": "a528a1bc71674225af57017701c3ce2aaa4a50f0d81d5a61734dd6576fc8f444",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0066.png",
+      "trackedSha256": "484856121fa470ca86a186d4e77fce0c81cb3bb50f95f1f393ad486a4b437df5",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12798,
+          "reflectionCenter": [
+            206.06849315068493,
+            127.5582191780822
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5684931506849296,
+            -45.9417808219178
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011365892396267606,
+            -0.3533983140147523
+          ],
+          "reflectionBounds": [
+            196,
+            119,
+            22,
+            16
+          ],
+          "reflectionAreaPixels": 292,
+          "whitePixelsInUpperIris": 534,
+          "candidateComponentCount": 4,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8111344391447801,
+            -41.254040455378515
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10734,
+          "reflectionCenter": [
+            496.71981776765375,
+            115.02505694760819
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.280182232346249,
+            -46.97494305239181
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07729460325072368,
+            -0.3947474206083345
+          ],
+          "reflectionBounds": [
+            482,
+            105,
+            31,
+            22
+          ],
+          "reflectionAreaPixels": 439,
+          "whitePixelsInUpperIris": 457,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.223309516159645,
+            -41.534859671611656
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 67,
+      "timeSeconds": 3.2154000000059604,
+      "eyeTrackTime": 3.265071566689516,
+      "path": "test-results/reader-catchlights/playback/abby-avatar/frame-0067.png",
+      "sha256": "a6407cc8fb58c2a89adf5b879dbd0703074040e82f41403a6f453b63a6b1bd09",
+      "trackedFrame": "test-results/reader-catchlights/playback/abby-avatar/tracked-frames/frame-0067.png",
+      "trackedSha256": "ec920f6df117c817e2b33bb4c1df02e2e47260652d9f6ac75763919c1bba104f",
+      "eyes": [
+        {
+          "irisBoundary": [
+            136,
+            109,
+            138,
+            130
+          ],
+          "irisCenter": [
+            204.5,
+            173.5
+          ],
+          "coloredIrisPixels": 12796,
+          "reflectionCenter": [
+            206.06825938566553,
+            127.53583617747441
+          ],
+          "reflectionRelativeToIrisPixels": [
+            1.5682593856655274,
+            -45.96416382252559
+          ],
+          "reflectionRelativeToIrisWidths": [
+            0.011364198446851648,
+            -0.35357049094250453
+          ],
+          "reflectionBounds": [
+            196,
+            119,
+            22,
+            16
+          ],
+          "reflectionAreaPixels": 293,
+          "whitePixelsInUpperIris": 547,
+          "candidateComponentCount": 5,
+          "name": "screen-left",
+          "fixedIrisGuideCenter": [
+            205.25735871154015,
+            168.8122596334607
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            0.8109006741253779,
+            -41.276423455986304
+          ]
+        },
+        {
+          "irisBoundary": [
+            441,
+            103,
+            133,
+            119
+          ],
+          "irisCenter": [
+            507.0,
+            162.0
+          ],
+          "coloredIrisPixels": 10810,
+          "reflectionCenter": [
+            496.6914600550964,
+            115.0495867768595
+          ],
+          "reflectionRelativeToIrisPixels": [
+            -10.3085399449036,
+            -46.9504132231405
+          ],
+          "reflectionRelativeToIrisWidths": [
+            -0.07750781913461353,
+            -0.394541287589416
+          ],
+          "reflectionBounds": [
+            485,
+            105,
+            25,
+            22
+          ],
+          "reflectionAreaPixels": 363,
+          "whitePixelsInUpperIris": 382,
+          "candidateComponentCount": 2,
+          "name": "screen-right",
+          "fixedIrisGuideCenter": [
+            508.9431272838134,
+            156.55991661921985
+          ],
+          "reflectionRelativeToFixedIrisGuidePixels": [
+            -12.251667228716997,
+            -41.51032984236035
+          ]
+        }
+      ]
+    }
+  ]
+}

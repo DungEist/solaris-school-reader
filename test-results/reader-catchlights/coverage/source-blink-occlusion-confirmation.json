@@ -1,0 +1,312 @@
+{
+  "authority": "native-mesh-atlas-and-draw-order-RGB-layer-ablation",
+  "sourceEyesBeforeConfirmationSha256": "3c5278ff92cb2b6f0a2a0f08864635a3779855412fbaf615e132ad7721274737",
+  "method": "Software raster of supplied native world vertices, UV triangles, atlas RGBA, slot colors, straight-alpha GL blend factors and original clipping; ablated attachments become empty slots so native clipping ends remain intact. Pixels are measured before captions.",
+  "thresholds": {
+    "whiteMinimumRgb": 180,
+    "maximumWhiteRgbSpread": 80,
+    "bluePurpleIrisHueDegrees": [
+      160,
+      300
+    ],
+    "minimumIrisChannelSpread": 45,
+    "minimumIrisMaximumChannel": 55,
+    "minimumMeasuredByteContribution": 1,
+    "distinctPatchByteContribution": 5
+  },
+  "scope": "Resolves the two Cartethyia thinking-blink compositions whose conservative alpha probes never reported a fully closed eye; normal open frames are positive controls.",
+  "observations": [
+    {
+      "compositionKey": "cartethyia|dongzuo2_wumao|dongzuo2_sikao_zui|dongzuo2_sikao_zhengyan|dongzuo2_sikao_zhayan",
+      "expressionId": 700016,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -281.6306686401367,
+        2631.7168350219727,
+        245.55350494384766,
+        2942.1532821655273
+      ],
+      "rasterSize": [
+        1500,
+        883
+      ],
+      "eyes": [
+        {
+          "eye": "source-screen-left",
+          "sourceIrisBounds": {
+            "left": -207.71000124505443,
+            "right": -116.15512191384914,
+            "bottom": 2759.768170973647,
+            "top": 2866.9626949459953,
+            "centerX": -161.93256157945177,
+            "centerY": 2813.365432959821,
+            "width": 91.55487933120529,
+            "height": 107.19452397234818
+          },
+          "whiteReflectionPixelsWithAtLeastOneByteContribution": 1363,
+          "whiteReflectionPixelsWithAtLeastFiveByteContribution": 1363,
+          "coloredIrisPixelsWithAtLeastOneByteContribution": 35250,
+          "coloredIrisPixelsWithAtLeastFiveByteContribution": 35014,
+          "maximumReflectionLayerByteContribution": 211,
+          "maximumIrisLayerByteContribution": 255,
+          "reflectionPixelVerdict": "visible-white-catchlight",
+          "irisPixelVerdict": "authored-colored-iris-residual"
+        },
+        {
+          "eye": "source-screen-right",
+          "sourceIrisBounds": {
+            "left": 94.37351536361815,
+            "right": 169.65296363824112,
+            "bottom": 2703.4461352855365,
+            "top": 2802.1103164022247,
+            "centerX": 132.01323950092964,
+            "centerY": 2752.7782258438806,
+            "width": 75.27944827462296,
+            "height": 98.66418111668827
+          },
+          "whiteReflectionPixelsWithAtLeastOneByteContribution": 1407,
+          "whiteReflectionPixelsWithAtLeastFiveByteContribution": 1407,
+          "coloredIrisPixelsWithAtLeastOneByteContribution": 26055,
+          "coloredIrisPixelsWithAtLeastFiveByteContribution": 25976,
+          "maximumReflectionLayerByteContribution": 199,
+          "maximumIrisLayerByteContribution": 253,
+          "reflectionPixelVerdict": "visible-white-catchlight",
+          "irisPixelVerdict": "authored-colored-iris-residual"
+        }
+      ],
+      "sourceImage": {
+        "path": "test-results/reader-catchlights/coverage/source-blink-occlusion-confirmation/cartethyia-700016-open-000-source.png",
+        "sha256": "33136b096e5972ee707c15ac1bf7f79facf82b641b1a1c159a520fe6e11c0770"
+      },
+      "without_reflectionImage": {
+        "path": "test-results/reader-catchlights/coverage/source-blink-occlusion-confirmation/cartethyia-700016-open-000-without-reflection.png",
+        "sha256": "83340fb30314ee5daef13b5e806ba717d603f77ae52c59fbabb45ea2a0f6ebf9"
+      },
+      "without_irisImage": {
+        "path": "test-results/reader-catchlights/coverage/source-blink-occlusion-confirmation/cartethyia-700016-open-000-without-iris.png",
+        "sha256": "76807c70b99e3fcdef1d6ea4318ac4e49819d44bc1aa817b29e29f2fd999ec39"
+      },
+      "irisDifferenceImage": "test-results/reader-catchlights/coverage/source-blink-occlusion-confirmation/cartethyia-700016-open-000-iris-difference-8x.png"
+    },
+    {
+      "compositionKey": "cartethyia|dongzuo2_wumao|dongzuo2_sikao_zui|dongzuo2_sikao_zhengyan|dongzuo2_sikao_zhayan",
+      "expressionId": 700016,
+      "phase": "blink",
+      "time": 0.36666667461395264,
+      "sourceCropBounds": [
+        -281.6306686401367,
+        2631.7168350219727,
+        245.55350494384766,
+        2942.1532821655273
+      ],
+      "rasterSize": [
+        1500,
+        883
+      ],
+      "eyes": [
+        {
+          "eye": "source-screen-left",
+          "sourceIrisBounds": {
+            "left": -207.71000124505443,
+            "right": -116.15512191384914,
+            "bottom": 2759.768170973647,
+            "top": 2866.9626949459953,
+            "centerX": -161.93256157945177,
+            "centerY": 2813.365432959821,
+            "width": 91.55487933120529,
+            "height": 107.19452397234818
+          },
+          "whiteReflectionPixelsWithAtLeastOneByteContribution": 0,
+          "whiteReflectionPixelsWithAtLeastFiveByteContribution": 0,
+          "coloredIrisPixelsWithAtLeastOneByteContribution": 9,
+          "coloredIrisPixelsWithAtLeastFiveByteContribution": 9,
+          "maximumReflectionLayerByteContribution": 1,
+          "maximumIrisLayerByteContribution": 155,
+          "reflectionPixelVerdict": "hidden-white-catchlight",
+          "irisPixelVerdict": "authored-colored-iris-residual"
+        },
+        {
+          "eye": "source-screen-right",
+          "sourceIrisBounds": {
+            "left": 94.37351536361815,
+            "right": 169.65296363824112,
+            "bottom": 2703.4461352855365,
+            "top": 2802.1103164022247,
+            "centerX": 132.01323950092964,
+            "centerY": 2752.7782258438806,
+            "width": 75.27944827462296,
+            "height": 98.66418111668827
+          },
+          "whiteReflectionPixelsWithAtLeastOneByteContribution": 0,
+          "whiteReflectionPixelsWithAtLeastFiveByteContribution": 0,
+          "coloredIrisPixelsWithAtLeastOneByteContribution": 0,
+          "coloredIrisPixelsWithAtLeastFiveByteContribution": 0,
+          "maximumReflectionLayerByteContribution": 16,
+          "maximumIrisLayerByteContribution": 33,
+          "reflectionPixelVerdict": "hidden-white-catchlight",
+          "irisPixelVerdict": "closed-without-colored-iris"
+        }
+      ],
+      "sourceImage": {
+        "path": "test-results/reader-catchlights/coverage/source-blink-occlusion-confirmation/cartethyia-700016-blink-001-source.png",
+        "sha256": "7abeaa437878ae5541e68f0fd097c288db8f6f5f9211d42c403e60cb61817625"
+      },
+      "without_reflectionImage": {
+        "path": "test-results/reader-catchlights/coverage/source-blink-occlusion-confirmation/cartethyia-700016-blink-001-without-reflection.png",
+        "sha256": "115937ca87968a35f64339dd92b7f4a43d97fa535fcad279bf91f9266b571360"
+      },
+      "without_irisImage": {
+        "path": "test-results/reader-catchlights/coverage/source-blink-occlusion-confirmation/cartethyia-700016-blink-001-without-iris.png",
+        "sha256": "0d470b29e4567fb309ba3378abe5ed661acf956c7eec6e37016ee11adb5d4a40"
+      },
+      "irisDifferenceImage": "test-results/reader-catchlights/coverage/source-blink-occlusion-confirmation/cartethyia-700016-blink-001-iris-difference-8x.png"
+    },
+    {
+      "compositionKey": "cartethyia|dongzuo5_maozi|dongzuo2_sikao_zui|dongzuo2_sikao_zhengyan|dongzuo2_sikao_zhayan",
+      "expressionId": 700029,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -281.6306686401367,
+        2631.7168350219727,
+        245.55350494384766,
+        2942.1532821655273
+      ],
+      "rasterSize": [
+        1500,
+        883
+      ],
+      "eyes": [
+        {
+          "eye": "source-screen-left",
+          "sourceIrisBounds": {
+            "left": -207.71000124505443,
+            "right": -116.15512191384914,
+            "bottom": 2759.768170973647,
+            "top": 2866.9626949459953,
+            "centerX": -161.93256157945177,
+            "centerY": 2813.365432959821,
+            "width": 91.55487933120529,
+            "height": 107.19452397234818
+          },
+          "whiteReflectionPixelsWithAtLeastOneByteContribution": 1363,
+          "whiteReflectionPixelsWithAtLeastFiveByteContribution": 1363,
+          "coloredIrisPixelsWithAtLeastOneByteContribution": 35250,
+          "coloredIrisPixelsWithAtLeastFiveByteContribution": 35014,
+          "maximumReflectionLayerByteContribution": 211,
+          "maximumIrisLayerByteContribution": 255,
+          "reflectionPixelVerdict": "visible-white-catchlight",
+          "irisPixelVerdict": "authored-colored-iris-residual"
+        },
+        {
+          "eye": "source-screen-right",
+          "sourceIrisBounds": {
+            "left": 94.37351536361815,
+            "right": 169.65296363824112,
+            "bottom": 2703.4461352855365,
+            "top": 2802.1103164022247,
+            "centerX": 132.01323950092964,
+            "centerY": 2752.7782258438806,
+            "width": 75.27944827462296,
+            "height": 98.66418111668827
+          },
+          "whiteReflectionPixelsWithAtLeastOneByteContribution": 1407,
+          "whiteReflectionPixelsWithAtLeastFiveByteContribution": 1407,
+          "coloredIrisPixelsWithAtLeastOneByteContribution": 26055,
+          "coloredIrisPixelsWithAtLeastFiveByteContribution": 25976,
+          "maximumReflectionLayerByteContribution": 199,
+          "maximumIrisLayerByteContribution": 253,
+          "reflectionPixelVerdict": "visible-white-catchlight",
+          "irisPixelVerdict": "authored-colored-iris-residual"
+        }
+      ],
+      "sourceImage": {
+        "path": "test-results/reader-catchlights/coverage/source-blink-occlusion-confirmation/cartethyia-700029-open-002-source.png",
+        "sha256": "952fb9781252702a65c45dc0726eefc712574df1c6937f3cffc1fbf445a2b9f5"
+      },
+      "without_reflectionImage": {
+        "path": "test-results/reader-catchlights/coverage/source-blink-occlusion-confirmation/cartethyia-700029-open-002-without-reflection.png",
+        "sha256": "040759fda3c7c254a8af3c73425b5d2ecb4f0855d4e65665b09ae8058e954631"
+      },
+      "without_irisImage": {
+        "path": "test-results/reader-catchlights/coverage/source-blink-occlusion-confirmation/cartethyia-700029-open-002-without-iris.png",
+        "sha256": "b6f1172e4c4638a354675998664342c44f8bc3f6476f4e3908a755a01b2e650e"
+      },
+      "irisDifferenceImage": "test-results/reader-catchlights/coverage/source-blink-occlusion-confirmation/cartethyia-700029-open-002-iris-difference-8x.png"
+    },
+    {
+      "compositionKey": "cartethyia|dongzuo5_maozi|dongzuo2_sikao_zui|dongzuo2_sikao_zhengyan|dongzuo2_sikao_zhayan",
+      "expressionId": 700029,
+      "phase": "blink",
+      "time": 0.36666667461395264,
+      "sourceCropBounds": [
+        -281.6306686401367,
+        2631.7168350219727,
+        245.55350494384766,
+        2942.1532821655273
+      ],
+      "rasterSize": [
+        1500,
+        883
+      ],
+      "eyes": [
+        {
+          "eye": "source-screen-left",
+          "sourceIrisBounds": {
+            "left": -207.71000124505443,
+            "right": -116.15512191384914,
+            "bottom": 2759.768170973647,
+            "top": 2866.9626949459953,
+            "centerX": -161.93256157945177,
+            "centerY": 2813.365432959821,
+            "width": 91.55487933120529,
+            "height": 107.19452397234818
+          },
+          "whiteReflectionPixelsWithAtLeastOneByteContribution": 0,
+          "whiteReflectionPixelsWithAtLeastFiveByteContribution": 0,
+          "coloredIrisPixelsWithAtLeastOneByteContribution": 9,
+          "coloredIrisPixelsWithAtLeastFiveByteContribution": 9,
+          "maximumReflectionLayerByteContribution": 1,
+          "maximumIrisLayerByteContribution": 155,
+          "reflectionPixelVerdict": "hidden-white-catchlight",
+          "irisPixelVerdict": "authored-colored-iris-residual"
+        },
+        {
+          "eye": "source-screen-right",
+          "sourceIrisBounds": {
+            "left": 94.37351536361815,
+            "right": 169.65296363824112,
+            "bottom": 2703.4461352855365,
+            "top": 2802.1103164022247,
+            "centerX": 132.01323950092964,
+            "centerY": 2752.7782258438806,
+            "width": 75.27944827462296,
+            "height": 98.66418111668827
+          },
+          "whiteReflectionPixelsWithAtLeastOneByteContribution": 0,
+          "whiteReflectionPixelsWithAtLeastFiveByteContribution": 0,
+          "coloredIrisPixelsWithAtLeastOneByteContribution": 0,
+          "coloredIrisPixelsWithAtLeastFiveByteContribution": 0,
+          "maximumReflectionLayerByteContribution": 16,
+          "maximumIrisLayerByteContribution": 33,
+          "reflectionPixelVerdict": "hidden-white-catchlight",
+          "irisPixelVerdict": "closed-without-colored-iris"
+        }
+      ],
+      "sourceImage": {
+        "path": "test-results/reader-catchlights/coverage/source-blink-occlusion-confirmation/cartethyia-700029-blink-003-source.png",
+        "sha256": "1267fc1d70d41a0926d52c0d82c95dfc1a817455ace2ddd501dc1cfd1ac89ec7"
+      },
+      "without_reflectionImage": {
+        "path": "test-results/reader-catchlights/coverage/source-blink-occlusion-confirmation/cartethyia-700029-blink-003-without-reflection.png",
+        "sha256": "c76e00d28e708fef4c41269f5532492b725b7775f1efd838d7ff7a0e236b517c"
+      },
+      "without_irisImage": {
+        "path": "test-results/reader-catchlights/coverage/source-blink-occlusion-confirmation/cartethyia-700029-blink-003-without-iris.png",
+        "sha256": "07d7bea4eeaa3889af93256123b2590bd9f4acbcdfa6741c1259710876581531"
+      },
+      "irisDifferenceImage": "test-results/reader-catchlights/coverage/source-blink-occlusion-confirmation/cartethyia-700029-blink-003-iris-difference-8x.png"
+    }
+  ]
+}

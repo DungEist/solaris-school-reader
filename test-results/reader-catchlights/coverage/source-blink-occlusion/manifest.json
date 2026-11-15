@@ -1,0 +1,57 @@
+{
+  "authority": "software-rasterized-source-meshes",
+  "entries": [
+    {
+      "file": "test-results/reader-catchlights/coverage/source-blink-occlusion/cartethyia-700016-open-000.png",
+      "slug": "cartethyia",
+      "expressionId": 700016,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -281.6306686401367,
+        2631.7168350219727,
+        245.55350494384766,
+        2942.1532821655273
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-blink-occlusion/cartethyia-700016-blink-001.png",
+      "slug": "cartethyia",
+      "expressionId": 700016,
+      "phase": "blink",
+      "time": 0.36666667461395264,
+      "sourceCropBounds": [
+        -281.6306686401367,
+        2631.7168350219727,
+        245.55350494384766,
+        2942.1532821655273
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-blink-occlusion/cartethyia-700029-open-002.png",
+      "slug": "cartethyia",
+      "expressionId": 700029,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -281.6306686401367,
+        2631.7168350219727,
+        245.55350494384766,
+        2942.1532821655273
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-blink-occlusion/cartethyia-700029-blink-003.png",
+      "slug": "cartethyia",
+      "expressionId": 700029,
+      "phase": "blink",
+      "time": 0.36666667461395264,
+      "sourceCropBounds": [
+        -281.6306686401367,
+        2631.7168350219727,
+        245.55350494384766,
+        2942.1532821655273
+      ]
+    }
+  ]
+}

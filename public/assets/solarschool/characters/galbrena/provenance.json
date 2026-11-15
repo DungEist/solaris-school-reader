@@ -1,0 +1,47 @@
+{
+  "talkerId": 850009,
+  "name": "Galbrena",
+  "skeletonVersion": "4.1.23",
+  "sourceAtlas": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Jiabeilina/SolarSchool_Jiabeilina.SolarSchool_Jiabeilina-atlas",
+  "sourceSkeleton": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Jiabeilina/SolarSchool_Jiabeilina.SolarSchool_Jiabeilina-data",
+  "sourceArchive": "/game/SteamLibrary/steamapps/common/Wuthering Waves/Wuthering Waves Game/Client/Saved/Resources/3.8.0/Resource/3.8.9/pakchunk7-WindowsNoEditor_P.pak",
+  "members": [
+    "../../../Client/Content/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Jiabeilina/SolarSchool_Jiabeilina.uasset",
+    "../../../Client/Content/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Jiabeilina/SolarSchool_Jiabeilina.uexp"
+  ],
+  "archiveIndexHashes": {
+    "primary_index_sha1": "e9da0951ad26e2c191b1f7355532ec5c011b401a",
+    "directory_index_sha1": "e0370921a201efe9dc06d761fc250a98555d2534"
+  },
+  "extractionHelpers": "/tmp/solarschool-changli-inspection-NKHWT5",
+  "helperHashes": {
+    "inspect_changli.py": "f529926159db8012b5d36758cb150fbccdf77a2790246e5bd04856f1f3ac43f5",
+    "extract_changli.py": "e55a20c0d10aa14c7aafa0ae119cbad51b202814933ccee6fdf58fb3e3071ad0",
+    "inspect_spine_package.py": "fbafa1ef6bbbbb14dc3875465f3fed91d704e1ffda9e2f0b4cdaf1b40aa3278e"
+  },
+  "runtime": {
+    "file": "../changli/spine-player.js",
+    "version": "4.1.56",
+    "license": "../changli/SPINE-LICENSE.txt"
+  },
+  "texture": {
+    "file": "SolarSchool_Jiabeilina.webp",
+    "sourceWebp": "WW_Asset_Webp/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Jiabeilina/SolarSchool_Jiabeilina.webp",
+    "origin": "Existing local WW_Asset_Webp bytes, used directly; not a game texture export",
+    "dimensions": [
+      4096,
+      4096
+    ],
+    "sourceSha256": "a694aeaf6ac959853ea170ddd1cb1ad33c706c9e1d75401c2b8ea8b2c67da49a",
+    "atlasPage": "SolarSchool_Jiabeilina.png",
+    "atlasDimensionsVerified": true,
+    "storage": "hardlink to existing cache"
+  },
+  "placement": "Provisional, fixed reference pose; generated SchoolPortraitCatalog.ts",
+  "sha256": {
+    "SolarSchool_Jiabeilina.atlas": "d4b13844cc862f7eb2d1c2c8308b38354c04774bcf5b3a8dc90e71376f8ef683",
+    "SolarSchool_Jiabeilina.skel": "428f91fe30fda949d3ba5583c295f520eba0b4c9638456b6aa0e9402957ff0e4",
+    "SolarSchool_Jiabeilina.webp": "a694aeaf6ac959853ea170ddd1cb1ad33c706c9e1d75401c2b8ea8b2c67da49a",
+    "galbrena.animation-metadata.json": "a1e32fccbca575c8d85aee3782a40e48760bde90e71d9162d7af6d075152f29b"
+  }
+}

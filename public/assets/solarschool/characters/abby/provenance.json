@@ -1,0 +1,28 @@
+{
+  "talkerId": 700005,
+  "skeletonVersion": "4.1.23",
+  "sourceArchive": "/game/SteamLibrary/steamapps/common/Wuthering Waves/Wuthering Waves Game/Client/Content/Paks/pakchunk7-WindowsNoEditor.pak",
+  "extractionHelpers": "Reused /tmp/solarschool-changli-inspection-NKHWT5; only new Chisa/Abby .uasset/.uexp payloads extracted",
+  "runtime": {
+    "file": "../changli/spine-player.js",
+    "version": "4.1.56",
+    "license": "../changli/SPINE-LICENSE.txt"
+  },
+  "texture": {
+    "file": "SolarSchool_Abu.png",
+    "sourceWebp": "WW_Asset_Webp/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Abu/SolarSchool_Abu.webp",
+    "origin": "Losslessly decoded from existing local WebP; not a game texture export",
+    "dimensions": [
+      4096,
+      4096
+    ],
+    "sourceSha256": "79cd64e75d8c189bf30d4e7fe1e213d7a6f88da7fd13cf289fff2283cd558e93"
+  },
+  "placement": "Provisional; src/spine/AbbyCalibration.ts",
+  "sha256": {
+    "Abby.animation-metadata.json": "aaf41aa534ed71acaa3ea38762d21b5df3c73e7173f499a350e5ab84e7da0e6f",
+    "SolarSchool_Abu.skel": "44d625e88a23edad6ce69e6760d7c784ecd46326e4572afc139c38bf08aa8a97",
+    "SolarSchool_Abu.atlas": "ed4be804c36969d54e49207040f83bce132d595b1db97b7c1e380639cd5aa562",
+    "SolarSchool_Abu.png": "d4f2ce52f56ffba7f4188e564dac13393abe88f4864425fc411f1b6aa4a83c08"
+  }
+}

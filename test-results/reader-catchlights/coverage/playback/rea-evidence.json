@@ -1,0 +1,1465 @@
+{
+  "evidence_id": "ev_1ab0faba68109d914c5b612f7b538595bd1f70b5fbe385be35ef2725766445e8",
+  "subject": null,
+  "provider": {
+    "id": "rea-process",
+    "name": "REA process capture",
+    "version": "3"
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.process-capture",
+  "operation": "capture_process_scenario",
+  "parameters": {
+    "executable_name": "node",
+    "argument_count": 1,
+    "event_count": 0,
+    "filesystem_observation_path_count": 0,
+    "normalization": {
+      "paths": false,
+      "pids": true,
+      "ports": true,
+      "time_bucket_ms": 10,
+      "patterns": []
+    }
+  },
+  "raw_result": null,
+  "normalized_result": {
+    "manifest": {
+      "rea_version": "6.8.0",
+      "provider_version": "3",
+      "platform": "linux",
+      "architecture": "x64",
+      "pty_backend": "node-pty",
+      "started_at": "2026-11-15T21:12:16.581Z",
+      "completed_at": "2026-11-15T21:14:55.281Z",
+      "scenario": {
+        "executable": "/usr/bin/node",
+        "arguments": [
+          "/home/deist/Downloads/2ndsol/tools/reader-catchlight-coverage-browser-check.mjs"
+        ],
+        "working_directory": "/home/deist/Downloads/2ndsol",
+        "environment": {},
+        "filesystem_observation_paths": [],
+        "terminal": {
+          "columns": 100,
+          "rows": 20,
+          "scrollback": 160
+        },
+        "events": [],
+        "timeout_ms": 300000,
+        "idle_timeout_ms": 70000,
+        "settle_ms": 100,
+        "limits": {
+          "output_bytes": 120000,
+          "files": 10000,
+          "file_bytes": 10000000,
+          "processes": 60,
+          "filesystem_depth": 16
+        },
+        "normalization": {
+          "paths": false,
+          "pids": true,
+          "ports": true,
+          "time_bucket_ms": 10,
+          "patterns": []
+        },
+        "finalization_ms": 1500,
+        "executable_sha256": "459970888f2cbbf6b46fa65cd3b3cadcf3f482c8ed5a8dfa8c09b143ec59514c"
+      },
+      "comparison_contract": {
+        "working_directory": "/home/deist/Downloads/2ndsol",
+        "environment": {},
+        "ambient_environment": "unknown",
+        "filesystem_observation_paths": [],
+        "terminal": {
+          "columns": 100,
+          "rows": 20,
+          "scrollback": 160
+        },
+        "events": [],
+        "timeout_ms": 300000,
+        "idle_timeout_ms": 70000,
+        "settle_ms": 100,
+        "finalization_ms": 1500,
+        "limits": {
+          "output_bytes": 120000,
+          "files": 10000,
+          "file_bytes": 10000000,
+          "processes": 60,
+          "filesystem_depth": 16
+        },
+        "normalization": {
+          "paths": false,
+          "pids": true,
+          "ports": true,
+          "time_bucket_ms": 10,
+          "patterns": []
+        },
+        "terminal_observation_version": "deferred-rendered-journal-v1",
+        "pid_normalization_version": "sampled-identifiers-v2",
+        "port_normalization_version": "contextual-endpoints-v3",
+        "rendered_line_format": "trailing-spaces-trimmed-v1"
+      },
+      "full_scenario_sha256": "70387399e1c90bd5c61481417031d8a18dd63b80d17cfb4cf3e63ab33566daa1",
+      "comparison_contract_sha256": "531a26d769d7260e30075bf2b493c85ab45e0eb0cec6c0b5e8996a3edb66ab56",
+      "selected_executable_sha256": "459970888f2cbbf6b46fa65cd3b3cadcf3f482c8ed5a8dfa8c09b143ec59514c",
+      "executable_sha256": "459970888f2cbbf6b46fa65cd3b3cadcf3f482c8ed5a8dfa8c09b143ec59514c",
+      "executable_identity": {
+        "state": "path_metadata_unchanged",
+        "reason": null
+      },
+      "normalization_sha256": "5c58aa1aa890197f15f9c59ef755d01120e6e07f356fa1ef2f20787e63b6fa87"
+    },
+    "normalization": {
+      "paths": false,
+      "pids": true,
+      "ports": true,
+      "time_bucket_ms": 10,
+      "patterns": []
+    },
+    "frames": [
+      {
+        "sequence": 0,
+        "at_ms": 4290,
+        "data": "{\"progress\":\"Reader route\",\"case\":\"buling-pose-change\",\"script\":\"1011\",\"nid\":29}\r\n"
+      },
+      {
+        "sequence": 1,
+        "at_ms": 23550,
+        "data": "{\"progress\":\"Recorded\",\"case\":\"buling-pose-change\",\"passed\":true,\"frames\":77,\"durationSeconds\":2.4212999999821188,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.090699999988079,\"nid\":30,\"fromExpression\":700082,\"toExpression\":700074,\"trackNamesBefore\":[\"dongzuo2_jushouzhan\",\"dongzuo1_zhoumei_zui\",\"dongzuo1_zhoumei_zhayan\"],\"trackNamesAfter\":[\"dongzuo1_changtaizhan\",\"dongzuo1_zhangzuixiao_zui\",\"dongzuo1_zhengchang_zhengyan\"],\"changedAttachments\":[{\"slot\":\"hand_正常\",\"before\":null,\"after\":\"hand_正常\"},{\"slot\":\"KB口鼻\",\"before\":\"KB_思考\",\"after\":\"KB_正常\"},{\"slot\":\"hand_指手\",\"before\":\"hand_指手\",\"after\":null}]}],\"phaseSummaries\":[{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhengyan\",\"loop\":true,\"frames\":23,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.8205,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0},{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhayan\",\"loop\":false,\"frames\":8,\"firstTimeSeconds\":0.8524000000059605,\"lastTimeSeconds\":1.0572999999821187,\"irisVertexMotionPixels\":10.170493674393867,\"separateReflectionVertexMotionPixels\":10.502756049178117},{\"expression\":700074,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":46,\"firstTimeSeconds\":1.090699999988079,\"lastTimeSeconds\":2.4212999999821188,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":4.069733943166966}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhoumei_zhengyan\",\"dongzuo1_zhoumei_zhayan\",\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":77,\"durationSeconds\":2.422}}\r\n"
+      },
+      {
+        "sequence": 2,
+        "at_ms": 23550,
+        "data": "{\"progress\":\"Reader route\",\"case\":\"ciaccona-wink\",\"script\":\"12003\",\"nid\":9}\r\n"
+      },
+      {
+        "sequence": 3,
+        "at_ms": 43280,
+        "data": "{\"progress\":\"Recorded\",\"case\":\"ciaccona-wink\",\"passed\":true,\"frames\":93,\"durationSeconds\":2.4189000000059604,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.0548000000119209,\"nid\":10,\"fromExpression\":700061,\"toExpression\":700064,\"trackNamesBefore\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_weixiao_zui\",\"dongzuo1_zhengchang_zhengtyan\"],\"trackNamesAfter\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_wink_zui\",\"dongzuo1_wink\"],\"changedAttachments\":[{\"slot\":\"A_眼皮线\",\"before\":\"A_眼皮线\",\"after\":null},{\"slot\":\"bone2\",\"before\":\"bone2\",\"after\":null},{\"slot\":\"A_眼白\",\"before\":\"A_眼白\",\"after\":null},{\"slot\":\"A_眼珠\",\"before\":\"A_眼珠\",\"after\":null},{\"slot\":\"A_高亮\",\"before\":\"A_高亮\",\"after\":null},{\"slot\":\"A_眼睑\",\"before\":\"A_眼睑\",\"after\":null},{\"slot\":\"A_睫毛\",\"before\":\"A_睫毛\",\"after\":null},{\"slot\":\"A_睫毛尖尖_06\",\"before\":\"A_睫毛尖尖_06\",\"after\":null},{\"slot\":\"A_睫毛尖尖_05\",\"before\":\"A_睫毛尖尖_05\",\"after\":null},{\"slot\":\"A_睫毛尖尖_04\",\"before\":\"A_睫毛尖尖_04\",\"after\":null},{\"slot\":\"A_睫毛尖尖_03\",\"before\":\"A_睫毛尖尖_03\",\"after\":null},{\"slot\":\"A_睫毛尖尖_02\",\"before\":\"A_睫毛尖尖_02\",\"after\":null},{\"slot\":\"A_睫毛尖尖_01\",\"before\":\"A_睫毛尖尖_01\",\"after\":null},{\"slot\":\"B_眉毛\",\"before\":\"B_眉毛\",\"after\":null},{\"slot\":\"口鼻\",\"before\":\"KB_浅微笑\",\"after\":\"KB_wink\"},{\"slot\":\"参考\",\"before\":null,\"after\":\"CK_wink_001_\"}]}],\"phaseSummaries\":[{\"expression\":700061,\"eyeClip\":\"dongzuo1_zhengchang_zhengtyan\",\"loop\":true,\"frames\":35,\"firstTimeSeconds\":0,\"lastTimeSeconds\":1.036300000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.292325920454857},{\"expression\":700064,\"eyeClip\":\"dongzuo1_wink\",\"loop\":true,\"frames\":58,\"firstTimeSeconds\":1.0548000000119209,\"lastTimeSeconds\":2.4189000000059604,\"irisVertexMotionPixels\":null,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengtyan\",\"dongzuo1_wink\"],\"encoding\":{\"frames\":93,\"durationSeconds\":2.42}}\r\n"
+      },
+      {
+        "sequence": 4,
+        "at_ms": 43280,
+        "data": "{\"progress\":\"Reader route\",\"case\":\"abby-avatar-pose-change\",\"script\":\"1034\",\"nid\":56}\r\n"
+      },
+      {
+        "sequence": 5,
+        "at_ms": 70420,
+        "data": "{\"progress\":\"Recorded\",\"case\":\"abby-avatar-pose-change\",\"passed\":true,\"frames\":46,\"durationSeconds\":2.4142000000178814,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.277,\"nid\":57,\"fromExpression\":700212,\"toExpression\":700222,\"trackNamesBefore\":[\"dongzuo1_zhengchangzhan\",\"dongzuo1_zhengchang_bizui\",\"dongzuo1_zhengchang_zhayan\"],\"trackNamesAfter\":[\"dongzuo3_taitouzhan\",\"dongzuo3_taitouzhan_zui\",\"dongzuo3_taitouzhan_zhengyan\"],\"changedAttachments\":[{\"slot\":\"TB头部\",\"before\":\"TB_正常头部\",\"after\":\"TB_抬头(需身体变形\"},{\"slot\":\"01_花纹\",\"before\":\"01_花纹\",\"after\":null},{\"slot\":\"01_A_眼白\",\"before\":\"01_A_眼白\",\"after\":null},{\"slot\":\"01_A_眼珠\",\"before\":\"01_A_眼珠\",\"after\":null},{\"slot\":\"01_A_高光\",\"before\":\"01_A_高光\",\"after\":null},{\"slot\":\"01_A_眼皮\",\"before\":\"01_A_眼皮\",\"after\":null},{\"slot\":\"01_腮红眼影\",\"before\":\"01_腮红眼影\",\"after\":null},{\"slot\":\"01_A_眼皮线\",\"before\":\"01_A_眼皮线\",\"after\":null},{\"slot\":\"01_A_睫毛\",\"before\":\"01_A_睫毛\",\"after\":null},{\"slot\":\"01_鼻子\",\"before\":\"01_鼻子\",\"after\":null},{\"slot\":\"01_眉毛_正常\",\"before\":\"01_眉毛_正常\",\"after\":null},{\"slot\":\"3_抬头_眼白眼影\",\"before\":null,\"after\":\"3_抬头_眼白眼影\"},{\"slot\":\"3_抬头_眼珠\",\"before\":null,\"after\":\"3_抬头_眼珠\"},{\"slot\":\"3_抬头_眼皮\",\"before\":null,\"after\":\"3_抬头_眼皮\"},{\"slot\":\"3_抬头_花纹\",\"before\":null,\"after\":\"3_抬头_花纹\"},{\"slot\":\"3_抬头_睫毛\",\"before\":null,\"after\":\"3_抬头_睫毛\"},{\"slot\":\"zui嘴\",\"before\":\"zui_闭嘴嘴\",\"after\":\"zui_抬头_开心\"}]}],\"phaseSummaries\":[{\"expression\":700212,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":18,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.9274000000059605,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":2.2636407133131797},{\"expression\":700212,\"eyeClip\":\"dongzuo1_zhengchang_zhayan\",\"loop\":false,\"frames\":6,\"firstTimeSeconds\":0.9779000000059604,\"lastTimeSeconds\":1.2257000000178815,\"irisVertexMotionPixels\":19.202237064084017,\"separateReflectionVertexMotionPixels\":27.137112615839897},{\"expression\":700222,\"eyeClip\":\"dongzuo3_taitouzhan_zhengyan\",\"loop\":true,\"frames\":22,\"firstTimeSeconds\":1.277,\"lastTimeSeconds\":2.4142000000178814,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\",\"dongzuo1_zhengchang_zhayan\",\"dongzuo3_taitouzhan_zhengyan\"],\"encoding\":{\"frames\":46,\"durationSeconds\":2.415}}\r\n{\"progress\":\"Reader route\",\"case\":\"rover-male-avatar\",\"script\":\"1001\",\"nid\":2}\r\n"
+      },
+      {
+        "sequence": 6,
+        "at_ms": 83890,
+        "data": "{\"progress\":\"Recorded\",\"case\":\"rover-male-avatar\",\"passed\":true,\"frames\":61,\"durationSeconds\":2.005,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\":0,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700131,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.005,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.006}}\r\n"
+      },
+      {
+        "sequence": 7,
+        "at_ms": 83890,
+        "data": "{\"progress\":\"Reader route\",\"case\":\"rover-female-avatar\",\"script\":\"1001\",\"nid\":2}\r\n"
+      },
+      {
+        "sequence": 8,
+        "at_ms": 96110,
+        "data": "{\"progress\":\"Recorded\",\"case\":\"rover-female-avatar\",\"passed\":true,\"frames\":61,\"durationSeconds\":2.027300000011921,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\":3.4226745661028986,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700056,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.027300000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.4226745661028986}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.028}}\r\n"
+      },
+      {
+        "sequence": 9,
+        "at_ms": 96120,
+        "data": "{\"progress\":\"Reader route\",\"case\":\"rover-male-stage\",\"script\":\"1051\",\"nid\":35}\r\n"
+      },
+      {
+        "sequence": 10,
+        "at_ms": 118210,
+        "data": "{\"progress\":\"Recorded\",\"case\":\"rover-male-stage\",\"passed\":true,\"frames\":83,\"durationSeconds\":2.0175,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\":0,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700127,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":83,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.0175,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":83,\"durationSeconds\":2.019}}\r\n"
+      },
+      {
+        "sequence": 11,
+        "at_ms": 118210,
+        "data": "{\"progress\":\"Reader route\",\"case\":\"rover-female-stage\",\"script\":\"1051\",\"nid\":35}\r\n"
+      },
+      {
+        "sequence": 12,
+        "at_ms": 142550,
+        "data": "{\"progress\":\"Recorded\",\"case\":\"rover-female-stage\",\"passed\":true,\"frames\":86,\"durationSeconds\":2.0135999999940397,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\":3.326266453075789,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700127,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":86,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.0135999999940397,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.326266453075789}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":86,\"durationSeconds\":2.015}}\r\n"
+      },
+      {
+        "sequence": 13,
+        "at_ms": 142550,
+        "data": "{\"progress\":\"Reader route\",\"case\":\"ciaccona-natural-blink\",\"script\":\"12003\",\"nid\":6}\r\n"
+      },
+      {
+        "sequence": 14,
+        "at_ms": 158300,
+        "data": "{\"progress\":\"Recorded\",\"case\":\"ciaccona-natural-blink\",\"passed\":true,\"frames\":76,\"durationSeconds\":2.001800000011921,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":24.016992034293423},\"reflectionVertexMotionPixels\":22.12757651755365,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700063,\"eyeClip\":\"dongzuo1_luomo_zhayan\",\"loop\":false,\"frames\":17,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.45730000001192095,\"irisVertexMotionPixels\":24.016992034293423,\"separateReflectionVertexMotionPixels\":22.12757651755365},{\"expression\":700063,\"eyeClip\":\"dongzuo1_luomo_zhengyan\",\"loop\":true,\"frames\":59,\"firstTimeSeconds\":0.47990000000596045,\"lastTimeSeconds\":2.001800000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":5.969124140547052}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_luomo_zhayan\",\"dongzuo1_luomo_zhengyan\"],\"encoding\":{\"frames\":76,\"durationSeconds\":2.003}}\r\n"
+      },
+      {
+        "sequence": 15,
+        "at_ms": 158390,
+        "data": "{\"passed\":true,\"recordings\":8,\"report\":\"/home/deist/Downloads/2ndsol/test-results/reader-catchlights/coverage/playback/production-browser-result.json\"}\r\n"
+      }
+    ],
+    "rendered_frames": [
+      {
+        "sequence": 0,
+        "at_ms": 4290,
+        "columns": 100,
+        "rows": 20,
+        "cursor_x": 0,
+        "cursor_y": 1,
+        "active_buffer": "normal",
+        "lines": [
+          "{\"progress\":\"Reader route\",\"case\":\"buling-pose-change\",\"script\":\"1011\",\"nid\":29}",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "serialized_state": "{\"progress\":\"Reader route\",\"case\":\"buling-pose-change\",\"script\":\"1011\",\"nid\":29}\u001b[1B\u001b[80D"
+      },
+      {
+        "sequence": 1,
+        "at_ms": 23550,
+        "columns": 100,
+        "rows": 20,
+        "cursor_x": 0,
+        "cursor_y": 18,
+        "active_buffer": "normal",
+        "lines": [
+          "{\"progress\":\"Reader route\",\"case\":\"buling-pose-change\",\"script\":\"1011\",\"nid\":29}",
+          "{\"progress\":\"Recorded\",\"case\":\"buling-pose-change\",\"passed\":true,\"frames\":77,\"durationSeconds\":2.421",
+          "2999999821188,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVe",
+          "rtexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.090699999988079,\"nid\":30,\"fromExpressio",
+          "n\":700082,\"toExpression\":700074,\"trackNamesBefore\":[\"dongzuo2_jushouzhan\",\"dongzuo1_zhoumei_zui\",\"do",
+          "ngzuo1_zhoumei_zhayan\"],\"trackNamesAfter\":[\"dongzuo1_changtaizhan\",\"dongzuo1_zhangzuixiao_zui\",\"dong",
+          "zuo1_zhengchang_zhengyan\"],\"changedAttachments\":[{\"slot\":\"hand_正常\",\"before\":null,\"after\":\"hand_正",
+          "常\"},{\"slot\":\"KB口鼻\",\"before\":\"KB_思考\",\"after\":\"KB_正常\"},{\"slot\":\"hand_指手\",\"before\":\"hand_指手\"",
+          ",\"after\":null}]}],\"phaseSummaries\":[{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhengyan\",\"loop",
+          "\":true,\"frames\":23,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.8205,\"irisVertexMotionPixels\":0,\"separat",
+          "eReflectionVertexMotionPixels\":0},{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhayan\",\"loop\":fa",
+          "lse,\"frames\":8,\"firstTimeSeconds\":0.8524000000059605,\"lastTimeSeconds\":1.0572999999821187,\"irisVerte",
+          "xMotionPixels\":10.170493674393867,\"separateReflectionVertexMotionPixels\":10.502756049178117},{\"expre",
+          "ssion\":700074,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":46,\"firstTimeSeconds\":1.",
+          "090699999988079,\"lastTimeSeconds\":2.4212999999821188,\"irisVertexMotionPixels\":0,\"separateReflectionV",
+          "ertexMotionPixels\":4.069733943166966}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEy",
+          "eClips\":[\"dongzuo1_zhoumei_zhengyan\",\"dongzuo1_zhoumei_zhayan\",\"dongzuo1_zhengchang_zhengyan\"],\"enco",
+          "ding\":{\"frames\":77,\"durationSeconds\":2.422}}",
+          "",
+          ""
+        ],
+        "serialized_state": "{\"progress\":\"Reader route\",\"case\":\"buling-pose-change\",\"script\":\"1011\",\"nid\":29}\r\n{\"progress\":\"Recorded\",\"case\":\"buling-pose-change\",\"passed\":true,\"frames\":77,\"durationSeconds\":2.4212999999821188,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.090699999988079,\"nid\":30,\"fromExpression\":700082,\"toExpression\":700074,\"trackNamesBefore\":[\"dongzuo2_jushouzhan\",\"dongzuo1_zhoumei_zui\",\"dongzuo1_zhoumei_zhayan\"],\"trackNamesAfter\":[\"dongzuo1_changtaizhan\",\"dongzuo1_zhangzuixiao_zui\",\"dongzuo1_zhengchang_zhengyan\"],\"changedAttachments\":[{\"slot\":\"hand_正常\",\"before\":null,\"after\":\"hand_正常\"},{\"slot\":\"KB口鼻\",\"before\":\"KB_思考\",\"after\":\"KB_正常\"},{\"slot\":\"hand_指手\",\"before\":\"hand_指手\",\"after\":null}]}],\"phaseSummaries\":[{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhengyan\",\"loop\":true,\"frames\":23,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.8205,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0},{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhayan\",\"loop\":false,\"frames\":8,\"firstTimeSeconds\":0.8524000000059605,\"lastTimeSeconds\":1.0572999999821187,\"irisVertexMotionPixels\":10.170493674393867,\"separateReflectionVertexMotionPixels\":10.502756049178117},{\"expression\":700074,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":46,\"firstTimeSeconds\":1.090699999988079,\"lastTimeSeconds\":2.4212999999821188,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":4.069733943166966}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhoumei_zhengyan\",\"dongzuo1_zhoumei_zhayan\",\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":77,\"durationSeconds\":2.422}}\u001b[1B\u001b[44D"
+      },
+      {
+        "sequence": 2,
+        "at_ms": 23550,
+        "columns": 100,
+        "rows": 20,
+        "cursor_x": 0,
+        "cursor_y": 19,
+        "active_buffer": "normal",
+        "lines": [
+          "{\"progress\":\"Reader route\",\"case\":\"buling-pose-change\",\"script\":\"1011\",\"nid\":29}",
+          "{\"progress\":\"Recorded\",\"case\":\"buling-pose-change\",\"passed\":true,\"frames\":77,\"durationSeconds\":2.421",
+          "2999999821188,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVe",
+          "rtexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.090699999988079,\"nid\":30,\"fromExpressio",
+          "n\":700082,\"toExpression\":700074,\"trackNamesBefore\":[\"dongzuo2_jushouzhan\",\"dongzuo1_zhoumei_zui\",\"do",
+          "ngzuo1_zhoumei_zhayan\"],\"trackNamesAfter\":[\"dongzuo1_changtaizhan\",\"dongzuo1_zhangzuixiao_zui\",\"dong",
+          "zuo1_zhengchang_zhengyan\"],\"changedAttachments\":[{\"slot\":\"hand_正常\",\"before\":null,\"after\":\"hand_正",
+          "常\"},{\"slot\":\"KB口鼻\",\"before\":\"KB_思考\",\"after\":\"KB_正常\"},{\"slot\":\"hand_指手\",\"before\":\"hand_指手\"",
+          ",\"after\":null}]}],\"phaseSummaries\":[{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhengyan\",\"loop",
+          "\":true,\"frames\":23,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.8205,\"irisVertexMotionPixels\":0,\"separat",
+          "eReflectionVertexMotionPixels\":0},{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhayan\",\"loop\":fa",
+          "lse,\"frames\":8,\"firstTimeSeconds\":0.8524000000059605,\"lastTimeSeconds\":1.0572999999821187,\"irisVerte",
+          "xMotionPixels\":10.170493674393867,\"separateReflectionVertexMotionPixels\":10.502756049178117},{\"expre",
+          "ssion\":700074,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":46,\"firstTimeSeconds\":1.",
+          "090699999988079,\"lastTimeSeconds\":2.4212999999821188,\"irisVertexMotionPixels\":0,\"separateReflectionV",
+          "ertexMotionPixels\":4.069733943166966}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEy",
+          "eClips\":[\"dongzuo1_zhoumei_zhengyan\",\"dongzuo1_zhoumei_zhayan\",\"dongzuo1_zhengchang_zhengyan\"],\"enco",
+          "ding\":{\"frames\":77,\"durationSeconds\":2.422}}",
+          "{\"progress\":\"Reader route\",\"case\":\"ciaccona-wink\",\"script\":\"12003\",\"nid\":9}",
+          ""
+        ],
+        "serialized_state": "{\"progress\":\"Reader route\",\"case\":\"buling-pose-change\",\"script\":\"1011\",\"nid\":29}\r\n{\"progress\":\"Recorded\",\"case\":\"buling-pose-change\",\"passed\":true,\"frames\":77,\"durationSeconds\":2.4212999999821188,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.090699999988079,\"nid\":30,\"fromExpression\":700082,\"toExpression\":700074,\"trackNamesBefore\":[\"dongzuo2_jushouzhan\",\"dongzuo1_zhoumei_zui\",\"dongzuo1_zhoumei_zhayan\"],\"trackNamesAfter\":[\"dongzuo1_changtaizhan\",\"dongzuo1_zhangzuixiao_zui\",\"dongzuo1_zhengchang_zhengyan\"],\"changedAttachments\":[{\"slot\":\"hand_正常\",\"before\":null,\"after\":\"hand_正常\"},{\"slot\":\"KB口鼻\",\"before\":\"KB_思考\",\"after\":\"KB_正常\"},{\"slot\":\"hand_指手\",\"before\":\"hand_指手\",\"after\":null}]}],\"phaseSummaries\":[{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhengyan\",\"loop\":true,\"frames\":23,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.8205,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0},{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhayan\",\"loop\":false,\"frames\":8,\"firstTimeSeconds\":0.8524000000059605,\"lastTimeSeconds\":1.0572999999821187,\"irisVertexMotionPixels\":10.170493674393867,\"separateReflectionVertexMotionPixels\":10.502756049178117},{\"expression\":700074,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":46,\"firstTimeSeconds\":1.090699999988079,\"lastTimeSeconds\":2.4212999999821188,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":4.069733943166966}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhoumei_zhengyan\",\"dongzuo1_zhoumei_zhayan\",\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":77,\"durationSeconds\":2.422}}\r\n{\"progress\":\"Reader route\",\"case\":\"ciaccona-wink\",\"script\":\"12003\",\"nid\":9}\u001b[1B\u001b[75D"
+      },
+      {
+        "sequence": 3,
+        "at_ms": 43280,
+        "columns": 100,
+        "rows": 20,
+        "cursor_x": 0,
+        "cursor_y": 19,
+        "active_buffer": "normal",
+        "lines": [
+          "otionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.0548000000119209,\"nid\":10,\"fromExpression\":7",
+          "00061,\"toExpression\":700064,\"trackNamesBefore\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_weixiao_",
+          "zui\",\"dongzuo1_zhengchang_zhengtyan\"],\"trackNamesAfter\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1",
+          "_wink_zui\",\"dongzuo1_wink\"],\"changedAttachments\":[{\"slot\":\"A_眼皮线\",\"before\":\"A_眼皮线\",\"after\":nul",
+          "l},{\"slot\":\"bone2\",\"before\":\"bone2\",\"after\":null},{\"slot\":\"A_眼白\",\"before\":\"A_眼白\",\"after\":null},{",
+          "\"slot\":\"A_眼珠\",\"before\":\"A_眼珠\",\"after\":null},{\"slot\":\"A_高亮\",\"before\":\"A_高亮\",\"after\":null},{\"s",
+          "lot\":\"A_眼睑\",\"before\":\"A_眼睑\",\"after\":null},{\"slot\":\"A_睫毛\",\"before\":\"A_睫毛\",\"after\":null},{\"slo",
+          "t\":\"A_睫毛尖尖_06\",\"before\":\"A_睫毛尖尖_06\",\"after\":null},{\"slot\":\"A_睫毛尖尖_05\",\"before\":\"A_睫毛尖",
+          "尖_05\",\"after\":null},{\"slot\":\"A_睫毛尖尖_04\",\"before\":\"A_睫毛尖尖_04\",\"after\":null},{\"slot\":\"A_睫毛",
+          "尖尖_03\",\"before\":\"A_睫毛尖尖_03\",\"after\":null},{\"slot\":\"A_睫毛尖尖_02\",\"before\":\"A_睫毛尖尖_02\",\"af",
+          "ter\":null},{\"slot\":\"A_睫毛尖尖_01\",\"before\":\"A_睫毛尖尖_01\",\"after\":null},{\"slot\":\"B_眉毛\",\"before\":",
+          "\"B_眉毛\",\"after\":null},{\"slot\":\"口鼻\",\"before\":\"KB_浅微笑\",\"after\":\"KB_wink\"},{\"slot\":\"参考\",\"before",
+          "\":null,\"after\":\"CK_wink_001_\"}]}],\"phaseSummaries\":[{\"expression\":700061,\"eyeClip\":\"dongzuo1_zhengch",
+          "ang_zhengtyan\",\"loop\":true,\"frames\":35,\"firstTimeSeconds\":0,\"lastTimeSeconds\":1.036300000011921,\"iri",
+          "sVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.292325920454857},{\"expression\":70006",
+          "4,\"eyeClip\":\"dongzuo1_wink\",\"loop\":true,\"frames\":58,\"firstTimeSeconds\":1.0548000000119209,\"lastTimeS",
+          "econds\":2.4189000000059604,\"irisVertexMotionPixels\":null,\"separateReflectionVertexMotionPixels\":null",
+          "}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengt",
+          "yan\",\"dongzuo1_wink\"],\"encoding\":{\"frames\":93,\"durationSeconds\":2.42}}",
+          ""
+        ],
+        "serialized_state": "{\"progress\":\"Reader route\",\"case\":\"buling-pose-change\",\"script\":\"1011\",\"nid\":29}\r\n{\"progress\":\"Recorded\",\"case\":\"buling-pose-change\",\"passed\":true,\"frames\":77,\"durationSeconds\":2.4212999999821188,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.090699999988079,\"nid\":30,\"fromExpression\":700082,\"toExpression\":700074,\"trackNamesBefore\":[\"dongzuo2_jushouzhan\",\"dongzuo1_zhoumei_zui\",\"dongzuo1_zhoumei_zhayan\"],\"trackNamesAfter\":[\"dongzuo1_changtaizhan\",\"dongzuo1_zhangzuixiao_zui\",\"dongzuo1_zhengchang_zhengyan\"],\"changedAttachments\":[{\"slot\":\"hand_正常\",\"before\":null,\"after\":\"hand_正常\"},{\"slot\":\"KB口鼻\",\"before\":\"KB_思考\",\"after\":\"KB_正常\"},{\"slot\":\"hand_指手\",\"before\":\"hand_指手\",\"after\":null}]}],\"phaseSummaries\":[{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhengyan\",\"loop\":true,\"frames\":23,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.8205,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0},{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhayan\",\"loop\":false,\"frames\":8,\"firstTimeSeconds\":0.8524000000059605,\"lastTimeSeconds\":1.0572999999821187,\"irisVertexMotionPixels\":10.170493674393867,\"separateReflectionVertexMotionPixels\":10.502756049178117},{\"expression\":700074,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":46,\"firstTimeSeconds\":1.090699999988079,\"lastTimeSeconds\":2.4212999999821188,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":4.069733943166966}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhoumei_zhengyan\",\"dongzuo1_zhoumei_zhayan\",\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":77,\"durationSeconds\":2.422}}\r\n{\"progress\":\"Reader route\",\"case\":\"ciaccona-wink\",\"script\":\"12003\",\"nid\":9}\r\n{\"progress\":\"Recorded\",\"case\":\"ciaccona-wink\",\"passed\":true,\"frames\":93,\"durationSeconds\":2.4189000000059604,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.0548000000119209,\"nid\":10,\"fromExpression\":700061,\"toExpression\":700064,\"trackNamesBefore\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_weixiao_zui\",\"dongzuo1_zhengchang_zhengtyan\"],\"trackNamesAfter\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_wink_zui\",\"dongzuo1_wink\"],\"changedAttachments\":[{\"slot\":\"A_眼皮线\",\"before\":\"A_眼皮线\",\"after\":null},{\"slot\":\"bone2\",\"before\":\"bone2\",\"after\":null},{\"slot\":\"A_眼白\",\"before\":\"A_眼白\",\"after\":null},{\"slot\":\"A_眼珠\",\"before\":\"A_眼珠\",\"after\":null},{\"slot\":\"A_高亮\",\"before\":\"A_高亮\",\"after\":null},{\"slot\":\"A_眼睑\",\"before\":\"A_眼睑\",\"after\":null},{\"slot\":\"A_睫毛\",\"before\":\"A_睫毛\",\"after\":null},{\"slot\":\"A_睫毛尖尖_06\",\"before\":\"A_睫毛尖尖_06\",\"after\":null},{\"slot\":\"A_睫毛尖尖_05\",\"before\":\"A_睫毛尖尖_05\",\"after\":null},{\"slot\":\"A_睫毛尖尖_04\",\"before\":\"A_睫毛尖尖_04\",\"after\":null},{\"slot\":\"A_睫毛尖尖_03\",\"before\":\"A_睫毛尖尖_03\",\"after\":null},{\"slot\":\"A_睫毛尖尖_02\",\"before\":\"A_睫毛尖尖_02\",\"after\":null},{\"slot\":\"A_睫毛尖尖_01\",\"before\":\"A_睫毛尖尖_01\",\"after\":null},{\"slot\":\"B_眉毛\",\"before\":\"B_眉毛\",\"after\":null},{\"slot\":\"口鼻\",\"before\":\"KB_浅微笑\",\"after\":\"KB_wink\"},{\"slot\":\"参考\",\"before\":null,\"after\":\"CK_wink_001_\"}]}],\"phaseSummaries\":[{\"expression\":700061,\"eyeClip\":\"dongzuo1_zhengchang_zhengtyan\",\"loop\":true,\"frames\":35,\"firstTimeSeconds\":0,\"lastTimeSeconds\":1.036300000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.292325920454857},{\"expression\":700064,\"eyeClip\":\"dongzuo1_wink\",\"loop\":true,\"frames\":58,\"firstTimeSeconds\":1.0548000000119209,\"lastTimeSeconds\":2.4189000000059604,\"irisVertexMotionPixels\":null,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengtyan\",\"dongzuo1_wink\"],\"encoding\":{\"frames\":93,\"durationSeconds\":2.42}}\r\n"
+      },
+      {
+        "sequence": 4,
+        "at_ms": 43280,
+        "columns": 100,
+        "rows": 20,
+        "cursor_x": 0,
+        "cursor_y": 19,
+        "active_buffer": "normal",
+        "lines": [
+          "00061,\"toExpression\":700064,\"trackNamesBefore\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_weixiao_",
+          "zui\",\"dongzuo1_zhengchang_zhengtyan\"],\"trackNamesAfter\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1",
+          "_wink_zui\",\"dongzuo1_wink\"],\"changedAttachments\":[{\"slot\":\"A_眼皮线\",\"before\":\"A_眼皮线\",\"after\":nul",
+          "l},{\"slot\":\"bone2\",\"before\":\"bone2\",\"after\":null},{\"slot\":\"A_眼白\",\"before\":\"A_眼白\",\"after\":null},{",
+          "\"slot\":\"A_眼珠\",\"before\":\"A_眼珠\",\"after\":null},{\"slot\":\"A_高亮\",\"before\":\"A_高亮\",\"after\":null},{\"s",
+          "lot\":\"A_眼睑\",\"before\":\"A_眼睑\",\"after\":null},{\"slot\":\"A_睫毛\",\"before\":\"A_睫毛\",\"after\":null},{\"slo",
+          "t\":\"A_睫毛尖尖_06\",\"before\":\"A_睫毛尖尖_06\",\"after\":null},{\"slot\":\"A_睫毛尖尖_05\",\"before\":\"A_睫毛尖",
+          "尖_05\",\"after\":null},{\"slot\":\"A_睫毛尖尖_04\",\"before\":\"A_睫毛尖尖_04\",\"after\":null},{\"slot\":\"A_睫毛",
+          "尖尖_03\",\"before\":\"A_睫毛尖尖_03\",\"after\":null},{\"slot\":\"A_睫毛尖尖_02\",\"before\":\"A_睫毛尖尖_02\",\"af",
+          "ter\":null},{\"slot\":\"A_睫毛尖尖_01\",\"before\":\"A_睫毛尖尖_01\",\"after\":null},{\"slot\":\"B_眉毛\",\"before\":",
+          "\"B_眉毛\",\"after\":null},{\"slot\":\"口鼻\",\"before\":\"KB_浅微笑\",\"after\":\"KB_wink\"},{\"slot\":\"参考\",\"before",
+          "\":null,\"after\":\"CK_wink_001_\"}]}],\"phaseSummaries\":[{\"expression\":700061,\"eyeClip\":\"dongzuo1_zhengch",
+          "ang_zhengtyan\",\"loop\":true,\"frames\":35,\"firstTimeSeconds\":0,\"lastTimeSeconds\":1.036300000011921,\"iri",
+          "sVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.292325920454857},{\"expression\":70006",
+          "4,\"eyeClip\":\"dongzuo1_wink\",\"loop\":true,\"frames\":58,\"firstTimeSeconds\":1.0548000000119209,\"lastTimeS",
+          "econds\":2.4189000000059604,\"irisVertexMotionPixels\":null,\"separateReflectionVertexMotionPixels\":null",
+          "}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengt",
+          "yan\",\"dongzuo1_wink\"],\"encoding\":{\"frames\":93,\"durationSeconds\":2.42}}",
+          "{\"progress\":\"Reader route\",\"case\":\"abby-avatar-pose-change\",\"script\":\"1034\",\"nid\":56}",
+          ""
+        ],
+        "serialized_state": "{\"progress\":\"Reader route\",\"case\":\"buling-pose-change\",\"script\":\"1011\",\"nid\":29}\r\n{\"progress\":\"Recorded\",\"case\":\"buling-pose-change\",\"passed\":true,\"frames\":77,\"durationSeconds\":2.4212999999821188,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.090699999988079,\"nid\":30,\"fromExpression\":700082,\"toExpression\":700074,\"trackNamesBefore\":[\"dongzuo2_jushouzhan\",\"dongzuo1_zhoumei_zui\",\"dongzuo1_zhoumei_zhayan\"],\"trackNamesAfter\":[\"dongzuo1_changtaizhan\",\"dongzuo1_zhangzuixiao_zui\",\"dongzuo1_zhengchang_zhengyan\"],\"changedAttachments\":[{\"slot\":\"hand_正常\",\"before\":null,\"after\":\"hand_正常\"},{\"slot\":\"KB口鼻\",\"before\":\"KB_思考\",\"after\":\"KB_正常\"},{\"slot\":\"hand_指手\",\"before\":\"hand_指手\",\"after\":null}]}],\"phaseSummaries\":[{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhengyan\",\"loop\":true,\"frames\":23,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.8205,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0},{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhayan\",\"loop\":false,\"frames\":8,\"firstTimeSeconds\":0.8524000000059605,\"lastTimeSeconds\":1.0572999999821187,\"irisVertexMotionPixels\":10.170493674393867,\"separateReflectionVertexMotionPixels\":10.502756049178117},{\"expression\":700074,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":46,\"firstTimeSeconds\":1.090699999988079,\"lastTimeSeconds\":2.4212999999821188,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":4.069733943166966}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhoumei_zhengyan\",\"dongzuo1_zhoumei_zhayan\",\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":77,\"durationSeconds\":2.422}}\r\n{\"progress\":\"Reader route\",\"case\":\"ciaccona-wink\",\"script\":\"12003\",\"nid\":9}\r\n{\"progress\":\"Recorded\",\"case\":\"ciaccona-wink\",\"passed\":true,\"frames\":93,\"durationSeconds\":2.4189000000059604,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.0548000000119209,\"nid\":10,\"fromExpression\":700061,\"toExpression\":700064,\"trackNamesBefore\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_weixiao_zui\",\"dongzuo1_zhengchang_zhengtyan\"],\"trackNamesAfter\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_wink_zui\",\"dongzuo1_wink\"],\"changedAttachments\":[{\"slot\":\"A_眼皮线\",\"before\":\"A_眼皮线\",\"after\":null},{\"slot\":\"bone2\",\"before\":\"bone2\",\"after\":null},{\"slot\":\"A_眼白\",\"before\":\"A_眼白\",\"after\":null},{\"slot\":\"A_眼珠\",\"before\":\"A_眼珠\",\"after\":null},{\"slot\":\"A_高亮\",\"before\":\"A_高亮\",\"after\":null},{\"slot\":\"A_眼睑\",\"before\":\"A_眼睑\",\"after\":null},{\"slot\":\"A_睫毛\",\"before\":\"A_睫毛\",\"after\":null},{\"slot\":\"A_睫毛尖尖_06\",\"before\":\"A_睫毛尖尖_06\",\"after\":null},{\"slot\":\"A_睫毛尖尖_05\",\"before\":\"A_睫毛尖尖_05\",\"after\":null},{\"slot\":\"A_睫毛尖尖_04\",\"before\":\"A_睫毛尖尖_04\",\"after\":null},{\"slot\":\"A_睫毛尖尖_03\",\"before\":\"A_睫毛尖尖_03\",\"after\":null},{\"slot\":\"A_睫毛尖尖_02\",\"before\":\"A_睫毛尖尖_02\",\"after\":null},{\"slot\":\"A_睫毛尖尖_01\",\"before\":\"A_睫毛尖尖_01\",\"after\":null},{\"slot\":\"B_眉毛\",\"before\":\"B_眉毛\",\"after\":null},{\"slot\":\"口鼻\",\"before\":\"KB_浅微笑\",\"after\":\"KB_wink\"},{\"slot\":\"参考\",\"before\":null,\"after\":\"CK_wink_001_\"}]}],\"phaseSummaries\":[{\"expression\":700061,\"eyeClip\":\"dongzuo1_zhengchang_zhengtyan\",\"loop\":true,\"frames\":35,\"firstTimeSeconds\":0,\"lastTimeSeconds\":1.036300000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.292325920454857},{\"expression\":700064,\"eyeClip\":\"dongzuo1_wink\",\"loop\":true,\"frames\":58,\"firstTimeSeconds\":1.0548000000119209,\"lastTimeSeconds\":2.4189000000059604,\"irisVertexMotionPixels\":null,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengtyan\",\"dongzuo1_wink\"],\"encoding\":{\"frames\":93,\"durationSeconds\":2.42}}\r\n{\"progress\":\"Reader route\",\"case\":\"abby-avatar-pose-change\",\"script\":\"1034\",\"nid\":56}\r\n"
+      },
+      {
+        "sequence": 5,
+        "at_ms": 70420,
+        "columns": 100,
+        "rows": 20,
+        "cursor_x": 0,
+        "cursor_y": 19,
+        "active_buffer": "normal",
+        "lines": [
+          "\"01_A_眼白\",\"after\":null},{\"slot\":\"01_A_眼珠\",\"before\":\"01_A_眼珠\",\"after\":null},{\"slot\":\"01_A_高光\"",
+          ",\"before\":\"01_A_高光\",\"after\":null},{\"slot\":\"01_A_眼皮\",\"before\":\"01_A_眼皮\",\"after\":null},{\"slot\":\"",
+          "01_腮红眼影\",\"before\":\"01_腮红眼影\",\"after\":null},{\"slot\":\"01_A_眼皮线\",\"before\":\"01_A_眼皮线\",\"afte",
+          "r\":null},{\"slot\":\"01_A_睫毛\",\"before\":\"01_A_睫毛\",\"after\":null},{\"slot\":\"01_鼻子\",\"before\":\"01_鼻子\"",
+          ",\"after\":null},{\"slot\":\"01_眉毛_正常\",\"before\":\"01_眉毛_正常\",\"after\":null},{\"slot\":\"3_抬头_眼白眼影",
+          "\",\"before\":null,\"after\":\"3_抬头_眼白眼影\"},{\"slot\":\"3_抬头_眼珠\",\"before\":null,\"after\":\"3_抬头_眼珠\"",
+          "},{\"slot\":\"3_抬头_眼皮\",\"before\":null,\"after\":\"3_抬头_眼皮\"},{\"slot\":\"3_抬头_花纹\",\"before\":null,\"af",
+          "ter\":\"3_抬头_花纹\"},{\"slot\":\"3_抬头_睫毛\",\"before\":null,\"after\":\"3_抬头_睫毛\"},{\"slot\":\"zui嘴\",\"befo",
+          "re\":\"zui_闭嘴嘴\",\"after\":\"zui_抬头_开心\"}]}],\"phaseSummaries\":[{\"expression\":700212,\"eyeClip\":\"dongz",
+          "uo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":18,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.9274000000",
+          "059605,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":2.2636407133131797},{\"expre",
+          "ssion\":700212,\"eyeClip\":\"dongzuo1_zhengchang_zhayan\",\"loop\":false,\"frames\":6,\"firstTimeSeconds\":0.97",
+          "79000000059604,\"lastTimeSeconds\":1.2257000000178815,\"irisVertexMotionPixels\":19.202237064084017,\"sep",
+          "arateReflectionVertexMotionPixels\":27.137112615839897},{\"expression\":700222,\"eyeClip\":\"dongzuo3_tait",
+          "ouzhan_zhengyan\",\"loop\":true,\"frames\":22,\"firstTimeSeconds\":1.277,\"lastTimeSeconds\":2.41420000001788",
+          "14,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\"",
+          ":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\",\"dongzuo1_zhengchang_zh",
+          "ayan\",\"dongzuo3_taitouzhan_zhengyan\"],\"encoding\":{\"frames\":46,\"durationSeconds\":2.415}}",
+          "{\"progress\":\"Reader route\",\"case\":\"rover-male-avatar\",\"script\":\"1001\",\"nid\":2}",
+          ""
+        ],
+        "serialized_state": "{\"progress\":\"Reader route\",\"case\":\"buling-pose-change\",\"script\":\"1011\",\"nid\":29}\r\n{\"progress\":\"Recorded\",\"case\":\"buling-pose-change\",\"passed\":true,\"frames\":77,\"durationSeconds\":2.4212999999821188,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.090699999988079,\"nid\":30,\"fromExpression\":700082,\"toExpression\":700074,\"trackNamesBefore\":[\"dongzuo2_jushouzhan\",\"dongzuo1_zhoumei_zui\",\"dongzuo1_zhoumei_zhayan\"],\"trackNamesAfter\":[\"dongzuo1_changtaizhan\",\"dongzuo1_zhangzuixiao_zui\",\"dongzuo1_zhengchang_zhengyan\"],\"changedAttachments\":[{\"slot\":\"hand_正常\",\"before\":null,\"after\":\"hand_正常\"},{\"slot\":\"KB口鼻\",\"before\":\"KB_思考\",\"after\":\"KB_正常\"},{\"slot\":\"hand_指手\",\"before\":\"hand_指手\",\"after\":null}]}],\"phaseSummaries\":[{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhengyan\",\"loop\":true,\"frames\":23,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.8205,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0},{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhayan\",\"loop\":false,\"frames\":8,\"firstTimeSeconds\":0.8524000000059605,\"lastTimeSeconds\":1.0572999999821187,\"irisVertexMotionPixels\":10.170493674393867,\"separateReflectionVertexMotionPixels\":10.502756049178117},{\"expression\":700074,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":46,\"firstTimeSeconds\":1.090699999988079,\"lastTimeSeconds\":2.4212999999821188,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":4.069733943166966}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhoumei_zhengyan\",\"dongzuo1_zhoumei_zhayan\",\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":77,\"durationSeconds\":2.422}}\r\n{\"progress\":\"Reader route\",\"case\":\"ciaccona-wink\",\"script\":\"12003\",\"nid\":9}\r\n{\"progress\":\"Recorded\",\"case\":\"ciaccona-wink\",\"passed\":true,\"frames\":93,\"durationSeconds\":2.4189000000059604,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.0548000000119209,\"nid\":10,\"fromExpression\":700061,\"toExpression\":700064,\"trackNamesBefore\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_weixiao_zui\",\"dongzuo1_zhengchang_zhengtyan\"],\"trackNamesAfter\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_wink_zui\",\"dongzuo1_wink\"],\"changedAttachments\":[{\"slot\":\"A_眼皮线\",\"before\":\"A_眼皮线\",\"after\":null},{\"slot\":\"bone2\",\"before\":\"bone2\",\"after\":null},{\"slot\":\"A_眼白\",\"before\":\"A_眼白\",\"after\":null},{\"slot\":\"A_眼珠\",\"before\":\"A_眼珠\",\"after\":null},{\"slot\":\"A_高亮\",\"before\":\"A_高亮\",\"after\":null},{\"slot\":\"A_眼睑\",\"before\":\"A_眼睑\",\"after\":null},{\"slot\":\"A_睫毛\",\"before\":\"A_睫毛\",\"after\":null},{\"slot\":\"A_睫毛尖尖_06\",\"before\":\"A_睫毛尖尖_06\",\"after\":null},{\"slot\":\"A_睫毛尖尖_05\",\"before\":\"A_睫毛尖尖_05\",\"after\":null},{\"slot\":\"A_睫毛尖尖_04\",\"before\":\"A_睫毛尖尖_04\",\"after\":null},{\"slot\":\"A_睫毛尖尖_03\",\"before\":\"A_睫毛尖尖_03\",\"after\":null},{\"slot\":\"A_睫毛尖尖_02\",\"before\":\"A_睫毛尖尖_02\",\"after\":null},{\"slot\":\"A_睫毛尖尖_01\",\"before\":\"A_睫毛尖尖_01\",\"after\":null},{\"slot\":\"B_眉毛\",\"before\":\"B_眉毛\",\"after\":null},{\"slot\":\"口鼻\",\"before\":\"KB_浅微笑\",\"after\":\"KB_wink\"},{\"slot\":\"参考\",\"before\":null,\"after\":\"CK_wink_001_\"}]}],\"phaseSummaries\":[{\"expression\":700061,\"eyeClip\":\"dongzuo1_zhengchang_zhengtyan\",\"loop\":true,\"frames\":35,\"firstTimeSeconds\":0,\"lastTimeSeconds\":1.036300000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.292325920454857},{\"expression\":700064,\"eyeClip\":\"dongzuo1_wink\",\"loop\":true,\"frames\":58,\"firstTimeSeconds\":1.0548000000119209,\"lastTimeSeconds\":2.4189000000059604,\"irisVertexMotionPixels\":null,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengtyan\",\"dongzuo1_wink\"],\"encoding\":{\"frames\":93,\"durationSeconds\":2.42}}\r\n{\"progress\":\"Reader route\",\"case\":\"abby-avatar-pose-change\",\"script\":\"1034\",\"nid\":56}\r\n{\"progress\":\"Recorded\",\"case\":\"abby-avatar-pose-change\",\"passed\":true,\"frames\":46,\"durationSeconds\":2.4142000000178814,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.277,\"nid\":57,\"fromExpression\":700212,\"toExpression\":700222,\"trackNamesBefore\":[\"dongzuo1_zhengchangzhan\",\"dongzuo1_zhengchang_bizui\",\"dongzuo1_zhengchang_zhayan\"],\"trackNamesAfter\":[\"dongzuo3_taitouzhan\",\"dongzuo3_taitouzhan_zui\",\"dongzuo3_taitouzhan_zhengyan\"],\"changedAttachments\":[{\"slot\":\"TB头部\",\"before\":\"TB_正常头部\",\"after\":\"TB_抬头(需身体变形\"},{\"slot\":\"01_花纹\",\"before\":\"01_花纹\",\"after\":null},{\"slot\":\"01_A_眼白\",\"before\":\"01_A_眼白\",\"after\":null},{\"slot\":\"01_A_眼珠\",\"before\":\"01_A_眼珠\",\"after\":null},{\"slot\":\"01_A_高光\",\"before\":\"01_A_高光\",\"after\":null},{\"slot\":\"01_A_眼皮\",\"before\":\"01_A_眼皮\",\"after\":null},{\"slot\":\"01_腮红眼影\",\"before\":\"01_腮红眼影\",\"after\":null},{\"slot\":\"01_A_眼皮线\",\"before\":\"01_A_眼皮线\",\"after\":null},{\"slot\":\"01_A_睫毛\",\"before\":\"01_A_睫毛\",\"after\":null},{\"slot\":\"01_鼻子\",\"before\":\"01_鼻子\",\"after\":null},{\"slot\":\"01_眉毛_正常\",\"before\":\"01_眉毛_正常\",\"after\":null},{\"slot\":\"3_抬头_眼白眼影\",\"before\":null,\"after\":\"3_抬头_眼白眼影\"},{\"slot\":\"3_抬头_眼珠\",\"before\":null,\"after\":\"3_抬头_眼珠\"},{\"slot\":\"3_抬头_眼皮\",\"before\":null,\"after\":\"3_抬头_眼皮\"},{\"slot\":\"3_抬头_花纹\",\"before\":null,\"after\":\"3_抬头_花纹\"},{\"slot\":\"3_抬头_睫毛\",\"before\":null,\"after\":\"3_抬头_睫毛\"},{\"slot\":\"zui嘴\",\"before\":\"zui_闭嘴嘴\",\"after\":\"zui_抬头_开心\"}]}],\"phaseSummaries\":[{\"expression\":700212,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":18,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.9274000000059605,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":2.2636407133131797},{\"expression\":700212,\"eyeClip\":\"dongzuo1_zhengchang_zhayan\",\"loop\":false,\"frames\":6,\"firstTimeSeconds\":0.9779000000059604,\"lastTimeSeconds\":1.2257000000178815,\"irisVertexMotionPixels\":19.202237064084017,\"separateReflectionVertexMotionPixels\":27.137112615839897},{\"expression\":700222,\"eyeClip\":\"dongzuo3_taitouzhan_zhengyan\",\"loop\":true,\"frames\":22,\"firstTimeSeconds\":1.277,\"lastTimeSeconds\":2.4142000000178814,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\",\"dongzuo1_zhengchang_zhayan\",\"dongzuo3_taitouzhan_zhengyan\"],\"encoding\":{\"frames\":46,\"durationSeconds\":2.415}}\r\n{\"progress\":\"Reader route\",\"case\":\"rover-male-avatar\",\"script\":\"1001\",\"nid\":2}\r\n"
+      },
+      {
+        "sequence": 6,
+        "at_ms": 83890,
+        "columns": 100,
+        "rows": 20,
+        "cursor_x": 0,
+        "cursor_y": 19,
+        "active_buffer": "normal",
+        "lines": [
+          "},{\"slot\":\"3_抬头_眼皮\",\"before\":null,\"after\":\"3_抬头_眼皮\"},{\"slot\":\"3_抬头_花纹\",\"before\":null,\"af",
+          "ter\":\"3_抬头_花纹\"},{\"slot\":\"3_抬头_睫毛\",\"before\":null,\"after\":\"3_抬头_睫毛\"},{\"slot\":\"zui嘴\",\"befo",
+          "re\":\"zui_闭嘴嘴\",\"after\":\"zui_抬头_开心\"}]}],\"phaseSummaries\":[{\"expression\":700212,\"eyeClip\":\"dongz",
+          "uo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":18,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.9274000000",
+          "059605,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":2.2636407133131797},{\"expre",
+          "ssion\":700212,\"eyeClip\":\"dongzuo1_zhengchang_zhayan\",\"loop\":false,\"frames\":6,\"firstTimeSeconds\":0.97",
+          "79000000059604,\"lastTimeSeconds\":1.2257000000178815,\"irisVertexMotionPixels\":19.202237064084017,\"sep",
+          "arateReflectionVertexMotionPixels\":27.137112615839897},{\"expression\":700222,\"eyeClip\":\"dongzuo3_tait",
+          "ouzhan_zhengyan\",\"loop\":true,\"frames\":22,\"firstTimeSeconds\":1.277,\"lastTimeSeconds\":2.41420000001788",
+          "14,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\"",
+          ":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\",\"dongzuo1_zhengchang_zh",
+          "ayan\",\"dongzuo3_taitouzhan_zhengyan\"],\"encoding\":{\"frames\":46,\"durationSeconds\":2.415}}",
+          "{\"progress\":\"Reader route\",\"case\":\"rover-male-avatar\",\"script\":\"1001\",\"nid\":2}",
+          "{\"progress\":\"Recorded\",\"case\":\"rover-male-avatar\",\"passed\":true,\"frames\":61,\"durationSeconds\":2.005,",
+          "\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\"",
+          ":0,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700131,\"eyeClip\":\"dongzuo1_zhengchang_zhen",
+          "gyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.005,\"irisVertexMotionPixels\":",
+          "0,\"separateReflectionVertexMotionPixels\":0}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"obser",
+          "vedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.006}}",
+          ""
+        ],
+        "serialized_state": "{\"progress\":\"Reader route\",\"case\":\"buling-pose-change\",\"script\":\"1011\",\"nid\":29}\r\n{\"progress\":\"Recorded\",\"case\":\"buling-pose-change\",\"passed\":true,\"frames\":77,\"durationSeconds\":2.4212999999821188,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.090699999988079,\"nid\":30,\"fromExpression\":700082,\"toExpression\":700074,\"trackNamesBefore\":[\"dongzuo2_jushouzhan\",\"dongzuo1_zhoumei_zui\",\"dongzuo1_zhoumei_zhayan\"],\"trackNamesAfter\":[\"dongzuo1_changtaizhan\",\"dongzuo1_zhangzuixiao_zui\",\"dongzuo1_zhengchang_zhengyan\"],\"changedAttachments\":[{\"slot\":\"hand_正常\",\"before\":null,\"after\":\"hand_正常\"},{\"slot\":\"KB口鼻\",\"before\":\"KB_思考\",\"after\":\"KB_正常\"},{\"slot\":\"hand_指手\",\"before\":\"hand_指手\",\"after\":null}]}],\"phaseSummaries\":[{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhengyan\",\"loop\":true,\"frames\":23,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.8205,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0},{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhayan\",\"loop\":false,\"frames\":8,\"firstTimeSeconds\":0.8524000000059605,\"lastTimeSeconds\":1.0572999999821187,\"irisVertexMotionPixels\":10.170493674393867,\"separateReflectionVertexMotionPixels\":10.502756049178117},{\"expression\":700074,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":46,\"firstTimeSeconds\":1.090699999988079,\"lastTimeSeconds\":2.4212999999821188,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":4.069733943166966}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhoumei_zhengyan\",\"dongzuo1_zhoumei_zhayan\",\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":77,\"durationSeconds\":2.422}}\r\n{\"progress\":\"Reader route\",\"case\":\"ciaccona-wink\",\"script\":\"12003\",\"nid\":9}\r\n{\"progress\":\"Recorded\",\"case\":\"ciaccona-wink\",\"passed\":true,\"frames\":93,\"durationSeconds\":2.4189000000059604,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.0548000000119209,\"nid\":10,\"fromExpression\":700061,\"toExpression\":700064,\"trackNamesBefore\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_weixiao_zui\",\"dongzuo1_zhengchang_zhengtyan\"],\"trackNamesAfter\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_wink_zui\",\"dongzuo1_wink\"],\"changedAttachments\":[{\"slot\":\"A_眼皮线\",\"before\":\"A_眼皮线\",\"after\":null},{\"slot\":\"bone2\",\"before\":\"bone2\",\"after\":null},{\"slot\":\"A_眼白\",\"before\":\"A_眼白\",\"after\":null},{\"slot\":\"A_眼珠\",\"before\":\"A_眼珠\",\"after\":null},{\"slot\":\"A_高亮\",\"before\":\"A_高亮\",\"after\":null},{\"slot\":\"A_眼睑\",\"before\":\"A_眼睑\",\"after\":null},{\"slot\":\"A_睫毛\",\"before\":\"A_睫毛\",\"after\":null},{\"slot\":\"A_睫毛尖尖_06\",\"before\":\"A_睫毛尖尖_06\",\"after\":null},{\"slot\":\"A_睫毛尖尖_05\",\"before\":\"A_睫毛尖尖_05\",\"after\":null},{\"slot\":\"A_睫毛尖尖_04\",\"before\":\"A_睫毛尖尖_04\",\"after\":null},{\"slot\":\"A_睫毛尖尖_03\",\"before\":\"A_睫毛尖尖_03\",\"after\":null},{\"slot\":\"A_睫毛尖尖_02\",\"before\":\"A_睫毛尖尖_02\",\"after\":null},{\"slot\":\"A_睫毛尖尖_01\",\"before\":\"A_睫毛尖尖_01\",\"after\":null},{\"slot\":\"B_眉毛\",\"before\":\"B_眉毛\",\"after\":null},{\"slot\":\"口鼻\",\"before\":\"KB_浅微笑\",\"after\":\"KB_wink\"},{\"slot\":\"参考\",\"before\":null,\"after\":\"CK_wink_001_\"}]}],\"phaseSummaries\":[{\"expression\":700061,\"eyeClip\":\"dongzuo1_zhengchang_zhengtyan\",\"loop\":true,\"frames\":35,\"firstTimeSeconds\":0,\"lastTimeSeconds\":1.036300000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.292325920454857},{\"expression\":700064,\"eyeClip\":\"dongzuo1_wink\",\"loop\":true,\"frames\":58,\"firstTimeSeconds\":1.0548000000119209,\"lastTimeSeconds\":2.4189000000059604,\"irisVertexMotionPixels\":null,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengtyan\",\"dongzuo1_wink\"],\"encoding\":{\"frames\":93,\"durationSeconds\":2.42}}\r\n{\"progress\":\"Reader route\",\"case\":\"abby-avatar-pose-change\",\"script\":\"1034\",\"nid\":56}\r\n{\"progress\":\"Recorded\",\"case\":\"abby-avatar-pose-change\",\"passed\":true,\"frames\":46,\"durationSeconds\":2.4142000000178814,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.277,\"nid\":57,\"fromExpression\":700212,\"toExpression\":700222,\"trackNamesBefore\":[\"dongzuo1_zhengchangzhan\",\"dongzuo1_zhengchang_bizui\",\"dongzuo1_zhengchang_zhayan\"],\"trackNamesAfter\":[\"dongzuo3_taitouzhan\",\"dongzuo3_taitouzhan_zui\",\"dongzuo3_taitouzhan_zhengyan\"],\"changedAttachments\":[{\"slot\":\"TB头部\",\"before\":\"TB_正常头部\",\"after\":\"TB_抬头(需身体变形\"},{\"slot\":\"01_花纹\",\"before\":\"01_花纹\",\"after\":null},{\"slot\":\"01_A_眼白\",\"before\":\"01_A_眼白\",\"after\":null},{\"slot\":\"01_A_眼珠\",\"before\":\"01_A_眼珠\",\"after\":null},{\"slot\":\"01_A_高光\",\"before\":\"01_A_高光\",\"after\":null},{\"slot\":\"01_A_眼皮\",\"before\":\"01_A_眼皮\",\"after\":null},{\"slot\":\"01_腮红眼影\",\"before\":\"01_腮红眼影\",\"after\":null},{\"slot\":\"01_A_眼皮线\",\"before\":\"01_A_眼皮线\",\"after\":null},{\"slot\":\"01_A_睫毛\",\"before\":\"01_A_睫毛\",\"after\":null},{\"slot\":\"01_鼻子\",\"before\":\"01_鼻子\",\"after\":null},{\"slot\":\"01_眉毛_正常\",\"before\":\"01_眉毛_正常\",\"after\":null},{\"slot\":\"3_抬头_眼白眼影\",\"before\":null,\"after\":\"3_抬头_眼白眼影\"},{\"slot\":\"3_抬头_眼珠\",\"before\":null,\"after\":\"3_抬头_眼珠\"},{\"slot\":\"3_抬头_眼皮\",\"before\":null,\"after\":\"3_抬头_眼皮\"},{\"slot\":\"3_抬头_花纹\",\"before\":null,\"after\":\"3_抬头_花纹\"},{\"slot\":\"3_抬头_睫毛\",\"before\":null,\"after\":\"3_抬头_睫毛\"},{\"slot\":\"zui嘴\",\"before\":\"zui_闭嘴嘴\",\"after\":\"zui_抬头_开心\"}]}],\"phaseSummaries\":[{\"expression\":700212,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":18,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.9274000000059605,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":2.2636407133131797},{\"expression\":700212,\"eyeClip\":\"dongzuo1_zhengchang_zhayan\",\"loop\":false,\"frames\":6,\"firstTimeSeconds\":0.9779000000059604,\"lastTimeSeconds\":1.2257000000178815,\"irisVertexMotionPixels\":19.202237064084017,\"separateReflectionVertexMotionPixels\":27.137112615839897},{\"expression\":700222,\"eyeClip\":\"dongzuo3_taitouzhan_zhengyan\",\"loop\":true,\"frames\":22,\"firstTimeSeconds\":1.277,\"lastTimeSeconds\":2.4142000000178814,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\",\"dongzuo1_zhengchang_zhayan\",\"dongzuo3_taitouzhan_zhengyan\"],\"encoding\":{\"frames\":46,\"durationSeconds\":2.415}}\r\n{\"progress\":\"Reader route\",\"case\":\"rover-male-avatar\",\"script\":\"1001\",\"nid\":2}\r\n{\"progress\":\"Recorded\",\"case\":\"rover-male-avatar\",\"passed\":true,\"frames\":61,\"durationSeconds\":2.005,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\":0,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700131,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.005,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.006}}\r\n"
+      },
+      {
+        "sequence": 7,
+        "at_ms": 83890,
+        "columns": 100,
+        "rows": 20,
+        "cursor_x": 0,
+        "cursor_y": 19,
+        "active_buffer": "normal",
+        "lines": [
+          "ter\":\"3_抬头_花纹\"},{\"slot\":\"3_抬头_睫毛\",\"before\":null,\"after\":\"3_抬头_睫毛\"},{\"slot\":\"zui嘴\",\"befo",
+          "re\":\"zui_闭嘴嘴\",\"after\":\"zui_抬头_开心\"}]}],\"phaseSummaries\":[{\"expression\":700212,\"eyeClip\":\"dongz",
+          "uo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":18,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.9274000000",
+          "059605,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":2.2636407133131797},{\"expre",
+          "ssion\":700212,\"eyeClip\":\"dongzuo1_zhengchang_zhayan\",\"loop\":false,\"frames\":6,\"firstTimeSeconds\":0.97",
+          "79000000059604,\"lastTimeSeconds\":1.2257000000178815,\"irisVertexMotionPixels\":19.202237064084017,\"sep",
+          "arateReflectionVertexMotionPixels\":27.137112615839897},{\"expression\":700222,\"eyeClip\":\"dongzuo3_tait",
+          "ouzhan_zhengyan\",\"loop\":true,\"frames\":22,\"firstTimeSeconds\":1.277,\"lastTimeSeconds\":2.41420000001788",
+          "14,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\"",
+          ":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\",\"dongzuo1_zhengchang_zh",
+          "ayan\",\"dongzuo3_taitouzhan_zhengyan\"],\"encoding\":{\"frames\":46,\"durationSeconds\":2.415}}",
+          "{\"progress\":\"Reader route\",\"case\":\"rover-male-avatar\",\"script\":\"1001\",\"nid\":2}",
+          "{\"progress\":\"Recorded\",\"case\":\"rover-male-avatar\",\"passed\":true,\"frames\":61,\"durationSeconds\":2.005,",
+          "\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\"",
+          ":0,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700131,\"eyeClip\":\"dongzuo1_zhengchang_zhen",
+          "gyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.005,\"irisVertexMotionPixels\":",
+          "0,\"separateReflectionVertexMotionPixels\":0}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"obser",
+          "vedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.006}}",
+          "{\"progress\":\"Reader route\",\"case\":\"rover-female-avatar\",\"script\":\"1001\",\"nid\":2}",
+          ""
+        ],
+        "serialized_state": "{\"progress\":\"Reader route\",\"case\":\"buling-pose-change\",\"script\":\"1011\",\"nid\":29}\r\n{\"progress\":\"Recorded\",\"case\":\"buling-pose-change\",\"passed\":true,\"frames\":77,\"durationSeconds\":2.4212999999821188,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.090699999988079,\"nid\":30,\"fromExpression\":700082,\"toExpression\":700074,\"trackNamesBefore\":[\"dongzuo2_jushouzhan\",\"dongzuo1_zhoumei_zui\",\"dongzuo1_zhoumei_zhayan\"],\"trackNamesAfter\":[\"dongzuo1_changtaizhan\",\"dongzuo1_zhangzuixiao_zui\",\"dongzuo1_zhengchang_zhengyan\"],\"changedAttachments\":[{\"slot\":\"hand_正常\",\"before\":null,\"after\":\"hand_正常\"},{\"slot\":\"KB口鼻\",\"before\":\"KB_思考\",\"after\":\"KB_正常\"},{\"slot\":\"hand_指手\",\"before\":\"hand_指手\",\"after\":null}]}],\"phaseSummaries\":[{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhengyan\",\"loop\":true,\"frames\":23,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.8205,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0},{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhayan\",\"loop\":false,\"frames\":8,\"firstTimeSeconds\":0.8524000000059605,\"lastTimeSeconds\":1.0572999999821187,\"irisVertexMotionPixels\":10.170493674393867,\"separateReflectionVertexMotionPixels\":10.502756049178117},{\"expression\":700074,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":46,\"firstTimeSeconds\":1.090699999988079,\"lastTimeSeconds\":2.4212999999821188,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":4.069733943166966}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhoumei_zhengyan\",\"dongzuo1_zhoumei_zhayan\",\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":77,\"durationSeconds\":2.422}}\r\n{\"progress\":\"Reader route\",\"case\":\"ciaccona-wink\",\"script\":\"12003\",\"nid\":9}\r\n{\"progress\":\"Recorded\",\"case\":\"ciaccona-wink\",\"passed\":true,\"frames\":93,\"durationSeconds\":2.4189000000059604,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.0548000000119209,\"nid\":10,\"fromExpression\":700061,\"toExpression\":700064,\"trackNamesBefore\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_weixiao_zui\",\"dongzuo1_zhengchang_zhengtyan\"],\"trackNamesAfter\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_wink_zui\",\"dongzuo1_wink\"],\"changedAttachments\":[{\"slot\":\"A_眼皮线\",\"before\":\"A_眼皮线\",\"after\":null},{\"slot\":\"bone2\",\"before\":\"bone2\",\"after\":null},{\"slot\":\"A_眼白\",\"before\":\"A_眼白\",\"after\":null},{\"slot\":\"A_眼珠\",\"before\":\"A_眼珠\",\"after\":null},{\"slot\":\"A_高亮\",\"before\":\"A_高亮\",\"after\":null},{\"slot\":\"A_眼睑\",\"before\":\"A_眼睑\",\"after\":null},{\"slot\":\"A_睫毛\",\"before\":\"A_睫毛\",\"after\":null},{\"slot\":\"A_睫毛尖尖_06\",\"before\":\"A_睫毛尖尖_06\",\"after\":null},{\"slot\":\"A_睫毛尖尖_05\",\"before\":\"A_睫毛尖尖_05\",\"after\":null},{\"slot\":\"A_睫毛尖尖_04\",\"before\":\"A_睫毛尖尖_04\",\"after\":null},{\"slot\":\"A_睫毛尖尖_03\",\"before\":\"A_睫毛尖尖_03\",\"after\":null},{\"slot\":\"A_睫毛尖尖_02\",\"before\":\"A_睫毛尖尖_02\",\"after\":null},{\"slot\":\"A_睫毛尖尖_01\",\"before\":\"A_睫毛尖尖_01\",\"after\":null},{\"slot\":\"B_眉毛\",\"before\":\"B_眉毛\",\"after\":null},{\"slot\":\"口鼻\",\"before\":\"KB_浅微笑\",\"after\":\"KB_wink\"},{\"slot\":\"参考\",\"before\":null,\"after\":\"CK_wink_001_\"}]}],\"phaseSummaries\":[{\"expression\":700061,\"eyeClip\":\"dongzuo1_zhengchang_zhengtyan\",\"loop\":true,\"frames\":35,\"firstTimeSeconds\":0,\"lastTimeSeconds\":1.036300000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.292325920454857},{\"expression\":700064,\"eyeClip\":\"dongzuo1_wink\",\"loop\":true,\"frames\":58,\"firstTimeSeconds\":1.0548000000119209,\"lastTimeSeconds\":2.4189000000059604,\"irisVertexMotionPixels\":null,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengtyan\",\"dongzuo1_wink\"],\"encoding\":{\"frames\":93,\"durationSeconds\":2.42}}\r\n{\"progress\":\"Reader route\",\"case\":\"abby-avatar-pose-change\",\"script\":\"1034\",\"nid\":56}\r\n{\"progress\":\"Recorded\",\"case\":\"abby-avatar-pose-change\",\"passed\":true,\"frames\":46,\"durationSeconds\":2.4142000000178814,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.277,\"nid\":57,\"fromExpression\":700212,\"toExpression\":700222,\"trackNamesBefore\":[\"dongzuo1_zhengchangzhan\",\"dongzuo1_zhengchang_bizui\",\"dongzuo1_zhengchang_zhayan\"],\"trackNamesAfter\":[\"dongzuo3_taitouzhan\",\"dongzuo3_taitouzhan_zui\",\"dongzuo3_taitouzhan_zhengyan\"],\"changedAttachments\":[{\"slot\":\"TB头部\",\"before\":\"TB_正常头部\",\"after\":\"TB_抬头(需身体变形\"},{\"slot\":\"01_花纹\",\"before\":\"01_花纹\",\"after\":null},{\"slot\":\"01_A_眼白\",\"before\":\"01_A_眼白\",\"after\":null},{\"slot\":\"01_A_眼珠\",\"before\":\"01_A_眼珠\",\"after\":null},{\"slot\":\"01_A_高光\",\"before\":\"01_A_高光\",\"after\":null},{\"slot\":\"01_A_眼皮\",\"before\":\"01_A_眼皮\",\"after\":null},{\"slot\":\"01_腮红眼影\",\"before\":\"01_腮红眼影\",\"after\":null},{\"slot\":\"01_A_眼皮线\",\"before\":\"01_A_眼皮线\",\"after\":null},{\"slot\":\"01_A_睫毛\",\"before\":\"01_A_睫毛\",\"after\":null},{\"slot\":\"01_鼻子\",\"before\":\"01_鼻子\",\"after\":null},{\"slot\":\"01_眉毛_正常\",\"before\":\"01_眉毛_正常\",\"after\":null},{\"slot\":\"3_抬头_眼白眼影\",\"before\":null,\"after\":\"3_抬头_眼白眼影\"},{\"slot\":\"3_抬头_眼珠\",\"before\":null,\"after\":\"3_抬头_眼珠\"},{\"slot\":\"3_抬头_眼皮\",\"before\":null,\"after\":\"3_抬头_眼皮\"},{\"slot\":\"3_抬头_花纹\",\"before\":null,\"after\":\"3_抬头_花纹\"},{\"slot\":\"3_抬头_睫毛\",\"before\":null,\"after\":\"3_抬头_睫毛\"},{\"slot\":\"zui嘴\",\"before\":\"zui_闭嘴嘴\",\"after\":\"zui_抬头_开心\"}]}],\"phaseSummaries\":[{\"expression\":700212,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":18,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.9274000000059605,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":2.2636407133131797},{\"expression\":700212,\"eyeClip\":\"dongzuo1_zhengchang_zhayan\",\"loop\":false,\"frames\":6,\"firstTimeSeconds\":0.9779000000059604,\"lastTimeSeconds\":1.2257000000178815,\"irisVertexMotionPixels\":19.202237064084017,\"separateReflectionVertexMotionPixels\":27.137112615839897},{\"expression\":700222,\"eyeClip\":\"dongzuo3_taitouzhan_zhengyan\",\"loop\":true,\"frames\":22,\"firstTimeSeconds\":1.277,\"lastTimeSeconds\":2.4142000000178814,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\",\"dongzuo1_zhengchang_zhayan\",\"dongzuo3_taitouzhan_zhengyan\"],\"encoding\":{\"frames\":46,\"durationSeconds\":2.415}}\r\n{\"progress\":\"Reader route\",\"case\":\"rover-male-avatar\",\"script\":\"1001\",\"nid\":2}\r\n{\"progress\":\"Recorded\",\"case\":\"rover-male-avatar\",\"passed\":true,\"frames\":61,\"durationSeconds\":2.005,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\":0,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700131,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.005,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.006}}\r\n{\"progress\":\"Reader route\",\"case\":\"rover-female-avatar\",\"script\":\"1001\",\"nid\":2}\r\n"
+      },
+      {
+        "sequence": 8,
+        "at_ms": 96110,
+        "columns": 100,
+        "rows": 20,
+        "cursor_x": 0,
+        "cursor_y": 19,
+        "active_buffer": "normal",
+        "lines": [
+          "ouzhan_zhengyan\",\"loop\":true,\"frames\":22,\"firstTimeSeconds\":1.277,\"lastTimeSeconds\":2.41420000001788",
+          "14,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\"",
+          ":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\",\"dongzuo1_zhengchang_zh",
+          "ayan\",\"dongzuo3_taitouzhan_zhengyan\"],\"encoding\":{\"frames\":46,\"durationSeconds\":2.415}}",
+          "{\"progress\":\"Reader route\",\"case\":\"rover-male-avatar\",\"script\":\"1001\",\"nid\":2}",
+          "{\"progress\":\"Recorded\",\"case\":\"rover-male-avatar\",\"passed\":true,\"frames\":61,\"durationSeconds\":2.005,",
+          "\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\"",
+          ":0,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700131,\"eyeClip\":\"dongzuo1_zhengchang_zhen",
+          "gyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.005,\"irisVertexMotionPixels\":",
+          "0,\"separateReflectionVertexMotionPixels\":0}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"obser",
+          "vedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.006}}",
+          "{\"progress\":\"Reader route\",\"case\":\"rover-female-avatar\",\"script\":\"1001\",\"nid\":2}",
+          "{\"progress\":\"Recorded\",\"case\":\"rover-female-avatar\",\"passed\":true,\"frames\":61,\"durationSeconds\":2.02",
+          "7300000011921,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVerte",
+          "xMotionPixels\":3.4226745661028986,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700056,\"eye",
+          "Clip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":",
+          "2.027300000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.42267456610289",
+          "86}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zheng",
+          "yan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.028}}",
+          ""
+        ],
+        "serialized_state": "{\"progress\":\"Reader route\",\"case\":\"buling-pose-change\",\"script\":\"1011\",\"nid\":29}\r\n{\"progress\":\"Recorded\",\"case\":\"buling-pose-change\",\"passed\":true,\"frames\":77,\"durationSeconds\":2.4212999999821188,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.090699999988079,\"nid\":30,\"fromExpression\":700082,\"toExpression\":700074,\"trackNamesBefore\":[\"dongzuo2_jushouzhan\",\"dongzuo1_zhoumei_zui\",\"dongzuo1_zhoumei_zhayan\"],\"trackNamesAfter\":[\"dongzuo1_changtaizhan\",\"dongzuo1_zhangzuixiao_zui\",\"dongzuo1_zhengchang_zhengyan\"],\"changedAttachments\":[{\"slot\":\"hand_正常\",\"before\":null,\"after\":\"hand_正常\"},{\"slot\":\"KB口鼻\",\"before\":\"KB_思考\",\"after\":\"KB_正常\"},{\"slot\":\"hand_指手\",\"before\":\"hand_指手\",\"after\":null}]}],\"phaseSummaries\":[{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhengyan\",\"loop\":true,\"frames\":23,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.8205,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0},{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhayan\",\"loop\":false,\"frames\":8,\"firstTimeSeconds\":0.8524000000059605,\"lastTimeSeconds\":1.0572999999821187,\"irisVertexMotionPixels\":10.170493674393867,\"separateReflectionVertexMotionPixels\":10.502756049178117},{\"expression\":700074,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":46,\"firstTimeSeconds\":1.090699999988079,\"lastTimeSeconds\":2.4212999999821188,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":4.069733943166966}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhoumei_zhengyan\",\"dongzuo1_zhoumei_zhayan\",\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":77,\"durationSeconds\":2.422}}\r\n{\"progress\":\"Reader route\",\"case\":\"ciaccona-wink\",\"script\":\"12003\",\"nid\":9}\r\n{\"progress\":\"Recorded\",\"case\":\"ciaccona-wink\",\"passed\":true,\"frames\":93,\"durationSeconds\":2.4189000000059604,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.0548000000119209,\"nid\":10,\"fromExpression\":700061,\"toExpression\":700064,\"trackNamesBefore\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_weixiao_zui\",\"dongzuo1_zhengchang_zhengtyan\"],\"trackNamesAfter\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_wink_zui\",\"dongzuo1_wink\"],\"changedAttachments\":[{\"slot\":\"A_眼皮线\",\"before\":\"A_眼皮线\",\"after\":null},{\"slot\":\"bone2\",\"before\":\"bone2\",\"after\":null},{\"slot\":\"A_眼白\",\"before\":\"A_眼白\",\"after\":null},{\"slot\":\"A_眼珠\",\"before\":\"A_眼珠\",\"after\":null},{\"slot\":\"A_高亮\",\"before\":\"A_高亮\",\"after\":null},{\"slot\":\"A_眼睑\",\"before\":\"A_眼睑\",\"after\":null},{\"slot\":\"A_睫毛\",\"before\":\"A_睫毛\",\"after\":null},{\"slot\":\"A_睫毛尖尖_06\",\"before\":\"A_睫毛尖尖_06\",\"after\":null},{\"slot\":\"A_睫毛尖尖_05\",\"before\":\"A_睫毛尖尖_05\",\"after\":null},{\"slot\":\"A_睫毛尖尖_04\",\"before\":\"A_睫毛尖尖_04\",\"after\":null},{\"slot\":\"A_睫毛尖尖_03\",\"before\":\"A_睫毛尖尖_03\",\"after\":null},{\"slot\":\"A_睫毛尖尖_02\",\"before\":\"A_睫毛尖尖_02\",\"after\":null},{\"slot\":\"A_睫毛尖尖_01\",\"before\":\"A_睫毛尖尖_01\",\"after\":null},{\"slot\":\"B_眉毛\",\"before\":\"B_眉毛\",\"after\":null},{\"slot\":\"口鼻\",\"before\":\"KB_浅微笑\",\"after\":\"KB_wink\"},{\"slot\":\"参考\",\"before\":null,\"after\":\"CK_wink_001_\"}]}],\"phaseSummaries\":[{\"expression\":700061,\"eyeClip\":\"dongzuo1_zhengchang_zhengtyan\",\"loop\":true,\"frames\":35,\"firstTimeSeconds\":0,\"lastTimeSeconds\":1.036300000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.292325920454857},{\"expression\":700064,\"eyeClip\":\"dongzuo1_wink\",\"loop\":true,\"frames\":58,\"firstTimeSeconds\":1.0548000000119209,\"lastTimeSeconds\":2.4189000000059604,\"irisVertexMotionPixels\":null,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengtyan\",\"dongzuo1_wink\"],\"encoding\":{\"frames\":93,\"durationSeconds\":2.42}}\r\n{\"progress\":\"Reader route\",\"case\":\"abby-avatar-pose-change\",\"script\":\"1034\",\"nid\":56}\r\n{\"progress\":\"Recorded\",\"case\":\"abby-avatar-pose-change\",\"passed\":true,\"frames\":46,\"durationSeconds\":2.4142000000178814,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.277,\"nid\":57,\"fromExpression\":700212,\"toExpression\":700222,\"trackNamesBefore\":[\"dongzuo1_zhengchangzhan\",\"dongzuo1_zhengchang_bizui\",\"dongzuo1_zhengchang_zhayan\"],\"trackNamesAfter\":[\"dongzuo3_taitouzhan\",\"dongzuo3_taitouzhan_zui\",\"dongzuo3_taitouzhan_zhengyan\"],\"changedAttachments\":[{\"slot\":\"TB头部\",\"before\":\"TB_正常头部\",\"after\":\"TB_抬头(需身体变形\"},{\"slot\":\"01_花纹\",\"before\":\"01_花纹\",\"after\":null},{\"slot\":\"01_A_眼白\",\"before\":\"01_A_眼白\",\"after\":null},{\"slot\":\"01_A_眼珠\",\"before\":\"01_A_眼珠\",\"after\":null},{\"slot\":\"01_A_高光\",\"before\":\"01_A_高光\",\"after\":null},{\"slot\":\"01_A_眼皮\",\"before\":\"01_A_眼皮\",\"after\":null},{\"slot\":\"01_腮红眼影\",\"before\":\"01_腮红眼影\",\"after\":null},{\"slot\":\"01_A_眼皮线\",\"before\":\"01_A_眼皮线\",\"after\":null},{\"slot\":\"01_A_睫毛\",\"before\":\"01_A_睫毛\",\"after\":null},{\"slot\":\"01_鼻子\",\"before\":\"01_鼻子\",\"after\":null},{\"slot\":\"01_眉毛_正常\",\"before\":\"01_眉毛_正常\",\"after\":null},{\"slot\":\"3_抬头_眼白眼影\",\"before\":null,\"after\":\"3_抬头_眼白眼影\"},{\"slot\":\"3_抬头_眼珠\",\"before\":null,\"after\":\"3_抬头_眼珠\"},{\"slot\":\"3_抬头_眼皮\",\"before\":null,\"after\":\"3_抬头_眼皮\"},{\"slot\":\"3_抬头_花纹\",\"before\":null,\"after\":\"3_抬头_花纹\"},{\"slot\":\"3_抬头_睫毛\",\"before\":null,\"after\":\"3_抬头_睫毛\"},{\"slot\":\"zui嘴\",\"before\":\"zui_闭嘴嘴\",\"after\":\"zui_抬头_开心\"}]}],\"phaseSummaries\":[{\"expression\":700212,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":18,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.9274000000059605,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":2.2636407133131797},{\"expression\":700212,\"eyeClip\":\"dongzuo1_zhengchang_zhayan\",\"loop\":false,\"frames\":6,\"firstTimeSeconds\":0.9779000000059604,\"lastTimeSeconds\":1.2257000000178815,\"irisVertexMotionPixels\":19.202237064084017,\"separateReflectionVertexMotionPixels\":27.137112615839897},{\"expression\":700222,\"eyeClip\":\"dongzuo3_taitouzhan_zhengyan\",\"loop\":true,\"frames\":22,\"firstTimeSeconds\":1.277,\"lastTimeSeconds\":2.4142000000178814,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\",\"dongzuo1_zhengchang_zhayan\",\"dongzuo3_taitouzhan_zhengyan\"],\"encoding\":{\"frames\":46,\"durationSeconds\":2.415}}\r\n{\"progress\":\"Reader route\",\"case\":\"rover-male-avatar\",\"script\":\"1001\",\"nid\":2}\r\n{\"progress\":\"Recorded\",\"case\":\"rover-male-avatar\",\"passed\":true,\"frames\":61,\"durationSeconds\":2.005,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\":0,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700131,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.005,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.006}}\r\n{\"progress\":\"Reader route\",\"case\":\"rover-female-avatar\",\"script\":\"1001\",\"nid\":2}\r\n{\"progress\":\"Recorded\",\"case\":\"rover-female-avatar\",\"passed\":true,\"frames\":61,\"durationSeconds\":2.027300000011921,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\":3.4226745661028986,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700056,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.027300000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.4226745661028986}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.028}}\r\n"
+      },
+      {
+        "sequence": 9,
+        "at_ms": 96120,
+        "columns": 100,
+        "rows": 20,
+        "cursor_x": 0,
+        "cursor_y": 19,
+        "active_buffer": "normal",
+        "lines": [
+          "14,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\"",
+          ":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\",\"dongzuo1_zhengchang_zh",
+          "ayan\",\"dongzuo3_taitouzhan_zhengyan\"],\"encoding\":{\"frames\":46,\"durationSeconds\":2.415}}",
+          "{\"progress\":\"Reader route\",\"case\":\"rover-male-avatar\",\"script\":\"1001\",\"nid\":2}",
+          "{\"progress\":\"Recorded\",\"case\":\"rover-male-avatar\",\"passed\":true,\"frames\":61,\"durationSeconds\":2.005,",
+          "\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\"",
+          ":0,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700131,\"eyeClip\":\"dongzuo1_zhengchang_zhen",
+          "gyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.005,\"irisVertexMotionPixels\":",
+          "0,\"separateReflectionVertexMotionPixels\":0}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"obser",
+          "vedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.006}}",
+          "{\"progress\":\"Reader route\",\"case\":\"rover-female-avatar\",\"script\":\"1001\",\"nid\":2}",
+          "{\"progress\":\"Recorded\",\"case\":\"rover-female-avatar\",\"passed\":true,\"frames\":61,\"durationSeconds\":2.02",
+          "7300000011921,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVerte",
+          "xMotionPixels\":3.4226745661028986,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700056,\"eye",
+          "Clip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":",
+          "2.027300000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.42267456610289",
+          "86}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zheng",
+          "yan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.028}}",
+          "{\"progress\":\"Reader route\",\"case\":\"rover-male-stage\",\"script\":\"1051\",\"nid\":35}",
+          ""
+        ],
+        "serialized_state": "{\"progress\":\"Reader route\",\"case\":\"buling-pose-change\",\"script\":\"1011\",\"nid\":29}\r\n{\"progress\":\"Recorded\",\"case\":\"buling-pose-change\",\"passed\":true,\"frames\":77,\"durationSeconds\":2.4212999999821188,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.090699999988079,\"nid\":30,\"fromExpression\":700082,\"toExpression\":700074,\"trackNamesBefore\":[\"dongzuo2_jushouzhan\",\"dongzuo1_zhoumei_zui\",\"dongzuo1_zhoumei_zhayan\"],\"trackNamesAfter\":[\"dongzuo1_changtaizhan\",\"dongzuo1_zhangzuixiao_zui\",\"dongzuo1_zhengchang_zhengyan\"],\"changedAttachments\":[{\"slot\":\"hand_正常\",\"before\":null,\"after\":\"hand_正常\"},{\"slot\":\"KB口鼻\",\"before\":\"KB_思考\",\"after\":\"KB_正常\"},{\"slot\":\"hand_指手\",\"before\":\"hand_指手\",\"after\":null}]}],\"phaseSummaries\":[{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhengyan\",\"loop\":true,\"frames\":23,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.8205,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0},{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhayan\",\"loop\":false,\"frames\":8,\"firstTimeSeconds\":0.8524000000059605,\"lastTimeSeconds\":1.0572999999821187,\"irisVertexMotionPixels\":10.170493674393867,\"separateReflectionVertexMotionPixels\":10.502756049178117},{\"expression\":700074,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":46,\"firstTimeSeconds\":1.090699999988079,\"lastTimeSeconds\":2.4212999999821188,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":4.069733943166966}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhoumei_zhengyan\",\"dongzuo1_zhoumei_zhayan\",\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":77,\"durationSeconds\":2.422}}\r\n{\"progress\":\"Reader route\",\"case\":\"ciaccona-wink\",\"script\":\"12003\",\"nid\":9}\r\n{\"progress\":\"Recorded\",\"case\":\"ciaccona-wink\",\"passed\":true,\"frames\":93,\"durationSeconds\":2.4189000000059604,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.0548000000119209,\"nid\":10,\"fromExpression\":700061,\"toExpression\":700064,\"trackNamesBefore\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_weixiao_zui\",\"dongzuo1_zhengchang_zhengtyan\"],\"trackNamesAfter\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_wink_zui\",\"dongzuo1_wink\"],\"changedAttachments\":[{\"slot\":\"A_眼皮线\",\"before\":\"A_眼皮线\",\"after\":null},{\"slot\":\"bone2\",\"before\":\"bone2\",\"after\":null},{\"slot\":\"A_眼白\",\"before\":\"A_眼白\",\"after\":null},{\"slot\":\"A_眼珠\",\"before\":\"A_眼珠\",\"after\":null},{\"slot\":\"A_高亮\",\"before\":\"A_高亮\",\"after\":null},{\"slot\":\"A_眼睑\",\"before\":\"A_眼睑\",\"after\":null},{\"slot\":\"A_睫毛\",\"before\":\"A_睫毛\",\"after\":null},{\"slot\":\"A_睫毛尖尖_06\",\"before\":\"A_睫毛尖尖_06\",\"after\":null},{\"slot\":\"A_睫毛尖尖_05\",\"before\":\"A_睫毛尖尖_05\",\"after\":null},{\"slot\":\"A_睫毛尖尖_04\",\"before\":\"A_睫毛尖尖_04\",\"after\":null},{\"slot\":\"A_睫毛尖尖_03\",\"before\":\"A_睫毛尖尖_03\",\"after\":null},{\"slot\":\"A_睫毛尖尖_02\",\"before\":\"A_睫毛尖尖_02\",\"after\":null},{\"slot\":\"A_睫毛尖尖_01\",\"before\":\"A_睫毛尖尖_01\",\"after\":null},{\"slot\":\"B_眉毛\",\"before\":\"B_眉毛\",\"after\":null},{\"slot\":\"口鼻\",\"before\":\"KB_浅微笑\",\"after\":\"KB_wink\"},{\"slot\":\"参考\",\"before\":null,\"after\":\"CK_wink_001_\"}]}],\"phaseSummaries\":[{\"expression\":700061,\"eyeClip\":\"dongzuo1_zhengchang_zhengtyan\",\"loop\":true,\"frames\":35,\"firstTimeSeconds\":0,\"lastTimeSeconds\":1.036300000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.292325920454857},{\"expression\":700064,\"eyeClip\":\"dongzuo1_wink\",\"loop\":true,\"frames\":58,\"firstTimeSeconds\":1.0548000000119209,\"lastTimeSeconds\":2.4189000000059604,\"irisVertexMotionPixels\":null,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengtyan\",\"dongzuo1_wink\"],\"encoding\":{\"frames\":93,\"durationSeconds\":2.42}}\r\n{\"progress\":\"Reader route\",\"case\":\"abby-avatar-pose-change\",\"script\":\"1034\",\"nid\":56}\r\n{\"progress\":\"Recorded\",\"case\":\"abby-avatar-pose-change\",\"passed\":true,\"frames\":46,\"durationSeconds\":2.4142000000178814,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.277,\"nid\":57,\"fromExpression\":700212,\"toExpression\":700222,\"trackNamesBefore\":[\"dongzuo1_zhengchangzhan\",\"dongzuo1_zhengchang_bizui\",\"dongzuo1_zhengchang_zhayan\"],\"trackNamesAfter\":[\"dongzuo3_taitouzhan\",\"dongzuo3_taitouzhan_zui\",\"dongzuo3_taitouzhan_zhengyan\"],\"changedAttachments\":[{\"slot\":\"TB头部\",\"before\":\"TB_正常头部\",\"after\":\"TB_抬头(需身体变形\"},{\"slot\":\"01_花纹\",\"before\":\"01_花纹\",\"after\":null},{\"slot\":\"01_A_眼白\",\"before\":\"01_A_眼白\",\"after\":null},{\"slot\":\"01_A_眼珠\",\"before\":\"01_A_眼珠\",\"after\":null},{\"slot\":\"01_A_高光\",\"before\":\"01_A_高光\",\"after\":null},{\"slot\":\"01_A_眼皮\",\"before\":\"01_A_眼皮\",\"after\":null},{\"slot\":\"01_腮红眼影\",\"before\":\"01_腮红眼影\",\"after\":null},{\"slot\":\"01_A_眼皮线\",\"before\":\"01_A_眼皮线\",\"after\":null},{\"slot\":\"01_A_睫毛\",\"before\":\"01_A_睫毛\",\"after\":null},{\"slot\":\"01_鼻子\",\"before\":\"01_鼻子\",\"after\":null},{\"slot\":\"01_眉毛_正常\",\"before\":\"01_眉毛_正常\",\"after\":null},{\"slot\":\"3_抬头_眼白眼影\",\"before\":null,\"after\":\"3_抬头_眼白眼影\"},{\"slot\":\"3_抬头_眼珠\",\"before\":null,\"after\":\"3_抬头_眼珠\"},{\"slot\":\"3_抬头_眼皮\",\"before\":null,\"after\":\"3_抬头_眼皮\"},{\"slot\":\"3_抬头_花纹\",\"before\":null,\"after\":\"3_抬头_花纹\"},{\"slot\":\"3_抬头_睫毛\",\"before\":null,\"after\":\"3_抬头_睫毛\"},{\"slot\":\"zui嘴\",\"before\":\"zui_闭嘴嘴\",\"after\":\"zui_抬头_开心\"}]}],\"phaseSummaries\":[{\"expression\":700212,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":18,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.9274000000059605,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":2.2636407133131797},{\"expression\":700212,\"eyeClip\":\"dongzuo1_zhengchang_zhayan\",\"loop\":false,\"frames\":6,\"firstTimeSeconds\":0.9779000000059604,\"lastTimeSeconds\":1.2257000000178815,\"irisVertexMotionPixels\":19.202237064084017,\"separateReflectionVertexMotionPixels\":27.137112615839897},{\"expression\":700222,\"eyeClip\":\"dongzuo3_taitouzhan_zhengyan\",\"loop\":true,\"frames\":22,\"firstTimeSeconds\":1.277,\"lastTimeSeconds\":2.4142000000178814,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\",\"dongzuo1_zhengchang_zhayan\",\"dongzuo3_taitouzhan_zhengyan\"],\"encoding\":{\"frames\":46,\"durationSeconds\":2.415}}\r\n{\"progress\":\"Reader route\",\"case\":\"rover-male-avatar\",\"script\":\"1001\",\"nid\":2}\r\n{\"progress\":\"Recorded\",\"case\":\"rover-male-avatar\",\"passed\":true,\"frames\":61,\"durationSeconds\":2.005,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\":0,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700131,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.005,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.006}}\r\n{\"progress\":\"Reader route\",\"case\":\"rover-female-avatar\",\"script\":\"1001\",\"nid\":2}\r\n{\"progress\":\"Recorded\",\"case\":\"rover-female-avatar\",\"passed\":true,\"frames\":61,\"durationSeconds\":2.027300000011921,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\":3.4226745661028986,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700056,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.027300000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.4226745661028986}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.028}}\r\n{\"progress\":\"Reader route\",\"case\":\"rover-male-stage\",\"script\":\"1051\",\"nid\":35}\r\n"
+      },
+      {
+        "sequence": 10,
+        "at_ms": 118210,
+        "columns": 100,
+        "rows": 20,
+        "cursor_x": 0,
+        "cursor_y": 19,
+        "active_buffer": "normal",
+        "lines": [
+          ":0,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700131,\"eyeClip\":\"dongzuo1_zhengchang_zhen",
+          "gyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.005,\"irisVertexMotionPixels\":",
+          "0,\"separateReflectionVertexMotionPixels\":0}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"obser",
+          "vedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.006}}",
+          "{\"progress\":\"Reader route\",\"case\":\"rover-female-avatar\",\"script\":\"1001\",\"nid\":2}",
+          "{\"progress\":\"Recorded\",\"case\":\"rover-female-avatar\",\"passed\":true,\"frames\":61,\"durationSeconds\":2.02",
+          "7300000011921,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVerte",
+          "xMotionPixels\":3.4226745661028986,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700056,\"eye",
+          "Clip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":",
+          "2.027300000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.42267456610289",
+          "86}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zheng",
+          "yan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.028}}",
+          "{\"progress\":\"Reader route\",\"case\":\"rover-male-stage\",\"script\":\"1051\",\"nid\":35}",
+          "{\"progress\":\"Recorded\",\"case\":\"rover-male-stage\",\"passed\":true,\"frames\":83,\"durationSeconds\":2.0175,",
+          "\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\"",
+          ":0,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700127,\"eyeClip\":\"dongzuo1_zhengchang_zhen",
+          "gyan\",\"loop\":true,\"frames\":83,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.0175,\"irisVertexMotionPixels\"",
+          ":0,\"separateReflectionVertexMotionPixels\":0}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"obse",
+          "rvedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":83,\"durationSeconds\":2.019}}",
+          ""
+        ],
+        "serialized_state": "{\"progress\":\"Reader route\",\"case\":\"buling-pose-change\",\"script\":\"1011\",\"nid\":29}\r\n{\"progress\":\"Recorded\",\"case\":\"buling-pose-change\",\"passed\":true,\"frames\":77,\"durationSeconds\":2.4212999999821188,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.090699999988079,\"nid\":30,\"fromExpression\":700082,\"toExpression\":700074,\"trackNamesBefore\":[\"dongzuo2_jushouzhan\",\"dongzuo1_zhoumei_zui\",\"dongzuo1_zhoumei_zhayan\"],\"trackNamesAfter\":[\"dongzuo1_changtaizhan\",\"dongzuo1_zhangzuixiao_zui\",\"dongzuo1_zhengchang_zhengyan\"],\"changedAttachments\":[{\"slot\":\"hand_正常\",\"before\":null,\"after\":\"hand_正常\"},{\"slot\":\"KB口鼻\",\"before\":\"KB_思考\",\"after\":\"KB_正常\"},{\"slot\":\"hand_指手\",\"before\":\"hand_指手\",\"after\":null}]}],\"phaseSummaries\":[{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhengyan\",\"loop\":true,\"frames\":23,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.8205,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0},{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhayan\",\"loop\":false,\"frames\":8,\"firstTimeSeconds\":0.8524000000059605,\"lastTimeSeconds\":1.0572999999821187,\"irisVertexMotionPixels\":10.170493674393867,\"separateReflectionVertexMotionPixels\":10.502756049178117},{\"expression\":700074,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":46,\"firstTimeSeconds\":1.090699999988079,\"lastTimeSeconds\":2.4212999999821188,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":4.069733943166966}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhoumei_zhengyan\",\"dongzuo1_zhoumei_zhayan\",\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":77,\"durationSeconds\":2.422}}\r\n{\"progress\":\"Reader route\",\"case\":\"ciaccona-wink\",\"script\":\"12003\",\"nid\":9}\r\n{\"progress\":\"Recorded\",\"case\":\"ciaccona-wink\",\"passed\":true,\"frames\":93,\"durationSeconds\":2.4189000000059604,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.0548000000119209,\"nid\":10,\"fromExpression\":700061,\"toExpression\":700064,\"trackNamesBefore\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_weixiao_zui\",\"dongzuo1_zhengchang_zhengtyan\"],\"trackNamesAfter\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_wink_zui\",\"dongzuo1_wink\"],\"changedAttachments\":[{\"slot\":\"A_眼皮线\",\"before\":\"A_眼皮线\",\"after\":null},{\"slot\":\"bone2\",\"before\":\"bone2\",\"after\":null},{\"slot\":\"A_眼白\",\"before\":\"A_眼白\",\"after\":null},{\"slot\":\"A_眼珠\",\"before\":\"A_眼珠\",\"after\":null},{\"slot\":\"A_高亮\",\"before\":\"A_高亮\",\"after\":null},{\"slot\":\"A_眼睑\",\"before\":\"A_眼睑\",\"after\":null},{\"slot\":\"A_睫毛\",\"before\":\"A_睫毛\",\"after\":null},{\"slot\":\"A_睫毛尖尖_06\",\"before\":\"A_睫毛尖尖_06\",\"after\":null},{\"slot\":\"A_睫毛尖尖_05\",\"before\":\"A_睫毛尖尖_05\",\"after\":null},{\"slot\":\"A_睫毛尖尖_04\",\"before\":\"A_睫毛尖尖_04\",\"after\":null},{\"slot\":\"A_睫毛尖尖_03\",\"before\":\"A_睫毛尖尖_03\",\"after\":null},{\"slot\":\"A_睫毛尖尖_02\",\"before\":\"A_睫毛尖尖_02\",\"after\":null},{\"slot\":\"A_睫毛尖尖_01\",\"before\":\"A_睫毛尖尖_01\",\"after\":null},{\"slot\":\"B_眉毛\",\"before\":\"B_眉毛\",\"after\":null},{\"slot\":\"口鼻\",\"before\":\"KB_浅微笑\",\"after\":\"KB_wink\"},{\"slot\":\"参考\",\"before\":null,\"after\":\"CK_wink_001_\"}]}],\"phaseSummaries\":[{\"expression\":700061,\"eyeClip\":\"dongzuo1_zhengchang_zhengtyan\",\"loop\":true,\"frames\":35,\"firstTimeSeconds\":0,\"lastTimeSeconds\":1.036300000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.292325920454857},{\"expression\":700064,\"eyeClip\":\"dongzuo1_wink\",\"loop\":true,\"frames\":58,\"firstTimeSeconds\":1.0548000000119209,\"lastTimeSeconds\":2.4189000000059604,\"irisVertexMotionPixels\":null,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengtyan\",\"dongzuo1_wink\"],\"encoding\":{\"frames\":93,\"durationSeconds\":2.42}}\r\n{\"progress\":\"Reader route\",\"case\":\"abby-avatar-pose-change\",\"script\":\"1034\",\"nid\":56}\r\n{\"progress\":\"Recorded\",\"case\":\"abby-avatar-pose-change\",\"passed\":true,\"frames\":46,\"durationSeconds\":2.4142000000178814,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.277,\"nid\":57,\"fromExpression\":700212,\"toExpression\":700222,\"trackNamesBefore\":[\"dongzuo1_zhengchangzhan\",\"dongzuo1_zhengchang_bizui\",\"dongzuo1_zhengchang_zhayan\"],\"trackNamesAfter\":[\"dongzuo3_taitouzhan\",\"dongzuo3_taitouzhan_zui\",\"dongzuo3_taitouzhan_zhengyan\"],\"changedAttachments\":[{\"slot\":\"TB头部\",\"before\":\"TB_正常头部\",\"after\":\"TB_抬头(需身体变形\"},{\"slot\":\"01_花纹\",\"before\":\"01_花纹\",\"after\":null},{\"slot\":\"01_A_眼白\",\"before\":\"01_A_眼白\",\"after\":null},{\"slot\":\"01_A_眼珠\",\"before\":\"01_A_眼珠\",\"after\":null},{\"slot\":\"01_A_高光\",\"before\":\"01_A_高光\",\"after\":null},{\"slot\":\"01_A_眼皮\",\"before\":\"01_A_眼皮\",\"after\":null},{\"slot\":\"01_腮红眼影\",\"before\":\"01_腮红眼影\",\"after\":null},{\"slot\":\"01_A_眼皮线\",\"before\":\"01_A_眼皮线\",\"after\":null},{\"slot\":\"01_A_睫毛\",\"before\":\"01_A_睫毛\",\"after\":null},{\"slot\":\"01_鼻子\",\"before\":\"01_鼻子\",\"after\":null},{\"slot\":\"01_眉毛_正常\",\"before\":\"01_眉毛_正常\",\"after\":null},{\"slot\":\"3_抬头_眼白眼影\",\"before\":null,\"after\":\"3_抬头_眼白眼影\"},{\"slot\":\"3_抬头_眼珠\",\"before\":null,\"after\":\"3_抬头_眼珠\"},{\"slot\":\"3_抬头_眼皮\",\"before\":null,\"after\":\"3_抬头_眼皮\"},{\"slot\":\"3_抬头_花纹\",\"before\":null,\"after\":\"3_抬头_花纹\"},{\"slot\":\"3_抬头_睫毛\",\"before\":null,\"after\":\"3_抬头_睫毛\"},{\"slot\":\"zui嘴\",\"before\":\"zui_闭嘴嘴\",\"after\":\"zui_抬头_开心\"}]}],\"phaseSummaries\":[{\"expression\":700212,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":18,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.9274000000059605,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":2.2636407133131797},{\"expression\":700212,\"eyeClip\":\"dongzuo1_zhengchang_zhayan\",\"loop\":false,\"frames\":6,\"firstTimeSeconds\":0.9779000000059604,\"lastTimeSeconds\":1.2257000000178815,\"irisVertexMotionPixels\":19.202237064084017,\"separateReflectionVertexMotionPixels\":27.137112615839897},{\"expression\":700222,\"eyeClip\":\"dongzuo3_taitouzhan_zhengyan\",\"loop\":true,\"frames\":22,\"firstTimeSeconds\":1.277,\"lastTimeSeconds\":2.4142000000178814,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\",\"dongzuo1_zhengchang_zhayan\",\"dongzuo3_taitouzhan_zhengyan\"],\"encoding\":{\"frames\":46,\"durationSeconds\":2.415}}\r\n{\"progress\":\"Reader route\",\"case\":\"rover-male-avatar\",\"script\":\"1001\",\"nid\":2}\r\n{\"progress\":\"Recorded\",\"case\":\"rover-male-avatar\",\"passed\":true,\"frames\":61,\"durationSeconds\":2.005,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\":0,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700131,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.005,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.006}}\r\n{\"progress\":\"Reader route\",\"case\":\"rover-female-avatar\",\"script\":\"1001\",\"nid\":2}\r\n{\"progress\":\"Recorded\",\"case\":\"rover-female-avatar\",\"passed\":true,\"frames\":61,\"durationSeconds\":2.027300000011921,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\":3.4226745661028986,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700056,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.027300000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.4226745661028986}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.028}}\r\n{\"progress\":\"Reader route\",\"case\":\"rover-male-stage\",\"script\":\"1051\",\"nid\":35}\r\n{\"progress\":\"Recorded\",\"case\":\"rover-male-stage\",\"passed\":true,\"frames\":83,\"durationSeconds\":2.0175,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\":0,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700127,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":83,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.0175,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":83,\"durationSeconds\":2.019}}\r\n"
+      },
+      {
+        "sequence": 11,
+        "at_ms": 118210,
+        "columns": 100,
+        "rows": 20,
+        "cursor_x": 0,
+        "cursor_y": 19,
+        "active_buffer": "normal",
+        "lines": [
+          "gyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.005,\"irisVertexMotionPixels\":",
+          "0,\"separateReflectionVertexMotionPixels\":0}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"obser",
+          "vedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.006}}",
+          "{\"progress\":\"Reader route\",\"case\":\"rover-female-avatar\",\"script\":\"1001\",\"nid\":2}",
+          "{\"progress\":\"Recorded\",\"case\":\"rover-female-avatar\",\"passed\":true,\"frames\":61,\"durationSeconds\":2.02",
+          "7300000011921,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVerte",
+          "xMotionPixels\":3.4226745661028986,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700056,\"eye",
+          "Clip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":",
+          "2.027300000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.42267456610289",
+          "86}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zheng",
+          "yan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.028}}",
+          "{\"progress\":\"Reader route\",\"case\":\"rover-male-stage\",\"script\":\"1051\",\"nid\":35}",
+          "{\"progress\":\"Recorded\",\"case\":\"rover-male-stage\",\"passed\":true,\"frames\":83,\"durationSeconds\":2.0175,",
+          "\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\"",
+          ":0,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700127,\"eyeClip\":\"dongzuo1_zhengchang_zhen",
+          "gyan\",\"loop\":true,\"frames\":83,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.0175,\"irisVertexMotionPixels\"",
+          ":0,\"separateReflectionVertexMotionPixels\":0}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"obse",
+          "rvedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":83,\"durationSeconds\":2.019}}",
+          "{\"progress\":\"Reader route\",\"case\":\"rover-female-stage\",\"script\":\"1051\",\"nid\":35}",
+          ""
+        ],
+        "serialized_state": "{\"progress\":\"Reader route\",\"case\":\"buling-pose-change\",\"script\":\"1011\",\"nid\":29}\r\n{\"progress\":\"Recorded\",\"case\":\"buling-pose-change\",\"passed\":true,\"frames\":77,\"durationSeconds\":2.4212999999821188,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.090699999988079,\"nid\":30,\"fromExpression\":700082,\"toExpression\":700074,\"trackNamesBefore\":[\"dongzuo2_jushouzhan\",\"dongzuo1_zhoumei_zui\",\"dongzuo1_zhoumei_zhayan\"],\"trackNamesAfter\":[\"dongzuo1_changtaizhan\",\"dongzuo1_zhangzuixiao_zui\",\"dongzuo1_zhengchang_zhengyan\"],\"changedAttachments\":[{\"slot\":\"hand_正常\",\"before\":null,\"after\":\"hand_正常\"},{\"slot\":\"KB口鼻\",\"before\":\"KB_思考\",\"after\":\"KB_正常\"},{\"slot\":\"hand_指手\",\"before\":\"hand_指手\",\"after\":null}]}],\"phaseSummaries\":[{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhengyan\",\"loop\":true,\"frames\":23,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.8205,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0},{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhayan\",\"loop\":false,\"frames\":8,\"firstTimeSeconds\":0.8524000000059605,\"lastTimeSeconds\":1.0572999999821187,\"irisVertexMotionPixels\":10.170493674393867,\"separateReflectionVertexMotionPixels\":10.502756049178117},{\"expression\":700074,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":46,\"firstTimeSeconds\":1.090699999988079,\"lastTimeSeconds\":2.4212999999821188,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":4.069733943166966}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhoumei_zhengyan\",\"dongzuo1_zhoumei_zhayan\",\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":77,\"durationSeconds\":2.422}}\r\n{\"progress\":\"Reader route\",\"case\":\"ciaccona-wink\",\"script\":\"12003\",\"nid\":9}\r\n{\"progress\":\"Recorded\",\"case\":\"ciaccona-wink\",\"passed\":true,\"frames\":93,\"durationSeconds\":2.4189000000059604,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.0548000000119209,\"nid\":10,\"fromExpression\":700061,\"toExpression\":700064,\"trackNamesBefore\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_weixiao_zui\",\"dongzuo1_zhengchang_zhengtyan\"],\"trackNamesAfter\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_wink_zui\",\"dongzuo1_wink\"],\"changedAttachments\":[{\"slot\":\"A_眼皮线\",\"before\":\"A_眼皮线\",\"after\":null},{\"slot\":\"bone2\",\"before\":\"bone2\",\"after\":null},{\"slot\":\"A_眼白\",\"before\":\"A_眼白\",\"after\":null},{\"slot\":\"A_眼珠\",\"before\":\"A_眼珠\",\"after\":null},{\"slot\":\"A_高亮\",\"before\":\"A_高亮\",\"after\":null},{\"slot\":\"A_眼睑\",\"before\":\"A_眼睑\",\"after\":null},{\"slot\":\"A_睫毛\",\"before\":\"A_睫毛\",\"after\":null},{\"slot\":\"A_睫毛尖尖_06\",\"before\":\"A_睫毛尖尖_06\",\"after\":null},{\"slot\":\"A_睫毛尖尖_05\",\"before\":\"A_睫毛尖尖_05\",\"after\":null},{\"slot\":\"A_睫毛尖尖_04\",\"before\":\"A_睫毛尖尖_04\",\"after\":null},{\"slot\":\"A_睫毛尖尖_03\",\"before\":\"A_睫毛尖尖_03\",\"after\":null},{\"slot\":\"A_睫毛尖尖_02\",\"before\":\"A_睫毛尖尖_02\",\"after\":null},{\"slot\":\"A_睫毛尖尖_01\",\"before\":\"A_睫毛尖尖_01\",\"after\":null},{\"slot\":\"B_眉毛\",\"before\":\"B_眉毛\",\"after\":null},{\"slot\":\"口鼻\",\"before\":\"KB_浅微笑\",\"after\":\"KB_wink\"},{\"slot\":\"参考\",\"before\":null,\"after\":\"CK_wink_001_\"}]}],\"phaseSummaries\":[{\"expression\":700061,\"eyeClip\":\"dongzuo1_zhengchang_zhengtyan\",\"loop\":true,\"frames\":35,\"firstTimeSeconds\":0,\"lastTimeSeconds\":1.036300000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.292325920454857},{\"expression\":700064,\"eyeClip\":\"dongzuo1_wink\",\"loop\":true,\"frames\":58,\"firstTimeSeconds\":1.0548000000119209,\"lastTimeSeconds\":2.4189000000059604,\"irisVertexMotionPixels\":null,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengtyan\",\"dongzuo1_wink\"],\"encoding\":{\"frames\":93,\"durationSeconds\":2.42}}\r\n{\"progress\":\"Reader route\",\"case\":\"abby-avatar-pose-change\",\"script\":\"1034\",\"nid\":56}\r\n{\"progress\":\"Recorded\",\"case\":\"abby-avatar-pose-change\",\"passed\":true,\"frames\":46,\"durationSeconds\":2.4142000000178814,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.277,\"nid\":57,\"fromExpression\":700212,\"toExpression\":700222,\"trackNamesBefore\":[\"dongzuo1_zhengchangzhan\",\"dongzuo1_zhengchang_bizui\",\"dongzuo1_zhengchang_zhayan\"],\"trackNamesAfter\":[\"dongzuo3_taitouzhan\",\"dongzuo3_taitouzhan_zui\",\"dongzuo3_taitouzhan_zhengyan\"],\"changedAttachments\":[{\"slot\":\"TB头部\",\"before\":\"TB_正常头部\",\"after\":\"TB_抬头(需身体变形\"},{\"slot\":\"01_花纹\",\"before\":\"01_花纹\",\"after\":null},{\"slot\":\"01_A_眼白\",\"before\":\"01_A_眼白\",\"after\":null},{\"slot\":\"01_A_眼珠\",\"before\":\"01_A_眼珠\",\"after\":null},{\"slot\":\"01_A_高光\",\"before\":\"01_A_高光\",\"after\":null},{\"slot\":\"01_A_眼皮\",\"before\":\"01_A_眼皮\",\"after\":null},{\"slot\":\"01_腮红眼影\",\"before\":\"01_腮红眼影\",\"after\":null},{\"slot\":\"01_A_眼皮线\",\"before\":\"01_A_眼皮线\",\"after\":null},{\"slot\":\"01_A_睫毛\",\"before\":\"01_A_睫毛\",\"after\":null},{\"slot\":\"01_鼻子\",\"before\":\"01_鼻子\",\"after\":null},{\"slot\":\"01_眉毛_正常\",\"before\":\"01_眉毛_正常\",\"after\":null},{\"slot\":\"3_抬头_眼白眼影\",\"before\":null,\"after\":\"3_抬头_眼白眼影\"},{\"slot\":\"3_抬头_眼珠\",\"before\":null,\"after\":\"3_抬头_眼珠\"},{\"slot\":\"3_抬头_眼皮\",\"before\":null,\"after\":\"3_抬头_眼皮\"},{\"slot\":\"3_抬头_花纹\",\"before\":null,\"after\":\"3_抬头_花纹\"},{\"slot\":\"3_抬头_睫毛\",\"before\":null,\"after\":\"3_抬头_睫毛\"},{\"slot\":\"zui嘴\",\"before\":\"zui_闭嘴嘴\",\"after\":\"zui_抬头_开心\"}]}],\"phaseSummaries\":[{\"expression\":700212,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":18,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.9274000000059605,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":2.2636407133131797},{\"expression\":700212,\"eyeClip\":\"dongzuo1_zhengchang_zhayan\",\"loop\":false,\"frames\":6,\"firstTimeSeconds\":0.9779000000059604,\"lastTimeSeconds\":1.2257000000178815,\"irisVertexMotionPixels\":19.202237064084017,\"separateReflectionVertexMotionPixels\":27.137112615839897},{\"expression\":700222,\"eyeClip\":\"dongzuo3_taitouzhan_zhengyan\",\"loop\":true,\"frames\":22,\"firstTimeSeconds\":1.277,\"lastTimeSeconds\":2.4142000000178814,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\",\"dongzuo1_zhengchang_zhayan\",\"dongzuo3_taitouzhan_zhengyan\"],\"encoding\":{\"frames\":46,\"durationSeconds\":2.415}}\r\n{\"progress\":\"Reader route\",\"case\":\"rover-male-avatar\",\"script\":\"1001\",\"nid\":2}\r\n{\"progress\":\"Recorded\",\"case\":\"rover-male-avatar\",\"passed\":true,\"frames\":61,\"durationSeconds\":2.005,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\":0,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700131,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.005,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.006}}\r\n{\"progress\":\"Reader route\",\"case\":\"rover-female-avatar\",\"script\":\"1001\",\"nid\":2}\r\n{\"progress\":\"Recorded\",\"case\":\"rover-female-avatar\",\"passed\":true,\"frames\":61,\"durationSeconds\":2.027300000011921,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\":3.4226745661028986,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700056,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.027300000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.4226745661028986}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.028}}\r\n{\"progress\":\"Reader route\",\"case\":\"rover-male-stage\",\"script\":\"1051\",\"nid\":35}\r\n{\"progress\":\"Recorded\",\"case\":\"rover-male-stage\",\"passed\":true,\"frames\":83,\"durationSeconds\":2.0175,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\":0,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700127,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":83,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.0175,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":83,\"durationSeconds\":2.019}}\r\n{\"progress\":\"Reader route\",\"case\":\"rover-female-stage\",\"script\":\"1051\",\"nid\":35}\r\n"
+      },
+      {
+        "sequence": 12,
+        "at_ms": 142550,
+        "columns": 100,
+        "rows": 20,
+        "cursor_x": 0,
+        "cursor_y": 19,
+        "active_buffer": "normal",
+        "lines": [
+          "Clip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":",
+          "2.027300000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.42267456610289",
+          "86}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zheng",
+          "yan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.028}}",
+          "{\"progress\":\"Reader route\",\"case\":\"rover-male-stage\",\"script\":\"1051\",\"nid\":35}",
+          "{\"progress\":\"Recorded\",\"case\":\"rover-male-stage\",\"passed\":true,\"frames\":83,\"durationSeconds\":2.0175,",
+          "\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\"",
+          ":0,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700127,\"eyeClip\":\"dongzuo1_zhengchang_zhen",
+          "gyan\",\"loop\":true,\"frames\":83,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.0175,\"irisVertexMotionPixels\"",
+          ":0,\"separateReflectionVertexMotionPixels\":0}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"obse",
+          "rvedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":83,\"durationSeconds\":2.019}}",
+          "{\"progress\":\"Reader route\",\"case\":\"rover-female-stage\",\"script\":\"1051\",\"nid\":35}",
+          "{\"progress\":\"Recorded\",\"case\":\"rover-female-stage\",\"passed\":true,\"frames\":86,\"durationSeconds\":2.013",
+          "5999999940397,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVerte",
+          "xMotionPixels\":3.326266453075789,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700127,\"eyeC",
+          "lip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":86,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2",
+          ".0135999999940397,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.32626645307578",
+          "9}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengy",
+          "an\"],\"encoding\":{\"frames\":86,\"durationSeconds\":2.015}}",
+          ""
+        ],
+        "serialized_state": "{\"progress\":\"Reader route\",\"case\":\"buling-pose-change\",\"script\":\"1011\",\"nid\":29}\r\n{\"progress\":\"Recorded\",\"case\":\"buling-pose-change\",\"passed\":true,\"frames\":77,\"durationSeconds\":2.4212999999821188,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.090699999988079,\"nid\":30,\"fromExpression\":700082,\"toExpression\":700074,\"trackNamesBefore\":[\"dongzuo2_jushouzhan\",\"dongzuo1_zhoumei_zui\",\"dongzuo1_zhoumei_zhayan\"],\"trackNamesAfter\":[\"dongzuo1_changtaizhan\",\"dongzuo1_zhangzuixiao_zui\",\"dongzuo1_zhengchang_zhengyan\"],\"changedAttachments\":[{\"slot\":\"hand_正常\",\"before\":null,\"after\":\"hand_正常\"},{\"slot\":\"KB口鼻\",\"before\":\"KB_思考\",\"after\":\"KB_正常\"},{\"slot\":\"hand_指手\",\"before\":\"hand_指手\",\"after\":null}]}],\"phaseSummaries\":[{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhengyan\",\"loop\":true,\"frames\":23,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.8205,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0},{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhayan\",\"loop\":false,\"frames\":8,\"firstTimeSeconds\":0.8524000000059605,\"lastTimeSeconds\":1.0572999999821187,\"irisVertexMotionPixels\":10.170493674393867,\"separateReflectionVertexMotionPixels\":10.502756049178117},{\"expression\":700074,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":46,\"firstTimeSeconds\":1.090699999988079,\"lastTimeSeconds\":2.4212999999821188,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":4.069733943166966}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhoumei_zhengyan\",\"dongzuo1_zhoumei_zhayan\",\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":77,\"durationSeconds\":2.422}}\r\n{\"progress\":\"Reader route\",\"case\":\"ciaccona-wink\",\"script\":\"12003\",\"nid\":9}\r\n{\"progress\":\"Recorded\",\"case\":\"ciaccona-wink\",\"passed\":true,\"frames\":93,\"durationSeconds\":2.4189000000059604,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.0548000000119209,\"nid\":10,\"fromExpression\":700061,\"toExpression\":700064,\"trackNamesBefore\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_weixiao_zui\",\"dongzuo1_zhengchang_zhengtyan\"],\"trackNamesAfter\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_wink_zui\",\"dongzuo1_wink\"],\"changedAttachments\":[{\"slot\":\"A_眼皮线\",\"before\":\"A_眼皮线\",\"after\":null},{\"slot\":\"bone2\",\"before\":\"bone2\",\"after\":null},{\"slot\":\"A_眼白\",\"before\":\"A_眼白\",\"after\":null},{\"slot\":\"A_眼珠\",\"before\":\"A_眼珠\",\"after\":null},{\"slot\":\"A_高亮\",\"before\":\"A_高亮\",\"after\":null},{\"slot\":\"A_眼睑\",\"before\":\"A_眼睑\",\"after\":null},{\"slot\":\"A_睫毛\",\"before\":\"A_睫毛\",\"after\":null},{\"slot\":\"A_睫毛尖尖_06\",\"before\":\"A_睫毛尖尖_06\",\"after\":null},{\"slot\":\"A_睫毛尖尖_05\",\"before\":\"A_睫毛尖尖_05\",\"after\":null},{\"slot\":\"A_睫毛尖尖_04\",\"before\":\"A_睫毛尖尖_04\",\"after\":null},{\"slot\":\"A_睫毛尖尖_03\",\"before\":\"A_睫毛尖尖_03\",\"after\":null},{\"slot\":\"A_睫毛尖尖_02\",\"before\":\"A_睫毛尖尖_02\",\"after\":null},{\"slot\":\"A_睫毛尖尖_01\",\"before\":\"A_睫毛尖尖_01\",\"after\":null},{\"slot\":\"B_眉毛\",\"before\":\"B_眉毛\",\"after\":null},{\"slot\":\"口鼻\",\"before\":\"KB_浅微笑\",\"after\":\"KB_wink\"},{\"slot\":\"参考\",\"before\":null,\"after\":\"CK_wink_001_\"}]}],\"phaseSummaries\":[{\"expression\":700061,\"eyeClip\":\"dongzuo1_zhengchang_zhengtyan\",\"loop\":true,\"frames\":35,\"firstTimeSeconds\":0,\"lastTimeSeconds\":1.036300000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.292325920454857},{\"expression\":700064,\"eyeClip\":\"dongzuo1_wink\",\"loop\":true,\"frames\":58,\"firstTimeSeconds\":1.0548000000119209,\"lastTimeSeconds\":2.4189000000059604,\"irisVertexMotionPixels\":null,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengtyan\",\"dongzuo1_wink\"],\"encoding\":{\"frames\":93,\"durationSeconds\":2.42}}\r\n{\"progress\":\"Reader route\",\"case\":\"abby-avatar-pose-change\",\"script\":\"1034\",\"nid\":56}\r\n{\"progress\":\"Recorded\",\"case\":\"abby-avatar-pose-change\",\"passed\":true,\"frames\":46,\"durationSeconds\":2.4142000000178814,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.277,\"nid\":57,\"fromExpression\":700212,\"toExpression\":700222,\"trackNamesBefore\":[\"dongzuo1_zhengchangzhan\",\"dongzuo1_zhengchang_bizui\",\"dongzuo1_zhengchang_zhayan\"],\"trackNamesAfter\":[\"dongzuo3_taitouzhan\",\"dongzuo3_taitouzhan_zui\",\"dongzuo3_taitouzhan_zhengyan\"],\"changedAttachments\":[{\"slot\":\"TB头部\",\"before\":\"TB_正常头部\",\"after\":\"TB_抬头(需身体变形\"},{\"slot\":\"01_花纹\",\"before\":\"01_花纹\",\"after\":null},{\"slot\":\"01_A_眼白\",\"before\":\"01_A_眼白\",\"after\":null},{\"slot\":\"01_A_眼珠\",\"before\":\"01_A_眼珠\",\"after\":null},{\"slot\":\"01_A_高光\",\"before\":\"01_A_高光\",\"after\":null},{\"slot\":\"01_A_眼皮\",\"before\":\"01_A_眼皮\",\"after\":null},{\"slot\":\"01_腮红眼影\",\"before\":\"01_腮红眼影\",\"after\":null},{\"slot\":\"01_A_眼皮线\",\"before\":\"01_A_眼皮线\",\"after\":null},{\"slot\":\"01_A_睫毛\",\"before\":\"01_A_睫毛\",\"after\":null},{\"slot\":\"01_鼻子\",\"before\":\"01_鼻子\",\"after\":null},{\"slot\":\"01_眉毛_正常\",\"before\":\"01_眉毛_正常\",\"after\":null},{\"slot\":\"3_抬头_眼白眼影\",\"before\":null,\"after\":\"3_抬头_眼白眼影\"},{\"slot\":\"3_抬头_眼珠\",\"before\":null,\"after\":\"3_抬头_眼珠\"},{\"slot\":\"3_抬头_眼皮\",\"before\":null,\"after\":\"3_抬头_眼皮\"},{\"slot\":\"3_抬头_花纹\",\"before\":null,\"after\":\"3_抬头_花纹\"},{\"slot\":\"3_抬头_睫毛\",\"before\":null,\"after\":\"3_抬头_睫毛\"},{\"slot\":\"zui嘴\",\"before\":\"zui_闭嘴嘴\",\"after\":\"zui_抬头_开心\"}]}],\"phaseSummaries\":[{\"expression\":700212,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":18,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.9274000000059605,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":2.2636407133131797},{\"expression\":700212,\"eyeClip\":\"dongzuo1_zhengchang_zhayan\",\"loop\":false,\"frames\":6,\"firstTimeSeconds\":0.9779000000059604,\"lastTimeSeconds\":1.2257000000178815,\"irisVertexMotionPixels\":19.202237064084017,\"separateReflectionVertexMotionPixels\":27.137112615839897},{\"expression\":700222,\"eyeClip\":\"dongzuo3_taitouzhan_zhengyan\",\"loop\":true,\"frames\":22,\"firstTimeSeconds\":1.277,\"lastTimeSeconds\":2.4142000000178814,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\",\"dongzuo1_zhengchang_zhayan\",\"dongzuo3_taitouzhan_zhengyan\"],\"encoding\":{\"frames\":46,\"durationSeconds\":2.415}}\r\n{\"progress\":\"Reader route\",\"case\":\"rover-male-avatar\",\"script\":\"1001\",\"nid\":2}\r\n{\"progress\":\"Recorded\",\"case\":\"rover-male-avatar\",\"passed\":true,\"frames\":61,\"durationSeconds\":2.005,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\":0,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700131,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.005,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.006}}\r\n{\"progress\":\"Reader route\",\"case\":\"rover-female-avatar\",\"script\":\"1001\",\"nid\":2}\r\n{\"progress\":\"Recorded\",\"case\":\"rover-female-avatar\",\"passed\":true,\"frames\":61,\"durationSeconds\":2.027300000011921,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\":3.4226745661028986,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700056,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.027300000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.4226745661028986}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.028}}\r\n{\"progress\":\"Reader route\",\"case\":\"rover-male-stage\",\"script\":\"1051\",\"nid\":35}\r\n{\"progress\":\"Recorded\",\"case\":\"rover-male-stage\",\"passed\":true,\"frames\":83,\"durationSeconds\":2.0175,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\":0,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700127,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":83,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.0175,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":83,\"durationSeconds\":2.019}}\r\n{\"progress\":\"Reader route\",\"case\":\"rover-female-stage\",\"script\":\"1051\",\"nid\":35}\r\n{\"progress\":\"Recorded\",\"case\":\"rover-female-stage\",\"passed\":true,\"frames\":86,\"durationSeconds\":2.0135999999940397,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\":3.326266453075789,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700127,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":86,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.0135999999940397,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.326266453075789}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":86,\"durationSeconds\":2.015}}\r\n"
+      },
+      {
+        "sequence": 13,
+        "at_ms": 142550,
+        "columns": 100,
+        "rows": 20,
+        "cursor_x": 0,
+        "cursor_y": 19,
+        "active_buffer": "normal",
+        "lines": [
+          "2.027300000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.42267456610289",
+          "86}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zheng",
+          "yan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.028}}",
+          "{\"progress\":\"Reader route\",\"case\":\"rover-male-stage\",\"script\":\"1051\",\"nid\":35}",
+          "{\"progress\":\"Recorded\",\"case\":\"rover-male-stage\",\"passed\":true,\"frames\":83,\"durationSeconds\":2.0175,",
+          "\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\"",
+          ":0,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700127,\"eyeClip\":\"dongzuo1_zhengchang_zhen",
+          "gyan\",\"loop\":true,\"frames\":83,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.0175,\"irisVertexMotionPixels\"",
+          ":0,\"separateReflectionVertexMotionPixels\":0}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"obse",
+          "rvedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":83,\"durationSeconds\":2.019}}",
+          "{\"progress\":\"Reader route\",\"case\":\"rover-female-stage\",\"script\":\"1051\",\"nid\":35}",
+          "{\"progress\":\"Recorded\",\"case\":\"rover-female-stage\",\"passed\":true,\"frames\":86,\"durationSeconds\":2.013",
+          "5999999940397,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVerte",
+          "xMotionPixels\":3.326266453075789,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700127,\"eyeC",
+          "lip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":86,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2",
+          ".0135999999940397,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.32626645307578",
+          "9}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengy",
+          "an\"],\"encoding\":{\"frames\":86,\"durationSeconds\":2.015}}",
+          "{\"progress\":\"Reader route\",\"case\":\"ciaccona-natural-blink\",\"script\":\"12003\",\"nid\":6}",
+          ""
+        ],
+        "serialized_state": "{\"progress\":\"Reader route\",\"case\":\"buling-pose-change\",\"script\":\"1011\",\"nid\":29}\r\n{\"progress\":\"Recorded\",\"case\":\"buling-pose-change\",\"passed\":true,\"frames\":77,\"durationSeconds\":2.4212999999821188,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.090699999988079,\"nid\":30,\"fromExpression\":700082,\"toExpression\":700074,\"trackNamesBefore\":[\"dongzuo2_jushouzhan\",\"dongzuo1_zhoumei_zui\",\"dongzuo1_zhoumei_zhayan\"],\"trackNamesAfter\":[\"dongzuo1_changtaizhan\",\"dongzuo1_zhangzuixiao_zui\",\"dongzuo1_zhengchang_zhengyan\"],\"changedAttachments\":[{\"slot\":\"hand_正常\",\"before\":null,\"after\":\"hand_正常\"},{\"slot\":\"KB口鼻\",\"before\":\"KB_思考\",\"after\":\"KB_正常\"},{\"slot\":\"hand_指手\",\"before\":\"hand_指手\",\"after\":null}]}],\"phaseSummaries\":[{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhengyan\",\"loop\":true,\"frames\":23,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.8205,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0},{\"expression\":700082,\"eyeClip\":\"dongzuo1_zhoumei_zhayan\",\"loop\":false,\"frames\":8,\"firstTimeSeconds\":0.8524000000059605,\"lastTimeSeconds\":1.0572999999821187,\"irisVertexMotionPixels\":10.170493674393867,\"separateReflectionVertexMotionPixels\":10.502756049178117},{\"expression\":700074,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":46,\"firstTimeSeconds\":1.090699999988079,\"lastTimeSeconds\":2.4212999999821188,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":4.069733943166966}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhoumei_zhengyan\",\"dongzuo1_zhoumei_zhayan\",\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":77,\"durationSeconds\":2.422}}\r\n{\"progress\":\"Reader route\",\"case\":\"ciaccona-wink\",\"script\":\"12003\",\"nid\":9}\r\n{\"progress\":\"Recorded\",\"case\":\"ciaccona-wink\",\"passed\":true,\"frames\":93,\"durationSeconds\":2.4189000000059604,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.0548000000119209,\"nid\":10,\"fromExpression\":700061,\"toExpression\":700064,\"trackNamesBefore\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_weixiao_zui\",\"dongzuo1_zhengchang_zhengtyan\"],\"trackNamesAfter\":[\"dongzuo1_zhengchangzhan_wuyueqi\",\"dongzuo1_wink_zui\",\"dongzuo1_wink\"],\"changedAttachments\":[{\"slot\":\"A_眼皮线\",\"before\":\"A_眼皮线\",\"after\":null},{\"slot\":\"bone2\",\"before\":\"bone2\",\"after\":null},{\"slot\":\"A_眼白\",\"before\":\"A_眼白\",\"after\":null},{\"slot\":\"A_眼珠\",\"before\":\"A_眼珠\",\"after\":null},{\"slot\":\"A_高亮\",\"before\":\"A_高亮\",\"after\":null},{\"slot\":\"A_眼睑\",\"before\":\"A_眼睑\",\"after\":null},{\"slot\":\"A_睫毛\",\"before\":\"A_睫毛\",\"after\":null},{\"slot\":\"A_睫毛尖尖_06\",\"before\":\"A_睫毛尖尖_06\",\"after\":null},{\"slot\":\"A_睫毛尖尖_05\",\"before\":\"A_睫毛尖尖_05\",\"after\":null},{\"slot\":\"A_睫毛尖尖_04\",\"before\":\"A_睫毛尖尖_04\",\"after\":null},{\"slot\":\"A_睫毛尖尖_03\",\"before\":\"A_睫毛尖尖_03\",\"after\":null},{\"slot\":\"A_睫毛尖尖_02\",\"before\":\"A_睫毛尖尖_02\",\"after\":null},{\"slot\":\"A_睫毛尖尖_01\",\"before\":\"A_睫毛尖尖_01\",\"after\":null},{\"slot\":\"B_眉毛\",\"before\":\"B_眉毛\",\"after\":null},{\"slot\":\"口鼻\",\"before\":\"KB_浅微笑\",\"after\":\"KB_wink\"},{\"slot\":\"参考\",\"before\":null,\"after\":\"CK_wink_001_\"}]}],\"phaseSummaries\":[{\"expression\":700061,\"eyeClip\":\"dongzuo1_zhengchang_zhengtyan\",\"loop\":true,\"frames\":35,\"firstTimeSeconds\":0,\"lastTimeSeconds\":1.036300000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.292325920454857},{\"expression\":700064,\"eyeClip\":\"dongzuo1_wink\",\"loop\":true,\"frames\":58,\"firstTimeSeconds\":1.0548000000119209,\"lastTimeSeconds\":2.4189000000059604,\"irisVertexMotionPixels\":null,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengtyan\",\"dongzuo1_wink\"],\"encoding\":{\"frames\":93,\"durationSeconds\":2.42}}\r\n{\"progress\":\"Reader route\",\"case\":\"abby-avatar-pose-change\",\"script\":\"1034\",\"nid\":56}\r\n{\"progress\":\"Recorded\",\"case\":\"abby-avatar-pose-change\",\"passed\":true,\"frames\":46,\"durationSeconds\":2.4142000000178814,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":null},\"reflectionVertexMotionPixels\":null,\"expressionChanges\":[{\"timeSeconds\":1.277,\"nid\":57,\"fromExpression\":700212,\"toExpression\":700222,\"trackNamesBefore\":[\"dongzuo1_zhengchangzhan\",\"dongzuo1_zhengchang_bizui\",\"dongzuo1_zhengchang_zhayan\"],\"trackNamesAfter\":[\"dongzuo3_taitouzhan\",\"dongzuo3_taitouzhan_zui\",\"dongzuo3_taitouzhan_zhengyan\"],\"changedAttachments\":[{\"slot\":\"TB头部\",\"before\":\"TB_正常头部\",\"after\":\"TB_抬头(需身体变形\"},{\"slot\":\"01_花纹\",\"before\":\"01_花纹\",\"after\":null},{\"slot\":\"01_A_眼白\",\"before\":\"01_A_眼白\",\"after\":null},{\"slot\":\"01_A_眼珠\",\"before\":\"01_A_眼珠\",\"after\":null},{\"slot\":\"01_A_高光\",\"before\":\"01_A_高光\",\"after\":null},{\"slot\":\"01_A_眼皮\",\"before\":\"01_A_眼皮\",\"after\":null},{\"slot\":\"01_腮红眼影\",\"before\":\"01_腮红眼影\",\"after\":null},{\"slot\":\"01_A_眼皮线\",\"before\":\"01_A_眼皮线\",\"after\":null},{\"slot\":\"01_A_睫毛\",\"before\":\"01_A_睫毛\",\"after\":null},{\"slot\":\"01_鼻子\",\"before\":\"01_鼻子\",\"after\":null},{\"slot\":\"01_眉毛_正常\",\"before\":\"01_眉毛_正常\",\"after\":null},{\"slot\":\"3_抬头_眼白眼影\",\"before\":null,\"after\":\"3_抬头_眼白眼影\"},{\"slot\":\"3_抬头_眼珠\",\"before\":null,\"after\":\"3_抬头_眼珠\"},{\"slot\":\"3_抬头_眼皮\",\"before\":null,\"after\":\"3_抬头_眼皮\"},{\"slot\":\"3_抬头_花纹\",\"before\":null,\"after\":\"3_抬头_花纹\"},{\"slot\":\"3_抬头_睫毛\",\"before\":null,\"after\":\"3_抬头_睫毛\"},{\"slot\":\"zui嘴\",\"before\":\"zui_闭嘴嘴\",\"after\":\"zui_抬头_开心\"}]}],\"phaseSummaries\":[{\"expression\":700212,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":18,\"firstTimeSeconds\":0,\"lastTimeSeconds\":0.9274000000059605,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":2.2636407133131797},{\"expression\":700212,\"eyeClip\":\"dongzuo1_zhengchang_zhayan\",\"loop\":false,\"frames\":6,\"firstTimeSeconds\":0.9779000000059604,\"lastTimeSeconds\":1.2257000000178815,\"irisVertexMotionPixels\":19.202237064084017,\"separateReflectionVertexMotionPixels\":27.137112615839897},{\"expression\":700222,\"eyeClip\":\"dongzuo3_taitouzhan_zhengyan\",\"loop\":true,\"frames\":22,\"firstTimeSeconds\":1.277,\"lastTimeSeconds\":2.4142000000178814,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":null}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":false,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\",\"dongzuo1_zhengchang_zhayan\",\"dongzuo3_taitouzhan_zhengyan\"],\"encoding\":{\"frames\":46,\"durationSeconds\":2.415}}\r\n{\"progress\":\"Reader route\",\"case\":\"rover-male-avatar\",\"script\":\"1001\",\"nid\":2}\r\n{\"progress\":\"Recorded\",\"case\":\"rover-male-avatar\",\"passed\":true,\"frames\":61,\"durationSeconds\":2.005,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\":0,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700131,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.005,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.006}}\r\n{\"progress\":\"Reader route\",\"case\":\"rover-female-avatar\",\"script\":\"1001\",\"nid\":2}\r\n{\"progress\":\"Recorded\",\"case\":\"rover-female-avatar\",\"passed\":true,\"frames\":61,\"durationSeconds\":2.027300000011921,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\":3.4226745661028986,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700056,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":61,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.027300000011921,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.4226745661028986}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":61,\"durationSeconds\":2.028}}\r\n{\"progress\":\"Reader route\",\"case\":\"rover-male-stage\",\"script\":\"1051\",\"nid\":35}\r\n{\"progress\":\"Recorded\",\"case\":\"rover-male-stage\",\"passed\":true,\"frames\":83,\"durationSeconds\":2.0175,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\":0,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700127,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":83,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.0175,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":0}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":83,\"durationSeconds\":2.019}}\r\n{\"progress\":\"Reader route\",\"case\":\"rover-female-stage\",\"script\":\"1051\",\"nid\":35}\r\n{\"progress\":\"Recorded\",\"case\":\"rover-female-stage\",\"passed\":true,\"frames\":86,\"durationSeconds\":2.0135999999940397,\"drift\":{\"root\":0,\"scale\":0,\"camera\":0,\"canvasRect\":0,\"irisPixels\":0},\"reflectionVertexMotionPixels\":3.326266453075789,\"expressionChanges\":[],\"phaseSummaries\":[{\"expression\":700127,\"eyeClip\":\"dongzuo1_zhengchang_zhengyan\",\"loop\":true,\"frames\":86,\"firstTimeSeconds\":0,\"lastTimeSeconds\":2.0135999999940397,\"irisVertexMotionPixels\":0,\"separateReflectionVertexMotionPixels\":3.326266453075789}],\"allNativeTimeScalesOne\":true,\"openEyeOnly\":true,\"observedEyeClips\":[\"dongzuo1_zhengchang_zhengyan\"],\"encoding\":{\"frames\":86,\"durationSeconds\":2.015}}\r\n{\"progress\":\"Reader route\",\"case\":\"ciaccona-natural-blink\",\"script\":\"12003\",\"nid\":6}\r\n"
+      }
+    ],
+    "interaction_events": [],
+    "exit": {
+      "code": 0,
+      "signal": 0,
+      "reason": "exited"
+    },
+    "settlement": {
+      "state": "quiesced",
+      "elapsed_ms": 92,
+      "cleanup_outcome": "not_required"
+    },
+    "process_samples": [
+      {
+        "at_ms": 20,
+        "pid": 1,
+        "parent_pid": 2,
+        "command": "/usr/bin/node /home/deist/Downloads/2ndsol/tools/reader-catchlight-coverage-browser-check.mjs",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 110,
+        "pid": 3,
+        "parent_pid": 1,
+        "command": "/usr/lib/chromium/chromium --headless=new --no-sandbox --disable-dev-shm-usage --no-first-run --no-default-browser-check --enable-unsafe-swiftshader --use-gl=angle --use-angle=swiftshader --user-data-dir=/tmp/reader-catchlight-coverage-3MbQKF --remote-debugging-pipe about:blank",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 310,
+        "pid": 4,
+        "parent_pid": 3,
+        "command": "/usr/lib/chromium/chromium --type=zygote --no-zygote-sandbox --no-sandbox --headless=new --crashpad-handler-pid=2015865 --enable-crash-reporter=,Arch Linux --noerrdialogs --user-data-dir=/tmp/reader-catchlight-coverage-3MbQKF --change-stack-guard-on-fork=enable --no-first-run --ozone-platform=headless --ozone-override-screen-size=800,600 --use-angle=swiftshader-webgl",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 310,
+        "pid": 5,
+        "parent_pid": 3,
+        "command": "/usr/lib/chromium/chromium --type=zygote --no-sandbox --headless=new --crashpad-handler-pid=2015865 --enable-crash-reporter=,Arch Linux --noerrdialogs --user-data-dir=/tmp/reader-catchlight-coverage-3MbQKF --change-stack-guard-on-fork=enable --no-first-run --ozone-platform=headless --ozone-override-screen-size=800,600 --use-angle=swiftshader-webgl",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 360,
+        "pid": 6,
+        "parent_pid": 3,
+        "command": "/proc/self/exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --disable-dev-shm-usage --use-angle=swiftshader --use-gl=angle --crashpad-handler-pid=2015865 --enable-crash-reporter=,Arch Linux --noerrdialogs --user-data-dir=/tmp/reader-catchlight-coverage-3MbQKF --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18329725933795476771,12480899451337565320,262144 --disable-features=PaintHolding --variations-seed-version --pseudonymization-salt-handle=7,i,433491908529885501,6453486444059379242,4 --trace-process-track-uuid=3190708989122997041",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 360,
+        "pid": 7,
+        "parent_pid": 4,
+        "command": "/usr/lib/chromium/chromium --type=gpu-process --gpu-recent-crash-count=0 --no-sandbox --disable-dev-shm-usage --headless=new --ozone-platform=headless --use-angle=swiftshader --enable-unsafe-swiftshader --crashpad-handler-pid=2015865 --enable-crash-reporter=,Arch Linux --noerrdialogs --user-data-dir=/tmp/reader-catchlight-coverage-3MbQKF --change-stack-guard-on-fork=enable --gpu-preferences=YAAAAAAAAAAgAAACAAAAAAAAAAAAAGAASAAAAAAAAAABAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAQAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --use-gl=angle --shared-files --field-trial-handle=3,i,18329725933795476771,12480899451337565320,262144 --disable-features=PaintHolding --variations-seed-version --pseudonymization-salt-handle=7,i,433491908529885501,6453486444059379242,4 --trace-process-track-uuid=3190708988185955192",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 410,
+        "pid": 6,
+        "parent_pid": 3,
+        "command": "/usr/lib/chromium/chromium --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --disable-dev-shm-usage --use-angle=swiftshader --use-gl=angle --crashpad-handler-pid=2015865 --enable-crash-reporter=,Arch Linux --noerrdialogs --user-data-dir=/tmp/reader-catchlight-coverage-3MbQKF --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18329725933795476771,12480899451337565320,262144 --disable-features=PaintHolding --variations-seed-version --pseudonymization-salt-handle=7,i,433491908529885501,6453486444059379242,4 --trace-process-track-uuid=3190708989122997041",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 410,
+        "pid": 8,
+        "parent_pid": 5,
+        "command": "/usr/lib/chromium/chromium --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --no-sandbox --disable-dev-shm-usage --use-angle=swiftshader --use-gl=angle --crashpad-handler-pid=2015865 --enable-crash-reporter=,Arch Linux --noerrdialogs --user-data-dir=/tmp/reader-catchlight-coverage-3MbQKF --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18329725933795476771,12480899451337565320,262144 --disable-features=PaintHolding --variations-seed-version --pseudonymization-salt-handle=7,i,433491908529885501,6453486444059379242,4 --trace-process-track-uuid=3190708990060038890",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 460,
+        "pid": 9,
+        "parent_pid": 5,
+        "command": "/usr/lib/chromium/chromium --type=renderer --top-chrome-webui --crashpad-handler-pid=2015865 --enable-crash-reporter=,Arch Linux --noerrdialogs --user-data-dir=/tmp/reader-catchlight-coverage-3MbQKF --change-stack-guard-on-fork=enable --no-sandbox --disable-dev-shm-usage --remote-debugging-pipe --ozone-platform=headless --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --launch-time-ticks=202960740972 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18329725933795476771,12480899451337565320,262144 --disable-features=PaintHolding --variations-seed-version --pseudonymization-salt-handle=7,i,433491908529885501,6453486444059379242,4 --trace-process-track-uuid=3190708990997080739",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 510,
+        "pid": 10,
+        "parent_pid": 5,
+        "command": "/usr/lib/chromium/chromium --type=renderer --crashpad-handler-pid=2015865 --enable-crash-reporter=,Arch Linux --noerrdialogs --user-data-dir=/tmp/reader-catchlight-coverage-3MbQKF --change-stack-guard-on-fork=enable --no-sandbox --disable-dev-shm-usage --remote-debugging-pipe --ozone-platform=headless --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --launch-time-ticks=202960763552 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18329725933795476771,12480899451337565320,262144 --disable-features=PaintHolding --variations-seed-version --pseudonymization-salt-handle=7,i,433491908529885501,6453486444059379242,4 --trace-process-track-uuid=3190708992871164437",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 510,
+        "pid": 11,
+        "parent_pid": 5,
+        "command": "/usr/lib/chromium/chromium --type=renderer --crashpad-handler-pid=2015865 --enable-crash-reporter=,Arch Linux --noerrdialogs --user-data-dir=/tmp/reader-catchlight-coverage-3MbQKF --change-stack-guard-on-fork=enable --no-sandbox --disable-dev-shm-usage --remote-debugging-pipe --ozone-platform=headless --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=6 --launch-time-ticks=202960765282 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18329725933795476771,12480899451337565320,262144 --disable-features=PaintHolding --variations-seed-version --pseudonymization-salt-handle=7,i,433491908529885501,6453486444059379242,4 --trace-process-track-uuid=3190708991934122588",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 510,
+        "pid": 12,
+        "parent_pid": 5,
+        "command": "/usr/lib/chromium/chromium --type=renderer --crashpad-handler-pid=2015865 --enable-crash-reporter=,Arch Linux --noerrdialogs --user-data-dir=/tmp/reader-catchlight-coverage-3MbQKF --change-stack-guard-on-fork=enable --no-sandbox --disable-dev-shm-usage --remote-debugging-pipe --ozone-platform=headless --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8 --launch-time-ticks=202960784873 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18329725933795476771,12480899451337565320,262144 --disable-features=PaintHolding --variations-seed-version --pseudonymization-salt-handle=7,i,433491908529885501,6453486444059379242,4 --trace-process-track-uuid=3190708993808206286",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 560,
+        "pid": 13,
+        "parent_pid": 5,
+        "command": "/usr/lib/chromium/chromium --type=renderer --crashpad-handler-pid=2015865 --enable-crash-reporter=,Arch Linux --noerrdialogs --user-data-dir=/tmp/reader-catchlight-coverage-3MbQKF --extension-process --change-stack-guard-on-fork=enable --no-sandbox --disable-dev-shm-usage --remote-debugging-pipe --ozone-platform=headless --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=9 --launch-time-ticks=202960835781 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18329725933795476771,12480899451337565320,262144 --disable-features=PaintHolding --variations-seed-version --pseudonymization-salt-handle=7,i,433491908529885501,6453486444059379242,4 --trace-process-track-uuid=3190708994745248135",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 560,
+        "pid": 14,
+        "parent_pid": 5,
+        "command": "/usr/lib/chromium/chromium --type=renderer --crashpad-handler-pid=2015865 --enable-crash-reporter=,Arch Linux --noerrdialogs --user-data-dir=/tmp/reader-catchlight-coverage-3MbQKF --extension-process --change-stack-guard-on-fork=enable --no-sandbox --disable-dev-shm-usage --remote-debugging-pipe --ozone-platform=headless --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=10 --launch-time-ticks=202960837285 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18329725933795476771,12480899451337565320,262144 --disable-features=PaintHolding --variations-seed-version --pseudonymization-salt-handle=7,i,433491908529885501,6453486444059379242,4 --trace-process-track-uuid=3190708995682289984",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 910,
+        "pid": 15,
+        "parent_pid": 3,
+        "command": "/usr/lib/chromium/chromium --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --no-sandbox --disable-dev-shm-usage --use-angle=swiftshader --use-gl=angle --crashpad-handler-pid=2015865 --enable-crash-reporter=,Arch Linux --noerrdialogs --user-data-dir=/tmp/reader-catchlight-coverage-3MbQKF --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18329725933795476771,12480899451337565320,262144 --disable-features=PaintHolding --variations-seed-version --pseudonymization-salt-handle=7,i,433491908529885501,6453486444059379242,4 --trace-process-track-uuid=3190708996619331833",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 22710,
+        "pid": 16,
+        "parent_pid": 1,
+        "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /home/deist/Downloads/2ndsol/test-results/reader-catchlights/coverage/playback/buling-pose-change/close-up.ffconcat -an -c:v libx264 -preset veryfast -crf 14 -pix_fmt yuv420p -enc_time_base 1:1000 -fps_mode vfr -video_track_timescale 1000000 -movflags +faststart /home/deist/Downloads/2ndsol/test-results/reader-catchlights/coverage/playback/buling-pose-change/close-up.mp4",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 23360,
+        "pid": 17,
+        "parent_pid": 1,
+        "command": "ffprobe -v error -count_frames -show_frames -show_entries stream=codec_name,width,height,time_base,nb_read_frames:format=duration:frame=pts_time -of json /home/deist/Downloads/2ndsol/test-results/reader-catchlights/coverage/playback/buling-pose-change/close-up.mp4",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 42140,
+        "pid": 18,
+        "parent_pid": 1,
+        "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /home/deist/Downloads/2ndsol/test-results/reader-catchlights/coverage/playback/ciaccona-wink/close-up.ffconcat -an -c:v libx264 -preset veryfast -crf 14 -pix_fmt yuv420p -enc_time_base 1:1000 -fps_mode vfr -video_track_timescale 1000000 -movflags +faststart /home/deist/Downloads/2ndsol/test-results/reader-catchlights/coverage/playback/ciaccona-wink/close-up.mp4",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 43090,
+        "pid": 19,
+        "parent_pid": 1,
+        "command": "ffprobe -v error -count_frames -show_frames -show_entries stream=codec_name,width,height,time_base,nb_read_frames:format=duration:frame=pts_time -of json /home/deist/Downloads/2ndsol/test-results/reader-catchlights/coverage/playback/ciaccona-wink/close-up.mp4",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 69810,
+        "pid": 20,
+        "parent_pid": 1,
+        "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /home/deist/Downloads/2ndsol/test-results/reader-catchlights/coverage/playback/abby-avatar-pose-change/close-up.ffconcat -an -c:v libx264 -preset veryfast -crf 14 -pix_fmt yuv420p -enc_time_base 1:1000 -fps_mode vfr -video_track_timescale 1000000 -movflags +faststart /home/deist/Downloads/2ndsol/test-results/reader-catchlights/coverage/playback/abby-avatar-pose-change/close-up.mp4",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 70310,
+        "pid": 21,
+        "parent_pid": 1,
+        "command": "ffprobe -v error -count_frames -show_frames -show_entries stream=codec_name,width,height,time_base,nb_read_frames:format=duration:frame=pts_time -of json /home/deist/Downloads/2ndsol/test-results/reader-catchlights/coverage/playback/abby-avatar-pose-change/close-up.mp4",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 83110,
+        "pid": 22,
+        "parent_pid": 1,
+        "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /home/deist/Downloads/2ndsol/test-results/reader-catchlights/coverage/playback/rover-male-avatar/close-up.ffconcat -an -c:v libx264 -preset veryfast -crf 14 -pix_fmt yuv420p -enc_time_base 1:1000 -fps_mode vfr -video_track_timescale 1000000 -movflags +faststart /home/deist/Downloads/2ndsol/test-results/reader-catchlights/coverage/playback/rover-male-avatar/close-up.mp4",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 83760,
+        "pid": 23,
+        "parent_pid": 1,
+        "command": "ffprobe -v error -count_frames -show_frames -show_entries stream=codec_name,width,height,time_base,nb_read_frames:format=duration:frame=pts_time -of json /home/deist/Downloads/2ndsol/test-results/reader-catchlights/coverage/playback/rover-male-avatar/close-up.mp4",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 94540,
+        "pid": 24,
+        "parent_pid": 5,
+        "command": "/usr/lib/chromium/chromium --type=utility --utility-sub-type=unzip.mojom.Unzipper --lang=en-US --service-sandbox-type=service --no-sandbox --disable-dev-shm-usage --use-angle=swiftshader --use-gl=angle --crashpad-handler-pid=2015865 --enable-crash-reporter=,Arch Linux --noerrdialogs --user-data-dir=/tmp/reader-catchlight-coverage-3MbQKF --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18329725933795476771,12480899451337565320,262144 --disable-features=PaintHolding --variations-seed-version --pseudonymization-salt-handle=7,i,433491908529885501,6453486444059379242,4 --trace-process-track-uuid=3190708999430457380",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 95440,
+        "pid": 25,
+        "parent_pid": 1,
+        "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /home/deist/Downloads/2ndsol/test-results/reader-catchlights/coverage/playback/rover-female-avatar/close-up.ffconcat -an -c:v libx264 -preset veryfast -crf 14 -pix_fmt yuv420p -enc_time_base 1:1000 -fps_mode vfr -video_track_timescale 1000000 -movflags +faststart /home/deist/Downloads/2ndsol/test-results/reader-catchlights/coverage/playback/rover-female-avatar/close-up.mp4",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 95940,
+        "pid": 26,
+        "parent_pid": 1,
+        "command": "ffprobe -v error -count_frames -show_frames -show_entries stream=codec_name,width,height,time_base,nb_read_frames:format=duration:frame=pts_time -of json /home/deist/Downloads/2ndsol/test-results/reader-catchlights/coverage/playback/rover-female-avatar/close-up.mp4",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 117240,
+        "pid": 27,
+        "parent_pid": 1,
+        "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /home/deist/Downloads/2ndsol/test-results/reader-catchlights/coverage/playback/rover-male-stage/close-up.ffconcat -an -c:v libx264 -preset veryfast -crf 14 -pix_fmt yuv420p -enc_time_base 1:1000 -fps_mode vfr -video_track_timescale 1000000 -movflags +faststart /home/deist/Downloads/2ndsol/test-results/reader-catchlights/coverage/playback/rover-male-stage/close-up.mp4",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 118040,
+        "pid": 28,
+        "parent_pid": 1,
+        "command": "ffprobe -v error -count_frames -show_frames -show_entries stream=codec_name,width,height,time_base,nb_read_frames:format=duration:frame=pts_time -of json /home/deist/Downloads/2ndsol/test-results/reader-catchlights/coverage/playback/rover-male-stage/close-up.mp4",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 128940,
+        "pid": 29,
+        "parent_pid": 5,
+        "command": "/usr/lib/chromium/chromium --type=utility --utility-sub-type=unzip.mojom.Unzipper --lang=en-US --service-sandbox-type=service --no-sandbox --disable-dev-shm-usage --use-angle=swiftshader --use-gl=angle --crashpad-handler-pid=2015865 --enable-crash-reporter=,Arch Linux --noerrdialogs --user-data-dir=/tmp/reader-catchlight-coverage-3MbQKF --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18329725933795476771,12480899451337565320,262144 --disable-features=PaintHolding --variations-seed-version --pseudonymization-salt-handle=7,i,433491908529885501,6453486444059379242,4 --trace-process-track-uuid=3190709000367499229",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 128990,
+        "pid": 30,
+        "parent_pid": 5,
+        "command": "/usr/lib/chromium/chromium --type=utility --utility-sub-type=unzip.mojom.Unzipper --lang=en-US --service-sandbox-type=service --no-sandbox --disable-dev-shm-usage --use-angle=swiftshader --use-gl=angle --crashpad-handler-pid=2015865 --enable-crash-reporter=,Arch Linux --noerrdialogs --user-data-dir=/tmp/reader-catchlight-coverage-3MbQKF --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18329725933795476771,12480899451337565320,262144 --disable-features=PaintHolding --variations-seed-version --pseudonymization-salt-handle=7,i,433491908529885501,6453486444059379242,4 --trace-process-track-uuid=3190709001304541078",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 141520,
+        "pid": 31,
+        "parent_pid": 1,
+        "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /home/deist/Downloads/2ndsol/test-results/reader-catchlights/coverage/playback/rover-female-stage/close-up.ffconcat -an -c:v libx264 -preset veryfast -crf 14 -pix_fmt yuv420p -enc_time_base 1:1000 -fps_mode vfr -video_track_timescale 1000000 -movflags +faststart /home/deist/Downloads/2ndsol/test-results/reader-catchlights/coverage/playback/rover-female-stage/close-up.mp4",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 142370,
+        "pid": 32,
+        "parent_pid": 1,
+        "command": "ffprobe -v error -count_frames -show_frames -show_entries stream=codec_name,width,height,time_base,nb_read_frames:format=duration:frame=pts_time -of json /home/deist/Downloads/2ndsol/test-results/reader-catchlights/coverage/playback/rover-female-stage/close-up.mp4",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 157170,
+        "pid": 33,
+        "parent_pid": 1,
+        "command": "ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i /home/deist/Downloads/2ndsol/test-results/reader-catchlights/coverage/playback/ciaccona-natural-blink/close-up.ffconcat -an -c:v libx264 -preset veryfast -crf 14 -pix_fmt yuv420p -enc_time_base 1:1000 -fps_mode vfr -video_track_timescale 1000000 -movflags +faststart /home/deist/Downloads/2ndsol/test-results/reader-catchlights/coverage/playback/ciaccona-natural-blink/close-up.mp4",
+        "process_group_id": 1,
+        "session_id": 1
+      },
+      {
+        "at_ms": 158130,
+        "pid": 34,
+        "parent_pid": 1,
+        "command": "ffprobe -v error -count_frames -show_frames -show_entries stream=codec_name,width,height,time_base,nb_read_frames:format=duration:frame=pts_time -of json /home/deist/Downloads/2ndsol/test-results/reader-catchlights/coverage/playback/ciaccona-natural-blink/close-up.mp4",
+        "process_group_id": 1,
+        "session_id": 1
+      }
+    ],
+    "filesystem_checkpoints": [
+      {
+        "name": "before",
+        "at_ms": 0,
+        "files": [],
+        "effects": [],
+        "truncated": false
+      },
+      {
+        "name": "after_settlement",
+        "at_ms": 158700,
+        "files": [],
+        "effects": [],
+        "truncated": false
+      }
+    ],
+    "event_journal": [
+      {
+        "capture_order": 0,
+        "collection": "filesystem_checkpoints",
+        "index": 0
+      },
+      {
+        "capture_order": 1,
+        "collection": "process_samples",
+        "index": 0
+      },
+      {
+        "capture_order": 2,
+        "collection": "process_samples",
+        "index": 1
+      },
+      {
+        "capture_order": 3,
+        "collection": "process_samples",
+        "index": 2
+      },
+      {
+        "capture_order": 4,
+        "collection": "process_samples",
+        "index": 3
+      },
+      {
+        "capture_order": 5,
+        "collection": "process_samples",
+        "index": 4
+      },
+      {
+        "capture_order": 6,
+        "collection": "process_samples",
+        "index": 5
+      },
+      {
+        "capture_order": 7,
+        "collection": "process_samples",
+        "index": 6
+      },
+      {
+        "capture_order": 8,
+        "collection": "process_samples",
+        "index": 7
+      },
+      {
+        "capture_order": 9,
+        "collection": "process_samples",
+        "index": 8
+      },
+      {
+        "capture_order": 10,
+        "collection": "process_samples",
+        "index": 9
+      },
+      {
+        "capture_order": 11,
+        "collection": "process_samples",
+        "index": 10
+      },
+      {
+        "capture_order": 12,
+        "collection": "process_samples",
+        "index": 11
+      },
+      {
+        "capture_order": 13,
+        "collection": "process_samples",
+        "index": 12
+      },
+      {
+        "capture_order": 14,
+        "collection": "process_samples",
+        "index": 13
+      },
+      {
+        "capture_order": 15,
+        "collection": "process_samples",
+        "index": 14
+      },
+      {
+        "capture_order": 16,
+        "collection": "frames",
+        "index": 0
+      },
+      {
+        "capture_order": 17,
+        "collection": "process_samples",
+        "index": 15
+      },
+      {
+        "capture_order": 18,
+        "collection": "process_samples",
+        "index": 16
+      },
+      {
+        "capture_order": 19,
+        "collection": "frames",
+        "index": 1
+      },
+      {
+        "capture_order": 20,
+        "collection": "frames",
+        "index": 2
+      },
+      {
+        "capture_order": 21,
+        "collection": "process_samples",
+        "index": 17
+      },
+      {
+        "capture_order": 22,
+        "collection": "process_samples",
+        "index": 18
+      },
+      {
+        "capture_order": 23,
+        "collection": "frames",
+        "index": 3
+      },
+      {
+        "capture_order": 24,
+        "collection": "frames",
+        "index": 4
+      },
+      {
+        "capture_order": 25,
+        "collection": "process_samples",
+        "index": 19
+      },
+      {
+        "capture_order": 26,
+        "collection": "process_samples",
+        "index": 20
+      },
+      {
+        "capture_order": 27,
+        "collection": "frames",
+        "index": 5
+      },
+      {
+        "capture_order": 28,
+        "collection": "process_samples",
+        "index": 21
+      },
+      {
+        "capture_order": 29,
+        "collection": "process_samples",
+        "index": 22
+      },
+      {
+        "capture_order": 30,
+        "collection": "frames",
+        "index": 6
+      },
+      {
+        "capture_order": 31,
+        "collection": "frames",
+        "index": 7
+      },
+      {
+        "capture_order": 32,
+        "collection": "process_samples",
+        "index": 23
+      },
+      {
+        "capture_order": 33,
+        "collection": "process_samples",
+        "index": 24
+      },
+      {
+        "capture_order": 34,
+        "collection": "process_samples",
+        "index": 25
+      },
+      {
+        "capture_order": 35,
+        "collection": "frames",
+        "index": 8
+      },
+      {
+        "capture_order": 36,
+        "collection": "frames",
+        "index": 9
+      },
+      {
+        "capture_order": 37,
+        "collection": "process_samples",
+        "index": 26
+      },
+      {
+        "capture_order": 38,
+        "collection": "process_samples",
+        "index": 27
+      },
+      {
+        "capture_order": 39,
+        "collection": "frames",
+        "index": 10
+      },
+      {
+        "capture_order": 40,
+        "collection": "frames",
+        "index": 11
+      },
+      {
+        "capture_order": 41,
+        "collection": "process_samples",
+        "index": 28
+      },
+      {
+        "capture_order": 42,
+        "collection": "process_samples",
+        "index": 29
+      },
+      {
+        "capture_order": 43,
+        "collection": "process_samples",
+        "index": 30
+      },
+      {
+        "capture_order": 44,
+        "collection": "process_samples",
+        "index": 31
+      },
+      {
+        "capture_order": 45,
+        "collection": "frames",
+        "index": 12
+      },
+      {
+        "capture_order": 46,
+        "collection": "frames",
+        "index": 13
+      },
+      {
+        "capture_order": 47,
+        "collection": "process_samples",
+        "index": 32
+      },
+      {
+        "capture_order": 48,
+        "collection": "process_samples",
+        "index": 33
+      },
+      {
+        "capture_order": 49,
+        "collection": "frames",
+        "index": 14
+      },
+      {
+        "capture_order": 50,
+        "collection": "frames",
+        "index": 15
+      },
+      {
+        "capture_order": 51,
+        "collection": "lifecycle",
+        "index": 0
+      },
+      {
+        "capture_order": 52,
+        "collection": "lifecycle",
+        "index": 1
+      },
+      {
+        "capture_order": 53,
+        "collection": "filesystem_checkpoints",
+        "index": 1
+      },
+      {
+        "capture_order": 54,
+        "collection": "rendered_frames",
+        "index": 0
+      },
+      {
+        "capture_order": 55,
+        "collection": "rendered_frames",
+        "index": 1
+      },
+      {
+        "capture_order": 56,
+        "collection": "rendered_frames",
+        "index": 2
+      },
+      {
+        "capture_order": 57,
+        "collection": "rendered_frames",
+        "index": 3
+      },
+      {
+        "capture_order": 58,
+        "collection": "rendered_frames",
+        "index": 4
+      },
+      {
+        "capture_order": 59,
+        "collection": "rendered_frames",
+        "index": 5
+      },
+      {
+        "capture_order": 60,
+        "collection": "rendered_frames",
+        "index": 6
+      },
+      {
+        "capture_order": 61,
+        "collection": "rendered_frames",
+        "index": 7
+      },
+      {
+        "capture_order": 62,
+        "collection": "rendered_frames",
+        "index": 8
+      },
+      {
+        "capture_order": 63,
+        "collection": "rendered_frames",
+        "index": 9
+      },
+      {
+        "capture_order": 64,
+        "collection": "rendered_frames",
+        "index": 10
+      },
+      {
+        "capture_order": 65,
+        "collection": "rendered_frames",
+        "index": 11
+      },
+      {
+        "capture_order": 66,
+        "collection": "rendered_frames",
+        "index": 12
+      },
+      {
+        "capture_order": 67,
+        "collection": "rendered_frames",
+        "index": 13
+      }
+    ],
+    "files_before": [],
+    "files_after": [],
+    "filesystem_effects": [],
+    "truncated": true,
+    "truncation_details": {
+      "raw_terminal": {
+        "budget_bytes": 120000,
+        "observed_bytes": 10685,
+        "retained_bytes": 10685,
+        "observed_frames": 16,
+        "retained_frames": 16
+      },
+      "rendered_terminal": {
+        "budget_bytes": 120000,
+        "observed_bytes": 110031,
+        "retained_bytes": 110031,
+        "observed_frames": 16,
+        "retained_frames": 14,
+        "unknown_size_frames": 2
+      },
+      "normalized_terminal": {
+        "budget_bytes": 120000,
+        "retained_bytes": 10685,
+        "omitted_frames": 0
+      },
+      "filesystem_before": {
+        "files_limit": 10000,
+        "depth_limit": 16,
+        "enumeration_truncated": false,
+        "enumeration_reasons": [],
+        "enumeration_omissions": [],
+        "unobserved_subtrees": [],
+        "hash_budget_bytes": 10000000,
+        "hashed_bytes": 0,
+        "hash_omissions": []
+      },
+      "filesystem_after": {
+        "files_limit": 10000,
+        "depth_limit": 16,
+        "enumeration_truncated": false,
+        "enumeration_reasons": [],
+        "enumeration_omissions": [],
+        "unobserved_subtrees": [],
+        "hash_budget_bytes": 10000000,
+        "hashed_bytes": 0,
+        "hash_omissions": []
+      },
+      "process": {
+        "sample_limit": 60,
+        "sampling_partial": false,
+        "retained_samples": 34,
+        "sample_limit_reached": false,
+        "sampling_failures": 0,
+        "first_sampling_failure": null,
+        "coverage": "sampled"
+      }
+    },
+    "limitations": [
+      "The executable digest is a prelaunch file sample; matching path metadata immediately after spawn does not prove an atomic operating-system image binding.",
+      "Process trees are sampled and may omit short-lived descendants.",
+      "Filesystem observations are before/after snapshots, not syscall traces.",
+      "Inherited host environment variables are not recorded and may affect results.",
+      "No filesystem observation paths were selected; filesystem effects remain unknown.",
+      "Cumulative rendered state and visible-line bytes exceeded output_bytes; whole rendered frames were omitted. Raw PTY coverage is reported separately. See truncation_details.rendered_terminal."
+    ],
+    "residual_unknowns": [
+      {
+        "scope": "process",
+        "reason": "Process trees are sampled and may omit short-lived descendants."
+      },
+      {
+        "scope": "process",
+        "reason": "The executable digest is a prelaunch file sample; operating-system image binding is not atomically observed."
+      },
+      {
+        "scope": "environment",
+        "reason": "Inherited host environment variables are not recorded."
+      },
+      {
+        "scope": "network",
+        "reason": "Network activity is not observed by this capture."
+      },
+      {
+        "scope": "filesystem",
+        "reason": "No filesystem observation paths were selected; filesystem effects remain unknown."
+      },
+      {
+        "scope": "process",
+        "reason": "Ownership of unrelated process 2016139 could not be verified; it was left untouched: EACCES: permission denied, open '/proc/2016139/environ'"
+      },
+      {
+        "scope": "process",
+        "reason": "Ownership of unrelated process 2016553 could not be verified; it was left untouched: EACCES: permission denied, open '/proc/2016553/environ'"
+      },
+      {
+        "scope": "process",
+        "reason": "Ownership of unrelated process 2016640 could not be verified; it was left untouched: EACCES: permission denied, open '/proc/2016640/environ'"
+      },
+      {
+        "scope": "process",
+        "reason": "Ownership of unrelated process 2016679 could not be verified; it was left untouched: EACCES: permission denied, open '/proc/2016679/environ'"
+      },
+      {
+        "scope": "process",
+        "reason": "Ownership of unrelated process 2016777 could not be verified; it was left untouched: EACCES: permission denied, open '/proc/2016777/environ'"
+      },
+      {
+        "scope": "process",
+        "reason": "Ownership of unrelated process 2016865 could not be verified; it was left untouched: EACCES: permission denied, open '/proc/2016865/environ'"
+      },
+      {
+        "scope": "process",
+        "reason": "Ownership of unrelated process 2017938 could not be verified; it was left untouched: EACCES: permission denied, open '/proc/2017938/environ'"
+      }
+    ],
+    "cleanup": {
+      "owned_process_group": "verified",
+      "temporary_root": "removed",
+      "unverified_processes": [
+        {
+          "pid": 2016139,
+          "reason": "EACCES: permission denied, open '/proc/2016139/environ'"
+        },
+        {
+          "pid": 2016553,
+          "reason": "EACCES: permission denied, open '/proc/2016553/environ'"
+        },
+        {
+          "pid": 2016640,
+          "reason": "EACCES: permission denied, open '/proc/2016640/environ'"
+        },
+        {
+          "pid": 2016679,
+          "reason": "EACCES: permission denied, open '/proc/2016679/environ'"
+        },
+        {
+          "pid": 2016777,
+          "reason": "EACCES: permission denied, open '/proc/2016777/environ'"
+        },
+        {
+          "pid": 2016865,
+          "reason": "EACCES: permission denied, open '/proc/2016865/environ'"
+        },
+        {
+          "pid": 2017938,
+          "reason": "EACCES: permission denied, open '/proc/2017938/environ'"
+        }
+      ]
+    }
+  },
+  "confidence": "observed",
+  "authority": "controlled-replay",
+  "environment": {
+    "id": "linux-x64",
+    "platform": "linux",
+    "architecture": "x64",
+    "isolation": "process"
+  },
+  "limitations": [
+    "Artifact identity is unavailable for this observation.",
+    "The executable digest is a prelaunch file sample; matching path metadata immediately after spawn does not prove an atomic operating-system image binding.",
+    "Process trees are sampled and may omit short-lived descendants.",
+    "Filesystem observations are before/after snapshots, not syscall traces.",
+    "Inherited host environment variables are not recorded and may affect results.",
+    "No filesystem observation paths were selected; filesystem effects remain unknown.",
+    "Cumulative rendered state and visible-line bytes exceeded output_bytes; whole rendered frames were omitted. Raw PTY coverage is reported separately. See truncation_details.rendered_terminal."
+  ],
+  "relationship_coverage": null,
+  "locations": [],
+  "evidence_links": []
+}

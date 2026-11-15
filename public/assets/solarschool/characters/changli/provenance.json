@@ -1,0 +1,19 @@
+{
+  "talkerId": 850006,
+  "runtime": {
+    "package": "@esotericsoftware/spine-player",
+    "version": "4.1.56",
+    "source": "Locally supplied official npm IIFE bundle",
+    "license": "SPINE-LICENSE.txt"
+  },
+  "skeletonVersion": "4.1.23",
+  "sourceDirectory": "asset-work/changli-proof/webp-preview",
+  "texture": {
+    "file": "SolarSchool_Changli.png",
+    "origin": "Decoded earlier from SolarSchool_Changli.webp; not a game texture export",
+    "sourceWebp": "asset-work/changli-proof/webp-preview/SolarSchool_Changli.webp",
+    "earlierEvidence": "asset-work/changli-proof/webp-preview/candidate-checks.json",
+    "conversionRepeated": false
+  },
+  "placement": "Provisional; centralized in src/spine/ChangliCalibration.ts"
+}

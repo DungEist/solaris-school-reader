@@ -1,0 +1,1092 @@
+{
+  "description": "Controlled REA/browser reproduction inputs. No game-state defaults or game data are included.",
+  "desktop": {
+    "start_url": {
+      "url": "http://127.0.0.1:5173/",
+      "query": [
+        {
+          "name": "script",
+          "value": {
+            "source": "literal",
+            "value": "1004"
+          }
+        }
+      ]
+    },
+    "actions": [
+      {
+        "step_id": "ready",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"start\"]:not([disabled])"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "start",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"start\"]"
+        },
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "hidden",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"runner-state\"][data-nid=\"1\"][data-run-id=\"1\"][data-status=\"choices\"]"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "reveal",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"advance\"]"
+        },
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "guard",
+        "action": "wait_for_timeout",
+        "duration_ms": 250
+      },
+      {
+        "step_id": "settings",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"settings\"]"
+        },
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "name_enter",
+        "action": "press",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"player-name\"]"
+        },
+        "key": "Enter",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "settings_no_navigation",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"runner-state\"][data-nid=\"1\"][data-run-id=\"1\"]"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "settings_escape",
+        "action": "press",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"settings-close\"]"
+        },
+        "key": "Escape",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "history",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"history\"]"
+        },
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "history_space",
+        "action": "press",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"history-scroll\"]"
+        },
+        "key": "Space",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "history_no_navigation",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"runner-state\"][data-nid=\"1\"][data-run-id=\"1\"]"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "history_escape",
+        "action": "press",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"history-close\"]"
+        },
+        "key": "Escape",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "developer",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"switch-view\"]"
+        },
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "same_engine_debug",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"interface\"][data-interface=\"developer\"] [data-testid=\"runner-state\"][data-run-id=\"1\"][data-nid=\"1\"]"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "override",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"hidden-choice-override\"][data-option-index=\"0\"]"
+        },
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "option_timing",
+        "action": "wait_for_timeout",
+        "duration_ms": 400
+      },
+      {
+        "step_id": "branch_node2",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"runner-state\"][data-run-id=\"1\"][data-nid=\"2\"]"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "reader",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"switch-view\"]"
+        },
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "same_engine_reader",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"interface\"][data-interface=\"reader\"] [data-testid=\"runner-state\"][data-run-id=\"1\"][data-nid=\"2\"]"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "history_after_branch",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"history\"]"
+        },
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "two_dialogue_entries",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"history-entry\"]:nth-child(2)"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "history_final_escape",
+        "action": "press",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"history-close\"]"
+        },
+        "key": "Escape",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "restart",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"restart\"]"
+        },
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "restart_new_run",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"runner-state\"][data-run-id=\"2\"][data-nid=\"1\"]"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      }
+    ]
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "start_url": {
+      "url": "http://127.0.0.1:5173/",
+      "query": [
+        {
+          "name": "script",
+          "value": {
+            "source": "literal",
+            "value": "17048"
+          }
+        }
+      ]
+    },
+    "actions": [
+      {
+        "step_id": "ready",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"start\"]:not([disabled])"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "settings",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"settings\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "instant_text",
+        "action": "check",
+        "locator": {
+          "kind": "test_id",
+          "value": "instant-text"
+        },
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "settings_close",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"settings-close\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "start",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"start\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "first_line",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"runner-state\"][data-run-id=\"1\"][data-nid=\"1\"][data-text-complete=\"true\"]"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "advance_to_choices",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"advance\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "guard",
+        "action": "wait_for_timeout",
+        "duration_ms": 250
+      },
+      {
+        "step_id": "choices",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"runner-state\"][data-run-id=\"1\"][data-nid=\"2\"][data-status=\"choices\"]"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "finish_talk_rapid",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"choice\"][data-option-id=\"5\"]"
+        },
+        "click_count": 2,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "finished",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"runner-state\"][data-run-id=\"1\"][data-status=\"completed\"]"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "debug",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"switch-view\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "same_completed_run",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"debug-choice-count\"]"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "select_item_script",
+        "action": "select_option",
+        "locator": {
+          "kind": "test_id",
+          "value": "script-select"
+        },
+        "value": {
+          "source": "literal",
+          "value": "4015"
+        },
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "start_fresh",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"start\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "grant_guard_0",
+        "action": "wait_for_timeout",
+        "duration_ms": 250
+      },
+      {
+        "step_id": "grant_advance_0",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"advance\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "grant_guard_1",
+        "action": "wait_for_timeout",
+        "duration_ms": 250
+      },
+      {
+        "step_id": "grant_advance_1",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"advance\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "grant_guard_2",
+        "action": "wait_for_timeout",
+        "duration_ms": 250
+      },
+      {
+        "step_id": "grant_advance_2",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"advance\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "grant_guard_3",
+        "action": "wait_for_timeout",
+        "duration_ms": 250
+      },
+      {
+        "step_id": "grant_advance_3",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"advance\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "grant_guard_4",
+        "action": "wait_for_timeout",
+        "duration_ms": 250
+      },
+      {
+        "step_id": "grant_advance_4",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"advance\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "grant_guard_5",
+        "action": "wait_for_timeout",
+        "duration_ms": 250
+      },
+      {
+        "step_id": "grant_advance_5",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"advance\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "granted_item",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"runner-state\"][data-run-id=\"2\"][data-nid=\"7\"]"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "select_hidden_script",
+        "action": "select_option",
+        "locator": {
+          "kind": "test_id",
+          "value": "script-select"
+        },
+        "value": {
+          "source": "literal",
+          "value": "1004"
+        },
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "preserve_state",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"continue-script\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "same_state_hidden",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"runner-state\"][data-run-id=\"3\"][data-nid=\"1\"][data-status=\"choices\"]"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "restart_checkpoint",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"restart\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "restart_checkpoint_run",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"runner-state\"][data-run-id=\"4\"][data-nid=\"1\"][data-status=\"choices\"]"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "reader",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"switch-view\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "reader_preserves_run",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"interface\"][data-interface=\"reader\"] [data-testid=\"runner-state\"][data-run-id=\"4\"][data-nid=\"1\"]"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "portraits_settle",
+        "action": "wait_for_timeout",
+        "duration_ms": 650
+      }
+    ]
+  },
+  "quiz": {
+    "start_url": {
+      "url": "http://127.0.0.1:5173/",
+      "query": [
+        {
+          "name": "script",
+          "value": {
+            "source": "literal",
+            "value": "7025"
+          }
+        }
+      ]
+    },
+    "actions": [
+      {
+        "step_id": "ready",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"start\"]:not([disabled])"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "settings_initial",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"settings\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "instant_text",
+        "action": "check",
+        "locator": {
+          "kind": "test_id",
+          "value": "instant-text"
+        },
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "settings_close",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"settings-close\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "start",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"start\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "guard_0",
+        "action": "wait_for_timeout",
+        "duration_ms": 250
+      },
+      {
+        "step_id": "advance_0",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"advance\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "guard_1",
+        "action": "wait_for_timeout",
+        "duration_ms": 250
+      },
+      {
+        "step_id": "advance_1",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"advance\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "guard_2",
+        "action": "wait_for_timeout",
+        "duration_ms": 250
+      },
+      {
+        "step_id": "advance_2",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"advance\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "guard_3",
+        "action": "wait_for_timeout",
+        "duration_ms": 250
+      },
+      {
+        "step_id": "advance_3",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"advance\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "guard_4",
+        "action": "wait_for_timeout",
+        "duration_ms": 250
+      },
+      {
+        "step_id": "advance_4",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"advance\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "guard_5",
+        "action": "wait_for_timeout",
+        "duration_ms": 250
+      },
+      {
+        "step_id": "advance_5",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"advance\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "guard_6",
+        "action": "wait_for_timeout",
+        "duration_ms": 250
+      },
+      {
+        "step_id": "advance_6",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"advance\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "quiz1",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"quiz\"][data-quiz-id=\"1\"][data-phase=\"question\"]"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "history",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"history\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "history_enter",
+        "action": "press",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"history-scroll\"]"
+        },
+        "key": "Enter",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "quiz_unchanged_history",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"quiz\"][data-quiz-id=\"1\"][data-phase=\"question\"]"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "history_escape",
+        "action": "press",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"history-close\"]"
+        },
+        "key": "Escape",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "settings_quiz",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"settings\"]"
+        },
+        "click_count": 1,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "settings_enter",
+        "action": "press",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"player-name\"]"
+        },
+        "key": "Enter",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "quiz_unchanged_settings",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"quiz\"][data-quiz-id=\"1\"][data-phase=\"question\"]"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "settings_escape",
+        "action": "press",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"settings-close\"]"
+        },
+        "key": "Escape",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "guard_answers",
+        "action": "wait_for_timeout",
+        "duration_ms": 300
+      },
+      {
+        "step_id": "answer1",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"quiz-answer\"][data-answer-id=\"1\"]"
+        },
+        "click_count": 2,
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "result1",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"quiz-result\"][data-result=\"correct\"]"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "guard_continue1",
+        "action": "wait_for_timeout",
+        "duration_ms": 250
+      },
+      {
+        "step_id": "continue1",
+        "action": "click",
+        "locator": {
+          "kind": "test_id",
+          "value": "quiz-continue"
+        },
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "quiz2",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"quiz\"][data-quiz-id=\"2\"][data-phase=\"question\"]"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "guard_answer2",
+        "action": "wait_for_timeout",
+        "duration_ms": 250
+      },
+      {
+        "step_id": "answer2",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"quiz-answer\"][data-answer-id=\"5\"]"
+        },
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "guard_continue2",
+        "action": "wait_for_timeout",
+        "duration_ms": 250
+      },
+      {
+        "step_id": "continue2",
+        "action": "click",
+        "locator": {
+          "kind": "test_id",
+          "value": "quiz-continue"
+        },
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "quiz3",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"quiz\"][data-quiz-id=\"3\"][data-phase=\"question\"]"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "guard_answer3",
+        "action": "wait_for_timeout",
+        "duration_ms": 250
+      },
+      {
+        "step_id": "answer3",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"quiz-answer\"][data-answer-id=\"9\"]"
+        },
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "result3",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"quiz-result\"][data-result=\"correct\"]"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "guard_continue3",
+        "action": "wait_for_timeout",
+        "duration_ms": 250
+      }
+    ]
+  },
+  "longText": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "start_url": {
+      "url": "http://127.0.0.1:5173/debug",
+      "query": [
+        {
+          "name": "script",
+          "value": {
+            "source": "literal",
+            "value": "1051"
+          }
+        }
+      ]
+    },
+    "actions": [
+      {
+        "step_id": "debug_route",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"interface\"][data-interface=\"developer\"]"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "catalog",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"start\"]:not([disabled])"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "instant_text",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"instant-text\"]"
+        },
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "start",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"start\"]"
+        },
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "long_first_line",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"runner-state\"][data-nid=\"1\"][data-text-complete=\"true\"]"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "reader",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"switch-view\"]"
+        },
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "same_run_reader",
+        "action": "wait_for",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"interface\"][data-interface=\"reader\"] [data-testid=\"runner-state\"][data-run-id=\"1\"][data-nid=\"1\"]"
+        },
+        "state": "visible",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "settings",
+        "action": "click",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"settings\"]"
+        },
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "settings_tab",
+        "action": "press",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"settings-close\"]"
+        },
+        "key": "Tab",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "settings_escape",
+        "action": "press",
+        "locator": {
+          "kind": "css",
+          "selector": "[data-testid=\"player-name\"]"
+        },
+        "key": "Escape",
+        "timeout_ms": 8000
+      },
+      {
+        "step_id": "input_guard",
+        "action": "wait_for_timeout",
+        "duration_ms": 300
+      }
+    ]
+  }
+}

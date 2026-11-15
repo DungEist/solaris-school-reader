@@ -1,0 +1,47 @@
+{
+  "talkerId": 700009,
+  "name": "Roccia",
+  "skeletonVersion": "4.1.23",
+  "sourceAtlas": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Luokeke/SolarSchool_Luokeke.SolarSchool_Luokeke-atlas",
+  "sourceSkeleton": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Luokeke/SolarSchool_Luokeke.SolarSchool_Luokeke-data",
+  "sourceArchive": "/game/SteamLibrary/steamapps/common/Wuthering Waves/Wuthering Waves Game/Client/Content/Paks/pakchunk7-WindowsNoEditor.pak",
+  "members": [
+    "../../../Client/Content/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Luokeke/SolarSchool_Luokeke.uasset",
+    "../../../Client/Content/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Luokeke/SolarSchool_Luokeke.uexp"
+  ],
+  "archiveIndexHashes": {
+    "primary_index_sha1": "9a1e5dbec896904f03bc7f0858c78065b5f9d36b",
+    "directory_index_sha1": "3f4cd33025cfe669d7373b582ed319966b503628"
+  },
+  "extractionHelpers": "/tmp/solarschool-changli-inspection-NKHWT5",
+  "helperHashes": {
+    "inspect_changli.py": "f529926159db8012b5d36758cb150fbccdf77a2790246e5bd04856f1f3ac43f5",
+    "extract_changli.py": "e55a20c0d10aa14c7aafa0ae119cbad51b202814933ccee6fdf58fb3e3071ad0",
+    "inspect_spine_package.py": "fbafa1ef6bbbbb14dc3875465f3fed91d704e1ffda9e2f0b4cdaf1b40aa3278e"
+  },
+  "runtime": {
+    "file": "../changli/spine-player.js",
+    "version": "4.1.56",
+    "license": "../changli/SPINE-LICENSE.txt"
+  },
+  "texture": {
+    "file": "SolarSchool_Luokeke.webp",
+    "sourceWebp": "WW_Asset_Webp/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Luokeke/SolarSchool_Luokeke.webp",
+    "origin": "Existing local WW_Asset_Webp bytes, used directly; not a game texture export",
+    "dimensions": [
+      4096,
+      4096
+    ],
+    "sourceSha256": "2f860f64513f9a71050fe698432a74d4e35c5bddc4d2bce77dfe586295ae06c3",
+    "atlasPage": "SolarSchool_Luokeke.png",
+    "atlasDimensionsVerified": true,
+    "storage": "hardlink to existing cache"
+  },
+  "placement": "Provisional, fixed reference pose; generated SchoolPortraitCatalog.ts",
+  "sha256": {
+    "SolarSchool_Luokeke.atlas": "0641695cf7667aedd4cd6f60e1d49846dfa119b33960adcd7c08d9962be55f17",
+    "SolarSchool_Luokeke.skel": "dbe432797c6bdd63a5e9bb0a9a5421bac5e685599dde389f138d81fb5945e01f",
+    "SolarSchool_Luokeke.webp": "2f860f64513f9a71050fe698432a74d4e35c5bddc4d2bce77dfe586295ae06c3",
+    "roccia.animation-metadata.json": "c3aaca559581fb707917d6ceff52abf8c9438566175ec44ca5fea64b4642a862"
+  }
+}

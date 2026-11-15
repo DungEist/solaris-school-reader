@@ -1,0 +1,303 @@
+{
+  "talker_id": 700001,
+  "spine_version": "4.1.23",
+  "dataset_animation_rows": [
+    {
+      "Id": 700001,
+      "AvgTalkerId": 700001,
+      "AnimationName": "张手站（帽）-正常表情",
+      "BodyAnimation": "dongzuo1_maozi",
+      "MouthAnimation": "dongzuo1_zhengchang_bizui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_zhengchang_zhengyan",
+      "BlinkAnimation": "dongzuo1_zhengchang_zhayan"
+    },
+    {
+      "Id": 700002,
+      "AvgTalkerId": 700001,
+      "AnimationName": "张手站（帽）-得意",
+      "BodyAnimation": "dongzuo1_maozi",
+      "MouthAnimation": "dongzuo1_deyi_zui",
+      "MouthOpenSmallAnimation": "dongzuo1_kaixin_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_kaixin_zhangzui2",
+      "EyeAnimation": "dongzuo1_deyi",
+      "BlinkAnimation": ""
+    },
+    {
+      "Id": 700013,
+      "AvgTalkerId": 700001,
+      "AnimationName": "张手站（帽）-开心",
+      "BodyAnimation": "dongzuo1_maozi",
+      "MouthAnimation": "dongzuo1_zhengchang_bizui",
+      "MouthOpenSmallAnimation": "dongzuo1_kaixin_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_kaixin_zhangzui2",
+      "EyeAnimation": "dongzuo1_kaixin_zhengyan",
+      "BlinkAnimation": "dongzuo1_kaixin_zhayan"
+    },
+    {
+      "Id": 700014,
+      "AvgTalkerId": 700001,
+      "AnimationName": "张手站（帽）-迷糊",
+      "BodyAnimation": "dongzuo1_maozi",
+      "MouthAnimation": "dongzuo1_mihu_zui",
+      "MouthOpenSmallAnimation": "dongzuo1_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo1_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo1_mihu",
+      "BlinkAnimation": ""
+    },
+    {
+      "Id": 700015,
+      "AvgTalkerId": 700001,
+      "AnimationName": "托腮站-感动",
+      "BodyAnimation": "dongzuo2_wumao",
+      "MouthAnimation": "dongzuo2_gandong_zui",
+      "MouthOpenSmallAnimation": "",
+      "MouthOpenLargeAnimation": "",
+      "EyeAnimation": "dongzuo2_gandong_zhengyan",
+      "BlinkAnimation": "dongzuo2_gandong_zhayan"
+    },
+    {
+      "Id": 700016,
+      "AvgTalkerId": 700001,
+      "AnimationName": "托腮站-思考",
+      "BodyAnimation": "dongzuo2_wumao",
+      "MouthAnimation": "dongzuo2_sikao_zui",
+      "MouthOpenSmallAnimation": "",
+      "MouthOpenLargeAnimation": "",
+      "EyeAnimation": "dongzuo2_sikao_zhengyan",
+      "BlinkAnimation": "dongzuo2_sikao_zhayan"
+    },
+    {
+      "Id": 700017,
+      "AvgTalkerId": 700001,
+      "AnimationName": "托腮站-得意",
+      "BodyAnimation": "dongzuo2_wumao",
+      "MouthAnimation": "dongzuo2_deyi_zui",
+      "MouthOpenSmallAnimation": "dongzuo2_kaixin_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo2_kaixin_zhangzui2",
+      "EyeAnimation": "dongzuo2_deyi",
+      "BlinkAnimation": ""
+    },
+    {
+      "Id": 700018,
+      "AvgTalkerId": 700001,
+      "AnimationName": "托腮站-严肃",
+      "BodyAnimation": "dongzuo2_wumao",
+      "MouthAnimation": "dongzuo2_yansu_zui",
+      "MouthOpenSmallAnimation": "dongzuo2_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo2_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo2_yansu_zhengyan",
+      "BlinkAnimation": "dongzuo2_yansu_zhayan"
+    },
+    {
+      "Id": 700019,
+      "AvgTalkerId": 700001,
+      "AnimationName": "托腮站-迷糊",
+      "BodyAnimation": "dongzuo2_wumao",
+      "MouthAnimation": "dongzuo2_mihu_zui",
+      "MouthOpenSmallAnimation": "dongzuo2_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo2_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo2_mihu",
+      "BlinkAnimation": ""
+    },
+    {
+      "Id": 700020,
+      "AvgTalkerId": 700001,
+      "AnimationName": "托腮站-苦恼",
+      "BodyAnimation": "dongzuo2_wumao",
+      "MouthAnimation": "dongzuo2_kunao_zui",
+      "MouthOpenSmallAnimation": "dongzuo2_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo2_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo2_kunao_zhengyan",
+      "BlinkAnimation": "dongzuo2_kunao_zhayan"
+    },
+    {
+      "Id": 700021,
+      "AvgTalkerId": 700001,
+      "AnimationName": "自然站-感动",
+      "BodyAnimation": "dongzuo3_wumao",
+      "MouthAnimation": "dongzuo2_gandong_zui",
+      "MouthOpenSmallAnimation": "",
+      "MouthOpenLargeAnimation": "",
+      "EyeAnimation": "dongzuo2_gandong_zhengyan",
+      "BlinkAnimation": "dongzuo2_gandong_zhayan"
+    },
+    {
+      "Id": 700022,
+      "AvgTalkerId": 700001,
+      "AnimationName": "自然站-严肃",
+      "BodyAnimation": "dongzuo3_wumao",
+      "MouthAnimation": "dongzuo2_yansu_zui",
+      "MouthOpenSmallAnimation": "dongzuo2_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo2_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo2_yansu_zhengyan",
+      "BlinkAnimation": "dongzuo2_yansu_zhayan"
+    },
+    {
+      "Id": 700023,
+      "AvgTalkerId": 700001,
+      "AnimationName": "自然站-苦恼",
+      "BodyAnimation": "dongzuo3_wumao",
+      "MouthAnimation": "dongzuo2_kunao_zui",
+      "MouthOpenSmallAnimation": "dongzuo2_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo2_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo2_kunao_zhengyan",
+      "BlinkAnimation": "dongzuo2_kunao_zhayan"
+    },
+    {
+      "Id": 700024,
+      "AvgTalkerId": 700001,
+      "AnimationName": "自然站-得意",
+      "BodyAnimation": "dongzuo3_wumao",
+      "MouthAnimation": "dongzuo2_deyi_zui",
+      "MouthOpenSmallAnimation": "dongzuo2_kaixin_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo2_kaixin_zhangzui2",
+      "EyeAnimation": "dongzuo2_deyi",
+      "BlinkAnimation": ""
+    },
+    {
+      "Id": 700025,
+      "AvgTalkerId": 700001,
+      "AnimationName": "挥手站（帽）-迷糊",
+      "BodyAnimation": "dongzuo4_maozi",
+      "MouthAnimation": "dongzuo2_mihu_zui",
+      "MouthOpenSmallAnimation": "dongzuo2_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo2_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo2_mihu",
+      "BlinkAnimation": ""
+    },
+    {
+      "Id": 700026,
+      "AvgTalkerId": 700001,
+      "AnimationName": "挥手站（帽）-得意",
+      "BodyAnimation": "dongzuo4_maozi",
+      "MouthAnimation": "dongzuo2_deyi_zui",
+      "MouthOpenSmallAnimation": "dongzuo2_kaixin_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo2_kaixin_zhangzui2",
+      "EyeAnimation": "dongzuo2_deyi",
+      "BlinkAnimation": ""
+    },
+    {
+      "Id": 700027,
+      "AvgTalkerId": 700001,
+      "AnimationName": "挥手站（帽）-开心",
+      "BodyAnimation": "dongzuo4_maozi",
+      "MouthAnimation": "dongzuo2_zhengchang_bizui",
+      "MouthOpenSmallAnimation": "dongzuo2_kaixin_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo2_kaixin_zhangzui2",
+      "EyeAnimation": "dongzuo2_kaixin_zhengyan",
+      "BlinkAnimation": "dongzuo2_kaixin_zhayan"
+    },
+    {
+      "Id": 700028,
+      "AvgTalkerId": 700001,
+      "AnimationName": "掩嘴站（帽）-感动",
+      "BodyAnimation": "dongzuo5_maozi",
+      "MouthAnimation": "dongzuo2_gandong_zui",
+      "MouthOpenSmallAnimation": "",
+      "MouthOpenLargeAnimation": "",
+      "EyeAnimation": "dongzuo2_gandong_zhengyan",
+      "BlinkAnimation": "dongzuo2_gandong_zhayan"
+    },
+    {
+      "Id": 700029,
+      "AvgTalkerId": 700001,
+      "AnimationName": "掩嘴站（帽）-思考",
+      "BodyAnimation": "dongzuo5_maozi",
+      "MouthAnimation": "dongzuo2_sikao_zui",
+      "MouthOpenSmallAnimation": "",
+      "MouthOpenLargeAnimation": "",
+      "EyeAnimation": "dongzuo2_sikao_zhengyan",
+      "BlinkAnimation": "dongzuo2_sikao_zhayan"
+    },
+    {
+      "Id": 700030,
+      "AvgTalkerId": 700001,
+      "AnimationName": "掩嘴站（帽）-得意",
+      "BodyAnimation": "dongzuo5_maozi",
+      "MouthAnimation": "dongzuo2_deyi_zui",
+      "MouthOpenSmallAnimation": "dongzuo2_kaixin_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo2_kaixin_zhangzui2",
+      "EyeAnimation": "dongzuo2_deyi",
+      "BlinkAnimation": ""
+    },
+    {
+      "Id": 700031,
+      "AvgTalkerId": 700001,
+      "AnimationName": "掩嘴站（帽）-严肃",
+      "BodyAnimation": "dongzuo5_maozi",
+      "MouthAnimation": "dongzuo2_yansu_zui",
+      "MouthOpenSmallAnimation": "dongzuo2_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo2_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo2_yansu_zhengyan",
+      "BlinkAnimation": "dongzuo2_yansu_zhayan"
+    },
+    {
+      "Id": 700032,
+      "AvgTalkerId": 700001,
+      "AnimationName": "掩嘴站（帽）-迷糊",
+      "BodyAnimation": "dongzuo5_maozi",
+      "MouthAnimation": "dongzuo2_mihu_zui",
+      "MouthOpenSmallAnimation": "dongzuo2_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo2_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo2_mihu",
+      "BlinkAnimation": ""
+    },
+    {
+      "Id": 700033,
+      "AvgTalkerId": 700001,
+      "AnimationName": "掩嘴站（帽）-苦恼",
+      "BodyAnimation": "dongzuo5_maozi",
+      "MouthAnimation": "dongzuo2_kunao_zui",
+      "MouthOpenSmallAnimation": "dongzuo2_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo2_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo2_kunao_zhengyan",
+      "BlinkAnimation": "dongzuo2_kunao_zhayan"
+    },
+    {
+      "Id": 700034,
+      "AvgTalkerId": 700001,
+      "AnimationName": "自然站（帽）-感动",
+      "BodyAnimation": "dongzuo6_maozi",
+      "MouthAnimation": "dongzuo2_gandong_zui",
+      "MouthOpenSmallAnimation": "",
+      "MouthOpenLargeAnimation": "",
+      "EyeAnimation": "dongzuo2_gandong_zhengyan",
+      "BlinkAnimation": "dongzuo2_gandong_zhayan"
+    },
+    {
+      "Id": 700035,
+      "AvgTalkerId": 700001,
+      "AnimationName": "自然站（帽）-严肃",
+      "BodyAnimation": "dongzuo6_maozi",
+      "MouthAnimation": "dongzuo2_yansu_zui",
+      "MouthOpenSmallAnimation": "dongzuo2_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo2_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo2_yansu_zhengyan",
+      "BlinkAnimation": "dongzuo2_yansu_zhayan"
+    },
+    {
+      "Id": 700036,
+      "AvgTalkerId": 700001,
+      "AnimationName": "自然站（帽）-苦恼",
+      "BodyAnimation": "dongzuo6_maozi",
+      "MouthAnimation": "dongzuo2_kunao_zui",
+      "MouthOpenSmallAnimation": "dongzuo2_zhengchang_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo2_zhengchang_zhangzui2",
+      "EyeAnimation": "dongzuo2_kunao_zhengyan",
+      "BlinkAnimation": "dongzuo2_kunao_zhayan"
+    },
+    {
+      "Id": 700037,
+      "AvgTalkerId": 700001,
+      "AnimationName": "自然站（帽）-得意",
+      "BodyAnimation": "dongzuo6_maozi",
+      "MouthAnimation": "dongzuo2_deyi_zui",
+      "MouthOpenSmallAnimation": "dongzuo2_kaixin_zhangzui1",
+      "MouthOpenLargeAnimation": "dongzuo2_kaixin_zhangzui2",
+      "EyeAnimation": "dongzuo2_deyi",
+      "BlinkAnimation": ""
+    }
+  ]
+}

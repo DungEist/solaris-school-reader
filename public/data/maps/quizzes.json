@@ -1,0 +1,2114 @@
+[
+ {
+  "id": 1,
+  "actionId": 7003,
+  "titleKey": "SolarSchool_Examtitle_1",
+  "questionKey": "SolarSchool_Examevent_1",
+  "illustration": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2001.T_IconSolarSchoolExam2001",
+  "answers": [
+   {
+    "id": 1,
+    "textKey": "SolarSchool_Examans_1_1",
+    "correct": true,
+    "raw": {
+     "Id": 1,
+     "GroupId": 1,
+     "IsCorrect": true,
+     "TextKey": "SolarSchool_Examans_1_1"
+    }
+   },
+   {
+    "id": 2,
+    "textKey": "SolarSchool_Examans_1_2",
+    "correct": false,
+    "raw": {
+     "Id": 2,
+     "GroupId": 1,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_1_2"
+    }
+   },
+   {
+    "id": 3,
+    "textKey": "SolarSchool_Examans_1_3",
+    "correct": false,
+    "raw": {
+     "Id": 3,
+     "GroupId": 1,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_1_3"
+    }
+   }
+  ],
+  "addScore": 1,
+  "resultHoldMs": 1500,
+  "raw": {
+   "question": {
+    "Id": 1,
+    "ChoiceGroupId": 1,
+    "Title": "SolarSchool_Examtitle_1",
+    "Desc": "SolarSchool_Examevent_1",
+    "Image": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2001.T_IconSolarSchoolExam2001",
+    "AddScore": 1
+   },
+   "action": {
+    "Id": 7003,
+    "ActionType": 8,
+    "ActionParams": [
+     {
+      "Key": "Id",
+      "Value": "1"
+     }
+    ],
+    "Priority": 0
+   },
+   "actionType": {
+    "Id": 8,
+    "TypeName": "第二索拉考试选项",
+    "Category": 1,
+    "StopUltraFastForward": true
+   },
+   "resultParameters": [
+    {
+     "Id": 15,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4011,
+      4012
+     ],
+     "Comments": "男主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 16,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4021,
+      4022,
+      4023
+     ],
+     "Comments": "男主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 18,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4041,
+      4042
+     ],
+     "Comments": "女主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 19,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4051,
+      4052,
+      4053
+     ],
+     "Comments": "女主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 25,
+     "ActivityId": 111700001,
+     "Key": "ExamResultHoldDuration",
+     "IntValue": 1500,
+     "StringValue": "",
+     "IntArrayValue": [],
+     "Comments": "考试答题结果揭晓后的停留时长(ms)"
+    }
+   ]
+  }
+ },
+ {
+  "id": 2,
+  "actionId": 7004,
+  "titleKey": "SolarSchool_Examtitle_1",
+  "questionKey": "SolarSchool_Examevent_2",
+  "illustration": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2002.T_IconSolarSchoolExam2002",
+  "answers": [
+   {
+    "id": 4,
+    "textKey": "SolarSchool_Examans_2_1",
+    "correct": false,
+    "raw": {
+     "Id": 4,
+     "GroupId": 2,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_2_1"
+    }
+   },
+   {
+    "id": 5,
+    "textKey": "SolarSchool_Examans_2_2",
+    "correct": true,
+    "raw": {
+     "Id": 5,
+     "GroupId": 2,
+     "IsCorrect": true,
+     "TextKey": "SolarSchool_Examans_2_2"
+    }
+   },
+   {
+    "id": 6,
+    "textKey": "SolarSchool_Examans_2_3",
+    "correct": false,
+    "raw": {
+     "Id": 6,
+     "GroupId": 2,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_2_3"
+    }
+   }
+  ],
+  "addScore": 1,
+  "resultHoldMs": 1500,
+  "raw": {
+   "question": {
+    "Id": 2,
+    "ChoiceGroupId": 2,
+    "Title": "SolarSchool_Examtitle_1",
+    "Desc": "SolarSchool_Examevent_2",
+    "Image": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2002.T_IconSolarSchoolExam2002",
+    "AddScore": 1
+   },
+   "action": {
+    "Id": 7004,
+    "ActionType": 8,
+    "ActionParams": [
+     {
+      "Key": "Id",
+      "Value": "2"
+     }
+    ],
+    "Priority": 0
+   },
+   "actionType": {
+    "Id": 8,
+    "TypeName": "第二索拉考试选项",
+    "Category": 1,
+    "StopUltraFastForward": true
+   },
+   "resultParameters": [
+    {
+     "Id": 15,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4011,
+      4012
+     ],
+     "Comments": "男主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 16,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4021,
+      4022,
+      4023
+     ],
+     "Comments": "男主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 18,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4041,
+      4042
+     ],
+     "Comments": "女主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 19,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4051,
+      4052,
+      4053
+     ],
+     "Comments": "女主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 25,
+     "ActivityId": 111700001,
+     "Key": "ExamResultHoldDuration",
+     "IntValue": 1500,
+     "StringValue": "",
+     "IntArrayValue": [],
+     "Comments": "考试答题结果揭晓后的停留时长(ms)"
+    }
+   ]
+  }
+ },
+ {
+  "id": 4,
+  "actionId": 7006,
+  "titleKey": "SolarSchool_Examtitle_2",
+  "questionKey": "SolarSchool_Examevent_4",
+  "illustration": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2003.T_IconSolarSchoolExam2003",
+  "answers": [
+   {
+    "id": 10,
+    "textKey": "SolarSchool_Examans_4_1",
+    "correct": true,
+    "raw": {
+     "Id": 10,
+     "GroupId": 4,
+     "IsCorrect": true,
+     "TextKey": "SolarSchool_Examans_4_1"
+    }
+   },
+   {
+    "id": 11,
+    "textKey": "SolarSchool_Examans_4_2",
+    "correct": false,
+    "raw": {
+     "Id": 11,
+     "GroupId": 4,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_4_2"
+    }
+   },
+   {
+    "id": 12,
+    "textKey": "SolarSchool_Examans_4_3",
+    "correct": false,
+    "raw": {
+     "Id": 12,
+     "GroupId": 4,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_4_3"
+    }
+   }
+  ],
+  "addScore": 1,
+  "resultHoldMs": 1500,
+  "raw": {
+   "question": {
+    "Id": 4,
+    "ChoiceGroupId": 4,
+    "Title": "SolarSchool_Examtitle_2",
+    "Desc": "SolarSchool_Examevent_4",
+    "Image": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2003.T_IconSolarSchoolExam2003",
+    "AddScore": 1
+   },
+   "action": {
+    "Id": 7006,
+    "ActionType": 8,
+    "ActionParams": [
+     {
+      "Key": "Id",
+      "Value": "4"
+     }
+    ],
+    "Priority": 0
+   },
+   "actionType": {
+    "Id": 8,
+    "TypeName": "第二索拉考试选项",
+    "Category": 1,
+    "StopUltraFastForward": true
+   },
+   "resultParameters": [
+    {
+     "Id": 15,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4011,
+      4012
+     ],
+     "Comments": "男主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 16,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4021,
+      4022,
+      4023
+     ],
+     "Comments": "男主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 18,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4041,
+      4042
+     ],
+     "Comments": "女主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 19,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4051,
+      4052,
+      4053
+     ],
+     "Comments": "女主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 25,
+     "ActivityId": 111700001,
+     "Key": "ExamResultHoldDuration",
+     "IntValue": 1500,
+     "StringValue": "",
+     "IntArrayValue": [],
+     "Comments": "考试答题结果揭晓后的停留时长(ms)"
+    }
+   ]
+  }
+ },
+ {
+  "id": 5,
+  "actionId": 7007,
+  "titleKey": "SolarSchool_Examtitle_2",
+  "questionKey": "SolarSchool_Examevent_5",
+  "illustration": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2006.T_IconSolarSchoolExam2006",
+  "answers": [
+   {
+    "id": 13,
+    "textKey": "SolarSchool_Examans_5_1",
+    "correct": false,
+    "raw": {
+     "Id": 13,
+     "GroupId": 5,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_5_1"
+    }
+   },
+   {
+    "id": 14,
+    "textKey": "SolarSchool_Examans_5_2",
+    "correct": false,
+    "raw": {
+     "Id": 14,
+     "GroupId": 5,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_5_2"
+    }
+   },
+   {
+    "id": 15,
+    "textKey": "SolarSchool_Examans_5_3",
+    "correct": true,
+    "raw": {
+     "Id": 15,
+     "GroupId": 5,
+     "IsCorrect": true,
+     "TextKey": "SolarSchool_Examans_5_3"
+    }
+   }
+  ],
+  "addScore": 1,
+  "resultHoldMs": 1500,
+  "raw": {
+   "question": {
+    "Id": 5,
+    "ChoiceGroupId": 5,
+    "Title": "SolarSchool_Examtitle_2",
+    "Desc": "SolarSchool_Examevent_5",
+    "Image": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2006.T_IconSolarSchoolExam2006",
+    "AddScore": 1
+   },
+   "action": {
+    "Id": 7007,
+    "ActionType": 8,
+    "ActionParams": [
+     {
+      "Key": "Id",
+      "Value": "5"
+     }
+    ],
+    "Priority": 0
+   },
+   "actionType": {
+    "Id": 8,
+    "TypeName": "第二索拉考试选项",
+    "Category": 1,
+    "StopUltraFastForward": true
+   },
+   "resultParameters": [
+    {
+     "Id": 15,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4011,
+      4012
+     ],
+     "Comments": "男主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 16,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4021,
+      4022,
+      4023
+     ],
+     "Comments": "男主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 18,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4041,
+      4042
+     ],
+     "Comments": "女主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 19,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4051,
+      4052,
+      4053
+     ],
+     "Comments": "女主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 25,
+     "ActivityId": 111700001,
+     "Key": "ExamResultHoldDuration",
+     "IntValue": 1500,
+     "StringValue": "",
+     "IntArrayValue": [],
+     "Comments": "考试答题结果揭晓后的停留时长(ms)"
+    }
+   ]
+  }
+ },
+ {
+  "id": 7,
+  "actionId": 7090,
+  "titleKey": "SolarSchool_Examtitle_3",
+  "questionKey": "SolarSchool_Examevent_7",
+  "illustration": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2001.T_IconSolarSchoolExam2001",
+  "answers": [
+   {
+    "id": 19,
+    "textKey": "SolarSchool_Examans_7_1",
+    "correct": false,
+    "raw": {
+     "Id": 19,
+     "GroupId": 7,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_7_1"
+    }
+   },
+   {
+    "id": 20,
+    "textKey": "SolarSchool_Examans_7_2",
+    "correct": true,
+    "raw": {
+     "Id": 20,
+     "GroupId": 7,
+     "IsCorrect": true,
+     "TextKey": "SolarSchool_Examans_7_2"
+    }
+   },
+   {
+    "id": 21,
+    "textKey": "SolarSchool_Examans_7_3",
+    "correct": false,
+    "raw": {
+     "Id": 21,
+     "GroupId": 7,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_7_3"
+    }
+   }
+  ],
+  "addScore": 1,
+  "resultHoldMs": 1500,
+  "raw": {
+   "question": {
+    "Id": 7,
+    "ChoiceGroupId": 7,
+    "Title": "SolarSchool_Examtitle_3",
+    "Desc": "SolarSchool_Examevent_7",
+    "Image": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2001.T_IconSolarSchoolExam2001",
+    "AddScore": 1
+   },
+   "action": {
+    "Id": 7090,
+    "ActionType": 8,
+    "ActionParams": [
+     {
+      "Key": "Id",
+      "Value": "7"
+     }
+    ],
+    "Priority": 0
+   },
+   "actionType": {
+    "Id": 8,
+    "TypeName": "第二索拉考试选项",
+    "Category": 1,
+    "StopUltraFastForward": true
+   },
+   "resultParameters": [
+    {
+     "Id": 15,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4011,
+      4012
+     ],
+     "Comments": "男主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 16,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4021,
+      4022,
+      4023
+     ],
+     "Comments": "男主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 18,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4041,
+      4042
+     ],
+     "Comments": "女主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 19,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4051,
+      4052,
+      4053
+     ],
+     "Comments": "女主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 25,
+     "ActivityId": 111700001,
+     "Key": "ExamResultHoldDuration",
+     "IntValue": 1500,
+     "StringValue": "",
+     "IntArrayValue": [],
+     "Comments": "考试答题结果揭晓后的停留时长(ms)"
+    }
+   ]
+  }
+ },
+ {
+  "id": 8,
+  "actionId": 7091,
+  "titleKey": "SolarSchool_Examtitle_3",
+  "questionKey": "SolarSchool_Examevent_8",
+  "illustration": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2002.T_IconSolarSchoolExam2002",
+  "answers": [
+   {
+    "id": 22,
+    "textKey": "SolarSchool_Examans_8_1",
+    "correct": true,
+    "raw": {
+     "Id": 22,
+     "GroupId": 8,
+     "IsCorrect": true,
+     "TextKey": "SolarSchool_Examans_8_1"
+    }
+   },
+   {
+    "id": 23,
+    "textKey": "SolarSchool_Examans_8_2",
+    "correct": false,
+    "raw": {
+     "Id": 23,
+     "GroupId": 8,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_8_2"
+    }
+   },
+   {
+    "id": 24,
+    "textKey": "SolarSchool_Examans_8_3",
+    "correct": false,
+    "raw": {
+     "Id": 24,
+     "GroupId": 8,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_8_3"
+    }
+   }
+  ],
+  "addScore": 1,
+  "resultHoldMs": 1500,
+  "raw": {
+   "question": {
+    "Id": 8,
+    "ChoiceGroupId": 8,
+    "Title": "SolarSchool_Examtitle_3",
+    "Desc": "SolarSchool_Examevent_8",
+    "Image": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2002.T_IconSolarSchoolExam2002",
+    "AddScore": 1
+   },
+   "action": {
+    "Id": 7091,
+    "ActionType": 8,
+    "ActionParams": [
+     {
+      "Key": "Id",
+      "Value": "8"
+     }
+    ],
+    "Priority": 0
+   },
+   "actionType": {
+    "Id": 8,
+    "TypeName": "第二索拉考试选项",
+    "Category": 1,
+    "StopUltraFastForward": true
+   },
+   "resultParameters": [
+    {
+     "Id": 15,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4011,
+      4012
+     ],
+     "Comments": "男主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 16,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4021,
+      4022,
+      4023
+     ],
+     "Comments": "男主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 18,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4041,
+      4042
+     ],
+     "Comments": "女主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 19,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4051,
+      4052,
+      4053
+     ],
+     "Comments": "女主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 25,
+     "ActivityId": 111700001,
+     "Key": "ExamResultHoldDuration",
+     "IntValue": 1500,
+     "StringValue": "",
+     "IntArrayValue": [],
+     "Comments": "考试答题结果揭晓后的停留时长(ms)"
+    }
+   ]
+  }
+ },
+ {
+  "id": 9,
+  "actionId": 7092,
+  "titleKey": "SolarSchool_Examtitle_3",
+  "questionKey": "SolarSchool_Examevent_9",
+  "illustration": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2005.T_IconSolarSchoolExam2005",
+  "answers": [
+   {
+    "id": 25,
+    "textKey": "SolarSchool_Examans_9_1",
+    "correct": false,
+    "raw": {
+     "Id": 25,
+     "GroupId": 9,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_9_1"
+    }
+   },
+   {
+    "id": 26,
+    "textKey": "SolarSchool_Examans_9_2",
+    "correct": true,
+    "raw": {
+     "Id": 26,
+     "GroupId": 9,
+     "IsCorrect": true,
+     "TextKey": "SolarSchool_Examans_9_2"
+    }
+   },
+   {
+    "id": 27,
+    "textKey": "SolarSchool_Examans_9_3",
+    "correct": false,
+    "raw": {
+     "Id": 27,
+     "GroupId": 9,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_9_3"
+    }
+   }
+  ],
+  "addScore": 1,
+  "resultHoldMs": 1500,
+  "raw": {
+   "question": {
+    "Id": 9,
+    "ChoiceGroupId": 9,
+    "Title": "SolarSchool_Examtitle_3",
+    "Desc": "SolarSchool_Examevent_9",
+    "Image": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2005.T_IconSolarSchoolExam2005",
+    "AddScore": 1
+   },
+   "action": {
+    "Id": 7092,
+    "ActionType": 8,
+    "ActionParams": [
+     {
+      "Key": "Id",
+      "Value": "9"
+     }
+    ],
+    "Priority": 0
+   },
+   "actionType": {
+    "Id": 8,
+    "TypeName": "第二索拉考试选项",
+    "Category": 1,
+    "StopUltraFastForward": true
+   },
+   "resultParameters": [
+    {
+     "Id": 15,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4011,
+      4012
+     ],
+     "Comments": "男主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 16,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4021,
+      4022,
+      4023
+     ],
+     "Comments": "男主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 18,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4041,
+      4042
+     ],
+     "Comments": "女主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 19,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4051,
+      4052,
+      4053
+     ],
+     "Comments": "女主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 25,
+     "ActivityId": 111700001,
+     "Key": "ExamResultHoldDuration",
+     "IntValue": 1500,
+     "StringValue": "",
+     "IntArrayValue": [],
+     "Comments": "考试答题结果揭晓后的停留时长(ms)"
+    }
+   ]
+  }
+ },
+ {
+  "id": 10,
+  "actionId": 7093,
+  "titleKey": "SolarSchool_Examtitle_4",
+  "questionKey": "SolarSchool_Examevent_10",
+  "illustration": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2006.T_IconSolarSchoolExam2006",
+  "answers": [
+   {
+    "id": 28,
+    "textKey": "SolarSchool_Examans_10_1",
+    "correct": false,
+    "raw": {
+     "Id": 28,
+     "GroupId": 10,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_10_1"
+    }
+   },
+   {
+    "id": 29,
+    "textKey": "SolarSchool_Examans_10_2",
+    "correct": true,
+    "raw": {
+     "Id": 29,
+     "GroupId": 10,
+     "IsCorrect": true,
+     "TextKey": "SolarSchool_Examans_10_2"
+    }
+   },
+   {
+    "id": 30,
+    "textKey": "SolarSchool_Examans_10_3",
+    "correct": false,
+    "raw": {
+     "Id": 30,
+     "GroupId": 10,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_10_3"
+    }
+   }
+  ],
+  "addScore": 1,
+  "resultHoldMs": 1500,
+  "raw": {
+   "question": {
+    "Id": 10,
+    "ChoiceGroupId": 10,
+    "Title": "SolarSchool_Examtitle_4",
+    "Desc": "SolarSchool_Examevent_10",
+    "Image": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2006.T_IconSolarSchoolExam2006",
+    "AddScore": 1
+   },
+   "action": {
+    "Id": 7093,
+    "ActionType": 8,
+    "ActionParams": [
+     {
+      "Key": "Id",
+      "Value": "10"
+     }
+    ],
+    "Priority": 0
+   },
+   "actionType": {
+    "Id": 8,
+    "TypeName": "第二索拉考试选项",
+    "Category": 1,
+    "StopUltraFastForward": true
+   },
+   "resultParameters": [
+    {
+     "Id": 15,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4011,
+      4012
+     ],
+     "Comments": "男主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 16,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4021,
+      4022,
+      4023
+     ],
+     "Comments": "男主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 18,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4041,
+      4042
+     ],
+     "Comments": "女主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 19,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4051,
+      4052,
+      4053
+     ],
+     "Comments": "女主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 25,
+     "ActivityId": 111700001,
+     "Key": "ExamResultHoldDuration",
+     "IntValue": 1500,
+     "StringValue": "",
+     "IntArrayValue": [],
+     "Comments": "考试答题结果揭晓后的停留时长(ms)"
+    }
+   ]
+  }
+ },
+ {
+  "id": 11,
+  "actionId": 7094,
+  "titleKey": "SolarSchool_Examtitle_4",
+  "questionKey": "SolarSchool_Examevent_11",
+  "illustration": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2007.T_IconSolarSchoolExam2007",
+  "answers": [
+   {
+    "id": 31,
+    "textKey": "SolarSchool_Examans_11_1",
+    "correct": true,
+    "raw": {
+     "Id": 31,
+     "GroupId": 11,
+     "IsCorrect": true,
+     "TextKey": "SolarSchool_Examans_11_1"
+    }
+   },
+   {
+    "id": 32,
+    "textKey": "SolarSchool_Examans_11_2",
+    "correct": false,
+    "raw": {
+     "Id": 32,
+     "GroupId": 11,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_11_2"
+    }
+   },
+   {
+    "id": 33,
+    "textKey": "SolarSchool_Examans_11_3",
+    "correct": false,
+    "raw": {
+     "Id": 33,
+     "GroupId": 11,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_11_3"
+    }
+   }
+  ],
+  "addScore": 1,
+  "resultHoldMs": 1500,
+  "raw": {
+   "question": {
+    "Id": 11,
+    "ChoiceGroupId": 11,
+    "Title": "SolarSchool_Examtitle_4",
+    "Desc": "SolarSchool_Examevent_11",
+    "Image": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2007.T_IconSolarSchoolExam2007",
+    "AddScore": 1
+   },
+   "action": {
+    "Id": 7094,
+    "ActionType": 8,
+    "ActionParams": [
+     {
+      "Key": "Id",
+      "Value": "11"
+     }
+    ],
+    "Priority": 0
+   },
+   "actionType": {
+    "Id": 8,
+    "TypeName": "第二索拉考试选项",
+    "Category": 1,
+    "StopUltraFastForward": true
+   },
+   "resultParameters": [
+    {
+     "Id": 15,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4011,
+      4012
+     ],
+     "Comments": "男主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 16,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4021,
+      4022,
+      4023
+     ],
+     "Comments": "男主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 18,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4041,
+      4042
+     ],
+     "Comments": "女主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 19,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4051,
+      4052,
+      4053
+     ],
+     "Comments": "女主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 25,
+     "ActivityId": 111700001,
+     "Key": "ExamResultHoldDuration",
+     "IntValue": 1500,
+     "StringValue": "",
+     "IntArrayValue": [],
+     "Comments": "考试答题结果揭晓后的停留时长(ms)"
+    }
+   ]
+  }
+ },
+ {
+  "id": 12,
+  "actionId": 7095,
+  "titleKey": "SolarSchool_Examtitle_4",
+  "questionKey": "SolarSchool_Examevent_12",
+  "illustration": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2003.T_IconSolarSchoolExam2003",
+  "answers": [
+   {
+    "id": 34,
+    "textKey": "SolarSchool_Examans_12_1",
+    "correct": true,
+    "raw": {
+     "Id": 34,
+     "GroupId": 12,
+     "IsCorrect": true,
+     "TextKey": "SolarSchool_Examans_12_1"
+    }
+   },
+   {
+    "id": 35,
+    "textKey": "SolarSchool_Examans_12_2",
+    "correct": false,
+    "raw": {
+     "Id": 35,
+     "GroupId": 12,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_12_2"
+    }
+   },
+   {
+    "id": 36,
+    "textKey": "SolarSchool_Examans_12_3",
+    "correct": false,
+    "raw": {
+     "Id": 36,
+     "GroupId": 12,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_12_3"
+    }
+   }
+  ],
+  "addScore": 1,
+  "resultHoldMs": 1500,
+  "raw": {
+   "question": {
+    "Id": 12,
+    "ChoiceGroupId": 12,
+    "Title": "SolarSchool_Examtitle_4",
+    "Desc": "SolarSchool_Examevent_12",
+    "Image": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2003.T_IconSolarSchoolExam2003",
+    "AddScore": 1
+   },
+   "action": {
+    "Id": 7095,
+    "ActionType": 8,
+    "ActionParams": [
+     {
+      "Key": "Id",
+      "Value": "12"
+     }
+    ],
+    "Priority": 0
+   },
+   "actionType": {
+    "Id": 8,
+    "TypeName": "第二索拉考试选项",
+    "Category": 1,
+    "StopUltraFastForward": true
+   },
+   "resultParameters": [
+    {
+     "Id": 15,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4011,
+      4012
+     ],
+     "Comments": "男主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 16,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4021,
+      4022,
+      4023
+     ],
+     "Comments": "男主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 18,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4041,
+      4042
+     ],
+     "Comments": "女主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 19,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4051,
+      4052,
+      4053
+     ],
+     "Comments": "女主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 25,
+     "ActivityId": 111700001,
+     "Key": "ExamResultHoldDuration",
+     "IntValue": 1500,
+     "StringValue": "",
+     "IntArrayValue": [],
+     "Comments": "考试答题结果揭晓后的停留时长(ms)"
+    }
+   ]
+  }
+ },
+ {
+  "id": 13,
+  "actionId": 7096,
+  "titleKey": "SolarSchool_Examtitle_5",
+  "questionKey": "SolarSchool_Examevent_13",
+  "illustration": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2005.T_IconSolarSchoolExam2005",
+  "answers": [
+   {
+    "id": 37,
+    "textKey": "SolarSchool_Examans_13_1",
+    "correct": false,
+    "raw": {
+     "Id": 37,
+     "GroupId": 13,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_13_1"
+    }
+   },
+   {
+    "id": 38,
+    "textKey": "SolarSchool_Examans_13_2",
+    "correct": true,
+    "raw": {
+     "Id": 38,
+     "GroupId": 13,
+     "IsCorrect": true,
+     "TextKey": "SolarSchool_Examans_13_2"
+    }
+   },
+   {
+    "id": 39,
+    "textKey": "SolarSchool_Examans_13_3",
+    "correct": false,
+    "raw": {
+     "Id": 39,
+     "GroupId": 13,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_13_3"
+    }
+   }
+  ],
+  "addScore": 1,
+  "resultHoldMs": 1500,
+  "raw": {
+   "question": {
+    "Id": 13,
+    "ChoiceGroupId": 13,
+    "Title": "SolarSchool_Examtitle_5",
+    "Desc": "SolarSchool_Examevent_13",
+    "Image": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2005.T_IconSolarSchoolExam2005",
+    "AddScore": 1
+   },
+   "action": {
+    "Id": 7096,
+    "ActionType": 8,
+    "ActionParams": [
+     {
+      "Key": "Id",
+      "Value": "13"
+     }
+    ],
+    "Priority": 0
+   },
+   "actionType": {
+    "Id": 8,
+    "TypeName": "第二索拉考试选项",
+    "Category": 1,
+    "StopUltraFastForward": true
+   },
+   "resultParameters": [
+    {
+     "Id": 15,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4011,
+      4012
+     ],
+     "Comments": "男主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 16,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4021,
+      4022,
+      4023
+     ],
+     "Comments": "男主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 18,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4041,
+      4042
+     ],
+     "Comments": "女主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 19,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4051,
+      4052,
+      4053
+     ],
+     "Comments": "女主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 25,
+     "ActivityId": 111700001,
+     "Key": "ExamResultHoldDuration",
+     "IntValue": 1500,
+     "StringValue": "",
+     "IntArrayValue": [],
+     "Comments": "考试答题结果揭晓后的停留时长(ms)"
+    }
+   ]
+  }
+ },
+ {
+  "id": 14,
+  "actionId": 7097,
+  "titleKey": "SolarSchool_Examtitle_5",
+  "questionKey": "SolarSchool_Examevent_14",
+  "illustration": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2001.T_IconSolarSchoolExam2001",
+  "answers": [
+   {
+    "id": 40,
+    "textKey": "SolarSchool_Examans_14_1",
+    "correct": true,
+    "raw": {
+     "Id": 40,
+     "GroupId": 14,
+     "IsCorrect": true,
+     "TextKey": "SolarSchool_Examans_14_1"
+    }
+   },
+   {
+    "id": 41,
+    "textKey": "SolarSchool_Examans_14_2",
+    "correct": false,
+    "raw": {
+     "Id": 41,
+     "GroupId": 14,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_14_2"
+    }
+   },
+   {
+    "id": 42,
+    "textKey": "SolarSchool_Examans_14_3",
+    "correct": false,
+    "raw": {
+     "Id": 42,
+     "GroupId": 14,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_14_3"
+    }
+   }
+  ],
+  "addScore": 1,
+  "resultHoldMs": 1500,
+  "raw": {
+   "question": {
+    "Id": 14,
+    "ChoiceGroupId": 14,
+    "Title": "SolarSchool_Examtitle_5",
+    "Desc": "SolarSchool_Examevent_14",
+    "Image": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2001.T_IconSolarSchoolExam2001",
+    "AddScore": 1
+   },
+   "action": {
+    "Id": 7097,
+    "ActionType": 8,
+    "ActionParams": [
+     {
+      "Key": "Id",
+      "Value": "14"
+     }
+    ],
+    "Priority": 0
+   },
+   "actionType": {
+    "Id": 8,
+    "TypeName": "第二索拉考试选项",
+    "Category": 1,
+    "StopUltraFastForward": true
+   },
+   "resultParameters": [
+    {
+     "Id": 15,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4011,
+      4012
+     ],
+     "Comments": "男主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 16,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4021,
+      4022,
+      4023
+     ],
+     "Comments": "男主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 18,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4041,
+      4042
+     ],
+     "Comments": "女主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 19,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4051,
+      4052,
+      4053
+     ],
+     "Comments": "女主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 25,
+     "ActivityId": 111700001,
+     "Key": "ExamResultHoldDuration",
+     "IntValue": 1500,
+     "StringValue": "",
+     "IntArrayValue": [],
+     "Comments": "考试答题结果揭晓后的停留时长(ms)"
+    }
+   ]
+  }
+ },
+ {
+  "id": 3,
+  "actionId": 7005,
+  "titleKey": "SolarSchool_Examtitle_1",
+  "questionKey": "SolarSchool_Examevent_3",
+  "illustration": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2005.T_IconSolarSchoolExam2005",
+  "answers": [
+   {
+    "id": 7,
+    "textKey": "SolarSchool_Examans_3_1",
+    "correct": false,
+    "raw": {
+     "Id": 7,
+     "GroupId": 3,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_3_1"
+    }
+   },
+   {
+    "id": 8,
+    "textKey": "SolarSchool_Examans_3_2",
+    "correct": false,
+    "raw": {
+     "Id": 8,
+     "GroupId": 3,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_3_2"
+    }
+   },
+   {
+    "id": 9,
+    "textKey": "SolarSchool_Examans_3_3",
+    "correct": true,
+    "raw": {
+     "Id": 9,
+     "GroupId": 3,
+     "IsCorrect": true,
+     "TextKey": "SolarSchool_Examans_3_3"
+    }
+   }
+  ],
+  "addScore": 1,
+  "resultHoldMs": 1500,
+  "raw": {
+   "question": {
+    "Id": 3,
+    "ChoiceGroupId": 3,
+    "Title": "SolarSchool_Examtitle_1",
+    "Desc": "SolarSchool_Examevent_3",
+    "Image": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2005.T_IconSolarSchoolExam2005",
+    "AddScore": 1
+   },
+   "action": {
+    "Id": 7005,
+    "ActionType": 8,
+    "ActionParams": [
+     {
+      "Key": "Id",
+      "Value": "3"
+     }
+    ],
+    "Priority": 0
+   },
+   "actionType": {
+    "Id": 8,
+    "TypeName": "第二索拉考试选项",
+    "Category": 1,
+    "StopUltraFastForward": true
+   },
+   "resultParameters": [
+    {
+     "Id": 15,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4011,
+      4012
+     ],
+     "Comments": "男主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 16,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4021,
+      4022,
+      4023
+     ],
+     "Comments": "男主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 18,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4041,
+      4042
+     ],
+     "Comments": "女主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 19,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4051,
+      4052,
+      4053
+     ],
+     "Comments": "女主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 25,
+     "ActivityId": 111700001,
+     "Key": "ExamResultHoldDuration",
+     "IntValue": 1500,
+     "StringValue": "",
+     "IntArrayValue": [],
+     "Comments": "考试答题结果揭晓后的停留时长(ms)"
+    }
+   ]
+  }
+ },
+ {
+  "id": 6,
+  "actionId": 7008,
+  "titleKey": "SolarSchool_Examtitle_2",
+  "questionKey": "SolarSchool_Examevent_6",
+  "illustration": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2007.T_IconSolarSchoolExam2007",
+  "answers": [
+   {
+    "id": 16,
+    "textKey": "SolarSchool_Examans_6_1",
+    "correct": true,
+    "raw": {
+     "Id": 16,
+     "GroupId": 6,
+     "IsCorrect": true,
+     "TextKey": "SolarSchool_Examans_6_1"
+    }
+   },
+   {
+    "id": 17,
+    "textKey": "SolarSchool_Examans_6_2",
+    "correct": false,
+    "raw": {
+     "Id": 17,
+     "GroupId": 6,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_6_2"
+    }
+   },
+   {
+    "id": 18,
+    "textKey": "SolarSchool_Examans_6_3",
+    "correct": false,
+    "raw": {
+     "Id": 18,
+     "GroupId": 6,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_6_3"
+    }
+   }
+  ],
+  "addScore": 1,
+  "resultHoldMs": 1500,
+  "raw": {
+   "question": {
+    "Id": 6,
+    "ChoiceGroupId": 6,
+    "Title": "SolarSchool_Examtitle_2",
+    "Desc": "SolarSchool_Examevent_6",
+    "Image": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2007.T_IconSolarSchoolExam2007",
+    "AddScore": 1
+   },
+   "action": {
+    "Id": 7008,
+    "ActionType": 8,
+    "ActionParams": [
+     {
+      "Key": "Id",
+      "Value": "6"
+     }
+    ],
+    "Priority": 0
+   },
+   "actionType": {
+    "Id": 8,
+    "TypeName": "第二索拉考试选项",
+    "Category": 1,
+    "StopUltraFastForward": true
+   },
+   "resultParameters": [
+    {
+     "Id": 15,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4011,
+      4012
+     ],
+     "Comments": "男主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 16,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4021,
+      4022,
+      4023
+     ],
+     "Comments": "男主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 18,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4041,
+      4042
+     ],
+     "Comments": "女主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 19,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4051,
+      4052,
+      4053
+     ],
+     "Comments": "女主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 25,
+     "ActivityId": 111700001,
+     "Key": "ExamResultHoldDuration",
+     "IntValue": 1500,
+     "StringValue": "",
+     "IntArrayValue": [],
+     "Comments": "考试答题结果揭晓后的停留时长(ms)"
+    }
+   ]
+  }
+ },
+ {
+  "id": 15,
+  "actionId": 7098,
+  "titleKey": "SolarSchool_Examtitle_6",
+  "questionKey": "SolarSchool_Examevent_15",
+  "illustration": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2003.T_IconSolarSchoolExam2003",
+  "answers": [
+   {
+    "id": 43,
+    "textKey": "SolarSchool_Examans_15_1",
+    "correct": true,
+    "raw": {
+     "Id": 43,
+     "GroupId": 15,
+     "IsCorrect": true,
+     "TextKey": "SolarSchool_Examans_15_1"
+    }
+   },
+   {
+    "id": 44,
+    "textKey": "SolarSchool_Examans_15_2",
+    "correct": false,
+    "raw": {
+     "Id": 44,
+     "GroupId": 15,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_15_2"
+    }
+   },
+   {
+    "id": 45,
+    "textKey": "SolarSchool_Examans_15_3",
+    "correct": false,
+    "raw": {
+     "Id": 45,
+     "GroupId": 15,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_15_3"
+    }
+   }
+  ],
+  "addScore": 1,
+  "resultHoldMs": 1500,
+  "raw": {
+   "question": {
+    "Id": 15,
+    "ChoiceGroupId": 15,
+    "Title": "SolarSchool_Examtitle_6",
+    "Desc": "SolarSchool_Examevent_15",
+    "Image": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2003.T_IconSolarSchoolExam2003",
+    "AddScore": 1
+   },
+   "action": {
+    "Id": 7098,
+    "ActionType": 8,
+    "ActionParams": [
+     {
+      "Key": "Id",
+      "Value": "15"
+     }
+    ],
+    "Priority": 0
+   },
+   "actionType": {
+    "Id": 8,
+    "TypeName": "第二索拉考试选项",
+    "Category": 1,
+    "StopUltraFastForward": true
+   },
+   "resultParameters": [
+    {
+     "Id": 15,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4011,
+      4012
+     ],
+     "Comments": "男主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 16,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4021,
+      4022,
+      4023
+     ],
+     "Comments": "男主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 18,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4041,
+      4042
+     ],
+     "Comments": "女主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 19,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4051,
+      4052,
+      4053
+     ],
+     "Comments": "女主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 25,
+     "ActivityId": 111700001,
+     "Key": "ExamResultHoldDuration",
+     "IntValue": 1500,
+     "StringValue": "",
+     "IntArrayValue": [],
+     "Comments": "考试答题结果揭晓后的停留时长(ms)"
+    }
+   ]
+  }
+ },
+ {
+  "id": 16,
+  "actionId": 7099,
+  "titleKey": "SolarSchool_Examtitle_6",
+  "questionKey": "SolarSchool_Examevent_16",
+  "illustration": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2007.T_IconSolarSchoolExam2007",
+  "answers": [
+   {
+    "id": 46,
+    "textKey": "SolarSchool_Examans_16_1",
+    "correct": true,
+    "raw": {
+     "Id": 46,
+     "GroupId": 16,
+     "IsCorrect": true,
+     "TextKey": "SolarSchool_Examans_16_1"
+    }
+   },
+   {
+    "id": 47,
+    "textKey": "SolarSchool_Examans_16_2",
+    "correct": false,
+    "raw": {
+     "Id": 47,
+     "GroupId": 16,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_16_2"
+    }
+   },
+   {
+    "id": 48,
+    "textKey": "SolarSchool_Examans_16_3",
+    "correct": false,
+    "raw": {
+     "Id": 48,
+     "GroupId": 16,
+     "IsCorrect": false,
+     "TextKey": "SolarSchool_Examans_16_3"
+    }
+   }
+  ],
+  "addScore": 1,
+  "resultHoldMs": 1500,
+  "raw": {
+   "question": {
+    "Id": 16,
+    "ChoiceGroupId": 16,
+    "Title": "SolarSchool_Examtitle_6",
+    "Desc": "SolarSchool_Examevent_16",
+    "Image": "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconExam/T_IconSolarSchoolExam2007.T_IconSolarSchoolExam2007",
+    "AddScore": 1
+   },
+   "action": {
+    "Id": 7099,
+    "ActionType": 8,
+    "ActionParams": [
+     {
+      "Key": "Id",
+      "Value": "16"
+     }
+    ],
+    "Priority": 0
+   },
+   "actionType": {
+    "Id": 8,
+    "TypeName": "第二索拉考试选项",
+    "Category": 1,
+    "StopUltraFastForward": true
+   },
+   "resultParameters": [
+    {
+     "Id": 15,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4011,
+      4012
+     ],
+     "Comments": "男主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 16,
+     "ActivityId": 111700001,
+     "Key": "HeroChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4021,
+      4022,
+      4023
+     ],
+     "Comments": "男主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 18,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceCorrectSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4041,
+      4042
+     ],
+     "Comments": "女主选项正确随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 19,
+     "ActivityId": 111700001,
+     "Key": "HeroineChoiceFailSpineIdList",
+     "IntValue": 0,
+     "StringValue": "",
+     "IntArrayValue": [
+      4051,
+      4052,
+      4053
+     ],
+     "Comments": "女主选项错误随机角色表现：SolarSchoolRoleSpine.Id"
+    },
+    {
+     "Id": 25,
+     "ActivityId": 111700001,
+     "Key": "ExamResultHoldDuration",
+     "IntValue": 1500,
+     "StringValue": "",
+     "IntArrayValue": [],
+     "Comments": "考试答题结果揭晓后的停留时长(ms)"
+    }
+   ]
+  }
+ }
+]

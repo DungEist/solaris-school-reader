@@ -1,0 +1,47 @@
+{
+  "talkerId": 850003,
+  "name": "Xiangli Yao",
+  "skeletonVersion": "4.1.23",
+  "sourceAtlas": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Xiangliyao/SolarSchool_Xiangliyao.SolarSchool_Xiangliyao-atlas",
+  "sourceSkeleton": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Xiangliyao/SolarSchool_Xiangliyao.SolarSchool_Xiangliyao-data",
+  "sourceArchive": "/game/SteamLibrary/steamapps/common/Wuthering Waves/Wuthering Waves Game/Client/Content/Paks/pakchunk7-WindowsNoEditor.pak",
+  "members": [
+    "../../../Client/Content/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Xiangliyao/SolarSchool_Xiangliyao.uasset",
+    "../../../Client/Content/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Xiangliyao/SolarSchool_Xiangliyao.uexp"
+  ],
+  "archiveIndexHashes": {
+    "primary_index_sha1": "9a1e5dbec896904f03bc7f0858c78065b5f9d36b",
+    "directory_index_sha1": "3f4cd33025cfe669d7373b582ed319966b503628"
+  },
+  "extractionHelpers": "/tmp/solarschool-changli-inspection-NKHWT5",
+  "helperHashes": {
+    "inspect_changli.py": "f529926159db8012b5d36758cb150fbccdf77a2790246e5bd04856f1f3ac43f5",
+    "extract_changli.py": "e55a20c0d10aa14c7aafa0ae119cbad51b202814933ccee6fdf58fb3e3071ad0",
+    "inspect_spine_package.py": "fbafa1ef6bbbbb14dc3875465f3fed91d704e1ffda9e2f0b4cdaf1b40aa3278e"
+  },
+  "runtime": {
+    "file": "../changli/spine-player.js",
+    "version": "4.1.56",
+    "license": "../changli/SPINE-LICENSE.txt"
+  },
+  "texture": {
+    "file": "SolarSchool_Xiangliyao.webp",
+    "sourceWebp": "WW_Asset_Webp/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Xiangliyao/SolarSchool_Xiangliyao.webp",
+    "origin": "Existing local WW_Asset_Webp bytes, used directly; not a game texture export",
+    "dimensions": [
+      4096,
+      4096
+    ],
+    "sourceSha256": "dfddf25491d719026a7a7444cfb7ad465a28502ccfe45c31243ff1591b6e9972",
+    "atlasPage": "SolarSchool_Xiangliyao.png",
+    "atlasDimensionsVerified": true,
+    "storage": "hardlink to existing cache"
+  },
+  "placement": "Provisional, fixed reference pose; generated SchoolPortraitCatalog.ts",
+  "sha256": {
+    "SolarSchool_Xiangliyao.atlas": "fac693983f6cb458bc71fb32c1a580474409e06869ed2c235fa3957b4c31564e",
+    "SolarSchool_Xiangliyao.skel": "6b21633d41cb12c570066a9b188b4cdad3c5f82308542f9ac913f8583b05e3a9",
+    "SolarSchool_Xiangliyao.webp": "dfddf25491d719026a7a7444cfb7ad465a28502ccfe45c31243ff1591b6e9972",
+    "xiangli-yao.animation-metadata.json": "04ff19634a2c1522cc533a9be30804f26412c5f65f818b7dcfd19f4629e79509"
+  }
+}

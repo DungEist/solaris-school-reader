@@ -1,0 +1,332 @@
+{
+  "scope": "Selections from actual retained and encoded Reader frames. Original captures and timestamps are unchanged. Source replay is separate from analyst visual observations. Contacts were reviewed for the intended source attachment switch, reflection appearance and blink/wink occlusion; no comparison with an original-game framebuffer is claimed.",
+  "cases": [
+    {
+      "case": "buling-pose-change",
+      "contactSheet": "test-results/reader-catchlights/coverage/playback/buling-pose-change/contact-sheet.png",
+      "selectedFrameIndices": [
+        0,
+        11,
+        22,
+        31,
+        54,
+        76
+      ],
+      "decodedFrames": [
+        {
+          "frame": 0,
+          "timeSeconds": 0,
+          "expression": 700082,
+          "eyeClip": "dongzuo1_zhoumei_zhengyan",
+          "file": "test-results/reader-catchlights/coverage/playback/buling-pose-change/decoded-review-0000.png"
+        },
+        {
+          "frame": 31,
+          "timeSeconds": 1.090699999988079,
+          "expression": 700074,
+          "eyeClip": "dongzuo1_zhengchang_zhengyan",
+          "file": "test-results/reader-catchlights/coverage/playback/buling-pose-change/decoded-review-0031.png"
+        },
+        {
+          "frame": 76,
+          "timeSeconds": 2.4212999999821188,
+          "expression": 700074,
+          "eyeClip": "dongzuo1_zhengchang_zhengyan",
+          "file": "test-results/reader-catchlights/coverage/playback/buling-pose-change/decoded-review-0076.png"
+        }
+      ],
+      "visualReview": {
+        "reviewed": true,
+        "authority": "analyst-visual-observation-of-retained-Reader-pixels",
+        "observations": "The authored raised-hand/static-eye pose changes to the standing/open-eye clip on the first changed frame. The new reflection moves while its iris remains fixed. A natural blink immediately precedes the pose change."
+      }
+    },
+    {
+      "case": "ciaccona-wink",
+      "contactSheet": "test-results/reader-catchlights/coverage/playback/ciaccona-wink/contact-sheet.png",
+      "selectedFrameIndices": [
+        0,
+        17,
+        34,
+        35,
+        64,
+        92
+      ],
+      "decodedFrames": [
+        {
+          "frame": 0,
+          "timeSeconds": 0,
+          "expression": 700061,
+          "eyeClip": "dongzuo1_zhengchang_zhengtyan",
+          "file": "test-results/reader-catchlights/coverage/playback/ciaccona-wink/decoded-review-0000.png"
+        },
+        {
+          "frame": 35,
+          "timeSeconds": 1.0548000000119209,
+          "expression": 700064,
+          "eyeClip": "dongzuo1_wink",
+          "file": "test-results/reader-catchlights/coverage/playback/ciaccona-wink/decoded-review-0035.png"
+        },
+        {
+          "frame": 92,
+          "timeSeconds": 2.4189000000059604,
+          "expression": 700064,
+          "eyeClip": "dongzuo1_wink",
+          "file": "test-results/reader-catchlights/coverage/playback/ciaccona-wink/decoded-review-0092.png"
+        }
+      ],
+      "visualReview": {
+        "reviewed": true,
+        "authority": "analyst-visual-observation-of-retained-Reader-pixels",
+        "observations": "Normal eye/reflection attachments detach on the first wink frame and the CK_wink_001_ cutout appears. The screen-left eye retains its static baked white reflection; the screen-right eyelid is closed and hides the reflection."
+      }
+    },
+    {
+      "case": "abby-avatar-pose-change",
+      "contactSheet": "test-results/reader-catchlights/coverage/playback/abby-avatar-pose-change/contact-sheet.png",
+      "selectedFrameIndices": [
+        0,
+        9,
+        17,
+        24,
+        35,
+        45
+      ],
+      "decodedFrames": [
+        {
+          "frame": 0,
+          "timeSeconds": 0,
+          "expression": 700212,
+          "eyeClip": "dongzuo1_zhengchang_zhengyan",
+          "file": "test-results/reader-catchlights/coverage/playback/abby-avatar-pose-change/decoded-review-0000.png"
+        },
+        {
+          "frame": 24,
+          "timeSeconds": 1.277,
+          "expression": 700222,
+          "eyeClip": "dongzuo3_taitouzhan_zhengyan",
+          "file": "test-results/reader-catchlights/coverage/playback/abby-avatar-pose-change/decoded-review-0024.png"
+        },
+        {
+          "frame": 45,
+          "timeSeconds": 2.4142000000178814,
+          "expression": 700222,
+          "eyeClip": "dongzuo3_taitouzhan_zhengyan",
+          "file": "test-results/reader-catchlights/coverage/playback/abby-avatar-pose-change/decoded-review-0045.png"
+        }
+      ],
+      "visualReview": {
+        "reviewed": true,
+        "authority": "analyst-visual-observation-of-retained-Reader-pixels",
+        "observations": "Normal gold/blue iris and separate reflection attachments detach on the first changed frame. The authored up-eye attachments, including their baked static white reflections, appear immediately. A natural blink immediately precedes the pose change."
+      }
+    },
+    {
+      "case": "rover-male-avatar",
+      "contactSheet": "test-results/reader-catchlights/coverage/playback/rover-male-avatar/contact-sheet.png",
+      "selectedFrameIndices": [
+        0,
+        7,
+        15,
+        23,
+        31,
+        60
+      ],
+      "decodedFrames": [
+        {
+          "frame": 0,
+          "timeSeconds": 0,
+          "expression": 700131,
+          "eyeClip": "dongzuo1_zhengchang_zhengyan",
+          "file": "test-results/reader-catchlights/coverage/playback/rover-male-avatar/decoded-review-0000.png"
+        },
+        {
+          "frame": 23,
+          "timeSeconds": 0.7523000000119209,
+          "expression": 700131,
+          "eyeClip": "dongzuo1_zhengchang_zhengyan",
+          "file": "test-results/reader-catchlights/coverage/playback/rover-male-avatar/decoded-review-0023.png"
+        },
+        {
+          "frame": 60,
+          "timeSeconds": 2.005,
+          "expression": 700131,
+          "eyeClip": "dongzuo1_zhengchang_zhengyan",
+          "file": "test-results/reader-catchlights/coverage/playback/rover-male-avatar/decoded-review-0060.png"
+        }
+      ],
+      "visualReview": {
+        "reviewed": true,
+        "authority": "analyst-visual-observation-of-retained-Reader-pixels",
+        "observations": "Both visible upper white reflections remain stationary in the fixed iris crop, consistent with the static native clip."
+      }
+    },
+    {
+      "case": "rover-female-avatar",
+      "contactSheet": "test-results/reader-catchlights/coverage/playback/rover-female-avatar/contact-sheet.png",
+      "selectedFrameIndices": [
+        0,
+        7,
+        15,
+        23,
+        30,
+        59
+      ],
+      "decodedFrames": [
+        {
+          "frame": 0,
+          "timeSeconds": 0,
+          "expression": 700056,
+          "eyeClip": "dongzuo1_zhengchang_zhengyan",
+          "file": "test-results/reader-catchlights/coverage/playback/rover-female-avatar/decoded-review-0000.png"
+        },
+        {
+          "frame": 23,
+          "timeSeconds": 0.7672000000178814,
+          "expression": 700056,
+          "eyeClip": "dongzuo1_zhengchang_zhengyan",
+          "file": "test-results/reader-catchlights/coverage/playback/rover-female-avatar/decoded-review-0023.png"
+        },
+        {
+          "frame": 59,
+          "timeSeconds": 1.9875,
+          "expression": 700056,
+          "eyeClip": "dongzuo1_zhengchang_zhengyan",
+          "file": "test-results/reader-catchlights/coverage/playback/rover-female-avatar/decoded-review-0059.png"
+        }
+      ],
+      "visualReview": {
+        "reviewed": true,
+        "authority": "analyst-visual-observation-of-retained-Reader-pixels",
+        "observations": "The female source eye clip is selected by the existing explicit avatar fallback. The visible upper white reflection changes within the fixed iris crop. Hair partly covers the other reflection."
+      }
+    },
+    {
+      "case": "rover-male-stage",
+      "contactSheet": "test-results/reader-catchlights/coverage/playback/rover-male-stage/contact-sheet.png",
+      "selectedFrameIndices": [
+        0,
+        9,
+        20,
+        30,
+        41,
+        81
+      ],
+      "decodedFrames": [
+        {
+          "frame": 0,
+          "timeSeconds": 0,
+          "expression": 700127,
+          "eyeClip": "dongzuo1_zhengchang_zhengyan",
+          "file": "test-results/reader-catchlights/coverage/playback/rover-male-stage/decoded-review-0000.png"
+        },
+        {
+          "frame": 30,
+          "timeSeconds": 0.7467000000178814,
+          "expression": 700127,
+          "eyeClip": "dongzuo1_zhengchang_zhengyan",
+          "file": "test-results/reader-catchlights/coverage/playback/rover-male-stage/decoded-review-0030.png"
+        },
+        {
+          "frame": 81,
+          "timeSeconds": 1.9912000000178813,
+          "expression": 700127,
+          "eyeClip": "dongzuo1_zhengchang_zhengyan",
+          "file": "test-results/reader-catchlights/coverage/playback/rover-male-stage/decoded-review-0081.png"
+        }
+      ],
+      "visualReview": {
+        "reviewed": true,
+        "authority": "analyst-visual-observation-of-retained-Reader-pixels",
+        "observations": "The literal stage expression 700127 renders the male source eyes and static white reflections with fixed iris/root/camera geometry."
+      }
+    },
+    {
+      "case": "rover-female-stage",
+      "contactSheet": "test-results/reader-catchlights/coverage/playback/rover-female-stage/contact-sheet.png",
+      "selectedFrameIndices": [
+        0,
+        10,
+        21,
+        32,
+        42,
+        84
+      ],
+      "decodedFrames": [
+        {
+          "frame": 0,
+          "timeSeconds": 0,
+          "expression": 700127,
+          "eyeClip": "dongzuo1_zhengchang_zhengyan",
+          "file": "test-results/reader-catchlights/coverage/playback/rover-female-stage/decoded-review-0000.png"
+        },
+        {
+          "frame": 32,
+          "timeSeconds": 0.7527000000178814,
+          "expression": 700127,
+          "eyeClip": "dongzuo1_zhengchang_zhengyan",
+          "file": "test-results/reader-catchlights/coverage/playback/rover-female-stage/decoded-review-0032.png"
+        },
+        {
+          "frame": 84,
+          "timeSeconds": 1.9865999999940396,
+          "expression": 700127,
+          "eyeClip": "dongzuo1_zhengchang_zhengyan",
+          "file": "test-results/reader-catchlights/coverage/playback/rover-female-stage/decoded-review-0084.png"
+        }
+      ],
+      "visualReview": {
+        "reviewed": true,
+        "authority": "analyst-visual-observation-of-retained-Reader-pixels",
+        "observations": "The literal stage expression 700127 renders the selected female resource and its animated source reflections. Hair partly covers one reflection."
+      }
+    },
+    {
+      "case": "ciaccona-natural-blink",
+      "contactSheet": "test-results/reader-catchlights/coverage/playback/ciaccona-natural-blink/contact-sheet.png",
+      "selectedFrameIndices": [
+        0,
+        5,
+        16,
+        17,
+        46,
+        75
+      ],
+      "decodedFrames": [
+        {
+          "frame": 0,
+          "timeSeconds": 0,
+          "expression": 700063,
+          "eyeClip": "dongzuo1_luomo_zhayan",
+          "file": "test-results/reader-catchlights/coverage/playback/ciaccona-natural-blink/decoded-review-0000.png"
+        },
+        {
+          "frame": 17,
+          "timeSeconds": 0.47990000000596045,
+          "expression": 700063,
+          "eyeClip": "dongzuo1_luomo_zhengyan",
+          "file": "test-results/reader-catchlights/coverage/playback/ciaccona-natural-blink/decoded-review-0017.png"
+        },
+        {
+          "frame": 8,
+          "timeSeconds": 0.2487000000178814,
+          "expression": 700063,
+          "eyeClip": "dongzuo1_luomo_zhayan",
+          "file": "test-results/reader-catchlights/coverage/playback/ciaccona-natural-blink/decoded-review-0008.png"
+        },
+        {
+          "frame": 5,
+          "timeSeconds": 0.17040000000596048,
+          "expression": 700063,
+          "eyeClip": "dongzuo1_luomo_zhayan",
+          "file": "test-results/reader-catchlights/coverage/playback/ciaccona-natural-blink/decoded-review-0005.png"
+        }
+      ],
+      "visualReview": {
+        "reviewed": true,
+        "authority": "analyst-visual-observation-of-retained-Reader-pixels",
+        "observations": "At frame 5 / 0.1704 seconds both eyes are fully closed and no white reflection is visible. The normal reflection meshes are still attached behind the authored eyelids. Reopening restores visible source reflections before the independent moving open-eye interval."
+      }
+    }
+  ]
+}

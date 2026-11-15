@@ -1,0 +1,272 @@
+{
+  "schema": 1,
+  "introductions": {
+    "1": {
+      "id": 1,
+      "nameKey": "SolarSchoolRoleInfo_1205_Introname",
+      "influenceKey": "SolarSchoolRoleInfo_1205_IntroInfluenceName",
+      "textKey": "SolarSchoolRoleInfo_1205_Intro",
+      "color": "a9ca81"
+    },
+    "2": {
+      "id": 2,
+      "nameKey": "SolarSchoolRoleInfo_1409_Introname",
+      "influenceKey": "SolarSchoolRoleInfo_1409_IntroInfluenceName",
+      "textKey": "SolarSchoolRoleInfo_1409_Intro",
+      "color": "6db9e0"
+    },
+    "3": {
+      "id": 3,
+      "nameKey": "SolarSchoolRoleInfo_1505_Introname",
+      "influenceKey": "SolarSchoolRoleInfo_1505_IntroInfluenceName",
+      "textKey": "SolarSchoolRoleInfo_1505_Intro",
+      "color": "95a55b"
+    },
+    "4": {
+      "id": 4,
+      "nameKey": "SolarSchoolRoleInfo_1606_Introname",
+      "influenceKey": "SolarSchoolRoleInfo_1606_IntroInfluenceName",
+      "textKey": "SolarSchoolRoleInfo_1606_Intro",
+      "color": "d19f27"
+    },
+    "5": {
+      "id": 5,
+      "nameKey": "SolarSchoolRoleInfo_1208_Introname",
+      "influenceKey": "SolarSchoolRoleInfo_1208_IntroInfluenceName",
+      "textKey": "SolarSchoolRoleInfo_1208_Intro",
+      "color": "d19f27"
+    },
+    "6": {
+      "id": 6,
+      "nameKey": "SolarSchoolRoleInfo_1503_Introname",
+      "influenceKey": "SolarSchoolRoleInfo_1503_IntroInfluenceName",
+      "textKey": "SolarSchoolRoleInfo_1503_Intro",
+      "color": "d19f27"
+    },
+    "7": {
+      "id": 7,
+      "nameKey": "SolarSchoolRoleInfo_1307_Introname",
+      "influenceKey": "SolarSchoolRoleInfo_1307_IntroInfluenceName",
+      "textKey": "SolarSchoolRoleInfo_1307_Intro",
+      "color": "6db9e0"
+    },
+    "8": {
+      "id": 8,
+      "nameKey": "SolarSchoolRoleInfo_1407_Introname",
+      "influenceKey": "SolarSchoolRoleInfo_1407_IntroInfluenceName",
+      "textKey": "SolarSchoolRoleInfo_1407_Intro",
+      "color": "6db9e0"
+    },
+    "9": {
+      "id": 9,
+      "nameKey": "SolarSchoolRoleInfo_1305_Introname",
+      "influenceKey": "SolarSchoolRoleInfo_1305_IntroInfluenceName",
+      "textKey": "SolarSchoolRoleInfo_1305_Intro",
+      "color": "a9ca81"
+    },
+    "10": {
+      "id": 10,
+      "nameKey": "SolarSchoolRoleInfo_1506_Introname",
+      "influenceKey": "SolarSchoolRoleInfo_1506_IntroInfluenceName",
+      "textKey": "SolarSchoolRoleInfo_1506_Intro",
+      "color": "a9ca81"
+    },
+    "11": {
+      "id": 11,
+      "nameKey": "SolarSchoolRoleInfo_1508_Introname",
+      "influenceKey": "SolarSchoolRoleInfo_1508_IntroInfluenceName",
+      "textKey": "SolarSchoolRoleInfo_1508_Intro",
+      "color": "d19f27"
+    },
+    "12": {
+      "id": 12,
+      "nameKey": "SolarSchoolRoleInfo_ABu_Introname",
+      "influenceKey": "SolarSchoolRoleInfo_ABu_IntroInfluenceName",
+      "textKey": "SolarSchoolRoleInfo_ABu_Intro",
+      "color": "95a55b"
+    }
+  },
+  "lettersByAction": {
+    "1107": {
+      "id": 2100,
+      "pages": [
+        {
+          "id": 21000,
+          "paragraphKeys": [
+            "SolarSchoolLetter_binggan_1",
+            "SolarSchoolLetter_binggan_2",
+            "SolarSchoolLetter_binggan_3"
+          ]
+        }
+      ]
+    },
+    "1108": {
+      "id": 2101,
+      "pages": [
+        {
+          "id": 21001,
+          "paragraphKeys": [
+            "SolarSchoolLetter_binggan_4",
+            "SolarSchoolLetter_binggan_5",
+            "SolarSchoolLetter_binggan_6"
+          ]
+        }
+      ]
+    },
+    "1109": {
+      "id": 2102,
+      "pages": [
+        {
+          "id": 21002,
+          "paragraphKeys": [
+            "SolarSchoolLetter_binggan_7",
+            "SolarSchoolLetter_binggan_8",
+            "SolarSchoolLetter_binggan_9"
+          ]
+        }
+      ]
+    },
+    "1110": {
+      "id": 2103,
+      "pages": [
+        {
+          "id": 21003,
+          "paragraphKeys": [
+            "SolarSchoolLetter_binggan_10",
+            "SolarSchoolLetter_binggan_11",
+            "SolarSchoolLetter_binggan_12"
+          ]
+        }
+      ]
+    },
+    "1111": {
+      "id": 2104,
+      "pages": [
+        {
+          "id": 21004,
+          "paragraphKeys": [
+            "SolarSchoolLetter_binggan_13",
+            "SolarSchoolLetter_binggan_14",
+            "SolarSchoolLetter_binggan_15"
+          ]
+        }
+      ]
+    },
+    "1112": {
+      "id": 2105,
+      "pages": [
+        {
+          "id": 21005,
+          "paragraphKeys": [
+            "SolarSchoolLetter_binggan_16",
+            "SolarSchoolLetter_binggan_17",
+            "SolarSchoolLetter_binggan_18"
+          ]
+        }
+      ]
+    },
+    "1113": {
+      "id": 2106,
+      "pages": [
+        {
+          "id": 21006,
+          "paragraphKeys": [
+            "SolarSchoolLetter_binggan_19",
+            "SolarSchoolLetter_binggan_20",
+            "SolarSchoolLetter_binggan_21"
+          ]
+        }
+      ]
+    },
+    "1114": {
+      "id": 2107,
+      "pages": [
+        {
+          "id": 21007,
+          "paragraphKeys": [
+            "SolarSchoolLetter_binggan_22",
+            "SolarSchoolLetter_binggan_23",
+            "SolarSchoolLetter_binggan_24"
+          ]
+        }
+      ]
+    },
+    "1115": {
+      "id": 2108,
+      "pages": [
+        {
+          "id": 21008,
+          "paragraphKeys": [
+            "SolarSchoolLetter_binggan_25",
+            "SolarSchoolLetter_binggan_26",
+            "SolarSchoolLetter_binggan_27"
+          ]
+        }
+      ]
+    },
+    "1116": {
+      "id": 2109,
+      "pages": [
+        {
+          "id": 21009,
+          "paragraphKeys": [
+            "SolarSchoolLetter_binggan_28",
+            "SolarSchoolLetter_binggan_29",
+            "SolarSchoolLetter_binggan_30"
+          ]
+        }
+      ]
+    }
+  },
+  "english": {
+    "SolarSchoolLetter_binggan_1": "You bite into the cookie. It's chocolate flavor.",
+    "SolarSchoolLetter_binggan_2": "Pero says the secret to happiness and joy is being at peace with yourself.",
+    "SolarSchoolLetter_binggan_3": "Today's lucky charm: <b>Bamboo Shoot</b>. A day to grow and thrive. May your knowledge deepen and your dreams reach ever higher.",
+    "SolarSchoolLetter_binggan_4": "You bite into the cookie. It's cinnamon flavor.",
+    "SolarSchoolLetter_binggan_5": "Pero says not to worry about the cracks in life, because that's where the light gets in.",
+    "SolarSchoolLetter_binggan_6": "Today's lucky charm: <b>Osmanthus</b>. A day for diligent study. May every lesson bring you closer to the top, until the honors are yours to claim.",
+    "SolarSchoolLetter_binggan_7": "You bite into the cookie. It's caramel flavor.",
+    "SolarSchoolLetter_binggan_8": "Pero says that as long as you keep moving forward with hope, nothing can stand in your way.",
+    "SolarSchoolLetter_binggan_9": "Today's lucky charm: <b>Persimmon</b>. A day to look ahead. May things go your way, and may every hope in your heart find its answer.",
+    "SolarSchoolLetter_binggan_10": "You bite into the cookie. It's black pepper and spicy soy sauce flavor.",
+    "SolarSchoolLetter_binggan_11": "Pero says that with confidence, courage, and perseverance, there's nothing in the world you can't do.",
+    "SolarSchoolLetter_binggan_12": "Today's lucky charm: <b>Wind Chime</b>. A day to share the good things. May its gentle chime bring good news, and the breeze carry your worries away.",
+    "SolarSchoolLetter_binggan_13": "You bite into the cookie. It's egg custard ice cream flavor.",
+    "SolarSchoolLetter_binggan_14": "Pero says the trick to learning lots of things is not trying to learn them all at once.",
+    "SolarSchoolLetter_binggan_15": "Today's lucky charm: <b>Pearl</b>. A day to take things slow. May time polish you into something beautiful, leaving you warm and radiant through it all.",
+    "SolarSchoolLetter_binggan_16": "You bite into the cookie. It's vanilla flavor.",
+    "SolarSchoolLetter_binggan_17": "Pero says the stage is full of possibilities. Just daring to step into the spotlight is a victory in itself.",
+    "SolarSchoolLetter_binggan_18": "Today's lucky charm: <b>Key</b>. A day to try something new. May you find the key to new opportunities and discover a world beyond your own.",
+    "SolarSchoolLetter_binggan_19": "You bite into the cookie. It's pickled ginger flavor.",
+    "SolarSchoolLetter_binggan_20": "Pero says you don't have to get everything right on the first try. Life isn't a test with only right and wrong answers. Leave a little room for the unexpected.",
+    "SolarSchoolLetter_binggan_21": "Today's lucky charm: <b>Jigsaw Puzzle</b>. A day to explore. May today's unsolved puzzles fall into place in time, and may all your scattered good luck find its way to you.",
+    "SolarSchoolLetter_binggan_22": "You bite into the cookie. It's honey pancake flavor.",
+    "SolarSchoolLetter_binggan_23": "Pero says you don't have to stand out to deserve applause. Anyone who lives wholeheartedly deserves a cheer.",
+    "SolarSchoolLetter_binggan_24": "Today's lucky charm: <b>Lily of the Valley</b>. A day to wait and see. May good fortune find you quietly, bringing a happiness that's gentle and true.",
+    "SolarSchoolLetter_binggan_25": "You bite into the cookie. It's pink salt and seaweed flavor.",
+    "SolarSchoolLetter_binggan_26": "Pero says... Pero says... Pero, Pero, Pero! Pero is very happy, and so is Roccia.",
+    "SolarSchoolLetter_binggan_27": "Today's lucky charm: <b>Mirror</b>. A day to appreciate yourself. May you see the light in your own reflection and discover a better you with each passing day.",
+    "SolarSchoolLetter_binggan_28": "You bite into the cookie. It's a medley of ice cream flavors.",
+    "SolarSchoolLetter_binggan_29": "Pero says... ahem, actually, Pero hasn't said anything all this time. These are all things I've been wanting to tell you.",
+    "SolarSchoolLetter_binggan_30": "Today's lucky charm: <b>Seashell</b>. A day for new encounters. May you find a treasure all your own, even on the most ordinary of days."
+  },
+  "deferred": [
+    {
+      "actionId": 7087,
+      "letterId": 2005,
+      "reason": "Accumulated score/rank or supported page state is unavailable."
+    },
+    {
+      "actionId": 7088,
+      "letterId": 2006,
+      "reason": "Accumulated score/rank or supported page state is unavailable."
+    }
+  ],
+  "source": {
+    "public/data/maps/roles.json": "48749d66e86dec585099d12dd040621188ba239335460e643bc96c50781e4ec2",
+    "public/data/maps/story-source.json": "62357f5a90077cda34f308756dab81f329523573121e31e4b8a34c7e633a5323",
+    "WutheringWaves_Data/BinData/SolarSchool/solarschoolletter.json": "33bc44ddbe75458892419660fae0e4dcbbc4f2893d5e9736d02657c77e554ad1",
+    "WutheringWaves_Data/BinData/SolarSchool/solarschoolletterpage.json": "237ed9036c049b0546988b453ae3e237f651549030f3c056f1b38c1c280646f8",
+    "WutheringWaves_Data/Textmaps/en/multi_text/MultiText.json": "68e142f5bff687a6e320c070010571e68b77316e61cedf14633e9fc454387c70"
+  }
+}

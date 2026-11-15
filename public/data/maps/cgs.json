@@ -1,0 +1,650 @@
+{
+ "700001": {
+  "desc": "千咲漂打工",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_101_b.T_SolarSchool_101_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_101_a.T_SolarSchool_101_a"
+  }
+ },
+ "700002": {
+  "desc": "卜灵发帖",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_102.T_SolarSchool_102",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_102.T_SolarSchool_102"
+  }
+ },
+ "700003": {
+  "desc": "传奇学生",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_103_a.T_SolarSchool_103_a",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_103_b.T_SolarSchool_103_b"
+  }
+ },
+ "700004": {
+  "desc": "签订对赌协议",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_104.T_SolarSchool_104",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_104.T_SolarSchool_104"
+  }
+ },
+ "700005": {
+  "desc": "梅塔结局",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_201.T_SolarSchool_201",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_201.T_SolarSchool_201"
+  }
+ },
+ "700006": {
+  "desc": "夏空小卡初见",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_202_b.T_SolarSchool_202_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_202_a.T_SolarSchool_202_a"
+  }
+ },
+ "700007": {
+  "desc": "车站送别差分1",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_204_b_1.T_SolarSchool_204_b_1",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_204_a_1.T_SolarSchool_204_a_1"
+  }
+ },
+ "700008": {
+  "desc": "车站送别差分2",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_204_b_2.T_SolarSchool_204_b_2",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_204_a_2.T_SolarSchool_204_a_2"
+  }
+ },
+ "700009": {
+  "desc": "万人迷结局",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_206_b.T_SolarSchool_206_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_206_a.T_SolarSchool_206_a"
+  }
+ },
+ "700011": {
+  "desc": "千咲送餐宝",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_220.T_SolarSchool_220",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_220.T_SolarSchool_220"
+  }
+ },
+ "700012": {
+  "desc": "守岸人开局",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_221.T_SolarSchool_221",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_221.T_SolarSchool_221"
+  }
+ },
+ "700013": {
+  "desc": "火锅派对六人（无漂泊者）",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222.T_SolarSchool_222",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222.T_SolarSchool_222"
+  }
+ },
+ "700014": {
+  "desc": "校庆筹备",
+  "level": "High",
+  "data": {
+   "Type": "Prefab",
+   "PrefabPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Dialogue/HighCGItem/UiItem_HighCGItem005_F.UiItem_HighCGItem005_F",
+   "PrefabPathMaleVariant": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Dialogue/HighCGItem/UiItem_HighCGItem005_M.UiItem_HighCGItem005_M"
+  }
+ },
+ "700015": {
+  "desc": "领成绩单",
+  "level": "High",
+  "data": {
+   "Type": "Prefab",
+   "PrefabPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Dialogue/HighCGItem/UiItem_HighCGItem002_F.UiItem_HighCGItem002_F",
+   "PrefabPathMaleVariant": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Dialogue/HighCGItem/UiItem_HighCGItem002_M.UiItem_HighCGItem002_M"
+  }
+ },
+ "700016": {
+  "desc": "长离情感结局",
+  "level": "High",
+  "data": {
+   "Type": "Prefab",
+   "PrefabPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Dialogue/HighCGItem/UiItem_HighCGItem007_F.UiItem_HighCGItem007_F",
+   "PrefabPathMaleVariant": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Dialogue/HighCGItem/UiItem_HighCGItem007_M.UiItem_HighCGItem007_M"
+  }
+ },
+ "700017": {
+  "desc": "豆汁",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_109_b.T_SolarSchool_109_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_109_a.T_SolarSchool_109_a"
+  }
+ },
+ "700018": {
+  "desc": "千咲发明展示",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_110.T_SolarSchool_110",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_110.T_SolarSchool_110"
+  }
+ },
+ "700019": {
+  "desc": "夏空勾肩搭背",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_111_b.T_SolarSchool_111_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_111_a.T_SolarSchool_111_a"
+  }
+ },
+ "700020": {
+  "desc": "阿布汽水",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_112.T_SolarSchool_112",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_112.T_SolarSchool_112"
+  }
+ },
+ "700021": {
+  "desc": "长离相里要漂泊者",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_203_b.T_SolarSchool_203_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_203_a.T_SolarSchool_203_a"
+  }
+ },
+ "700022": {
+  "desc": "大富翁结局",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_205_b.T_SolarSchool_205_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_205_a.T_SolarSchool_205_a"
+  }
+ },
+ "700023": {
+  "desc": "阿布养你结局",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_207_b.T_SolarSchool_207_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_207_a.T_SolarSchool_207_a"
+  }
+ },
+ "700024": {
+  "desc": "发明家决策顾问结局",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_209_b.T_SolarSchool_209_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_209_a.T_SolarSchool_209_a"
+  }
+ },
+ "700025": {
+  "desc": "艺术家结局",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_210_b.T_SolarSchool_210_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_210_a.T_SolarSchool_210_a"
+  }
+ },
+ "700026": {
+  "desc": "运动员登山家考察员结局",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_211_b.T_SolarSchool_211_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_211_a.T_SolarSchool_211_a"
+  }
+ },
+ "700027": {
+  "desc": "返校任教结局",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_212_b.T_SolarSchool_212_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_212_a.T_SolarSchool_212_a"
+  }
+ },
+ "700028": {
+  "desc": "卡提线拔剑",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_216.T_SolarSchool_216",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_216.T_SolarSchool_216"
+  }
+ },
+ "700029": {
+  "desc": "二周目岸弹琴",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_217_b.T_SolarSchool_217_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_217_a.T_SolarSchool_217_a"
+  }
+ },
+ "700030": {
+  "desc": "卡提CG2仓库",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_218_b.T_SolarSchool_218_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_218_a.T_SolarSchool_218_a"
+  }
+ },
+ "700031": {
+  "desc": "长离CG2医院",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_219.T_SolarSchool_219",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_219.T_SolarSchool_219"
+  }
+ },
+ "700032": {
+  "desc": "学生会阵营中期CG2",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_223_b.T_SolarSchool_223_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_223_a.T_SolarSchool_223_a"
+  }
+ },
+ "700033": {
+  "desc": "社联阵营中期CG2",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_224.T_SolarSchool_224",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_224.T_SolarSchool_224"
+  }
+ },
+ "700034": {
+  "desc": "菲比校庆独唱",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_225.T_SolarSchool_225",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_225.T_SolarSchool_225"
+  }
+ },
+ "700035": {
+  "desc": "火锅派对全员op截的",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_226_b.T_SolarSchool_226_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_226_a.T_SolarSchool_226_a"
+  }
+ },
+ "700036": {
+  "desc": "长离情感事件高级",
+  "level": "High",
+  "data": {
+   "Type": "Prefab",
+   "PrefabPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Dialogue/HighCGItem/UiItem_HighCGItem006_F.UiItem_HighCGItem006_F",
+   "PrefabPathMaleVariant": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Dialogue/HighCGItem/UiItem_HighCGItem006_M.UiItem_HighCGItem006_M"
+  }
+ },
+ "700038": {
+  "desc": "小卡情感事件高级",
+  "level": "High",
+  "data": {
+   "Type": "Prefab",
+   "PrefabPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Dialogue/HighCGItem/UiItem_HighCGItem003_F.UiItem_HighCGItem003_F",
+   "PrefabPathMaleVariant": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Dialogue/HighCGItem/UiItem_HighCGItem003_M.UiItem_HighCGItem003_M"
+  }
+ },
+ "700040": {
+  "desc": "小卡情感结局",
+  "level": "High",
+  "data": {
+   "Type": "Prefab",
+   "PrefabPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Dialogue/HighCGItem/UiItem_HighCGItem001_F.UiItem_HighCGItem001_F",
+   "PrefabPathMaleVariant": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Dialogue/HighCGItem/UiItem_HighCGItem001_M.UiItem_HighCGItem001_M"
+  }
+ },
+ "700041": {
+  "desc": "守岸人结局",
+  "level": "High",
+  "data": {
+   "Type": "Prefab",
+   "PrefabPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Dialogue/HighCGItem/UiItem_HighCGItem004_F.UiItem_HighCGItem004_F",
+   "PrefabPathMaleVariant": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Activity38/SolarSchool/Dialogue/HighCGItem/UiItem_HighCGItem004_M.UiItem_HighCGItem004_M"
+  }
+ },
+ "700042": {
+  "desc": "社联1",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_105_b.T_SolarSchool_105_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_105_a.T_SolarSchool_105_a"
+  }
+ },
+ "700043": {
+  "desc": "社联2",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_106.T_SolarSchool_106",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_106.T_SolarSchool_106"
+  }
+ },
+ "700044": {
+  "desc": "理事会1",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_107.T_SolarSchool_107",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_107.T_SolarSchool_107"
+  }
+ },
+ "700045": {
+  "desc": "理事会2",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_108.T_SolarSchool_108",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_108.T_SolarSchool_108"
+  }
+ },
+ "700046": {
+  "desc": "千咲个人线",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_114_b.T_SolarSchool_114_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_114_a.T_SolarSchool_114_a"
+  }
+ },
+ "700047": {
+  "desc": "卜灵个人线",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_116_b.T_SolarSchool_116_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_116_a.T_SolarSchool_116_a"
+  }
+ },
+ "700048": {
+  "desc": "维里奈个人线",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_117_b.T_SolarSchool_117_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_117_a.T_SolarSchool_117_a"
+  }
+ },
+ "700049": {
+  "desc": "嘉贝莉娜个人线",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_118_b.T_SolarSchool_118_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_118_a.T_SolarSchool_118_a"
+  }
+ },
+ "700050": {
+  "desc": "相里要个人线",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_119_b.T_SolarSchool_119_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_119_a.T_SolarSchool_119_a"
+  }
+ },
+ "700051": {
+  "desc": "菲比个人线",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_120_b.T_SolarSchool_120_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_120_a.T_SolarSchool_120_a"
+  }
+ },
+ "700052": {
+  "desc": "相里要主持",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_121_b.T_SolarSchool_121_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_121_b.T_SolarSchool_121_b"
+  }
+ },
+ "700054": {
+  "desc": "学者结局",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_208_b.T_SolarSchool_208_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_208_a.T_SolarSchool_208_a"
+  }
+ },
+ "700055": {
+  "desc": "市长结局",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_213_b.T_SolarSchool_213_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_213_a.T_SolarSchool_213_a"
+  }
+ },
+ "700056": {
+  "desc": "开学考",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_214.T_SolarSchool_214",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_214.T_SolarSchool_214"
+  }
+ },
+ "700057": {
+  "desc": "长离虚弱",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_215.T_SolarSchool_215",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_215.T_SolarSchool_215"
+  }
+ },
+ "700058": {
+  "desc": "火锅八人（不带漂泊者）",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222_2.T_SolarSchool_222_2",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222_2.T_SolarSchool_222_2"
+  }
+ },
+ "700059": {
+  "desc": "洛可可个人线",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_113_b.T_SolarSchool_113_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_113_a.T_SolarSchool_113_a"
+  }
+ },
+ "700060": {
+  "desc": "夏空个人线",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_115_b.T_SolarSchool_115_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_115_a.T_SolarSchool_115_a"
+  }
+ },
+ "700063": {
+  "desc": "相里要喇叭差分",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_121_a.T_SolarSchool_121_a",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_121_a.T_SolarSchool_121_a"
+  }
+ },
+ "700064": {
+  "desc": "弗洛logo",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1001.T_SolarSchool_A1001",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1001.T_SolarSchool_A1001"
+  }
+ },
+ "700065": {
+  "desc": "物流logo",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1002.T_SolarSchool_A1002",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1002.T_SolarSchool_A1002"
+  }
+ },
+ "700066": {
+  "desc": "秧秧简画",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1003.T_SolarSchool_A1003",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1003.T_SolarSchool_A1003"
+  }
+ },
+ "700067": {
+  "desc": "简画2",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1004.T_SolarSchool_A1004",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1004.T_SolarSchool_A1004"
+  }
+ },
+ "700068": {
+  "desc": "秧秧pv",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1005.T_SolarSchool_A1005",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1005.T_SolarSchool_A1005"
+  }
+ },
+ "700069": {
+  "desc": "pv2",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1006.T_SolarSchool_A1006",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1006.T_SolarSchool_A1006"
+  }
+ },
+ "700071": {
+  "desc": "四个物品",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1007.T_SolarSchool_A1007",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1007.T_SolarSchool_A1007"
+  }
+ },
+ "700072": {
+  "desc": "三个物品",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1008.T_SolarSchool_A1008",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1008.T_SolarSchool_A1008"
+  }
+ },
+ "700073": {
+  "desc": "饮品",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1009.T_SolarSchool_A1009",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1009.T_SolarSchool_A1009"
+  }
+ },
+ "700074": {
+  "desc": "饼干",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1010.T_SolarSchool_A1010",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A1010.T_SolarSchool_A1010"
+  }
+ },
+ "700075": {
+  "desc": "三个波仔",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A2010.T_SolarSchool_A2010",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A2010.T_SolarSchool_A2010"
+  }
+ },
+ "700076": {
+  "desc": "一个波仔",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A2011.T_SolarSchool_A2011",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A2011.T_SolarSchool_A2011"
+  }
+ },
+ "700077": {
+  "desc": "火锅派对所有人",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222_5_b.T_SolarSchool_222_5_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222_5_a.T_SolarSchool_222_5_a"
+  }
+ },
+ "700078": {
+  "desc": "火锅派对五人（带漂泊者）",
+  "level": "High",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222_b.T_SolarSchool_222_b",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_222_a.T_SolarSchool_222_a"
+  }
+ },
+ "700079": {
+  "desc": "鬼屋背景",
+  "level": "Low",
+  "data": {
+   "Type": "Image",
+   "PicPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A5005.T_SolarSchool_A5005",
+   "PicPathMaleVariant": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/CG/T_SolarSchool_A5005.T_SolarSchool_A5005"
+  }
+ }
+}

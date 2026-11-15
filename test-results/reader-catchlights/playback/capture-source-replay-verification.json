@@ -1,0 +1,422 @@
+{
+  "result": "PASS",
+  "authority": "independent-source-replay-against-controlled-reader-recording",
+  "method": "Fresh native Skeleton per recorded frame; original source body/mouth/eye clips applied directly at eyeTrackTime with loop=true; recorded root/scale and a fresh recorded OrthoCamera; source-canvas crop mapped into recording coordinates.",
+  "coordinateTolerancePixels": 0.02,
+  "clockPairToleranceSeconds": 0.06,
+  "runtime": {
+    "path": "public/assets/solarschool/characters/changli/spine-player.js",
+    "sha256": "28d83fdbae0af5965d568d9607e9e20710dcce8b984c0a24e9d2a1d0915938bc"
+  },
+  "originalExpressionTable": {
+    "path": "WutheringWaves_Data/BinData/AvgSolarSchoolRoleAnimation/avgsolarschoolroleanimation.json",
+    "sha256": "f053826bec5d869d35597c17d6e17a8aa0325b6030503a55822d4b0e58bf3846"
+  },
+  "readerFiles": {
+    "renderer": {
+      "path": "src/spine/ChangliSpineScene.ts",
+      "sha256": "d61f502c53e6de080000aa7b2691443b1d18888f7efcbea5d123e14ca1acce98",
+      "captureHashMatchesCurrentFile": true
+    },
+    "profiles": {
+      "path": "src/spine/SchoolPortraitAssets.ts",
+      "sha256": "228831a2ae0dc27eac767ec7924fc0ed42d3daba120db4fb9b9c48c65f268669",
+      "captureHashMatchesCurrentFile": true
+    },
+    "html": {
+      "path": "dist/index.html",
+      "sha256": "85b850f53e76ce47175b3e24b0fde070617a15c69843569ae45eddd8912d8ac5",
+      "captureHashMatchesCurrentFile": true
+    }
+  },
+  "productionBundles": [
+    {
+      "path": "dist/assets/index-Cfe_1Hr0.js",
+      "sha256": "dc0ba5b64d04b4da0c1caa17f25f16a3729f37e74a5c4e918e401ecdb13bd489"
+    }
+  ],
+  "captureReport": {
+    "path": "test-results/reader-catchlights/playback/production-browser-result.json",
+    "sha256": "006880d8179f89e72d5c53b2cdde3fddd4a5ce302a21870b7f9ac8c5c4ccc1e6"
+  },
+  "limitations": [
+    "Geometry replay checks the authored curves at the captured times; white-pixel tracking is a separate verification.",
+    "Recorded eye time belongs to the RAF update; wall time is sampled near renderer finish. Measured offset variation is retained with a 60ms comparison bound.",
+    "Nonuniform frame gaps limit temporal coverage, including any gaps longer than half a native period. No interpolation or extra frames are synthesized.",
+    "This verifies the recorded Reader open-eye intervals, not native Unreal/LGUI framebuffer output or the original game runtime.",
+    "Current production/source files are hashed and compared with capture-harness hashes; this replay does not independently record HTTP response bytes."
+  ],
+  "cases": [
+    {
+      "case": "abby-stage",
+      "result": "PASS",
+      "script": "1001",
+      "node": 10,
+      "expression": 700212,
+      "composition": "stage",
+      "source": {
+        "skeleton": {
+          "path": "public/assets/solarschool/characters/abby/SolarSchool_Abu.skel",
+          "sha256": "44d625e88a23edad6ce69e6760d7c784ecd46326e4572afc139c38bf08aa8a97"
+        },
+        "atlas": {
+          "path": "public/assets/solarschool/characters/abby/SolarSchool_Abu.atlas",
+          "sha256": "ed4be804c36969d54e49207040f83bce132d595b1db97b7c1e380639cd5aa562"
+        },
+        "metadata": {
+          "path": "public/assets/solarschool/characters/abby/Abby.animation-metadata.json",
+          "sha256": "aaf41aa534ed71acaa3ea38762d21b5df3c73e7173f499a350e5ab84e7da0e6f"
+        },
+        "texture": {
+          "path": "public/assets/solarschool/characters/abby/SolarSchool_Abu.png",
+          "sha256": "d4f2ce52f56ffba7f4188e564dac13393abe88f4864425fc411f1b6aa4a83c08"
+        },
+        "spineVersion": "4.1.23",
+        "clips": {
+          "BodyAnimation": {
+            "name": "dongzuo1_zhengchangzhan",
+            "durationSeconds": 0
+          },
+          "MouthAnimation": {
+            "name": "dongzuo1_zhengchang_bizui",
+            "durationSeconds": 0
+          },
+          "EyeAnimation": {
+            "name": "dongzuo1_zhengchang_zhengyan",
+            "durationSeconds": 0.20000001788139343
+          }
+        }
+      },
+      "recording": {
+        "measurements": {
+          "path": "test-results/reader-catchlights/playback/abby-stage/measurements.json",
+          "sha256": "b824fa474ce8a617eddb46eb41b6e24de212be8e3c4bf7617edcf236e7cb56a3"
+        },
+        "video": {
+          "path": "test-results/reader-catchlights/playback/abby-stage/close-up.webm",
+          "sha256": "3bb03f3271222ee8ddb3f1bf25621f9fbbe9663f2ca94458519c14a664b25d2f"
+        },
+        "frameSetSha256": "241d88845f0c48b068ed2210c5b481bf3e43a7ad3643190193fc8ea202cb05da",
+        "frameSetHashMethod": "SHA-256 of each filename plus NUL then PNG bytes, in measurement order",
+        "canvas": {
+          "width": 720,
+          "height": 320
+        }
+      },
+      "geometry": {
+        "matchesSourceReplay": true,
+        "maximumCoordinateDifferencePixels": {
+          "irisVertices": 0,
+          "catchlightVertices": 0
+        },
+        "worstSample": {
+          "irisVertices": null,
+          "catchlightVertices": null
+        },
+        "comparisonSampleCount": 85
+      },
+      "timing": {
+        "openEyeOnly": true,
+        "allEyeTracksLooped": true,
+        "allEyeTrackTimeScalesOne": true,
+        "monotonicEyeAndWallClocks": true,
+        "withinClockPairTolerance": true,
+        "wallClockRangeSeconds": [
+          0.00009999999403953553,
+          2.0012000000178816
+        ],
+        "eyeClockRangeSeconds": [
+          0.007381302437998519,
+          2.0072813024379994
+        ],
+        "wallClockSpanSeconds": 2.001100000023842,
+        "eyeClockSpanSeconds": 1.999900000000001,
+        "measuredEyeClockSecondsPerWallSecond": 0.9994003298066929,
+        "relativeEyeClockMinusWallClockSeconds": {
+          "minimum": -0.020600000023841658,
+          "maximum": 0.0014999999761593497,
+          "range": 0.022100000000001008
+        },
+        "endpointClockDifferenceSeconds": -0.0012000000238410191,
+        "nativePeriodsSpannedByEyeClock": 9.999499105975117
+      },
+      "sampling": {
+        "recordedFrames": 85,
+        "wallFrameGapsSeconds": {
+          "minimum": 0.015899999976158152,
+          "median": 0.02180000001192095,
+          "p95": 0.026000000000000023,
+          "maximum": 0.15060000002384186
+        },
+        "eyeClockFrameGapsSeconds": {
+          "minimum": 0.016599999999998505,
+          "median": 0.016700000000000825,
+          "p95": 0.03339999999999965,
+          "maximum": 0.15000000000000002
+        },
+        "wallGapsLongerThanHalfNativePeriod": 1,
+        "nativeCycleIndicesWithRecordedSamples": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "scope": "Every retained frame is compared at its recorded source eye time. Nonuniform frame gaps are retained; frame count alone does not establish motion or complete temporal coverage."
+      }
+    },
+    {
+      "case": "verina-stage",
+      "result": "PASS",
+      "script": "1016",
+      "node": 1,
+      "expression": 700136,
+      "composition": "stage",
+      "source": {
+        "skeleton": {
+          "path": "public/assets/solarschool/characters/verina/SolarSchool_Weilinai.skel",
+          "sha256": "aa00eb4347392e34772e72a0281db1f143fd25ebaf1ff8191f2665f4263b4633"
+        },
+        "atlas": {
+          "path": "public/assets/solarschool/characters/verina/SolarSchool_Weilinai.atlas",
+          "sha256": "de0ed4d02557758241ae798bab82fde3ab7b3e768fd9f415069575cb3164c634"
+        },
+        "metadata": {
+          "path": "public/assets/solarschool/characters/verina/verina.animation-metadata.json",
+          "sha256": "81573d7b68407598411ceb7e7138ffe6588522f8e1fd6b5a1088abdbd503bd3b"
+        },
+        "texture": {
+          "path": "public/assets/solarschool/characters/verina/SolarSchool_Weilinai.webp",
+          "sha256": "39fca21c94831fa3feeb16a4aa76dc0d077378e5f6a2c3b065f1f651656966b9"
+        },
+        "spineVersion": "4.1.23",
+        "clips": {
+          "BodyAnimation": {
+            "name": "dongzuo1_putongzhan",
+            "durationSeconds": 0
+          },
+          "MouthAnimation": {
+            "name": "dongzuo1_zhengchang_zui",
+            "durationSeconds": 0
+          },
+          "EyeAnimation": {
+            "name": "dongzuo1_zhengchang_zhengyan",
+            "durationSeconds": 1.3333333730697632
+          }
+        }
+      },
+      "recording": {
+        "measurements": {
+          "path": "test-results/reader-catchlights/playback/verina-stage/measurements.json",
+          "sha256": "0182b35ba928622031fb489d8cfd7ce14bf253ddda294bc76c1b7487aac01aea"
+        },
+        "video": {
+          "path": "test-results/reader-catchlights/playback/verina-stage/close-up.webm",
+          "sha256": "5dc3ea637a4253f5a116a746482013829e2f447c51cc656617c13e694da59982"
+        },
+        "frameSetSha256": "44f446f567b775ae11251a8ed476eb14ea877fe03e0319900f5f398d2d8b9bf3",
+        "frameSetHashMethod": "SHA-256 of each filename plus NUL then PNG bytes, in measurement order",
+        "canvas": {
+          "width": 720,
+          "height": 320
+        }
+      },
+      "geometry": {
+        "matchesSourceReplay": true,
+        "maximumCoordinateDifferencePixels": {
+          "irisVertices": 0,
+          "catchlightVertices": 0
+        },
+        "worstSample": {
+          "irisVertices": null,
+          "catchlightVertices": null
+        },
+        "comparisonSampleCount": 93
+      },
+      "timing": {
+        "openEyeOnly": true,
+        "allEyeTracksLooped": true,
+        "allEyeTrackTimeScalesOne": true,
+        "monotonicEyeAndWallClocks": true,
+        "withinClockPairTolerance": true,
+        "wallClockRangeSeconds": [
+          0.00030000001192092895,
+          2.0007000000178814
+        ],
+        "eyeClockRangeSeconds": [
+          0.01667005332499076,
+          2.0165700533249904
+        ],
+        "wallClockSpanSeconds": 2.0004000000059605,
+        "eyeClockSpanSeconds": 1.9998999999999996,
+        "measuredEyeClockSecondsPerWallSecond": 0.9997500499870229,
+        "relativeEyeClockMinusWallClockSeconds": {
+          "minimum": -0.017500000000000043,
+          "maximum": 0.003600000011919735,
+          "range": 0.02110000001191978
+        },
+        "endpointClockDifferenceSeconds": -0.0005000000059609544,
+        "nativePeriodsSpannedByEyeClock": 1.4999249552987526
+      },
+      "sampling": {
+        "recordedFrames": 93,
+        "wallFrameGapsSeconds": {
+          "minimum": 0.01590000000596037,
+          "median": 0.020000000000000018,
+          "p95": 0.022799999982118624,
+          "maximum": 0.15409999999403953
+        },
+        "eyeClockFrameGapsSeconds": {
+          "minimum": 0.01649999999999996,
+          "median": 0.016700000000000714,
+          "p95": 0.03339999999999965,
+          "maximum": 0.14999999999999997
+        },
+        "wallGapsLongerThanHalfNativePeriod": 0,
+        "nativeCycleIndicesWithRecordedSamples": [
+          0,
+          1
+        ],
+        "scope": "Every retained frame is compared at its recorded source eye time. Nonuniform frame gaps are retained; frame count alone does not establish motion or complete temporal coverage."
+      }
+    },
+    {
+      "case": "abby-avatar",
+      "result": "PASS",
+      "script": "1034",
+      "node": 56,
+      "expression": 700212,
+      "composition": "avatar",
+      "source": {
+        "skeleton": {
+          "path": "public/assets/solarschool/characters/abby/SolarSchool_Abu.skel",
+          "sha256": "44d625e88a23edad6ce69e6760d7c784ecd46326e4572afc139c38bf08aa8a97"
+        },
+        "atlas": {
+          "path": "public/assets/solarschool/characters/abby/SolarSchool_Abu.atlas",
+          "sha256": "ed4be804c36969d54e49207040f83bce132d595b1db97b7c1e380639cd5aa562"
+        },
+        "metadata": {
+          "path": "public/assets/solarschool/characters/abby/Abby.animation-metadata.json",
+          "sha256": "aaf41aa534ed71acaa3ea38762d21b5df3c73e7173f499a350e5ab84e7da0e6f"
+        },
+        "texture": {
+          "path": "public/assets/solarschool/characters/abby/SolarSchool_Abu.png",
+          "sha256": "d4f2ce52f56ffba7f4188e564dac13393abe88f4864425fc411f1b6aa4a83c08"
+        },
+        "spineVersion": "4.1.23",
+        "clips": {
+          "BodyAnimation": {
+            "name": "dongzuo1_zhengchangzhan",
+            "durationSeconds": 0
+          },
+          "MouthAnimation": {
+            "name": "dongzuo1_zhengchang_bizui",
+            "durationSeconds": 0
+          },
+          "EyeAnimation": {
+            "name": "dongzuo1_zhengchang_zhengyan",
+            "durationSeconds": 0.20000001788139343
+          }
+        }
+      },
+      "recording": {
+        "measurements": {
+          "path": "test-results/reader-catchlights/playback/abby-avatar/measurements.json",
+          "sha256": "f0950e17b282340f37b3fa7013f6a3ace6f0c6b51ea556d4834fef992fbd6a58"
+        },
+        "video": {
+          "path": "test-results/reader-catchlights/playback/abby-avatar/close-up.webm",
+          "sha256": "08e3f4f18ad33a4a6a34e2c3ea1b89d130a01b793e82a79a496890f37f3c85ae"
+        },
+        "frameSetSha256": "c26dac12d87e669783001474b64fd9f4f5ced238cb914cff11da6a163a05e241",
+        "frameSetHashMethod": "SHA-256 of each filename plus NUL then PNG bytes, in measurement order",
+        "canvas": {
+          "width": 720,
+          "height": 320
+        }
+      },
+      "geometry": {
+        "matchesSourceReplay": true,
+        "maximumCoordinateDifferencePixels": {
+          "irisVertices": 0,
+          "catchlightVertices": 0
+        },
+        "worstSample": {
+          "irisVertices": null,
+          "catchlightVertices": null
+        },
+        "comparisonSampleCount": 68
+      },
+      "timing": {
+        "openEyeOnly": true,
+        "allEyeTracksLooped": true,
+        "allEyeTrackTimeScalesOne": true,
+        "monotonicEyeAndWallClocks": true,
+        "withinClockPairTolerance": true,
+        "wallClockRangeSeconds": [
+          0.008699999988079072,
+          3.2154000000059604
+        ],
+        "eyeClockRangeSeconds": [
+          0.015071566689517368,
+          3.265071566689516
+        ],
+        "wallClockSpanSeconds": 3.2067000000178814,
+        "eyeClockSpanSeconds": 3.2499999999999987,
+        "measuredEyeClockSecondsPerWallSecond": 1.0135029781338685,
+        "relativeEyeClockMinusWallClockSeconds": {
+          "minimum": 0,
+          "maximum": 0.046399999994038876,
+          "range": 0.046399999994038876
+        },
+        "endpointClockDifferenceSeconds": 0.04329999998211731,
+        "nativePeriodsSpannedByEyeClock": 16.249998547136908
+      },
+      "sampling": {
+        "recordedFrames": 68,
+        "wallFrameGapsSeconds": {
+          "minimum": 0.035099999994039344,
+          "median": 0.04480000001192097,
+          "p95": 0.05359999999403953,
+          "maximum": 0.19690000000596045
+        },
+        "eyeClockFrameGapsSeconds": {
+          "minimum": 0.03320000000000073,
+          "median": 0.04999999999999982,
+          "p95": 0.06660000000000221,
+          "maximum": 0.23340000000000147
+        },
+        "wallGapsLongerThanHalfNativePeriod": 1,
+        "nativeCycleIndicesWithRecordedSamples": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "scope": "Every retained frame is compared at its recorded source eye time. Nonuniform frame gaps are retained; frame count alone does not establish motion or complete temporal coverage."
+      }
+    }
+  ],
+  "missing": [],
+  "errors": []
+}

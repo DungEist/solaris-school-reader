@@ -1,0 +1,47 @@
+{
+  "talkerId": 850002,
+  "name": "Rover (female)",
+  "skeletonVersion": "4.1.23",
+  "sourceAtlas": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Female/SolarSchool_Female.SolarSchool_Female-atlas",
+  "sourceSkeleton": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Female/SolarSchool_Female.SolarSchool_Female-data",
+  "sourceArchive": "/game/SteamLibrary/steamapps/common/Wuthering Waves/Wuthering Waves Game/Client/Saved/Resources/3.8.0/Resource/3.8.9/pakchunk7-WindowsNoEditor_P.pak",
+  "members": [
+    "../../../Client/Content/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Female/SolarSchool_Female.uasset",
+    "../../../Client/Content/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Female/SolarSchool_Female.uexp"
+  ],
+  "archiveIndexHashes": {
+    "primary_index_sha1": "e9da0951ad26e2c191b1f7355532ec5c011b401a",
+    "directory_index_sha1": "e0370921a201efe9dc06d761fc250a98555d2534"
+  },
+  "extractionHelpers": "/tmp/solarschool-changli-inspection-NKHWT5",
+  "helperHashes": {
+    "inspect_changli.py": "f529926159db8012b5d36758cb150fbccdf77a2790246e5bd04856f1f3ac43f5",
+    "extract_changli.py": "e55a20c0d10aa14c7aafa0ae119cbad51b202814933ccee6fdf58fb3e3071ad0",
+    "inspect_spine_package.py": "fbafa1ef6bbbbb14dc3875465f3fed91d704e1ffda9e2f0b4cdaf1b40aa3278e"
+  },
+  "runtime": {
+    "file": "../changli/spine-player.js",
+    "version": "4.1.56",
+    "license": "../changli/SPINE-LICENSE.txt"
+  },
+  "texture": {
+    "file": "SolarSchool_Female.webp",
+    "sourceWebp": "WW_Asset_Webp/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Female/SolarSchool_Female.webp",
+    "origin": "Existing local WW_Asset_Webp bytes, used directly; not a game texture export",
+    "dimensions": [
+      4096,
+      4096
+    ],
+    "sourceSha256": "500673fbde6a00fe90bbff194c5e9791d31bd2a39f6070d86724c276f1327ce5",
+    "atlasPage": "SolarSchool_Female.png",
+    "atlasDimensionsVerified": true,
+    "storage": "hardlink to existing cache"
+  },
+  "placement": "Provisional, fixed reference pose; generated SchoolPortraitCatalog.ts",
+  "sha256": {
+    "SolarSchool_Female.atlas": "152492be4fd74ea9bc844501793de4b00ef61106c3e67680097557dabbb439b5",
+    "SolarSchool_Female.skel": "43745c1ee1db94f4f3dbf3b9b6c2dc2cfd29e3c2a47f234bf8d094fce028b520",
+    "SolarSchool_Female.webp": "500673fbde6a00fe90bbff194c5e9791d31bd2a39f6070d86724c276f1327ce5",
+    "rover-female.animation-metadata.json": "4417e2e9c03e102f1c56c6853e3154da4951b4a352eb370d44dd1a83ef590fd1"
+  }
+}

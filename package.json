@@ -1,0 +1,43 @@
+{
+  "name": "solaris-school-reader",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": { "node": ">=22.18.0" },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --experimental-strip-types --test --experimental-test-isolation=none tests/*.test.ts",
+    "posttest": "python3 tests/prepare_assets_test.py",
+    "test:unit": "node --experimental-strip-types --test --experimental-test-isolation=none tests/runner.test.ts tests/stage.test.ts tests/timing.test.ts tests/options.test.ts tests/assets.test.ts tests/text.test.ts tests/reading.test.ts tests/backlog.test.ts tests/data.test.ts tests/quiz.test.ts tests/ui.test.ts",
+    "posttest:unit": "python3 tests/prepare_assets_test.py",
+    "test:assets": "python3 tests/prepare_assets_test.py",
+    "test:catchlights": "node --experimental-strip-types tools/verify_reader_catchlight_coverage.mjs",
+    "test:catchlights:recordings": "node --experimental-strip-types tools/verify_reader_catchlight_recordings.mjs",
+    "test:real": "node --experimental-strip-types --test --experimental-test-isolation=none tests/real-data.test.ts",
+    "test:timing": "node --experimental-strip-types --test --experimental-test-isolation=none tests/timing.test.ts tests/options.test.ts tests/timed-real-data.test.ts",
+    "test:reading": "node --experimental-strip-types --test --experimental-test-isolation=none tests/text.test.ts tests/reading.test.ts tests/ui.test.ts",
+    "test:history": "node --experimental-strip-types --test --experimental-test-isolation=none tests/backlog.test.ts tests/ui.test.ts",
+    "test:quiz": "node --experimental-strip-types --test --experimental-test-isolation=none tests/quiz.test.ts tests/quiz-real-data.test.ts tests/ui.test.ts",
+    "test:browser": "node tools/browser-check.mjs",
+    "test:browser:reading": "node tools/browser-check.mjs --reading-only",
+    "test:browser:history": "node tools/browser-check.mjs --history-only",
+    "test:browser:interfaces": "node tools/browser-check.mjs --interfaces-only",
+    "test:browser:reader-ui": "node tools/reader-ui-browser-check.mjs",
+    "test:story": "node --experimental-strip-types --test --experimental-test-isolation=none tests/story.test.ts",
+    "assets:fetch": "python3 tools/prepare_assets.py",
+    "assets:reader-ui": "python3 tools/prepare_reader_ui_assets.py && python3 tools/prepare_reader_presentations.py"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.6"
+  }
+}

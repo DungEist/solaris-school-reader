@@ -1,0 +1,2558 @@
+{
+ "1001": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_1",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 0
+ },
+ "1002": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_2",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 1
+ },
+ "1003": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_3",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 2
+ },
+ "1004": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_4",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 3
+ },
+ "1005": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_5",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 4
+ },
+ "1006": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_6",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 5
+ },
+ "1007": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_7",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 6
+ },
+ "1008": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_8",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 7
+ },
+ "1009": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_9",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 8
+ },
+ "1010": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_10",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 9
+ },
+ "1011": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_11",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 10
+ },
+ "1012": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_12",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 11
+ },
+ "1013": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_13",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 12
+ },
+ "1014": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_14",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 13
+ },
+ "1015": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_15",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 14
+ },
+ "7001": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_1",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 174
+ },
+ "7003": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_3",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 175
+ },
+ "7004": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_4",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 176
+ },
+ "7005": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_5",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 177
+ },
+ "7006": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_6",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 178
+ },
+ "7007": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_7",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 179
+ },
+ "7008": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_8",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 180
+ },
+ "7009": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_9",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 181
+ },
+ "7010": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_10",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 182
+ },
+ "7011": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_11",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 183
+ },
+ "7012": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_12",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 184
+ },
+ "7013": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_13",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 185
+ },
+ "8005": {
+  "stateKey": "剧情_3.8索拉学院_节日_1_5",
+  "group": "索拉学院_节日",
+  "needSave": true,
+  "bitFlag": 222
+ },
+ "8006": {
+  "stateKey": "剧情_3.8索拉学院_节日_1_6",
+  "group": "索拉学院_节日",
+  "needSave": true,
+  "bitFlag": 223
+ },
+ "8007": {
+  "stateKey": "剧情_3.8索拉学院_节日_1_7",
+  "group": "索拉学院_节日",
+  "needSave": true,
+  "bitFlag": 224
+ },
+ "8008": {
+  "stateKey": "剧情_3.8索拉学院_节日_1_8",
+  "group": "索拉学院_节日",
+  "needSave": true,
+  "bitFlag": 225
+ },
+ "8009": {
+  "stateKey": "剧情_3.8索拉学院_节日_1_9",
+  "group": "索拉学院_节日",
+  "needSave": true,
+  "bitFlag": 226
+ },
+ "8010": {
+  "stateKey": "剧情_3.8索拉学院_节日_1_10",
+  "group": "索拉学院_节日",
+  "needSave": true,
+  "bitFlag": 227
+ },
+ "8011": {
+  "stateKey": "剧情_3.8索拉学院_节日_1_11",
+  "group": "索拉学院_节日",
+  "needSave": true,
+  "bitFlag": 228
+ },
+ "8012": {
+  "stateKey": "剧情_3.8索拉学院_节日_1_12",
+  "group": "索拉学院_节日",
+  "needSave": true,
+  "bitFlag": 229
+ },
+ "8013": {
+  "stateKey": "剧情_3.8索拉学院_节日_1_13",
+  "group": "索拉学院_节日",
+  "needSave": true,
+  "bitFlag": 230
+ },
+ "8014": {
+  "stateKey": "剧情_3.8索拉学院_节日_1_14",
+  "group": "索拉学院_节日",
+  "needSave": true,
+  "bitFlag": 231
+ },
+ "8015": {
+  "stateKey": "剧情_3.8索拉学院_节日_1_15",
+  "group": "索拉学院_节日",
+  "needSave": true,
+  "bitFlag": 232
+ },
+ "1016": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_16",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 15
+ },
+ "1017": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_17",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 16
+ },
+ "1018": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_18",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 17
+ },
+ "1019": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_19",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 18
+ },
+ "1020": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_20",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 19
+ },
+ "1021": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_21",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 20
+ },
+ "1023": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_23",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 21
+ },
+ "1024": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_24",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 22
+ },
+ "1025": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_25",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 23
+ },
+ "1026": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_26",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 24
+ },
+ "1027": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_27",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 25
+ },
+ "1028": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_28",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 26
+ },
+ "1029": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_29",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 27
+ },
+ "1030": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_30",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 28
+ },
+ "1031": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_31",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 29
+ },
+ "1032": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_32",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 30
+ },
+ "1033": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_33",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 31
+ },
+ "1034": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_34",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 32
+ },
+ "1035": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_35",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 33
+ },
+ "1036": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_36",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 34
+ },
+ "1037": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_37",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 35
+ },
+ "1038": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_38",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 36
+ },
+ "1039": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_39",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 37
+ },
+ "1040": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_40",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 38
+ },
+ "1041": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_41",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 39
+ },
+ "1042": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_42",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 40
+ },
+ "1043": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_43",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 41
+ },
+ "1044": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_44",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 42
+ },
+ "1045": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_45",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 43
+ },
+ "1046": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_46",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 44
+ },
+ "2001": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_1_1",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 52
+ },
+ "2002": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_1_2",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 53
+ },
+ "2003": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_1_3",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 54
+ },
+ "2004": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_1_4",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 55
+ },
+ "2005": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_1_5",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 56
+ },
+ "2006": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_1_6",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 57
+ },
+ "2007": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_1_7",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 58
+ },
+ "3004": {
+  "stateKey": "剧情_3.8索拉学院_结尾_11_1",
+  "group": "索拉学院_结尾",
+  "needSave": true,
+  "bitFlag": 63
+ },
+ "3005": {
+  "stateKey": "剧情_3.8索拉学院_结尾_10_1",
+  "group": "索拉学院_结尾",
+  "needSave": true,
+  "bitFlag": 64
+ },
+ "3006": {
+  "stateKey": "剧情_3.8索拉学院_结尾_9_1",
+  "group": "索拉学院_结尾",
+  "needSave": true,
+  "bitFlag": 65
+ },
+ "3007": {
+  "stateKey": "剧情_3.8索拉学院_结尾_8_1",
+  "group": "索拉学院_结尾",
+  "needSave": true,
+  "bitFlag": 66
+ },
+ "3008": {
+  "stateKey": "剧情_3.8索拉学院_结尾_7_1",
+  "group": "索拉学院_结尾",
+  "needSave": true,
+  "bitFlag": 67
+ },
+ "3009": {
+  "stateKey": "剧情_3.8索拉学院_结尾_12_1",
+  "group": "索拉学院_结尾",
+  "needSave": true,
+  "bitFlag": 68
+ },
+ "3010": {
+  "stateKey": "剧情_3.8索拉学院_结尾_14_1",
+  "group": "索拉学院_结尾",
+  "needSave": true,
+  "bitFlag": 69
+ },
+ "3011": {
+  "stateKey": "剧情_3.8索拉学院_结尾_13_1",
+  "group": "索拉学院_结尾",
+  "needSave": true,
+  "bitFlag": 70
+ },
+ "3012": {
+  "stateKey": "剧情_3.8索拉学院_结尾_15_1",
+  "group": "索拉学院_结尾",
+  "needSave": true,
+  "bitFlag": 71
+ },
+ "3013": {
+  "stateKey": "剧情_3.8索拉学院_结尾_16_1",
+  "group": "索拉学院_结尾",
+  "needSave": true,
+  "bitFlag": 72
+ },
+ "3014": {
+  "stateKey": "剧情_3.8索拉学院_结尾_6_1",
+  "group": "索拉学院_结尾",
+  "needSave": true,
+  "bitFlag": 73
+ },
+ "3015": {
+  "stateKey": "剧情_3.8索拉学院_结尾_5_1",
+  "group": "索拉学院_结尾",
+  "needSave": true,
+  "bitFlag": 74
+ },
+ "3016": {
+  "stateKey": "剧情_3.8索拉学院_结尾_3_1",
+  "group": "索拉学院_结尾",
+  "needSave": true,
+  "bitFlag": 75
+ },
+ "3017": {
+  "stateKey": "剧情_3.8索拉学院_结尾_2_1",
+  "group": "索拉学院_结尾",
+  "needSave": true,
+  "bitFlag": 76
+ },
+ "3018": {
+  "stateKey": "剧情_3.8索拉学院_结尾_1_1",
+  "group": "索拉学院_结尾",
+  "needSave": true,
+  "bitFlag": 77
+ },
+ "3019": {
+  "stateKey": "剧情_3.8索拉学院_职业结局_1_1",
+  "group": "索拉学院_职业结局",
+  "needSave": true,
+  "bitFlag": 78
+ },
+ "3020": {
+  "stateKey": "剧情_3.8索拉学院_结尾_17_1",
+  "group": "索拉学院_结尾",
+  "needSave": true,
+  "bitFlag": 79
+ },
+ "3021": {
+  "stateKey": "剧情_3.8索拉学院_梅塔差分_1_1",
+  "group": "索拉学院_梅塔差分",
+  "needSave": true,
+  "bitFlag": 80
+ },
+ "5001": {
+  "stateKey": "剧情_3.8索拉学院_邀约_好感度文本_1_1",
+  "group": "索拉学院_邀约_好感度文本",
+  "needSave": true,
+  "bitFlag": 124
+ },
+ "5002": {
+  "stateKey": "剧情_3.8索拉学院_邀约_好感度文本_1_11",
+  "group": "索拉学院_邀约_好感度文本",
+  "needSave": true,
+  "bitFlag": 125
+ },
+ "5003": {
+  "stateKey": "剧情_3.8索拉学院_邀约_好感度文本_1_2",
+  "group": "索拉学院_邀约_好感度文本",
+  "needSave": true,
+  "bitFlag": 126
+ },
+ "5004": {
+  "stateKey": "剧情_3.8索拉学院_邀约_好感度文本_1_12",
+  "group": "索拉学院_邀约_好感度文本",
+  "needSave": true,
+  "bitFlag": 127
+ },
+ "5005": {
+  "stateKey": "剧情_3.8索拉学院_邀约_好感度文本_1_3",
+  "group": "索拉学院_邀约_好感度文本",
+  "needSave": true,
+  "bitFlag": 128
+ },
+ "5006": {
+  "stateKey": "剧情_3.8索拉学院_邀约_好感度文本_1_13",
+  "group": "索拉学院_邀约_好感度文本",
+  "needSave": true,
+  "bitFlag": 129
+ },
+ "5007": {
+  "stateKey": "剧情_3.8索拉学院_邀约_好感度文本_1_4",
+  "group": "索拉学院_邀约_好感度文本",
+  "needSave": true,
+  "bitFlag": 130
+ },
+ "5008": {
+  "stateKey": "剧情_3.8索拉学院_邀约_好感度文本_1_14",
+  "group": "索拉学院_邀约_好感度文本",
+  "needSave": true,
+  "bitFlag": 131
+ },
+ "5009": {
+  "stateKey": "剧情_3.8索拉学院_邀约_好感度文本_1_5",
+  "group": "索拉学院_邀约_好感度文本",
+  "needSave": true,
+  "bitFlag": 132
+ },
+ "5010": {
+  "stateKey": "剧情_3.8索拉学院_邀约_好感度文本_1_15",
+  "group": "索拉学院_邀约_好感度文本",
+  "needSave": true,
+  "bitFlag": 133
+ },
+ "7014": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_14",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 186
+ },
+ "7015": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_15",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 187
+ },
+ "1047": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_47",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 45
+ },
+ "9001": {
+  "stateKey": "剧情_3.8索拉学院_长离个人线_1_1",
+  "group": "索拉学院_长离个人线",
+  "needSave": true,
+  "bitFlag": 243
+ },
+ "9002": {
+  "stateKey": "剧情_3.8索拉学院_长离个人线_1_5",
+  "group": "索拉学院_长离个人线",
+  "needSave": true,
+  "bitFlag": 244
+ },
+ "3022": {
+  "stateKey": "剧情_3.8索拉学院_职业结局_2_1",
+  "group": "索拉学院_职业结局",
+  "needSave": true,
+  "bitFlag": 81
+ },
+ "3023": {
+  "stateKey": "剧情_3.8索拉学院_职业结局_3_1",
+  "group": "索拉学院_职业结局",
+  "needSave": true,
+  "bitFlag": 82
+ },
+ "3024": {
+  "stateKey": "剧情_3.8索拉学院_职业结局_4_1",
+  "group": "索拉学院_职业结局",
+  "needSave": true,
+  "bitFlag": 83
+ },
+ "3025": {
+  "stateKey": "剧情_3.8索拉学院_职业结局_5_1",
+  "group": "索拉学院_职业结局",
+  "needSave": true,
+  "bitFlag": 84
+ },
+ "3026": {
+  "stateKey": "剧情_3.8索拉学院_职业结局_6_1",
+  "group": "索拉学院_职业结局",
+  "needSave": true,
+  "bitFlag": 85
+ },
+ "3027": {
+  "stateKey": "剧情_3.8索拉学院_职业结局_7_1",
+  "group": "索拉学院_职业结局",
+  "needSave": true,
+  "bitFlag": 86
+ },
+ "3028": {
+  "stateKey": "剧情_3.8索拉学院_职业结局_8_1",
+  "group": "索拉学院_职业结局",
+  "needSave": true,
+  "bitFlag": 87
+ },
+ "3029": {
+  "stateKey": "剧情_3.8索拉学院_职业结局_9_1",
+  "group": "索拉学院_职业结局",
+  "needSave": true,
+  "bitFlag": 88
+ },
+ "3030": {
+  "stateKey": "剧情_3.8索拉学院_结尾_4_1",
+  "group": "索拉学院_结尾",
+  "needSave": true,
+  "bitFlag": 89
+ },
+ "7016": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_16",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 188
+ },
+ "3031": {
+  "stateKey": "剧情_3.8索拉学院_梅塔差分_2_1",
+  "group": "索拉学院_梅塔差分",
+  "needSave": true,
+  "bitFlag": 90
+ },
+ "3032": {
+  "stateKey": "剧情_3.8索拉学院_梅塔差分_3_1",
+  "group": "索拉学院_梅塔差分",
+  "needSave": true,
+  "bitFlag": 91
+ },
+ "3033": {
+  "stateKey": "剧情_3.8索拉学院_梅塔差分_4_1",
+  "group": "索拉学院_梅塔差分",
+  "needSave": true,
+  "bitFlag": 92
+ },
+ "3034": {
+  "stateKey": "剧情_3.8索拉学院_梅塔差分_5_1",
+  "group": "索拉学院_梅塔差分",
+  "needSave": true,
+  "bitFlag": 93
+ },
+ "3035": {
+  "stateKey": "剧情_3.8索拉学院_梅塔差分_6_1",
+  "group": "索拉学院_梅塔差分",
+  "needSave": true,
+  "bitFlag": 94
+ },
+ "3036": {
+  "stateKey": "剧情_3.8索拉学院_梅塔差分_7_1",
+  "group": "索拉学院_梅塔差分",
+  "needSave": true,
+  "bitFlag": 95
+ },
+ "3037": {
+  "stateKey": "剧情_3.8索拉学院_梅塔差分_8_1",
+  "group": "索拉学院_梅塔差分",
+  "needSave": true,
+  "bitFlag": 96
+ },
+ "7017": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_2",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 189
+ },
+ "7018": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_18",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 190
+ },
+ "7019": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_20",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 191
+ },
+ "7020": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_21",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 192
+ },
+ "7021": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_19",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 193
+ },
+ "7022": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_22",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 194
+ },
+ "7023": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_23",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 195
+ },
+ "7024": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_24",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 196
+ },
+ "7025": {
+  "stateKey": "剧情_3.8索拉学院_考试题目_1_1",
+  "group": "索拉学院_考试题目",
+  "needSave": true,
+  "bitFlag": 197
+ },
+ "7026": {
+  "stateKey": "剧情_3.8索拉学院_考试题目_1_2",
+  "group": "索拉学院_考试题目",
+  "needSave": true,
+  "bitFlag": 198
+ },
+ "7027": {
+  "stateKey": "剧情_3.8索拉学院_考试题目_1_3",
+  "group": "索拉学院_考试题目",
+  "needSave": true,
+  "bitFlag": 199
+ },
+ "7028": {
+  "stateKey": "剧情_3.8索拉学院_考试题目_1_4",
+  "group": "索拉学院_考试题目",
+  "needSave": true,
+  "bitFlag": 200
+ },
+ "7029": {
+  "stateKey": "剧情_3.8索拉学院_考试题目_1_5",
+  "group": "索拉学院_考试题目",
+  "needSave": true,
+  "bitFlag": 201
+ },
+ "7030": {
+  "stateKey": "剧情_3.8索拉学院_考试题目_1_6",
+  "group": "索拉学院_考试题目",
+  "needSave": true,
+  "bitFlag": 202
+ },
+ "7031": {
+  "stateKey": "剧情_3.8索拉学院_考试题目_1_7",
+  "group": "索拉学院_考试题目",
+  "needSave": true,
+  "bitFlag": 203
+ },
+ "7032": {
+  "stateKey": "剧情_3.8索拉学院_考试题目_1_8",
+  "group": "索拉学院_考试题目",
+  "needSave": true,
+  "bitFlag": 204
+ },
+ "7033": {
+  "stateKey": "剧情_3.8索拉学院_考试题目_1_9",
+  "group": "索拉学院_考试题目",
+  "needSave": true,
+  "bitFlag": 205
+ },
+ "7034": {
+  "stateKey": "剧情_3.8索拉学院_考试题目_1_10",
+  "group": "索拉学院_考试题目",
+  "needSave": true,
+  "bitFlag": 206
+ },
+ "7035": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_25",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 207
+ },
+ "7036": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_26",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 208
+ },
+ "7037": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_27",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 209
+ },
+ "7038": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_28",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 210
+ },
+ "7039": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_29",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 211
+ },
+ "7040": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_30",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 212
+ },
+ "7041": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_31",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 213
+ },
+ "7042": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_32",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 214
+ },
+ "7043": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_33",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 215
+ },
+ "7044": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_34",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 216
+ },
+ "7045": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_35",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 217
+ },
+ "7046": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_36",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 218
+ },
+ "7047": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_37",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 219
+ },
+ "7048": {
+  "stateKey": "剧情_3.8索拉学院_考试_1_38",
+  "group": "索拉学院_考试",
+  "needSave": true,
+  "bitFlag": 220
+ },
+ "8004": {
+  "stateKey": "剧情_3.8索拉学院_节日_1_4",
+  "group": "索拉学院_节日",
+  "needSave": true,
+  "bitFlag": 221
+ },
+ "6001": {
+  "stateKey": "剧情_3.8索拉学院_非邀约角色好感度文本_1_1",
+  "group": "索拉学院_非邀约角色好感度文本",
+  "needSave": true,
+  "bitFlag": 144
+ },
+ "6002": {
+  "stateKey": "剧情_3.8索拉学院_非邀约角色好感度文本_1_2",
+  "group": "索拉学院_非邀约角色好感度文本",
+  "needSave": true,
+  "bitFlag": 145
+ },
+ "6003": {
+  "stateKey": "剧情_3.8索拉学院_非邀约角色好感度文本_1_3",
+  "group": "索拉学院_非邀约角色好感度文本",
+  "needSave": true,
+  "bitFlag": 146
+ },
+ "6004": {
+  "stateKey": "剧情_3.8索拉学院_非邀约角色好感度文本_2_1",
+  "group": "索拉学院_非邀约角色好感度文本",
+  "needSave": true,
+  "bitFlag": 147
+ },
+ "6005": {
+  "stateKey": "剧情_3.8索拉学院_非邀约角色好感度文本_2_2",
+  "group": "索拉学院_非邀约角色好感度文本",
+  "needSave": true,
+  "bitFlag": 148
+ },
+ "6006": {
+  "stateKey": "剧情_3.8索拉学院_非邀约角色好感度文本_2_3",
+  "group": "索拉学院_非邀约角色好感度文本",
+  "needSave": true,
+  "bitFlag": 149
+ },
+ "6007": {
+  "stateKey": "剧情_3.8索拉学院_非邀约角色好感度文本_3_1",
+  "group": "索拉学院_非邀约角色好感度文本",
+  "needSave": true,
+  "bitFlag": 150
+ },
+ "6008": {
+  "stateKey": "剧情_3.8索拉学院_非邀约角色好感度文本_3_2",
+  "group": "索拉学院_非邀约角色好感度文本",
+  "needSave": true,
+  "bitFlag": 151
+ },
+ "6009": {
+  "stateKey": "剧情_3.8索拉学院_非邀约角色好感度文本_3_3",
+  "group": "索拉学院_非邀约角色好感度文本",
+  "needSave": true,
+  "bitFlag": 152
+ },
+ "6010": {
+  "stateKey": "剧情_3.8索拉学院_非邀约角色好感度文本_4_1",
+  "group": "索拉学院_非邀约角色好感度文本",
+  "needSave": true,
+  "bitFlag": 153
+ },
+ "6011": {
+  "stateKey": "剧情_3.8索拉学院_非邀约角色好感度文本_4_2",
+  "group": "索拉学院_非邀约角色好感度文本",
+  "needSave": true,
+  "bitFlag": 154
+ },
+ "6012": {
+  "stateKey": "剧情_3.8索拉学院_非邀约角色好感度文本_4_3",
+  "group": "索拉学院_非邀约角色好感度文本",
+  "needSave": true,
+  "bitFlag": 155
+ },
+ "6013": {
+  "stateKey": "剧情_3.8索拉学院_非邀约角色好感度文本_5_1",
+  "group": "索拉学院_非邀约角色好感度文本",
+  "needSave": true,
+  "bitFlag": 156
+ },
+ "6014": {
+  "stateKey": "剧情_3.8索拉学院_非邀约角色好感度文本_5_2",
+  "group": "索拉学院_非邀约角色好感度文本",
+  "needSave": true,
+  "bitFlag": 157
+ },
+ "6015": {
+  "stateKey": "剧情_3.8索拉学院_非邀约角色好感度文本_5_3",
+  "group": "索拉学院_非邀约角色好感度文本",
+  "needSave": true,
+  "bitFlag": 158
+ },
+ "6016": {
+  "stateKey": "剧情_3.8索拉学院_非邀约角色好感度文本_6_1",
+  "group": "索拉学院_非邀约角色好感度文本",
+  "needSave": true,
+  "bitFlag": 159
+ },
+ "6017": {
+  "stateKey": "剧情_3.8索拉学院_非邀约角色好感度文本_6_2",
+  "group": "索拉学院_非邀约角色好感度文本",
+  "needSave": true,
+  "bitFlag": 160
+ },
+ "6018": {
+  "stateKey": "剧情_3.8索拉学院_非邀约角色好感度文本_6_3",
+  "group": "索拉学院_非邀约角色好感度文本",
+  "needSave": true,
+  "bitFlag": 161
+ },
+ "6019": {
+  "stateKey": "剧情_3.8索拉学院_非邀约角色好感度文本_7_1",
+  "group": "索拉学院_非邀约角色好感度文本",
+  "needSave": true,
+  "bitFlag": 162
+ },
+ "6020": {
+  "stateKey": "剧情_3.8索拉学院_非邀约角色好感度文本_7_2",
+  "group": "索拉学院_非邀约角色好感度文本",
+  "needSave": true,
+  "bitFlag": 163
+ },
+ "6021": {
+  "stateKey": "剧情_3.8索拉学院_非邀约角色好感度文本_7_3",
+  "group": "索拉学院_非邀约角色好感度文本",
+  "needSave": true,
+  "bitFlag": 164
+ },
+ "6022": {
+  "stateKey": "剧情_3.8索拉学院_非邀约角色好感度文本_8_1",
+  "group": "索拉学院_非邀约角色好感度文本",
+  "needSave": true,
+  "bitFlag": 165
+ },
+ "6023": {
+  "stateKey": "剧情_3.8索拉学院_非邀约角色好感度文本_8_2",
+  "group": "索拉学院_非邀约角色好感度文本",
+  "needSave": true,
+  "bitFlag": 166
+ },
+ "6024": {
+  "stateKey": "剧情_3.8索拉学院_非邀约角色好感度文本_8_3",
+  "group": "索拉学院_非邀约角色好感度文本",
+  "needSave": true,
+  "bitFlag": 167
+ },
+ "9003": {
+  "stateKey": "剧情_3.8索拉学院_长离个人线_1_2",
+  "group": "索拉学院_长离个人线",
+  "needSave": true,
+  "bitFlag": 245
+ },
+ "9004": {
+  "stateKey": "剧情_3.8索拉学院_长离个人线_1_3",
+  "group": "索拉学院_长离个人线",
+  "needSave": true,
+  "bitFlag": 246
+ },
+ "9005": {
+  "stateKey": "剧情_3.8索拉学院_长离个人线_1_4",
+  "group": "索拉学院_长离个人线",
+  "needSave": true,
+  "bitFlag": 247
+ },
+ "11001": {
+  "stateKey": "剧情_3.8索拉学院_理事会阵营分线剧情_1_1",
+  "group": "索拉学院_理事会阵营分线剧情",
+  "needSave": true,
+  "bitFlag": 253
+ },
+ "11002": {
+  "stateKey": "剧情_3.8索拉学院_理事会阵营分线剧情_1_10",
+  "group": "索拉学院_理事会阵营分线剧情",
+  "needSave": true,
+  "bitFlag": 254
+ },
+ "11003": {
+  "stateKey": "剧情_3.8索拉学院_理事会阵营分线剧情_1_20",
+  "group": "索拉学院_理事会阵营分线剧情",
+  "needSave": true,
+  "bitFlag": 255
+ },
+ "11004": {
+  "stateKey": "剧情_3.8索拉学院_理事会阵营分线剧情_1_30",
+  "group": "索拉学院_理事会阵营分线剧情",
+  "needSave": true,
+  "bitFlag": 256
+ },
+ "11005": {
+  "stateKey": "剧情_3.8索拉学院_理事会阵营分线剧情_1_40",
+  "group": "索拉学院_理事会阵营分线剧情",
+  "needSave": true,
+  "bitFlag": 257
+ },
+ "11006": {
+  "stateKey": "剧情_3.8索拉学院_理事会阵营分线剧情_1_50",
+  "group": "索拉学院_理事会阵营分线剧情",
+  "needSave": true,
+  "bitFlag": 258
+ },
+ "11007": {
+  "stateKey": "剧情_3.8索拉学院_理事会阵营分线剧情_1_60",
+  "group": "索拉学院_理事会阵营分线剧情",
+  "needSave": true,
+  "bitFlag": 259
+ },
+ "12001": {
+  "stateKey": "剧情_3.8索拉学院_社团阵营分线剧情_1_1",
+  "group": "索拉学院_社团阵营分线剧情",
+  "needSave": true,
+  "bitFlag": 265
+ },
+ "12002": {
+  "stateKey": "剧情_3.8索拉学院_社团阵营分线剧情_1_10",
+  "group": "索拉学院_社团阵营分线剧情",
+  "needSave": true,
+  "bitFlag": 266
+ },
+ "12003": {
+  "stateKey": "剧情_3.8索拉学院_社团阵营分线剧情_1_20",
+  "group": "索拉学院_社团阵营分线剧情",
+  "needSave": true,
+  "bitFlag": 267
+ },
+ "12004": {
+  "stateKey": "剧情_3.8索拉学院_社团阵营分线剧情_1_30",
+  "group": "索拉学院_社团阵营分线剧情",
+  "needSave": true,
+  "bitFlag": 268
+ },
+ "12005": {
+  "stateKey": "剧情_3.8索拉学院_社团阵营分线剧情_1_40",
+  "group": "索拉学院_社团阵营分线剧情",
+  "needSave": true,
+  "bitFlag": 269
+ },
+ "12006": {
+  "stateKey": "剧情_3.8索拉学院_社团阵营分线剧情_1_50",
+  "group": "索拉学院_社团阵营分线剧情",
+  "needSave": true,
+  "bitFlag": 270
+ },
+ "9011": {
+  "stateKey": "剧情_3.8索拉学院_卡提个人线_1_1",
+  "group": "索拉学院_卡提个人线",
+  "needSave": true,
+  "bitFlag": 248
+ },
+ "9012": {
+  "stateKey": "剧情_3.8索拉学院_卡提个人线_1_5",
+  "group": "索拉学院_卡提个人线",
+  "needSave": true,
+  "bitFlag": 249
+ },
+ "9013": {
+  "stateKey": "剧情_3.8索拉学院_卡提个人线_1_2",
+  "group": "索拉学院_卡提个人线",
+  "needSave": true,
+  "bitFlag": 250
+ },
+ "9014": {
+  "stateKey": "剧情_3.8索拉学院_卡提个人线_1_3",
+  "group": "索拉学院_卡提个人线",
+  "needSave": true,
+  "bitFlag": 251
+ },
+ "9015": {
+  "stateKey": "剧情_3.8索拉学院_卡提个人线_1_4",
+  "group": "索拉学院_卡提个人线",
+  "needSave": true,
+  "bitFlag": 252
+ },
+ "8016": {
+  "stateKey": "剧情_3.8索拉学院_周年庆节日_1_1",
+  "group": "索拉学院_周年庆节日",
+  "needSave": true,
+  "bitFlag": 233
+ },
+ "8017": {
+  "stateKey": "剧情_3.8索拉学院_周年庆节日_1_2",
+  "group": "索拉学院_周年庆节日",
+  "needSave": true,
+  "bitFlag": 234
+ },
+ "8018": {
+  "stateKey": "剧情_3.8索拉学院_周年庆节日_1_3",
+  "group": "索拉学院_周年庆节日",
+  "needSave": true,
+  "bitFlag": 235
+ },
+ "8019": {
+  "stateKey": "剧情_3.8索拉学院_周年庆节日_1_4",
+  "group": "索拉学院_周年庆节日",
+  "needSave": true,
+  "bitFlag": 236
+ },
+ "8020": {
+  "stateKey": "剧情_3.8索拉学院_周年庆节日_1_5",
+  "group": "索拉学院_周年庆节日",
+  "needSave": true,
+  "bitFlag": 237
+ },
+ "8021": {
+  "stateKey": "剧情_3.8索拉学院_周年庆节日_1_6",
+  "group": "索拉学院_周年庆节日",
+  "needSave": true,
+  "bitFlag": 238
+ },
+ "8022": {
+  "stateKey": "剧情_3.8索拉学院_周年庆节日_1_7",
+  "group": "索拉学院_周年庆节日",
+  "needSave": true,
+  "bitFlag": 239
+ },
+ "5011": {
+  "stateKey": "剧情_3.8索拉学院_邀约_好感度文本_1_6",
+  "group": "索拉学院_邀约_好感度文本",
+  "needSave": true,
+  "bitFlag": 134
+ },
+ "5012": {
+  "stateKey": "剧情_3.8索拉学院_邀约_好感度文本_1_16",
+  "group": "索拉学院_邀约_好感度文本",
+  "needSave": true,
+  "bitFlag": 135
+ },
+ "5013": {
+  "stateKey": "剧情_3.8索拉学院_邀约_好感度文本_1_7",
+  "group": "索拉学院_邀约_好感度文本",
+  "needSave": true,
+  "bitFlag": 136
+ },
+ "5014": {
+  "stateKey": "剧情_3.8索拉学院_邀约_好感度文本_1_17",
+  "group": "索拉学院_邀约_好感度文本",
+  "needSave": true,
+  "bitFlag": 137
+ },
+ "5015": {
+  "stateKey": "剧情_3.8索拉学院_邀约_好感度文本_1_8",
+  "group": "索拉学院_邀约_好感度文本",
+  "needSave": true,
+  "bitFlag": 138
+ },
+ "5016": {
+  "stateKey": "剧情_3.8索拉学院_邀约_好感度文本_1_18",
+  "group": "索拉学院_邀约_好感度文本",
+  "needSave": true,
+  "bitFlag": 139
+ },
+ "5017": {
+  "stateKey": "剧情_3.8索拉学院_邀约_好感度文本_1_9",
+  "group": "索拉学院_邀约_好感度文本",
+  "needSave": true,
+  "bitFlag": 140
+ },
+ "5018": {
+  "stateKey": "剧情_3.8索拉学院_邀约_好感度文本_1_19",
+  "group": "索拉学院_邀约_好感度文本",
+  "needSave": true,
+  "bitFlag": 141
+ },
+ "5019": {
+  "stateKey": "剧情_3.8索拉学院_邀约_好感度文本_1_10",
+  "group": "索拉学院_邀约_好感度文本",
+  "needSave": true,
+  "bitFlag": 142
+ },
+ "5020": {
+  "stateKey": "剧情_3.8索拉学院_邀约_好感度文本_1_20",
+  "group": "索拉学院_邀约_好感度文本",
+  "needSave": true,
+  "bitFlag": 143
+ },
+ "8023": {
+  "stateKey": "剧情_3.8索拉学院_成人礼-一番赏_1_1",
+  "group": "索拉学院_成人礼-一番赏",
+  "needSave": true,
+  "bitFlag": 240
+ },
+ "8024": {
+  "stateKey": "剧情_3.8索拉学院_成人礼-波仔道馆_1_1",
+  "group": "索拉学院_成人礼-波仔道馆",
+  "needSave": true,
+  "bitFlag": 241
+ },
+ "8025": {
+  "stateKey": "剧情_3.8索拉学院_成人礼-波仔道馆_1_2",
+  "group": "索拉学院_成人礼-波仔道馆",
+  "needSave": true,
+  "bitFlag": 242
+ },
+ "3105": {
+  "stateKey": "剧情_3.8索拉学院_结尾_10_2",
+  "group": "索拉学院_结尾",
+  "needSave": true,
+  "bitFlag": 97
+ },
+ "3106": {
+  "stateKey": "剧情_3.8索拉学院_结尾_10_3",
+  "group": "索拉学院_结尾",
+  "needSave": true,
+  "bitFlag": 98
+ },
+ "13001": {
+  "stateKey": "剧情_3.8索拉学院_上课讲题_考试知识点_1_1",
+  "group": "索拉学院_上课讲题_考试知识点",
+  "needSave": true,
+  "bitFlag": 277
+ },
+ "13002": {
+  "stateKey": "剧情_3.8索拉学院_上课讲题_考试知识点_1_2",
+  "group": "索拉学院_上课讲题_考试知识点",
+  "needSave": true,
+  "bitFlag": 278
+ },
+ "13003": {
+  "stateKey": "剧情_3.8索拉学院_上课讲题_考试知识点_2_1",
+  "group": "索拉学院_上课讲题_考试知识点",
+  "needSave": true,
+  "bitFlag": 279
+ },
+ "13004": {
+  "stateKey": "剧情_3.8索拉学院_上课讲题_考试知识点_2_2",
+  "group": "索拉学院_上课讲题_考试知识点",
+  "needSave": true,
+  "bitFlag": 280
+ },
+ "13005": {
+  "stateKey": "剧情_3.8索拉学院_上课讲题_考试知识点_3_1",
+  "group": "索拉学院_上课讲题_考试知识点",
+  "needSave": true,
+  "bitFlag": 281
+ },
+ "13006": {
+  "stateKey": "剧情_3.8索拉学院_上课讲题_考试知识点_3_2",
+  "group": "索拉学院_上课讲题_考试知识点",
+  "needSave": true,
+  "bitFlag": 282
+ },
+ "11008": {
+  "stateKey": "剧情_3.8索拉学院_理事会阵营分线剧情_1_61",
+  "group": "索拉学院_理事会阵营分线剧情",
+  "needSave": true,
+  "bitFlag": 260
+ },
+ "12007": {
+  "stateKey": "剧情_3.8索拉学院_社团阵营分线剧情_1_51",
+  "group": "索拉学院_社团阵营分线剧情",
+  "needSave": true,
+  "bitFlag": 271
+ },
+ "12008": {
+  "stateKey": "剧情_3.8索拉学院_社团阵营分线剧情_1_52",
+  "group": "索拉学院_社团阵营分线剧情",
+  "needSave": true,
+  "bitFlag": 272
+ },
+ "6025": {
+  "stateKey": "剧情_3.8索拉学院_邀约角色好感_1_1",
+  "group": "索拉学院_邀约角色好感",
+  "needSave": true,
+  "bitFlag": 168
+ },
+ "6026": {
+  "stateKey": "剧情_3.8索拉学院_邀约角色好感_1_2",
+  "group": "索拉学院_邀约角色好感",
+  "needSave": true,
+  "bitFlag": 169
+ },
+ "2008": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_2_1",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 59
+ },
+ "2009": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_2_2",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 60
+ },
+ "13100": {
+  "stateKey": "剧情_3.8索拉学院_特批剧情_1_1",
+  "group": "索拉学院_特批剧情",
+  "needSave": true,
+  "bitFlag": 283
+ },
+ "13101": {
+  "stateKey": "剧情_3.8索拉学院_特批剧情_1_2",
+  "group": "索拉学院_特批剧情",
+  "needSave": true,
+  "bitFlag": 284
+ },
+ "13102": {
+  "stateKey": "剧情_3.8索拉学院_特批剧情_1_3",
+  "group": "索拉学院_特批剧情",
+  "needSave": true,
+  "bitFlag": 285
+ },
+ "13103": {
+  "stateKey": "剧情_3.8索拉学院_特批剧情_1_4",
+  "group": "索拉学院_特批剧情",
+  "needSave": true,
+  "bitFlag": 286
+ },
+ "13104": {
+  "stateKey": "剧情_3.8索拉学院_特批剧情_1_5",
+  "group": "索拉学院_特批剧情",
+  "needSave": true,
+  "bitFlag": 287
+ },
+ "13105": {
+  "stateKey": "剧情_3.8索拉学院_特批剧情_1_6",
+  "group": "索拉学院_特批剧情",
+  "needSave": true,
+  "bitFlag": 288
+ },
+ "13106": {
+  "stateKey": "剧情_3.8索拉学院_特批剧情_1_7",
+  "group": "索拉学院_特批剧情",
+  "needSave": true,
+  "bitFlag": 289
+ },
+ "13107": {
+  "stateKey": "剧情_3.8索拉学院_特批剧情_1_8",
+  "group": "索拉学院_特批剧情",
+  "needSave": true,
+  "bitFlag": 290
+ },
+ "13108": {
+  "stateKey": "剧情_3.8索拉学院_特批剧情_1_9",
+  "group": "索拉学院_特批剧情",
+  "needSave": true,
+  "bitFlag": 291
+ },
+ "13109": {
+  "stateKey": "剧情_3.8索拉学院_特批剧情_1_10",
+  "group": "索拉学院_特批剧情",
+  "needSave": true,
+  "bitFlag": 292
+ },
+ "13110": {
+  "stateKey": "剧情_3.8索拉学院_特批剧情_1_11",
+  "group": "索拉学院_特批剧情",
+  "needSave": true,
+  "bitFlag": 293
+ },
+ "13111": {
+  "stateKey": "剧情_3.8索拉学院_特批剧情_1_12",
+  "group": "索拉学院_特批剧情",
+  "needSave": true,
+  "bitFlag": 294
+ },
+ "13112": {
+  "stateKey": "剧情_3.8索拉学院_特批剧情_1_13",
+  "group": "索拉学院_特批剧情",
+  "needSave": true,
+  "bitFlag": 295
+ },
+ "14001": {
+  "stateKey": "剧情_3.8索拉学院_阵营日常行为短剧情_1_1",
+  "group": "索拉学院_阵营日常行为短剧情",
+  "needSave": true,
+  "bitFlag": 296
+ },
+ "14002": {
+  "stateKey": "剧情_3.8索拉学院_阵营日常行为短剧情_1_2",
+  "group": "索拉学院_阵营日常行为短剧情",
+  "needSave": true,
+  "bitFlag": 297
+ },
+ "14003": {
+  "stateKey": "剧情_3.8索拉学院_阵营日常行为短剧情_1_3",
+  "group": "索拉学院_阵营日常行为短剧情",
+  "needSave": true,
+  "bitFlag": 298
+ },
+ "14004": {
+  "stateKey": "剧情_3.8索拉学院_阵营日常行为短剧情_1_4",
+  "group": "索拉学院_阵营日常行为短剧情",
+  "needSave": true,
+  "bitFlag": 299
+ },
+ "14005": {
+  "stateKey": "剧情_3.8索拉学院_阵营日常行为短剧情_1_5",
+  "group": "索拉学院_阵营日常行为短剧情",
+  "needSave": true,
+  "bitFlag": 300
+ },
+ "1048": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_48",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 46
+ },
+ "6027": {
+  "stateKey": "剧情_3.8索拉学院_邀约角色好感_1_3",
+  "group": "索拉学院_邀约角色好感",
+  "needSave": true,
+  "bitFlag": 170
+ },
+ "6028": {
+  "stateKey": "剧情_3.8索拉学院_邀约角色好感_2_1",
+  "group": "索拉学院_邀约角色好感",
+  "needSave": true,
+  "bitFlag": 171
+ },
+ "3107": {
+  "stateKey": "剧情_3.8索拉学院_结尾_18_1",
+  "group": "索拉学院_结尾",
+  "needSave": true,
+  "bitFlag": 99
+ },
+ "3108": {
+  "stateKey": "剧情_3.8索拉学院_结尾_19_1",
+  "group": "索拉学院_结尾",
+  "needSave": true,
+  "bitFlag": 100
+ },
+ "2010": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_1_8",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 61
+ },
+ "2011": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_1_9",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 62
+ },
+ "14100": {
+  "stateKey": "剧情_3.8索拉学院_跳过剧情_1_1",
+  "group": "索拉学院_跳过剧情",
+  "needSave": true,
+  "bitFlag": 301
+ },
+ "14101": {
+  "stateKey": "剧情_3.8索拉学院_跳过剧情_1_2",
+  "group": "索拉学院_跳过剧情",
+  "needSave": true,
+  "bitFlag": 302
+ },
+ "14102": {
+  "stateKey": "剧情_3.8索拉学院_跳过剧情_1_3",
+  "group": "索拉学院_跳过剧情",
+  "needSave": true,
+  "bitFlag": 303
+ },
+ "14103": {
+  "stateKey": "剧情_3.8索拉学院_跳过剧情_1_4",
+  "group": "索拉学院_跳过剧情",
+  "needSave": true,
+  "bitFlag": 304
+ },
+ "14104": {
+  "stateKey": "剧情_3.8索拉学院_跳过剧情_1_5",
+  "group": "索拉学院_跳过剧情",
+  "needSave": true,
+  "bitFlag": 305
+ },
+ "14105": {
+  "stateKey": "剧情_3.8索拉学院_跳过剧情_1_6",
+  "group": "索拉学院_跳过剧情",
+  "needSave": true,
+  "bitFlag": 306
+ },
+ "14106": {
+  "stateKey": "剧情_3.8索拉学院_跳过剧情_1_7",
+  "group": "索拉学院_跳过剧情",
+  "needSave": true,
+  "bitFlag": 307
+ },
+ "14107": {
+  "stateKey": "剧情_3.8索拉学院_跳过剧情_1_8",
+  "group": "索拉学院_跳过剧情",
+  "needSave": true,
+  "bitFlag": 308
+ },
+ "14108": {
+  "stateKey": "剧情_3.8索拉学院_跳过剧情_1_9",
+  "group": "索拉学院_跳过剧情",
+  "needSave": true,
+  "bitFlag": 309
+ },
+ "14200": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_2",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 312
+ },
+ "14201": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_3",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 313
+ },
+ "14202": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_4",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 314
+ },
+ "14203": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_5",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 315
+ },
+ "14204": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_6",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 316
+ },
+ "14205": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_7",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 317
+ },
+ "14206": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_8",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 318
+ },
+ "14207": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_9",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 319
+ },
+ "14208": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_10",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 320
+ },
+ "14209": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_11",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 321
+ },
+ "14210": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_12",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 322
+ },
+ "14211": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_13",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 323
+ },
+ "14212": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_14",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 324
+ },
+ "14213": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_15",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 325
+ },
+ "14214": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_16",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 326
+ },
+ "14215": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_17",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 327
+ },
+ "14216": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_18",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 328
+ },
+ "14217": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_19",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 329
+ },
+ "14218": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_20",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 330
+ },
+ "14219": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_21",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 331
+ },
+ "14220": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_22",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 332
+ },
+ "14221": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_23",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 333
+ },
+ "14222": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_24",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 334
+ },
+ "14223": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_25",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 335
+ },
+ "14224": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_26",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 336
+ },
+ "14225": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_27",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 337
+ },
+ "14226": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_28",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 338
+ },
+ "14227": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_29",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 339
+ },
+ "14228": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_30",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 340
+ },
+ "14229": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_31",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 341
+ },
+ "14230": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_32",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 342
+ },
+ "14231": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_33",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 343
+ },
+ "14232": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_34",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 344
+ },
+ "14233": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_35",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 345
+ },
+ "14234": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_36",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 346
+ },
+ "14235": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_37",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 347
+ },
+ "14236": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_38",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 348
+ },
+ "14237": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_1",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 349
+ },
+ "14238": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_39",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 350
+ },
+ "14239": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_40",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 351
+ },
+ "14240": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_41",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 352
+ },
+ "14241": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_42",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 353
+ },
+ "14242": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_43",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 354
+ },
+ "14243": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_44",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 355
+ },
+ "14244": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_45",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 356
+ },
+ "14245": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_46",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 357
+ },
+ "14246": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_47",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 358
+ },
+ "1050": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_50",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 48
+ },
+ "1051": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_51",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 49
+ },
+ "11009": {
+  "stateKey": "剧情_3.8索拉学院_理事会阵营分线剧情_1_62",
+  "group": "索拉学院_理事会阵营分线剧情",
+  "needSave": true,
+  "bitFlag": 261
+ },
+ "11010": {
+  "stateKey": "剧情_3.8索拉学院_理事会阵营分线剧情_1_63",
+  "group": "索拉学院_理事会阵营分线剧情",
+  "needSave": true,
+  "bitFlag": 262
+ },
+ "12009": {
+  "stateKey": "剧情_3.8索拉学院_社团阵营分线剧情_1_55",
+  "group": "索拉学院_社团阵营分线剧情",
+  "needSave": true,
+  "bitFlag": 273
+ },
+ "12010": {
+  "stateKey": "剧情_3.8索拉学院_社团阵营分线剧情_1_56",
+  "group": "索拉学院_社团阵营分线剧情",
+  "needSave": true,
+  "bitFlag": 274
+ },
+ "1049": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_52",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 47
+ },
+ "6029": {
+  "stateKey": "剧情_3.8索拉学院_邀约角色好感_2_2",
+  "group": "索拉学院_邀约角色好感",
+  "needSave": true,
+  "bitFlag": 172
+ },
+ "6030": {
+  "stateKey": "剧情_3.8索拉学院_邀约角色好感_2_3",
+  "group": "索拉学院_邀约角色好感",
+  "needSave": true,
+  "bitFlag": 173
+ },
+ "15001": {
+  "stateKey": "剧情_3.8索拉学院_新增额外剧情_1_1",
+  "group": "索拉学院_新增额外剧情",
+  "needSave": true,
+  "bitFlag": 362
+ },
+ "15002": {
+  "stateKey": "剧情_3.8索拉学院_新增额外剧情_1_2",
+  "group": "索拉学院_新增额外剧情",
+  "needSave": true,
+  "bitFlag": 363
+ },
+ "15003": {
+  "stateKey": "剧情_3.8索拉学院_新增额外剧情_1_3",
+  "group": "索拉学院_新增额外剧情",
+  "needSave": true,
+  "bitFlag": 364
+ },
+ "15004": {
+  "stateKey": "剧情_3.8索拉学院_新增额外剧情_1_4",
+  "group": "索拉学院_新增额外剧情",
+  "needSave": true,
+  "bitFlag": 365
+ },
+ "15005": {
+  "stateKey": "剧情_3.8索拉学院_新增额外剧情_1_5",
+  "group": "索拉学院_新增额外剧情",
+  "needSave": true,
+  "bitFlag": 366
+ },
+ "11011": {
+  "stateKey": "剧情_3.8索拉学院_理事会阵营分线剧情_1_64",
+  "group": "索拉学院_理事会阵营分线剧情",
+  "needSave": true,
+  "bitFlag": 263
+ },
+ "11012": {
+  "stateKey": "剧情_3.8索拉学院_理事会阵营分线剧情_1_65",
+  "group": "索拉学院_理事会阵营分线剧情",
+  "needSave": true,
+  "bitFlag": 264
+ },
+ "12011": {
+  "stateKey": "剧情_3.8索拉学院_社团阵营分线剧情_1_57",
+  "group": "索拉学院_社团阵营分线剧情",
+  "needSave": true,
+  "bitFlag": 275
+ },
+ "12012": {
+  "stateKey": "剧情_3.8索拉学院_社团阵营分线剧情_1_58",
+  "group": "索拉学院_社团阵营分线剧情",
+  "needSave": true,
+  "bitFlag": 276
+ },
+ "15006": {
+  "stateKey": "剧情_3.8索拉学院_新增额外剧情_1_6",
+  "group": "索拉学院_新增额外剧情",
+  "needSave": true,
+  "bitFlag": 367
+ },
+ "4001": {
+  "stateKey": "剧情_3.8索拉学院_道别日_1_1",
+  "group": "索拉学院_道别日",
+  "needSave": true,
+  "bitFlag": 101
+ },
+ "4002": {
+  "stateKey": "剧情_3.8索拉学院_道别日_1_2",
+  "group": "索拉学院_道别日",
+  "needSave": true,
+  "bitFlag": 102
+ },
+ "4003": {
+  "stateKey": "剧情_3.8索拉学院_道别日_1_3",
+  "group": "索拉学院_道别日",
+  "needSave": true,
+  "bitFlag": 103
+ },
+ "4004": {
+  "stateKey": "剧情_3.8索拉学院_道别日_1_4",
+  "group": "索拉学院_道别日",
+  "needSave": true,
+  "bitFlag": 104
+ },
+ "4005": {
+  "stateKey": "剧情_3.8索拉学院_道别日_1_5",
+  "group": "索拉学院_道别日",
+  "needSave": true,
+  "bitFlag": 105
+ },
+ "4006": {
+  "stateKey": "剧情_3.8索拉学院_道别日_1_6",
+  "group": "索拉学院_道别日",
+  "needSave": true,
+  "bitFlag": 106
+ },
+ "4007": {
+  "stateKey": "剧情_3.8索拉学院_道别日_1_7",
+  "group": "索拉学院_道别日",
+  "needSave": true,
+  "bitFlag": 107
+ },
+ "4008": {
+  "stateKey": "剧情_3.8索拉学院_道别日_1_8",
+  "group": "索拉学院_道别日",
+  "needSave": true,
+  "bitFlag": 108
+ },
+ "4009": {
+  "stateKey": "剧情_3.8索拉学院_道别日_1_9",
+  "group": "索拉学院_道别日",
+  "needSave": true,
+  "bitFlag": 109
+ },
+ "4010": {
+  "stateKey": "剧情_3.8索拉学院_道别日_1_10",
+  "group": "索拉学院_道别日",
+  "needSave": true,
+  "bitFlag": 110
+ },
+ "4011": {
+  "stateKey": "剧情_3.8索拉学院_道别日_1_11",
+  "group": "索拉学院_道别日",
+  "needSave": true,
+  "bitFlag": 111
+ },
+ "4012": {
+  "stateKey": "剧情_3.8索拉学院_道别日_1_12",
+  "group": "索拉学院_道别日",
+  "needSave": true,
+  "bitFlag": 112
+ },
+ "4013": {
+  "stateKey": "剧情_3.8索拉学院_道别日_1_13",
+  "group": "索拉学院_道别日",
+  "needSave": true,
+  "bitFlag": 113
+ },
+ "16001": {
+  "stateKey": "剧情_3.8第二索拉学院AVG活动_补充行为事件_1_1",
+  "group": "第二索拉学院AVG活动_补充行为事件",
+  "needSave": true,
+  "bitFlag": 368
+ },
+ "16002": {
+  "stateKey": "剧情_3.8第二索拉学院AVG活动_补充行为事件_2_1",
+  "group": "第二索拉学院AVG活动_补充行为事件",
+  "needSave": true,
+  "bitFlag": 369
+ },
+ "16003": {
+  "stateKey": "剧情_3.8第二索拉学院AVG活动_补充行为事件_3_1",
+  "group": "第二索拉学院AVG活动_补充行为事件",
+  "needSave": true,
+  "bitFlag": 370
+ },
+ "4014": {
+  "stateKey": "剧情_3.8索拉学院_道别日新增_1_1",
+  "group": "索拉学院_道别日新增",
+  "needSave": true,
+  "bitFlag": 114
+ },
+ "4015": {
+  "stateKey": "剧情_3.8索拉学院_道别日新增_2_1",
+  "group": "索拉学院_道别日新增",
+  "needSave": true,
+  "bitFlag": 115
+ },
+ "4016": {
+  "stateKey": "剧情_3.8索拉学院_道别日新增_3_1",
+  "group": "索拉学院_道别日新增",
+  "needSave": true,
+  "bitFlag": 116
+ },
+ "4017": {
+  "stateKey": "剧情_3.8索拉学院_道别日新增_4_1",
+  "group": "索拉学院_道别日新增",
+  "needSave": true,
+  "bitFlag": 117
+ },
+ "4018": {
+  "stateKey": "剧情_3.8索拉学院_道别日新增_5_1",
+  "group": "索拉学院_道别日新增",
+  "needSave": true,
+  "bitFlag": 118
+ },
+ "4019": {
+  "stateKey": "剧情_3.8索拉学院_道别日新增_6_1",
+  "group": "索拉学院_道别日新增",
+  "needSave": true,
+  "bitFlag": 119
+ },
+ "4020": {
+  "stateKey": "剧情_3.8索拉学院_道别日新增_7_1",
+  "group": "索拉学院_道别日新增",
+  "needSave": true,
+  "bitFlag": 120
+ },
+ "4021": {
+  "stateKey": "剧情_3.8索拉学院_道别日新增_8_1",
+  "group": "索拉学院_道别日新增",
+  "needSave": true,
+  "bitFlag": 121
+ },
+ "4022": {
+  "stateKey": "剧情_3.8索拉学院_道别日新增_9_1",
+  "group": "索拉学院_道别日新增",
+  "needSave": true,
+  "bitFlag": 122
+ },
+ "4023": {
+  "stateKey": "剧情_3.8索拉学院_道别日新增_10_1",
+  "group": "索拉学院_道别日新增",
+  "needSave": true,
+  "bitFlag": 123
+ },
+ "14247": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_48",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 359
+ },
+ "14248": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_49",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 360
+ },
+ "17001": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_10",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 371
+ },
+ "17002": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_11",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 372
+ },
+ "17003": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_12",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 373
+ },
+ "17004": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_13",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 374
+ },
+ "17005": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_14",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 375
+ },
+ "17006": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_20",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 376
+ },
+ "17007": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_21",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 377
+ },
+ "17008": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_22",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 378
+ },
+ "17009": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_23",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 379
+ },
+ "17010": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_24",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 380
+ },
+ "17011": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_30",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 381
+ },
+ "17012": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_31",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 382
+ },
+ "17013": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_32",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 383
+ },
+ "17014": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_33",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 384
+ },
+ "17015": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_34",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 385
+ },
+ "17016": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_40",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 386
+ },
+ "17017": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_41",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 387
+ },
+ "17018": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_42",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 388
+ },
+ "17019": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_43",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 389
+ },
+ "17020": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_44",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 390
+ },
+ "17021": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_50",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 391
+ },
+ "17022": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_51",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 392
+ },
+ "17023": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_52",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 393
+ },
+ "17024": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_53",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 394
+ },
+ "17025": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_54",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 395
+ },
+ "17026": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_60",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 396
+ },
+ "17027": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_61",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 397
+ },
+ "17028": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_62",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 398
+ },
+ "17029": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_63",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 399
+ },
+ "17030": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_64",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 400
+ },
+ "17031": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_70",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 401
+ },
+ "17032": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_71",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 402
+ },
+ "17033": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_80",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 403
+ },
+ "17034": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_81",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 404
+ },
+ "17035": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_82",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 405
+ },
+ "17036": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_83",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 406
+ },
+ "17037": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_84",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 407
+ },
+ "17038": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_90",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 408
+ },
+ "17039": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_91",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 409
+ },
+ "17040": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_92",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 410
+ },
+ "17041": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_93",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 411
+ },
+ "17042": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_94",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 412
+ },
+ "17043": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_100",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 413
+ },
+ "17044": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_101",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 414
+ },
+ "17045": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_102",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 415
+ },
+ "17046": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_103",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 416
+ },
+ "17047": {
+  "stateKey": "剧情_3.8索拉学院_阵营行为升级_1_104",
+  "group": "索拉学院_阵营行为升级",
+  "needSave": true,
+  "bitFlag": 417
+ },
+ "14109": {
+  "stateKey": "剧情_3.8索拉学院_跳过剧情_1_10",
+  "group": "索拉学院_跳过剧情",
+  "needSave": true,
+  "bitFlag": 310
+ },
+ "14110": {
+  "stateKey": "剧情_3.8索拉学院_跳过剧情_1_11",
+  "group": "索拉学院_跳过剧情",
+  "needSave": true,
+  "bitFlag": 311
+ },
+ "1052": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_53",
+  "group": "索拉学院_开局",
+  "needSave": true,
+  "bitFlag": 50
+ },
+ "14249": {
+  "stateKey": "剧情_3.8索拉学院_功能包装剧本_3_50",
+  "group": "索拉学院_功能包装剧本",
+  "needSave": true,
+  "bitFlag": 361
+ },
+ "17048": {
+  "stateKey": "剧情_3.8索拉学院_卜灵发帖_1_1",
+  "group": "索拉学院_卜灵发帖",
+  "needSave": true,
+  "bitFlag": 418
+ },
+ "17101": {
+  "stateKey": "剧情_3.8索拉学院_额外讲题_1_1",
+  "group": "索拉学院_额外讲题",
+  "needSave": true,
+  "bitFlag": 419
+ },
+ "17102": {
+  "stateKey": "剧情_3.8索拉学院_额外讲题_2_1",
+  "group": "索拉学院_额外讲题",
+  "needSave": true,
+  "bitFlag": 420
+ },
+ "17103": {
+  "stateKey": "剧情_3.8索拉学院_额外讲题_3_1",
+  "group": "索拉学院_额外讲题",
+  "needSave": true,
+  "bitFlag": 421
+ },
+ "17104": {
+  "stateKey": "剧情_3.8索拉学院_额外讲题_4_1",
+  "group": "索拉学院_额外讲题",
+  "needSave": true,
+  "bitFlag": 422
+ },
+ "17105": {
+  "stateKey": "剧情_3.8索拉学院_额外讲题_5_1",
+  "group": "索拉学院_额外讲题",
+  "needSave": true,
+  "bitFlag": 423
+ },
+ "17106": {
+  "stateKey": "剧情_3.8索拉学院_额外讲题_6_1",
+  "group": "索拉学院_额外讲题",
+  "needSave": true,
+  "bitFlag": 424
+ },
+ "17107": {
+  "stateKey": "剧情_3.8索拉学院_额外讲题_7_1",
+  "group": "索拉学院_额外讲题",
+  "needSave": true,
+  "bitFlag": 425
+ },
+ "1053": {
+  "stateKey": "剧情_3.8索拉学院_开局_2_54",
+  "group": "索拉学院_开局",
+  "needSave": false,
+  "bitFlag": 51
+ }
+}

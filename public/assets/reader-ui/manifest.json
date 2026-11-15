@@ -1,0 +1,639 @@
+{
+  "schema": 1,
+  "source": "Existing local WW_Asset_Webp cache",
+  "policy": "Exact UI components only; no game extraction or screenshot artwork",
+  "assets": {
+    "dialogue-paper": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Dialogue/T_SolarSchoolDialogueBg.webp",
+      "file": "dialogue-paper.webp",
+      "width": 1352,
+      "height": 280,
+      "alpha": true,
+      "sha256": "84e1d199d3731494cbad212d5b4ce1c66cafd11938a3584e71bad3c9da83d72a"
+    },
+    "speaker-tape": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Dialogue/T_SolarSchoolDialogueDesc05.webp",
+      "file": "speaker-tape.webp",
+      "width": 800,
+      "height": 136,
+      "alpha": true,
+      "sha256": "29e8e7393ac263dc95528456e16c612e3266c84a27c27de942a95ec7132100cc"
+    },
+    "choice-dark": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Dialogue/T_SolarSchoolDialogueOptionTogNml.webp",
+      "file": "choice-dark.webp",
+      "width": 684,
+      "height": 100,
+      "alpha": true,
+      "sha256": "448582fa34970dc7a407af2616dcf267b30d9fe4e5eb899f0cf1a1159f5b0461"
+    },
+    "choice-light": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Dialogue/T_SolarSchoolDialogueOptionTogHold.webp",
+      "file": "choice-light.webp",
+      "width": 684,
+      "height": 100,
+      "alpha": true,
+      "sha256": "8c9e8162e843e87c18ade438b2d32beb4648ae6a4bf8a39bc18204a830cf2588"
+    },
+    "choice-icon": {
+      "source": "UIResources/UiActivity/Atlas/Activity38/SolarSchool/Dialogue/SP_SolarSchoolDialogueOptionTogIcon.webp",
+      "file": "choice-icon.webp",
+      "width": 60,
+      "height": 52,
+      "alpha": true,
+      "sha256": "8b540cbc770d73f8ed383f4158770cf9296a33cb37889eef070d28537d521485"
+    },
+    "choice-arrow": {
+      "source": "UIResources/UiActivity/Atlas/Activity38/SolarSchool/Dialogue/SP_SolarSchoolDialogueOptionTogSel01.webp",
+      "file": "choice-arrow.webp",
+      "width": 56,
+      "height": 72,
+      "alpha": true,
+      "sha256": "5a6450bab59dd1132b5f9869760f1f27c7b5da6c7209df2322402fed1c508c5b"
+    },
+    "advance-arrow": {
+      "source": "UIResources/UiActivity/Atlas/Activity38/SolarSchool/Dialogue/SP_SolarSchoolDialogueArrow.webp",
+      "file": "advance-arrow.webp",
+      "width": 32,
+      "height": 20,
+      "alpha": true,
+      "sha256": "09d9818a2a47c2c26d3662136fd5b734fade6dbe65c8175fa069a7128c769c37"
+    },
+    "introduction-paper": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Dialogue/T_SolarSchoolDialogueIntroduction.webp",
+      "file": "introduction-paper.webp",
+      "width": 448,
+      "height": 560,
+      "alpha": true,
+      "sha256": "af69d7994bae370770272e96e0e270e0677f6d91ae9d961560db5cda516ba5e6"
+    },
+    "icon-history": {
+      "source": "UIResources/UiActivity/Atlas/Activity38/SolarSchool/Com/SP_SolarSchoolBtn02Record.webp",
+      "file": "icon-history.webp",
+      "width": 72,
+      "height": 72,
+      "alpha": true,
+      "sha256": "1a7858ba19c8119f569a5daab16226bdbe5f4019a376c09601bf413934b0d90a"
+    },
+    "icon-hide": {
+      "source": "UIResources/UiActivity/Atlas/Activity38/SolarSchool/Com/SP_SolarSchoolBtnHide.webp",
+      "file": "icon-hide.webp",
+      "width": 72,
+      "height": 72,
+      "alpha": true,
+      "sha256": "e2445efc0ad3bb7c959086f47c76c41a6456845ef704b7698fe72f5441bc1901"
+    },
+    "icon-menu": {
+      "source": "UIResources/UiActivity/Atlas/Activity38/SolarSchool/Com/SP_SolarSchoolBtnMenu.webp",
+      "file": "icon-menu.webp",
+      "width": 72,
+      "height": 72,
+      "alpha": true,
+      "sha256": "2afec3b76ccd17bfd1efe7ceab518896c40632b027407b4972e99cf0869dad27"
+    },
+    "icon-settings": {
+      "source": "UIResources/UiActivity/Atlas/Activity38/SolarSchool/Map/SP_SolarSchoolMapBtnSet.webp",
+      "file": "icon-settings.webp",
+      "width": 72,
+      "height": 72,
+      "alpha": true,
+      "sha256": "bb320a0fe56215ade3aa01e82d73f0983af882807dedec2424e0d64cb9e1f6da"
+    },
+    "icon-close": {
+      "source": "UIResources/UiActivity/Atlas/Activity38/SolarSchool/Com/SP_SolarSchoolBtnClose.webp",
+      "file": "icon-close.webp",
+      "width": 72,
+      "height": 72,
+      "alpha": true,
+      "sha256": "b9ccae79b25e7b45fecffa9e506f201961b88f2c44a29c307fbc280079585cc7"
+    },
+    "icon-home": {
+      "source": "UIResources/UiActivity/Atlas/Activity38/SolarSchool/Com/SP_SolarSchoolBtnHome.webp",
+      "file": "icon-home.webp",
+      "width": 72,
+      "height": 72,
+      "alpha": true,
+      "sha256": "b6cd73ceee68bf7f2888596fdccc42df34f01e23cc03c4fba86161d700c17770"
+    },
+    "icon-book": {
+      "source": "UIResources/UiActivity/Atlas/Activity38/SolarSchool/Com/SP_SolarSchoolTabIconRead.webp",
+      "file": "icon-book.webp",
+      "width": 108,
+      "height": 108,
+      "alpha": true,
+      "sha256": "9e9420dd2f91d06719dbaa573467aace7c7885c68fa8ebb3c9a9225ab972263f"
+    },
+    "icon-rule": {
+      "source": "UIResources/UiActivity/Atlas/Activity38/SolarSchool/Com/SP_SolarSchoolBtnRule.webp",
+      "file": "icon-rule.webp",
+      "width": 72,
+      "height": 72,
+      "alpha": true,
+      "sha256": "bab5c225196d0a87f37596bf51699a121d3ec2085126a223c430e60a3fb4d3fb"
+    },
+    "menu-circle": {
+      "source": "UIResources/UiActivity/Atlas/Activity38/SolarSchool/Overview/SP_SolarSchoolOverviewBtnNor.webp",
+      "file": "menu-circle.webp",
+      "width": 160,
+      "height": 160,
+      "alpha": true,
+      "sha256": "52dd0f47c57cff70ed880babfb054cd10481e46a0ac47c514df718de98150b65"
+    },
+    "menu-circle-hover": {
+      "source": "UIResources/UiActivity/Atlas/Activity38/SolarSchool/Overview/SP_SolarSchoolOverviewBtnHold.webp",
+      "file": "menu-circle-hover.webp",
+      "width": 172,
+      "height": 172,
+      "alpha": true,
+      "sha256": "dbe5871595922d20e2487972c81452ba5b863ba482cfa22764b9a6860eaa360b"
+    },
+    "menu-tape": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Overview/T_SolarSchoolOverviewTitleBg01.webp",
+      "file": "menu-tape.webp",
+      "width": 1728,
+      "height": 128,
+      "alpha": true,
+      "sha256": "746b0ef014d0b1c8bb5a881dabb7ad80dc557b6ea5fe84c4fd91006b248f22ce"
+    },
+    "pink-stroke": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Overview/T_SolarSchoolOverviewTitleBg02.webp",
+      "file": "pink-stroke.webp",
+      "width": 556,
+      "height": 88,
+      "alpha": true,
+      "sha256": "ac7ff6705ff8e5de42a2e8e5ccfa614f68a64f7f8df22e179c6290d27e1fd4b1"
+    },
+    "menu-texture": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Overview/T_SolarSchoolOverviewTitleEmptyBg.webp",
+      "file": "menu-texture.webp",
+      "width": 1728,
+      "height": 732,
+      "alpha": true,
+      "sha256": "214e8c87b404275d31782c77d7e8d00df7a881c8f6f4c432929d823d4369fb6f"
+    },
+    "calendar-frame": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Map/T_SolarSchooWeather01.webp",
+      "file": "calendar-frame.webp",
+      "width": 600,
+      "height": 208,
+      "alpha": true,
+      "sha256": "9b3449b14b8ee31791bd0c9c30187c3449ce4d96a557b2979af009cc06bfb301"
+    },
+    "calendar-bird": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Map/T_SolarSchooWeather01Desc01.webp",
+      "file": "calendar-bird.webp",
+      "width": 112,
+      "height": 100,
+      "alpha": true,
+      "sha256": "7ca3c2194437777b47c1dc32e6db4eed7f50d942f49e3de6c57ebce9bf533abb"
+    },
+    "calendar-pink": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Map/T_SolarSchooWeatherDescB02L.webp",
+      "file": "calendar-pink.webp",
+      "width": 492,
+      "height": 224,
+      "alpha": true,
+      "sha256": "a141bab9225059f70d628c8c88f9cac25fb1c436a6caa94a99ce8562eab9fc1c"
+    },
+    "calendar-grid": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Map/T_SolarSchooWeatherDescB01L.webp",
+      "file": "calendar-grid.webp",
+      "width": 800,
+      "height": 72,
+      "alpha": true,
+      "sha256": "b99906629b8fdbb10bfe871894a5860bb91e3e9c7ec7cc9f4466056f16cdbbc2"
+    },
+    "calendar-ribbon": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Map/T_SolarSchooWeather01Desc02.webp",
+      "file": "calendar-ribbon.webp",
+      "width": 156,
+      "height": 72,
+      "alpha": true,
+      "sha256": "baa88b6101afd8e4bab903a3380526dbaad3c44b7dea2cab28dcc1d56cf038c7"
+    },
+    "loading-paper": {
+      "source": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/T_SolarSchoolLoadingBg.webp",
+      "file": "loading-paper.webp",
+      "width": 3200,
+      "height": 1440,
+      "alpha": true,
+      "sha256": "b3e22db830993d4950af2273a4ccfd4a1b471dcde1ac5c5f0f5aefc748238f1e"
+    },
+    "school-emblem": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Loading/T_SolarSchoolLoadingIcon.webp",
+      "file": "school-emblem.webp",
+      "width": 600,
+      "height": 600,
+      "alpha": true,
+      "sha256": "97e0cfa4df4ffc800941ab1253d26c21cb431866354dfd890648072c58834be3"
+    },
+    "school-emblem-caption": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Loading/T_SolarSchoolLoadingLine.webp",
+      "file": "school-emblem-caption.webp",
+      "width": 580,
+      "height": 68,
+      "alpha": true,
+      "sha256": "63e1581e61049258e284f7c309c8fe2aab080e25e26a72f55365acfec94613e5"
+    },
+    "entry-paper-right": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Entrance/T_SolarSchoolEntranceDesc01.webp",
+      "file": "entry-paper-right.webp",
+      "width": 1576,
+      "height": 760,
+      "alpha": true,
+      "sha256": "45864a29cca1a606acb565eea4f887182be6fd377f4b6709af371602ccb81ab2"
+    },
+    "entry-classroom": {
+      "source": "UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_MainBg001A.webp",
+      "file": "entry-classroom.webp",
+      "width": 3200,
+      "height": 1440,
+      "alpha": true,
+      "sha256": "0a37a09af7f7d9178e45eeef6ef1149cb6e325fe1ffe882d7f67a40678104b4a"
+    },
+    "entry-paper-left": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Entrance/T_SolarSchoolEntranceDesc02.webp",
+      "file": "entry-paper-left.webp",
+      "width": 1668,
+      "height": 572,
+      "alpha": true,
+      "sha256": "1dec56e3e028436ce40fc2bb0ca914ff2bf29804cbbfe0693ccb2236092cabc1"
+    },
+    "entry-open-icon": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Entrance/T_SolarSchoolEntranceBtnA01Nml.webp",
+      "file": "entry-open-icon.webp",
+      "width": 252,
+      "height": 256,
+      "alpha": true,
+      "sha256": "e5222d43996668c1ca9b737905dbd7eb43fee2076119bd28405d49c3b7496cdf"
+    },
+    "entry-resume-icon": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Entrance/T_SolarSchoolEntranceBtnA02Nml.webp",
+      "file": "entry-resume-icon.webp",
+      "width": 252,
+      "height": 256,
+      "alpha": true,
+      "sha256": "b536507b49ab4b1c99098fbcaf2eb66fb511a23e87bc90211c8fd7b3fb75f08b"
+    },
+    "quiz-paper": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Exam/T_SolarSchoolExamBg01.webp",
+      "file": "quiz-paper.webp",
+      "width": 16,
+      "height": 1440,
+      "alpha": true,
+      "sha256": "2a2e545f56fdbce69a1007259813c574eea629cc4b984f23b7770eb626eddb7b"
+    },
+    "quiz-answer": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Exam/T_SolarSchoolExamTogANml.webp",
+      "file": "quiz-answer.webp",
+      "width": 1236,
+      "height": 172,
+      "alpha": true,
+      "sha256": "bc8b205a1d82ff62890ba960df92a496491df30eb6a5651841c1b5c2d7424a9d"
+    },
+    "quiz-answer-selected": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Exam/T_SolarSchoolExamTogAHold.webp",
+      "file": "quiz-answer-selected.webp",
+      "width": 1236,
+      "height": 172,
+      "alpha": true,
+      "sha256": "1ea75a2de9c80478b4327282251e279b28e7acab0749f150806ae51b07996506"
+    },
+    "letter-paper": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Letter/T_SolarSchoolLetterContentBg01.webp",
+      "file": "letter-paper.webp",
+      "width": 1628,
+      "height": 1272,
+      "alpha": true,
+      "sha256": "e74226798121a8ec42c26b7ed3635855384379015f5088e9a4eddf77cc2c9656"
+    },
+    "letter-pen": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Letter/T_SolarSchoolLetterCoverPen.webp",
+      "file": "letter-pen.webp",
+      "width": 504,
+      "height": 936,
+      "alpha": true,
+      "sha256": "1da1e06dfa921031b9a732835655f484d2548daf2443ff1c67ef155b20440d53"
+    },
+    "favor-popup-paper": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Popup/T_SolarSchoolFavorabilityPopupBg01.webp",
+      "file": "favor-popup-paper.webp",
+      "width": 1660,
+      "height": 416,
+      "alpha": true,
+      "sha256": "fe29ce827ff63bcf8d02c59303e08d1425710e2d58b7c542f318c29c3def2eb0"
+    },
+    "favor-popup-portrait-paper": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Popup/T_SolarSchoolFavorabilityPopupRoleBg.webp",
+      "file": "favor-popup-portrait-paper.webp",
+      "width": 580,
+      "height": 600,
+      "alpha": true,
+      "sha256": "26a9aff47874b01135f7fc399c236443eee1a0b6ad7e2d249306de6b0353652b"
+    },
+    "favor-popup-stroke": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Popup/T_SolarSchoolFavorabilityPopupDecs01.webp",
+      "file": "favor-popup-stroke.webp",
+      "width": 812,
+      "height": 84,
+      "alpha": true,
+      "sha256": "de9d8180c31ab0acb2a9d3acb8480615be48b7d9b5e6397abd04941ca468c0b1"
+    },
+    "favor-popup-title": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/Popup/T_SolaCollegePopupATitle02.webp",
+      "file": "favor-popup-title.webp",
+      "width": 520,
+      "height": 96,
+      "alpha": true,
+      "sha256": "34d356fb1c7ae84f9c3b260828a06777ae8f3231feb9b7b7aed8126d936c1413"
+    },
+    "favor-confirm-paper": {
+      "source": "UIResources/UiActivity/Atlas/Activity38/SolarSchool/Popup/SP_SolaCollegeConfirmBg.webp",
+      "file": "favor-confirm-paper.webp",
+      "width": 48,
+      "height": 48,
+      "alpha": true,
+      "sha256": "deb4b9514c6a116441fada2ae1fb9578e23d21327f9dba2a129763a7eba29c76"
+    },
+    "favor-tier-icon": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/T_SolarSchoolRoleAffinityIcon00.webp",
+      "file": "favor-tier-icon.webp",
+      "width": 52,
+      "height": 48,
+      "alpha": true,
+      "sha256": "dd2c236d79913817ac2aa05e03f0a5e1c5a042fc6458c025a328962a45fdd21a"
+    },
+    "favor-role-1": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleE/T_IconSolarRoleE09.webp",
+      "file": "favor-role-1.webp",
+      "width": 580,
+      "height": 720,
+      "alpha": true,
+      "sha256": "9f2e4d72b2fe522d115e483ecc5a09e15ca267186803ce6bceb3629986249dd7"
+    },
+    "favor-head-1": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleB/T_IconSolarRoleB09.webp",
+      "file": "favor-head-1.webp",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "059362ea8f91de8b2ec03d06d810ac6c6eed4ffd35557a92a8fc2b24b587336c"
+    },
+    "favor-role-2": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleE/T_IconSolarRoleE01.webp",
+      "file": "favor-role-2.webp",
+      "width": 580,
+      "height": 720,
+      "alpha": true,
+      "sha256": "7786667f89aeb6f53052a3252f9785946cc077d4c90b7b15ac149fe5158bf5c5"
+    },
+    "favor-head-2": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleB/T_IconSolarRoleB01.webp",
+      "file": "favor-head-2.webp",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "d02b327f6e1de4e654b5ed42b946c2784228c776e6ac30cdaf5992bc599bd894"
+    },
+    "favor-role-3": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleE/T_IconSolarRoleE06.webp",
+      "file": "favor-role-3.webp",
+      "width": 580,
+      "height": 720,
+      "alpha": true,
+      "sha256": "24c83e23f56fe414fc83e51af7fa2eb9bbcaadca6f0b4db9a9faefa54df2c32f"
+    },
+    "favor-head-3": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleB/T_IconSolarRoleB06.webp",
+      "file": "favor-head-3.webp",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "d8e91d595dea57f5d2a56bcb2c85465f7931753921b92f24d5b5114fa5dcedbd"
+    },
+    "favor-role-4": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleE/T_IconSolarRoleE11.webp",
+      "file": "favor-role-4.webp",
+      "width": 580,
+      "height": 720,
+      "alpha": true,
+      "sha256": "95aca19f480ad5d1ceadd38d86ecae4e2d42a9f787443a12a67c08260be4bddd"
+    },
+    "favor-head-4": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleB/T_IconSolarRoleB11.webp",
+      "file": "favor-head-4.webp",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "d62e7b491d21bb4bbdd0093852791234b8e1fd0b218325700d0a85239f8c6ceb"
+    },
+    "favor-role-5": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleE/T_IconSolarRoleE04.webp",
+      "file": "favor-role-5.webp",
+      "width": 580,
+      "height": 720,
+      "alpha": true,
+      "sha256": "e163025d5228a4494fd27c2fa4520642784676e82a43fcb8967c42128bbd1677"
+    },
+    "favor-head-5": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleB/T_IconSolarRoleB04.webp",
+      "file": "favor-head-5.webp",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "cde35848ac8c6acfbc7511c6f61f420b0f704902062665400a78f0602d623b56"
+    },
+    "favor-role-6": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleE/T_IconSolarRoleE12.webp",
+      "file": "favor-role-6.webp",
+      "width": 580,
+      "height": 720,
+      "alpha": true,
+      "sha256": "64290748553f96e6559263b18a7176c0462cd34d51a056bba437117ead1594e6"
+    },
+    "favor-head-6": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleB/T_IconSolarRoleB12.webp",
+      "file": "favor-head-6.webp",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "10c143a91281d6a7ce27b8666ad61fc4405252e1e5f13d963794676f367339cc"
+    },
+    "favor-role-7": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleE/T_IconSolarRoleE02.webp",
+      "file": "favor-role-7.webp",
+      "width": 580,
+      "height": 720,
+      "alpha": true,
+      "sha256": "0df6b3223ca593500da4b6511f8aeeeaf19683983d72f8175e4055172d0270a9"
+    },
+    "favor-head-7": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleB/T_IconSolarRoleB02.webp",
+      "file": "favor-head-7.webp",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "f33df8a08fa1682b70efb67c25eaa0019f263f8030797ab330dc8c6bbcf8811e"
+    },
+    "favor-role-8": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleE/T_IconSolarRoleE07.webp",
+      "file": "favor-role-8.webp",
+      "width": 580,
+      "height": 720,
+      "alpha": true,
+      "sha256": "e0397dcf170be37f50a4ce27413ef09345736d855f763817ed4b9007581123dc"
+    },
+    "favor-head-8": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleB/T_IconSolarRoleB07.webp",
+      "file": "favor-head-8.webp",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "de74ce7ffbfb367eb92c1fd9a2a0f6a2038dae3dde177e0492348dc724e3e39e"
+    },
+    "favor-role-9": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleE/T_IconSolarRoleE08.webp",
+      "file": "favor-role-9.webp",
+      "width": 580,
+      "height": 720,
+      "alpha": true,
+      "sha256": "1721b23350ebe0beb695278d05fee16e26ce7a51b49e92a711dd64149094b188"
+    },
+    "favor-head-9": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleB/T_IconSolarRoleB08.webp",
+      "file": "favor-head-9.webp",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "044872daac9139de1ba70e794025074868c940172026fd3000634cdd44f263ca"
+    },
+    "favor-role-10": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleE/T_IconSolarRoleE03.webp",
+      "file": "favor-role-10.webp",
+      "width": 580,
+      "height": 720,
+      "alpha": true,
+      "sha256": "21883bc54d97839939ebae10141030218d19c0b5533afa55cb704e624787dbd8"
+    },
+    "favor-head-10": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleB/T_IconSolarRoleB03.webp",
+      "file": "favor-head-10.webp",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "2d40ad113d6d761d3b42c664e5b6b265d467860a4c9e810a06027f003fcf68c6"
+    },
+    "favor-role-11": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleE/T_IconSolarRoleE05.webp",
+      "file": "favor-role-11.webp",
+      "width": 580,
+      "height": 720,
+      "alpha": true,
+      "sha256": "d1226cb43e163b4dc750d49943d494088639deb196b331b16f3d841fb591cf60"
+    },
+    "favor-head-11": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleB/T_IconSolarRoleB05.webp",
+      "file": "favor-head-11.webp",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "8622daac8608c4fd545cb746c431ca113301f83d0c3eb4c934011fee2c75af35"
+    },
+    "favor-role-12": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleE/T_IconSolarRoleE10.webp",
+      "file": "favor-role-12.webp",
+      "width": 580,
+      "height": 720,
+      "alpha": true,
+      "sha256": "59f0bc7c1f5357b03658ebc2fb52fd1f195bb4c185e3174694fb02cab8b508b8"
+    },
+    "favor-head-12": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleB/T_IconSolarRoleB10.webp",
+      "file": "favor-head-12.webp",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "0de455f1e796a23e48e672e88d6e55cde4ac85991206f8502cc6f6ebafc52215"
+    },
+    "favor-head-101": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleB/T_IconSolarRoleB00_M.webp",
+      "file": "favor-head-101.webp",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "bf1503c3dded561cfa451f1902a66900c9ac7e57f9cba4f52ae7d5dc96bbda72"
+    },
+    "favor-head-102": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/IconRoleB/T_IconSolarRoleB00_F.webp",
+      "file": "favor-head-102.webp",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "sha256": "d6bd06e765909419d1c180f892c3ba4f3588c59f4a761185b3b55e9b1b37d3bc"
+    },
+    "attribute-1": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolZS01.webp",
+      "file": "attribute-1.webp",
+      "width": 60,
+      "height": 60,
+      "alpha": true,
+      "sha256": "0f34eedc7194a81dd1cb5bfa62b2c0c746623a7d9bb3f89c56920947913aca58"
+    },
+    "attribute-2": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolZS02.webp",
+      "file": "attribute-2.webp",
+      "width": 60,
+      "height": 60,
+      "alpha": true,
+      "sha256": "1bbbf1be918b05448a7ad8dbf7e6c38fc9db60150473f64d2af7acc45ea1b326"
+    },
+    "attribute-3": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolZS03.webp",
+      "file": "attribute-3.webp",
+      "width": 60,
+      "height": 60,
+      "alpha": true,
+      "sha256": "400da6449e60c5be67536312d0414891ae4a1c46769d4d0e9bc67dbff5453241"
+    },
+    "attribute-4": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolZS05.webp",
+      "file": "attribute-4.webp",
+      "width": 60,
+      "height": 60,
+      "alpha": true,
+      "sha256": "f834e640db22d40e96f4b3a74c2db12bfaf978fe6bb00ddfe5e58399f310a1ae"
+    },
+    "attribute-5": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolZS04.webp",
+      "file": "attribute-5.webp",
+      "width": 60,
+      "height": 60,
+      "alpha": true,
+      "sha256": "a8faf364db1a547ba0495236c12d4c6c7babf16a8a4cc9080ae84a882ab263ae"
+    },
+    "attribute-6": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolZS00Renqi.webp",
+      "file": "attribute-6.webp",
+      "width": 60,
+      "height": 60,
+      "alpha": true,
+      "sha256": "1f60e8c197ca12de1e4732c1ab9afea273eb25d32ad326d4a2a1808531f8745f"
+    },
+    "attribute-7": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolZS00Pilao.webp",
+      "file": "attribute-7.webp",
+      "width": 60,
+      "height": 60,
+      "alpha": true,
+      "sha256": "2829d605d555c0a5f96fab05df974e780ad0cc20cfa7639b431cf47483b412d5"
+    },
+    "attribute-8": {
+      "source": "UIResources/UiActivity/Image/Activity38/SolarSchool/T_IconSolarSchoolZS00Coin02.webp",
+      "file": "attribute-8.webp",
+      "width": 60,
+      "height": 60,
+      "alpha": true,
+      "sha256": "e52df9297aa1fd6cb67dd5d2683919ffb11b647dd62ebb70c3e8bab52a5a7cef"
+    }
+  }
+}

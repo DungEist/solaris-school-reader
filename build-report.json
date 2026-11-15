@@ -1,0 +1,293 @@
+{
+ "scripts": 429,
+ "nodes": 8493,
+ "unregisteredScripts": [
+  "剧情_3.8索拉学院_后日谈_1_1",
+  "剧情_3.8索拉学院_短信_1_1",
+  "剧情_3.8索拉学院_考试_1_17"
+ ],
+ "textKeysUsed": 8805,
+ "missingTextKeys": {
+  "en": 53,
+  "ja": 54
+ },
+ "missingTextKeySamples": {
+  "en": [
+   "AVG_HAOGANDU2_3_29",
+   "AVG_HAOGANDU2_6_35",
+   "Flow_226700001_2179",
+   "Flow_226700001_2180",
+   "Flow_226700002_1154",
+   "Flow_318000000_2422",
+   "Flow_318000000_2423",
+   "Flow_318000000_3008",
+   "Flow_318000000_3009",
+   "Flow_318000000_3450",
+   "Flow_318000000_3451",
+   "Flow_318000000_3452",
+   "Flow_318000000_3453",
+   "Flow_318000000_3454",
+   "Flow_318000000_3455"
+  ],
+  "ja": [
+   "AVG_HAOGANDU2_3_29",
+   "AVG_HAOGANDU2_6_35",
+   "Flow_226700001_2179",
+   "Flow_226700001_2180",
+   "Flow_226700002_1154",
+   "Flow_318000000_2422",
+   "Flow_318000000_2423",
+   "Flow_318000000_3008",
+   "Flow_318000000_3009",
+   "Flow_318000000_3450",
+   "Flow_318000000_3451",
+   "Flow_318000000_3452",
+   "Flow_318000000_3453",
+   "Flow_318000000_3454",
+   "Flow_318000000_3455"
+  ]
+ },
+ "unknownStageOps": {},
+ "unsupportedFlowActions": {
+  "AwakeEntity": 1,
+  "BeginFlowTemplate": 1,
+  "SetFlowTemplate": 1,
+  "FadeOutScreen": 2,
+  "FadeInScreen": 1,
+  "CloseFlowTemplate": 1,
+  "DestroyEntity": 1
+ },
+ "movieActions": [
+  {
+   "scriptId": "1053",
+   "videoName": "VideoSolarSchoolOP01"
+  }
+ ],
+ "scriptsWithoutTalkNodes": [
+  "1053"
+ ],
+ "optionControlConflicts": [],
+ "optionNextKinds": {
+  "jump": 318,
+  "seq": 100,
+  "end": 1
+ },
+ "talkersWithoutSolarSchoolSpine": [],
+ "kinds": {
+  "line": 5361,
+  "narration": 2922,
+  "silent": 85,
+  "centerText": 123,
+  "option": 2
+ },
+ "speakers": 69,
+ "conditions": {
+  "resolved": 410,
+  "referenced": 410,
+  "missing": [],
+  "ambiguousIds": [
+   1002400,
+   1002401,
+   1002402,
+   1002403,
+   1002404,
+   1002405,
+   1002406,
+   1002407,
+   1002408,
+   1002409,
+   1002410,
+   1002411,
+   13000001,
+   13000002,
+   13000017,
+   13000020,
+   13000021,
+   13000022,
+   13000024,
+   13000025,
+   13000028,
+   13000036,
+   13000039,
+   13000040,
+   13000041,
+   13000042,
+   13000052,
+   13000053,
+   13000054,
+   13000055,
+   13000058,
+   13000101,
+   14000026,
+   14000027,
+   14000060,
+   14000061,
+   14000062,
+   14000063,
+   14000064,
+   14000065,
+   14000066,
+   14000067,
+   14000068,
+   14000069,
+   14000070,
+   14000071,
+   14000072,
+   14000073,
+   14000074,
+   14000075,
+   14000076,
+   14000077,
+   14000078,
+   14000079,
+   14000080,
+   20000003
+  ],
+  "typesInUse": [
+   1,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   19,
+   2,
+   20,
+   21,
+   22,
+   23,
+   24,
+   27,
+   28,
+   29,
+   3,
+   4,
+   6,
+   7,
+   8,
+   9,
+   "CheckLevel",
+   "SolarSchoolBehaviorIdCount",
+   "SolarSchoolEndingUnlocked",
+   "SolarSchoolFlowRead"
+  ]
+ },
+ "speakersWithoutName": [
+  "83"
+ ],
+ "activityActionIds": {
+  "distinct": 284,
+  "total": 510,
+  "alsoFlowIds": [
+   1047,
+   1048,
+   1050,
+   4001,
+   4002,
+   4003,
+   4004,
+   4005,
+   4006,
+   4007,
+   4008,
+   4009,
+   4010,
+   4011,
+   4012,
+   4016,
+   4017,
+   4020,
+   7003,
+   7004,
+   7005,
+   7006,
+   7007,
+   7008,
+   8016,
+   8017,
+   8018
+  ],
+  "note": "ActivityAction.SolarSchoolActionId: some ids are flow ids (nested flow call); the rest are other game actions (rewards/letters/quests), see maps/*"
+ },
+ "validation": {
+  "danglingJumps": [],
+  "danglingJumpCount": 0,
+  "nodesWithoutTextKey": [],
+  "nodesWithoutTextKeyCount": 0,
+  "assetIdsMissingFromTables": {
+   "background": [
+    800001
+   ],
+   "cg": [],
+   "expression": [],
+   "talker": []
+  },
+  "flowRegistryResolved": "426/426",
+  "endingFlowSystemActions": [
+   {
+    "node": 24,
+    "actionId": 3001,
+    "comment": "职业结局选择并播放所选结局剧情"
+   },
+   {
+    "node": 26,
+    "actionId": 3002,
+    "comment": "情感结局选择并播放所选结局剧情"
+   },
+   {
+    "node": 27,
+    "actionId": 3041,
+    "comment": "播放周目总结"
+   },
+   {
+    "node": 42,
+    "actionId": 3038,
+    "comment": "梅塔结局8-保住学校，职业结局，有情感结局"
+   },
+   {
+    "node": 47,
+    "actionId": 3003,
+    "comment": "真结局，直接结束游戏（不进下一周目）"
+   },
+   {
+    "node": 60,
+    "actionId": 3039,
+    "comment": "结局-提示进入下一周目"
+   },
+   {
+    "node": 99,
+    "actionId": 3042,
+    "comment": "触发存档提示"
+   },
+   {
+    "node": 77,
+    "actionId": 9006,
+    "comment": "道别信没情感结局"
+   },
+   {
+    "node": 78,
+    "actionId": 9007,
+    "comment": "道别信有情感结局"
+   },
+   {
+    "node": 81,
+    "actionId": 3044,
+    "comment": "大富翁"
+   },
+   {
+    "node": 83,
+    "actionId": 3045,
+    "comment": "人气王"
+   },
+   {
+    "node": 84,
+    "actionId": 3043,
+    "comment": "发毕业册"
+   }
+  ],
+  "endingsWithBadFlow": []
+ }
+}

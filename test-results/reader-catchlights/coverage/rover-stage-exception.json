@@ -1,0 +1,261 @@
+{
+  "authority": "literal-source-RoleConfig-and-independent-ScriptRunner-replay",
+  "runner": {
+    "path": "src/engine/ScriptRunner.ts",
+    "sha256": "94056ddb5d8b80ce326719d9dc7429d962d2ad96c377a31d9d9fdc965b371414"
+  },
+  "exceptions": [
+    {
+      "tupleId": "tuple-75f4708f3c8665e9",
+      "resourceSlug": "rover-female",
+      "gender": "female",
+      "sourceExpressionId": 700127,
+      "renderedExpressionId": 700127,
+      "clips": {
+        "body": "dongzuo1_putongzhan",
+        "mouth": "dongzuo1_kaixin_zui",
+        "eye": "dongzuo1_zhengchang_zhengyan",
+        "blink": "dongzuo1_zhengchang_zhayan"
+      },
+      "sourceScript": {
+        "path": "public/data/scripts/1051.json",
+        "sha256": "294f4001874057a74528d670b956dd83ddd3a138f4d2cc142597121866401cb2"
+      },
+      "witness": {
+        "witnessId": "1051.state-39",
+        "scriptId": "1051",
+        "target": {
+          "flowActionIndex": 1,
+          "nid": 35,
+          "phase": "start",
+          "sourceOrder": null
+        },
+        "choiceRoute": [
+          3
+        ],
+        "choices": [
+          {
+            "edgeId": "1051:1:19:3",
+            "flowActionIndex": 1,
+            "nid": 19,
+            "optionIndex": 3,
+            "optionId": 5
+          }
+        ],
+        "conditionalFeasibility": "structural-candidate; conditions and hidden-choice precedence must be satisfied for normal playback"
+      },
+      "sourceNode": {
+        "nid": 35,
+        "kind": "line",
+        "speakerId": "750088",
+        "rawRoleConfig": {
+          "HidePortrait": false,
+          "HideAvatar": true,
+          "VisualEffect": "Highlight",
+          "Expression": 700127
+        },
+        "operations": [
+          {
+            "t": 0,
+            "op": "modify",
+            "who": "750088",
+            "origin": "talk-item-role-config",
+            "raw": {
+              "HidePortrait": false,
+              "HideAvatar": true,
+              "VisualEffect": "Highlight",
+              "Expression": 700127
+            },
+            "expr": 700127,
+            "hidePortrait": false,
+            "hideAvatar": true,
+            "effect": "Highlight"
+          }
+        ]
+      },
+      "runnerState": {
+        "who": "750088",
+        "expression": 700127,
+        "present": true,
+        "hidePortrait": false,
+        "hideAvatar": true,
+        "portraitVisible": true,
+        "avatarVisible": false,
+        "position": [
+          0,
+          0,
+          1
+        ]
+      },
+      "sourceEntry": {
+        "scriptId": "1051",
+        "flowActionIndex": 1,
+        "nid": 1,
+        "phase": "start",
+        "sourceOrder": 0,
+        "sourceArray": "node.stage",
+        "optionIndex": null,
+        "operation": {
+          "t": 0,
+          "op": "enter",
+          "who": "750088",
+          "expr": 700126,
+          "hidePortrait": true,
+          "hideAvatar": false,
+          "effect": "Darken",
+          "pos": [
+            0,
+            0,
+            1
+          ],
+          "fadeIn": 0
+        }
+      },
+      "ordinaryChoiceAvailability": [
+        {
+          "nid": 19,
+          "optionIndex": 3,
+          "optionId": 5,
+          "preCondition": null,
+          "conditionProvided": false,
+          "hiddenChoice": false,
+          "next": {
+            "type": "jump",
+            "to": 29
+          },
+          "eligibilityForUnconditionalChoice": {
+            "value": "true",
+            "reasons": []
+          }
+        }
+      ],
+      "classification": "Explicit source RoleConfig stage-portrait exception, corroborated by the actual ScriptRunner; no invented Enter or visibility."
+    },
+    {
+      "tupleId": "tuple-b314276148018532",
+      "resourceSlug": "rover-male",
+      "gender": "male",
+      "sourceExpressionId": 700127,
+      "renderedExpressionId": 700127,
+      "clips": {
+        "body": "dongzuo1_putongzhan",
+        "mouth": "dongzuo1_kaixin_zui",
+        "eye": "dongzuo1_zhengchang_zhengyan",
+        "blink": "dongzuo1_zhengchang_zhayan"
+      },
+      "sourceScript": {
+        "path": "public/data/scripts/1051.json",
+        "sha256": "294f4001874057a74528d670b956dd83ddd3a138f4d2cc142597121866401cb2"
+      },
+      "witness": {
+        "witnessId": "1051.state-39",
+        "scriptId": "1051",
+        "target": {
+          "flowActionIndex": 1,
+          "nid": 35,
+          "phase": "start",
+          "sourceOrder": null
+        },
+        "choiceRoute": [
+          3
+        ],
+        "choices": [
+          {
+            "edgeId": "1051:1:19:3",
+            "flowActionIndex": 1,
+            "nid": 19,
+            "optionIndex": 3,
+            "optionId": 5
+          }
+        ],
+        "conditionalFeasibility": "structural-candidate; conditions and hidden-choice precedence must be satisfied for normal playback"
+      },
+      "sourceNode": {
+        "nid": 35,
+        "kind": "line",
+        "speakerId": "750088",
+        "rawRoleConfig": {
+          "HidePortrait": false,
+          "HideAvatar": true,
+          "VisualEffect": "Highlight",
+          "Expression": 700127
+        },
+        "operations": [
+          {
+            "t": 0,
+            "op": "modify",
+            "who": "750088",
+            "origin": "talk-item-role-config",
+            "raw": {
+              "HidePortrait": false,
+              "HideAvatar": true,
+              "VisualEffect": "Highlight",
+              "Expression": 700127
+            },
+            "expr": 700127,
+            "hidePortrait": false,
+            "hideAvatar": true,
+            "effect": "Highlight"
+          }
+        ]
+      },
+      "runnerState": {
+        "who": "750088",
+        "expression": 700127,
+        "present": true,
+        "hidePortrait": false,
+        "hideAvatar": true,
+        "portraitVisible": true,
+        "avatarVisible": false,
+        "position": [
+          0,
+          0,
+          1
+        ]
+      },
+      "sourceEntry": {
+        "scriptId": "1051",
+        "flowActionIndex": 1,
+        "nid": 1,
+        "phase": "start",
+        "sourceOrder": 0,
+        "sourceArray": "node.stage",
+        "optionIndex": null,
+        "operation": {
+          "t": 0,
+          "op": "enter",
+          "who": "750088",
+          "expr": 700126,
+          "hidePortrait": true,
+          "hideAvatar": false,
+          "effect": "Darken",
+          "pos": [
+            0,
+            0,
+            1
+          ],
+          "fadeIn": 0
+        }
+      },
+      "ordinaryChoiceAvailability": [
+        {
+          "nid": 19,
+          "optionIndex": 3,
+          "optionId": 5,
+          "preCondition": null,
+          "conditionProvided": false,
+          "hiddenChoice": false,
+          "next": {
+            "type": "jump",
+            "to": 29
+          },
+          "eligibilityForUnconditionalChoice": {
+            "value": "true",
+            "reasons": []
+          }
+        }
+      ],
+      "classification": "Explicit source RoleConfig stage-portrait exception, corroborated by the actual ScriptRunner; no invented Enter or visibility."
+    }
+  ]
+}

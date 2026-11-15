@@ -1,0 +1,1421 @@
+{
+  "browser": {
+    "mode": "launch",
+    "executable_path": "/usr/bin/chromium",
+    "headless": true
+  },
+  "start_url": {
+    "url": "http://127.0.0.1:5173/",
+    "query": [
+      {
+        "name": "audioProbe",
+        "value": {
+          "source": "literal",
+          "value": "1"
+        }
+      }
+    ]
+  },
+  "environment": {
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "device_scale_factor": 1
+    },
+    "locale": "en-US",
+    "timezone": "UTC",
+    "color_scheme": "light",
+    "reduced_motion": "reduce",
+    "service_workers": "block"
+  },
+  "actions": [
+    {
+      "step_id": "s0-ready",
+      "timeout_ms": 20000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"start\"]:not([disabled])"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s1-settings",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"settings\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s2-instant-text",
+      "timeout_ms": 6000,
+      "action": "check",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"instant-text\"]"
+      }
+    },
+    {
+      "step_id": "s3-settings-close",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"settings-close\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s4-open-story",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"start\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s5-train-line",
+      "timeout_ms": 8000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-nid=\"1\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s6-listen-train",
+      "action": "wait_for_timeout",
+      "duration_ms": 300
+    },
+    {
+      "step_id": "s7-advance-2",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s8-line-2",
+      "timeout_ms": 8000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-nid=\"2\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s9-listen-2",
+      "action": "wait_for_timeout",
+      "duration_ms": 300
+    },
+    {
+      "step_id": "s10-advance-3",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s11-line-3",
+      "timeout_ms": 8000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-nid=\"3\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s12-listen-3",
+      "action": "wait_for_timeout",
+      "duration_ms": 300
+    },
+    {
+      "step_id": "s13-advance-4",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s14-line-4",
+      "timeout_ms": 8000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-nid=\"4\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s15-listen-4",
+      "action": "wait_for_timeout",
+      "duration_ms": 300
+    },
+    {
+      "step_id": "s16-advance-5",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s17-line-5",
+      "timeout_ms": 8000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-nid=\"5\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s18-listen-5",
+      "action": "wait_for_timeout",
+      "duration_ms": 300
+    },
+    {
+      "step_id": "s19-advance-6",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s20-line-6",
+      "timeout_ms": 8000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-nid=\"6\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s21-listen-6",
+      "action": "wait_for_timeout",
+      "duration_ms": 300
+    },
+    {
+      "step_id": "s22-advance-7",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s23-line-7",
+      "timeout_ms": 8000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-nid=\"7\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s24-listen-7",
+      "action": "wait_for_timeout",
+      "duration_ms": 300
+    },
+    {
+      "step_id": "s25-advance-8",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s26-line-8",
+      "timeout_ms": 8000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-nid=\"8\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s27-listen-8",
+      "action": "wait_for_timeout",
+      "duration_ms": 300
+    },
+    {
+      "step_id": "s28-advance-9",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s29-line-9",
+      "timeout_ms": 8000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-nid=\"9\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s30-listen-9",
+      "action": "wait_for_timeout",
+      "duration_ms": 5500
+    },
+    {
+      "step_id": "s31-advance-10",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s32-line-10",
+      "timeout_ms": 8000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-nid=\"10\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s33-listen-10",
+      "action": "wait_for_timeout",
+      "duration_ms": 300
+    },
+    {
+      "step_id": "s34-advance-11",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s35-line-11",
+      "timeout_ms": 8000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-nid=\"11\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s36-listen-11",
+      "action": "wait_for_timeout",
+      "duration_ms": 4000
+    },
+    {
+      "step_id": "s37-input-10",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1001\"][data-nid=\"11\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s38-advance-10",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s39-input-11",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1001\"][data-nid=\"12\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s40-advance-11",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s41-input-12",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1001\"][data-nid=\"13\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s42-advance-12",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s43-input-13",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1001\"][data-nid=\"14\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s44-advance-13",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s45-input-14",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1001\"][data-nid=\"15\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s46-advance-14",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s47-input-15",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1001\"][data-nid=\"16\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s48-advance-15",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s49-input-16",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1001\"][data-nid=\"17\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s50-advance-16",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s51-input-17",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1001\"][data-nid=\"18\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s52-advance-17",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s53-input-18",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1001\"][data-nid=\"19\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s54-advance-18",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s55-input-19",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1001\"][data-nid=\"20\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s56-advance-19",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s57-input-20",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1001\"][data-nid=\"21\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s58-advance-20",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s59-input-21",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1001\"][data-nid=\"22\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s60-advance-21",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "confirm-Abby-relationship",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"relationship-confirm\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s61-input-22",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1003\"][data-nid=\"1\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s62-choice-22",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"choice\"][data-option-index=\"0\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s63-input-23",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1003\"][data-nid=\"2\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s64-advance-23",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s65-input-24",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1003\"][data-nid=\"4\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s66-advance-24",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s67-input-25",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1003\"][data-nid=\"5\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s68-advance-25",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s69-input-26",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1003\"][data-nid=\"6\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s70-choice-26",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"choice\"][data-option-index=\"0\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s71-input-27",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1003\"][data-nid=\"7\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s72-advance-27",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s73-input-28",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1003\"][data-nid=\"8\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s74-advance-28",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s75-input-29",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1003\"][data-nid=\"9\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s76-advance-29",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s77-input-30",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1003\"][data-nid=\"12\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s78-advance-30",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s79-input-31",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1004\"][data-nid=\"1\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s80-advance-31",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s81-input-32",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1004\"][data-nid=\"2\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s82-advance-32",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s83-input-33",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1004\"][data-nid=\"3\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s84-listen-loop",
+      "action": "wait_for_timeout",
+      "duration_ms": 3500
+    },
+    {
+      "step_id": "s85-loop-settings",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"settings\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s86-save-loop-checkpoint",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"save-checkpoint\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s87-restore-loop-checkpoint",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"restore-checkpoint\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s88-close-loop-settings",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"settings-close\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s89-listen-restored-loop",
+      "action": "wait_for_timeout",
+      "duration_ms": 2000
+    },
+    {
+      "step_id": "s90-advance-33",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s91-input-34",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1004\"][data-nid=\"4\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s92-advance-34",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s93-input-35",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1004\"][data-nid=\"5\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s94-advance-35",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s95-input-36",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1004\"][data-nid=\"6\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s96-advance-36",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s97-input-37",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1004\"][data-nid=\"7\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s98-advance-37",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s99-input-38",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1004\"][data-nid=\"8\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s100-advance-38",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s101-input-39",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1004\"][data-nid=\"9\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s102-advance-39",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s103-input-40",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1004\"][data-nid=\"10\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s104-advance-40",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s105-input-41",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1004\"][data-nid=\"11\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s106-listen-later-music",
+      "action": "wait_for_timeout",
+      "duration_ms": 3500
+    },
+    {
+      "step_id": "s107-choice-41",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"choice\"][data-option-index=\"0\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s108-input-42",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1004\"][data-nid=\"12\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s109-advance-42",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s110-input-43",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1004\"][data-nid=\"14\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s111-advance-43",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s112-input-44",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1004\"][data-nid=\"15\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s113-advance-44",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s114-input-45",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1004\"][data-nid=\"16\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s115-choice-45",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"choice\"][data-option-index=\"0\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s116-input-46",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1004\"][data-nid=\"17\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s117-advance-46",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s118-input-47",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1004\"][data-nid=\"19\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s119-advance-47",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s120-input-48",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1004\"][data-nid=\"20\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s121-advance-48",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s122-input-49",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1004\"][data-nid=\"21\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s123-advance-49",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s124-input-50",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1004\"][data-nid=\"22\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s125-advance-50",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s126-input-51",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1004\"][data-nid=\"23\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s127-advance-51",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s128-input-52",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1004\"][data-nid=\"24\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s129-advance-52",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s130-input-53",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1004\"][data-nid=\"25\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s131-advance-53",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s132-input-54",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1004\"][data-nid=\"26\"][data-input-ready=\"true\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s133-listen-stopped-loop",
+      "action": "wait_for_timeout",
+      "duration_ms": 2500
+    },
+    {
+      "step_id": "s134-advance-54",
+      "timeout_ms": 6000,
+      "action": "click",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"advance\"]"
+      },
+      "button": "left",
+      "click_count": 1
+    },
+    {
+      "step_id": "s135-final-silence",
+      "timeout_ms": 15000,
+      "action": "wait_for",
+      "locator": {
+        "kind": "css",
+        "selector": "[data-testid=\"runner-state\"][data-script-id=\"1004\"][data-nid=\"27\"]"
+      },
+      "state": "visible"
+    },
+    {
+      "step_id": "s136-listen-final",
+      "action": "wait_for_timeout",
+      "duration_ms": 300
+    }
+  ],
+  "capture": {
+    "after_each_step": [],
+    "at_end": [
+      "dom"
+    ],
+    "events": [
+      "console",
+      "page-errors",
+      "network"
+    ],
+    "network": {
+      "request_body": false,
+      "response_body": false,
+      "header_values": false
+    },
+    "limits": {
+      "max_events": 10000,
+      "max_event_allocation_bytes": 4194304,
+      "max_total_event_allocation_bytes": 16777216,
+      "max_network_transactions": 1024,
+      "max_network_body_bytes": 65536,
+      "max_network_body_allocation_bytes": 1048576,
+      "max_network_header_allocation_bytes": 1048576,
+      "max_network_metadata_allocation_bytes": 1048576
+    }
+  }
+}

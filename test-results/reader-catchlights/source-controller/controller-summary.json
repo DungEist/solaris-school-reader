@@ -1,0 +1,261 @@
+{
+  "authority": "shipped-artifact",
+  "confidence": "derived from complete selected managed IL",
+  "artifact": {
+    "container": "/game/SteamLibrary/steamapps/common/Wuthering Waves/Wuthering Waves Game/Client/Saved/Resources/3.8.0/Resource/3.8.9/pakchunk18-WindowsNoEditor_P.pak",
+    "member": "/Aki.Game.dll",
+    "sha256": "069bcb5b9c3d4d28780be8f51b59e7d52d2a9cbd8eab2c037f2a3be925db2049",
+    "mvid": "793dfd03-0f45-4cd2-8afc-a8fedff89320",
+    "byteLength": 54225408,
+    "payloadSha1": "418e8d4a5351f7b3b7696c1a43711784ee6d1e2e",
+    "headerSha1Matches": true
+  },
+  "inspection": {
+    "tool": "Existing local PEReader/System.Reflection.Metadata inspector, without loading or executing target code",
+    "helperSource": "/tmp/abby-controller-audit/Facts.cs",
+    "helperSourceSha256": "8e2abb3a59331c3a049ce6e6d22bc910fab98f783f87d048594d8af54c371700",
+    "helperBinarySha256": "f72b4b959928edd4218ab0ce48244e9e7d16304366d9ffb063c2d138bad5af3c",
+    "artifactSha256VerifiedNow": "069bcb5b9c3d4d28780be8f51b59e7d52d2a9cbd8eab2c037f2a3be925db2049",
+    "moduleMvid": "793dfd03-0f45-4cd2-8afc-a8fedff89320",
+    "sourcePlaybackILMatchesExistingReportByOffsetsOpcodesAndOperandTokens": true
+  },
+  "reusedREAMetadataEvidence": {
+    "parentEvidenceId": "ev_712f9334eea29d014fc5efbbb8dfefc7e0c9c7e5d7809ace28dd1a5827267a23",
+    "summaryEvidenceId": "ev_38e26ff1c1984df1785ee57b0dfa226e2dd35ea51014b71e2de16f7398d4d83a",
+    "limitation": "REA recognized the managed PE and verified artifact identity, but stopped metadata decoding at its representation budget. Selected IL and MVID below come from the separate bounded local System.Reflection.Metadata inspector."
+  },
+  "sourceFiles": [
+    {
+      "path": "/tmp/abby-controller-audit/aki-vn-rendering-il.json",
+      "sha256": "803fe5f897e8381a6d787788d040a5d822c6d827a375a6e27c3c82622a04412e"
+    },
+    {
+      "path": "/tmp/abby-controller-audit/aki-spine-item-il.json",
+      "sha256": "2a95245d5375425ce16dcfa6527e8cb7288d8dd127f9f4753eb620b2b2c50e8a"
+    },
+    {
+      "path": "test-results/reader-rendering/original-controller-evidence.json",
+      "sha256": "c070e52a2da3b7728a0f4b2c2d7d31a6a0698b77d5c0407c422b7011037cf403"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Configured body, mouth and eye clips loop on tracks 0, 1 and 2, respectively. Catchlight animation is authored inside each configured eye clip; this class has no dedicated catchlight track.",
+      "methods": [
+        "0x06025296",
+        "0x0602529A",
+        "0x0602529C",
+        "0x060252A6"
+      ],
+      "proof": "ApplyAnimation loads Body/Mouth/Eye/Blink separately; PlayTrackAnimation IL_0013 ldc.i4.1 immediately precedes SetAnimation; ESpineTrack constants are Body=0,Mouth=1,Eye=2."
+    },
+    {
+      "claim": "Identical clip names retain their existing track clocks across expression IDs, including a currently playing blink when the eye and blink names stay unchanged.",
+      "methods": [
+        "0x0602529A",
+        "0x0602529E"
+      ],
+      "proof": "String equality causes immediate return before native SetAnimation or timer mutation."
+    },
+    {
+      "claim": "The first blink begins after a random 3–6 seconds. Further 3–6 second delays start at blink start, so timing is start-to-start rather than blink-finish-to-start.",
+      "methods": [
+        "0x0602529F",
+        "0x060252A0"
+      ],
+      "proof": "ScheduleBlink computes 3 + Random.Shared.NextSingle()*3; PlayBlink calls it immediately after queuing eye playback, without waiting for completion."
+    },
+    {
+      "claim": "A blink replaces track 2 once; the open-eye loop then starts again at phase zero after the authored blink duration. Body and mouth clocks continue.",
+      "methods": [
+        "0x060252A0"
+      ],
+      "proof": "SetAnimation(2,currentBlink,false); AddAnimation(2,currentEye,true,0)."
+    },
+    {
+      "claim": "Changing the blink mapping cancels its timer; when any blink has started, StopBlinking reinstates the currently mapped open-eye loop at phase zero. Empty blink names store null and disable scheduling. Same blink mappings preserve the timer.",
+      "methods": [
+        "0x0602529E",
+        "0x060252A1"
+      ],
+      "proof": "StopBlinking is called before changed mapping assignment; null/empty stored as null; ScheduleBlink requires BlinkEnabled,currentEye,currentBlink,character ID and active visible root."
+    },
+    {
+      "claim": "There is no completion callback that resets IsEyeTrackBlinking in this class; it persists until StopBlinking or ResetRuntimeState.",
+      "methods": [
+        "0x06025287",
+        "0x060252A0",
+        "0x060252A1"
+      ],
+      "proof": "These are the only stfld uses of IsEyeTrackBlinking in the complete existing class inventory."
+    },
+    {
+      "claim": "Clearing an optional eye/mouth track uses an immediate empty animation. Ordinary valid expression changes never clear all tracks or reset the entire skeleton. Load/Reset performs whole state cleanup.",
+      "methods": [
+        "0x06025296",
+        "0x0602529D",
+        "0x06025270",
+        "0x06025281"
+      ],
+      "proof": "ClearTrack calls SetEmptyAnimation(track,0) and clears its cached name. Load calls ClearTracks and SetToSetupPose; Reset invokes ResetRuntimeState, ResetAppearance, StopTalking and StopBlinking."
+    },
+    {
+      "claim": "Normal playback has speed 1; explicit playback-rate and pause requests control the shared Spine time scale.",
+      "methods": [
+        "0x0602526F",
+        "0x06025284",
+        "0x06025285"
+      ],
+      "proof": ".ctor assigns SpinePlaybackRate=1. SetPaused uses zero or current rate; SetPlaybackRate forwards supplied rate when not paused."
+    },
+    {
+      "claim": "Stage portraits and dialogue avatars use the same VisualNovelSpineCharacter implementation with independent instances/transforms and blink enabled.",
+      "methods": [
+        "0x06025248",
+        "0x06038E89",
+        "0x06038C73",
+        "0x06047D05",
+        "0x06047D09"
+      ],
+      "proof": "Stage factory acquires SolarSchoolCharacterSpineItem.Character, constructed as VisualNovelSpineCharacter, enables blinking, then Load. Dialogue owns another CharacterSpineItem.Character, enables blinking in startup, applies its HeadIconTransform and calls ApplyAnimation."
+    }
+  ],
+  "limitations": [
+    "Static managed IL establishes controller requests and their order, not exact native Unreal/LGUI framebuffer output or implicit native mix settings.",
+    "The controller is installed resource 3.8.9; local authored flowstate/expression data has the recorded resource 3.8 source scope.",
+    "Catchlight shape, easing, deformation, draw order, and per-eye/per-expression coverage must be established from each actual Spine skeleton and atlas, not this controller inventory."
+  ],
+  "selectedMethods": [
+    {
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelSpineCharacter",
+      "method": ".ctor",
+      "token": "0x0602526F"
+    },
+    {
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelSpineCharacter",
+      "method": "Load",
+      "token": "0x06025270"
+    },
+    {
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelSpineCharacter",
+      "method": "SetBlinkEnabled",
+      "token": "0x06025271"
+    },
+    {
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelSpineCharacter",
+      "method": "Reset",
+      "token": "0x06025281"
+    },
+    {
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelSpineCharacter",
+      "method": "SetPaused",
+      "token": "0x06025284"
+    },
+    {
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelSpineCharacter",
+      "method": "SetPlaybackRate",
+      "token": "0x06025285"
+    },
+    {
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelSpineCharacter",
+      "method": "ResetRuntimeState",
+      "token": "0x06025287"
+    },
+    {
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelSpineCharacter",
+      "method": "ResetAppearance",
+      "token": "0x06025288"
+    },
+    {
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelSpineCharacter",
+      "method": "ApplyAnimation",
+      "token": "0x06025295"
+    },
+    {
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelSpineCharacter",
+      "method": "ApplyAnimation",
+      "token": "0x06025296"
+    },
+    {
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelSpineCharacter",
+      "method": "PlayTrackAnimation",
+      "token": "0x0602529A"
+    },
+    {
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelSpineCharacter",
+      "method": "ApplyOptionalTrack",
+      "token": "0x0602529C"
+    },
+    {
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelSpineCharacter",
+      "method": "ClearTrack",
+      "token": "0x0602529D"
+    },
+    {
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelSpineCharacter",
+      "method": "SetBlinkAnimation",
+      "token": "0x0602529E"
+    },
+    {
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelSpineCharacter",
+      "method": "ScheduleBlink",
+      "token": "0x0602529F"
+    },
+    {
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelSpineCharacter",
+      "method": "PlayBlink",
+      "token": "0x060252A0"
+    },
+    {
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelSpineCharacter",
+      "method": "StopBlinking",
+      "token": "0x060252A1"
+    },
+    {
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelSpineCharacter",
+      "method": "SetMouthAnimations",
+      "token": "0x060252A2"
+    },
+    {
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelSpineCharacter",
+      "method": "ApplyMouthShape",
+      "token": "0x060252A6"
+    },
+    {
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelSpineCharacter",
+      "method": "<ScheduleBlink>b__105_0",
+      "token": "0x060252AD"
+    },
+    {
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelScene",
+      "method": "CreateCharacter",
+      "token": "0x06025248"
+    },
+    {
+      "type": "CSharpScript.Game.Module.SolarSchool.SolarSchoolCharacterSpineItem",
+      "method": "OnBeforeStartAsync",
+      "token": "0x06038C73"
+    },
+    {
+      "type": "CSharpScript.Game.Module.SolarSchool.SolarSchoolVisualNovelCharacterDialogueItem+<ShowCharacterSpineAsync>d__24",
+      "method": "MoveNext",
+      "token": "0x06047D09"
+    },
+    {
+      "type": "CSharpScript.Game.Module.SolarSchool.SolarSchoolRootView",
+      "method": "AcquireCharacter",
+      "token": "0x06038E89"
+    },
+    {
+      "type": "CSharpScript.Game.Module.SolarSchool.SolarSchoolCharacterSpineItem+<ShowCoreAsync>d__21",
+      "method": "MoveNext",
+      "token": "0x06047C18"
+    },
+    {
+      "type": "CSharpScript.Game.Module.SolarSchool.SolarSchoolVisualNovelCharacterDialogueItem+<OnBeforeStartAsync>d__13",
+      "method": "MoveNext",
+      "token": "0x06047D05"
+    }
+  ],
+  "completeSelectedIL": "controller-evidence.json"
+}

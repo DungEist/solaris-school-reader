@@ -1,0 +1,231 @@
+{
+ "types": {
+  "1": {
+   "name": "第二索拉属性区间",
+   "gloss": "attribute in range",
+   "paramKeys": [
+    "Attr",
+    "Max",
+    "Min"
+   ]
+  },
+  "2": {
+   "name": "第二索拉行为次数",
+   "gloss": "behavior count",
+   "paramKeys": [
+    "BehaviorId",
+    "Count",
+    "OnlySuccess"
+   ]
+  },
+  "3": {
+   "name": "第二索拉好感等级",
+   "gloss": "role favor level",
+   "paramKeys": [
+    "Count",
+    "Max",
+    "Min",
+    "RoleId"
+   ]
+  },
+  "4": {
+   "name": "第二索拉考试分数",
+   "gloss": "exam score",
+   "paramKeys": [
+    "ExamId",
+    "Max",
+    "Min"
+   ]
+  },
+  "5": {
+   "name": "第二索拉角色已解锁",
+   "gloss": "role unlocked",
+   "paramKeys": []
+  },
+  "6": {
+   "name": "第二索拉日期区间",
+   "gloss": "date in range",
+   "paramKeys": [
+    "EndDay",
+    "EndMonth",
+    "StartDay",
+    "StartMonth"
+   ]
+  },
+  "7": {
+   "name": "第二索拉日期已到达",
+   "gloss": "date reached",
+   "paramKeys": [
+    "Day",
+    "IncludeSelf",
+    "Month"
+   ]
+  },
+  "8": {
+   "name": "第二索拉特批状态",
+   "gloss": "special-request state",
+   "paramKeys": [
+    "BehaviorId",
+    "State"
+   ]
+  },
+  "9": {
+   "name": "第二索拉已完成特批数",
+   "gloss": "special requests completed",
+   "paramKeys": [
+    "Count"
+   ]
+  },
+  "10": {
+   "name": "第二索拉持有道具",
+   "gloss": "holds item",
+   "paramKeys": [
+    "Count",
+    "ItemId"
+   ]
+  },
+  "11": {
+   "name": "第二索拉周目数",
+   "gloss": "playthrough count",
+   "paramKeys": [
+    "Max",
+    "Min"
+   ]
+  },
+  "12": {
+   "name": "第二索拉地点已解锁",
+   "gloss": "location unlocked",
+   "paramKeys": [
+    "LocationId"
+   ]
+  },
+  "13": {
+   "name": "第二索拉当前星期",
+   "gloss": "current weekday",
+   "paramKeys": [
+    "Weekdays"
+   ]
+  },
+  "14": {
+   "name": "第二索拉当前所处地点",
+   "gloss": "current location",
+   "paramKeys": [
+    "EndDay",
+    "EndMonth",
+    "LocationIds",
+    "StartDay",
+    "StartMonth"
+   ]
+  },
+  "15": {
+   "name": "第二索拉AVG变量",
+   "gloss": "AVG variable",
+   "paramKeys": [
+    "Key",
+    "Value"
+   ]
+  },
+  "16": {
+   "name": "第二索拉当日副本",
+   "gloss": "today's instance",
+   "paramKeys": [
+    "InstanceIds"
+   ]
+  },
+  "17": {
+   "name": "第二索拉已选择结局",
+   "gloss": "ending chosen",
+   "paramKeys": [
+    "EndingIds"
+   ]
+  },
+  "19": {
+   "name": "第二索拉角色当前等级好感已满",
+   "gloss": "role current-level favor full",
+   "paramKeys": [
+    "FavorLevel",
+    "RoleId"
+   ]
+  },
+  "20": {
+   "name": "第二索拉疲劳状态",
+   "gloss": "fatigue state",
+   "paramKeys": [
+    "Stages"
+   ]
+  },
+  "21": {
+   "name": "第二索拉当前时段",
+   "gloss": "current time slot",
+   "paramKeys": [
+    "TimeSlots"
+   ]
+  },
+  "22": {
+   "name": "第二索拉行为已解锁",
+   "gloss": "behavior unlocked",
+   "paramKeys": [
+    "BehaviorId",
+    "Count"
+   ]
+  },
+  "23": {
+   "name": "第二索拉阵营等级",
+   "gloss": "faction level",
+   "paramKeys": [
+    "InfluenceId",
+    "Level",
+    "Max",
+    "Min"
+   ]
+  },
+  "24": {
+   "name": "第二索拉属性数量",
+   "gloss": "attribute count",
+   "paramKeys": [
+    "Attr",
+    "Count"
+   ]
+  },
+  "25": {
+   "name": "第二索拉商店购买数量",
+   "gloss": "shop purchase count",
+   "paramKeys": []
+  },
+  "26": {
+   "name": "第二索拉角色送礼次数",
+   "gloss": "role gift count",
+   "paramKeys": []
+  },
+  "27": {
+   "name": "第二索拉任务奖励领取",
+   "gloss": "quest reward claimed",
+   "paramKeys": [
+    "Count",
+    "QuestId"
+   ]
+  },
+  "28": {
+   "name": "第二索拉任务节点完成",
+   "gloss": "quest node completed",
+   "paramKeys": [
+    "Count",
+    "QuestNodeId"
+   ]
+  },
+  "29": {
+   "name": "第二索拉道具数量区间",
+   "gloss": "item count in range",
+   "paramKeys": [
+    "ItemId",
+    "Max",
+    "Min"
+   ]
+  },
+  "30": {
+   "name": "第二索拉结局已达成",
+   "gloss": "ending achieved",
+   "paramKeys": []
+  }
+ }
+}

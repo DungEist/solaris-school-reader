@@ -1,0 +1,47 @@
+{
+  "talkerId": 700001,
+  "name": "Cartethyia",
+  "skeletonVersion": "4.1.23",
+  "sourceAtlas": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Katixiya/SolarSchool_Katixiya.SolarSchool_Katixiya-atlas",
+  "sourceSkeleton": "/Game/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Katixiya/SolarSchool_Katixiya.SolarSchool_Katixiya-data",
+  "sourceArchive": "/game/SteamLibrary/steamapps/common/Wuthering Waves/Wuthering Waves Game/Client/Saved/Resources/3.8.0/Resource/3.8.9/pakchunk7-WindowsNoEditor_P.pak",
+  "members": [
+    "../../../Client/Content/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Katixiya/SolarSchool_Katixiya.uasset",
+    "../../../Client/Content/Aki/UI/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Katixiya/SolarSchool_Katixiya.uexp"
+  ],
+  "archiveIndexHashes": {
+    "primary_index_sha1": "e9da0951ad26e2c191b1f7355532ec5c011b401a",
+    "directory_index_sha1": "e0370921a201efe9dc06d761fc250a98555d2534"
+  },
+  "extractionHelpers": "/tmp/solarschool-changli-inspection-NKHWT5",
+  "helperHashes": {
+    "inspect_changli.py": "f529926159db8012b5d36758cb150fbccdf77a2790246e5bd04856f1f3ac43f5",
+    "extract_changli.py": "e55a20c0d10aa14c7aafa0ae119cbad51b202814933ccee6fdf58fb3e3071ad0",
+    "inspect_spine_package.py": "fbafa1ef6bbbbb14dc3875465f3fed91d704e1ffda9e2f0b4cdaf1b40aa3278e"
+  },
+  "runtime": {
+    "file": "../changli/spine-player.js",
+    "version": "4.1.56",
+    "license": "../changli/SPINE-LICENSE.txt"
+  },
+  "texture": {
+    "file": "SolarSchool_Katixiya.webp",
+    "sourceWebp": "WW_Asset_Webp/UIResources/UiActivity/Spine/Activity38/SolarSchool/SolarSchool_Katixiya/SolarSchool_Katixiya.webp",
+    "origin": "Existing local WW_Asset_Webp bytes, used directly; not a game texture export",
+    "dimensions": [
+      4096,
+      4096
+    ],
+    "sourceSha256": "f18d1394aa5434ca9cab38d48a08cd231d0d89d3495a0faf3de05f72548396f3",
+    "atlasPage": "SolarSchool_Katixiya.png",
+    "atlasDimensionsVerified": true,
+    "storage": "hardlink to existing cache"
+  },
+  "placement": "Provisional, fixed reference pose; generated SchoolPortraitCatalog.ts",
+  "sha256": {
+    "SolarSchool_Katixiya.atlas": "d501140027a94f18fd869f88e6e3c3a95fa15af83471f0eec1955ec82fe39c91",
+    "SolarSchool_Katixiya.skel": "614691da1059ebcfef1f1802f6389c4809aa9351e37d712f865a5ce8c1fdf446",
+    "SolarSchool_Katixiya.webp": "f18d1394aa5434ca9cab38d48a08cd231d0d89d3495a0faf3de05f72548396f3",
+    "cartethyia.animation-metadata.json": "0d3fcc57aa157b6663f61632ac73d1164dfd8d7550be2821b58eb199f2a89a83"
+  }
+}

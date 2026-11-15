@@ -1,0 +1,931 @@
+{
+  "authority": "software-rasterized-source-meshes",
+  "entries": [
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/abby/abby-700006-open-000.png",
+      "slug": "abby",
+      "expressionId": 700006,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -823.2030946350097,
+        151.98257431030274,
+        260.16391769409177,
+        711.3099061584472
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/abby/abby-700006-open-001.png",
+      "slug": "abby",
+      "expressionId": 700006,
+      "phase": "open",
+      "time": 0.1,
+      "sourceCropBounds": [
+        -823.2030946350097,
+        151.98257431030274,
+        260.16391769409177,
+        711.3099061584472
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/abby/abby-700006-blink-002.png",
+      "slug": "abby",
+      "expressionId": 700006,
+      "phase": "blink",
+      "time": 0.15,
+      "sourceCropBounds": [
+        -823.2030946350097,
+        151.98257431030274,
+        260.16391769409177,
+        711.3099061584472
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/abby/abby-700213-open-003.png",
+      "slug": "abby",
+      "expressionId": 700213,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -823.2030946350097,
+        151.98257431030274,
+        260.16391769409177,
+        711.3099061584472
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/abby/abby-700214-open-004.png",
+      "slug": "abby",
+      "expressionId": 700214,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -823.2030946350097,
+        151.98257431030274,
+        260.16391769409177,
+        711.3099061584472
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/abby/abby-700215-open-005.png",
+      "slug": "abby",
+      "expressionId": 700215,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -823.2030946350097,
+        151.98257431030274,
+        260.16391769409177,
+        711.3099061584472
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/abby/abby-700216-open-006.png",
+      "slug": "abby",
+      "expressionId": 700216,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -823.2030946350097,
+        151.98257431030274,
+        260.16391769409177,
+        711.3099061584472
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/abby/abby-700217-open-007.png",
+      "slug": "abby",
+      "expressionId": 700217,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -823.2030946350097,
+        151.98257431030274,
+        260.16391769409177,
+        711.3099061584472
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/abby/abby-700222-open-008.png",
+      "slug": "abby",
+      "expressionId": 700222,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -860.4975448608399,
+        206.8321975708008,
+        281.72720489501955,
+        731.6103378295899
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/abby/abby-700230-open-009.png",
+      "slug": "abby",
+      "expressionId": 700230,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -826.462840423584,
+        162.81224502563478,
+        253.53851638793944,
+        714.8562730407715
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/buling/buling-700011-open-010.png",
+      "slug": "buling",
+      "expressionId": 700011,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -329.7677368164062,
+        1960.1330200195312,
+        273.3562377929687,
+        2313.061315917969
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/buling/buling-700011-blink-011.png",
+      "slug": "buling",
+      "expressionId": 700011,
+      "phase": "blink",
+      "time": 0.225,
+      "sourceCropBounds": [
+        -329.7677368164062,
+        1960.1330200195312,
+        273.3562377929687,
+        2313.061315917969
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/buling/buling-700074-open-012.png",
+      "slug": "buling",
+      "expressionId": 700074,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -329.7677368164062,
+        1960.1330200195312,
+        273.3562377929687,
+        2313.061315917969
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/buling/buling-700074-open-013.png",
+      "slug": "buling",
+      "expressionId": 700074,
+      "phase": "open",
+      "time": 0.7333333333333333,
+      "sourceCropBounds": [
+        -329.7677368164062,
+        1960.1330200195312,
+        273.3562377929687,
+        2313.061315917969
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/buling/buling-700075-open-014.png",
+      "slug": "buling",
+      "expressionId": 700075,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -329.7677368164062,
+        1960.1330200195312,
+        273.3562377929687,
+        2313.061315917969
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/buling/buling-700076-open-015.png",
+      "slug": "buling",
+      "expressionId": 700076,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -329.7677368164062,
+        1960.1330200195312,
+        273.3562377929687,
+        2313.061315917969
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/buling/buling-700077-open-016.png",
+      "slug": "buling",
+      "expressionId": 700077,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -329.5055322265625,
+        1951.1211004638672,
+        274.05344482421873,
+        2304.484368286133
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/cartethyia/cartethyia-700001-open-017.png",
+      "slug": "cartethyia",
+      "expressionId": 700001,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -291.4865417480469,
+        2602.525390625,
+        252.51345825195312,
+        2943.00537109375
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/cartethyia/cartethyia-700001-open-018.png",
+      "slug": "cartethyia",
+      "expressionId": 700001,
+      "phase": "open",
+      "time": 0.36666666666666664,
+      "sourceCropBounds": [
+        -291.4865417480469,
+        2602.525390625,
+        252.51345825195312,
+        2943.00537109375
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/cartethyia/cartethyia-700001-blink-019.png",
+      "slug": "cartethyia",
+      "expressionId": 700001,
+      "phase": "blink",
+      "time": 0.13333333333333333,
+      "sourceCropBounds": [
+        -291.4865417480469,
+        2602.525390625,
+        252.51345825195312,
+        2943.00537109375
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/cartethyia/cartethyia-700002-open-020.png",
+      "slug": "cartethyia",
+      "expressionId": 700002,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -291.4865417480469,
+        2602.525390625,
+        252.51345825195312,
+        2943.00537109375
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/cartethyia/cartethyia-700014-open-021.png",
+      "slug": "cartethyia",
+      "expressionId": 700014,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -291.4865417480469,
+        2602.525390625,
+        252.51345825195312,
+        2943.00537109375
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/cartethyia/cartethyia-700015-open-022.png",
+      "slug": "cartethyia",
+      "expressionId": 700015,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -291.4865417480469,
+        2602.525390625,
+        252.51345825195312,
+        2943.00537109375
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/cartethyia/cartethyia-700016-open-023.png",
+      "slug": "cartethyia",
+      "expressionId": 700016,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -281.6306686401367,
+        2631.7168350219727,
+        245.55350494384766,
+        2942.1532821655273
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/cartethyia/cartethyia-700018-open-024.png",
+      "slug": "cartethyia",
+      "expressionId": 700018,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -301.53335662841795,
+        2633.0273275756836,
+        233.58308502197264,
+        2951.0742349243164
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/cartethyia/cartethyia-700020-open-025.png",
+      "slug": "cartethyia",
+      "expressionId": 700020,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -289.68861267089846,
+        2625.203065185547,
+        239.56596252441406,
+        2913.539854736328
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/cartethyia/cartethyia-700029-open-026.png",
+      "slug": "cartethyia",
+      "expressionId": 700029,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -281.6306686401367,
+        2631.7168350219727,
+        245.55350494384766,
+        2942.1532821655273
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/changli/changli-700003-open-027.png",
+      "slug": "changli",
+      "expressionId": 700003,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -257.1458547973633,
+        2768.68433013916,
+        267.5557211303711,
+        3045.51586517334
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/changli/changli-700003-blink-028.png",
+      "slug": "changli",
+      "expressionId": 700003,
+      "phase": "blink",
+      "time": 0.13333334028720856,
+      "sourceCropBounds": [
+        -257.1458547973633,
+        2768.68433013916,
+        267.5557211303711,
+        3045.51586517334
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/changli/changli-700048-open-029.png",
+      "slug": "changli",
+      "expressionId": 700048,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -239.95656524658204,
+        2728.39724029541,
+        363.96567474365236,
+        3004.13108001709
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/changli/changli-700051-open-030.png",
+      "slug": "changli",
+      "expressionId": 700051,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -239.95656524658204,
+        2728.39724029541,
+        363.96567474365236,
+        3004.13108001709
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/chisa/chisa-700152-open-031.png",
+      "slug": "chisa",
+      "expressionId": 700152,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -93.46198280334472,
+        1697.2132300567628,
+        270.2535515594482,
+        1881.8561058807372
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/chisa/chisa-700152-blink-032.png",
+      "slug": "chisa",
+      "expressionId": 700152,
+      "phase": "blink",
+      "time": 0.175,
+      "sourceCropBounds": [
+        -93.46198280334472,
+        1697.2132300567628,
+        270.2535515594482,
+        1881.8561058807372
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/chisa/chisa-700158-open-033.png",
+      "slug": "chisa",
+      "expressionId": 700158,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -93.46198280334472,
+        1697.2132300567628,
+        270.2535515594482,
+        1881.8561058807372
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/ciaccona/ciaccona-700061-open-034.png",
+      "slug": "ciaccona",
+      "expressionId": 700061,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -350.01590332031253,
+        3019.926845703125,
+        293.87503417968753,
+        3339.114658203125
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/ciaccona/ciaccona-700061-open-035.png",
+      "slug": "ciaccona",
+      "expressionId": 700061,
+      "phase": "open",
+      "time": 0.6916666666666667,
+      "sourceCropBounds": [
+        -350.01590332031253,
+        3019.926845703125,
+        293.87503417968753,
+        3339.114658203125
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/ciaccona/ciaccona-700061-blink-036.png",
+      "slug": "ciaccona",
+      "expressionId": 700061,
+      "phase": "blink",
+      "time": 0.10000000894069672,
+      "sourceCropBounds": [
+        -350.01590332031253,
+        3019.926845703125,
+        293.87503417968753,
+        3339.114658203125
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/ciaccona/ciaccona-700064-open-037.png",
+      "slug": "ciaccona",
+      "expressionId": 700064,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -350.01590332031253,
+        3019.926845703125,
+        293.87503417968753,
+        3339.114658203125
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/galbrena/galbrena-700166-open-038.png",
+      "slug": "galbrena",
+      "expressionId": 700166,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -396.38716194152835,
+        2225.098494796753,
+        25.95763084411621,
+        2487.713028640747
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/galbrena/galbrena-700166-open-039.png",
+      "slug": "galbrena",
+      "expressionId": 700166,
+      "phase": "open",
+      "time": 0.6666666666666666,
+      "sourceCropBounds": [
+        -396.38716194152835,
+        2225.098494796753,
+        25.95763084411621,
+        2487.713028640747
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/galbrena/galbrena-700166-blink-040.png",
+      "slug": "galbrena",
+      "expressionId": 700166,
+      "phase": "blink",
+      "time": 0.23333334922790527,
+      "sourceCropBounds": [
+        -396.38716194152835,
+        2225.098494796753,
+        25.95763084411621,
+        2487.713028640747
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/galbrena/galbrena-700171-open-041.png",
+      "slug": "galbrena",
+      "expressionId": 700171,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -396.38716194152835,
+        2225.098494796753,
+        25.95763084411621,
+        2487.713028640747
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/phoebe/phoebe-700005-open-042.png",
+      "slug": "phoebe",
+      "expressionId": 700005,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -208.11260803222655,
+        1839.8882159423829,
+        232.50460632324217,
+        2062.7039471435546
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/phoebe/phoebe-700005-open-043.png",
+      "slug": "phoebe",
+      "expressionId": 700005,
+      "phase": "open",
+      "time": 0.1,
+      "sourceCropBounds": [
+        -208.11260803222655,
+        1839.8882159423829,
+        232.50460632324217,
+        2062.7039471435546
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/phoebe/phoebe-700005-blink-044.png",
+      "slug": "phoebe",
+      "expressionId": 700005,
+      "phase": "blink",
+      "time": 0.20000001788139343,
+      "sourceCropBounds": [
+        -208.11260803222655,
+        1839.8882159423829,
+        232.50460632324217,
+        2062.7039471435546
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/phoebe/phoebe-700102-open-045.png",
+      "slug": "phoebe",
+      "expressionId": 700102,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -208.11260803222655,
+        1839.8882159423829,
+        232.50460632324217,
+        2062.7039471435546
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/phoebe/phoebe-700109-open-046.png",
+      "slug": "phoebe",
+      "expressionId": 700109,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -208.4424478149414,
+        1824.8990744018554,
+        234.66688934326172,
+        2050.468723449707
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/roccia/roccia-700004-open-047.png",
+      "slug": "roccia",
+      "expressionId": 700004,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -422.95493732452394,
+        1323.3299747848512,
+        90.0258239364624,
+        1618.8242000198363
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/roccia/roccia-700004-blink-048.png",
+      "slug": "roccia",
+      "expressionId": 700004,
+      "phase": "blink",
+      "time": 0.225,
+      "sourceCropBounds": [
+        -422.95493732452394,
+        1323.3299747848512,
+        90.0258239364624,
+        1618.8242000198363
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/roccia/roccia-700194-open-049.png",
+      "slug": "roccia",
+      "expressionId": 700194,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -422.95493732452394,
+        1323.3299747848512,
+        90.0258239364624,
+        1618.8242000198363
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/rover-female/rover-female-700052-open-050.png",
+      "slug": "rover-female",
+      "expressionId": 700052,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -112.65156089782715,
+        2402.6295403289796,
+        314.15137397766114,
+        2644.0071784210204
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/rover-female/rover-female-700052-open-051.png",
+      "slug": "rover-female",
+      "expressionId": 700052,
+      "phase": "open",
+      "time": 0.3333333333333333,
+      "sourceCropBounds": [
+        -112.65156089782715,
+        2402.6295403289796,
+        314.15137397766114,
+        2644.0071784210204
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/rover-female/rover-female-700052-blink-052.png",
+      "slug": "rover-female",
+      "expressionId": 700052,
+      "phase": "blink",
+      "time": 0.18333333333333332,
+      "sourceCropBounds": [
+        -112.65156089782715,
+        2402.6295403289796,
+        314.15137397766114,
+        2644.0071784210204
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/rover-female/rover-female-700053-open-053.png",
+      "slug": "rover-female",
+      "expressionId": 700053,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -112.65156089782715,
+        2402.6295403289796,
+        314.15137397766114,
+        2644.0071784210204
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/rover-female/rover-female-700054-open-054.png",
+      "slug": "rover-female",
+      "expressionId": 700054,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -112.65156089782715,
+        2402.6295403289796,
+        314.15137397766114,
+        2644.0071784210204
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/rover-female/rover-female-700055-open-055.png",
+      "slug": "rover-female",
+      "expressionId": 700055,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -112.65156089782715,
+        2402.6295403289796,
+        314.15137397766114,
+        2644.0071784210204
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/rover-male/rover-male-700012-open-056.png",
+      "slug": "rover-male",
+      "expressionId": 700012,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -404.1004586791992,
+        2801.2356619262696,
+        -17.28639739990235,
+        3025.6986642456054
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/rover-male/rover-male-700012-blink-057.png",
+      "slug": "rover-male",
+      "expressionId": 700012,
+      "phase": "blink",
+      "time": 0.20833333333333334,
+      "sourceCropBounds": [
+        -404.1004586791992,
+        2801.2356619262696,
+        -17.28639739990235,
+        3025.6986642456054
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/rover-male/rover-male-700234-open-058.png",
+      "slug": "rover-male",
+      "expressionId": 700234,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -375.0747224426269,
+        2798.244521942139,
+        -8.603645172119144,
+        3019.388046417236
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/shorekeeper/shorekeeper-700088-open-059.png",
+      "slug": "shorekeeper",
+      "expressionId": 700088,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -160.87798110961913,
+        2061.4280262756347,
+        273.2709635925293,
+        2316.3285655212403
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/shorekeeper/shorekeeper-700088-open-060.png",
+      "slug": "shorekeeper",
+      "expressionId": 700088,
+      "phase": "open",
+      "time": 0.6916666666666667,
+      "sourceCropBounds": [
+        -160.87798110961913,
+        2061.4280262756347,
+        273.2709635925293,
+        2316.3285655212403
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/shorekeeper/shorekeeper-700088-blink-061.png",
+      "slug": "shorekeeper",
+      "expressionId": 700088,
+      "phase": "blink",
+      "time": 0.18333333333333332,
+      "sourceCropBounds": [
+        -160.87798110961913,
+        2061.4280262756347,
+        273.2709635925293,
+        2316.3285655212403
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/shorekeeper/shorekeeper-700093-open-062.png",
+      "slug": "shorekeeper",
+      "expressionId": 700093,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -159.4052815246582,
+        2065.6851496887207,
+        282.3173374938965,
+        2323.8280339050293
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/verina/verina-700136-open-063.png",
+      "slug": "verina",
+      "expressionId": 700136,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -520.720781326294,
+        2407.221387863159,
+        100.39568138122559,
+        2703.350633621216
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/verina/verina-700136-open-064.png",
+      "slug": "verina",
+      "expressionId": 700136,
+      "phase": "open",
+      "time": 0.6666666666666666,
+      "sourceCropBounds": [
+        -520.720781326294,
+        2407.221387863159,
+        100.39568138122559,
+        2703.350633621216
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/verina/verina-700136-blink-065.png",
+      "slug": "verina",
+      "expressionId": 700136,
+      "phase": "blink",
+      "time": 0.26666666666666666,
+      "sourceCropBounds": [
+        -520.720781326294,
+        2407.221387863159,
+        100.39568138122559,
+        2703.350633621216
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/verina/verina-700139-open-066.png",
+      "slug": "verina",
+      "expressionId": 700139,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -520.720781326294,
+        2407.221387863159,
+        100.39568138122559,
+        2703.350633621216
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/verina/verina-700143-open-067.png",
+      "slug": "verina",
+      "expressionId": 700143,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -520.720781326294,
+        2407.221387863159,
+        100.39568138122559,
+        2703.350633621216
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/xiangli-yao/xiangli-yao-700007-open-068.png",
+      "slug": "xiangli-yao",
+      "expressionId": 700007,
+      "phase": "open",
+      "time": 0,
+      "sourceCropBounds": [
+        -331.028052854538,
+        2750.383873414993,
+        58.03630547523498,
+        2975.187659788132
+      ]
+    },
+    {
+      "file": "test-results/reader-catchlights/coverage/source-eye-review/xiangli-yao/xiangli-yao-700007-blink-069.png",
+      "slug": "xiangli-yao",
+      "expressionId": 700007,
+      "phase": "blink",
+      "time": 0.125,
+      "sourceCropBounds": [
+        -331.028052854538,
+        2750.383873414993,
+        58.03630547523498,
+        2975.187659788132
+      ]
+    }
+  ],
+  "contactSheets": {
+    "abby": "test-results/reader-catchlights/coverage/source-eye-review/abby/contact-sheet.png",
+    "buling": "test-results/reader-catchlights/coverage/source-eye-review/buling/contact-sheet.png",
+    "cartethyia": "test-results/reader-catchlights/coverage/source-eye-review/cartethyia/contact-sheet.png",
+    "changli": "test-results/reader-catchlights/coverage/source-eye-review/changli/contact-sheet.png",
+    "chisa": "test-results/reader-catchlights/coverage/source-eye-review/chisa/contact-sheet.png",
+    "ciaccona": "test-results/reader-catchlights/coverage/source-eye-review/ciaccona/contact-sheet.png",
+    "galbrena": "test-results/reader-catchlights/coverage/source-eye-review/galbrena/contact-sheet.png",
+    "phoebe": "test-results/reader-catchlights/coverage/source-eye-review/phoebe/contact-sheet.png",
+    "roccia": "test-results/reader-catchlights/coverage/source-eye-review/roccia/contact-sheet.png",
+    "rover-female": "test-results/reader-catchlights/coverage/source-eye-review/rover-female/contact-sheet.png",
+    "rover-male": "test-results/reader-catchlights/coverage/source-eye-review/rover-male/contact-sheet.png",
+    "shorekeeper": "test-results/reader-catchlights/coverage/source-eye-review/shorekeeper/contact-sheet.png",
+    "verina": "test-results/reader-catchlights/coverage/source-eye-review/verina/contact-sheet.png",
+    "xiangli-yao": "test-results/reader-catchlights/coverage/source-eye-review/xiangli-yao/contact-sheet.png"
+  }
+}

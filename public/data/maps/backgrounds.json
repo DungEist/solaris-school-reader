@@ -1,0 +1,192 @@
+{
+ "700021": {
+  "desc": "家",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_MainBg002A.T_SolarSchool_MainBg002A",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_MainBg002B.T_SolarSchool_MainBg002B"
+ },
+ "700020": {
+  "desc": "教室",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_MainBg001A.T_SolarSchool_MainBg001A",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_MainBg001B.T_SolarSchool_MainBg001B"
+ },
+ "700003": {
+  "desc": "学生理事会",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_3_1.T_SolarSchool_bg_3_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_3_1.T_SolarSchool_bg_3_1"
+ },
+ "700004": {
+  "desc": "社团联合",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_4_1.T_SolarSchool_bg_4_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_4_2.T_SolarSchool_bg_4_2"
+ },
+ "700005": {
+  "desc": "外联中心",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_5_1.T_SolarSchool_bg_5_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_5_1.T_SolarSchool_bg_5_1"
+ },
+ "700006": {
+  "desc": "校内休息处",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_6_1.T_SolarSchool_bg_6_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_6_2.T_SolarSchool_bg_6_2"
+ },
+ "700007": {
+  "desc": "巴士站",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_7_1.T_SolarSchool_bg_7_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_7_2.T_SolarSchool_bg_7_2"
+ },
+ "700008": {
+  "desc": "网球场",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_8_1.T_SolarSchool_bg_8_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_8_2.T_SolarSchool_bg_8_2"
+ },
+ "700009": {
+  "desc": "商店街",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_9_1.T_SolarSchool_bg_9_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_9_2.T_SolarSchool_bg_9_2"
+ },
+ "700010": {
+  "desc": "操场",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_10_1.T_SolarSchool_bg_10_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_10_2.T_SolarSchool_bg_10_2"
+ },
+ "700011": {
+  "desc": "商店",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_11_1.T_SolarSchool_bg_11_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_11_2.T_SolarSchool_bg_11_2"
+ },
+ "700012": {
+  "desc": "家庭餐厅",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_12_1.T_SolarSchool_bg_12_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_12_2.T_SolarSchool_bg_12_2"
+ },
+ "700013": {
+  "desc": "街道",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_13_1.T_SolarSchool_bg_13_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_13_2.T_SolarSchool_bg_13_2"
+ },
+ "700014": {
+  "desc": "广场",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_14_1.T_SolarSchool_bg_14_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_14_2.T_SolarSchool_bg_14_2"
+ },
+ "700015": {
+  "desc": "海边",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_15_1.T_SolarSchool_bg_15_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_15_2.T_SolarSchool_bg_15_2"
+ },
+ "700016": {
+  "desc": "车站",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_16_1.T_SolarSchool_bg_16_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_16_2.T_SolarSchool_bg_16_2"
+ },
+ "700017": {
+  "desc": "校内走廊",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_17_1.T_SolarSchool_bg_17_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_17_2.T_SolarSchool_bg_17_2"
+ },
+ "700018": {
+  "desc": "办公室",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_18_1.T_SolarSchool_bg_18_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_18_1.T_SolarSchool_bg_18_1"
+ },
+ "700019": {
+  "desc": "礼堂",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_19_1.T_SolarSchool_bg_19_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_19_1.T_SolarSchool_bg_19_1"
+ },
+ "700022": {
+  "desc": "天台上午",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_1.T_SolarSchool_bg_20_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_1.T_SolarSchool_bg_20_1"
+ },
+ "700023": {
+  "desc": "天台黄昏",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_2.T_SolarSchool_bg_20_2",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_2.T_SolarSchool_bg_20_2"
+ },
+ "700024": {
+  "desc": "天台晚上",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_3.T_SolarSchool_bg_20_3",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_20_3.T_SolarSchool_bg_20_3"
+ },
+ "700025": {
+  "desc": "仓库（卡提线占位）",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_21_1.T_SolarSchool_bg_21_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_21_1.T_SolarSchool_bg_21_1"
+ },
+ "700026": {
+  "desc": "医务室（卡提线占位）",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_18_1.T_SolarSchool_bg_18_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_18_1.T_SolarSchool_bg_18_1"
+ },
+ "700027": {
+  "desc": "管弦乐社排练室（卡提线占位）",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_4_1.T_SolarSchool_bg_4_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_4_2.T_SolarSchool_bg_4_2"
+ },
+ "700028": {
+  "desc": "街道夜景（卡提线固定夜景）",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_13_2.T_SolarSchool_bg_13_2",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_13_2.T_SolarSchool_bg_13_2"
+ },
+ "700029": {
+  "desc": "病房（长离线占位）",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_29_1.T_SolarSchool_bg_29_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_29_1.T_SolarSchool_bg_29_1"
+ },
+ "700030": {
+  "desc": "咖啡馆（长离线占位）",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_12_1.T_SolarSchool_bg_12_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_12_1.T_SolarSchool_bg_12_1"
+ },
+ "700031": {
+  "desc": "学生理事会夜景（长离线固定夜景）",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_3_1.T_SolarSchool_bg_3_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_3_1.T_SolarSchool_bg_3_1"
+ },
+ "700032": {
+  "desc": "理事会储藏室（长离线占位）",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_18_1.T_SolarSchool_bg_18_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_18_1.T_SolarSchool_bg_18_1"
+ },
+ "700033": {
+  "desc": "山丘观景点（长离线占位）",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_16_2.T_SolarSchool_bg_16_2",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_16_2.T_SolarSchool_bg_16_2"
+ },
+ "700034": {
+  "desc": "长离个人线高级背景",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_27_2.T_SolarSchool_bg_27_2",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_27_2.T_SolarSchool_bg_27_2"
+ },
+ "700035": {
+  "desc": "长离情感结局背景",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_26_2.T_SolarSchool_bg_26_2",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_26_2.T_SolarSchool_bg_26_2"
+ },
+ "700036": {
+  "desc": "守岸人真结局背景",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_28_1.T_SolarSchool_bg_28_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_28_1.T_SolarSchool_bg_28_1"
+ },
+ "700037": {
+  "desc": "小卡个人线高级背景",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_22_1.T_SolarSchool_bg_22_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_22_1.T_SolarSchool_bg_22_1"
+ },
+ "700038": {
+  "desc": "纯黑背景",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_Black.T_SolarSchool_bg_Black",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_Black.T_SolarSchool_bg_Black"
+ },
+ "700039": {
+  "desc": "小卡情感结局背景",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_30_1.T_SolarSchool_bg_30_1",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_30_1.T_SolarSchool_bg_30_1"
+ },
+ "700040": {
+  "desc": "鬼屋背景",
+  "day": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_116.T_SolarSchool_bg_116",
+  "night": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/Activity/Activity38/SolarSchool/Bg/T_SolarSchool_bg_116.T_SolarSchool_bg_116"
+ }
+}

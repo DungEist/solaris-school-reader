@@ -1,0 +1,739 @@
+{
+  "passed": true,
+  "authority": "current-production-Reader-pixels-and-independent-native-source-replay",
+  "aggregateCapture": {
+    "path": "test-results/reader-catchlights/coverage/playback/production-browser-result.json",
+    "sha256": "ba0b3574aa0663aa0d6cc8132d1515109a2d37c375617123178261a5d26cd2de"
+  },
+  "visualReview": {
+    "path": "test-results/reader-catchlights/coverage/playback/visual-review-index.json",
+    "sha256": "ec4e9081d9e601b8dc0a8d00f86a337962acf2e3c9cdbaf0ec263ecf8a9ba071"
+  },
+  "controlledProcess": {
+    "path": "test-results/reader-catchlights/coverage/playback/rea-evidence.json",
+    "sha256": "8608835a0f467f8cf0f100692a93f258e109cdb8f1c62e39fa0e094fd11f325a",
+    "evidenceId": "ev_1ab0faba68109d914c5b612f7b538595bd1f70b5fbe385be35ef2725766445e8",
+    "exit": {
+      "code": 0,
+      "signal": 0,
+      "reason": "exited"
+    },
+    "cleanup": {
+      "owned_process_group": "verified",
+      "temporary_root": "removed",
+      "unverified_processes": [
+        {
+          "pid": 2016139,
+          "reason": "EACCES: permission denied, open '/proc/2016139/environ'"
+        },
+        {
+          "pid": 2016553,
+          "reason": "EACCES: permission denied, open '/proc/2016553/environ'"
+        },
+        {
+          "pid": 2016640,
+          "reason": "EACCES: permission denied, open '/proc/2016640/environ'"
+        },
+        {
+          "pid": 2016679,
+          "reason": "EACCES: permission denied, open '/proc/2016679/environ'"
+        },
+        {
+          "pid": 2016777,
+          "reason": "EACCES: permission denied, open '/proc/2016777/environ'"
+        },
+        {
+          "pid": 2016865,
+          "reason": "EACCES: permission denied, open '/proc/2016865/environ'"
+        },
+        {
+          "pid": 2017938,
+          "reason": "EACCES: permission denied, open '/proc/2017938/environ'"
+        }
+      ]
+    }
+  },
+  "totals": {
+    "recordings": 8,
+    "frames": 583,
+    "comparedEyeLayers": 7719,
+    "servedLocalResponses": 173,
+    "maximumSourceGeometryDiscrepancyPixels": 0,
+    "maximumEncodedTimestampErrorSeconds": 0.000500000000000167,
+    "maximumObservedFrameGapSeconds": 0.161
+  },
+  "captureHashes": {
+    "renderer": "3a00b9f3507c1ba00bfa502b01dd60c35f9b4c8dac979cf47555d7ea62081871",
+    "profiles": "228831a2ae0dc27eac767ec7924fc0ed42d3daba120db4fb9b9c48c65f268669",
+    "html": "bffef0fbce913baeda796450709911259de2bb49ab49e0edf33ad6ba083e4fb1",
+    "harness": "77415bb6a49f6a078ea1de684bba3c7bb75d4c22734b2b82417631ffb618afc1"
+  },
+  "cases": [
+    {
+      "case": "buling-pose-change",
+      "target": {
+        "name": "buling-pose-change",
+        "character": "Buling",
+        "slug": "buling",
+        "script": "1011",
+        "nid": 29,
+        "afterNid": 30,
+        "composition": "stage",
+        "who": "250004",
+        "fromExpression": 700082,
+        "toExpression": 700074,
+        "irisSlots": [
+          "eye_眼珠"
+        ],
+        "catchlightSlots": [
+          "eye_高亮"
+        ],
+        "choices": {
+          "8": "2"
+        },
+        "durationSeconds": 2.4,
+        "advanceAtSeconds": 0.8,
+        "cropPoses": [
+          {
+            "id": 700082,
+            "body": "dongzuo2_jushouzhan",
+            "mouth": "dongzuo1_zhoumei_zui",
+            "eye": "dongzuo1_zhoumei_zhengyan"
+          },
+          {
+            "id": 700074,
+            "body": "dongzuo1_changtaizhan",
+            "mouth": "dongzuo1_zhangzuixiao_zui",
+            "eye": "dongzuo1_zhengchang_zhengyan"
+          }
+        ]
+      },
+      "frames": 77,
+      "observedDurationSeconds": 2.4212999999821188,
+      "sourceReplayEyeLayers": 1078,
+      "sourceReplayMaximumDiscrepancy": {
+        "verticesPixels": 0,
+        "effectiveDeform": 0,
+        "UVs": 0,
+        "colors": 0
+      },
+      "maximumFrameGapSeconds": 0.161,
+      "maximumEncodedTimestampErrorSeconds": 0.000500000000000167,
+      "openEyeRelativeReflectionMeasurements": [
+        {
+          "expression": 700082,
+          "eyeClip": "dongzuo1_zhoumei_zhengyan",
+          "frames": 23,
+          "startSeconds": 0,
+          "endSeconds": 0.8205,
+          "eyes": [
+            {
+              "eye": "screen-left",
+              "irisCenterDriftPixels": 0.0,
+              "maximumReflectionVertexMotionRelativeToIrisPixels": 0.0,
+              "reflectionVertices": 4
+            },
+            {
+              "eye": "screen-right",
+              "irisCenterDriftPixels": 0.0,
+              "maximumReflectionVertexMotionRelativeToIrisPixels": 0.0,
+              "reflectionVertices": 4
+            }
+          ]
+        },
+        {
+          "expression": 700074,
+          "eyeClip": "dongzuo1_zhengchang_zhengyan",
+          "frames": 46,
+          "startSeconds": 1.090699999988079,
+          "endSeconds": 2.4212999999821188,
+          "eyes": [
+            {
+              "eye": "screen-left",
+              "irisCenterDriftPixels": 0.0,
+              "maximumReflectionVertexMotionRelativeToIrisPixels": 4.069733943166966,
+              "reflectionVertices": 4
+            },
+            {
+              "eye": "screen-right",
+              "irisCenterDriftPixels": 0.0,
+              "maximumReflectionVertexMotionRelativeToIrisPixels": 3.9440723678975758,
+              "reflectionVertices": 4
+            }
+          ]
+        }
+      ],
+      "mp4": {
+        "path": "test-results/reader-catchlights/coverage/playback/buling-pose-change/close-up.mp4",
+        "sha256": "761d365410dd6efd57ccd7d7cb718ac64c1b80e9f963f8a9fa8acc2894ad381f"
+      },
+      "contactSheet": {
+        "path": "test-results/reader-catchlights/coverage/playback/buling-pose-change/contact-sheet.png",
+        "sha256": "4cf86b1af28fee2bcda0bc484250c743706e8dc7df7db6ea9d63f443b3a36ed1"
+      },
+      "measurements": {
+        "path": "test-results/reader-catchlights/coverage/playback/buling-pose-change/measurements.json",
+        "sha256": "f0f0421be67fdd4f84ca6ca9b28ae9ece44d71d0a1ab11f23fa3c169a7b59a93"
+      }
+    },
+    {
+      "case": "ciaccona-wink",
+      "target": {
+        "name": "ciaccona-wink",
+        "character": "Ciaccona",
+        "slug": "ciaccona",
+        "script": "12003",
+        "nid": 9,
+        "afterNid": 10,
+        "composition": "stage",
+        "who": "150036",
+        "fromExpression": 700061,
+        "toExpression": 700064,
+        "irisSlots": [
+          "A_眼珠"
+        ],
+        "catchlightSlots": [
+          "A_高亮"
+        ],
+        "extraEyeSlots": [
+          "参考"
+        ],
+        "durationSeconds": 2.4,
+        "advanceAtSeconds": 0.8,
+        "cropPoses": [
+          {
+            "id": 700061,
+            "body": "dongzuo1_zhengchangzhan_wuyueqi",
+            "mouth": "dongzuo1_weixiao_zui",
+            "eye": "dongzuo1_zhengchang_zhengtyan"
+          },
+          {
+            "id": 700064,
+            "body": "dongzuo1_zhengchangzhan_wuyueqi",
+            "mouth": "dongzuo1_wink_zui",
+            "eye": "dongzuo1_wink"
+          }
+        ]
+      },
+      "frames": 93,
+      "observedDurationSeconds": 2.4189000000059604,
+      "sourceReplayEyeLayers": 1395,
+      "sourceReplayMaximumDiscrepancy": {
+        "verticesPixels": 0,
+        "effectiveDeform": 0,
+        "UVs": 0,
+        "colors": 0
+      },
+      "maximumFrameGapSeconds": 0.05010000002384186,
+      "maximumEncodedTimestampErrorSeconds": 0.000500000000000167,
+      "openEyeRelativeReflectionMeasurements": [
+        {
+          "expression": 700061,
+          "eyeClip": "dongzuo1_zhengchang_zhengtyan",
+          "frames": 35,
+          "startSeconds": 0,
+          "endSeconds": 1.036300000011921,
+          "eyes": [
+            {
+              "eye": "screen-left",
+              "irisCenterDriftPixels": 0.0,
+              "maximumReflectionVertexMotionRelativeToIrisPixels": 3.0703627194146748,
+              "reflectionVertices": 17
+            },
+            {
+              "eye": "screen-right",
+              "irisCenterDriftPixels": 0.0,
+              "maximumReflectionVertexMotionRelativeToIrisPixels": 3.292325920454857,
+              "reflectionVertices": 15
+            }
+          ]
+        }
+      ],
+      "mp4": {
+        "path": "test-results/reader-catchlights/coverage/playback/ciaccona-wink/close-up.mp4",
+        "sha256": "bd80ab617e03c0600522f989a47ff227bca42ed855515df8be5e1286445e7d0e"
+      },
+      "contactSheet": {
+        "path": "test-results/reader-catchlights/coverage/playback/ciaccona-wink/contact-sheet.png",
+        "sha256": "7f7dfb95b32926c2f2f5cbebc381ea9e85aa22b36c236927c6873ed3c7d7eea8"
+      },
+      "measurements": {
+        "path": "test-results/reader-catchlights/coverage/playback/ciaccona-wink/measurements.json",
+        "sha256": "f995452bf3b1d172751c3e44bb01c9da81988d738e6cb90ab11b270743e86b20"
+      }
+    },
+    {
+      "case": "abby-avatar-pose-change",
+      "target": {
+        "name": "abby-avatar-pose-change",
+        "character": "Abby",
+        "slug": "abby",
+        "script": "1034",
+        "nid": 56,
+        "afterNid": 57,
+        "composition": "avatar",
+        "who": "1316",
+        "fromExpression": 700212,
+        "toExpression": 700222,
+        "irisSlots": [
+          "01_A_眼珠",
+          "3_抬头_眼珠"
+        ],
+        "catchlightSlots": [
+          "01_A_高光"
+        ],
+        "durationSeconds": 2.4,
+        "advanceAtSeconds": 0.8,
+        "cropPoses": [
+          {
+            "id": 700212,
+            "body": "dongzuo1_zhengchangzhan",
+            "mouth": "dongzuo1_zhengchang_bizui",
+            "eye": "dongzuo1_zhengchang_zhengyan"
+          },
+          {
+            "id": 700222,
+            "body": "dongzuo3_taitouzhan",
+            "mouth": "dongzuo3_taitouzhan_zui",
+            "eye": "dongzuo3_taitouzhan_zhengyan"
+          }
+        ]
+      },
+      "frames": 46,
+      "observedDurationSeconds": 2.4142000000178814,
+      "sourceReplayEyeLayers": 828,
+      "sourceReplayMaximumDiscrepancy": {
+        "verticesPixels": 0,
+        "effectiveDeform": 0,
+        "UVs": 0,
+        "colors": 0
+      },
+      "maximumFrameGapSeconds": 0.10610000002384186,
+      "maximumEncodedTimestampErrorSeconds": 0.000500000000000167,
+      "openEyeRelativeReflectionMeasurements": [
+        {
+          "expression": 700212,
+          "eyeClip": "dongzuo1_zhengchang_zhengyan",
+          "frames": 18,
+          "startSeconds": 0,
+          "endSeconds": 0.9274000000059605,
+          "eyes": [
+            {
+              "eye": "screen-left",
+              "irisCenterDriftPixels": 0.0,
+              "maximumReflectionVertexMotionRelativeToIrisPixels": 2.097825275661023,
+              "reflectionVertices": 34
+            },
+            {
+              "eye": "screen-right",
+              "irisCenterDriftPixels": 0.0,
+              "maximumReflectionVertexMotionRelativeToIrisPixels": 2.2636407133131797,
+              "reflectionVertices": 33
+            }
+          ]
+        }
+      ],
+      "mp4": {
+        "path": "test-results/reader-catchlights/coverage/playback/abby-avatar-pose-change/close-up.mp4",
+        "sha256": "f686a6b3ebd05d35540eed705209738b868d2dde8a10ca0b77100e447117ada6"
+      },
+      "contactSheet": {
+        "path": "test-results/reader-catchlights/coverage/playback/abby-avatar-pose-change/contact-sheet.png",
+        "sha256": "8ac9d43329f1983891a097f5c362d626f5840a00099d79960002b19667aac2c5"
+      },
+      "measurements": {
+        "path": "test-results/reader-catchlights/coverage/playback/abby-avatar-pose-change/measurements.json",
+        "sha256": "5957959edbafc741afd440d2cb11215ce46f50ed8b59ade844c653e8805cb887"
+      }
+    },
+    {
+      "case": "rover-male-avatar",
+      "target": {
+        "name": "rover-male-avatar",
+        "character": "Male Rover",
+        "slug": "rover-male",
+        "script": "1001",
+        "nid": 2,
+        "composition": "avatar",
+        "who": "750088",
+        "gender": "male",
+        "fromExpression": 700131,
+        "irisSlots": [
+          "01_眼珠"
+        ],
+        "catchlightSlots": [
+          "01_高亮"
+        ],
+        "durationSeconds": 2,
+        "cropPoses": [
+          {
+            "id": 700131,
+            "body": "dongzuo2_sikaozhan",
+            "mouth": "dongzuo1_zhengchang_bizui",
+            "eye": "dongzuo1_zhengchang_zhengyan"
+          }
+        ]
+      },
+      "frames": 61,
+      "observedDurationSeconds": 2.005,
+      "sourceReplayEyeLayers": 549,
+      "sourceReplayMaximumDiscrepancy": {
+        "verticesPixels": 0,
+        "effectiveDeform": 0,
+        "UVs": 0,
+        "colors": 0
+      },
+      "maximumFrameGapSeconds": 0.058699999988079066,
+      "maximumEncodedTimestampErrorSeconds": 0.000500000000000056,
+      "openEyeRelativeReflectionMeasurements": [
+        {
+          "expression": 700131,
+          "eyeClip": "dongzuo1_zhengchang_zhengyan",
+          "frames": 61,
+          "startSeconds": 0,
+          "endSeconds": 2.005,
+          "eyes": [
+            {
+              "eye": "screen-left",
+              "irisCenterDriftPixels": 0.0,
+              "maximumReflectionVertexMotionRelativeToIrisPixels": 0.0,
+              "reflectionVertices": 7
+            },
+            {
+              "eye": "screen-right",
+              "irisCenterDriftPixels": 0.0,
+              "maximumReflectionVertexMotionRelativeToIrisPixels": 0.0,
+              "reflectionVertices": 8
+            }
+          ]
+        }
+      ],
+      "mp4": {
+        "path": "test-results/reader-catchlights/coverage/playback/rover-male-avatar/close-up.mp4",
+        "sha256": "450c3e550593fdad755528ac10ff9313e83154006b6670008b50342aaf4c2216"
+      },
+      "contactSheet": {
+        "path": "test-results/reader-catchlights/coverage/playback/rover-male-avatar/contact-sheet.png",
+        "sha256": "c7e93a2505809591e0ad319c557a987368e15d092ff581a3e04335e3a591fac5"
+      },
+      "measurements": {
+        "path": "test-results/reader-catchlights/coverage/playback/rover-male-avatar/measurements.json",
+        "sha256": "28bd142aefe858c3ef733166b46cd40313dff3b75037723a42b2b58f168ff5e7"
+      }
+    },
+    {
+      "case": "rover-female-avatar",
+      "target": {
+        "name": "rover-female-avatar",
+        "character": "Female Rover",
+        "slug": "rover-female",
+        "script": "1001",
+        "nid": 2,
+        "composition": "avatar",
+        "who": "750088",
+        "gender": "female",
+        "fromExpression": 700056,
+        "sourceExpression": 700131,
+        "irisSlots": [
+          "eye_眼珠"
+        ],
+        "catchlightSlots": [
+          "eye_高亮"
+        ],
+        "durationSeconds": 2,
+        "cropPoses": [
+          {
+            "id": 700056,
+            "body": "dongzuo2_sikaozhan",
+            "mouth": "dongzuo1_zhengchang_zui",
+            "eye": "dongzuo1_zhengchang_zhengyan"
+          }
+        ]
+      },
+      "frames": 61,
+      "observedDurationSeconds": 2.027300000011921,
+      "sourceReplayEyeLayers": 854,
+      "sourceReplayMaximumDiscrepancy": {
+        "verticesPixels": 0,
+        "effectiveDeform": 0,
+        "UVs": 0,
+        "colors": 0
+      },
+      "maximumFrameGapSeconds": 0.052900000005960464,
+      "maximumEncodedTimestampErrorSeconds": 0.000500000000000167,
+      "openEyeRelativeReflectionMeasurements": [
+        {
+          "expression": 700056,
+          "eyeClip": "dongzuo1_zhengchang_zhengyan",
+          "frames": 61,
+          "startSeconds": 0,
+          "endSeconds": 2.027300000011921,
+          "eyes": [
+            {
+              "eye": "screen-left",
+              "irisCenterDriftPixels": 0.0,
+              "maximumReflectionVertexMotionRelativeToIrisPixels": 3.4226745661028986,
+              "reflectionVertices": 9
+            },
+            {
+              "eye": "screen-right",
+              "irisCenterDriftPixels": 0.0,
+              "maximumReflectionVertexMotionRelativeToIrisPixels": 2.982435195272444,
+              "reflectionVertices": 8
+            }
+          ]
+        }
+      ],
+      "mp4": {
+        "path": "test-results/reader-catchlights/coverage/playback/rover-female-avatar/close-up.mp4",
+        "sha256": "173b11644d5d5e7f8fd04ef85b85c30e65d640bb817e0022e39be312d4cf350f"
+      },
+      "contactSheet": {
+        "path": "test-results/reader-catchlights/coverage/playback/rover-female-avatar/contact-sheet.png",
+        "sha256": "9ea97a6baed6040ebd541d012affbf4624de4de74ad9e7a2a062c58062bb400a"
+      },
+      "measurements": {
+        "path": "test-results/reader-catchlights/coverage/playback/rover-female-avatar/measurements.json",
+        "sha256": "50a0c13249a8220b68d0aaf97b9043057204a8d321709effc14a8fd6bc59e78c"
+      }
+    },
+    {
+      "case": "rover-male-stage",
+      "target": {
+        "name": "rover-male-stage",
+        "character": "Male Rover",
+        "slug": "rover-male",
+        "script": "1051",
+        "nid": 35,
+        "composition": "stage",
+        "who": "750088",
+        "gender": "male",
+        "fromExpression": 700127,
+        "irisSlots": [
+          "01_眼珠"
+        ],
+        "catchlightSlots": [
+          "01_高亮"
+        ],
+        "choices": {
+          "19": "5"
+        },
+        "durationSeconds": 2,
+        "cropPoses": [
+          {
+            "id": 700127,
+            "body": "dongzuo1_putongzhan",
+            "mouth": "dongzuo1_kaixin_zui",
+            "eye": "dongzuo1_zhengchang_zhengyan"
+          }
+        ]
+      },
+      "frames": 83,
+      "observedDurationSeconds": 2.0175,
+      "sourceReplayEyeLayers": 747,
+      "sourceReplayMaximumDiscrepancy": {
+        "verticesPixels": 0,
+        "effectiveDeform": 0,
+        "UVs": 0,
+        "colors": 0
+      },
+      "maximumFrameGapSeconds": 0.04090000000596047,
+      "maximumEncodedTimestampErrorSeconds": 0.000500000000000167,
+      "openEyeRelativeReflectionMeasurements": [
+        {
+          "expression": 700127,
+          "eyeClip": "dongzuo1_zhengchang_zhengyan",
+          "frames": 83,
+          "startSeconds": 0,
+          "endSeconds": 2.0175,
+          "eyes": [
+            {
+              "eye": "screen-left",
+              "irisCenterDriftPixels": 0.0,
+              "maximumReflectionVertexMotionRelativeToIrisPixels": 0.0,
+              "reflectionVertices": 7
+            },
+            {
+              "eye": "screen-right",
+              "irisCenterDriftPixels": 0.0,
+              "maximumReflectionVertexMotionRelativeToIrisPixels": 0.0,
+              "reflectionVertices": 8
+            }
+          ]
+        }
+      ],
+      "mp4": {
+        "path": "test-results/reader-catchlights/coverage/playback/rover-male-stage/close-up.mp4",
+        "sha256": "808d8e9c9ec7930c1a8a14fb22fbf6834c0f650543ed894a7c6e12dff04cbd5b"
+      },
+      "contactSheet": {
+        "path": "test-results/reader-catchlights/coverage/playback/rover-male-stage/contact-sheet.png",
+        "sha256": "1409c54b34a6ffcaa4c4ceff01ccaff86623a94198314cd48e2c15bf357080f8"
+      },
+      "measurements": {
+        "path": "test-results/reader-catchlights/coverage/playback/rover-male-stage/measurements.json",
+        "sha256": "6c6b407b43c58bfd96e0d17ecd28ae87638e2a86530e23485f6ec92995bcf86d"
+      }
+    },
+    {
+      "case": "rover-female-stage",
+      "target": {
+        "name": "rover-female-stage",
+        "character": "Female Rover",
+        "slug": "rover-female",
+        "script": "1051",
+        "nid": 35,
+        "composition": "stage",
+        "who": "750088",
+        "gender": "female",
+        "fromExpression": 700127,
+        "irisSlots": [
+          "eye_眼珠"
+        ],
+        "catchlightSlots": [
+          "eye_高亮"
+        ],
+        "choices": {
+          "19": "5"
+        },
+        "durationSeconds": 2,
+        "cropPoses": [
+          {
+            "id": 700127,
+            "body": "dongzuo1_putongzhan",
+            "mouth": "dongzuo1_kaixin_zui",
+            "eye": "dongzuo1_zhengchang_zhengyan"
+          }
+        ]
+      },
+      "frames": 86,
+      "observedDurationSeconds": 2.0135999999940397,
+      "sourceReplayEyeLayers": 1204,
+      "sourceReplayMaximumDiscrepancy": {
+        "verticesPixels": 0,
+        "effectiveDeform": 0,
+        "UVs": 0,
+        "colors": 0
+      },
+      "maximumFrameGapSeconds": 0.032599999994039536,
+      "maximumEncodedTimestampErrorSeconds": 0.000500000000000167,
+      "openEyeRelativeReflectionMeasurements": [
+        {
+          "expression": 700127,
+          "eyeClip": "dongzuo1_zhengchang_zhengyan",
+          "frames": 86,
+          "startSeconds": 0,
+          "endSeconds": 2.0135999999940397,
+          "eyes": [
+            {
+              "eye": "screen-left",
+              "irisCenterDriftPixels": 0.0,
+              "maximumReflectionVertexMotionRelativeToIrisPixels": 3.1843742721192427,
+              "reflectionVertices": 8
+            },
+            {
+              "eye": "screen-right",
+              "irisCenterDriftPixels": 0.0,
+              "maximumReflectionVertexMotionRelativeToIrisPixels": 3.326266453075789,
+              "reflectionVertices": 9
+            }
+          ]
+        }
+      ],
+      "mp4": {
+        "path": "test-results/reader-catchlights/coverage/playback/rover-female-stage/close-up.mp4",
+        "sha256": "3971eab465cadba906a8920c033de6431cbc99579d83a5e92f8ffeb621df2f57"
+      },
+      "contactSheet": {
+        "path": "test-results/reader-catchlights/coverage/playback/rover-female-stage/contact-sheet.png",
+        "sha256": "987fd35244d7ae2380cdbef15f6b239a6d7e2b059271aac62ec4ad29367ad945"
+      },
+      "measurements": {
+        "path": "test-results/reader-catchlights/coverage/playback/rover-female-stage/measurements.json",
+        "sha256": "b7ba9c566bf3bde3e288e0f016adf72bf68b84d3b9cd74e61e36c2a6c39daf69"
+      }
+    },
+    {
+      "case": "ciaccona-natural-blink",
+      "target": {
+        "name": "ciaccona-natural-blink",
+        "character": "Ciaccona",
+        "slug": "ciaccona",
+        "script": "12003",
+        "nid": 6,
+        "composition": "stage",
+        "who": "150036",
+        "mode": "blink",
+        "fromExpression": 700063,
+        "irisSlots": [
+          "A_眼珠"
+        ],
+        "catchlightSlots": [
+          "A_高亮"
+        ],
+        "durationSeconds": 2,
+        "cropPoses": [
+          {
+            "id": 700063,
+            "body": "dongzuo1_zhengchangzhan_wuyueqi",
+            "mouth": "dongzuo1_luomo_zui",
+            "eye": "dongzuo1_luomo_zhengyan"
+          }
+        ]
+      },
+      "frames": 76,
+      "observedDurationSeconds": 2.001800000011921,
+      "sourceReplayEyeLayers": 1064,
+      "sourceReplayMaximumDiscrepancy": {
+        "verticesPixels": 0,
+        "effectiveDeform": 0,
+        "UVs": 0,
+        "colors": 0
+      },
+      "maximumFrameGapSeconds": 0.053599999994039534,
+      "maximumEncodedTimestampErrorSeconds": 0.000500000000000167,
+      "openEyeRelativeReflectionMeasurements": [
+        {
+          "expression": 700063,
+          "eyeClip": "dongzuo1_luomo_zhengyan",
+          "frames": 59,
+          "startSeconds": 0.47990000000596045,
+          "endSeconds": 2.001800000011921,
+          "eyes": [
+            {
+              "eye": "screen-left",
+              "irisCenterDriftPixels": 0.0,
+              "maximumReflectionVertexMotionRelativeToIrisPixels": 5.969124140547052,
+              "reflectionVertices": 17
+            },
+            {
+              "eye": "screen-right",
+              "irisCenterDriftPixels": 0.0,
+              "maximumReflectionVertexMotionRelativeToIrisPixels": 4.979211089383114,
+              "reflectionVertices": 15
+            }
+          ]
+        }
+      ],
+      "mp4": {
+        "path": "test-results/reader-catchlights/coverage/playback/ciaccona-natural-blink/close-up.mp4",
+        "sha256": "3d69de98712ea2d0cc967d99930c62e7f07630715f3c414628afcc0603374bb6"
+      },
+      "contactSheet": {
+        "path": "test-results/reader-catchlights/coverage/playback/ciaccona-natural-blink/contact-sheet.png",
+        "sha256": "4c219ce76293522906c45e4bae279c4c26252ccf8b904c7dcef4762a8037fccf"
+      },
+      "measurements": {
+        "path": "test-results/reader-catchlights/coverage/playback/ciaccona-natural-blink/measurements.json",
+        "sha256": "0d40f5f78727305c01f912f2ad20d3d85d2e59049fae495b1d82f483c60ea8e7"
+      }
+    }
+  ],
+  "limitations": [
+    "These eight actual-route recordings are representative runtime checks; exhaustive reachable combination enumeration and source-to-render checks are retained separately in coverage/routes.json and the parent coverage reports.",
+    "Frames are actual, nonuniform observations. MP4s use every captured PNG at its original timestamp without interpolation, stabilization, or a playback-rate change; maximum frame gap is retained explicitly.",
+    "Fresh source replay verifies all attachments and draw order plus every recorded eye/eyelid/clipping layer geometry, effective deformation, UVs, triangles and slot colors. It does not compare the original-game framebuffer; visible reflection/wink/blink behavior is corroborated by analyst review of Reader pixels.",
+    "Baked special-expression reflections have no separate reflection mesh. Female Rover hair partly covers one reflection in the chosen routes; geometry motion remains source-verified independently of its visible portion.",
+    "REA verifies cleanup of its owned process group but lists inaccessible /proc environment records as separately unverified process observations. Raw PTY output is retained; cumulative terminal rendering was truncated."
+  ]
+}

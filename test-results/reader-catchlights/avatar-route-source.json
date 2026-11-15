@@ -1,0 +1,335 @@
+{
+  "sourceStageModel": "Modify creates a tracked entry but does not set present=true; avatarVisible requires present. Same-node RoleConfig precedes Enter and omitted hideAvatar inherits it.",
+  "abbyAvatar": {
+    "script": "1034",
+    "nid": 56,
+    "speakerId": "1316",
+    "expressionId": 700212,
+    "sourceEnter": 55,
+    "normalCatchlightDurationSeconds": 0.20000001788139343
+  },
+  "abbyOtherRequestsWithoutPriorEnter": [
+    {
+      "script": "3014",
+      "nid": 3
+    },
+    {
+      "script": "3016",
+      "nid": 23
+    }
+  ],
+  "verinaNormalAvatarRequestWithoutPriorEnter": {
+    "script": "11007",
+    "nid": 49,
+    "speakerId": "968",
+    "expressionId": 700136,
+    "firstEnterNid": 58
+  },
+  "verinaOtherAvatarRequestWithoutPriorEnter": {
+    "script": "3016",
+    "nid": 18,
+    "speakerId": "968",
+    "expressionId": 700139,
+    "catchlights": "closed/static expression"
+  },
+  "sourceNodes": [
+    {
+      "script": "1034",
+      "nid": 55,
+      "kind": "line",
+      "speakerId": "1316",
+      "textKey": "EVENT_AVGmain_165_59",
+      "stage": [
+        {
+          "t": 0,
+          "op": "modify",
+          "who": "1316",
+          "origin": "talk-item-role-config",
+          "raw": {
+            "HidePortrait": true,
+            "HideAvatar": false,
+            "VisualEffect": "Highlight",
+            "Expression": 700222
+          },
+          "expr": 700222,
+          "hidePortrait": true,
+          "hideAvatar": false,
+          "effect": "Highlight"
+        },
+        {
+          "t": 0,
+          "op": "modify",
+          "who": "999",
+          "expr": 700038,
+          "hidePortrait": false,
+          "hideAvatar": true,
+          "effect": "Darken"
+        },
+        {
+          "t": 0,
+          "op": "enter",
+          "who": "1316",
+          "expr": 700222,
+          "hidePortrait": true,
+          "hideAvatar": false,
+          "effect": "Highlight",
+          "pos": [
+            0,
+            0,
+            1
+          ],
+          "fadeIn": 0
+        }
+      ],
+      "rawRoleConfig": {
+        "HidePortrait": true,
+        "HideAvatar": false,
+        "VisualEffect": "Highlight",
+        "Expression": 700222
+      }
+    },
+    {
+      "script": "1034",
+      "nid": 56,
+      "kind": "line",
+      "speakerId": "1316",
+      "textKey": "EVENT_AVGmain_165_60",
+      "stage": [
+        {
+          "t": 0,
+          "op": "modify",
+          "who": "1316",
+          "origin": "talk-item-role-config",
+          "raw": {
+            "HidePortrait": true,
+            "HideAvatar": false,
+            "Expression": 700212
+          },
+          "expr": 700212,
+          "hidePortrait": true,
+          "hideAvatar": false
+        }
+      ],
+      "rawRoleConfig": {
+        "HidePortrait": true,
+        "HideAvatar": false,
+        "Expression": 700212
+      }
+    },
+    {
+      "script": "1034",
+      "nid": 57,
+      "kind": "line",
+      "speakerId": "1316",
+      "textKey": "EVENT_AVGmain_165_61",
+      "stage": [
+        {
+          "t": 0,
+          "op": "modify",
+          "who": "1316",
+          "origin": "talk-item-role-config",
+          "raw": {
+            "Expression": 700222,
+            "HidePortrait": true,
+            "HideAvatar": false,
+            "VisualEffect": "Highlight"
+          },
+          "expr": 700222,
+          "hidePortrait": true,
+          "hideAvatar": false,
+          "effect": "Highlight"
+        },
+        {
+          "t": 0,
+          "op": "modify",
+          "who": "999",
+          "expr": 700038,
+          "hidePortrait": false,
+          "hideAvatar": true,
+          "effect": "Darken"
+        },
+        {
+          "t": 0,
+          "phase": "end",
+          "op": "exit",
+          "who": "1316",
+          "fadeOut": 0
+        }
+      ],
+      "rawRoleConfig": {
+        "Expression": 700222,
+        "HidePortrait": true,
+        "HideAvatar": false,
+        "VisualEffect": "Highlight"
+      }
+    },
+    {
+      "script": "11007",
+      "nid": 49,
+      "kind": "line",
+      "speakerId": "968",
+      "textKey": "EVENT_AVGstudentCouncil_60_49",
+      "stage": [
+        {
+          "t": 0,
+          "op": "modify",
+          "who": "968",
+          "origin": "talk-item-role-config",
+          "raw": {
+            "HideAvatar": false,
+            "Expression": 700136
+          },
+          "expr": 700136,
+          "hideAvatar": false
+        }
+      ],
+      "rawRoleConfig": {
+        "HideAvatar": false,
+        "Expression": 700136
+      }
+    },
+    {
+      "script": "11007",
+      "nid": 58,
+      "kind": "line",
+      "speakerId": "968",
+      "textKey": "EVENT_AVGstudentCouncil_60_58",
+      "stage": [
+        {
+          "t": 0,
+          "op": "modify",
+          "who": "968",
+          "origin": "talk-item-role-config",
+          "raw": {
+            "HideAvatar": true
+          },
+          "hideAvatar": true
+        },
+        {
+          "t": 0,
+          "op": "enter",
+          "who": "701296",
+          "hideAvatar": true,
+          "pos": [
+            -700,
+            0,
+            1
+          ],
+          "fadeIn": 0.3
+        },
+        {
+          "t": 0,
+          "op": "enter",
+          "who": "968",
+          "expr": 700141,
+          "pos": [
+            0,
+            0,
+            1
+          ],
+          "fadeIn": 0.3
+        },
+        {
+          "t": 0,
+          "op": "enter",
+          "who": "1557",
+          "expr": 700168,
+          "hideAvatar": true,
+          "pos": [
+            700,
+            0,
+            1
+          ],
+          "fadeIn": 0.3
+        },
+        {
+          "t": 0,
+          "op": "cg",
+          "id": null,
+          "mode": "Clean",
+          "raw": {
+            "Type": "Clean"
+          }
+        }
+      ],
+      "rawRoleConfig": {
+        "HideAvatar": true
+      }
+    },
+    {
+      "script": "3014",
+      "nid": 3,
+      "kind": "line",
+      "speakerId": "1316",
+      "textKey": "EVENT_AVGmain_6000_3",
+      "stage": [
+        {
+          "t": 0,
+          "op": "modify",
+          "who": "1316",
+          "origin": "talk-item-role-config",
+          "raw": {
+            "HideAvatar": false,
+            "Expression": 700212
+          },
+          "expr": 700212,
+          "hideAvatar": false
+        }
+      ],
+      "rawRoleConfig": {
+        "HideAvatar": false,
+        "Expression": 700212
+      }
+    },
+    {
+      "script": "3016",
+      "nid": 18,
+      "kind": "line",
+      "speakerId": "968",
+      "textKey": "EVENT_AVGmain_6400_14",
+      "stage": [
+        {
+          "t": 0,
+          "op": "modify",
+          "who": "968",
+          "origin": "talk-item-role-config",
+          "raw": {
+            "HideAvatar": false,
+            "Expression": 700139
+          },
+          "expr": 700139,
+          "hideAvatar": false
+        }
+      ],
+      "rawRoleConfig": {
+        "HideAvatar": false,
+        "Expression": 700139
+      }
+    },
+    {
+      "script": "3016",
+      "nid": 23,
+      "kind": "line",
+      "speakerId": "1316",
+      "textKey": "EVENT_AVGmain_6400_19",
+      "stage": [
+        {
+          "t": 0,
+          "op": "modify",
+          "who": "1316",
+          "origin": "talk-item-role-config",
+          "raw": {
+            "HideAvatar": false,
+            "Expression": 700212
+          },
+          "expr": 700212,
+          "hideAvatar": false
+        }
+      ],
+      "rawRoleConfig": {
+        "HideAvatar": false,
+        "Expression": 700212
+      }
+    }
+  ]
+}

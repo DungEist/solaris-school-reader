@@ -1,0 +1,168 @@
+{
+  "case": "verina-stage",
+  "result": "PASS",
+  "frameCount": 93,
+  "durationSeconds": 2.0004000000059605,
+  "geometry": {
+    "checks": {
+      "root": {
+        "observed": true,
+        "maximumCoordinateSpan": 0.0,
+        "tolerance": 1e-06,
+        "stationary": true
+      },
+      "scale": {
+        "observed": true,
+        "maximumCoordinateSpan": 0.0,
+        "tolerance": 1e-06,
+        "stationary": true
+      },
+      "camera": {
+        "observed": true,
+        "maximumCoordinateSpan": 0.0,
+        "tolerance": 1e-06,
+        "stationary": true
+      },
+      "canvasRect": {
+        "observed": true,
+        "maximumCoordinateSpan": 0.0,
+        "tolerance": 1e-06,
+        "stationary": true
+      },
+      "irisVertices": {
+        "observed": true,
+        "maximumCoordinateSpan": 0.0,
+        "tolerance": 0.02,
+        "stationary": true
+      },
+      "perEyeIrisBounds": {
+        "observed": true,
+        "maximumCoordinateSpan": 0.0,
+        "tolerance": 0.02,
+        "stationary": true
+      }
+    },
+    "stationary": true
+  },
+  "eyes": [
+    {
+      "eye": "screen-left",
+      "color": "green",
+      "reflectionCentroidSpanRelativeToIrisPixels": [
+        1.1043716535432964,
+        3.6437983678417254
+      ],
+      "reflectionCentroidSpanRelativeToFixedIrisGuidePixels": [
+        1.1043716535432964,
+        3.6437983678417254
+      ],
+      "reflectionCentroidSpanRelativeToIrisWidths": [
+        0.009127038459035508,
+        0.029385470708400974
+      ],
+      "reflectionWidthHeightSpanPixels": [
+        6.0,
+        6.0
+      ],
+      "reflectionAreaRangePixels": [
+        501,
+        678
+      ],
+      "reflectionAreaVariationFraction": 0.3532934131736527,
+      "irisBoundaryCoordinateSpanPixels": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "irisCenterSpanPixels": [
+        0.0,
+        0.0
+      ],
+      "coloredIrisStationary": true,
+      "whiteReflectionChanges": true
+    },
+    {
+      "eye": "screen-right",
+      "color": "green",
+      "reflectionCentroidSpanRelativeToIrisPixels": [
+        0.9593414163681473,
+        2.746301089918262
+      ],
+      "reflectionCentroidSpanRelativeToFixedIrisGuidePixels": [
+        0.9593414163681473,
+        2.246301089918262
+      ],
+      "reflectionCentroidSpanRelativeToIrisWidths": [
+        0.007799523710310147,
+        0.02648384967480477
+      ],
+      "reflectionWidthHeightSpanPixels": [
+        1.0,
+        2.0
+      ],
+      "reflectionAreaRangePixels": [
+        360,
+        421
+      ],
+      "reflectionAreaVariationFraction": 0.16944444444444445,
+      "irisBoundaryCoordinateSpanPixels": [
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "irisCenterSpanPixels": [
+        0.0,
+        0.5
+      ],
+      "coloredIrisStationary": true,
+      "whiteReflectionChanges": true
+    }
+  ],
+  "openEyeAtOriginalSpeed": true,
+  "target": {
+    "name": "verina-stage",
+    "character": "Verina",
+    "script": "1016",
+    "nid": 1,
+    "composition": "stage",
+    "who": "968",
+    "expression": 700136,
+    "iris": "A_03_\u773c\u73e0",
+    "catchlight": "A_03_\u9ad8\u4eae",
+    "eye": "dongzuo1_zhengchang_zhengyan",
+    "cycle": 1.3333333730697632
+  },
+  "recordingMapping": {
+    "crop": {
+      "x": 686.1108127143171,
+      "y": 407.79197947281574,
+      "width": 86.84860200168269,
+      "height": 32.00701432483491
+    },
+    "destination": {
+      "x": 61.52335599848641,
+      "y": 52,
+      "width": 596.9532880030272,
+      "height": 220
+    },
+    "zoom": 6.873493346403679
+  },
+  "recording": {
+    "path": "test-results/reader-catchlights/playback/verina-stage/close-up.webm",
+    "sha256": "5dc3ea637a4253f5a116a746482013829e2f447c51cc656617c13e694da59982",
+    "byteLength": 84945
+  },
+  "sourceHashes": {
+    "renderer": "d61f502c53e6de080000aa7b2691443b1d18888f7efcbea5d123e14ca1acce98",
+    "profiles": "228831a2ae0dc27eac767ec7924fc0ed42d3daba120db4fb9b9c48c65f268669",
+    "html": "85b850f53e76ce47175b3e24b0fde070617a15c69843569ae45eddd8912d8ac5"
+  },
+  "measurementsSha256": "0182b35ba928622031fb489d8cfd7ce14bf253ddda294bc76c1b7487aac01aea",
+  "analyzerSha256": "c910342db8d9993010ab9145cccf7d0e6563d35bc483b2bec39defe19e7cd358",
+  "trackedFrames": "test-results/reader-catchlights/playback/verina-stage/tracked-frames",
+  "trackedFrameAnnotations": "Thin red boxes surround the independently measured upper white reflection; fixed teal iris-center marks and timestamped offsets use the original recording iris guide. All raw frames remain untouched.",
+  "pixelTracks": "test-results/reader-catchlights/playback/verina-stage/pixel-tracks.json",
+  "contactSheet": "test-results/reader-catchlights/playback/verina-stage/tracked-contact-sheet.png"
+}

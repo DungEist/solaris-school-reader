@@ -1,0 +1,135 @@
+{
+  "textures": {
+    "T_IconSolarSchoolNPC001.webp": {
+      "sourceWebp": "WW_Asset_Webp/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC001.webp",
+      "sourceSha256": "6eafba6bebf7c1c11641079d85237230ece79833cfd08467f2da91c22e818ade",
+      "dimensions": [
+        1016,
+        1548
+      ],
+      "sourceReferences": [
+        "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC001.T_IconSolarSchoolNPC001"
+      ],
+      "origin": "Existing local WebP bytes, used directly; no Spine portrait fabricated",
+      "storage": "hardlink to existing cache"
+    },
+    "T_IconSolarSchoolNPC002.webp": {
+      "sourceWebp": "WW_Asset_Webp/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC002.webp",
+      "sourceSha256": "49540dccf459158299ef628cbd4ba8c533ad7c5ea4f7e96e027c916a406e0561",
+      "dimensions": [
+        1016,
+        1548
+      ],
+      "sourceReferences": [
+        "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC002.T_IconSolarSchoolNPC002"
+      ],
+      "origin": "Existing local WebP bytes, used directly; no Spine portrait fabricated",
+      "storage": "hardlink to existing cache"
+    },
+    "T_IconSolarSchoolNPC003.webp": {
+      "sourceWebp": "WW_Asset_Webp/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC003.webp",
+      "sourceSha256": "3ef0d770ac375cfc91d08b846a6c5160bdfec3b26043f07203639cfea23cba09",
+      "dimensions": [
+        1016,
+        1548
+      ],
+      "sourceReferences": [
+        "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC003.T_IconSolarSchoolNPC003"
+      ],
+      "origin": "Existing local WebP bytes, used directly; no Spine portrait fabricated",
+      "storage": "hardlink to existing cache"
+    },
+    "T_IconSolarSchoolNPC004.webp": {
+      "sourceWebp": "WW_Asset_Webp/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC004.webp",
+      "sourceSha256": "2861eacd6641957edc43d4e01b230fa5fe8296ebfa051b801cf9277225813125",
+      "dimensions": [
+        1016,
+        1548
+      ],
+      "sourceReferences": [
+        "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC004.T_IconSolarSchoolNPC004"
+      ],
+      "origin": "Existing local WebP bytes, used directly; no Spine portrait fabricated",
+      "storage": "hardlink to existing cache"
+    },
+    "T_IconSolarSchoolNPC005.webp": {
+      "sourceWebp": "WW_Asset_Webp/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC005.webp",
+      "sourceSha256": "d143eb8fcb08b4b88a0955e1292d88a2247446dbaad61f839e8f8aa3c2b8479c",
+      "dimensions": [
+        1016,
+        1548
+      ],
+      "sourceReferences": [
+        "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC005.T_IconSolarSchoolNPC005"
+      ],
+      "origin": "Existing local WebP bytes, used directly; no Spine portrait fabricated",
+      "storage": "hardlink to existing cache"
+    },
+    "T_IconSolarSchoolNPC006.webp": {
+      "sourceWebp": "WW_Asset_Webp/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC006.webp",
+      "sourceSha256": "9d698f9ff643cf17ee5576ca8cd78fed6fb2ce3348b4c5745e77c6ed5d6838da",
+      "dimensions": [
+        1016,
+        1548
+      ],
+      "sourceReferences": [
+        "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC006.T_IconSolarSchoolNPC006"
+      ],
+      "origin": "Existing local WebP bytes, used directly; no Spine portrait fabricated",
+      "storage": "hardlink to existing cache"
+    },
+    "T_IconSolarSchoolNPC007.webp": {
+      "sourceWebp": "WW_Asset_Webp/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC007.webp",
+      "sourceSha256": "977ce8aca032b3ceae8d940d9ea262a3edec2c973edca09b0d7b25614a69d22a",
+      "dimensions": [
+        1016,
+        1548
+      ],
+      "sourceReferences": [
+        "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC007.T_IconSolarSchoolNPC007"
+      ],
+      "origin": "Existing local WebP bytes, used directly; no Spine portrait fabricated",
+      "storage": "hardlink to existing cache"
+    },
+    "T_IconSolarSchoolNPC008.webp": {
+      "sourceWebp": "WW_Asset_Webp/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC008.webp",
+      "sourceSha256": "5b93dcdcdb04c88cb616d11b79ed489fbc43bdd43840826b318f3b053959f0dc",
+      "dimensions": [
+        1016,
+        1548
+      ],
+      "sourceReferences": [
+        "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC008.T_IconSolarSchoolNPC008"
+      ],
+      "origin": "Existing local WebP bytes, used directly; no Spine portrait fabricated",
+      "storage": "hardlink to existing cache"
+    },
+    "T_IconSolarSchoolNPC009_M.webp": {
+      "sourceWebp": "WW_Asset_Webp/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC009_M.webp",
+      "sourceSha256": "3fd6dbc427ff28dacb36875bca4320c4c37f0a6e6a1e527dc606c29964726a54",
+      "dimensions": [
+        1016,
+        1548
+      ],
+      "sourceReferences": [
+        "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC009_M.T_IconSolarSchoolNPC009_M"
+      ],
+      "origin": "Existing local WebP bytes, used directly; no Spine portrait fabricated",
+      "storage": "hardlink to existing cache"
+    },
+    "T_IconSolarSchoolNPC009_F.webp": {
+      "sourceWebp": "WW_Asset_Webp/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC009_F.webp",
+      "sourceSha256": "62450b42e863f33847764e954b3d38297f4770ccf0e29e36e9da7ff50a51c00d",
+      "dimensions": [
+        1016,
+        1548
+      ],
+      "sourceReferences": [
+        "/Game/Aki/UI/UIResources/UiActivity/Image/Activity38/SolarSchool/IconNPC/T_IconSolarSchoolNPC009_F.T_IconSolarSchoolNPC009_F"
+      ],
+      "origin": "Existing local WebP bytes, used directly; no Spine portrait fabricated",
+      "storage": "hardlink to existing cache"
+    }
+  },
+  "placement": "Provisional fixed bottom-center, heightFraction .84; source portrait transforms retained as metadata"
+}
