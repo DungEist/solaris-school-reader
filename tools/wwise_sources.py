@@ -51,18 +51,33 @@ class Pak:
   encrypted=bool(f&0x400000);count=(f>>6)&65535
   return dict(offset=o,size=size,compressed=csize,compression=comp,encrypted=encrypted,custom=custom,blocks=count,blockSize=bs)
  def extract(self,name):
-  e=self.entry(name);o=e['offset'];stored=[];limit={0:2**31-1,1:2097152,2:2048,4:0}[e['custom']]
+  e=self.entry(name);o=e['offset'];limit={0:2**31-1,1:2097152,2:2048,4:0}[e['custom']]
   import subprocess, tempfile
   with self.path.open('rb') as f:
-   f.seek(o);header=f.read(128)
+   f.seek(o);header=f.read(52)
+   if len(header)!=52:raise ValueError(f'Truncated pak entry header: {name}')
    if e['compression']:
-    count=struct.unpack_from('<I',header,48)[0];chunks=[]
+    count=struct.unpack_from('<I',header,48)[0]
+    if not count or count!=e['blocks']:raise ValueError(f'Invalid compression block count: {name}')
+    table=f.read(16*count)
+    if len(table)!=16*count:raise ValueError(f'Truncated compression block table: {name}')
+    stored=[];lengths=[]
     for i in range(count):
-     start,end=struct.unpack_from('<QQ',header,52+16*i);f.seek(o+start);b=f.read((end-start+15)//16*16 if e['encrypted'] else end-start)
-     stored.append(b);n=min(len(b),limit)//16*16
+     start,end=struct.unpack_from('<QQ',table,16*i)
+     if end<=start:raise ValueError(f'Invalid compression block bounds: {name}')
+     length=end-start;size=(length+15)//16*16 if e['encrypted'] else length
+     f.seek(o+start);b=f.read(size)
+     if len(b)!=size:raise ValueError(f'Truncated compression block: {name}')
+     stored.append(b);lengths.append(length)
+    # Compressed entries hash every stored block, including AES alignment.
+    # CustomData limits decryption, not this compressed payload checksum.
+    if hashlib.sha1(b''.join(stored)).digest()!=header[28:48]:raise ValueError(f'Stored SHA1 mismatch: {name}')
+    chunks=[]
+    for b,length in zip(stored,lengths):
+     n=min(len(b),limit)//16*16
      if e['encrypted']:b=AES.new(self.key,AES.MODE_ECB).decrypt(b[:n])+b[n:]
      limit-=n
-     b=b[:end-start]
+     b=b[:length]
      with tempfile.TemporaryDirectory(prefix='solar-oodle-') as d:
       src=Path(d)/'in';dst=Path(d)/'out';src.write_bytes(b)
       size=min(e['size'] if count==1 else e['blockSize'],e['size']-sum(map(len,chunks)))
@@ -73,11 +88,13 @@ class Pak:
    else:
     # custom=4 uses a padded 64-byte header, independently SHA1 checked.
     f.seek(o+(64 if e['custom']==4 else 53));b=f.read((e['size']+15)//16*16 if e['encrypted'] else e['size'])
-    stored.append(b[:e['size']]);n=min(len(b),limit)//16*16
+    hash_limit={0:2**31-1,1:2097152,2:2048,4:2**31-1}[e['custom']]
+    if len(b)<e['size']:raise ValueError(f'Truncated pak payload: {name}')
+    if hashlib.sha1(b[:min(e['size'],hash_limit)]).digest()!=header[28:48]:raise ValueError(f'Stored SHA1 mismatch: {name}')
+    n=min(len(b),limit)//16*16
     if e['encrypted']:b=AES.new(self.key,AES.MODE_ECB).decrypt(b[:n])+b[n:]
   b=b[:e['size']]
-  # UE hashes compressed/encrypted stored bytes, including alignment padding.
-  assert hashlib.sha1(b''.join(stored)[:{0:2**31-1,1:2097152,2:2048,4:2**31-1}[e['custom']]]).digest()==header[28:48],(name,e,'stored SHA1 mismatch')
+  if len(b)!=e['size']:raise ValueError(f'Decoded pak payload size mismatch: {name}')
   return b
 if __name__=='__main__':
  import argparse

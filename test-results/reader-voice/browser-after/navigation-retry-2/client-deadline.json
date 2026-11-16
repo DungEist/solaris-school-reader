@@ -1,0 +1,20 @@
+{
+  "clientDeadlineSeconds": 450,
+  "clientResult": "timed out awaiting tools/call after 450s",
+  "ownedScriptStillRunningObserved": true,
+  "ownedCommand": [
+    "/usr/bin/node",
+    "tools/reader-voice-browser.mjs",
+    "--phase=after",
+    "--route=later",
+    "--route-seconds=900",
+    "--reuse-completed=true"
+  ],
+  "processInventoryEvidenceId": "ev_327aa12dc60b7c2631322e185fd89597fe26f6d2fda164bb40e5448ab37fa7b6",
+  "progressObservedAfterClientDeadline": {
+    "actions": 1891,
+    "script": "7018",
+    "node": 1
+  },
+  "interpretation": "Client reply deadline does not establish cancellation. The normal-play script continues to write its browser report, actual voice recordings and explicit cleanup result; those are verified separately after completion."
+}

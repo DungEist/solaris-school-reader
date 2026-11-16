@@ -1,0 +1,315 @@
+{
+  "authority": "actual-shared-voiceAssets-against-original-TidTalk-PlotAudio-media-audit",
+  "inputs": {
+    "source": {
+      "path": "test-results/reader-voice/source-to-render.json",
+      "sha256": "e8351e6b8a511209536155bb0c9e981a347d817441e07e2e1306512040478e94"
+    },
+    "manifest": {
+      "path": "public/data/maps/audio-playback.json",
+      "sha256": "098f3d4cf6e64298ead419122beaa2d112963658f9a02cf6d512f3ab2f4146dc"
+    },
+    "resolver": {
+      "path": "src/audio/AudioManifest.ts",
+      "sha256": "553e836faff9d44a02119e66bcd4e42dbb6934d78d8d281a74d008f194a03ac1"
+    }
+  },
+  "counts": {
+    "authoredVoicedNodes": 574,
+    "languageGenderSelections": 4592,
+    "discrepancies": 0,
+    "japaneseSelections": 1148,
+    "unavailableLanguageSelections": 3444
+  },
+  "targetCases": [
+    {
+      "routeKey": "1001:1",
+      "textKey": "EVENT_AVGmain_1_1",
+      "language": "ja",
+      "gender": "male",
+      "expected": [
+        "cbb8689bb5c78d81a5a1"
+      ],
+      "actual": [
+        "cbb8689bb5c78d81a5a1"
+      ]
+    },
+    {
+      "routeKey": "1001:1",
+      "textKey": "EVENT_AVGmain_1_1",
+      "language": "ja",
+      "gender": "female",
+      "expected": [
+        "cbb8689bb5c78d81a5a1"
+      ],
+      "actual": [
+        "cbb8689bb5c78d81a5a1"
+      ]
+    },
+    {
+      "routeKey": "1001:1",
+      "textKey": "EVENT_AVGmain_1_1",
+      "language": "en",
+      "gender": "male",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "routeKey": "1001:1",
+      "textKey": "EVENT_AVGmain_1_1",
+      "language": "en",
+      "gender": "female",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "routeKey": "1001:1",
+      "textKey": "EVENT_AVGmain_1_1",
+      "language": "zh",
+      "gender": "male",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "routeKey": "1001:1",
+      "textKey": "EVENT_AVGmain_1_1",
+      "language": "zh",
+      "gender": "female",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "routeKey": "1001:1",
+      "textKey": "EVENT_AVGmain_1_1",
+      "language": "ko",
+      "gender": "male",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "routeKey": "1001:1",
+      "textKey": "EVENT_AVGmain_1_1",
+      "language": "ko",
+      "gender": "female",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "routeKey": "1002:1",
+      "textKey": "EVENT_AVGmain_5_1",
+      "language": "ja",
+      "gender": "male",
+      "expected": [
+        "cbb8689bb5c78d81a5a1"
+      ],
+      "actual": [
+        "cbb8689bb5c78d81a5a1"
+      ]
+    },
+    {
+      "routeKey": "1002:1",
+      "textKey": "EVENT_AVGmain_5_1",
+      "language": "ja",
+      "gender": "female",
+      "expected": [
+        "cbb8689bb5c78d81a5a1"
+      ],
+      "actual": [
+        "cbb8689bb5c78d81a5a1"
+      ]
+    },
+    {
+      "routeKey": "1002:1",
+      "textKey": "EVENT_AVGmain_5_1",
+      "language": "en",
+      "gender": "male",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "routeKey": "1002:1",
+      "textKey": "EVENT_AVGmain_5_1",
+      "language": "en",
+      "gender": "female",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "routeKey": "1002:1",
+      "textKey": "EVENT_AVGmain_5_1",
+      "language": "zh",
+      "gender": "male",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "routeKey": "1002:1",
+      "textKey": "EVENT_AVGmain_5_1",
+      "language": "zh",
+      "gender": "female",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "routeKey": "1002:1",
+      "textKey": "EVENT_AVGmain_5_1",
+      "language": "ko",
+      "gender": "male",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "routeKey": "1002:1",
+      "textKey": "EVENT_AVGmain_5_1",
+      "language": "ko",
+      "gender": "female",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "routeKey": "1002:2",
+      "textKey": "EVENT_AVGmain_5_2",
+      "language": "ja",
+      "gender": "male",
+      "expected": [
+        "8d2f99aafdc645a4b365"
+      ],
+      "actual": [
+        "8d2f99aafdc645a4b365"
+      ]
+    },
+    {
+      "routeKey": "1002:2",
+      "textKey": "EVENT_AVGmain_5_2",
+      "language": "ja",
+      "gender": "female",
+      "expected": [
+        "8d2f99aafdc645a4b365"
+      ],
+      "actual": [
+        "8d2f99aafdc645a4b365"
+      ]
+    },
+    {
+      "routeKey": "1002:2",
+      "textKey": "EVENT_AVGmain_5_2",
+      "language": "en",
+      "gender": "male",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "routeKey": "1002:2",
+      "textKey": "EVENT_AVGmain_5_2",
+      "language": "en",
+      "gender": "female",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "routeKey": "1002:2",
+      "textKey": "EVENT_AVGmain_5_2",
+      "language": "zh",
+      "gender": "male",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "routeKey": "1002:2",
+      "textKey": "EVENT_AVGmain_5_2",
+      "language": "zh",
+      "gender": "female",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "routeKey": "1002:2",
+      "textKey": "EVENT_AVGmain_5_2",
+      "language": "ko",
+      "gender": "male",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "routeKey": "1002:2",
+      "textKey": "EVENT_AVGmain_5_2",
+      "language": "ko",
+      "gender": "female",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "routeKey": "1004:3",
+      "textKey": "EVENT_AVGmain_15_3",
+      "language": "ja",
+      "gender": "male",
+      "expected": [
+        "63f7e90888b78c9fddf8"
+      ],
+      "actual": [
+        "63f7e90888b78c9fddf8"
+      ]
+    },
+    {
+      "routeKey": "1004:3",
+      "textKey": "EVENT_AVGmain_15_3",
+      "language": "ja",
+      "gender": "female",
+      "expected": [
+        "63f7e90888b78c9fddf8"
+      ],
+      "actual": [
+        "63f7e90888b78c9fddf8"
+      ]
+    },
+    {
+      "routeKey": "1004:3",
+      "textKey": "EVENT_AVGmain_15_3",
+      "language": "en",
+      "gender": "male",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "routeKey": "1004:3",
+      "textKey": "EVENT_AVGmain_15_3",
+      "language": "en",
+      "gender": "female",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "routeKey": "1004:3",
+      "textKey": "EVENT_AVGmain_15_3",
+      "language": "zh",
+      "gender": "male",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "routeKey": "1004:3",
+      "textKey": "EVENT_AVGmain_15_3",
+      "language": "zh",
+      "gender": "female",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "routeKey": "1004:3",
+      "textKey": "EVENT_AVGmain_15_3",
+      "language": "ko",
+      "gender": "male",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "routeKey": "1004:3",
+      "textKey": "EVENT_AVGmain_15_3",
+      "language": "ko",
+      "gender": "female",
+      "expected": [],
+      "actual": []
+    }
+  ],
+  "failures": []
+}

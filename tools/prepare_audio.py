@@ -2,17 +2,26 @@
 Requires the read-only pak inventory and local key; copies no unrelated audio.
 """
 from pathlib import Path
-import json,struct,hashlib,subprocess,sys,collections
+import argparse,json,struct,hashlib,subprocess,sys,collections
 from wwise_sources import Pak,load_pak_keys
 from decode_wwise import decode
 from wwise_bank import objects, music_sources, music_plan, sound_props, ambience_plan
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'public/assets/audio';OUT.mkdir(parents=True,exist_ok=True);WORK=ROOT/'asset-work/audio';WORK.mkdir(parents=True,exist_ok=True)
-r=json.load(open(sys.argv[1]))['records'];key=load_pak_keys(sys.argv[2])
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('inventory');parser.add_argument('key_file')
+parser.add_argument('--voices-only',action='store_true',help='Rebuild authored story voice, retaining existing music, ambience and effects')
+args=parser.parse_args()
+r=json.load(open(args.inventory))['records'];key=load_pak_keys(args.key_file)
 def priority(row):
  p=Path(row['pak']);patch='/Base/' not in str(p) and '/Content/Paks/' not in str(p);v=p.parent.name.split('.');return (patch,tuple(int(x) for x in v if x.isdigit()))
 byname={}
 for row in sorted(r,key=priority):byname[row['name']]=row
 banks={};media={};paks={};assets={};unresolved={}
+previous=json.loads((ROOT/'public/data/maps/audio-playback.json').read_text()) if args.voices_only else None
+previous_facts=json.loads((ROOT/'test-results/audio/source-resolution.json').read_text()) if args.voices_only else None
+if previous:
+ assets.update(previous['assets'])
+ unresolved.update({k:v for k,v in previous['unresolved'].items() if not k.startswith('line:')})
 for name,row in byname.items():
  if name.endswith('.bnk'):banks.setdefault(Path(name).stem,[]).append(row)
  if name.endswith('.wem'):media.setdefault(Path(name).stem,[]).append(row)
@@ -32,19 +41,20 @@ def install(row):
  if saved.get('identity')!=identity or saved.get('wemSha256')!=hashlib.sha256(b).hexdigest():
   b=extract(row);wem.write_bytes(b)
  wav=WORK/(token+'.wav');facts=decode(b,wav)
- encoder='libmp3lame-q3-v1'
- if not mp3.exists() or saved.get('wemSha256')!=hashlib.sha256(b).hexdigest() or saved.get('encoder')!=encoder or saved.get('mp3Sha256')!=hashlib.sha256(mp3.read_bytes()).hexdigest():subprocess.run(['ffmpeg','-v','error','-y','-i',str(wav),'-codec:a','libmp3lame','-q:a','3',str(mp3)],check=True)
+ encoder='libmp3lame-q3-v1' if facts['channels']<=2 else 'libmp3lame-q3-surround-stereo-v1'
+ downmix=[] if facts['channels']<=2 else ['-ac','2']
+ if not mp3.exists() or saved.get('wemSha256')!=hashlib.sha256(b).hexdigest() or saved.get('encoder')!=encoder or saved.get('mp3Sha256')!=hashlib.sha256(mp3.read_bytes()).hexdigest():subprocess.run(['ffmpeg','-v','error','-y','-i',str(wav),*downmix,'-codec:a','libmp3lame','-q:a','3',str(mp3)],check=True)
  metadata.write_text(json.dumps(dict(identity=identity,wemSha256=hashlib.sha256(b).hexdigest(),encoder=encoder,mp3Sha256=hashlib.sha256(mp3.read_bytes()).hexdigest())))
  wav.unlink()
- assets[token]=dict(url='assets/audio/'+mp3.name,source=row['name'],pak=row['pak'],wemSha256=hashlib.sha256(b).hexdigest(),sha256=hashlib.sha256(mp3.read_bytes()).hexdigest(),**facts)
+ assets[token]=dict(url='assets/audio/'+mp3.name,source=row['name'],pak=row['pak'],wemSha256=hashlib.sha256(b).hexdigest(),sha256=hashlib.sha256(mp3.read_bytes()).hexdigest(),outputChannels=min(facts['channels'],2),**facts)
  return token
 scripts={p.stem:json.load(p.open()) for p in (ROOT/'public/data/scripts').glob('*.json')}
-cues=json.load(open(ROOT/'public/data/maps/audio.json'));events={'__ambience_silence__':dict(kind='ambience',action='silence')};bankfacts={}
+cues=json.load(open(ROOT/'public/data/maps/audio.json'));events=previous['events'] if previous else {'__ambience_silence__':dict(kind='ambience',action='silence')};bankfacts=previous_facts['banks'] if previous_facts else {}
 aliasfile=ROOT/'test-results/audio/music-aliases.json'
 aliases=collections.defaultdict(list)
 if aliasfile.exists():
  for match in json.load(aliasfile.open())['matches']:aliases[match['cacheId']].append(match)
-for cue in cues:
+for cue in ([] if args.voices_only else cues):
  kind='music' if 'music' in cue else 'ambience' if cue.startswith('play_amb') else 'voice' if cue.startswith('play_vo') else 'effects'
  if cue.startswith('stop_'):events[cue]=dict(kind=kind,action='stop',target=cue.replace('stop_','play_',1));continue
  if cue in ['play_avg_music_3_8_slience','play_vo_silence_placeholder']:events[cue]=dict(kind=kind,action='silence');continue
@@ -108,24 +118,34 @@ for cue in cues:
  print('event',cue,len(variants),flush=True)
 # Only authored PlayVoice=true lines use the PlotAudio lookup.
 source={f['StateKey']:json.loads(f['Actions'] or '[]') for f in json.load(open(ROOT/'WutheringWaves_Data/BinData/flowState/flowstate.json')) if '索拉学院' in f['StateKey']}
-plot={r['Id']:r for r in json.load(open(ROOT/'WutheringWaves_Data/BinData/plot_audio/plotaudio.json'))};lines={};linefacts={};langs=['ja','en','zh','ko']
+plot={r['Id']:r for r in json.load(open(ROOT/'WutheringWaves_Data/BinData/plot_audio/plotaudio.json'))};lines={};linefacts={};voice_resolution={};langs=['ja','en','zh','ko']
 for sid,s in scripts.items():
  raw={n['Id']:n for a in source[s['stateKey']] for n in a.get('Params',{}).get('TalkItems',[])}
  for n in s['nodes']:
   rn=raw.get(n['nid'],{});tk=n.get('textKey');pa=plot.get(tk)
-  if not rn.get('PlayVoice') or not pa:continue
+  if not rn.get('PlayVoice'):continue
+  line_key=sid+':'+str(n['nid'])
+  resolution=voice_resolution[line_key]=dict(textKey=tk,speakerId=n.get('speakerId'),playVoice=True,variants={})
+  if not pa:
+   resolution['status']='missing-plot-audio';unresolved['line:'+str(tk)]='Authored PlayVoice has no PlotAudio mapping';continue
   variants={}
   for lang in langs:
    actual='gl' if pa['GlobalLanguage'] else lang;gender=pa.get('CheckGender'+lang.capitalize(),False)
    for g in ['male','female'] if gender else ['any']:
     filename=actual+'_'+pa['FileName']+('_M' if g=='male' else '_F' if g=='female' else '')
-    if pa.get('VarParams'):unresolved['line:'+tk]='Dynamic VarParams require state mapping';continue
+    variant=resolution['variants'][lang+':'+g]=dict(filename=filename+'.wem',effectiveLanguage=actual)
+    if pa.get('VarParams'):
+     variant.update(status='dynamic-parameters',reason='Dynamic VarParams require state mapping');unresolved['line:'+tk]=variant['reason'];continue
     row=next(iter(media.get(filename,[])),None)
     if row:
-     try:variants[lang+':'+g]=install(row)
-     except Exception as ex:unresolved['line:'+tk+':'+lang]=str(ex)
-  if variants:lines[sid+':'+str(n['nid'])]=dict(textKey=tk,variants=variants)
-  else:unresolved['line:'+tk]='PlotAudio exists but no installed playable voice media'
+     variant.update(source=row['name'],pak=row['pak'])
+     try:
+      asset=install(row);variants[lang+':'+g]=asset;variant.update(status='resolved',asset=asset)
+     except Exception as ex:
+      reason=type(ex).__name__+': '+(str(ex) or 'Source processing failed');variant.update(status='source-error',reason=reason);unresolved['line:'+tk+':'+lang+':'+g]=reason
+    else:variant.update(status='not-installed',reason='No matching media in the installed pak inventory')
+  if variants:lines[line_key]=dict(textKey=tk,variants=variants)
+  else:unresolved.setdefault('line:'+tk,'PlotAudio exists but no installed playable voice media')
   linefacts[tk]=pa
 roles=json.load(open(ROOT/'WutheringWaves_Data/BinData/SolarSchool/solarschoolrolespine.json'))
 locations=json.load(open(ROOT/'WutheringWaves_Data/BinData/SolarSchool/solarschoollocation.json'))
@@ -134,5 +154,5 @@ manifest['unresolvedEvents']={c:dict(kind='music' if 'music' in c else 'ambience
 for path in OUT.glob('*.mp3'):
  if path.stem not in assets:path.unlink()
 (ROOT/'public/data/maps/audio-playback.json').write_text(json.dumps(manifest,separators=(',',':')))
-(ROOT/'test-results/audio/source-resolution.json').write_text(json.dumps(dict(cues=len(cues),events=len(events),assets=len(assets),lines=len(lines),languages=manifest['languages'],banks=bankfacts,plotAudio=linefacts,unresolved=unresolved),indent=2))
+(ROOT/'test-results/audio/source-resolution.json').write_text(json.dumps(dict(cues=len(cues),events=len(events),assets=len(assets),lines=len(lines),languages=manifest['languages'],banks=bankfacts,plotAudio=linefacts,voiceResolution=voice_resolution,unresolved=unresolved),indent=2))
 print('DONE',len(events),len(assets),len(lines),'unresolved',len(unresolved))

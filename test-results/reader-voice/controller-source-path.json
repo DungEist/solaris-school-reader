@@ -1,0 +1,2797 @@
+{
+  "schema": 1,
+  "scope": "Read-only normalization, retained native managed IL and Reader lifecycle trace. Original-game execution is not observed.",
+  "manifestSha256": "9421caa9d6f7bbc110da5227ae2f935f6a0833908ded7cc6d0c349c7c361d864",
+  "manifestLanguages": [
+    "ja"
+  ],
+  "targets": [
+    {
+      "scriptId": "1004",
+      "nid": 3,
+      "stateKey": "剧情_3.8索拉学院_开局_2_4",
+      "normalizedNode": {
+        "nid": 3,
+        "kind": "line",
+        "style": "VisualNovelTalk",
+        "speakerId": "50179",
+        "textKey": "EVENT_AVGmain_15_3",
+        "stage": [
+          {
+            "t": 0,
+            "op": "modify",
+            "who": "50179",
+            "origin": "talk-item-role-config",
+            "raw": {
+              "HidePortrait": false,
+              "HideAvatar": true,
+              "Expression": 700153
+            },
+            "expr": 700153,
+            "hidePortrait": false,
+            "hideAvatar": true
+          },
+          {
+            "t": 0,
+            "op": "audio",
+            "cue": "play_ui_solarschool_avg_hotpoop",
+            "skipOnUltraFastForward": true,
+            "notCountTimeAndNotInterrupted": true
+          },
+          {
+            "t": 0,
+            "op": "modify",
+            "who": "50179",
+            "expr": 700153,
+            "hidePortrait": false,
+            "hideAvatar": true
+          }
+        ],
+        "next": {
+          "type": "seq"
+        },
+        "raw": {
+          "PlotLineKey": "EVENT_AVGmain_15_3",
+          "PlotLineId": 3,
+          "ClickShowFull": true,
+          "TextId": 112,
+          "Name": "对话4",
+          "RoleConfig": {
+            "HidePortrait": false,
+            "HideAvatar": true,
+            "Expression": 700153
+          }
+        }
+      },
+      "sourceNode": {
+        "Id": 3,
+        "WhoId": 50179,
+        "TidTalk": "EVENT_AVGmain_15_3",
+        "PlayVoice": true,
+        "TalkAkEvent": null,
+        "DialogDelay": null,
+        "PlotLineKey": "EVENT_AVGmain_15_3",
+        "PlotLineId": 3
+      },
+      "plotAudio": {
+        "Id": "EVENT_AVGmain_15_3",
+        "ExternalSourceSetting": "subtitle_normal",
+        "FileName": "vo_EVENT_AVGmain_15_3",
+        "GlobalLanguage": false,
+        "CheckGenderEn": false,
+        "CheckGenderJa": false,
+        "CheckGenderKo": false,
+        "CheckGenderZh": false,
+        "GenLipSync": true,
+        "TailTime": -1,
+        "VarParams": ""
+      },
+      "effectiveJapaneseMediaName": "ja_vo_EVENT_AVGmain_15_3.wem",
+      "speaker": {
+        "nameKey": "Speaker_50179_Name",
+        "talkerId": 850014,
+        "nameZh": null
+      },
+      "speakerEnglish": "Chisa",
+      "manifestLine": null,
+      "unresolved": {
+        "line:EVENT_AVGmain_15_3:ja": "('Client/Content/Aki/WwiseAudio_Generated/WwiseExternalSource/ja_vo_EVENT_AVGmain_15_3.wem', {'offset': 620679168, 'size': 60462, 'compressed': 53664, 'compression': 1, 'encrypted': True, 'custom': 2, 'blocks': 1, 'blockSize': 59392}, 'stored SHA1 mismatch')",
+        "line:EVENT_AVGmain_15_3": "PlotAudio exists but no installed playable voice media"
+      }
+    },
+    {
+      "scriptId": "1001",
+      "nid": 1,
+      "stateKey": "剧情_3.8索拉学院_开局_2_1",
+      "normalizedNode": {
+        "nid": 1,
+        "kind": "line",
+        "style": "VisualNovelTalk",
+        "speakerId": "701290",
+        "textKey": "EVENT_AVGmain_1_1",
+        "stage": [
+          {
+            "t": 0,
+            "op": "enter",
+            "who": "750088",
+            "expr": 700131,
+            "hidePortrait": true,
+            "hideAvatar": false,
+            "effect": "Darken",
+            "pos": [
+              0,
+              0,
+              1
+            ],
+            "fadeIn": 0
+          },
+          {
+            "t": 0,
+            "op": "audio",
+            "cue": "play_amb_avg_solarschool_train_inside",
+            "notCountTimeAndNotInterrupted": true
+          },
+          {
+            "t": 0,
+            "op": "activityAction",
+            "kind": "SolarSchool",
+            "actionId": 5912
+          },
+          {
+            "t": 0,
+            "op": "audio",
+            "cue": "play_ui_solarschool_avg_train_stop",
+            "skipOnUltraFastForward": true
+          }
+        ],
+        "next": {
+          "type": "seq"
+        },
+        "raw": {
+          "DialogDelay": 0.08,
+          "PlotLineKey": "EVENT_AVGmain_1_1",
+          "PlotLineId": 1,
+          "ClickShowFull": true,
+          "TextId": 8,
+          "Name": "对话2"
+        }
+      },
+      "sourceNode": {
+        "Id": 1,
+        "WhoId": 701290,
+        "TidTalk": "EVENT_AVGmain_1_1",
+        "PlayVoice": true,
+        "TalkAkEvent": null,
+        "DialogDelay": 0.08,
+        "PlotLineKey": "EVENT_AVGmain_1_1",
+        "PlotLineId": 1
+      },
+      "plotAudio": {
+        "Id": "EVENT_AVGmain_1_1",
+        "ExternalSourceSetting": "subtitle_normal",
+        "FileName": "vo_EVENT_AVGmain_1_1",
+        "GlobalLanguage": false,
+        "CheckGenderEn": false,
+        "CheckGenderJa": false,
+        "CheckGenderKo": false,
+        "CheckGenderZh": false,
+        "GenLipSync": true,
+        "TailTime": -1,
+        "VarParams": ""
+      },
+      "effectiveJapaneseMediaName": "ja_vo_EVENT_AVGmain_1_1.wem",
+      "speaker": {
+        "nameKey": "Speaker_701290_Name",
+        "talkerId": 700017,
+        "nameZh": null
+      },
+      "speakerEnglish": "???",
+      "manifestLine": null,
+      "unresolved": {
+        "line:EVENT_AVGmain_1_1:ja": "",
+        "line:EVENT_AVGmain_1_1": "PlotAudio exists but no installed playable voice media"
+      }
+    },
+    {
+      "scriptId": "1002",
+      "nid": 1,
+      "stateKey": "剧情_3.8索拉学院_开局_2_2",
+      "normalizedNode": {
+        "nid": 1,
+        "kind": "line",
+        "style": "VisualNovelTalk",
+        "speakerId": "701290",
+        "textKey": "EVENT_AVGmain_5_1",
+        "stage": [
+          {
+            "t": 0,
+            "op": "enter",
+            "who": "750088",
+            "expr": 700131,
+            "hidePortrait": true,
+            "hideAvatar": false,
+            "effect": "Darken",
+            "pos": [
+              0,
+              0,
+              1
+            ],
+            "fadeIn": 0
+          },
+          {
+            "t": 0,
+            "op": "audio",
+            "cue": "play_amb_avg_solarschool_train_inside",
+            "notCountTimeAndNotInterrupted": true
+          },
+          {
+            "t": 0,
+            "op": "activityAction",
+            "kind": "SolarSchool",
+            "actionId": 5912
+          },
+          {
+            "t": 0,
+            "op": "audio",
+            "cue": "play_ui_solarschool_avg_train_stop",
+            "skipOnUltraFastForward": true
+          }
+        ],
+        "next": {
+          "type": "seq"
+        },
+        "raw": {
+          "DialogDelay": 0.08,
+          "PlotLineKey": "EVENT_AVGmain_5_1",
+          "PlotLineId": 1,
+          "ClickShowFull": true,
+          "TextId": 27,
+          "Name": "对话2"
+        }
+      },
+      "sourceNode": {
+        "Id": 1,
+        "WhoId": 701290,
+        "TidTalk": "EVENT_AVGmain_5_1",
+        "PlayVoice": true,
+        "TalkAkEvent": null,
+        "DialogDelay": 0.08,
+        "PlotLineKey": "EVENT_AVGmain_5_1",
+        "PlotLineId": 1
+      },
+      "plotAudio": {
+        "Id": "EVENT_AVGmain_5_1",
+        "ExternalSourceSetting": "subtitle_normal",
+        "FileName": "vo_EVENT_AVGmain_1_1",
+        "GlobalLanguage": false,
+        "CheckGenderEn": false,
+        "CheckGenderJa": false,
+        "CheckGenderKo": false,
+        "CheckGenderZh": false,
+        "GenLipSync": true,
+        "TailTime": -1,
+        "VarParams": ""
+      },
+      "effectiveJapaneseMediaName": "ja_vo_EVENT_AVGmain_1_1.wem",
+      "speaker": {
+        "nameKey": "Speaker_701290_Name",
+        "talkerId": 700017,
+        "nameZh": null
+      },
+      "speakerEnglish": "???",
+      "manifestLine": null,
+      "unresolved": {
+        "line:EVENT_AVGmain_5_1:ja": "",
+        "line:EVENT_AVGmain_5_1": "PlotAudio exists but no installed playable voice media"
+      }
+    },
+    {
+      "scriptId": "1002",
+      "nid": 2,
+      "stateKey": "剧情_3.8索拉学院_开局_2_2",
+      "normalizedNode": {
+        "nid": 2,
+        "kind": "line",
+        "style": "VisualNovelTalk",
+        "speakerId": "701290",
+        "textKey": "EVENT_AVGmain_5_2",
+        "stage": [],
+        "next": {
+          "type": "seq"
+        },
+        "raw": {
+          "PlotLineKey": "EVENT_AVGmain_5_2",
+          "PlotLineId": 2,
+          "ClickShowFull": true,
+          "TextId": 28,
+          "Name": "对话3"
+        }
+      },
+      "sourceNode": {
+        "Id": 2,
+        "WhoId": 701290,
+        "TidTalk": "EVENT_AVGmain_5_2",
+        "PlayVoice": true,
+        "TalkAkEvent": null,
+        "DialogDelay": null,
+        "PlotLineKey": "EVENT_AVGmain_5_2",
+        "PlotLineId": 2
+      },
+      "plotAudio": {
+        "Id": "EVENT_AVGmain_5_2",
+        "ExternalSourceSetting": "subtitle_normal",
+        "FileName": "vo_EVENT_AVGmain_5_2",
+        "GlobalLanguage": false,
+        "CheckGenderEn": false,
+        "CheckGenderJa": false,
+        "CheckGenderKo": false,
+        "CheckGenderZh": false,
+        "GenLipSync": true,
+        "TailTime": -1,
+        "VarParams": ""
+      },
+      "effectiveJapaneseMediaName": "ja_vo_EVENT_AVGmain_5_2.wem",
+      "speaker": {
+        "nameKey": "Speaker_701290_Name",
+        "talkerId": 700017,
+        "nameZh": null
+      },
+      "speakerEnglish": "???",
+      "manifestLine": null,
+      "unresolved": {
+        "line:EVENT_AVGmain_5_2:ja": "",
+        "line:EVENT_AVGmain_5_2": "PlotAudio exists but no installed playable voice media"
+      }
+    }
+  ],
+  "nativeEvidence": [
+    {
+      "file": "test-results/audio/controller-audio-il.json",
+      "fileSha256": "e63e3a41538d256f4ec5ee53cd1e8d314845636535515e346813bf1648e50636",
+      "assemblySha256": "069bcb5b9c3d4d28780be8f51b59e7d52d2a9cbd8eab2c037f2a3be925db2049",
+      "mvid": "793dfd03-0f45-4cd2-8afc-a8fedff89320",
+      "jsonPointer": "/types/12/methods/0",
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelAudio",
+      "method": {
+        "name": "PlayVoice",
+        "token": "0x06025075",
+        "rva": 10965312,
+        "maxStack": 3,
+        "initializeLocals": true,
+        "localSignature": "0x11000036",
+        "exceptionRegions": [],
+        "instructions": [
+          {
+            "offset": "IL_0000",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0001",
+            "op": "ldarg.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_0002",
+            "op": "ldloca.s",
+            "operand": 0
+          },
+          {
+            "offset": "IL_0004",
+            "op": "call",
+            "operand": {
+              "token": "0x06025076",
+              "name": "CSharpScript.Game.Module.VisualNovel.VisualNovelAudio::PlayVoice"
+            }
+          },
+          {
+            "offset": "IL_0009",
+            "op": "ret",
+            "operand": null
+          }
+        ]
+      }
+    },
+    {
+      "file": "test-results/audio/controller-audio-il.json",
+      "fileSha256": "e63e3a41538d256f4ec5ee53cd1e8d314845636535515e346813bf1648e50636",
+      "assemblySha256": "069bcb5b9c3d4d28780be8f51b59e7d52d2a9cbd8eab2c037f2a3be925db2049",
+      "mvid": "793dfd03-0f45-4cd2-8afc-a8fedff89320",
+      "jsonPointer": "/types/12/methods/1",
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelAudio",
+      "method": {
+        "name": "PlayVoice",
+        "token": "0x06025076",
+        "rva": 10965336,
+        "maxStack": 3,
+        "initializeLocals": true,
+        "localSignature": "0x1100717C",
+        "exceptionRegions": [],
+        "instructions": [
+          {
+            "offset": "IL_0000",
+            "op": "ldarg.2",
+            "operand": null
+          },
+          {
+            "offset": "IL_0001",
+            "op": "ldc.i4.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0002",
+            "op": "stind.i1",
+            "operand": null
+          },
+          {
+            "offset": "IL_0003",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0004",
+            "op": "ldfld",
+            "operand": {
+              "token": "0x040147B8",
+              "name": "CSharpScript.Game.Module.VisualNovel.VisualNovelAudio::VoiceEnabled"
+            }
+          },
+          {
+            "offset": "IL_0009",
+            "op": "brtrue.s",
+            "operand": "IL_000D"
+          },
+          {
+            "offset": "IL_000B",
+            "op": "ldnull",
+            "operand": null
+          },
+          {
+            "offset": "IL_000C",
+            "op": "ret",
+            "operand": null
+          },
+          {
+            "offset": "IL_000D",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_000E",
+            "op": "ldarg.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_000F",
+            "op": "call",
+            "operand": {
+              "token": "0x06025078",
+              "name": "CSharpScript.Game.Module.VisualNovel.VisualNovelAudio::CreateRecordedVoice"
+            }
+          },
+          {
+            "offset": "IL_0014",
+            "op": "stloc.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0015",
+            "op": "ldloc.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0016",
+            "op": "ldnull",
+            "operand": null
+          },
+          {
+            "offset": "IL_0017",
+            "op": "ceq",
+            "operand": null
+          },
+          {
+            "offset": "IL_0019",
+            "op": "stloc.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_001A",
+            "op": "ldloc.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_001B",
+            "op": "brfalse.s",
+            "operand": "IL_0025"
+          },
+          {
+            "offset": "IL_001D",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_001E",
+            "op": "ldarg.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_001F",
+            "op": "call",
+            "operand": {
+              "token": "0x06025079",
+              "name": "CSharpScript.Game.Module.VisualNovel.VisualNovelAudio::CreateInterjection"
+            }
+          },
+          {
+            "offset": "IL_0024",
+            "op": "stloc.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0025",
+            "op": "ldloc.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0026",
+            "op": "brtrue.s",
+            "operand": "IL_002A"
+          },
+          {
+            "offset": "IL_0028",
+            "op": "ldnull",
+            "operand": null
+          },
+          {
+            "offset": "IL_0029",
+            "op": "ret",
+            "operand": null
+          },
+          {
+            "offset": "IL_002A",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_002B",
+            "op": "ldfld",
+            "operand": {
+              "token": "0x040147B6",
+              "name": "CSharpScript.Game.Module.VisualNovel.VisualNovelAudio::Voice"
+            }
+          },
+          {
+            "offset": "IL_0030",
+            "op": "stloc.2",
+            "operand": null
+          },
+          {
+            "offset": "IL_0031",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0032",
+            "op": "ldfld",
+            "operand": {
+              "token": "0x040147B4",
+              "name": "CSharpScript.Game.Module.VisualNovel.VisualNovelAudio::Events"
+            }
+          },
+          {
+            "offset": "IL_0037",
+            "op": "ldloc.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0038",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x0A00F0FA",
+              "name": "System.Collections.Generic.HashSet`1<1 generic arguments>::Add"
+            }
+          },
+          {
+            "offset": "IL_003D",
+            "op": "pop",
+            "operand": null
+          },
+          {
+            "offset": "IL_003E",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_003F",
+            "op": "ldloc.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0040",
+            "op": "stfld",
+            "operand": {
+              "token": "0x040147B6",
+              "name": "CSharpScript.Game.Module.VisualNovel.VisualNovelAudio::Voice"
+            }
+          },
+          {
+            "offset": "IL_0045",
+            "op": "ldloc.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0046",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x06025089",
+              "name": "CSharpScript.Game.Module.VisualNovel.VisualNovelAudioEvent::Play"
+            }
+          },
+          {
+            "offset": "IL_004B",
+            "op": "brtrue.s",
+            "operand": "IL_0058"
+          },
+          {
+            "offset": "IL_004D",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_004E",
+            "op": "ldloc.2",
+            "operand": null
+          },
+          {
+            "offset": "IL_004F",
+            "op": "stfld",
+            "operand": {
+              "token": "0x040147B6",
+              "name": "CSharpScript.Game.Module.VisualNovel.VisualNovelAudio::Voice"
+            }
+          },
+          {
+            "offset": "IL_0054",
+            "op": "ldloc.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_0055",
+            "op": "pop",
+            "operand": null
+          },
+          {
+            "offset": "IL_0056",
+            "op": "ldnull",
+            "operand": null
+          },
+          {
+            "offset": "IL_0057",
+            "op": "ret",
+            "operand": null
+          },
+          {
+            "offset": "IL_0058",
+            "op": "ldarg.2",
+            "operand": null
+          },
+          {
+            "offset": "IL_0059",
+            "op": "ldloc.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_005A",
+            "op": "ldc.i4.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_005B",
+            "op": "ceq",
+            "operand": null
+          },
+          {
+            "offset": "IL_005D",
+            "op": "stind.i1",
+            "operand": null
+          },
+          {
+            "offset": "IL_005E",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_005F",
+            "op": "ldarg.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_0060",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x060251C3",
+              "name": "CSharpScript.Game.Module.VisualNovel.VisualNovelItem::get_SpeakerId"
+            }
+          },
+          {
+            "offset": "IL_0065",
+            "op": "stfld",
+            "operand": {
+              "token": "0x040147B7",
+              "name": "CSharpScript.Game.Module.VisualNovel.VisualNovelAudio::VoiceSpeakerId"
+            }
+          },
+          {
+            "offset": "IL_006A",
+            "op": "ldloc.2",
+            "operand": null
+          },
+          {
+            "offset": "IL_006B",
+            "op": "brfalse.s",
+            "operand": "IL_0073"
+          },
+          {
+            "offset": "IL_006D",
+            "op": "ldloc.2",
+            "operand": null
+          },
+          {
+            "offset": "IL_006E",
+            "op": "call",
+            "operand": {
+              "token": "0x0602508C",
+              "name": "CSharpScript.Game.Module.VisualNovel.VisualNovelAudioEvent::Stop"
+            }
+          },
+          {
+            "offset": "IL_0073",
+            "op": "ldloc.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_0074",
+            "op": "pop",
+            "operand": null
+          },
+          {
+            "offset": "IL_0075",
+            "op": "ldloc.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0076",
+            "op": "ret",
+            "operand": null
+          }
+        ]
+      }
+    },
+    {
+      "file": "test-results/audio/controller-audio-il.json",
+      "fileSha256": "e63e3a41538d256f4ec5ee53cd1e8d314845636535515e346813bf1648e50636",
+      "assemblySha256": "069bcb5b9c3d4d28780be8f51b59e7d52d2a9cbd8eab2c037f2a3be925db2049",
+      "mvid": "793dfd03-0f45-4cd2-8afc-a8fedff89320",
+      "jsonPointer": "/types/12/methods/2",
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelAudio",
+      "method": {
+        "name": "GetVoice",
+        "token": "0x06025077",
+        "rva": 10965467,
+        "maxStack": 8,
+        "initializeLocals": false,
+        "localSignature": null,
+        "exceptionRegions": [],
+        "instructions": [
+          {
+            "offset": "IL_0000",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0001",
+            "op": "ldfld",
+            "operand": {
+              "token": "0x040147B7",
+              "name": "CSharpScript.Game.Module.VisualNovel.VisualNovelAudio::VoiceSpeakerId"
+            }
+          },
+          {
+            "offset": "IL_0006",
+            "op": "ldarg.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_0007",
+            "op": "beq.s",
+            "operand": "IL_000B"
+          },
+          {
+            "offset": "IL_0009",
+            "op": "ldnull",
+            "operand": null
+          },
+          {
+            "offset": "IL_000A",
+            "op": "ret",
+            "operand": null
+          },
+          {
+            "offset": "IL_000B",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_000C",
+            "op": "ldfld",
+            "operand": {
+              "token": "0x040147B6",
+              "name": "CSharpScript.Game.Module.VisualNovel.VisualNovelAudio::Voice"
+            }
+          },
+          {
+            "offset": "IL_0011",
+            "op": "ret",
+            "operand": null
+          }
+        ]
+      }
+    },
+    {
+      "file": "test-results/audio/controller-audio-il.json",
+      "fileSha256": "e63e3a41538d256f4ec5ee53cd1e8d314845636535515e346813bf1648e50636",
+      "assemblySha256": "069bcb5b9c3d4d28780be8f51b59e7d52d2a9cbd8eab2c037f2a3be925db2049",
+      "mvid": "793dfd03-0f45-4cd2-8afc-a8fedff89320",
+      "jsonPointer": "/types/12/methods/3",
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelAudio",
+      "method": {
+        "name": "CreateRecordedVoice",
+        "token": "0x06025078",
+        "rva": 10965488,
+        "maxStack": 7,
+        "initializeLocals": true,
+        "localSignature": "0x1100717D",
+        "exceptionRegions": [],
+        "instructions": [
+          {
+            "offset": "IL_0000",
+            "op": "ldarg.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_0001",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x060251C6",
+              "name": "CSharpScript.Game.Module.VisualNovel.VisualNovelItem::get_PlayVoice"
+            }
+          },
+          {
+            "offset": "IL_0006",
+            "op": "brfalse.s",
+            "operand": "IL_0015"
+          },
+          {
+            "offset": "IL_0008",
+            "op": "ldarg.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_0009",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x060251C4",
+              "name": "CSharpScript.Game.Module.VisualNovel.VisualNovelItem::get_TextKey"
+            }
+          },
+          {
+            "offset": "IL_000E",
+            "op": "call",
+            "operand": {
+              "token": "0x0A000131",
+              "name": "System.String::IsNullOrEmpty"
+            }
+          },
+          {
+            "offset": "IL_0013",
+            "op": "brfalse.s",
+            "operand": "IL_0017"
+          },
+          {
+            "offset": "IL_0015",
+            "op": "ldnull",
+            "operand": null
+          },
+          {
+            "offset": "IL_0016",
+            "op": "ret",
+            "operand": null
+          },
+          {
+            "offset": "IL_0017",
+            "op": "ldarg.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_0018",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x060251C4",
+              "name": "CSharpScript.Game.Module.VisualNovel.VisualNovelItem::get_TextKey"
+            }
+          },
+          {
+            "offset": "IL_001D",
+            "op": "ldc.i4.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_001E",
+            "op": "call",
+            "operand": {
+              "token": "0x0A001D21",
+              "name": "Aki.Config.ConfigPlotAudioById::GetConfig"
+            }
+          },
+          {
+            "offset": "IL_0023",
+            "op": "stloc.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0024",
+            "op": "ldloca.s",
+            "operand": 0
+          },
+          {
+            "offset": "IL_0026",
+            "op": "call",
+            "operand": {
+              "token": "0x0A001D22",
+              "name": "System.Nullable`1<1 generic arguments>::get_HasValue"
+            }
+          },
+          {
+            "offset": "IL_002B",
+            "op": "brtrue.s",
+            "operand": "IL_002F"
+          },
+          {
+            "offset": "IL_002D",
+            "op": "ldnull",
+            "operand": null
+          },
+          {
+            "offset": "IL_002E",
+            "op": "ret",
+            "operand": null
+          },
+          {
+            "offset": "IL_002F",
+            "op": "ldloca.s",
+            "operand": 0
+          },
+          {
+            "offset": "IL_0031",
+            "op": "call",
+            "operand": {
+              "token": "0x0A001D23",
+              "name": "System.Nullable`1<1 generic arguments>::get_Value"
+            }
+          },
+          {
+            "offset": "IL_0036",
+            "op": "stloc.s",
+            "operand": 5
+          },
+          {
+            "offset": "IL_0038",
+            "op": "ldloca.s",
+            "operand": 5
+          },
+          {
+            "offset": "IL_003A",
+            "op": "call",
+            "operand": {
+              "token": "0x0A005B7A",
+              "name": "Aki.Config.PlotAudio::get_ExternalSourceSetting"
+            }
+          },
+          {
+            "offset": "IL_003F",
+            "op": "ldc.i4.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_0040",
+            "op": "call",
+            "operand": {
+              "token": "0x0A005B7B",
+              "name": "Aki.Config.ConfigExternalSourceSettingById::GetConfig"
+            }
+          },
+          {
+            "offset": "IL_0045",
+            "op": "stloc.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_0046",
+            "op": "ldloca.s",
+            "operand": 1
+          },
+          {
+            "offset": "IL_0048",
+            "op": "call",
+            "operand": {
+              "token": "0x0A00F0FB",
+              "name": "System.Nullable`1<1 generic arguments>::get_HasValue"
+            }
+          },
+          {
+            "offset": "IL_004D",
+            "op": "brtrue.s",
+            "operand": "IL_0051"
+          },
+          {
+            "offset": "IL_004F",
+            "op": "ldnull",
+            "operand": null
+          },
+          {
+            "offset": "IL_0050",
+            "op": "ret",
+            "operand": null
+          },
+          {
+            "offset": "IL_0051",
+            "op": "call",
+            "operand": {
+              "token": "0x0A000863",
+              "name": ".AudioSystem::get_Instance"
+            }
+          },
+          {
+            "offset": "IL_0056",
+            "op": "ldloca.s",
+            "operand": 1
+          },
+          {
+            "offset": "IL_0058",
+            "op": "call",
+            "operand": {
+              "token": "0x0A005B7C",
+              "name": "System.Nullable`1<1 generic arguments>::get_Value"
+            }
+          },
+          {
+            "offset": "IL_005D",
+            "op": "stloc.s",
+            "operand": 6
+          },
+          {
+            "offset": "IL_005F",
+            "op": "ldloca.s",
+            "operand": 6
+          },
+          {
+            "offset": "IL_0061",
+            "op": "call",
+            "operand": {
+              "token": "0x0A005B7D",
+              "name": "Aki.Config.ExternalSourceSetting::get_SubtitleEvent"
+            }
+          },
+          {
+            "offset": "IL_0066",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x0A000869",
+              "name": ".AudioSystem::parseAudioEventPath"
+            }
+          },
+          {
+            "offset": "IL_006B",
+            "op": "stloc.2",
+            "operand": null
+          },
+          {
+            "offset": "IL_006C",
+            "op": "ldloc.2",
+            "operand": null
+          },
+          {
+            "offset": "IL_006D",
+            "op": "call",
+            "operand": {
+              "token": "0x0A000131",
+              "name": "System.String::IsNullOrEmpty"
+            }
+          },
+          {
+            "offset": "IL_0072",
+            "op": "brtrue.s",
+            "operand": "IL_008B"
+          },
+          {
+            "offset": "IL_0074",
+            "op": "ldloca.s",
+            "operand": 1
+          },
+          {
+            "offset": "IL_0076",
+            "op": "call",
+            "operand": {
+              "token": "0x0A005B7C",
+              "name": "System.Nullable`1<1 generic arguments>::get_Value"
+            }
+          },
+          {
+            "offset": "IL_007B",
+            "op": "stloc.s",
+            "operand": 6
+          },
+          {
+            "offset": "IL_007D",
+            "op": "ldloca.s",
+            "operand": 6
+          },
+          {
+            "offset": "IL_007F",
+            "op": "call",
+            "operand": {
+              "token": "0x0A005B7E",
+              "name": "Aki.Config.ExternalSourceSetting::get_SubtitleSrc"
+            }
+          },
+          {
+            "offset": "IL_0084",
+            "op": "call",
+            "operand": {
+              "token": "0x0A000131",
+              "name": "System.String::IsNullOrEmpty"
+            }
+          },
+          {
+            "offset": "IL_0089",
+            "op": "brfalse.s",
+            "operand": "IL_008D"
+          },
+          {
+            "offset": "IL_008B",
+            "op": "ldnull",
+            "operand": null
+          },
+          {
+            "offset": "IL_008C",
+            "op": "ret",
+            "operand": null
+          },
+          {
+            "offset": "IL_008D",
+            "op": "call",
+            "operand": {
+              "token": "0x0602936E",
+              "name": "CSharpScript.Game.Module.Plot.PlotAudioModel::get_Instance"
+            }
+          },
+          {
+            "offset": "IL_0092",
+            "op": "ldloca.s",
+            "operand": 0
+          },
+          {
+            "offset": "IL_0094",
+            "op": "call",
+            "operand": {
+              "token": "0x0A001D23",
+              "name": "System.Nullable`1<1 generic arguments>::get_Value"
+            }
+          },
+          {
+            "offset": "IL_0099",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x06029369",
+              "name": "CSharpScript.Game.Module.Plot.PlotAudioModel::GetExternalSourcesMediaName"
+            }
+          },
+          {
+            "offset": "IL_009E",
+            "op": "stloc.3",
+            "operand": null
+          },
+          {
+            "offset": "IL_009F",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_00A0",
+            "op": "ldfld",
+            "operand": {
+              "token": "0x040147B5",
+              "name": "CSharpScript.Game.Module.VisualNovel.VisualNovelAudio::Assets"
+            }
+          },
+          {
+            "offset": "IL_00A5",
+            "op": "ldloc.3",
+            "operand": null
+          },
+          {
+            "offset": "IL_00A6",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x06025068",
+              "name": "CSharpScript.Game.Module.VisualNovel.VisualNovelAssetCache::GetMouthAnimation"
+            }
+          },
+          {
+            "offset": "IL_00AB",
+            "op": "stloc.s",
+            "operand": 4
+          },
+          {
+            "offset": "IL_00AD",
+            "op": "ldloc.2",
+            "operand": null
+          },
+          {
+            "offset": "IL_00AE",
+            "op": "ldc.r4",
+            "operand": 0
+          },
+          {
+            "offset": "IL_00B3",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_00B4",
+            "op": "ldftn",
+            "operand": {
+              "token": "0x06025081",
+              "name": "CSharpScript.Game.Module.VisualNovel.VisualNovelAudio::OnEventCompleted"
+            }
+          },
+          {
+            "offset": "IL_00BA",
+            "op": "newobj",
+            "operand": {
+              "token": "0x0A00F0F9",
+              "name": "System.Action`1<1 generic arguments>::.ctor"
+            }
+          },
+          {
+            "offset": "IL_00BF",
+            "op": "ldloca.s",
+            "operand": 1
+          },
+          {
+            "offset": "IL_00C1",
+            "op": "call",
+            "operand": {
+              "token": "0x0A005B7C",
+              "name": "System.Nullable`1<1 generic arguments>::get_Value"
+            }
+          },
+          {
+            "offset": "IL_00C6",
+            "op": "stloc.s",
+            "operand": 6
+          },
+          {
+            "offset": "IL_00C8",
+            "op": "ldloca.s",
+            "operand": 6
+          },
+          {
+            "offset": "IL_00CA",
+            "op": "call",
+            "operand": {
+              "token": "0x0A005B7E",
+              "name": "Aki.Config.ExternalSourceSetting::get_SubtitleSrc"
+            }
+          },
+          {
+            "offset": "IL_00CF",
+            "op": "ldloc.3",
+            "operand": null
+          },
+          {
+            "offset": "IL_00D0",
+            "op": "ldc.i4.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_00D1",
+            "op": "ldloc.s",
+            "operand": 4
+          },
+          {
+            "offset": "IL_00D3",
+            "op": "newobj",
+            "operand": {
+              "token": "0x06025086",
+              "name": "CSharpScript.Game.Module.VisualNovel.VisualNovelAudioEvent::.ctor"
+            }
+          },
+          {
+            "offset": "IL_00D8",
+            "op": "ret",
+            "operand": null
+          }
+        ]
+      }
+    },
+    {
+      "file": "test-results/audio/controller-audio-il.json",
+      "fileSha256": "e63e3a41538d256f4ec5ee53cd1e8d314845636535515e346813bf1648e50636",
+      "assemblySha256": "069bcb5b9c3d4d28780be8f51b59e7d52d2a9cbd8eab2c037f2a3be925db2049",
+      "mvid": "793dfd03-0f45-4cd2-8afc-a8fedff89320",
+      "jsonPointer": "/types/12/methods/6",
+      "type": "CSharpScript.Game.Module.VisualNovel.VisualNovelAudio",
+      "method": {
+        "name": "SetVoiceEnabled",
+        "token": "0x0602507C",
+        "rva": 10965860,
+        "maxStack": 8,
+        "initializeLocals": false,
+        "localSignature": null,
+        "exceptionRegions": [],
+        "instructions": [
+          {
+            "offset": "IL_0000",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0001",
+            "op": "ldarg.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_0002",
+            "op": "stfld",
+            "operand": {
+              "token": "0x040147B8",
+              "name": "CSharpScript.Game.Module.VisualNovel.VisualNovelAudio::VoiceEnabled"
+            }
+          },
+          {
+            "offset": "IL_0007",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0008",
+            "op": "ldfld",
+            "operand": {
+              "token": "0x040147B8",
+              "name": "CSharpScript.Game.Module.VisualNovel.VisualNovelAudio::VoiceEnabled"
+            }
+          },
+          {
+            "offset": "IL_000D",
+            "op": "brtrue.s",
+            "operand": "IL_0015"
+          },
+          {
+            "offset": "IL_000F",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0010",
+            "op": "call",
+            "operand": {
+              "token": "0x0602507B",
+              "name": "CSharpScript.Game.Module.VisualNovel.VisualNovelAudio::StopVoice"
+            }
+          },
+          {
+            "offset": "IL_0015",
+            "op": "ret",
+            "operand": null
+          }
+        ]
+      }
+    },
+    {
+      "file": "test-results/audio/interaction-il.json",
+      "fileSha256": "110046b6fd17806032e2078b56ea463b860e96ceeba9d1ccf81e29b1ab156b41",
+      "assemblySha256": "069bcb5b9c3d4d28780be8f51b59e7d52d2a9cbd8eab2c037f2a3be925db2049",
+      "mvid": "793dfd03-0f45-4cd2-8afc-a8fedff89320",
+      "jsonPointer": "/types/0/methods/0",
+      "type": "CSharpScript.Game.Module.Plot.PlotAudioModel",
+      "method": {
+        "name": "GetExternalSourcesMediaName",
+        "token": "0x06029369",
+        "rva": 12134712,
+        "maxStack": 3,
+        "initializeLocals": true,
+        "localSignature": "0x11007EB2",
+        "exceptionRegions": [],
+        "instructions": [
+          {
+            "offset": "IL_0000",
+            "op": "newobj",
+            "operand": {
+              "token": "0x0A000D72",
+              "name": "System.Text.StringBuilder::.ctor"
+            }
+          },
+          {
+            "offset": "IL_0005",
+            "op": "stloc.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0006",
+            "op": "ldc.i4.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0007",
+            "op": "stloc.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_0008",
+            "op": "ldstr",
+            "operand": ""
+          },
+          {
+            "offset": "IL_000D",
+            "op": "stloc.2",
+            "operand": null
+          },
+          {
+            "offset": "IL_000E",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_000F",
+            "op": "ldarga.s",
+            "operand": 1
+          },
+          {
+            "offset": "IL_0011",
+            "op": "call",
+            "operand": {
+              "token": "0x0A010CA7",
+              "name": "Aki.Config.PlotAudio::get_VarParams"
+            }
+          },
+          {
+            "offset": "IL_0016",
+            "op": "ldarga.s",
+            "operand": 1
+          },
+          {
+            "offset": "IL_0018",
+            "op": "call",
+            "operand": {
+              "token": "0x0A010CA8",
+              "name": "Aki.Config.PlotAudio::get_FileName"
+            }
+          },
+          {
+            "offset": "IL_001D",
+            "op": "call",
+            "operand": {
+              "token": "0x0602936D",
+              "name": "CSharpScript.Game.Module.Plot.PlotAudioModel::UpdateVarExtension"
+            }
+          },
+          {
+            "offset": "IL_0022",
+            "op": "stloc.3",
+            "operand": null
+          },
+          {
+            "offset": "IL_0023",
+            "op": "call",
+            "operand": {
+              "token": "0x0A000D1F",
+              "name": ".LanguageSystem::get_Instance"
+            }
+          },
+          {
+            "offset": "IL_0028",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x0A000F8F",
+              "name": ".LanguageSystem::get_PackageAudio"
+            }
+          },
+          {
+            "offset": "IL_002D",
+            "op": "stloc.s",
+            "operand": 5
+          },
+          {
+            "offset": "IL_002F",
+            "op": "ldloc.s",
+            "operand": 5
+          },
+          {
+            "offset": "IL_0031",
+            "op": "ldstr",
+            "operand": "zh"
+          },
+          {
+            "offset": "IL_0036",
+            "op": "call",
+            "operand": {
+              "token": "0x0A000183",
+              "name": "System.String::op_Equality"
+            }
+          },
+          {
+            "offset": "IL_003B",
+            "op": "brtrue.s",
+            "operand": "IL_0069"
+          },
+          {
+            "offset": "IL_003D",
+            "op": "ldloc.s",
+            "operand": 5
+          },
+          {
+            "offset": "IL_003F",
+            "op": "ldstr",
+            "operand": "en"
+          },
+          {
+            "offset": "IL_0044",
+            "op": "call",
+            "operand": {
+              "token": "0x0A000183",
+              "name": "System.String::op_Equality"
+            }
+          },
+          {
+            "offset": "IL_0049",
+            "op": "brtrue.s",
+            "operand": "IL_0073"
+          },
+          {
+            "offset": "IL_004B",
+            "op": "ldloc.s",
+            "operand": 5
+          },
+          {
+            "offset": "IL_004D",
+            "op": "ldstr",
+            "operand": "ja"
+          },
+          {
+            "offset": "IL_0052",
+            "op": "call",
+            "operand": {
+              "token": "0x0A000183",
+              "name": "System.String::op_Equality"
+            }
+          },
+          {
+            "offset": "IL_0057",
+            "op": "brtrue.s",
+            "operand": "IL_007D"
+          },
+          {
+            "offset": "IL_0059",
+            "op": "ldloc.s",
+            "operand": 5
+          },
+          {
+            "offset": "IL_005B",
+            "op": "ldstr",
+            "operand": "ko"
+          },
+          {
+            "offset": "IL_0060",
+            "op": "call",
+            "operand": {
+              "token": "0x0A000183",
+              "name": "System.String::op_Equality"
+            }
+          },
+          {
+            "offset": "IL_0065",
+            "op": "brtrue.s",
+            "operand": "IL_0087"
+          },
+          {
+            "offset": "IL_0067",
+            "op": "br.s",
+            "operand": "IL_008F"
+          },
+          {
+            "offset": "IL_0069",
+            "op": "ldarga.s",
+            "operand": 1
+          },
+          {
+            "offset": "IL_006B",
+            "op": "call",
+            "operand": {
+              "token": "0x0A010CA9",
+              "name": "Aki.Config.PlotAudio::get_CheckGenderZh"
+            }
+          },
+          {
+            "offset": "IL_0070",
+            "op": "stloc.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_0071",
+            "op": "br.s",
+            "operand": "IL_008F"
+          },
+          {
+            "offset": "IL_0073",
+            "op": "ldarga.s",
+            "operand": 1
+          },
+          {
+            "offset": "IL_0075",
+            "op": "call",
+            "operand": {
+              "token": "0x0A010CAA",
+              "name": "Aki.Config.PlotAudio::get_CheckGenderEn"
+            }
+          },
+          {
+            "offset": "IL_007A",
+            "op": "stloc.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_007B",
+            "op": "br.s",
+            "operand": "IL_008F"
+          },
+          {
+            "offset": "IL_007D",
+            "op": "ldarga.s",
+            "operand": 1
+          },
+          {
+            "offset": "IL_007F",
+            "op": "call",
+            "operand": {
+              "token": "0x0A010CAB",
+              "name": "Aki.Config.PlotAudio::get_CheckGenderJa"
+            }
+          },
+          {
+            "offset": "IL_0084",
+            "op": "stloc.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_0085",
+            "op": "br.s",
+            "operand": "IL_008F"
+          },
+          {
+            "offset": "IL_0087",
+            "op": "ldarga.s",
+            "operand": 1
+          },
+          {
+            "offset": "IL_0089",
+            "op": "call",
+            "operand": {
+              "token": "0x0A010CAC",
+              "name": "Aki.Config.PlotAudio::get_CheckGenderKo"
+            }
+          },
+          {
+            "offset": "IL_008E",
+            "op": "stloc.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_008F",
+            "op": "call",
+            "operand": {
+              "token": "0x0A000D1F",
+              "name": ".LanguageSystem::get_Instance"
+            }
+          },
+          {
+            "offset": "IL_0094",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x0A000F8F",
+              "name": ".LanguageSystem::get_PackageAudio"
+            }
+          },
+          {
+            "offset": "IL_0099",
+            "op": "stloc.s",
+            "operand": 4
+          },
+          {
+            "offset": "IL_009B",
+            "op": "ldarga.s",
+            "operand": 1
+          },
+          {
+            "offset": "IL_009D",
+            "op": "call",
+            "operand": {
+              "token": "0x0A010CAD",
+              "name": "Aki.Config.PlotAudio::get_GlobalLanguage"
+            }
+          },
+          {
+            "offset": "IL_00A2",
+            "op": "brfalse.s",
+            "operand": "IL_00AB"
+          },
+          {
+            "offset": "IL_00A4",
+            "op": "ldstr",
+            "operand": "gl"
+          },
+          {
+            "offset": "IL_00A9",
+            "op": "stloc.s",
+            "operand": 4
+          },
+          {
+            "offset": "IL_00AB",
+            "op": "ldloc.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_00AC",
+            "op": "brfalse.s",
+            "operand": "IL_00C7"
+          },
+          {
+            "offset": "IL_00AE",
+            "op": "call",
+            "operand": {
+              "token": "0x060110F1",
+              "name": ".PlayerInfoModel::get_Instance"
+            }
+          },
+          {
+            "offset": "IL_00B3",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x060110DD",
+              "name": ".PlayerInfoModel::GetPlayerGender"
+            }
+          },
+          {
+            "offset": "IL_00B8",
+            "op": "brfalse.s",
+            "operand": "IL_00C1"
+          },
+          {
+            "offset": "IL_00BA",
+            "op": "ldstr",
+            "operand": "_M"
+          },
+          {
+            "offset": "IL_00BF",
+            "op": "br.s",
+            "operand": "IL_00C6"
+          },
+          {
+            "offset": "IL_00C1",
+            "op": "ldstr",
+            "operand": "_F"
+          },
+          {
+            "offset": "IL_00C6",
+            "op": "stloc.2",
+            "operand": null
+          },
+          {
+            "offset": "IL_00C7",
+            "op": "ldloc.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_00C8",
+            "op": "ldloc.s",
+            "operand": 4
+          },
+          {
+            "offset": "IL_00CA",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x0A000D76",
+              "name": "System.Text.StringBuilder::Append"
+            }
+          },
+          {
+            "offset": "IL_00CF",
+            "op": "ldstr",
+            "operand": "_"
+          },
+          {
+            "offset": "IL_00D4",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x0A000D76",
+              "name": "System.Text.StringBuilder::Append"
+            }
+          },
+          {
+            "offset": "IL_00D9",
+            "op": "ldloc.3",
+            "operand": null
+          },
+          {
+            "offset": "IL_00DA",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x0A000D76",
+              "name": "System.Text.StringBuilder::Append"
+            }
+          },
+          {
+            "offset": "IL_00DF",
+            "op": "ldloc.2",
+            "operand": null
+          },
+          {
+            "offset": "IL_00E0",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x0A000D76",
+              "name": "System.Text.StringBuilder::Append"
+            }
+          },
+          {
+            "offset": "IL_00E5",
+            "op": "ldstr",
+            "operand": ".wem"
+          },
+          {
+            "offset": "IL_00EA",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x0A000D76",
+              "name": "System.Text.StringBuilder::Append"
+            }
+          },
+          {
+            "offset": "IL_00EF",
+            "op": "pop",
+            "operand": null
+          },
+          {
+            "offset": "IL_00F0",
+            "op": "ldloc.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_00F1",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x0A00021A",
+              "name": "System.Object::ToString"
+            }
+          },
+          {
+            "offset": "IL_00F6",
+            "op": "ret",
+            "operand": null
+          }
+        ]
+      }
+    },
+    {
+      "file": "test-results/audio/controller-audio-il.json",
+      "fileSha256": "e63e3a41538d256f4ec5ee53cd1e8d314845636535515e346813bf1648e50636",
+      "assemblySha256": "069bcb5b9c3d4d28780be8f51b59e7d52d2a9cbd8eab2c037f2a3be925db2049",
+      "mvid": "793dfd03-0f45-4cd2-8afc-a8fedff89320",
+      "jsonPointer": "/types/123/methods/1",
+      "type": "CSharpScript.Game.Module.SolarSchool.View.VisualNovel.SolarSchoolVisualNovelReviewView",
+      "method": {
+        "name": "CanPlayAudio",
+        "token": "0x06039185",
+        "rva": 16767748,
+        "maxStack": 2,
+        "initializeLocals": true,
+        "localSignature": "0x1100B4A9",
+        "exceptionRegions": [],
+        "instructions": [
+          {
+            "offset": "IL_0000",
+            "op": "ldarg.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_0001",
+            "op": "ldc.i4.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0002",
+            "op": "blt.s",
+            "operand": "IL_0025"
+          },
+          {
+            "offset": "IL_0004",
+            "op": "ldarg.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_0005",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0006",
+            "op": "ldfld",
+            "operand": {
+              "token": "0x0401E0A8",
+              "name": "CSharpScript.Game.Module.SolarSchool.View.VisualNovel.SolarSchoolVisualNovelReviewView::ReviewItems"
+            }
+          },
+          {
+            "offset": "IL_000B",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x0A011183",
+              "name": "System.Collections.Generic.List`1<1 generic arguments>::get_Count"
+            }
+          },
+          {
+            "offset": "IL_0010",
+            "op": "bge.s",
+            "operand": "IL_0025"
+          },
+          {
+            "offset": "IL_0012",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0013",
+            "op": "ldfld",
+            "operand": {
+              "token": "0x0401E0A8",
+              "name": "CSharpScript.Game.Module.SolarSchool.View.VisualNovel.SolarSchoolVisualNovelReviewView::ReviewItems"
+            }
+          },
+          {
+            "offset": "IL_0018",
+            "op": "ldarg.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_0019",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x0A011184",
+              "name": "System.Collections.Generic.List`1<1 generic arguments>::get_Item"
+            }
+          },
+          {
+            "offset": "IL_001E",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x0602944B",
+              "name": "CSharpScript.Game.Module.Plot.PlotReviewItemData::get_Type"
+            }
+          },
+          {
+            "offset": "IL_0023",
+            "op": "brfalse.s",
+            "operand": "IL_0027"
+          },
+          {
+            "offset": "IL_0025",
+            "op": "ldc.i4.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0026",
+            "op": "ret",
+            "operand": null
+          },
+          {
+            "offset": "IL_0027",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0028",
+            "op": "ldfld",
+            "operand": {
+              "token": "0x0401E0A8",
+              "name": "CSharpScript.Game.Module.SolarSchool.View.VisualNovel.SolarSchoolVisualNovelReviewView::ReviewItems"
+            }
+          },
+          {
+            "offset": "IL_002D",
+            "op": "ldarg.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_002E",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x0A011184",
+              "name": "System.Collections.Generic.List`1<1 generic arguments>::get_Item"
+            }
+          },
+          {
+            "offset": "IL_0033",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x0602944D",
+              "name": "CSharpScript.Game.Module.Plot.PlotReviewItemData::get_Data"
+            }
+          },
+          {
+            "offset": "IL_0038",
+            "op": "castclass",
+            "operand": {
+              "token": "0x02003FB5",
+              "name": "CSharpScript.Game.Module.Plot.PlotReviewTalkItemData"
+            }
+          },
+          {
+            "offset": "IL_003D",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x0602943F",
+              "name": "CSharpScript.Game.Module.Plot.PlotReviewTalkItemData::get_TalkItem"
+            }
+          },
+          {
+            "offset": "IL_0042",
+            "op": "stloc.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0043",
+            "op": "ldloc.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0044",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x0A001D27",
+              "name": "Aki.TDConfigMgr.Action.ITalkItem::get_PlayVoice"
+            }
+          },
+          {
+            "offset": "IL_0049",
+            "op": "stloc.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_004A",
+            "op": "ldloca.s",
+            "operand": 1
+          },
+          {
+            "offset": "IL_004C",
+            "op": "call",
+            "operand": {
+              "token": "0x0A00011F",
+              "name": "System.Nullable`1<1 generic arguments>::GetValueOrDefault"
+            }
+          },
+          {
+            "offset": "IL_0051",
+            "op": "brfalse.s",
+            "operand": "IL_0075"
+          },
+          {
+            "offset": "IL_0053",
+            "op": "ldloc.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0054",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x0A000310",
+              "name": "Aki.TDConfigMgr.Action.ITalkItem::get_TidTalk"
+            }
+          },
+          {
+            "offset": "IL_0059",
+            "op": "call",
+            "operand": {
+              "token": "0x0A000131",
+              "name": "System.String::IsNullOrEmpty"
+            }
+          },
+          {
+            "offset": "IL_005E",
+            "op": "brtrue.s",
+            "operand": "IL_0075"
+          },
+          {
+            "offset": "IL_0060",
+            "op": "ldloc.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0061",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x0A000310",
+              "name": "Aki.TDConfigMgr.Action.ITalkItem::get_TidTalk"
+            }
+          },
+          {
+            "offset": "IL_0066",
+            "op": "ldc.i4.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_0067",
+            "op": "call",
+            "operand": {
+              "token": "0x0A001D21",
+              "name": "Aki.Config.ConfigPlotAudioById::GetConfig"
+            }
+          },
+          {
+            "offset": "IL_006C",
+            "op": "stloc.2",
+            "operand": null
+          },
+          {
+            "offset": "IL_006D",
+            "op": "ldloca.s",
+            "operand": 2
+          },
+          {
+            "offset": "IL_006F",
+            "op": "call",
+            "operand": {
+              "token": "0x0A001D22",
+              "name": "System.Nullable`1<1 generic arguments>::get_HasValue"
+            }
+          },
+          {
+            "offset": "IL_0074",
+            "op": "ret",
+            "operand": null
+          },
+          {
+            "offset": "IL_0075",
+            "op": "ldc.i4.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0076",
+            "op": "ret",
+            "operand": null
+          }
+        ]
+      }
+    },
+    {
+      "file": "test-results/audio/controller-audio-il.json",
+      "fileSha256": "e63e3a41538d256f4ec5ee53cd1e8d314845636535515e346813bf1648e50636",
+      "assemblySha256": "069bcb5b9c3d4d28780be8f51b59e7d52d2a9cbd8eab2c037f2a3be925db2049",
+      "mvid": "793dfd03-0f45-4cd2-8afc-a8fedff89320",
+      "jsonPointer": "/types/123/methods/2",
+      "type": "CSharpScript.Game.Module.SolarSchool.View.VisualNovel.SolarSchoolVisualNovelReviewView",
+      "method": {
+        "name": "PlayAudio",
+        "token": "0x06039186",
+        "rva": 16767880,
+        "maxStack": 7,
+        "initializeLocals": true,
+        "localSignature": "0x1100B4AA",
+        "exceptionRegions": [],
+        "instructions": [
+          {
+            "offset": "IL_0000",
+            "op": "newobj",
+            "operand": {
+              "token": "0x06047D73",
+              "name": "CSharpScript.Game.Module.SolarSchool.View.VisualNovel.SolarSchoolVisualNovelReviewView+<>c__DisplayClass21_0::.ctor"
+            }
+          },
+          {
+            "offset": "IL_0005",
+            "op": "stloc.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0006",
+            "op": "ldloc.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0007",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0008",
+            "op": "stfld",
+            "operand": {
+              "token": "0x040387D3",
+              "name": "CSharpScript.Game.Module.SolarSchool.View.VisualNovel.SolarSchoolVisualNovelReviewView+<>c__DisplayClass21_0::<>4__this"
+            }
+          },
+          {
+            "offset": "IL_000D",
+            "op": "ldloc.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_000E",
+            "op": "ldarg.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_000F",
+            "op": "stfld",
+            "operand": {
+              "token": "0x040387D4",
+              "name": "CSharpScript.Game.Module.SolarSchool.View.VisualNovel.SolarSchoolVisualNovelReviewView+<>c__DisplayClass21_0::index"
+            }
+          },
+          {
+            "offset": "IL_0014",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0015",
+            "op": "ldloc.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0016",
+            "op": "ldfld",
+            "operand": {
+              "token": "0x040387D4",
+              "name": "CSharpScript.Game.Module.SolarSchool.View.VisualNovel.SolarSchoolVisualNovelReviewView+<>c__DisplayClass21_0::index"
+            }
+          },
+          {
+            "offset": "IL_001B",
+            "op": "call",
+            "operand": {
+              "token": "0x06039185",
+              "name": "CSharpScript.Game.Module.SolarSchool.View.VisualNovel.SolarSchoolVisualNovelReviewView::CanPlayAudio"
+            }
+          },
+          {
+            "offset": "IL_0020",
+            "op": "brtrue.s",
+            "operand": "IL_0023"
+          },
+          {
+            "offset": "IL_0022",
+            "op": "ret",
+            "operand": null
+          },
+          {
+            "offset": "IL_0023",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0024",
+            "op": "ldfld",
+            "operand": {
+              "token": "0x0401E0A9",
+              "name": "CSharpScript.Game.Module.SolarSchool.View.VisualNovel.SolarSchoolVisualNovelReviewView::CurrentAudioIndex"
+            }
+          },
+          {
+            "offset": "IL_0029",
+            "op": "ldloc.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_002A",
+            "op": "ldfld",
+            "operand": {
+              "token": "0x040387D4",
+              "name": "CSharpScript.Game.Module.SolarSchool.View.VisualNovel.SolarSchoolVisualNovelReviewView+<>c__DisplayClass21_0::index"
+            }
+          },
+          {
+            "offset": "IL_002F",
+            "op": "bne.un.s",
+            "operand": "IL_0038"
+          },
+          {
+            "offset": "IL_0031",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0032",
+            "op": "call",
+            "operand": {
+              "token": "0x06039187",
+              "name": "CSharpScript.Game.Module.SolarSchool.View.VisualNovel.SolarSchoolVisualNovelReviewView::StopCurrentAudio"
+            }
+          },
+          {
+            "offset": "IL_0037",
+            "op": "ret",
+            "operand": null
+          },
+          {
+            "offset": "IL_0038",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0039",
+            "op": "call",
+            "operand": {
+              "token": "0x06039187",
+              "name": "CSharpScript.Game.Module.SolarSchool.View.VisualNovel.SolarSchoolVisualNovelReviewView::StopCurrentAudio"
+            }
+          },
+          {
+            "offset": "IL_003E",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_003F",
+            "op": "ldfld",
+            "operand": {
+              "token": "0x0401E0A8",
+              "name": "CSharpScript.Game.Module.SolarSchool.View.VisualNovel.SolarSchoolVisualNovelReviewView::ReviewItems"
+            }
+          },
+          {
+            "offset": "IL_0044",
+            "op": "ldloc.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0045",
+            "op": "ldfld",
+            "operand": {
+              "token": "0x040387D4",
+              "name": "CSharpScript.Game.Module.SolarSchool.View.VisualNovel.SolarSchoolVisualNovelReviewView+<>c__DisplayClass21_0::index"
+            }
+          },
+          {
+            "offset": "IL_004A",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x0A011184",
+              "name": "System.Collections.Generic.List`1<1 generic arguments>::get_Item"
+            }
+          },
+          {
+            "offset": "IL_004F",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x0602944D",
+              "name": "CSharpScript.Game.Module.Plot.PlotReviewItemData::get_Data"
+            }
+          },
+          {
+            "offset": "IL_0054",
+            "op": "castclass",
+            "operand": {
+              "token": "0x02003FB5",
+              "name": "CSharpScript.Game.Module.Plot.PlotReviewTalkItemData"
+            }
+          },
+          {
+            "offset": "IL_0059",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x0602943F",
+              "name": "CSharpScript.Game.Module.Plot.PlotReviewTalkItemData::get_TalkItem"
+            }
+          },
+          {
+            "offset": "IL_005E",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x0A000310",
+              "name": "Aki.TDConfigMgr.Action.ITalkItem::get_TidTalk"
+            }
+          },
+          {
+            "offset": "IL_0063",
+            "op": "ldc.i4.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_0064",
+            "op": "call",
+            "operand": {
+              "token": "0x0A001D21",
+              "name": "Aki.Config.ConfigPlotAudioById::GetConfig"
+            }
+          },
+          {
+            "offset": "IL_0069",
+            "op": "stloc.3",
+            "operand": null
+          },
+          {
+            "offset": "IL_006A",
+            "op": "ldloca.s",
+            "operand": 3
+          },
+          {
+            "offset": "IL_006C",
+            "op": "call",
+            "operand": {
+              "token": "0x0A001D23",
+              "name": "System.Nullable`1<1 generic arguments>::get_Value"
+            }
+          },
+          {
+            "offset": "IL_0071",
+            "op": "stloc.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_0072",
+            "op": "call",
+            "operand": {
+              "token": "0x0602936E",
+              "name": "CSharpScript.Game.Module.Plot.PlotAudioModel::get_Instance"
+            }
+          },
+          {
+            "offset": "IL_0077",
+            "op": "ldloc.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_0078",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x06029369",
+              "name": "CSharpScript.Game.Module.Plot.PlotAudioModel::GetExternalSourcesMediaName"
+            }
+          },
+          {
+            "offset": "IL_007D",
+            "op": "stloc.2",
+            "operand": null
+          },
+          {
+            "offset": "IL_007E",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_007F",
+            "op": "ldloc.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0080",
+            "op": "ldfld",
+            "operand": {
+              "token": "0x040387D4",
+              "name": "CSharpScript.Game.Module.SolarSchool.View.VisualNovel.SolarSchoolVisualNovelReviewView+<>c__DisplayClass21_0::index"
+            }
+          },
+          {
+            "offset": "IL_0085",
+            "op": "stfld",
+            "operand": {
+              "token": "0x0401E0A9",
+              "name": "CSharpScript.Game.Module.SolarSchool.View.VisualNovel.SolarSchoolVisualNovelReviewView::CurrentAudioIndex"
+            }
+          },
+          {
+            "offset": "IL_008A",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_008B",
+            "op": "ldloc.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_008C",
+            "op": "ldfld",
+            "operand": {
+              "token": "0x040387D4",
+              "name": "CSharpScript.Game.Module.SolarSchool.View.VisualNovel.SolarSchoolVisualNovelReviewView+<>c__DisplayClass21_0::index"
+            }
+          },
+          {
+            "offset": "IL_0091",
+            "op": "ldc.i4.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_0092",
+            "op": "call",
+            "operand": {
+              "token": "0x06039189",
+              "name": "CSharpScript.Game.Module.SolarSchool.View.VisualNovel.SolarSchoolVisualNovelReviewView::SetAudioPlaying"
+            }
+          },
+          {
+            "offset": "IL_0097",
+            "op": "ldarg.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_0098",
+            "op": "call",
+            "operand": {
+              "token": "0x0A000863",
+              "name": ".AudioSystem::get_Instance"
+            }
+          },
+          {
+            "offset": "IL_009D",
+            "op": "ldstr",
+            "operand": "play_vo_plot_review_log"
+          },
+          {
+            "offset": "IL_00A2",
+            "op": "ldnull",
+            "operand": null
+          },
+          {
+            "offset": "IL_00A3",
+            "op": "ldloca.s",
+            "operand": 4
+          },
+          {
+            "offset": "IL_00A5",
+            "op": "initobj",
+            "operand": {
+              "token": "0x01000114",
+              "name": ".PostEventArgs"
+            }
+          },
+          {
+            "offset": "IL_00AB",
+            "op": "ldloca.s",
+            "operand": 4
+          },
+          {
+            "offset": "IL_00AD",
+            "op": "ldstr",
+            "operand": "external_plot_review_log_voice"
+          },
+          {
+            "offset": "IL_00B2",
+            "op": "stfld",
+            "operand": {
+              "token": "0x0A001D24",
+              "name": ".PostEventArgs::ExternalSourceName"
+            }
+          },
+          {
+            "offset": "IL_00B7",
+            "op": "ldloca.s",
+            "operand": 4
+          },
+          {
+            "offset": "IL_00B9",
+            "op": "ldloc.2",
+            "operand": null
+          },
+          {
+            "offset": "IL_00BA",
+            "op": "stfld",
+            "operand": {
+              "token": "0x0A001D25",
+              "name": ".PostEventArgs::ExternalSourceMediaName"
+            }
+          },
+          {
+            "offset": "IL_00BF",
+            "op": "ldloca.s",
+            "operand": 4
+          },
+          {
+            "offset": "IL_00C1",
+            "op": "ldc.i4.1",
+            "operand": null
+          },
+          {
+            "offset": "IL_00C2",
+            "op": "newobj",
+            "operand": {
+              "token": "0x0A000E22",
+              "name": "System.Nullable`1<1 generic arguments>::.ctor"
+            }
+          },
+          {
+            "offset": "IL_00C7",
+            "op": "stfld",
+            "operand": {
+              "token": "0x0A000E23",
+              "name": ".PostEventArgs::CallbackMask"
+            }
+          },
+          {
+            "offset": "IL_00CC",
+            "op": "ldloca.s",
+            "operand": 4
+          },
+          {
+            "offset": "IL_00CE",
+            "op": "ldloc.0",
+            "operand": null
+          },
+          {
+            "offset": "IL_00CF",
+            "op": "ldftn",
+            "operand": {
+              "token": "0x06047D74",
+              "name": "CSharpScript.Game.Module.SolarSchool.View.VisualNovel.SolarSchoolVisualNovelReviewView+<>c__DisplayClass21_0::<PlayAudio>b__0"
+            }
+          },
+          {
+            "offset": "IL_00D5",
+            "op": "newobj",
+            "operand": {
+              "token": "0x0A000E24",
+              "name": "System.Action`2<2 generic arguments>::.ctor"
+            }
+          },
+          {
+            "offset": "IL_00DA",
+            "op": "stfld",
+            "operand": {
+              "token": "0x0A000E25",
+              "name": ".PostEventArgs::CallbackHandler"
+            }
+          },
+          {
+            "offset": "IL_00DF",
+            "op": "ldloc.s",
+            "operand": 4
+          },
+          {
+            "offset": "IL_00E1",
+            "op": "newobj",
+            "operand": {
+              "token": "0x0A000E26",
+              "name": "System.Nullable`1<1 generic arguments>::.ctor"
+            }
+          },
+          {
+            "offset": "IL_00E6",
+            "op": "callvirt",
+            "operand": {
+              "token": "0x0A000A81",
+              "name": ".AudioSystem::PostEvent"
+            }
+          },
+          {
+            "offset": "IL_00EB",
+            "op": "stfld",
+            "operand": {
+              "token": "0x0401E0AA",
+              "name": "CSharpScript.Game.Module.SolarSchool.View.VisualNovel.SolarSchoolVisualNovelReviewView::AudioHandle"
+            }
+          },
+          {
+            "offset": "IL_00F0",
+            "op": "ret",
+            "operand": null
+          }
+        ]
+      }
+    }
+  ],
+  "findings": [
+    {
+      "id": "literal-keys",
+      "confidence": "observed-source",
+      "conclusion": "The four target nodes all have authored PlayVoice=true and TalkAkEvent=null. Original voice lookup uses TidTalk/TextKey to resolve PlotAudio; script ID, speaker name and displayed text are not media-name generators.",
+      "references": [
+        "build_data.py:343-357",
+        "tools/prepare_audio.py:109-129",
+        "src/audio/AudioManifest.ts:22-29",
+        "VisualNovelAudio.CreateRecordedVoice 0x06025078 IL0000-001E"
+      ]
+    },
+    {
+      "id": "authored-file-alias",
+      "confidence": "observed-source",
+      "conclusion": "1001:1 EVENT_AVGmain_1_1 and 1002:1 EVENT_AVGmain_5_1 are distinct dialogue keys whose explicit PlotAudio FileName both equals vo_EVENT_AVGmain_1_1. 1002:2 explicitly selects vo_EVENT_AVGmain_5_2. Shared media must not merge dialogue history or line keys.",
+      "references": [
+        "WutheringWaves_Data/BinData/plot_audio/plotaudio.json by Id",
+        "src/ui/DialogueBacklog.ts:121-125"
+      ]
+    },
+    {
+      "id": "anonymous-speaker",
+      "confidence": "observed-source",
+      "conclusion": "Speaker 701290 resolves to the literal English ???. Reader voice resolution has no speaker gate; native VoiceSpeakerId associates an already successful voice with a speaker rather than selecting its media.",
+      "references": [
+        "public/data/speakers.json:701290",
+        "public/data/locales/en.json:Speaker_701290_Name",
+        "src/text/EnglishText.ts:69-72",
+        "VisualNovelAudio.PlayVoice 0x06025076 IL005E-0065"
+      ]
+    },
+    {
+      "id": "manifest-absence",
+      "confidence": "observed-source",
+      "conclusion": "At this inspection all four targets have no manifest.lines entry, guaranteeing silence independent of timing or user gesture. Recorded failures distinguish Chisa stored SHA1 mismatch from empty train decoder errors.",
+      "references": [
+        "public/data/maps/audio-playback.json",
+        "test-results/audio/source-resolution.json"
+      ]
+    },
+    {
+      "id": "readiness-loss",
+      "confidence": "reproduced-with-mock-WebAudio",
+      "conclusion": "The baseline discards a current voice request before manifest readiness or first-unlock completion; Review replay at its first gesture has the same loss. Three frozen mock-source probes produce zero source starts, while the ready positive control starts exactly once.",
+      "references": [
+        "src/main.tsx:16-18",
+        "src/audio/ReaderAudio.ts:37-58",
+        "src/audio/ReaderAudio.ts:67-73",
+        "src/audio/ReaderAudio.ts:113-119",
+        "src/audio/ReaderAudio.ts:157-165",
+        "test-results/reader-voice/controller-baseline-lifecycle.json"
+      ]
+    },
+    {
+      "id": "scene-first-line",
+      "confidence": "observed-source",
+      "conclusion": "The Reader configures the scene and runs first-node t=0 stage operations before delivering that first dialogue. Both train intros retain DialogDelay=0.08 as raw metadata, but no source consumer reads that field, so it cannot itself suppress voice. The runner publishes its final snapshot before event subscribers receive the batch.",
+      "references": [
+        "build_data.py:295",
+        "src/engine/ScriptRunner.ts:418-423",
+        "src/engine/ScriptRunner.ts:469-480",
+        "src/engine/ScriptRunner.ts:733-742",
+        "src/ui/ManualReader.ts:122-139"
+      ]
+    },
+    {
+      "id": "language-and-review",
+      "confidence": "observed-source",
+      "conclusion": "Native and Reader Review resolve the explicit dialogue key with the effective audio language and original gender flags. Current installed playback language is ja. Replay explicitly unlocks then starts its resolved media; closing Reader History calls stopVoice.",
+      "references": [
+        "PlotAudioModel.GetExternalSourcesMediaName 0x06029369",
+        "SolarSchoolVisualNovelReviewView.PlayAudio 0x06039186",
+        "src/audio/ReaderAudio.ts:43",
+        "src/audio/ReaderAudio.ts:66-73",
+        "src/ui/HistoryPanel.tsx:47",
+        "src/ui/ReaderSession.tsx:157"
+      ]
+    }
+  ],
+  "recommendedRegressionCases": [
+    "Current dialogue arrives before deferred manifest; release produces exactly one current source without redelivering dialogue.",
+    "First-gesture normal line and Review replay arrive before deferred AudioContext.resume; each starts once on completion.",
+    "New line replaces old pending request, including repeated script/nid with a new visit token; only newest may start.",
+    "Navigation, stage end, scene/run change, restore, dispose and Review close invalidate pending requests and late decode completion.",
+    "Pending resolution uses the selected supported language/gender at flush; no unrelated-language fallback or resurrection.",
+    "Checkpoint restore rebuilds durable loops without automatic voice; explicit resolved historical Review replay remains available.",
+    "Four literal source keys stay distinct; the authored _5_1 to _1_1 media alias is preserved and _5_2 stays separate."
+  ],
+  "testGap": {
+    "file": "tests/audio.test.ts",
+    "line": 51,
+    "detail": "Every existing harness.ready awaits audio.load and a tick after unlock, masking both first-readiness losses. The existing late-decode, scene, restore and fast-forward regressions remain meaningful."
+  }
+}

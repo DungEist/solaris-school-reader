@@ -1,0 +1,999 @@
+{
+  "recordingsPassed": true,
+  "processPassed": false,
+  "phase": "before",
+  "route": "first-cycle public Start/opening",
+  "site": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-before/site",
+  "source": {
+    "html": {
+      "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-before/site/index.html",
+      "sha256": "bffef0fbce913baeda796450709911259de2bb49ab49e0edf33ad6ba083e4fb1"
+    },
+    "audioManifest": {
+      "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-before/site/data/maps/audio-playback.json",
+      "sha256": "9421caa9d6f7bbc110da5227ae2f935f6a0833908ded7cc6d0c349c7c361d864"
+    },
+    "executedHarness": {
+      "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-before/executed-harness.mjs",
+      "sha256": "10554474891e63fc2ff20766d4b0048d091dde592ed31d0a5797fb5bad2962d1"
+    }
+  },
+  "controlledProcess": {
+    "evidenceId": "ev_5e214f51e288bfdf7029a86f07e288982411dc26ace6fecc23e243a3567f1051",
+    "exit": {
+      "code": 1,
+      "signal": 0,
+      "reason": "exited"
+    },
+    "cleanup": {
+      "owned_process_group": "verified",
+      "temporary_root": "removed",
+      "unverified_processes": [
+        {
+          "pid": 2269793,
+          "reason": "EACCES: permission denied, open '/proc/2269793/environ'"
+        },
+        {
+          "pid": 2269973,
+          "reason": "EACCES: permission denied, open '/proc/2269973/environ'"
+        },
+        {
+          "pid": 2269974,
+          "reason": "EACCES: permission denied, open '/proc/2269974/environ'"
+        },
+        {
+          "pid": 2269975,
+          "reason": "EACCES: permission denied, open '/proc/2269975/environ'"
+        },
+        {
+          "pid": 2270152,
+          "reason": "EACCES: permission denied, open '/proc/2270152/environ'"
+        },
+        {
+          "pid": 2270380,
+          "reason": "EACCES: permission denied, open '/proc/2270380/environ'"
+        }
+      ]
+    },
+    "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-before/rea-evidence.json"
+  },
+  "measurements": [
+    {
+      "checkpoint": {
+        "name": "train-first",
+        "script": "1001",
+        "nid": 1,
+        "textKey": "EVENT_AVGmain_1_1",
+        "duration": 17.1689375
+      },
+      "mode": "auto",
+      "directory": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-before/train-first-auto",
+      "measurements": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-before/train-first-auto/measurements.json",
+        "sha256": "ae8f8888ff59a30d568f264c975e8bf52059c7cfd11b941b3453a46a3a350d7e"
+      },
+      "before": {
+        "testid": "runner-state",
+        "status": "idle",
+        "scriptId": "",
+        "nid": "",
+        "flowActionIndex": "-1",
+        "visitId": "0",
+        "runId": "0",
+        "hiddenChoice": "false",
+        "inputReady": "false",
+        "textComplete": "true",
+        "historyOpen": "false",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "true",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      },
+      "after": {
+        "testid": "runner-state",
+        "status": "dialogue",
+        "scriptId": "1001",
+        "nid": "1",
+        "flowActionIndex": "1",
+        "visitId": "1",
+        "runId": "1",
+        "hiddenChoice": "false",
+        "inputReady": "true",
+        "textComplete": "true",
+        "historyOpen": "false",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "false",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      },
+      "trigger": {
+        "available": true,
+        "publicControl": "Start"
+      },
+      "actualAudio": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-before/train-first-auto/destination.wav",
+        "sha256": "0b80c5f27e0cab05df8face6ed5ef6408c05fa26c5a82ed580c06907afe99357",
+        "rawObservedPCM": {
+          "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-before/train-first-auto/observed-destination.f32le",
+          "sha256": "ad01b44ad63d14a0ddb02ef810127c1810be7bb9108e4f4fcbb2d1cd2520f4c2",
+          "frames": 925696
+        },
+        "format": "IEEE float32 LE stereo WAV",
+        "source": "actual AudioContext destination connections mirrored after their channel gains; explicit context gaps are retained in the block index and zero-filled in this timeline WAV",
+        "durationSeconds": 19.285333333333334,
+        "channels": [
+          {
+            "channel": 0,
+            "rms": 0,
+            "peak": 0,
+            "nonzeroSamples": 0
+          },
+          {
+            "channel": 1,
+            "rms": 0,
+            "peak": 0,
+            "nonzeroSamples": 0
+          }
+        ],
+        "audible": false,
+        "coversAllDecodedVoiceSignal": true
+      },
+      "encoding": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-before/train-first-auto/reader-with-actual-audio.mp4",
+        "sha256": "bd561a2f411aab5e283fbcc9e52fb282cf3850a700736b2ac526d8171e2fdf7a",
+        "observedFrames": 154,
+        "pcmOffsetRelativeToFirstVideoFrameSeconds": 0.138908935546875,
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720,
+              "side_data_list": [
+                {}
+              ]
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "19.258000"
+          }
+        },
+        "scope": "Actual CDP screenshots at observed timestamps, muxed with the captured destination WAV at the AudioContext output timestamp. No source-file substitution, synthetic voice, dubbing, frame interpolation, or playback-rate change."
+      },
+      "manifestLine": null,
+      "nativeVoiceSources": [],
+      "contextClockDiscontinuities": [
+        {
+          "fromFrame": 910336,
+          "toFrame": 910208,
+          "missingFrames": -128,
+          "relativeStartSeconds": 17.856,
+          "relativeEndSeconds": 17.85333333333333,
+          "expectedVoicePeak": 0,
+          "coversDecodedVoiceSignal": false
+        },
+        {
+          "fromFrame": 910336,
+          "toFrame": 910208,
+          "missingFrames": -128,
+          "relativeStartSeconds": 17.856,
+          "relativeEndSeconds": 17.85333333333333,
+          "expectedVoicePeak": 0,
+          "coversDecodedVoiceSignal": false
+        },
+        {
+          "fromFrame": 910336,
+          "toFrame": 910592,
+          "missingFrames": 256,
+          "relativeStartSeconds": 17.856,
+          "relativeEndSeconds": 17.861333333333334,
+          "expectedVoicePeak": 0,
+          "coversDecodedVoiceSignal": false
+        }
+      ]
+    },
+    {
+      "checkpoint": {
+        "name": "train-first",
+        "script": "1001",
+        "nid": 1,
+        "textKey": "EVENT_AVGmain_1_1",
+        "duration": 17.1689375
+      },
+      "mode": "review",
+      "directory": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-before/train-first-review",
+      "measurements": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-before/train-first-review/measurements.json",
+        "sha256": "3c13ddbf287ce1f4cd9480c8216dbd4a1c4a359a60540d67f91f9e184f820516"
+      },
+      "before": {
+        "testid": "runner-state",
+        "status": "dialogue",
+        "scriptId": "1001",
+        "nid": "1",
+        "flowActionIndex": "1",
+        "visitId": "1",
+        "runId": "1",
+        "hiddenChoice": "false",
+        "inputReady": "false",
+        "textComplete": "true",
+        "historyOpen": "true",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "false",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      },
+      "after": {
+        "testid": "runner-state",
+        "status": "dialogue",
+        "scriptId": "1001",
+        "nid": "1",
+        "flowActionIndex": "1",
+        "visitId": "1",
+        "runId": "1",
+        "hiddenChoice": "false",
+        "inputReady": "false",
+        "textComplete": "true",
+        "historyOpen": "true",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "false",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      },
+      "trigger": {
+        "available": false,
+        "selector": "[data-testid=\"history-voice\"][data-script-id=\"1001\"][data-node-id=\"1\"]",
+        "history": [
+          {
+            "id": "1:1:dialogue",
+            "kind": "dialogue",
+            "speaker": "???",
+            "text": "Attention, passengers. We are now approaching the final station of this line. Please take your belongings and prepare to exit from the platform on the right. Thank you, meow...",
+            "buttons": []
+          }
+        ]
+      },
+      "actualAudio": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-before/train-first-review/destination.wav",
+        "sha256": "2ec3701ab4449af536f2f67be443a965c3c8de8d46c561330ab4a461e343376e",
+        "rawObservedPCM": {
+          "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-before/train-first-review/observed-destination.f32le",
+          "sha256": "40d0505d2846cfecf0ddc7bb61cca2cdab13a0a9e2f51a6d10917d9d2e0ea75b",
+          "frames": 104448
+        },
+        "format": "IEEE float32 LE stereo WAV",
+        "source": "actual AudioContext destination connections mirrored after their channel gains; explicit context gaps are retained in the block index and zero-filled in this timeline WAV",
+        "durationSeconds": 2.176,
+        "channels": [
+          {
+            "channel": 0,
+            "rms": 0,
+            "peak": 0,
+            "nonzeroSamples": 0
+          },
+          {
+            "channel": 1,
+            "rms": 0,
+            "peak": 0,
+            "nonzeroSamples": 0
+          }
+        ],
+        "audible": false,
+        "coversAllDecodedVoiceSignal": true
+      },
+      "encoding": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-before/train-first-review/reader-with-actual-audio.mp4",
+        "sha256": "fd5cca0c88b128fb55acfe4e7958dab8a0b1d0eb49dc1702b91e9a6c954d8a3b",
+        "observedFrames": 13,
+        "pcmOffsetRelativeToFirstVideoFrameSeconds": 0.142702880859375,
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720,
+              "side_data_list": [
+                {}
+              ]
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "2.067000"
+          }
+        },
+        "scope": "Actual CDP screenshots at observed timestamps, muxed with the captured destination WAV at the AudioContext output timestamp. No source-file substitution, synthetic voice, dubbing, frame interpolation, or playback-rate change."
+      },
+      "manifestLine": null,
+      "nativeVoiceSources": [],
+      "contextClockDiscontinuities": []
+    },
+    {
+      "checkpoint": {
+        "name": "chisa",
+        "script": "1004",
+        "nid": 3,
+        "textKey": "EVENT_AVGmain_15_3",
+        "duration": 15.251770833
+      },
+      "mode": "auto",
+      "directory": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-before/chisa-auto",
+      "measurements": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-before/chisa-auto/measurements.json",
+        "sha256": "791bf56876e8b38546c5a3f5e58f1983274f25a185df17b4a5566bfb47433ae5"
+      },
+      "before": {
+        "testid": "runner-state",
+        "status": "dialogue",
+        "scriptId": "1004",
+        "nid": "2",
+        "flowActionIndex": "1",
+        "visitId": "33",
+        "runId": "1",
+        "hiddenChoice": "false",
+        "inputReady": "false",
+        "textComplete": "true",
+        "historyOpen": "false",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "false",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      },
+      "after": {
+        "testid": "runner-state",
+        "status": "dialogue",
+        "scriptId": "1004",
+        "nid": "3",
+        "flowActionIndex": "1",
+        "visitId": "34",
+        "runId": "1",
+        "hiddenChoice": "false",
+        "inputReady": "true",
+        "textComplete": "true",
+        "historyOpen": "false",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "false",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      },
+      "trigger": {
+        "available": true,
+        "publicControl": "ordinary Advance from 1004/2"
+      },
+      "actualAudio": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-before/chisa-auto/destination.wav",
+        "sha256": "420e71ddefd100c9630584df6ee545379322f8a487025c19bfc1444db829dd66",
+        "rawObservedPCM": {
+          "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-before/chisa-auto/observed-destination.f32le",
+          "sha256": "836eb8fc49620fccb2486032e17cb78e48b6e0bf08e7d4dbef6833beb77d6095",
+          "frames": 860160
+        },
+        "format": "IEEE float32 LE stereo WAV",
+        "source": "actual AudioContext destination connections mirrored after their channel gains; explicit context gaps are retained in the block index and zero-filled in this timeline WAV",
+        "durationSeconds": 17.92,
+        "channels": [
+          {
+            "channel": 0,
+            "rms": 0,
+            "peak": 0,
+            "nonzeroSamples": 0
+          },
+          {
+            "channel": 1,
+            "rms": 0,
+            "peak": 0,
+            "nonzeroSamples": 0
+          }
+        ],
+        "audible": false,
+        "coversAllDecodedVoiceSignal": true
+      },
+      "encoding": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-before/chisa-auto/reader-with-actual-audio.mp4",
+        "sha256": "eaaf9c6627ed4d78262de0b79fd87298108ddb1cd2ae0bf9c57196607ce819f0",
+        "observedFrames": 70,
+        "pcmOffsetRelativeToFirstVideoFrameSeconds": 0.15401611328125,
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720,
+              "side_data_list": [
+                {}
+              ]
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "17.470000"
+          }
+        },
+        "scope": "Actual CDP screenshots at observed timestamps, muxed with the captured destination WAV at the AudioContext output timestamp. No source-file substitution, synthetic voice, dubbing, frame interpolation, or playback-rate change."
+      },
+      "manifestLine": null,
+      "nativeVoiceSources": [],
+      "contextClockDiscontinuities": [
+        {
+          "fromFrame": 2097280,
+          "toFrame": 2097152,
+          "missingFrames": -128,
+          "relativeStartSeconds": 6.104,
+          "relativeEndSeconds": 6.101333333333334,
+          "expectedVoicePeak": 0,
+          "coversDecodedVoiceSignal": false
+        },
+        {
+          "fromFrame": 2097280,
+          "toFrame": 2097408,
+          "missingFrames": 128,
+          "relativeStartSeconds": 6.104,
+          "relativeEndSeconds": 6.1066666666666665,
+          "expectedVoicePeak": 0,
+          "coversDecodedVoiceSignal": false
+        },
+        {
+          "fromFrame": 2559744,
+          "toFrame": 2559616,
+          "missingFrames": -128,
+          "relativeStartSeconds": 15.738666666666667,
+          "relativeEndSeconds": 15.736,
+          "expectedVoicePeak": 0,
+          "coversDecodedVoiceSignal": false
+        },
+        {
+          "fromFrame": 2559744,
+          "toFrame": 2559872,
+          "missingFrames": 128,
+          "relativeStartSeconds": 15.738666666666667,
+          "relativeEndSeconds": 15.741333333333333,
+          "expectedVoicePeak": 0,
+          "coversDecodedVoiceSignal": false
+        }
+      ]
+    },
+    {
+      "checkpoint": {
+        "name": "chisa",
+        "script": "1004",
+        "nid": 3,
+        "textKey": "EVENT_AVGmain_15_3",
+        "duration": 15.251770833
+      },
+      "mode": "review",
+      "directory": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-before/chisa-review",
+      "measurements": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-before/chisa-review/measurements.json",
+        "sha256": "b28a16510ff1f4dd3447b2238d6a1b9803707f7d06eb118262a41f7f682706bd"
+      },
+      "before": {
+        "testid": "runner-state",
+        "status": "dialogue",
+        "scriptId": "1004",
+        "nid": "3",
+        "flowActionIndex": "1",
+        "visitId": "34",
+        "runId": "1",
+        "hiddenChoice": "false",
+        "inputReady": "false",
+        "textComplete": "true",
+        "historyOpen": "true",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "false",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      },
+      "after": {
+        "testid": "runner-state",
+        "status": "dialogue",
+        "scriptId": "1004",
+        "nid": "3",
+        "flowActionIndex": "1",
+        "visitId": "34",
+        "runId": "1",
+        "hiddenChoice": "false",
+        "inputReady": "false",
+        "textComplete": "true",
+        "historyOpen": "true",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "false",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      },
+      "trigger": {
+        "available": false,
+        "selector": "[data-testid=\"history-voice\"][data-script-id=\"1004\"][data-node-id=\"3\"]",
+        "history": [
+          {
+            "id": "1:1:dialogue",
+            "kind": "dialogue",
+            "speaker": "???",
+            "text": "Attention, passengers. We are now approaching the final station of this line. Please take your belongings and prepare to exit from the platform on the right. Thank you, meow...",
+            "buttons": []
+          },
+          {
+            "id": "1:2:dialogue",
+            "kind": "dialogue",
+            "speaker": "Rover",
+            "text": "(I... I fell asleep on the train? Looks like this is the end of the line. I'd better get off...)",
+            "buttons": []
+          },
+          {
+            "id": "1:3:dialogue",
+            "kind": "dialogue",
+            "speaker": "Narrator",
+            "text": "The other passengers seem to have left long ago, leaving the train car empty but for you. You glance around, gather your few belongings, and step out.",
+            "buttons": []
+          },
+          {
+            "id": "1:4:dialogue",
+            "kind": "dialogue",
+            "speaker": "Narrator",
+            "text": "An aqua-blue butterfly flutters from a gap in the luggage rack. It lingers in the empty car for a moment, then gently follows in your wake.",
+            "buttons": []
+          },
+          {
+            "id": "1:5:dialogue",
+            "kind": "dialogue",
+            "speaker": "Narrator",
+            "text": "The hum of a radio broadcast, the rain-drenched scent of grass and trees on the wind, and a clear sky unbroken by a single skyscraper...",
+            "buttons": []
+          },
+          {
+            "id": "1:6:dialogue",
+            "kind": "dialogue",
+            "speaker": "Narrator",
+            "text": "After eight long hours of travel, you're back in the small town where you lived as a child. For the next year, this will be your home.",
+            "buttons": []
+          },
+          {
+            "id": "1:7:dialogue",
+            "kind": "dialogue",
+            "speaker": "Rover",
+            "text": "(After getting off, head straight along the sidewalk to reach the reception area. Someone will be waiting by the second pillar to the right of the reception desk.)",
+            "buttons": []
+          },
+          {
+            "id": "1:8:dialogue",
+            "kind": "dialogue",
+            "speaker": "Rover",
+            "text": "Right, this should be the place from the message. But... nobody's here.",
+            "buttons": []
+          },
+          {
+            "id": "1:9:dialogue",
+            "kind": "dialogue",
+            "speaker": "Abby",
+            "text": "Excuse me? Your Uncle Abby's been waiting for thirty minutes already.",
+            "buttons": [
+              {
+                "label": "Replay Abby voice",
+                "script": "1001",
+                "nid": "9"
+              }
+            ]
+          },
+          {
+            "id": "1:10:dialogue",
+            "kind": "dialogue",
+            "speaker": "Abby",
+            "text": "Hey, over here! Quit gawking. I'm right here\u2014look down!",
+            "buttons": [
+              {
+                "label": "Replay Abby voice",
+                "script": "1001",
+                "nid": "10"
+              }
+            ]
+          },
+          {
+            "id": "1:11:dialogue",
+            "kind": "dialogue",
+            "speaker": "Rover",
+            "text": "Y-you... you can talk? Sorry, I thought you were a plushie someone left here. You're, uh... Abby?",
+            "buttons": []
+          },
+          {
+            "id": "1:12:dialogue",
+            "kind": "dialogue",
+            "speaker": "Abby",
+            "text": "P-Plushie?! Kids these days. Zero respect for their elders!",
+            "buttons": [
+              {
+                "label": "Replay Abby voice",
+                "script": "1001",
+                "nid": "12"
+              }
+            ]
+          },
+          {
+            "id": "1:13:dialogue",
+            "kind": "dialogue",
+            "speaker": "Abby",
+            "text": "...Hah. Whatever. Guess it makes sense you don't remember me. Been years. Come on, we'll catch up in the car.",
+            "buttons": [
+              {
+                "label": "Replay Abby voice",
+                "script": "1001",
+                "nid": "13"
+              }
+            ]
+          },
+          {
+            "id": "1:14:dialogue",
+            "kind": "dialogue",
+            "speaker": "Rover",
+            "text": "Abby... uh, Uncle Abby? Have we met before?",
+            "buttons": []
+          },
+          {
+            "id": "1:15:dialogue",
+            "kind": "dialogue",
+            "speaker": "Abby",
+            "text": "Are you kidding me? I held you when you were a baby! Here, hand me your luggage.",
+            "buttons": [
+              {
+                "label": "Replay Abby voice",
+                "script": "1001",
+                "nid": "15"
+              }
+            ]
+          },
+          {
+            "id": "1:16:dialogue",
+            "kind": "dialogue",
+            "speaker": "Rover",
+            "text": "(Feels like I just gained memories that don't exist... Were Abby and I really that close?)",
+            "buttons": []
+          },
+          {
+            "id": "1:17:dialogue",
+            "kind": "dialogue",
+            "speaker": "Rover",
+            "text": "(Abby, Abby... Ab...xasra? Abraxas? Abracadabra?)",
+            "buttons": []
+          },
+          {
+            "id": "1:18:dialogue",
+            "kind": "dialogue",
+            "speaker": "Narrator",
+            "text": "You can't say why, but... somehow, that's just how Abby's name is supposed to feel.",
+            "buttons": []
+          },
+          {
+            "id": "1:19:dialogue",
+            "kind": "dialogue",
+            "speaker": "Narrator",
+            "text": "As for why you can't remember anything from before, it's likely because you slept through the entire train ride when you first arrived here. Hard to make sense of anything while you're still dreaming.",
+            "buttons": []
+          },
+          {
+            "id": "1:20:dialogue",
+            "kind": "dialogue",
+            "speaker": "Narrator",
+            "text": "Paying no mind to your bewildered look, Abby turns around, grabs hold of a suitcase three times its size, and hauls it forward with all its might\u2014advancing a legendary four inches.",
+            "buttons": []
+          },
+          {
+            "id": "1:21:dialogue",
+            "kind": "dialogue",
+            "speaker": "Rover",
+            "text": "...",
+            "buttons": []
+          },
+          {
+            "id": "1:22:dialogue",
+            "kind": "dialogue",
+            "speaker": "Rover",
+            "text": "Um, I'll just carry it myself. Uncle... Abby.",
+            "buttons": []
+          },
+          {
+            "id": "1:23:dialogue",
+            "kind": "dialogue",
+            "speaker": "Abby",
+            "text": "Welcome to your new home. Like what you see?",
+            "buttons": [
+              {
+                "label": "Replay Abby voice",
+                "script": "1003",
+                "nid": "1"
+              }
+            ]
+          },
+          {
+            "id": "1:23:choice",
+            "kind": "choice",
+            "speaker": "Rover chose",
+            "text": "It's a nice place. I like it.",
+            "buttons": []
+          },
+          {
+            "id": "1:24:dialogue",
+            "kind": "dialogue",
+            "speaker": "Abby",
+            "text": "Heh-heh. 'Course it is. I spent all weekend tidying it all up!",
+            "buttons": [
+              {
+                "label": "Replay Abby voice",
+                "script": "1003",
+                "nid": "2"
+              }
+            ]
+          },
+          {
+            "id": "1:25:dialogue",
+            "kind": "dialogue",
+            "speaker": "Abby",
+            "text": "Anyway, here's your key. This room's yours for the next year.",
+            "buttons": [
+              {
+                "label": "Replay Abby voice",
+                "script": "1003",
+                "nid": "4"
+              }
+            ]
+          },
+          {
+            "id": "1:26:dialogue",
+            "kind": "dialogue",
+            "speaker": "Abby",
+            "text": "Decor, furniture, hosting friends... that's all your call.",
+            "buttons": [
+              {
+                "label": "Replay Abby voice",
+                "script": "1003",
+                "nid": "5"
+              }
+            ]
+          },
+          {
+            "id": "1:27:dialogue",
+            "kind": "dialogue",
+            "speaker": "Abby",
+            "text": "I'm pretty chill as far as guardians go. But you've got an exam to worry about. So don't stay out too late, or I might have to tighten the purse strings.",
+            "buttons": [
+              {
+                "label": "Replay Abby voice",
+                "script": "1003",
+                "nid": "6"
+              }
+            ]
+          },
+          {
+            "id": "1:27:choice",
+            "kind": "choice",
+            "speaker": "Rover chose",
+            "text": "Do you know my family well, Abby?",
+            "buttons": []
+          },
+          {
+            "id": "1:28:dialogue",
+            "kind": "dialogue",
+            "speaker": "Narrator",
+            "text": "Abby blinks at your question for a second, then gives a firm, emphatic nod.",
+            "buttons": []
+          },
+          {
+            "id": "1:29:dialogue",
+            "kind": "dialogue",
+            "speaker": "Abby",
+            "text": "'Course I do! They wouldn't have shipped you off to me otherwise. Hang on... they didn't mention me at all, did they?",
+            "buttons": [
+              {
+                "label": "Replay Abby voice",
+                "script": "1003",
+                "nid": "8"
+              }
+            ]
+          },
+          {
+            "id": "1:30:dialogue",
+            "kind": "dialogue",
+            "speaker": "Rover",
+            "text": "...Maybe I just forgot.",
+            "buttons": []
+          },
+          {
+            "id": "1:31:dialogue",
+            "kind": "dialogue",
+            "speaker": "Abby",
+            "text": "All right. Get settled in. Fifteen minutes, and I'm taking you to try out some of the local specialties.",
+            "buttons": [
+              {
+                "label": "Replay Abby voice",
+                "script": "1003",
+                "nid": "12"
+              }
+            ]
+          },
+          {
+            "id": "1:32:dialogue",
+            "kind": "dialogue",
+            "speaker": "Chisa",
+            "text": "Here is your beef and tofu hotpot, Principal. Dipping sauces and drinks are over there. And this... is an automatic hotpot defoaming device I developed based on suggestions from my classmates.",
+            "buttons": [
+              {
+                "label": "Replay Chisa voice",
+                "script": "1004",
+                "nid": "1"
+              }
+            ]
+          },
+          {
+            "id": "1:33:dialogue",
+            "kind": "dialogue",
+            "speaker": "Narrator",
+            "text": "After setting the dishes on the table, the black-haired girl in a school uniform brings out a strange device attached to a motor.",
+            "buttons": []
+          },
+          {
+            "id": "1:34:dialogue",
+            "kind": "dialogue",
+            "speaker": "Chisa",
+            "text": "Would you like to try it? It's a two-part design, fully powered and highly efficient. I made sure it's completely safe this time. Still, please watch your fingers when you\u2014",
+            "buttons": []
+          }
+        ]
+      },
+      "actualAudio": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-before/chisa-review/destination.wav",
+        "sha256": "3720e7ab34b5961222199150f96207e179ce501ee92a201585acd1f518421350",
+        "rawObservedPCM": {
+          "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-before/chisa-review/observed-destination.f32le",
+          "sha256": "4c301f2c36770ce22564d5f0b692003b1122f7e664b8c4ef17170755743af7c5",
+          "frames": 147456
+        },
+        "format": "IEEE float32 LE stereo WAV",
+        "source": "actual AudioContext destination connections mirrored after their channel gains; explicit context gaps are retained in the block index and zero-filled in this timeline WAV",
+        "durationSeconds": 3.072,
+        "channels": [
+          {
+            "channel": 0,
+            "rms": 0,
+            "peak": 0,
+            "nonzeroSamples": 0
+          },
+          {
+            "channel": 1,
+            "rms": 0,
+            "peak": 0,
+            "nonzeroSamples": 0
+          }
+        ],
+        "audible": false,
+        "coversAllDecodedVoiceSignal": true
+      },
+      "encoding": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-before/chisa-review/reader-with-actual-audio.mp4",
+        "sha256": "95f53cd0ee25f86d0473ae67dcbca6e5bb4f9beb7e1b3a4351c4df25e16624c2",
+        "observedFrames": 5,
+        "pcmOffsetRelativeToFirstVideoFrameSeconds": 0.145132080078125,
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720,
+              "side_data_list": [
+                {}
+              ]
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "2.515000"
+          }
+        },
+        "scope": "Actual CDP screenshots at observed timestamps, muxed with the captured destination WAV at the AudioContext output timestamp. No source-file substitution, synthetic voice, dubbing, frame interpolation, or playback-rate change."
+      },
+      "manifestLine": null,
+      "nativeVoiceSources": [],
+      "contextClockDiscontinuities": []
+    }
+  ],
+  "routeProgress": {
+    "phase": "before",
+    "route": "opening",
+    "steps": 33,
+    "last": {
+      "before": {
+        "testid": "runner-state",
+        "status": "dialogue",
+        "scriptId": "1004",
+        "nid": "2",
+        "flowActionIndex": "1",
+        "visitId": "33",
+        "runId": "1",
+        "hiddenChoice": "false",
+        "inputReady": "true",
+        "textComplete": "true",
+        "historyOpen": "false",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "false",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      },
+      "action": {
+        "selector": "[data-testid=\"advance\"]",
+        "kind": "advance"
+      },
+      "after": {
+        "testid": "runner-state",
+        "status": "dialogue",
+        "scriptId": "1004",
+        "nid": "3",
+        "flowActionIndex": "1",
+        "visitId": "34",
+        "runId": "1",
+        "hiddenChoice": "false",
+        "inputReady": "false",
+        "textComplete": "true",
+        "historyOpen": "false",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "false",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      }
+    }
+  },
+  "cleanupFailure": "Recordings completed, then Chromium profile removal raced a still-writing child: ENOTEMPTY /tmp/reader-voice-cB8kOe/Default. REA subsequently verified owned process-group cleanup.",
+  "scope": "Salvaged from completed per-recording results after final temporary-profile cleanup failed. The preserved executed harness navigates only to the public Reader root and uses Start, eligible opening choices, ordinary advances, and Story Review. All four recordings contain actual silent destination PCM with JA selected, voice=1 and music/effects=0. Story Review has no replay button for either authored line. No speech or source audio is dubbed into these files. Raw observed PCM blocks and virtual context-frame discontinuities are retained. Before clips have zero-valued samples across all observed blocks; the timeline WAV also zero-fills explicitly unobserved clock positions.",
+  "limitations": [
+    "The served-response ledger and full in-memory navigation list were not finalized because profile cleanup threw; frozen site/executed-harness identities, actual videos, per-recording Reader states, audio telemetry, the last route progress, and controlled-process evidence remain retained.",
+    "Later-cycle 1002/1 and1002/2 have the same missing source-manifest mappings in this frozen build; their public-route runtime recordings remain pending."
+  ]
+}

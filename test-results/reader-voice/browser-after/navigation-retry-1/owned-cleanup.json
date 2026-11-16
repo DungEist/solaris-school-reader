@@ -1,0 +1,21 @@
+{
+  "selectedOwnedPid": 2285465,
+  "verifiedCommand": [
+    "/usr/bin/node",
+    "tools/reader-voice-browser.mjs",
+    "--phase=after",
+    "--route=later",
+    "--route-seconds=1200",
+    "--reuse-completed=true"
+  ],
+  "verifiedProcessGroup": 2285465,
+  "signal": "SIGTERM",
+  "remainingLiveProcessesAfterTERM": [],
+  "profiles": [
+    {
+      "profile": "/tmp/reader-voice-WTF8w3",
+      "removed": true
+    }
+  ],
+  "reason": "Stop the source-unaware navigation loop after the client tool deadline; completed voice recordings are retained."
+}

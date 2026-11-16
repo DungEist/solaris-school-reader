@@ -1,6 +1,8 @@
 Solaris School Reader provides a complete school-year playthrough at **/** and a separate developer interface at **/debug**, sharing one engine, stage, reveal controller, quiz controller, and History. Choices carry authored attributes, favor, inventory, flags, requests, exams, and ending progress across scenes. The Reader shows gains, item/request receipts, and separate relationship confirmations using local game artwork. Conditions, route IDs, and overrides stay in Developer. See the [route and reference verification](docs/ROUTE_DATA_EVIDENCE.md), [Reader consequences](docs/READER_CONSEQUENCES.md), and [Reader UI report](docs/READER_UI.md) for controls, evidence, and limits. All 11 previously unresolved hidden prerequisites and their source order are established; missing state in an arbitrary imported scene remains explicit.
 
-Use Node.js 22.18 or newer and Python 3. This repository includes the prepared English dataset, character resources, Reader UI/VFX assets and curated catchlight reports/recordings. To run a checkout:
+The shared voice pipeline follows original PlotAudio line keys, including anonymous speakers and authored filename aliases. Complete voice coverage, source-processing repairs and playback evidence are in [Reader spoken dialogue](docs/READER_VOICES.md).
+
+Use Node.js 22.18 or newer and Python 3. This repository includes the prepared English dataset, character resources, Reader UI/VFX assets and curated catchlight and voice evidence. To run a checkout:
 
 ```sh
 npm ci

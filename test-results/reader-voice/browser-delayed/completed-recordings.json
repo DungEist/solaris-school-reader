@@ -1,0 +1,200 @@
+{
+  "phase": "after",
+  "route": "delayed",
+  "source": {
+    "html": {
+      "file": "/home/deist/Downloads/2ndsol/dist/index.html",
+      "sha256": "a1e9787426a867ef1da9c6e33cd97db8412b536fbc26e5303229c29a42f8669d"
+    },
+    "audioManifest": {
+      "file": "/home/deist/Downloads/2ndsol/dist/data/maps/audio-playback.json",
+      "sha256": "098f3d4cf6e64298ead419122beaa2d112963658f9a02cf6d512f3ab2f4146dc"
+    },
+    "harness": {
+      "file": "/home/deist/Downloads/2ndsol/tools/reader-voice-browser.mjs",
+      "sha256": "383f2f6f54e1d35489683346a1a387db992d8a9b5bd5dd4230a6c14b8d52495c"
+    }
+  },
+  "cases": [
+    {
+      "checkpoint": {
+        "name": "train-first",
+        "script": "1001",
+        "nid": 1,
+        "textKey": "EVENT_AVGmain_1_1",
+        "duration": 17.1689375
+      },
+      "mode": "auto",
+      "directory": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-delayed/train-first-auto",
+      "actualAudio": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-delayed/train-first-auto/destination.wav",
+        "sha256": "9d4c50e05a62c926d8eedaee4c2741d8b3d2c2ae7298cda3ac06ca3c037ea265",
+        "rawObservedPCM": {
+          "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-delayed/train-first-auto/observed-destination.f32le",
+          "sha256": "6b345b64708839527b53fa1b84ac3988d5256ea8efa7976e9367bb9f67dfe456",
+          "frames": 929792
+        },
+        "format": "IEEE float32 LE stereo WAV",
+        "source": "actual AudioContext destination connections mirrored after their channel gains; exact chronological observed output blocks without interpolation or inserted samples",
+        "durationSeconds": 19.370666666666665,
+        "channels": [
+          {
+            "channel": 0,
+            "rms": 0.017186634681832777,
+            "peak": 0.15281209349632263,
+            "nonzeroSamples": 823837
+          },
+          {
+            "channel": 1,
+            "rms": 0.016929953194297354,
+            "peak": 0.13492156565189362,
+            "nonzeroSamples": 823894
+          }
+        ],
+        "audible": true,
+        "voiceComparisons": [
+          {
+            "sourceIndex": 0,
+            "oracle": {
+              "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-delayed/train-first-auto/decoded-voice-oracle-0.f32le",
+              "sha256": "59799e864ed8d898a11c67f801f49d33ce96a6228913d525a6aa01a4201d55f2",
+              "purpose": "verification oracle only; never used as delivered video/audio"
+            },
+            "sourceChannels": 2,
+            "destinationChannels": 2,
+            "monoUpmix": false,
+            "decodedFrames": 824109,
+            "offsetFrames": 12288,
+            "offsetSeconds": 0.256,
+            "completeBounds": true,
+            "maximumSampleError": 0,
+            "rootMeanSquaredError": 0,
+            "passed": true
+          }
+        ],
+        "coversAllDecodedVoiceSignal": true
+      },
+      "encoding": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-delayed/train-first-auto/reader-with-actual-audio.mp4",
+        "sha256": "e80e9bc02e71ddc6d1450a653f942d80b5b509b41b08d151b4a28d4e33d2ee1e",
+        "observedFrames": 140,
+        "pcmOffsetRelativeToFirstVideoFrameSeconds": 0.163202392578125,
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720,
+              "side_data_list": [
+                {}
+              ]
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "19.356000"
+          }
+        },
+        "scope": "Actual CDP screenshots at observed timestamps, muxed with the captured destination WAV at the AudioContext output timestamp. No source-file substitution, synthetic voice, dubbing, frame interpolation, or playback-rate change."
+      }
+    },
+    {
+      "checkpoint": {
+        "name": "train-first",
+        "script": "1001",
+        "nid": 1,
+        "textKey": "EVENT_AVGmain_1_1",
+        "duration": 17.1689375
+      },
+      "mode": "review",
+      "directory": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-delayed/train-first-review",
+      "actualAudio": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-delayed/train-first-review/destination.wav",
+        "sha256": "4e7b27cb98a79d51fb8b506882b8bed66303afa162fbb74ee3eeda025dcc5c5b",
+        "rawObservedPCM": {
+          "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-delayed/train-first-review/observed-destination.f32le",
+          "sha256": "7e2ecd00f4fb883700942765ed864f43fe03143a64c1286b23c8094d8717e033",
+          "frames": 950272
+        },
+        "format": "IEEE float32 LE stereo WAV",
+        "source": "actual AudioContext destination connections mirrored after their channel gains; exact chronological observed output blocks without interpolation or inserted samples",
+        "durationSeconds": 19.797333333333334,
+        "channels": [
+          {
+            "channel": 0,
+            "rms": 0.017000425128165332,
+            "peak": 0.15281209349632263,
+            "nonzeroSamples": 823837
+          },
+          {
+            "channel": 1,
+            "rms": 0.016746524670547255,
+            "peak": 0.13492156565189362,
+            "nonzeroSamples": 823894
+          }
+        ],
+        "audible": true,
+        "voiceComparisons": [
+          {
+            "sourceIndex": 0,
+            "oracle": {
+              "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-delayed/train-first-review/decoded-voice-oracle-0.f32le",
+              "sha256": "59799e864ed8d898a11c67f801f49d33ce96a6228913d525a6aa01a4201d55f2",
+              "purpose": "verification oracle only; never used as delivered video/audio"
+            },
+            "sourceChannels": 2,
+            "destinationChannels": 2,
+            "monoUpmix": false,
+            "decodedFrames": 824109,
+            "offsetFrames": 20480,
+            "offsetSeconds": 0.4266666666666667,
+            "completeBounds": true,
+            "maximumSampleError": 0,
+            "rootMeanSquaredError": 0,
+            "passed": true
+          }
+        ],
+        "coversAllDecodedVoiceSignal": true
+      },
+      "encoding": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-delayed/train-first-review/reader-with-actual-audio.mp4",
+        "sha256": "06abc9b6e1d70c97b24513d44dfef6ac0e01ed9e64c6d2ed320f43022257cd07",
+        "observedFrames": 89,
+        "pcmOffsetRelativeToFirstVideoFrameSeconds": 0.1597890625,
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720,
+              "side_data_list": [
+                {}
+              ]
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "19.572000"
+          }
+        },
+        "scope": "Actual CDP screenshots at observed timestamps, muxed with the captured destination WAV at the AudioContext output timestamp. No source-file substitution, synthetic voice, dubbing, frame interpolation, or playback-rate change."
+      }
+    }
+  ]
+}

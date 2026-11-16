@@ -5,6 +5,10 @@ import { voiceAssets } from './AudioManifest.ts';
 import type { AudioChannel, AudioClip, AudioCue, AudioLayer, AudioManifest } from './AudioManifest.ts';
 
 interface Playback { cue: string; channel: AudioChannel; assets: string[]; loop: boolean; active: boolean; sources: AudioBufferSourceNode[]; nodes: GainNode[]; analyser?: AnalyserNode; timers: ReturnType<typeof setTimeout>[]; startedAt: number; }
+interface VoiceRequest {
+  kind: 'line' | 'review' | 'cue'; cue: string; script: string; nid: number; cues: readonly string[];
+  runId: number; sceneId: number; visitId?: number; gender?: string;
+}
 export interface AudioObservation { cue: string; asset?: string; status: 'loaded' | 'decoded' | 'scheduled' | 'played' | 'ended' | 'stopped' | 'missing' | 'failed' | 'skipped'; detail?: string; at: number; }
 export interface AudioSnapshot { ready: boolean; unlocked: boolean; language: string; languages: readonly string[]; volumes: Readonly<Record<AudioChannel, number>>; }
 
@@ -23,6 +27,8 @@ export class ReaderAudio {
   private serial = 0;
   private seen = new Set<string>();
   private pendingPersistent = new Map<string, string>();
+  private pendingVoice: VoiceRequest | null = null;
+  private disposed = false;
   private state: AudioSnapshot = Object.freeze({ ready: false, unlocked: false, language: 'ja', languages: [], volumes: { music: 0.65, effects: 0.7, voice: 1 } });
   readonly observations: AudioObservation[] = [];
   private runner: Pick<ScriptRunner, 'onEvent' | 'subscribe' | 'getSnapshot'>;
@@ -39,22 +45,28 @@ export class ReaderAudio {
       const response = await this.fetcher(url); if (!response.ok) throw new Error(`Audio manifest HTTP ${response.status}`);
       const manifest: AudioManifest = await response.json();
       if (manifest.schema !== 1 || !manifest.events || !manifest.assets || !manifest.lines) throw new Error('Invalid audio manifest');
+      if (this.disposed) return;
       this.manifest = manifest;
-      this.update({ languages: manifest.languages, language: manifest.languages.includes('ja') ? 'ja' : manifest.languages[0] ?? 'ja' });
+      this.update({ languages: manifest.languages, language: manifest.languages.includes(this.state.language) ? this.state.language : manifest.languages.includes('ja') ? 'ja' : manifest.languages[0] ?? 'ja' });
     } catch (error) { this.note('manifest', 'failed', undefined, String(error)); }
+    if (this.disposed) return;
     this.update({ ready: true });
+    this.flushVoice();
   }
   /** Called synchronously by a real pointer/key gesture, before any async scene load. */
   unlock(): void {
+    if (this.disposed) return;
     try {
       this.context ??= new AudioContext();
       for (const channel of ['music', 'effects', 'voice'] as const) if (!this.gains[channel]) {
         const gain = this.context.createGain(); gain.gain.value = this.state.volumes[channel]; gain.connect(this.context.destination); this.gains[channel] = gain;
       }
       void this.context.resume().then(() => {
+        if (this.disposed) return;
         this.update({ unlocked: this.context?.state === 'running' });
         for (const [slot, cue] of this.pendingPersistent) this.playCue(cue, slot);
         this.pendingPersistent.clear();
+        this.flushVoice();
       }).catch(error => this.note('gesture', 'failed', undefined, String(error)));
     } catch (error) { this.note('gesture', 'failed', undefined, String(error)); }
   }
@@ -63,16 +75,40 @@ export class ReaderAudio {
     this.update({ volumes: Object.freeze({ ...this.state.volumes, [channel]: level }) });
     this.gains[channel]?.gain.setTargetAtTime(level, this.context!.currentTime, 0.02);
   }
-  language(value: string): void { if (this.state.languages.includes(value)) { this.stopSlot('voice'); this.update({ language: value }); } }
+  language(value: string): void { if (this.state.languages.includes(value)) { this.stopSlot('voice'); this.update({ language: value }); this.flushVoice(); } }
   resolvedVoice(script: string, nid: number, cues: readonly string[] = [], gender = 'male'): string[] {
     return this.manifest ? voiceAssets(this.manifest, script, nid, this.state.language, gender, cues) : [];
   }
   replay(script: string, nid: number, cues: readonly string[] = [], gender = 'male'): void {
-    this.unlock(); const ids = this.resolvedVoice(script, nid, cues, gender);
-    if (ids.length) this.start('voice', `review:${script}:${nid}`, 'voice', ids, false);
+    this.unlock();
+    this.requestVoice({ kind: 'review', cue: `review:${script}:${nid}`, script, nid, cues, gender });
   }
-  stopVoice(): void { this.stopSlot('voice'); }
-  dispose(): void { this.stopAll(); this.unsubscribe.forEach(stop => stop()); this.listeners.clear(); Object.values(this.analysers).forEach(node => node.disconnect()); void this.context?.close(); }
+  stopVoice(): void { this.pendingVoice = null; this.stopSlot('voice'); }
+  dispose(): void { this.disposed = true; this.stopAll(); this.unsubscribe.forEach(stop => stop()); this.listeners.clear(); Object.values(this.analysers).forEach(node => node.disconnect()); void this.context?.close(); }
+  /** Retain only the latest player-owned request while loading or unlocking.
+   * Readiness is not a second dialogue event, and never replays a restored line. */
+  private requestVoice(request: Omit<VoiceRequest, 'runId' | 'sceneId'>): void {
+    this.stopVoice();
+    if (this.disposed) return;
+    const snapshot = this.runner.getSnapshot();
+    this.pendingVoice = { ...request, runId: snapshot.runId, sceneId: snapshot.sceneId };
+    this.flushVoice();
+  }
+  private flushVoice(): void {
+    const request = this.pendingVoice;
+    if (!request || this.disposed || !this.manifest || !this.state.unlocked || this.context?.state !== 'running') return;
+    const snapshot = this.runner.getSnapshot();
+    if (snapshot.runId !== request.runId || snapshot.sceneId !== request.sceneId ||
+        (request.kind === 'line' && (snapshot.scriptId !== request.script || snapshot.nid !== request.nid || snapshot.visitId !== request.visitId || !snapshot.dialogue || snapshot.stagePhase === 'end'))) {
+      this.stopVoice(); return;
+    }
+    this.pendingVoice = null;
+    const ids = voiceAssets(this.manifest, request.kind === 'cue' ? '' : request.script, request.nid, this.state.language, request.gender ?? this.gender, request.cues);
+    if (!ids.length) return;
+    const event = request.kind === 'cue' ? this.manifest.events[request.cue] : undefined;
+    const selected = event && !event.sequence ? [ids[this.serial++ % ids.length]] : ids;
+    this.start('voice', request.cue, 'voice', event?.clips?.map(clip => clip.asset) ?? selected, false, event?.clips);
+  }
   private update(patch: Partial<AudioSnapshot>): void { this.state = Object.freeze({ ...this.state, ...patch }); for (const notify of this.listeners) notify(); }
   private note(cue: string, status: AudioObservation['status'], asset?: string, detail?: string): void {
     this.observations.push({ cue, asset, status, detail, at: performance.now() });
@@ -83,6 +119,7 @@ export class ReaderAudio {
     if (snapshot.runId !== this.run) { this.stopAll(); this.run = snapshot.runId; this.scene = snapshot.sceneId; this.seen.clear(); }
     else if (snapshot.sceneId !== this.scene) {
       this.scene = snapshot.sceneId;
+      this.stopVoice();
       for (const slot of this.tracks.keys()) if (slot !== 'music' && slot !== 'ambience') this.stopSlot(slot);
       for (const slot of this.pendingPersistent.keys()) if (slot !== 'music' && slot !== 'ambience') this.pendingPersistent.delete(slot);
     }
@@ -91,6 +128,7 @@ export class ReaderAudio {
   }
   private consume(event: RunnerEvent): void {
     this.sync();
+    if (event.runId !== this.runner.getSnapshot().runId) return;
     const key = `${event.runId}:${event.sequence}`;
     if (this.seen.has(key)) return; this.seen.add(key);
     if (event.type === 'checkpointRestored') {
@@ -102,7 +140,9 @@ export class ReaderAudio {
     }
     if (event.type === 'navigation' || event.type === 'choiceSelected' || event.type === 'completed') this.stopVoice();
     if (event.type === 'interactionVoice') {
-      this.stopVoice(); if (event.cue) this.playCue(event.cue, 'voice'); return;
+      this.stopVoice();
+      if (event.cue) this.requestVoice({ kind: 'cue', cue: event.cue, script: event.scriptId, nid: event.nid ?? -1, cues: [event.cue] });
+      return;
     }
     if (event.type === 'stage' && event.operation.op === 'audio' && typeof event.operation.cue === 'string') {
       const cue = event.operation.cue; const definition = this.manifest?.events[cue];
@@ -115,8 +155,7 @@ export class ReaderAudio {
       const cues = typeof event.node.voice === 'string' ? [event.node.voice] : event.node.voice ?? [];
       // These are authored TalkAkEvent effects; they are not character voice.
       for (const cue of cues) if (this.manifest?.events[cue]?.kind !== 'voice') this.playCue(cue);
-      const ids = this.resolvedVoice(event.scriptId, event.node.nid, cues, this.gender);
-      if (ids.length) this.start('voice', `line:${event.scriptId}:${event.node.nid}`, 'voice', ids, false);
+      this.requestVoice({ kind: 'line', cue: `line:${event.scriptId}:${event.node.nid}`, script: event.scriptId, nid: event.node.nid, cues, visitId: event.visitId });
     }
   }
   gender = 'male';
@@ -140,19 +179,21 @@ export class ReaderAudio {
       this.note(cue, 'missing', undefined, this.manifest?.unresolved[cue]); return;
     }
     if (event.action === 'stop') {
+      if (this.pendingVoice?.cue === event.target || event.target === 'voice') this.stopVoice();
       for (const [slot, track] of this.tracks) if (slot === event.target || track.cue === event.target) this.stopSlot(slot);
       for (const [slot, value] of this.pendingPersistent) if (slot === event.target || value === event.target) this.pendingPersistent.delete(slot);
       return;
     }
     const slot = forcedSlot ?? this.slot(cue, event);
-    if (event.action === 'silence') { this.stopSlot(event.kind === 'ambience' ? 'ambience' : slot); this.pendingPersistent.delete(slot); return; }
-    const ids = event.variants?.[event.kind === 'voice' ? this.state.language : 'default'] ?? [];
+    if (event.action === 'silence') { if (event.kind === 'voice') this.stopVoice(); else this.stopSlot(event.kind === 'ambience' ? 'ambience' : slot); this.pendingPersistent.delete(slot); return; }
+    if (event.kind === 'voice') { this.requestVoice({ kind: 'cue', cue, script: '', nid: -1, cues: [cue] }); return; }
+    const ids = event.variants?.default ?? [];
     if (!ids.length) { this.stopSlot(slot); this.note(cue, 'missing'); return; }
     if (this.tracks.get(slot)?.cue === cue && event.loop) return;
     if (!this.state.unlocked) { if (event.loop) this.pendingPersistent.set(slot, cue); this.note(cue, 'skipped', undefined, 'Awaiting player gesture'); return; }
     if (event.layers) { this.startAmbience(slot, cue, event.layers); return; }
     const selected = event.sequence ? ids : [ids[this.serial++ % ids.length]];
-    this.start(slot, cue, event.kind === 'music' ? 'music' : event.kind === 'voice' ? 'voice' : 'effects', event.clips?.map(c => c.asset) ?? selected, !!event.loop, event.clips);
+    this.start(slot, cue, event.kind === 'music' ? 'music' : 'effects', event.clips?.map(c => c.asset) ?? selected, !!event.loop, event.clips);
   }
   private start(slot: string, cue: string, channel: AudioChannel, ids: string[], loop: boolean, clips?: AudioClip[]): void {
     this.stopSlot(slot);
@@ -162,7 +203,7 @@ export class ReaderAudio {
     // Sequences decode together. A stale completion never connects a source.
     void Promise.all(ids.map(id => this.buffer(id, cue))).then(buffers => {
       if (!track.active || this.tracks.get(slot) !== track || !this.context) return;
-      if (!loop && this.context.currentTime - track.startedAt > 3) { this.stopSlot(slot); this.note(cue, 'skipped', undefined, 'Late one-shot'); return; }
+      if (channel !== 'voice' && !loop && this.context.currentTime - track.startedAt > 3) { this.stopSlot(slot); this.note(cue, 'skipped', undefined, 'Late one-shot'); return; }
       let offset = 0; const start = this.context.currentTime;
       buffers.forEach((buffer, index) => {
         const clip = clips?.[index];
@@ -271,9 +312,9 @@ export class ReaderAudio {
     track.analyser?.disconnect();
     this.tracks.delete(slot); this.note(track.cue, 'stopped');
   }
-  private stopAll(): void { for (const slot of this.tracks.keys()) this.stopSlot(slot); this.pendingPersistent.clear(); }
+  private stopAll(): void { this.stopVoice(); for (const slot of this.tracks.keys()) this.stopSlot(slot); this.pendingPersistent.clear(); }
   /** Passive diagnostics expose real sources and destination signal, never drive playback. */
-  inspect() { return { context: this.context?.state ?? 'absent', time: this.context?.currentTime ?? 0, tracks: [...this.tracks].map(([slot, track]) => ({ slot, cue: track.cue, channel: track.channel, assets: track.assets, loop: track.loop, sources: track.sources.length })), observations: [...this.observations] }; }
+  inspect() { return { context: this.context?.state ?? 'absent', time: this.context?.currentTime ?? 0, pendingVoice: this.pendingVoice ? { kind: this.pendingVoice.kind, cue: this.pendingVoice.cue, script: this.pendingVoice.script, nid: this.pendingVoice.nid, visitId: this.pendingVoice.visitId } : null, tracks: [...this.tracks].map(([slot, track]) => ({ slot, cue: track.cue, channel: track.channel, assets: track.assets, loop: track.loop, sources: track.sources.length })), observations: [...this.observations] }; }
   /** Passive per-cue PCM taps distinguish singing from overlapping ambience.
    * The channel gain -> audible destination connection is never replaced. */
   trackSignal(): Record<string, { cue: string; channel: AudioChannel; rms: number; peak: number; volume: number }> {

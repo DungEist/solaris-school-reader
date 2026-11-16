@@ -1,0 +1,78 @@
+{
+  "checks": [
+    {
+      "source": "/tmp/reader-voice-probe/EVENT_AVGmain_1_1.wem",
+      "wemSha256": "2b54c6e899c55651c1bc04d2f69bbc433309bc43593c4b43ff6770cbadb960e0",
+      "codec": "Wwise Opus 0x3041",
+      "channels": 5,
+      "sampleRate": 48000,
+      "samples": 824109,
+      "preSkip": 312,
+      "duration": 17.1689375,
+      "mappingFamily": 1,
+      "channelMask": 1543,
+      "channelMapping": [
+        0,
+        1,
+        4,
+        2,
+        3
+      ],
+      "streams": 3,
+      "coupledStreams": 2,
+      "comparedSamples": 4120545,
+      "maxAbsolutePcmDifference": 0,
+      "actualPcmSha256": "26185ee72aec81ae12765444e11aa98c83728690b97bfe11f0e0c06530334fb6",
+      "ffmpegPcmSha256": "26185ee72aec81ae12765444e11aa98c83728690b97bfe11f0e0c06530334fb6",
+      "ffmpeg": "ffmpeg version n9.0.2 Copyright (c) 2000-2026 the FFmpeg developers"
+    },
+    {
+      "source": "/tmp/reader-voice-probe/EVENT_AVGmain_5_2.wem",
+      "wemSha256": "c0b298bdbc12f34adddc672d3b79da6c8bdda85470f6c0aff049464bf44daacc",
+      "codec": "Wwise Opus 0x3041",
+      "channels": 5,
+      "sampleRate": 48000,
+      "samples": 706047,
+      "preSkip": 312,
+      "duration": 14.7093125,
+      "mappingFamily": 1,
+      "channelMask": 1543,
+      "channelMapping": [
+        0,
+        1,
+        4,
+        2,
+        3
+      ],
+      "streams": 3,
+      "coupledStreams": 2,
+      "comparedSamples": 3530235,
+      "maxAbsolutePcmDifference": 0,
+      "actualPcmSha256": "7dbac2f98c7773db29787207f814622721a0c6fd6b063e738a1b2aebd8d313b3",
+      "ffmpegPcmSha256": "7dbac2f98c7773db29787207f814622721a0c6fd6b063e738a1b2aebd8d313b3",
+      "ffmpeg": "ffmpeg version n9.0.2 Copyright (c) 2000-2026 the FFmpeg developers"
+    },
+    {
+      "source": "/tmp/reader-voice-probe/EVENT_AVGmain_15_3.wem",
+      "wemSha256": "53841e44dc8c4e2574dc7c0730188e2342b9a8da6eec5723f2eba599cbb11f0e",
+      "codec": "Wwise Opus 0x3041",
+      "channels": 1,
+      "sampleRate": 48000,
+      "samples": 732085,
+      "preSkip": 312,
+      "duration": 15.251770833333333,
+      "mappingFamily": 0,
+      "channelMask": 4,
+      "channelMapping": [
+        0
+      ],
+      "streams": 1,
+      "coupledStreams": 0,
+      "comparedSamples": 732085,
+      "maxAbsolutePcmDifference": 0,
+      "actualPcmSha256": "77e88b468782f7f8eb97b8a84cad74ed3ba387a9508f3839a24337872c2f2917",
+      "ffmpegPcmSha256": "77e88b468782f7f8eb97b8a84cad74ed3ba387a9508f3839a24337872c2f2917",
+      "ffmpeg": "ffmpeg version n9.0.2 Copyright (c) 2000-2026 the FFmpeg developers"
+    }
+  ]
+}

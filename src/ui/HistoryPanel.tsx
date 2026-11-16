@@ -1,9 +1,12 @@
-import { memo, useEffect, useRef } from 'react';
+import { memo, useEffect, useRef, useSyncExternalStore } from 'react';
 import type { BacklogEntry } from './DialogueBacklog.ts';
 import { RevealedText } from './RevealedText.tsx';
 import { ReaderIcon, stopRepeatedButtonKey } from './ReaderArtwork.tsx';
 
-import type { ReaderAudio } from '../audio/ReaderAudio.ts';
+import type { AudioSnapshot, ReaderAudio } from '../audio/ReaderAudio.ts';
+
+const noAudioSubscribe = () => () => {};
+const noAudioSnapshot = () => null;
 
 interface Props {
   audio?: ReaderAudio;
@@ -18,6 +21,8 @@ interface Props {
 /** A native modal traps focus and makes the surrounding page inert. Entry
  * updates do not reopen the dialog or reset its focus/scroll position. */
 export const HistoryPanel = memo(function HistoryPanel({ id, entries, restoreFocusTo, onClose, diagnostics = true, audio, gender = 'male' }: Props) {
+  const getAudioSnapshot = audio?.getSnapshot ?? noAudioSnapshot;
+  const audioState = useSyncExternalStore<AudioSnapshot | null>(audio?.subscribe ?? noAudioSubscribe, getAudioSnapshot, getAudioSnapshot);
   const dialogRef = useRef<HTMLDialogElement>(null);
   const closeRef = useRef<HTMLButtonElement>(null);
   useEffect(() => {
@@ -44,7 +49,7 @@ export const HistoryPanel = memo(function HistoryPanel({ id, entries, restoreFoc
               <li key={entry.id} className={`history-entry history-${entry.kind}`} data-testid="history-entry" data-entry-id={entry.id} data-entry-kind={entry.kind}>
                 <div className="history-line-heading">
                   <p className="history-speaker">{entry.kind === 'choice' ? `${entry.speakerName} chose` : !diagnostics && /^Speaker \d+$/.test(entry.speakerName) ? 'Narration' : entry.speakerName}</p>
-                  {entry.kind === 'dialogue' && !!audio?.resolvedVoice(entry.scriptId, entry.nodeId, entry.voiceCues, gender).length && <button type="button" className="history-voice" aria-label={`Replay ${entry.speakerName || 'dialogue'} voice`} aria-describedby={`${id}-${entry.id}-text`} title="Replay voice" onClick={() => audio.replay(entry.scriptId, entry.nodeId, entry.voiceCues, gender)} onKeyDown={stopRepeatedButtonKey} data-testid="history-voice" data-script-id={entry.scriptId} data-node-id={entry.nodeId}>
+                  {entry.kind === 'dialogue' && audioState?.ready && !!audio?.resolvedVoice(entry.scriptId, entry.nodeId, entry.voiceCues, gender).length && <button type="button" className="history-voice" aria-label={`Replay ${entry.speakerName || 'dialogue'} voice`} aria-describedby={`${id}-${entry.id}-text`} title="Replay voice" onClick={() => audio.replay(entry.scriptId, entry.nodeId, entry.voiceCues, gender)} onKeyDown={stopRepeatedButtonKey} data-testid="history-voice" data-script-id={entry.scriptId} data-node-id={entry.nodeId}>
                     <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 4.5 20 12 8 19.5Z" fill="currentColor" /></svg>
                   </button>}
                 </div>

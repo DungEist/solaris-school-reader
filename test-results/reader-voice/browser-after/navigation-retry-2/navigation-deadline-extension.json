@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "ownedPid": 2306806,
+  "verifiedCommand": [
+    "/usr/bin/node",
+    "tools/reader-voice-browser.mjs",
+    "--phase=after",
+    "--route=later",
+    "--route-seconds=900",
+    "--reuse-completed=true"
+  ],
+  "verifiedLoadedScript": "file:///home/deist/Downloads/2ndsol/tools/reader-voice-browser.mjs",
+  "executedScriptSha256": "383f2f6f54e1d35489683346a1a387db992d8a9b5bd5dd4230a6c14b8d52495c",
+  "functionName": "publicRouteToNextCycle",
+  "variableChanged": "deadline",
+  "oldDeadlineEpochMs": 1794825103154,
+  "newDeadlineEpochMs": 1794825703154,
+  "addedSeconds": 600,
+  "verification": "Debugger.evaluateOnCallFrame reads the live lexical deadline. The original Runtime scope object was a cached mirror and retained its previous value.",
+  "scope": "Only the owned navigation test-driver wall-clock bound was extended. Browser engine state, authored timing, voice buffers, playback assertions and physical public controls were unchanged."
+}

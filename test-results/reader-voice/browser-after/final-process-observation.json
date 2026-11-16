@@ -1,0 +1,11 @@
+{
+  "observedAtUtc": "2026-11-16T11:16:40.124825+00:00",
+  "pid": 2334010,
+  "originalRootPidPresent": false,
+  "originalRootCommandMatches": false,
+  "matchingOwnedProfileProcessIds": [],
+  "temporaryProfilePresent": false,
+  "sameUidProcReadsUnavailable": 0,
+  "scope": "Read-only selected root PID identity, exact owned browser profile argument among readable same-UID /proc entries, and profile filesystem existence. No unrelated process is modified.",
+  "passed": true
+}

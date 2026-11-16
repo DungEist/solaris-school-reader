@@ -1,0 +1,220 @@
+{
+  "passed": false,
+  "failure": "Error: SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at <anonymous>:1:200\n    at <anonymous>:1:235\n    at CDP.evaluate (file:///home/deist/Downloads/2ndsol/tools/reader-voice-browser.mjs:72:39)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async until (file:///home/deist/Downloads/2ndsol/tools/reader-voice-browser.mjs:78:12)\n    at async file:///home/deist/Downloads/2ndsol/tools/reader-voice-browser.mjs:365:5",
+  "errors": [],
+  "phase": "after",
+  "route": "delayed",
+  "site": "/home/deist/Downloads/2ndsol/dist",
+  "reusedRecordings": [],
+  "readinessChecks": [
+    {
+      "type": "manifest-request-held",
+      "epochMs": 1794823801718
+    }
+  ],
+  "cleanup": [
+    {
+      "target": "owned-browser",
+      "exitCode": 0,
+      "signalCode": null,
+      "exited": true
+    },
+    {
+      "target": "temporary-browser-profile",
+      "removed": true
+    }
+  ],
+  "source": {
+    "html": {
+      "file": "/home/deist/Downloads/2ndsol/dist/index.html",
+      "sha256": "a1e9787426a867ef1da9c6e33cd97db8412b536fbc26e5303229c29a42f8669d"
+    },
+    "audioManifest": {
+      "file": "/home/deist/Downloads/2ndsol/dist/data/maps/audio-playback.json",
+      "sha256": "098f3d4cf6e64298ead419122beaa2d112963658f9a02cf6d512f3ab2f4146dc"
+    },
+    "harness": {
+      "file": "/home/deist/Downloads/2ndsol/tools/reader-voice-browser.mjs",
+      "sha256": "3954622bd8414300f2a589e6175d22f986a4198f5a9ab2fda5671f929eece4a3"
+    }
+  },
+  "served": [
+    {
+      "pathname": "/",
+      "file": "/home/deist/Downloads/2ndsol/dist/index.html",
+      "bytes": 508,
+      "sha256": "a1e9787426a867ef1da9c6e33cd97db8412b536fbc26e5303229c29a42f8669d"
+    },
+    {
+      "pathname": "/assets/index-BrkboPo3.css",
+      "file": "/home/deist/Downloads/2ndsol/dist/assets/index-BrkboPo3.css",
+      "bytes": 52069,
+      "sha256": "bdbcc21c04f55c45b1614bfe0c59e8436519fa5f201e83b7f08fd5a160812a87"
+    },
+    {
+      "pathname": "/assets/index-B9HoUjmR.js",
+      "file": "/home/deist/Downloads/2ndsol/dist/assets/index-B9HoUjmR.js",
+      "bytes": 567194,
+      "sha256": "5477f96cb1e31d5d70be1658110aacc6cf46b2f2307b7e4ec4615197e4bb4592"
+    },
+    {
+      "pathname": "/data/reader-presentations.json",
+      "file": "/home/deist/Downloads/2ndsol/dist/data/reader-presentations.json",
+      "bytes": 10824,
+      "sha256": "8ecf2c234944e370a23e2909b86e6005cbb011c46af863fcaef2b9cf44d6ac5e"
+    },
+    {
+      "pathname": "/data/manifest.json",
+      "file": "/home/deist/Downloads/2ndsol/dist/data/manifest.json",
+      "bytes": 393,
+      "sha256": "7c3b07e2de67abaaed34b3e16b67e4e3eea5c7c060b59a7d7fa8e3f866de88c2"
+    },
+    {
+      "pathname": "/data/assets.manifest.json",
+      "file": "/home/deist/Downloads/2ndsol/dist/data/assets.manifest.json",
+      "bytes": 114253,
+      "sha256": "32b6039acf23da04e56a48193929777541f9259d47f65bd522e6df60aad5fee9"
+    },
+    {
+      "pathname": "/assets/solarschool/asset-map.json",
+      "file": "/home/deist/Downloads/2ndsol/dist/assets/solarschool/asset-map.json",
+      "bytes": 139046,
+      "sha256": "d41ba0256a174cb10a03d46a2e582d7f59c9d05f9e56c273b958743c2ad8272b"
+    },
+    {
+      "pathname": "/assets/reader-vfx/manifest.json",
+      "file": "/home/deist/Downloads/2ndsol/dist/assets/reader-vfx/manifest.json",
+      "bytes": 107255,
+      "sha256": "b887f426dce6d6e1c241bf10366acf156cb88883a41a1ace936f326c698c9625"
+    },
+    {
+      "pathname": "/assets/reader-ui/calendar-grid.webp",
+      "file": "/home/deist/Downloads/2ndsol/dist/assets/reader-ui/calendar-grid.webp",
+      "bytes": 22470,
+      "sha256": "b99906629b8fdbb10bfe871894a5860bb91e3e9c7ec7cc9f4466056f16cdbbc2"
+    },
+    {
+      "pathname": "/assets/reader-ui/calendar-pink.webp",
+      "file": "/home/deist/Downloads/2ndsol/dist/assets/reader-ui/calendar-pink.webp",
+      "bytes": 24986,
+      "sha256": "a141bab9225059f70d628c8c88f9cac25fb1c436a6caa94a99ce8562eab9fc1c"
+    },
+    {
+      "pathname": "/assets/reader-ui/calendar-ribbon.webp",
+      "file": "/home/deist/Downloads/2ndsol/dist/assets/reader-ui/calendar-ribbon.webp",
+      "bytes": 1748,
+      "sha256": "baa88b6101afd8e4bab903a3380526dbaad3c44b7dea2cab28dcc1d56cf038c7"
+    },
+    {
+      "pathname": "/assets/reader-ui/calendar-bird.webp",
+      "file": "/home/deist/Downloads/2ndsol/dist/assets/reader-ui/calendar-bird.webp",
+      "bytes": 6220,
+      "sha256": "7ca3c2194437777b47c1dc32e6db4eed7f50d942f49e3de6c57ebce9bf533abb"
+    },
+    {
+      "pathname": "/assets/reader-ui/advance-arrow.webp",
+      "file": "/home/deist/Downloads/2ndsol/dist/assets/reader-ui/advance-arrow.webp",
+      "bytes": 392,
+      "sha256": "09d9818a2a47c2c26d3662136fd5b734fade6dbe65c8175fa069a7128c769c37"
+    },
+    {
+      "pathname": "/assets/reader-ui/entry-paper-right.webp",
+      "file": "/home/deist/Downloads/2ndsol/dist/assets/reader-ui/entry-paper-right.webp",
+      "bytes": 63564,
+      "sha256": "45864a29cca1a606acb565eea4f887182be6fd377f4b6709af371602ccb81ab2"
+    },
+    {
+      "pathname": "/assets/reader-ui/entry-paper-left.webp",
+      "file": "/home/deist/Downloads/2ndsol/dist/assets/reader-ui/entry-paper-left.webp",
+      "bytes": 88462,
+      "sha256": "1dec56e3e028436ce40fc2bb0ca914ff2bf29804cbbfe0693ccb2236092cabc1"
+    },
+    {
+      "pathname": "/assets/reader-ui/icon-settings.webp",
+      "file": "/home/deist/Downloads/2ndsol/dist/assets/reader-ui/icon-settings.webp",
+      "bytes": 1238,
+      "sha256": "bb320a0fe56215ade3aa01e82d73f0983af882807dedec2424e0d64cb9e1f6da"
+    },
+    {
+      "pathname": "/assets/reader-ui/icon-rule.webp",
+      "file": "/home/deist/Downloads/2ndsol/dist/assets/reader-ui/icon-rule.webp",
+      "bytes": 1374,
+      "sha256": "bab5c225196d0a87f37596bf51699a121d3ec2085126a223c430e60a3fb4d3fb"
+    },
+    {
+      "pathname": "/assets/reader-ui/entry-open-icon.webp",
+      "file": "/home/deist/Downloads/2ndsol/dist/assets/reader-ui/entry-open-icon.webp",
+      "bytes": 27238,
+      "sha256": "e5222d43996668c1ca9b737905dbd7eb43fee2076119bd28405d49c3b7496cdf"
+    },
+    {
+      "pathname": "/assets/reader-ui/icon-book.webp",
+      "file": "/home/deist/Downloads/2ndsol/dist/assets/reader-ui/icon-book.webp",
+      "bytes": 2566,
+      "sha256": "9e9420dd2f91d06719dbaa573467aace7c7885c68fa8ebb3c9a9225ab972263f"
+    },
+    {
+      "pathname": "/assets/reader-ui/school-emblem-caption.webp",
+      "file": "/home/deist/Downloads/2ndsol/dist/assets/reader-ui/school-emblem-caption.webp",
+      "bytes": 13112,
+      "sha256": "63e1581e61049258e284f7c309c8fe2aab080e25e26a72f55365acfec94613e5"
+    },
+    {
+      "pathname": "/assets/reader-ui/school-emblem.webp",
+      "file": "/home/deist/Downloads/2ndsol/dist/assets/reader-ui/school-emblem.webp",
+      "bytes": 58558,
+      "sha256": "97e0cfa4df4ffc800941ab1253d26c21cb431866354dfd890648072c58834be3"
+    },
+    {
+      "pathname": "/assets/reader-ui/menu-tape.webp",
+      "file": "/home/deist/Downloads/2ndsol/dist/assets/reader-ui/menu-tape.webp",
+      "bytes": 41332,
+      "sha256": "746b0ef014d0b1c8bb5a881dabb7ad80dc557b6ea5fe84c4fd91006b248f22ce"
+    },
+    {
+      "pathname": "/assets/reader-ui/loading-paper.webp",
+      "file": "/home/deist/Downloads/2ndsol/dist/assets/reader-ui/loading-paper.webp",
+      "bytes": 558992,
+      "sha256": "b3e22db830993d4950af2273a4ccfd4a1b471dcde1ac5c5f0f5aefc748238f1e"
+    },
+    {
+      "pathname": "/assets/reader-ui/entry-classroom.webp",
+      "file": "/home/deist/Downloads/2ndsol/dist/assets/reader-ui/entry-classroom.webp",
+      "bytes": 1245698,
+      "sha256": "0a37a09af7f7d9178e45eeef6ef1149cb6e325fe1ffe882d7f67a40678104b4a"
+    },
+    {
+      "pathname": "/data/maps/audio-playback.json",
+      "file": "/home/deist/Downloads/2ndsol/dist/data/maps/audio-playback.json",
+      "bytes": 673188,
+      "sha256": "098f3d4cf6e64298ead419122beaa2d112963658f9a02cf6d512f3ab2f4146dc"
+    },
+    {
+      "pathname": "/data/scripts.index.json",
+      "file": "/home/deist/Downloads/2ndsol/dist/data/scripts.index.json",
+      "bytes": 69581,
+      "sha256": "7167b881b12cba0303b0d85b71bc111fa962fb5c3e6e94cfbbdc3655d29900e5"
+    },
+    {
+      "pathname": "/data/build-report.json",
+      "file": "/home/deist/Downloads/2ndsol/dist/data/build-report.json",
+      "bytes": 7622,
+      "sha256": "65511f4a2c5ccd52335d053324ea56256ef5f6f4959a138e79c812f9077279ec"
+    },
+    {
+      "pathname": "/data/speakers.json",
+      "file": "/home/deist/Downloads/2ndsol/dist/data/speakers.json",
+      "bytes": 6233,
+      "sha256": "0df73e3221377df9a7ee8db0986c21bf9eaba9f5b7ec3e9ee131a321aed784cc"
+    },
+    {
+      "pathname": "/data/locales/en.json",
+      "file": "/home/deist/Downloads/2ndsol/dist/data/locales/en.json",
+      "bytes": 1178603,
+      "sha256": "aa97ff662edd1aa1e86632bb5537675fe87e5f5521b46edad91e79e744748787"
+    }
+  ],
+  "navigation": [],
+  "measurements": [],
+  "scope": "Ordinary public Start and actual Reader advances/eligible choices, plus Story Review replay controls. No script loading, stage/voice injection, or engine-state mutation. A pre-page Web Audio observer mirrors final channel gain connections to the real AudioContext destination into a stereo AudioWorklet, retaining actual PCM and output clock mapping. Videos use actual CDP screenshots and that destination WAV; no dubbed source audio. The existing opt-in audioProbe observes the Reader audio owner independently."
+}

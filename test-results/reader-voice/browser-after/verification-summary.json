@@ -1,0 +1,2194 @@
+{
+  "passed": true,
+  "failure": null,
+  "errors": [],
+  "phase": "after",
+  "route": "later",
+  "site": "/home/deist/Downloads/2ndsol/dist",
+  "deferEncoding": true,
+  "encodingComplete": true,
+  "source": {
+    "html": {
+      "file": "/home/deist/Downloads/2ndsol/dist/index.html",
+      "sha256": "a1e9787426a867ef1da9c6e33cd97db8412b536fbc26e5303229c29a42f8669d"
+    },
+    "audioManifest": {
+      "file": "/home/deist/Downloads/2ndsol/dist/data/maps/audio-playback.json",
+      "sha256": "098f3d4cf6e64298ead419122beaa2d112963658f9a02cf6d512f3ab2f4146dc"
+    },
+    "harness": {
+      "file": "/home/deist/Downloads/2ndsol/tools/reader-voice-browser.mjs",
+      "sha256": "95404fe0956028a59828670e870b3771bc7cdcf55db79160fe8617ce501f2762"
+    }
+  },
+  "reusedRecordings": [
+    {
+      "name": "train-first-auto",
+      "measurements": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-first-auto/measurements.json",
+      "verifiedAgainstCurrentBuild": true
+    },
+    {
+      "name": "train-first-review",
+      "measurements": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-first-review/measurements.json",
+      "verifiedAgainstCurrentBuild": true
+    },
+    {
+      "name": "chisa-auto",
+      "measurements": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/chisa-auto/measurements.json",
+      "verifiedAgainstCurrentBuild": true
+    },
+    {
+      "name": "chisa-review",
+      "measurements": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/chisa-review/measurements.json",
+      "verifiedAgainstCurrentBuild": true
+    }
+  ],
+  "readinessChecks": [],
+  "cleanup": [
+    {
+      "target": "owned-browser",
+      "exitCode": 0,
+      "signalCode": null,
+      "exited": true
+    },
+    {
+      "target": "temporary-browser-profile",
+      "removed": true
+    }
+  ],
+  "scope": "Ordinary public Start and actual Reader advances/eligible choices, plus Story Review replay controls. No script loading, stage/voice injection, or engine-state mutation. A pre-page Web Audio observer mirrors final channel gain connections to the real AudioContext destination into a stereo AudioWorklet, retaining actual PCM and output clock mapping. Videos use actual CDP screenshots and that destination WAV; no dubbed source audio. The existing opt-in audioProbe observes the Reader audio owner independently.",
+  "fullLocalReport": {
+    "file": "test-results/reader-voice/browser-after/browser-report.json",
+    "sha256": "ba227aad02aca441a1502e633e525af43c6761d25e96e86cdfdfe8d34a0b2bac"
+  },
+  "navigation": {
+    "steps": 4684,
+    "actionKinds": {
+      "advance": 4083,
+      "dialogue-choice": 201,
+      "journey-option": 43,
+      "journey-control": 335,
+      "quiz-answer": 11,
+      "quiz-continue": 11
+    },
+    "nextCycleClicksInTraversal": 0
+  },
+  "served": [
+    {
+      "pathname": "/assets/index-B9HoUjmR.js",
+      "file": "/home/deist/Downloads/2ndsol/dist/assets/index-B9HoUjmR.js",
+      "bytes": 567194,
+      "sha256": "5477f96cb1e31d5d70be1658110aacc6cf46b2f2307b7e4ec4615197e4bb4592"
+    },
+    {
+      "pathname": "/data/maps/audio-playback.json",
+      "file": "/home/deist/Downloads/2ndsol/dist/data/maps/audio-playback.json",
+      "bytes": 673188,
+      "sha256": "098f3d4cf6e64298ead419122beaa2d112963658f9a02cf6d512f3ab2f4146dc"
+    },
+    {
+      "pathname": "/assets/audio/cbb8689bb5c78d81a5a1.mp3",
+      "file": "/home/deist/Downloads/2ndsol/dist/assets/audio/cbb8689bb5c78d81a5a1.mp3",
+      "bytes": 237620,
+      "sha256": "24a6f252611b7cc392d70726293a5f1b74ce3631692d241c3e729f666215c95b"
+    },
+    {
+      "pathname": "/assets/audio/63f7e90888b78c9fddf8.mp3",
+      "file": "/home/deist/Downloads/2ndsol/dist/assets/audio/63f7e90888b78c9fddf8.mp3",
+      "bytes": 149972,
+      "sha256": "82793e350a34897a0aea896bc1d70ec500520a24ef33d21e97182f05e272f3e3"
+    },
+    {
+      "pathname": "/assets/audio/8d2f99aafdc645a4b365.mp3",
+      "file": "/home/deist/Downloads/2ndsol/dist/assets/audio/8d2f99aafdc645a4b365.mp3",
+      "bytes": 207716,
+      "sha256": "c638a19a3051dd42ce541fe1ea19119c9e9d3018a8d48291b0ee5589e038cd3e"
+    }
+  ],
+  "measurements": [
+    {
+      "checkpoint": {
+        "name": "train-first",
+        "script": "1001",
+        "nid": 1,
+        "textKey": "EVENT_AVGmain_1_1",
+        "duration": 17.1689375
+      },
+      "mode": "auto",
+      "source": {
+        "html": {
+          "file": "/home/deist/Downloads/2ndsol/dist/index.html",
+          "sha256": "a1e9787426a867ef1da9c6e33cd97db8412b536fbc26e5303229c29a42f8669d"
+        },
+        "audioManifest": {
+          "file": "/home/deist/Downloads/2ndsol/dist/data/maps/audio-playback.json",
+          "sha256": "098f3d4cf6e64298ead419122beaa2d112963658f9a02cf6d512f3ab2f4146dc"
+        },
+        "harness": {
+          "file": "/home/deist/Downloads/2ndsol/tools/reader-voice-browser.mjs",
+          "sha256": "9131633982289f7359bdce2c178b2cf0fb615fc1204c29e29e824894275c1c11"
+        }
+      },
+      "before": {
+        "testid": "runner-state",
+        "status": "idle",
+        "scriptId": "",
+        "nid": "",
+        "flowActionIndex": "-1",
+        "visitId": "0",
+        "runId": "0",
+        "hiddenChoice": "false",
+        "inputReady": "false",
+        "textComplete": "true",
+        "historyOpen": "false",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "true",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      },
+      "after": {
+        "testid": "runner-state",
+        "status": "dialogue",
+        "scriptId": "1001",
+        "nid": "1",
+        "flowActionIndex": "1",
+        "visitId": "1",
+        "runId": "1",
+        "hiddenChoice": "false",
+        "inputReady": "true",
+        "textComplete": "true",
+        "historyOpen": "false",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "false",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      },
+      "manifestLine": {
+        "textKey": "EVENT_AVGmain_1_1",
+        "variants": {
+          "ja:any": "cbb8689bb5c78d81a5a1"
+        }
+      },
+      "actualAudio": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-first-auto/destination.wav",
+        "sha256": "9ee45d92e7416c67c81f9bb1e4f9faf57cc9a5a3caf72260172b25712464d5a6",
+        "rawObservedPCM": {
+          "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-first-auto/observed-destination.f32le",
+          "sha256": "1d3ba0f54c64298db53e8c1b09fb78c1059433405e17ff510096539fe3b567ac",
+          "frames": 933888
+        },
+        "format": "IEEE float32 LE stereo WAV",
+        "source": "actual AudioContext destination connections mirrored after their channel gains; exact chronological observed output blocks without interpolation or inserted samples",
+        "durationSeconds": 19.456,
+        "channels": [
+          {
+            "channel": 0,
+            "rms": 0.017148903275875805,
+            "peak": 0.15281209349632263,
+            "nonzeroSamples": 823837
+          },
+          {
+            "channel": 1,
+            "rms": 0.01689278530490934,
+            "peak": 0.13492156565189362,
+            "nonzeroSamples": 823894
+          }
+        ],
+        "audible": true,
+        "voiceComparisons": [
+          {
+            "sourceIndex": 0,
+            "oracle": {
+              "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-first-auto/decoded-voice-oracle-0.f32le",
+              "sha256": "59799e864ed8d898a11c67f801f49d33ce96a6228913d525a6aa01a4201d55f2",
+              "purpose": "verification oracle only; never used as delivered video/audio"
+            },
+            "sourceChannels": 2,
+            "destinationChannels": 2,
+            "monoUpmix": false,
+            "decodedFrames": 824109,
+            "offsetFrames": 14336,
+            "offsetSeconds": 0.2986666666666667,
+            "completeBounds": true,
+            "maximumSampleError": 0,
+            "rootMeanSquaredError": 0,
+            "passed": true
+          }
+        ],
+        "coversAllDecodedVoiceSignal": true
+      },
+      "encoding": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-first-auto/reader-with-actual-audio.mp4",
+        "sha256": "11aaf36f14442da3e7e42cd6c9b5dfeb34e53c21bc03391b48e7dfc22de70071",
+        "observedFrames": 141,
+        "pcmOffsetRelativeToFirstVideoFrameSeconds": 0.132806884765625,
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720,
+              "side_data_list": [
+                {}
+              ]
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "19.398000"
+          }
+        },
+        "scope": "Actual CDP screenshots at observed timestamps, muxed with the captured destination WAV at the AudioContext output timestamp. No source-file substitution, synthetic voice, dubbing, frame interpolation, or playback-rate change."
+      },
+      "trigger": {
+        "available": true,
+        "publicControl": "Start",
+        "selector": null
+      },
+      "audioBefore": {
+        "state": {
+          "ready": true,
+          "unlocked": true,
+          "language": "ja",
+          "languages": [
+            "ja"
+          ],
+          "volumes": {
+            "music": 0,
+            "effects": 0,
+            "voice": 1
+          }
+        },
+        "tracks": []
+      },
+      "audioAfter": {
+        "state": {
+          "ready": true,
+          "unlocked": true,
+          "language": "ja",
+          "languages": [
+            "ja"
+          ],
+          "volumes": {
+            "music": 0,
+            "effects": 0,
+            "voice": 1
+          }
+        },
+        "tracks": [
+          {
+            "slot": "ambience",
+            "cue": "play_amb_avg_solarschool_train_inside",
+            "channel": "effects",
+            "assets": [
+              "9554d239013b31ca42c4"
+            ],
+            "loop": true,
+            "sources": 1
+          }
+        ],
+        "voiceObservations": [
+          {
+            "cue": "line:1001:1",
+            "asset": "cbb8689bb5c78d81a5a1",
+            "status": "loaded",
+            "at": 2969.300000011921
+          },
+          {
+            "cue": "line:1001:1",
+            "asset": "cbb8689bb5c78d81a5a1",
+            "status": "decoded",
+            "at": 3056.5
+          },
+          {
+            "cue": "line:1001:1",
+            "asset": "cbb8689bb5c78d81a5a1",
+            "status": "played",
+            "at": 3056.699999988079
+          },
+          {
+            "cue": "line:1001:1",
+            "asset": "cbb8689bb5c78d81a5a1",
+            "status": "ended",
+            "at": 20239.90000000596
+          }
+        ]
+      },
+      "destinationRecording": {
+        "sampleRate": 48000,
+        "channels": 2,
+        "frames": 933888,
+        "observedFrames": 933888,
+        "firstFrame": 43008,
+        "endFrame": 976896,
+        "contextFrameGaps": 15,
+        "armEpochMs": 1794822012279.5,
+        "stopEpochMs": 1794822031729.4001,
+        "firstPCM": {
+          "frame": 43008,
+          "contextSeconds": 0.896,
+          "receivedEpochMs": 1794822012285.6,
+          "outputTimestamp": {
+            "contextTime": 0.7696930000000001,
+            "performanceTime": 2790.5
+          },
+          "outputEpochMs": 1794822012413.107
+        },
+        "gapScope": "Delivered WAV and raw PCM contain exactly the chronologically observed AudioWorklet output blocks, without interpolation or inserted samples. Virtual currentFrame repeats/jumps are retained separately. Full decoded voice-buffer comparison, rather than currentFrame monotonicity alone, establishes whether spoken samples were lost."
+      }
+    },
+    {
+      "checkpoint": {
+        "name": "train-first",
+        "script": "1001",
+        "nid": 1,
+        "textKey": "EVENT_AVGmain_1_1",
+        "duration": 17.1689375
+      },
+      "mode": "review",
+      "source": {
+        "html": {
+          "file": "/home/deist/Downloads/2ndsol/dist/index.html",
+          "sha256": "a1e9787426a867ef1da9c6e33cd97db8412b536fbc26e5303229c29a42f8669d"
+        },
+        "audioManifest": {
+          "file": "/home/deist/Downloads/2ndsol/dist/data/maps/audio-playback.json",
+          "sha256": "098f3d4cf6e64298ead419122beaa2d112963658f9a02cf6d512f3ab2f4146dc"
+        },
+        "harness": {
+          "file": "/home/deist/Downloads/2ndsol/tools/reader-voice-browser.mjs",
+          "sha256": "9131633982289f7359bdce2c178b2cf0fb615fc1204c29e29e824894275c1c11"
+        }
+      },
+      "before": {
+        "testid": "runner-state",
+        "status": "dialogue",
+        "scriptId": "1001",
+        "nid": "1",
+        "flowActionIndex": "1",
+        "visitId": "1",
+        "runId": "1",
+        "hiddenChoice": "false",
+        "inputReady": "false",
+        "textComplete": "true",
+        "historyOpen": "true",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "false",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      },
+      "after": {
+        "testid": "runner-state",
+        "status": "dialogue",
+        "scriptId": "1001",
+        "nid": "1",
+        "flowActionIndex": "1",
+        "visitId": "1",
+        "runId": "1",
+        "hiddenChoice": "false",
+        "inputReady": "false",
+        "textComplete": "true",
+        "historyOpen": "true",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "false",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      },
+      "manifestLine": {
+        "textKey": "EVENT_AVGmain_1_1",
+        "variants": {
+          "ja:any": "cbb8689bb5c78d81a5a1"
+        }
+      },
+      "actualAudio": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-first-review/destination.wav",
+        "sha256": "d76c0074920e868992c22c960529cabba3679127eaba542b5a5620e088032f67",
+        "rawObservedPCM": {
+          "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-first-review/observed-destination.f32le",
+          "sha256": "3de3061f8a59a6a55c0bfd927c1cce37f800fb2a1ae1c9276313d561361dde87",
+          "frames": 952320
+        },
+        "format": "IEEE float32 LE stereo WAV",
+        "source": "actual AudioContext destination connections mirrored after their channel gains; exact chronological observed output blocks without interpolation or inserted samples",
+        "durationSeconds": 19.84,
+        "channels": [
+          {
+            "channel": 0,
+            "rms": 0.016982135262592346,
+            "peak": 0.15281209349632263,
+            "nonzeroSamples": 823837
+          },
+          {
+            "channel": 1,
+            "rms": 0.0167285079631573,
+            "peak": 0.13492156565189362,
+            "nonzeroSamples": 823894
+          }
+        ],
+        "audible": true,
+        "voiceComparisons": [
+          {
+            "sourceIndex": 0,
+            "oracle": {
+              "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-first-review/decoded-voice-oracle-0.f32le",
+              "sha256": "59799e864ed8d898a11c67f801f49d33ce96a6228913d525a6aa01a4201d55f2",
+              "purpose": "verification oracle only; never used as delivered video/audio"
+            },
+            "sourceChannels": 2,
+            "destinationChannels": 2,
+            "monoUpmix": false,
+            "decodedFrames": 824109,
+            "offsetFrames": 20480,
+            "offsetSeconds": 0.4266666666666667,
+            "completeBounds": true,
+            "maximumSampleError": 0,
+            "rootMeanSquaredError": 0,
+            "passed": true
+          }
+        ],
+        "coversAllDecodedVoiceSignal": true
+      },
+      "encoding": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-first-review/reader-with-actual-audio.mp4",
+        "sha256": "af5f0a79aa483a8d6c16375d61178dcf64632a8ce2d734131f86b5310263c5ee",
+        "observedFrames": 90,
+        "pcmOffsetRelativeToFirstVideoFrameSeconds": 0.136031982421875,
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720,
+              "side_data_list": [
+                {}
+              ]
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "19.593000"
+          }
+        },
+        "scope": "Actual CDP screenshots at observed timestamps, muxed with the captured destination WAV at the AudioContext output timestamp. No source-file substitution, synthetic voice, dubbing, frame interpolation, or playback-rate change."
+      },
+      "trigger": {
+        "available": true,
+        "publicControl": null,
+        "selector": "[data-testid=\"history-voice\"][data-script-id=\"1001\"][data-node-id=\"1\"]"
+      },
+      "audioBefore": {
+        "state": {
+          "ready": true,
+          "unlocked": true,
+          "language": "ja",
+          "languages": [
+            "ja"
+          ],
+          "volumes": {
+            "music": 0,
+            "effects": 0,
+            "voice": 1
+          }
+        },
+        "tracks": [
+          {
+            "slot": "ambience",
+            "cue": "play_amb_avg_solarschool_train_inside",
+            "channel": "effects",
+            "assets": [
+              "9554d239013b31ca42c4"
+            ],
+            "loop": true,
+            "sources": 1
+          }
+        ]
+      },
+      "audioAfter": {
+        "state": {
+          "ready": true,
+          "unlocked": true,
+          "language": "ja",
+          "languages": [
+            "ja"
+          ],
+          "volumes": {
+            "music": 0,
+            "effects": 0,
+            "voice": 1
+          }
+        },
+        "tracks": [
+          {
+            "slot": "ambience",
+            "cue": "play_amb_avg_solarschool_train_inside",
+            "channel": "effects",
+            "assets": [
+              "9554d239013b31ca42c4"
+            ],
+            "loop": true,
+            "sources": 1
+          }
+        ],
+        "voiceObservations": [
+          {
+            "cue": "review:1001:1",
+            "asset": "cbb8689bb5c78d81a5a1",
+            "status": "played",
+            "at": 33136.59999999404
+          },
+          {
+            "cue": "review:1001:1",
+            "asset": "cbb8689bb5c78d81a5a1",
+            "status": "ended",
+            "at": 50329.19999998808
+          }
+        ]
+      },
+      "destinationRecording": {
+        "sampleRate": 48000,
+        "channels": 2,
+        "frames": 952320,
+        "observedFrames": 952320,
+        "firstFrame": 1480704,
+        "endFrame": 2433024,
+        "contextFrameGaps": 14,
+        "armEpochMs": 1794822042228.4001,
+        "stopEpochMs": 1794822062075.6,
+        "firstPCM": {
+          "frame": 1480704,
+          "contextSeconds": 30.848,
+          "receivedEpochMs": 1794822042237.9001,
+          "outputTimestamp": {
+            "contextTime": 30.724567999999998,
+            "performanceTime": 32745.30000001192
+          },
+          "outputEpochMs": 1794822042365.032
+        },
+        "gapScope": "Delivered WAV and raw PCM contain exactly the chronologically observed AudioWorklet output blocks, without interpolation or inserted samples. Virtual currentFrame repeats/jumps are retained separately. Full decoded voice-buffer comparison, rather than currentFrame monotonicity alone, establishes whether spoken samples were lost."
+      }
+    },
+    {
+      "checkpoint": {
+        "name": "chisa",
+        "script": "1004",
+        "nid": 3,
+        "textKey": "EVENT_AVGmain_15_3",
+        "duration": 15.251770833
+      },
+      "mode": "auto",
+      "source": {
+        "html": {
+          "file": "/home/deist/Downloads/2ndsol/dist/index.html",
+          "sha256": "a1e9787426a867ef1da9c6e33cd97db8412b536fbc26e5303229c29a42f8669d"
+        },
+        "audioManifest": {
+          "file": "/home/deist/Downloads/2ndsol/dist/data/maps/audio-playback.json",
+          "sha256": "098f3d4cf6e64298ead419122beaa2d112963658f9a02cf6d512f3ab2f4146dc"
+        },
+        "harness": {
+          "file": "/home/deist/Downloads/2ndsol/tools/reader-voice-browser.mjs",
+          "sha256": "99942a896ec248e79fe63aaac0e22dd4aed40002fb8e36e05e8dd3cf43afac77"
+        }
+      },
+      "before": {
+        "testid": "runner-state",
+        "status": "dialogue",
+        "scriptId": "1004",
+        "nid": "2",
+        "flowActionIndex": "1",
+        "visitId": "33",
+        "runId": "1",
+        "hiddenChoice": "false",
+        "inputReady": "false",
+        "textComplete": "true",
+        "historyOpen": "false",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "false",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      },
+      "after": {
+        "testid": "runner-state",
+        "status": "dialogue",
+        "scriptId": "1004",
+        "nid": "3",
+        "flowActionIndex": "1",
+        "visitId": "34",
+        "runId": "1",
+        "hiddenChoice": "false",
+        "inputReady": "true",
+        "textComplete": "true",
+        "historyOpen": "false",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "false",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      },
+      "manifestLine": {
+        "textKey": "EVENT_AVGmain_15_3",
+        "variants": {
+          "ja:any": "63f7e90888b78c9fddf8"
+        }
+      },
+      "actualAudio": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/chisa-auto/destination.wav",
+        "sha256": "661bfceaf209afcb74d94b50849c87b4915a8ac7e4513045a5fcb9517c6bd007",
+        "rawObservedPCM": {
+          "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/chisa-auto/observed-destination.f32le",
+          "sha256": "780b23e06362a1d6d415d798e4c91c5e9f406bc821bac8bd4a9f5ea02adf9120",
+          "frames": 843776
+        },
+        "format": "IEEE float32 LE stereo WAV",
+        "source": "actual AudioContext destination connections mirrored after their channel gains; exact chronological observed output blocks without interpolation or inserted samples",
+        "durationSeconds": 17.578666666666667,
+        "channels": [
+          {
+            "channel": 0,
+            "rms": 0.07115022594656133,
+            "peak": 0.5235775709152222,
+            "nonzeroSamples": 552499
+          },
+          {
+            "channel": 1,
+            "rms": 0.07115022594656133,
+            "peak": 0.5235775709152222,
+            "nonzeroSamples": 552499
+          }
+        ],
+        "audible": true,
+        "voiceComparisons": [
+          {
+            "sourceIndex": 0,
+            "oracle": {
+              "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/chisa-auto/decoded-voice-oracle-0.f32le",
+              "sha256": "56190279bd94798730b7fc9ab386130920a0346391a7f4f91da27349e3938993",
+              "purpose": "verification oracle only; never used as delivered video/audio"
+            },
+            "sourceChannels": 1,
+            "destinationChannels": 2,
+            "monoUpmix": true,
+            "decodedFrames": 732085,
+            "offsetFrames": 12288,
+            "offsetSeconds": 0.256,
+            "completeBounds": true,
+            "maximumSampleError": 0,
+            "rootMeanSquaredError": 0,
+            "passed": true
+          }
+        ],
+        "coversAllDecodedVoiceSignal": true
+      },
+      "encoding": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/chisa-auto/reader-with-actual-audio.mp4",
+        "sha256": "b657b7eb9369aab57714bc2c5075ff4888110da05665198eaeef7a3c00a839de",
+        "observedFrames": 86,
+        "pcmOffsetRelativeToFirstVideoFrameSeconds": 0.126375,
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720,
+              "side_data_list": [
+                {}
+              ]
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "17.472000"
+          }
+        },
+        "scope": "Actual CDP screenshots at observed timestamps, muxed with the captured destination WAV at the AudioContext output timestamp. No source-file substitution, synthetic voice, dubbing, frame interpolation, or playback-rate change."
+      },
+      "trigger": {
+        "available": true,
+        "publicControl": "ordinary Advance from 1004/2",
+        "selector": null
+      },
+      "audioBefore": {
+        "state": {
+          "ready": true,
+          "unlocked": true,
+          "language": "ja",
+          "languages": [
+            "ja"
+          ],
+          "volumes": {
+            "music": 0,
+            "effects": 0,
+            "voice": 1
+          }
+        },
+        "tracks": [
+          {
+            "slot": "music",
+            "cue": "play_avg_music_3_8_solarschool_26",
+            "channel": "music",
+            "assets": [
+              "16f9b411df4d9ccfe4db"
+            ],
+            "loop": true,
+            "sources": 1
+          },
+          {
+            "slot": "ambience",
+            "cue": "play_amb_avg_solarschool_restaurant_busy",
+            "channel": "effects",
+            "assets": [
+              "dbb87b24fdaea29c8135",
+              "e95aef24f6abf8632a43",
+              "64937be5fcd4548dd1a4",
+              "32d66d902f66dbebc24b",
+              "0b3d83a595a942516e15"
+            ],
+            "loop": true,
+            "sources": 5
+          },
+          {
+            "slot": "voice",
+            "cue": "line:1004:1",
+            "channel": "voice",
+            "assets": [
+              "b961e0f41433981c7995"
+            ],
+            "loop": false,
+            "sources": 1
+          }
+        ]
+      },
+      "audioAfter": {
+        "state": {
+          "ready": true,
+          "unlocked": true,
+          "language": "ja",
+          "languages": [
+            "ja"
+          ],
+          "volumes": {
+            "music": 0,
+            "effects": 0,
+            "voice": 1
+          }
+        },
+        "tracks": [
+          {
+            "slot": "music",
+            "cue": "play_avg_music_3_8_solarschool_26",
+            "channel": "music",
+            "assets": [
+              "16f9b411df4d9ccfe4db"
+            ],
+            "loop": true,
+            "sources": 1
+          },
+          {
+            "slot": "ambience",
+            "cue": "play_amb_avg_solarschool_restaurant_busy",
+            "channel": "effects",
+            "assets": [
+              "dbb87b24fdaea29c8135",
+              "e95aef24f6abf8632a43",
+              "64937be5fcd4548dd1a4",
+              "32d66d902f66dbebc24b",
+              "0b3d83a595a942516e15"
+            ],
+            "loop": true,
+            "sources": 5
+          },
+          {
+            "slot": "play_ui_solarschool_avg_hotpoop",
+            "cue": "play_ui_solarschool_avg_hotpoop",
+            "channel": "effects",
+            "assets": [
+              "65f395bbe5c4049287de"
+            ],
+            "loop": true,
+            "sources": 1
+          }
+        ],
+        "voiceObservations": [
+          {
+            "cue": "line:1004:3",
+            "asset": "63f7e90888b78c9fddf8",
+            "status": "loaded",
+            "at": 12172.40000000596
+          },
+          {
+            "cue": "line:1004:3",
+            "asset": "63f7e90888b78c9fddf8",
+            "status": "decoded",
+            "at": 12192.59999999404
+          },
+          {
+            "cue": "line:1004:3",
+            "asset": "63f7e90888b78c9fddf8",
+            "status": "played",
+            "at": 12192.800000011921
+          },
+          {
+            "cue": "line:1004:3",
+            "asset": "63f7e90888b78c9fddf8",
+            "status": "ended",
+            "at": 27465
+          }
+        ]
+      },
+      "destinationRecording": {
+        "sampleRate": 48000,
+        "channels": 2,
+        "frames": 843776,
+        "observedFrames": 843776,
+        "firstFrame": 541568,
+        "endFrame": 1386496,
+        "contextFrameGaps": 15,
+        "armEpochMs": 1794823442734.7,
+        "stopEpochMs": 1794823460333.9,
+        "firstPCM": {
+          "frame": 541568,
+          "contextSeconds": 11.282666666666668,
+          "receivedEpochMs": 1794823442758.7998,
+          "outputTimestamp": {
+            "contextTime": 11.179791666666667,
+            "performanceTime": 11977.200000017881
+          },
+          "outputEpochMs": 1794823442861.4749
+        },
+        "gapScope": "Delivered WAV and raw PCM contain exactly the chronologically observed AudioWorklet output blocks, without interpolation or inserted samples. Virtual currentFrame repeats/jumps are retained separately. Full decoded voice-buffer comparison, rather than currentFrame monotonicity alone, establishes whether spoken samples were lost."
+      }
+    },
+    {
+      "checkpoint": {
+        "name": "chisa",
+        "script": "1004",
+        "nid": 3,
+        "textKey": "EVENT_AVGmain_15_3",
+        "duration": 15.251770833
+      },
+      "mode": "review",
+      "source": {
+        "html": {
+          "file": "/home/deist/Downloads/2ndsol/dist/index.html",
+          "sha256": "a1e9787426a867ef1da9c6e33cd97db8412b536fbc26e5303229c29a42f8669d"
+        },
+        "audioManifest": {
+          "file": "/home/deist/Downloads/2ndsol/dist/data/maps/audio-playback.json",
+          "sha256": "098f3d4cf6e64298ead419122beaa2d112963658f9a02cf6d512f3ab2f4146dc"
+        },
+        "harness": {
+          "file": "/home/deist/Downloads/2ndsol/tools/reader-voice-browser.mjs",
+          "sha256": "99942a896ec248e79fe63aaac0e22dd4aed40002fb8e36e05e8dd3cf43afac77"
+        }
+      },
+      "before": {
+        "testid": "runner-state",
+        "status": "dialogue",
+        "scriptId": "1004",
+        "nid": "3",
+        "flowActionIndex": "1",
+        "visitId": "34",
+        "runId": "1",
+        "hiddenChoice": "false",
+        "inputReady": "false",
+        "textComplete": "true",
+        "historyOpen": "true",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "false",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      },
+      "after": {
+        "testid": "runner-state",
+        "status": "dialogue",
+        "scriptId": "1004",
+        "nid": "3",
+        "flowActionIndex": "1",
+        "visitId": "34",
+        "runId": "1",
+        "hiddenChoice": "false",
+        "inputReady": "false",
+        "textComplete": "true",
+        "historyOpen": "true",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "false",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      },
+      "manifestLine": {
+        "textKey": "EVENT_AVGmain_15_3",
+        "variants": {
+          "ja:any": "63f7e90888b78c9fddf8"
+        }
+      },
+      "actualAudio": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/chisa-review/destination.wav",
+        "sha256": "30cdc01cde2874a4cd9962105436dac25f45490ad80146f26f348fd95b273ad1",
+        "rawObservedPCM": {
+          "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/chisa-review/observed-destination.f32le",
+          "sha256": "b4d8c3bd8f76da7a494a2b802469c1ad4cb3412bad1c28336d4f70fe89351c24",
+          "frames": 851968
+        },
+        "format": "IEEE float32 LE stereo WAV",
+        "source": "actual AudioContext destination connections mirrored after their channel gains; exact chronological observed output blocks without interpolation or inserted samples",
+        "durationSeconds": 17.749333333333333,
+        "channels": [
+          {
+            "channel": 0,
+            "rms": 0.07080733129560736,
+            "peak": 0.5235775709152222,
+            "nonzeroSamples": 552499
+          },
+          {
+            "channel": 1,
+            "rms": 0.07080733129560736,
+            "peak": 0.5235775709152222,
+            "nonzeroSamples": 552499
+          }
+        ],
+        "audible": true,
+        "voiceComparisons": [
+          {
+            "sourceIndex": 0,
+            "oracle": {
+              "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/chisa-review/decoded-voice-oracle-0.f32le",
+              "sha256": "56190279bd94798730b7fc9ab386130920a0346391a7f4f91da27349e3938993",
+              "purpose": "verification oracle only; never used as delivered video/audio"
+            },
+            "sourceChannels": 1,
+            "destinationChannels": 2,
+            "monoUpmix": true,
+            "decodedFrames": 732085,
+            "offsetFrames": 14336,
+            "offsetSeconds": 0.2986666666666667,
+            "completeBounds": true,
+            "maximumSampleError": 0,
+            "rootMeanSquaredError": 0,
+            "passed": true
+          }
+        ],
+        "coversAllDecodedVoiceSignal": true
+      },
+      "encoding": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/chisa-review/reader-with-actual-audio.mp4",
+        "sha256": "6164f332aefb15f8d40970acd4ffa01c14053ed7986d8f770f470e71d276dbe2",
+        "observedFrames": 56,
+        "pcmOffsetRelativeToFirstVideoFrameSeconds": 0.1267900390625,
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720,
+              "side_data_list": [
+                {}
+              ]
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "17.505000"
+          }
+        },
+        "scope": "Actual CDP screenshots at observed timestamps, muxed with the captured destination WAV at the AudioContext output timestamp. No source-file substitution, synthetic voice, dubbing, frame interpolation, or playback-rate change."
+      },
+      "trigger": {
+        "available": true,
+        "publicControl": null,
+        "selector": "[data-testid=\"history-voice\"][data-script-id=\"1004\"][data-node-id=\"3\"]"
+      },
+      "audioBefore": {
+        "state": {
+          "ready": true,
+          "unlocked": true,
+          "language": "ja",
+          "languages": [
+            "ja"
+          ],
+          "volumes": {
+            "music": 0,
+            "effects": 0,
+            "voice": 1
+          }
+        },
+        "tracks": [
+          {
+            "slot": "music",
+            "cue": "play_avg_music_3_8_solarschool_26",
+            "channel": "music",
+            "assets": [
+              "16f9b411df4d9ccfe4db"
+            ],
+            "loop": true,
+            "sources": 1
+          },
+          {
+            "slot": "ambience",
+            "cue": "play_amb_avg_solarschool_restaurant_busy",
+            "channel": "effects",
+            "assets": [
+              "dbb87b24fdaea29c8135",
+              "e95aef24f6abf8632a43",
+              "64937be5fcd4548dd1a4",
+              "32d66d902f66dbebc24b",
+              "0b3d83a595a942516e15"
+            ],
+            "loop": true,
+            "sources": 5
+          },
+          {
+            "slot": "play_ui_solarschool_avg_hotpoop",
+            "cue": "play_ui_solarschool_avg_hotpoop",
+            "channel": "effects",
+            "assets": [
+              "65f395bbe5c4049287de"
+            ],
+            "loop": true,
+            "sources": 1
+          }
+        ]
+      },
+      "audioAfter": {
+        "state": {
+          "ready": true,
+          "unlocked": true,
+          "language": "ja",
+          "languages": [
+            "ja"
+          ],
+          "volumes": {
+            "music": 0,
+            "effects": 0,
+            "voice": 1
+          }
+        },
+        "tracks": [
+          {
+            "slot": "music",
+            "cue": "play_avg_music_3_8_solarschool_26",
+            "channel": "music",
+            "assets": [
+              "16f9b411df4d9ccfe4db"
+            ],
+            "loop": true,
+            "sources": 1
+          },
+          {
+            "slot": "ambience",
+            "cue": "play_amb_avg_solarschool_restaurant_busy",
+            "channel": "effects",
+            "assets": [
+              "dbb87b24fdaea29c8135",
+              "e95aef24f6abf8632a43",
+              "64937be5fcd4548dd1a4",
+              "32d66d902f66dbebc24b",
+              "0b3d83a595a942516e15"
+            ],
+            "loop": true,
+            "sources": 5
+          },
+          {
+            "slot": "play_ui_solarschool_avg_hotpoop",
+            "cue": "play_ui_solarschool_avg_hotpoop",
+            "channel": "effects",
+            "assets": [
+              "65f395bbe5c4049287de"
+            ],
+            "loop": true,
+            "sources": 1
+          }
+        ],
+        "voiceObservations": [
+          {
+            "cue": "review:1004:3",
+            "asset": "63f7e90888b78c9fddf8",
+            "status": "played",
+            "at": 34898.09999999404
+          },
+          {
+            "cue": "review:1004:3",
+            "asset": "63f7e90888b78c9fddf8",
+            "status": "ended",
+            "at": 50163.30000001192
+          }
+        ]
+      },
+      "destinationRecording": {
+        "sampleRate": 48000,
+        "channels": 2,
+        "frames": 851968,
+        "observedFrames": 851968,
+        "firstFrame": 1630208,
+        "endFrame": 2482176,
+        "contextFrameGaps": 4,
+        "armEpochMs": 1794823465408.7,
+        "stopEpochMs": 1794823483157.9,
+        "firstPCM": {
+          "frame": 1630208,
+          "contextSeconds": 33.962666666666664,
+          "receivedEpochMs": 1794823465413.9,
+          "outputTimestamp": {
+            "contextTime": 33.83567666666666,
+            "performanceTime": 34633.09999999404
+          },
+          "outputEpochMs": 1794823465541.49
+        },
+        "gapScope": "Delivered WAV and raw PCM contain exactly the chronologically observed AudioWorklet output blocks, without interpolation or inserted samples. Virtual currentFrame repeats/jumps are retained separately. Full decoded voice-buffer comparison, rather than currentFrame monotonicity alone, establishes whether spoken samples were lost."
+      }
+    },
+    {
+      "checkpoint": {
+        "name": "train-later-first",
+        "script": "1002",
+        "nid": 1,
+        "textKey": "EVENT_AVGmain_5_1",
+        "duration": 17.1689375
+      },
+      "mode": "auto",
+      "source": {
+        "html": {
+          "file": "/home/deist/Downloads/2ndsol/dist/index.html",
+          "sha256": "a1e9787426a867ef1da9c6e33cd97db8412b536fbc26e5303229c29a42f8669d"
+        },
+        "audioManifest": {
+          "file": "/home/deist/Downloads/2ndsol/dist/data/maps/audio-playback.json",
+          "sha256": "098f3d4cf6e64298ead419122beaa2d112963658f9a02cf6d512f3ab2f4146dc"
+        },
+        "harness": {
+          "file": "/home/deist/Downloads/2ndsol/tools/reader-voice-browser.mjs",
+          "sha256": "95404fe0956028a59828670e870b3771bc7cdcf55db79160fe8617ce501f2762"
+        }
+      },
+      "before": {
+        "testid": "runner-state",
+        "status": "completed",
+        "scriptId": "3021",
+        "nid": "",
+        "flowActionIndex": "2",
+        "visitId": "4234",
+        "runId": "1",
+        "hiddenChoice": "false",
+        "inputReady": "false",
+        "textComplete": "true",
+        "historyOpen": "false",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "false",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      },
+      "after": {
+        "testid": "runner-state",
+        "status": "dialogue",
+        "scriptId": "1002",
+        "nid": "1",
+        "flowActionIndex": "1",
+        "visitId": "1",
+        "runId": "2",
+        "hiddenChoice": "false",
+        "inputReady": "true",
+        "textComplete": "true",
+        "historyOpen": "false",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "false",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      },
+      "manifestLine": {
+        "textKey": "EVENT_AVGmain_5_1",
+        "variants": {
+          "ja:any": "cbb8689bb5c78d81a5a1"
+        }
+      },
+      "actualAudio": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-later-first-auto/destination.wav",
+        "sha256": "33e4b871ab223ba116e87e3c2306e6f98c4b6466a0ae62e084b1f8657f906e05",
+        "rawObservedPCM": {
+          "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-later-first-auto/observed-destination.f32le",
+          "sha256": "39b8a677c418352c7b152dc1cb589fc83e76731b1e8957ba9cb6b5edc58d71af",
+          "frames": 933888
+        },
+        "format": "IEEE float32 LE stereo WAV",
+        "source": "actual AudioContext destination connections mirrored after their channel gains; exact chronological observed output blocks without interpolation or inserted samples",
+        "durationSeconds": 19.456,
+        "channels": [
+          {
+            "channel": 0,
+            "rms": 0.017148903275875316,
+            "peak": 0.15281209349632263,
+            "nonzeroSamples": 823837
+          },
+          {
+            "channel": 1,
+            "rms": 0.016892785304908724,
+            "peak": 0.13492156565189362,
+            "nonzeroSamples": 823894
+          }
+        ],
+        "audible": true,
+        "voiceComparisons": [
+          {
+            "sourceIndex": 0,
+            "oracle": {
+              "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-later-first-auto/decoded-voice-oracle-0.f32le",
+              "sha256": "59799e864ed8d898a11c67f801f49d33ce96a6228913d525a6aa01a4201d55f2",
+              "purpose": "verification oracle only; never used as delivered video/audio"
+            },
+            "sourceChannels": 2,
+            "destinationChannels": 2,
+            "monoUpmix": false,
+            "decodedFrames": 824109,
+            "offsetFrames": 8192,
+            "offsetSeconds": 0.17066666666666666,
+            "completeBounds": true,
+            "maximumSampleError": 2.3283064365386963e-10,
+            "rootMeanSquaredError": 5.219646549137701e-12,
+            "passed": true
+          }
+        ],
+        "coversAllDecodedVoiceSignal": true
+      },
+      "encoding": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-later-first-auto/reader-with-actual-audio.mp4",
+        "sha256": "63f971dcc2c8907158d1b0b22533ddc34b14994fb171a178da78c64e9d56dc2c",
+        "observedFrames": 156,
+        "pcmOffsetRelativeToFirstVideoFrameSeconds": 0.118985107421875,
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720,
+              "side_data_list": [
+                {}
+              ]
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "19.379000"
+          }
+        },
+        "encodedAfterBrowserRun": true,
+        "scope": "Actual CDP screenshots at observed timestamps, muxed only with the captured destination WAV at the AudioContext output timestamp. No source-file substitution, synthetic voice, dubbing, frame interpolation, or playback-rate change."
+      },
+      "trigger": {
+        "available": true,
+        "publicControl": "ordinary Next cycle, armed before arrival",
+        "selector": null
+      },
+      "audioBefore": {
+        "state": {
+          "ready": true,
+          "unlocked": true,
+          "language": "ja",
+          "languages": [
+            "ja"
+          ],
+          "volumes": {
+            "music": 0,
+            "effects": 0,
+            "voice": 1
+          }
+        },
+        "tracks": [
+          {
+            "slot": "ambience",
+            "cue": "play_amb_avg_solarschool_home_day",
+            "channel": "effects",
+            "assets": [
+              "895bfdc9668803fdf485",
+              "1f0ca25e9cd816121e3b"
+            ],
+            "loop": true,
+            "sources": 2
+          },
+          {
+            "slot": "voice",
+            "cue": "line:3021:11",
+            "channel": "voice",
+            "assets": [
+              "7841050e9730217e8ff2"
+            ],
+            "loop": false,
+            "sources": 1
+          }
+        ]
+      },
+      "audioAfter": {
+        "state": {
+          "ready": true,
+          "unlocked": true,
+          "language": "ja",
+          "languages": [
+            "ja"
+          ],
+          "volumes": {
+            "music": 0,
+            "effects": 0,
+            "voice": 1
+          }
+        },
+        "tracks": [
+          {
+            "slot": "ambience",
+            "cue": "play_amb_avg_solarschool_train_inside",
+            "channel": "effects",
+            "assets": [
+              "9554d239013b31ca42c4"
+            ],
+            "loop": true,
+            "sources": 1
+          }
+        ],
+        "voiceObservations": [
+          {
+            "cue": "line:1002:1",
+            "asset": "cbb8689bb5c78d81a5a1",
+            "status": "loaded",
+            "at": 1178963.699999988
+          },
+          {
+            "cue": "line:1002:1",
+            "asset": "cbb8689bb5c78d81a5a1",
+            "status": "decoded",
+            "at": 1178991.099999994
+          },
+          {
+            "cue": "line:1002:1",
+            "asset": "cbb8689bb5c78d81a5a1",
+            "status": "played",
+            "at": 1178991.199999988
+          },
+          {
+            "cue": "line:1002:1",
+            "asset": "cbb8689bb5c78d81a5a1",
+            "status": "ended",
+            "at": 1196159.5
+          }
+        ]
+      },
+      "destinationRecording": {
+        "sampleRate": 48000,
+        "channels": 2,
+        "frames": 933888,
+        "observedFrames": 933888,
+        "firstFrame": 55953408,
+        "endFrame": 56887296,
+        "contextFrameGaps": 4,
+        "armEpochMs": 1794826867243.7,
+        "stopEpochMs": 1794826886680.3,
+        "firstPCM": {
+          "frame": 55953408,
+          "contextSeconds": 1165.696,
+          "receivedEpochMs": 1794826867254.8,
+          "outputTimestamp": {
+            "contextTime": 1165.587515,
+            "performanceTime": 1178856.099999994
+          },
+          "outputEpochMs": 1794826867372.7852
+        },
+        "gapScope": "Delivered WAV and raw PCM contain exactly the chronologically observed AudioWorklet output blocks, without interpolation or inserted samples. Virtual currentFrame repeats/jumps are retained separately. Full decoded voice-buffer comparison, rather than currentFrame monotonicity alone, establishes whether spoken samples were lost."
+      }
+    },
+    {
+      "checkpoint": {
+        "name": "train-later-first",
+        "script": "1002",
+        "nid": 1,
+        "textKey": "EVENT_AVGmain_5_1",
+        "duration": 17.1689375
+      },
+      "mode": "review",
+      "source": {
+        "html": {
+          "file": "/home/deist/Downloads/2ndsol/dist/index.html",
+          "sha256": "a1e9787426a867ef1da9c6e33cd97db8412b536fbc26e5303229c29a42f8669d"
+        },
+        "audioManifest": {
+          "file": "/home/deist/Downloads/2ndsol/dist/data/maps/audio-playback.json",
+          "sha256": "098f3d4cf6e64298ead419122beaa2d112963658f9a02cf6d512f3ab2f4146dc"
+        },
+        "harness": {
+          "file": "/home/deist/Downloads/2ndsol/tools/reader-voice-browser.mjs",
+          "sha256": "95404fe0956028a59828670e870b3771bc7cdcf55db79160fe8617ce501f2762"
+        }
+      },
+      "before": {
+        "testid": "runner-state",
+        "status": "dialogue",
+        "scriptId": "1002",
+        "nid": "1",
+        "flowActionIndex": "1",
+        "visitId": "1",
+        "runId": "2",
+        "hiddenChoice": "false",
+        "inputReady": "false",
+        "textComplete": "true",
+        "historyOpen": "true",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "false",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      },
+      "after": {
+        "testid": "runner-state",
+        "status": "dialogue",
+        "scriptId": "1002",
+        "nid": "1",
+        "flowActionIndex": "1",
+        "visitId": "1",
+        "runId": "2",
+        "hiddenChoice": "false",
+        "inputReady": "false",
+        "textComplete": "true",
+        "historyOpen": "true",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "false",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      },
+      "manifestLine": {
+        "textKey": "EVENT_AVGmain_5_1",
+        "variants": {
+          "ja:any": "cbb8689bb5c78d81a5a1"
+        }
+      },
+      "actualAudio": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-later-first-review/destination.wav",
+        "sha256": "66f760c288a36b1e59a3a9665459b62da37318e88cc88372526760dba891262c",
+        "rawObservedPCM": {
+          "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-later-first-review/observed-destination.f32le",
+          "sha256": "d36e6fb06ffeb61c0def00b585b8efb8a2b67cbf648206e7371b6f081dbd9344",
+          "frames": 937984
+        },
+        "format": "IEEE float32 LE stereo WAV",
+        "source": "actual AudioContext destination connections mirrored after their channel gains; exact chronological observed output blocks without interpolation or inserted samples",
+        "durationSeconds": 19.541333333333334,
+        "channels": [
+          {
+            "channel": 0,
+            "rms": 0.017111419289467963,
+            "peak": 0.15281209349632263,
+            "nonzeroSamples": 823837
+          },
+          {
+            "channel": 1,
+            "rms": 0.016855861139872332,
+            "peak": 0.13492156565189362,
+            "nonzeroSamples": 823894
+          }
+        ],
+        "audible": true,
+        "voiceComparisons": [
+          {
+            "sourceIndex": 0,
+            "oracle": {
+              "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-later-first-review/decoded-voice-oracle-0.f32le",
+              "sha256": "59799e864ed8d898a11c67f801f49d33ce96a6228913d525a6aa01a4201d55f2",
+              "purpose": "verification oracle only; never used as delivered video/audio"
+            },
+            "sourceChannels": 2,
+            "destinationChannels": 2,
+            "monoUpmix": false,
+            "decodedFrames": 824109,
+            "offsetFrames": 6144,
+            "offsetSeconds": 0.128,
+            "completeBounds": true,
+            "maximumSampleError": 2.3283064365386963e-10,
+            "rootMeanSquaredError": 5.219646549137701e-12,
+            "passed": true
+          }
+        ],
+        "coversAllDecodedVoiceSignal": true
+      },
+      "encoding": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-later-first-review/reader-with-actual-audio.mp4",
+        "sha256": "2b8ca99684b1257fa1e9b9b566ab70a85d1803206a4b71c14ccd6314a7e18e4b",
+        "observedFrames": 115,
+        "pcmOffsetRelativeToFirstVideoFrameSeconds": 0.141822021484375,
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720,
+              "side_data_list": [
+                {}
+              ]
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "19.404000"
+          }
+        },
+        "encodedAfterBrowserRun": true,
+        "scope": "Actual CDP screenshots at observed timestamps, muxed only with the captured destination WAV at the AudioContext output timestamp. No source-file substitution, synthetic voice, dubbing, frame interpolation, or playback-rate change."
+      },
+      "trigger": {
+        "available": true,
+        "publicControl": null,
+        "selector": "[data-testid=\"history-voice\"][data-script-id=\"1002\"][data-node-id=\"1\"]"
+      },
+      "audioBefore": {
+        "state": {
+          "ready": true,
+          "unlocked": true,
+          "language": "ja",
+          "languages": [
+            "ja"
+          ],
+          "volumes": {
+            "music": 0,
+            "effects": 0,
+            "voice": 1
+          }
+        },
+        "tracks": [
+          {
+            "slot": "ambience",
+            "cue": "play_amb_avg_solarschool_train_inside",
+            "channel": "effects",
+            "assets": [
+              "9554d239013b31ca42c4"
+            ],
+            "loop": true,
+            "sources": 1
+          }
+        ]
+      },
+      "audioAfter": {
+        "state": {
+          "ready": true,
+          "unlocked": true,
+          "language": "ja",
+          "languages": [
+            "ja"
+          ],
+          "volumes": {
+            "music": 0,
+            "effects": 0,
+            "voice": 1
+          }
+        },
+        "tracks": [
+          {
+            "slot": "ambience",
+            "cue": "play_amb_avg_solarschool_train_inside",
+            "channel": "effects",
+            "assets": [
+              "9554d239013b31ca42c4"
+            ],
+            "loop": true,
+            "sources": 1
+          }
+        ],
+        "voiceObservations": [
+          {
+            "cue": "review:1002:1",
+            "asset": "cbb8689bb5c78d81a5a1",
+            "status": "played",
+            "at": 1203191.3999999762
+          },
+          {
+            "cue": "review:1002:1",
+            "asset": "cbb8689bb5c78d81a5a1",
+            "status": "ended",
+            "at": 1220351.599999994
+          }
+        ]
+      },
+      "destinationRecording": {
+        "sampleRate": 48000,
+        "channels": 2,
+        "frames": 937984,
+        "observedFrames": 937984,
+        "firstFrame": 57116672,
+        "endFrame": 58054656,
+        "contextFrameGaps": 4,
+        "armEpochMs": 1794826891464.9,
+        "stopEpochMs": 1794826910999.5999,
+        "firstPCM": {
+          "frame": 57116672,
+          "contextSeconds": 1189.9306666666666,
+          "receivedEpochMs": 1794826891479.8,
+          "outputTimestamp": {
+            "contextTime": 1189.806444666667,
+            "performanceTime": 1203075
+          },
+          "outputEpochMs": 1794826891607.4219
+        },
+        "gapScope": "Delivered WAV and raw PCM contain exactly the chronologically observed AudioWorklet output blocks, without interpolation or inserted samples. Virtual currentFrame repeats/jumps are retained separately. Full decoded voice-buffer comparison, rather than currentFrame monotonicity alone, establishes whether spoken samples were lost."
+      }
+    },
+    {
+      "checkpoint": {
+        "name": "train-later-second",
+        "script": "1002",
+        "nid": 2,
+        "textKey": "EVENT_AVGmain_5_2",
+        "duration": 14.7093125
+      },
+      "mode": "auto",
+      "source": {
+        "html": {
+          "file": "/home/deist/Downloads/2ndsol/dist/index.html",
+          "sha256": "a1e9787426a867ef1da9c6e33cd97db8412b536fbc26e5303229c29a42f8669d"
+        },
+        "audioManifest": {
+          "file": "/home/deist/Downloads/2ndsol/dist/data/maps/audio-playback.json",
+          "sha256": "098f3d4cf6e64298ead419122beaa2d112963658f9a02cf6d512f3ab2f4146dc"
+        },
+        "harness": {
+          "file": "/home/deist/Downloads/2ndsol/tools/reader-voice-browser.mjs",
+          "sha256": "95404fe0956028a59828670e870b3771bc7cdcf55db79160fe8617ce501f2762"
+        }
+      },
+      "before": {
+        "testid": "runner-state",
+        "status": "dialogue",
+        "scriptId": "1002",
+        "nid": "1",
+        "flowActionIndex": "1",
+        "visitId": "1",
+        "runId": "2",
+        "hiddenChoice": "false",
+        "inputReady": "true",
+        "textComplete": "true",
+        "historyOpen": "false",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "false",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      },
+      "after": {
+        "testid": "runner-state",
+        "status": "dialogue",
+        "scriptId": "1002",
+        "nid": "2",
+        "flowActionIndex": "1",
+        "visitId": "2",
+        "runId": "2",
+        "hiddenChoice": "false",
+        "inputReady": "true",
+        "textComplete": "true",
+        "historyOpen": "false",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "false",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      },
+      "manifestLine": {
+        "textKey": "EVENT_AVGmain_5_2",
+        "variants": {
+          "ja:any": "8d2f99aafdc645a4b365"
+        }
+      },
+      "actualAudio": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-later-second-auto/destination.wav",
+        "sha256": "e5711baf9152d78004b6a32217935814cd0cc73c2796f844865a97a3cb581022",
+        "rawObservedPCM": {
+          "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-later-second-auto/observed-destination.f32le",
+          "sha256": "ec2a05b4328a6a8551cf9d03d317ba788049efcee168aafbea334ddbeeddc467",
+          "frames": 808960
+        },
+        "format": "IEEE float32 LE stereo WAV",
+        "source": "actual AudioContext destination connections mirrored after their channel gains; exact chronological observed output blocks without interpolation or inserted samples",
+        "durationSeconds": 16.85333333333333,
+        "channels": [
+          {
+            "channel": 0,
+            "rms": 0.016515120317823637,
+            "peak": 0.15716812014579773,
+            "nonzeroSamples": 705821
+          },
+          {
+            "channel": 1,
+            "rms": 0.016026431146568813,
+            "peak": 0.1322600245475769,
+            "nonzeroSamples": 705815
+          }
+        ],
+        "audible": true,
+        "voiceComparisons": [
+          {
+            "sourceIndex": 0,
+            "oracle": {
+              "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-later-second-auto/decoded-voice-oracle-0.f32le",
+              "sha256": "6bb5d72fd114d59ce9b045e40c16b9a6337b8d9d3bee390265662549d801ba3f",
+              "purpose": "verification oracle only; never used as delivered video/audio"
+            },
+            "sourceChannels": 2,
+            "destinationChannels": 2,
+            "monoUpmix": false,
+            "decodedFrames": 706047,
+            "offsetFrames": 4096,
+            "offsetSeconds": 0.08533333333333333,
+            "completeBounds": true,
+            "maximumSampleError": 0,
+            "rootMeanSquaredError": 0,
+            "passed": true
+          }
+        ],
+        "coversAllDecodedVoiceSignal": true
+      },
+      "encoding": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-later-second-auto/reader-with-actual-audio.mp4",
+        "sha256": "6391d275d6c1824b58d6641b01dda280487314ded36728ac81a62def7414a8fa",
+        "observedFrames": 137,
+        "pcmOffsetRelativeToFirstVideoFrameSeconds": 0.149524169921875,
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720,
+              "side_data_list": [
+                {}
+              ]
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "16.796000"
+          }
+        },
+        "encodedAfterBrowserRun": true,
+        "scope": "Actual CDP screenshots at observed timestamps, muxed only with the captured destination WAV at the AudioContext output timestamp. No source-file substitution, synthetic voice, dubbing, frame interpolation, or playback-rate change."
+      },
+      "trigger": {
+        "available": true,
+        "publicControl": "ordinary Advance from 1002/1",
+        "selector": null
+      },
+      "audioBefore": {
+        "state": {
+          "ready": true,
+          "unlocked": true,
+          "language": "ja",
+          "languages": [
+            "ja"
+          ],
+          "volumes": {
+            "music": 0,
+            "effects": 0,
+            "voice": 1
+          }
+        },
+        "tracks": [
+          {
+            "slot": "ambience",
+            "cue": "play_amb_avg_solarschool_train_inside",
+            "channel": "effects",
+            "assets": [
+              "9554d239013b31ca42c4"
+            ],
+            "loop": true,
+            "sources": 1
+          }
+        ]
+      },
+      "audioAfter": {
+        "state": {
+          "ready": true,
+          "unlocked": true,
+          "language": "ja",
+          "languages": [
+            "ja"
+          ],
+          "volumes": {
+            "music": 0,
+            "effects": 0,
+            "voice": 1
+          }
+        },
+        "tracks": [
+          {
+            "slot": "ambience",
+            "cue": "play_amb_avg_solarschool_train_inside",
+            "channel": "effects",
+            "assets": [
+              "9554d239013b31ca42c4"
+            ],
+            "loop": true,
+            "sources": 1
+          }
+        ],
+        "voiceObservations": [
+          {
+            "cue": "line:1002:2",
+            "asset": "8d2f99aafdc645a4b365",
+            "status": "loaded",
+            "at": 1228341.699999988
+          },
+          {
+            "cue": "line:1002:2",
+            "asset": "8d2f99aafdc645a4b365",
+            "status": "decoded",
+            "at": 1228362.7999999821
+          },
+          {
+            "cue": "line:1002:2",
+            "asset": "8d2f99aafdc645a4b365",
+            "status": "played",
+            "at": 1228366.3999999762
+          },
+          {
+            "cue": "line:1002:2",
+            "asset": "8d2f99aafdc645a4b365",
+            "status": "ended",
+            "at": 1243050.2999999821
+          }
+        ]
+      },
+      "destinationRecording": {
+        "sampleRate": 48000,
+        "channels": 2,
+        "frames": 808960,
+        "observedFrames": 808960,
+        "firstFrame": 58327040,
+        "endFrame": 59136000,
+        "contextFrameGaps": 2,
+        "armEpochMs": 1794826916673.5,
+        "stopEpochMs": 1794826933522.2,
+        "firstPCM": {
+          "frame": 58327040,
+          "contextSeconds": 1215.1466666666668,
+          "receivedEpochMs": 1794826916695.9,
+          "outputTimestamp": {
+            "contextTime": 1215.0212426666667,
+            "performanceTime": 1228289.7999999821
+          },
+          "outputEpochMs": 1794826916823.424
+        },
+        "gapScope": "Delivered WAV and raw PCM contain exactly the chronologically observed AudioWorklet output blocks, without interpolation or inserted samples. Virtual currentFrame repeats/jumps are retained separately. Full decoded voice-buffer comparison, rather than currentFrame monotonicity alone, establishes whether spoken samples were lost."
+      }
+    },
+    {
+      "checkpoint": {
+        "name": "train-later-second",
+        "script": "1002",
+        "nid": 2,
+        "textKey": "EVENT_AVGmain_5_2",
+        "duration": 14.7093125
+      },
+      "mode": "review",
+      "source": {
+        "html": {
+          "file": "/home/deist/Downloads/2ndsol/dist/index.html",
+          "sha256": "a1e9787426a867ef1da9c6e33cd97db8412b536fbc26e5303229c29a42f8669d"
+        },
+        "audioManifest": {
+          "file": "/home/deist/Downloads/2ndsol/dist/data/maps/audio-playback.json",
+          "sha256": "098f3d4cf6e64298ead419122beaa2d112963658f9a02cf6d512f3ab2f4146dc"
+        },
+        "harness": {
+          "file": "/home/deist/Downloads/2ndsol/tools/reader-voice-browser.mjs",
+          "sha256": "95404fe0956028a59828670e870b3771bc7cdcf55db79160fe8617ce501f2762"
+        }
+      },
+      "before": {
+        "testid": "runner-state",
+        "status": "dialogue",
+        "scriptId": "1002",
+        "nid": "2",
+        "flowActionIndex": "1",
+        "visitId": "2",
+        "runId": "2",
+        "hiddenChoice": "false",
+        "inputReady": "false",
+        "textComplete": "true",
+        "historyOpen": "true",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "false",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      },
+      "after": {
+        "testid": "runner-state",
+        "status": "dialogue",
+        "scriptId": "1002",
+        "nid": "2",
+        "flowActionIndex": "1",
+        "visitId": "2",
+        "runId": "2",
+        "hiddenChoice": "false",
+        "inputReady": "false",
+        "textComplete": "true",
+        "historyOpen": "true",
+        "settingsOpen": "false",
+        "menuOpen": "false",
+        "uiHidden": "false",
+        "entryOpen": "false",
+        "vfxScreenOffset": "0,0",
+        "vfxPortraitTargets": ""
+      },
+      "manifestLine": {
+        "textKey": "EVENT_AVGmain_5_2",
+        "variants": {
+          "ja:any": "8d2f99aafdc645a4b365"
+        }
+      },
+      "actualAudio": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-later-second-review/destination.wav",
+        "sha256": "a2f61b5d77ed769a23f50e44da6044bd331326f84f087d41a6a29bfe3cac73f5",
+        "rawObservedPCM": {
+          "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-later-second-review/observed-destination.f32le",
+          "sha256": "d4088f4997c5b6713fb8691b3b522d55308f2e4544905b3ff2d2cadd7fa009ce",
+          "frames": 815104
+        },
+        "format": "IEEE float32 LE stereo WAV",
+        "source": "actual AudioContext destination connections mirrored after their channel gains; exact chronological observed output blocks without interpolation or inserted samples",
+        "durationSeconds": 16.981333333333332,
+        "channels": [
+          {
+            "channel": 0,
+            "rms": 0.016452759665977642,
+            "peak": 0.15716812014579773,
+            "nonzeroSamples": 705821
+          },
+          {
+            "channel": 1,
+            "rms": 0.01596591577194049,
+            "peak": 0.1322600245475769,
+            "nonzeroSamples": 705815
+          }
+        ],
+        "audible": true,
+        "voiceComparisons": [
+          {
+            "sourceIndex": 0,
+            "oracle": {
+              "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-later-second-review/decoded-voice-oracle-0.f32le",
+              "sha256": "6bb5d72fd114d59ce9b045e40c16b9a6337b8d9d3bee390265662549d801ba3f",
+              "purpose": "verification oracle only; never used as delivered video/audio"
+            },
+            "sourceChannels": 2,
+            "destinationChannels": 2,
+            "monoUpmix": false,
+            "decodedFrames": 706047,
+            "offsetFrames": 4096,
+            "offsetSeconds": 0.08533333333333333,
+            "completeBounds": true,
+            "maximumSampleError": 0,
+            "rootMeanSquaredError": 0,
+            "passed": true
+          }
+        ],
+        "coversAllDecodedVoiceSignal": true
+      },
+      "encoding": {
+        "file": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-after/train-later-second-review/reader-with-actual-audio.mp4",
+        "sha256": "aaee912a8b98e682ccf369be79d8a0c7e6864587cbce3c15376c9fbd2051a452",
+        "observedFrames": 100,
+        "pcmOffsetRelativeToFirstVideoFrameSeconds": 0.168235107421875,
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 1280,
+              "height": 720,
+              "side_data_list": [
+                {}
+              ]
+            },
+            {
+              "codec_name": "aac",
+              "codec_type": "audio",
+              "sample_rate": "48000",
+              "channels": 2
+            }
+          ],
+          "format": {
+            "duration": "16.918000"
+          }
+        },
+        "encodedAfterBrowserRun": true,
+        "scope": "Actual CDP screenshots at observed timestamps, muxed only with the captured destination WAV at the AudioContext output timestamp. No source-file substitution, synthetic voice, dubbing, frame interpolation, or playback-rate change."
+      },
+      "trigger": {
+        "available": true,
+        "publicControl": null,
+        "selector": "[data-testid=\"history-voice\"][data-script-id=\"1002\"][data-node-id=\"2\"]"
+      },
+      "audioBefore": {
+        "state": {
+          "ready": true,
+          "unlocked": true,
+          "language": "ja",
+          "languages": [
+            "ja"
+          ],
+          "volumes": {
+            "music": 0,
+            "effects": 0,
+            "voice": 1
+          }
+        },
+        "tracks": [
+          {
+            "slot": "ambience",
+            "cue": "play_amb_avg_solarschool_train_inside",
+            "channel": "effects",
+            "assets": [
+              "9554d239013b31ca42c4"
+            ],
+            "loop": true,
+            "sources": 1
+          }
+        ]
+      },
+      "audioAfter": {
+        "state": {
+          "ready": true,
+          "unlocked": true,
+          "language": "ja",
+          "languages": [
+            "ja"
+          ],
+          "volumes": {
+            "music": 0,
+            "effects": 0,
+            "voice": 1
+          }
+        },
+        "tracks": [
+          {
+            "slot": "ambience",
+            "cue": "play_amb_avg_solarschool_train_inside",
+            "channel": "effects",
+            "assets": [
+              "9554d239013b31ca42c4"
+            ],
+            "loop": true,
+            "sources": 1
+          }
+        ],
+        "voiceObservations": [
+          {
+            "cue": "review:1002:2",
+            "asset": "8d2f99aafdc645a4b365",
+            "status": "played",
+            "at": 1249724.099999994
+          },
+          {
+            "cue": "review:1002:2",
+            "asset": "8d2f99aafdc645a4b365",
+            "status": "ended",
+            "at": 1264426.2999999821
+          }
+        ]
+      },
+      "destinationRecording": {
+        "sampleRate": 48000,
+        "channels": 2,
+        "frames": 815104,
+        "observedFrames": 815104,
+        "firstFrame": 59353088,
+        "endFrame": 60168192,
+        "contextFrameGaps": 4,
+        "armEpochMs": 1794826938030.5999,
+        "stopEpochMs": 1794826955053.3,
+        "firstPCM": {
+          "frame": 59353088,
+          "contextSeconds": 1236.5226666666667,
+          "receivedEpochMs": 1794826938071.7,
+          "outputTimestamp": {
+            "contextTime": 1236.3958316666667,
+            "performanceTime": 1249664.2999999821
+          },
+          "outputEpochMs": 1794826938199.335
+        },
+        "gapScope": "Delivered WAV and raw PCM contain exactly the chronologically observed AudioWorklet output blocks, without interpolation or inserted samples. Virtual currentFrame repeats/jumps are retained separately. Full decoded voice-buffer comparison, rather than currentFrame monotonicity alone, establishes whether spoken samples were lost."
+      }
+    }
+  ]
+}

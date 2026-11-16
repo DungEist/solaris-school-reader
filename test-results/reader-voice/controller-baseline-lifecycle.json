@@ -1,0 +1,66 @@
+{
+  "schema": 1,
+  "scope": "Frozen baseline source replay with mock Web Audio and media fetch; validates state loss only, not native browser decoding, output signal or human hearing.",
+  "sourceHashes": {
+    "src/audio/ReaderAudio.ts": "981dd8e4fd1d1fcfc09cef0cf890e1608a480862728a0e3217e2f98fb96c1de8",
+    "src/audio/AudioManifest.ts": "553e836faff9d44a02119e66bcd4e42dbb6934d78d8d281a74d008f194a03ac1",
+    "src/engine/AudioDelivery.ts": "73730c8481e4951e66b965320bdc53ed389b401afc3cac5bb68689cbae98d9b8"
+  },
+  "manifestSha256": "9421caa9d6f7bbc110da5227ae2f935f6a0833908ded7cc6d0c349c7c361d864",
+  "positiveControl": {
+    "scriptId": "1001",
+    "nid": 9,
+    "textKey": "EVENT_AVGmain_1_9",
+    "manifestLine": {
+      "textKey": "EVENT_AVGmain_1_9",
+      "variants": {
+        "ja:any": "894edf77aa4890470917"
+      }
+    }
+  },
+  "observations": [
+    {
+      "case": "current-line-before-manifest-ready",
+      "sourceStartsBeforeRelease": 0,
+      "sourceStartsAfterRelease": 0,
+      "resolvedAfterRelease": [
+        "894edf77aa4890470917"
+      ],
+      "observations": []
+    },
+    {
+      "case": "current-line-before-first-unlock-ready",
+      "sourceStartsAfterRelease": 0,
+      "observations": []
+    },
+    {
+      "case": "review-replay-at-first-gesture",
+      "sourceStartsAfterRelease": 0,
+      "observations": []
+    },
+    {
+      "case": "positive-control-with-both-gates-ready",
+      "sourceStarts": 1,
+      "observations": [
+        {
+          "cue": "line:1001:9",
+          "asset": "894edf77aa4890470917",
+          "status": "loaded",
+          "at": 112.216243
+        },
+        {
+          "cue": "line:1001:9",
+          "asset": "894edf77aa4890470917",
+          "status": "decoded",
+          "at": 112.237047
+        },
+        {
+          "cue": "line:1001:9",
+          "asset": "894edf77aa4890470917",
+          "status": "played",
+          "at": 112.491772
+        }
+      ]
+    }
+  ]
+}

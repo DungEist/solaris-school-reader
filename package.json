@@ -15,6 +15,7 @@
     "test:assets": "python3 tests/prepare_assets_test.py",
     "test:catchlights": "node --experimental-strip-types tools/verify_reader_catchlight_coverage.mjs",
     "test:catchlights:recordings": "node --experimental-strip-types tools/verify_reader_catchlight_recordings.mjs",
+    "test:voices": "node --experimental-strip-types --test --experimental-test-isolation=none tests/audio.test.ts tests/voice-lifecycle.test.ts && python3 tests/wwise_audio_source_test.py && python3 tests/wwise_voice_test.py",
     "test:real": "node --experimental-strip-types --test --experimental-test-isolation=none tests/real-data.test.ts",
     "test:timing": "node --experimental-strip-types --test --experimental-test-isolation=none tests/timing.test.ts tests/options.test.ts tests/timed-real-data.test.ts",
     "test:reading": "node --experimental-strip-types --test --experimental-test-isolation=none tests/text.test.ts tests/reading.test.ts tests/ui.test.ts",

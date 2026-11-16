@@ -1,0 +1,49 @@
+{
+  "phase": "after",
+  "route": "later",
+  "steps": 4981,
+  "last": {
+    "before": {
+      "testid": "runner-state",
+      "status": "completed",
+      "scriptId": "8021",
+      "nid": "",
+      "flowActionIndex": "2",
+      "visitId": "1114",
+      "runId": "1",
+      "hiddenChoice": "false",
+      "inputReady": "false",
+      "textComplete": "true",
+      "historyOpen": "false",
+      "settingsOpen": "false",
+      "menuOpen": "false",
+      "uiHidden": "false",
+      "entryOpen": "false",
+      "vfxScreenOffset": "0,0",
+      "vfxPortraitTargets": ""
+    },
+    "action": {
+      "selector": "[data-testid=\"reader-actions\"] [data-journey-option=\"location:1080\"]",
+      "kind": "journey-option"
+    },
+    "after": {
+      "testid": "runner-state",
+      "status": "completed",
+      "scriptId": "8021",
+      "nid": "",
+      "flowActionIndex": "2",
+      "visitId": "1114",
+      "runId": "1",
+      "hiddenChoice": "false",
+      "inputReady": "false",
+      "textComplete": "true",
+      "historyOpen": "false",
+      "settingsOpen": "false",
+      "menuOpen": "false",
+      "uiHidden": "false",
+      "entryOpen": "false",
+      "vfxScreenOffset": "0,0",
+      "vfxPortraitTargets": ""
+    }
+  }
+}

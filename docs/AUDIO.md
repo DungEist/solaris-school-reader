@@ -1,4 +1,4 @@
-Current Reader fixes and fresh playback verification (2026-11-16) are recorded in [READER_RUNTIME_FIX.md](READER_RUNTIME_FIX.md). Its music coverage and named VFX/avatar repairs supersede the earlier unresolved-coverage statements below; dated original-source evidence remains retained.
+Current spoken-dialogue repairs and complete voice coverage are recorded in [READER_VOICES.md](READER_VOICES.md). They supersede the earlier missing-voice counts and the claim that `1001/1` has no playable local voice below. The other Reader fixes and playback verification are recorded in [READER_RUNTIME_FIX.md](READER_RUNTIME_FIX.md); its music coverage and named VFX/avatar repairs supersede the earlier unresolved-coverage statements. Earlier source and runtime evidence remains retained as the baseline.
 
 # Original audio in Solaris School Reader
 

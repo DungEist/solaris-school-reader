@@ -1,0 +1,29 @@
+{
+  "baselineManifestSha256": "9421caa9d6f7bbc110da5227ae2f935f6a0833908ded7cc6d0c349c7c361d864",
+  "compressedClip": {
+    "source": "Client/Content/Aki/WwiseAudio_Generated/WwiseExternalSource/ja_vo_EVENT_AVGmain_15_3.wem",
+    "pak": "/game/SteamLibrary/steamapps/common/Wuthering Waves/Wuthering Waves Game/Client/Saved/Resources/3.8.0/Lang_ja/Base/pakchunk11-WindowsNoEditor.pak",
+    "entry": {
+      "offset": 620679168,
+      "size": 60462,
+      "compressed": 53664,
+      "compression": 1,
+      "encrypted": true,
+      "custom": 2,
+      "blocks": 1,
+      "blockSize": 59392
+    },
+    "headerSha1": "9627deed1bb7b3d1bd55d4c3383148059eb6e0ca",
+    "storedBytes": 53664,
+    "storedWholeSha1": "9627deed1bb7b3d1bd55d4c3383148059eb6e0ca",
+    "incorrectPrefix2048Sha1": "c911521c907784f9fb4ae7e0987592c14c0306b4"
+  },
+  "decoderReference": {
+    "wwiseSourceGitSha": "686ec2c48196f160a8aaafe57ae07eedcef48bd5",
+    "mappingHeaderGitSha": "92a153738ab27fd0a55273e4436f9b4728c925f4",
+    "evidenceIds": [
+      "ev_73f72d2fe7492f1bf60a8854552e997a716fa9e29697616423be5821f9ab525e",
+      "ev_d075a4f8f62e7552071f33c66474e59a8de1f778151234ec101d03c2bb37011b"
+    ]
+  }
+}

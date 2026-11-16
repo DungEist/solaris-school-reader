@@ -1,0 +1,349 @@
+{
+  "manifest": {
+    "file": "public/data/maps/audio-playback.json",
+    "sha256": "098f3d4cf6e64298ead419122beaa2d112963658f9a02cf6d512f3ab2f4146dc"
+  },
+  "fullSuite": {
+    "command": "npm test",
+    "log": "test-results/reader-voice/full-tests.log",
+    "sha256": "16ace815ba1dab0ddeda531755ab22e442adced709a5fdfdd46560f1248bb782",
+    "counts": {
+      "tests": 443,
+      "pass": 443,
+      "fail": 0,
+      "cancelled": 0,
+      "skipped": 0,
+      "todo": 0
+    },
+    "pythonAssetPreparationPassed": true
+  },
+  "uiSuite": {
+    "tests": 30,
+    "pass": 30,
+    "fail": 0,
+    "log": "test-results/reader-voice/ui-tests.log"
+  },
+  "build": {
+    "command": "npm run build",
+    "log": "test-results/reader-voice/build.log",
+    "bundle": "dist/assets/index-B9HoUjmR.js",
+    "bundleSha256": "5477f96cb1e31d5d70be1658110aacc6cf46b2f2307b7e4ec4615197e4bb4592"
+  },
+  "sharedResolver": {
+    "authoredVoicedNodes": 574,
+    "languageGenderSelections": 4592,
+    "discrepancies": 0,
+    "japaneseSelections": 1148,
+    "unavailableLanguageSelections": 3444
+  },
+  "nativeSourceTests": {
+    "tests": 7,
+    "pass": 7
+  },
+  "encodedPacketDecoderTests": {
+    "tests": 4,
+    "pass": 4
+  },
+  "sourceAudit": {
+    "file": "test-results/reader-voice/source-to-render.json",
+    "sha256": "e8351e6b8a511209536155bb0c9e981a347d817441e07e2e1306512040478e94",
+    "counts": {
+      "scripts": 429,
+      "rawTalkItems": 8493,
+      "authoredVoiceRouteNodes": 574,
+      "globalLanguageRoutes": 0,
+      "dynamicVarParamsRoutes": 0,
+      "genderJA": 8,
+      "genderEN": 8,
+      "genderZH": 0,
+      "genderKO": 0,
+      "scriptsWithAuthoredVoice": 43,
+      "nativeInventoryRecords": 146161,
+      "nativeInventoryErrors": 0,
+      "distinctVoiceTextKeys": 532,
+      "wrongGeneratedTextKeyCount": 0,
+      "missingPlotAudioRows": 0,
+      "authoredFileNameAliasRouteNodes": 34,
+      "installedSelectedNativeVoiceFiles": 511,
+      "requestedLanguageGenderVariants": 2312,
+      "perLanguage": {
+        "ja": {
+          "requestedVariants": 582,
+          "installedVariants": 582,
+          "renderedVerifiedVariants": 582
+        },
+        "en": {
+          "requestedVariants": 582,
+          "nativeAbsentVariants": 582
+        },
+        "zh": {
+          "requestedVariants": 574,
+          "nativeAbsentVariants": 574
+        },
+        "ko": {
+          "requestedVariants": 574,
+          "nativeAbsentVariants": 574
+        }
+      },
+      "baselineVoiceRouteNodes": 527,
+      "baselineMissingWholeRouteNodes": 47,
+      "baselineMissingWholeDistinctTextKeys": 41,
+      "baselinePartialRouteNodes": 3,
+      "baselineMissingInstalledVariants": 50,
+      "baselineSourceProcessingFailureCounts": {
+        "legacy-opus-multistream-decoder-rejection": 3,
+        "resolvedInstalledVariants": 532,
+        "legacy-compressed-stored-checksum-prefix-rejection": 47
+      },
+      "renderedVoiceRouteNodes": 574,
+      "renderedVoiceAssets": 511,
+      "renderedVoiceFileChecks": 511,
+      "renderedVoiceFileHashFailures": 0,
+      "renderedInstalledVariantFailures": 0,
+      "compressedNativeVoiceFiles": 41,
+      "compressedWholeChecksumMatches": 41,
+      "compressedWholeChecksumFailures": 0,
+      "compressedErroneous2048PrefixMatches": 0,
+      "nativeFormatParseFailures": 0,
+      "nativeCacheIdentityFailures": 0,
+      "nativeCacheHashFailures": 0,
+      "selectedNativeEntryFormatCounts": [
+        {
+          "compression": 0,
+          "custom": 0,
+          "encrypted": true,
+          "uniqueFiles": 2
+        },
+        {
+          "compression": 0,
+          "custom": 2,
+          "encrypted": true,
+          "uniqueFiles": 468
+        },
+        {
+          "compression": 1,
+          "custom": 2,
+          "encrypted": true,
+          "uniqueFiles": 41
+        }
+      ],
+      "nativeFormatCounts": [
+        {
+          "codec": "0x3041",
+          "channels": 1,
+          "mappingFamily": 0,
+          "uniqueFiles": 499
+        },
+        {
+          "codec": "0x3041",
+          "channels": 2,
+          "mappingFamily": 0,
+          "uniqueFiles": 10
+        },
+        {
+          "codec": "0x3041",
+          "channels": 5,
+          "mappingFamily": 1,
+          "uniqueFiles": 2
+        }
+      ],
+      "baselineTotalAssets": 810,
+      "renderedTotalAssets": 853,
+      "addedNativeVoiceAssets": 43,
+      "existingEventMappingsPreserved": true,
+      "nonStoryAudioAssetsPreserved": true,
+      "nonStoryAudioAssetCount": 342,
+      "nonStoryAudioFilesHashVerified": 342,
+      "nonStoryAudioFileHashFailures": 0
+    }
+  },
+  "repairedScope": {
+    "scripts": {
+      "1001": {
+        "wholeNodes": 1,
+        "partialNodes": 0,
+        "missingVariants": 1,
+        "routeKeys": [
+          "1001:1"
+        ]
+      },
+      "1002": {
+        "wholeNodes": 3,
+        "partialNodes": 0,
+        "missingVariants": 3,
+        "routeKeys": [
+          "1002:1",
+          "1002:2",
+          "1002:8"
+        ]
+      },
+      "1004": {
+        "wholeNodes": 2,
+        "partialNodes": 0,
+        "missingVariants": 2,
+        "routeKeys": [
+          "1004:3",
+          "1004:6"
+        ]
+      },
+      "1009": {
+        "wholeNodes": 1,
+        "partialNodes": 0,
+        "missingVariants": 1,
+        "routeKeys": [
+          "1009:39"
+        ]
+      },
+      "1010": {
+        "wholeNodes": 3,
+        "partialNodes": 0,
+        "missingVariants": 3,
+        "routeKeys": [
+          "1010:7",
+          "1010:11",
+          "1010:20"
+        ]
+      },
+      "1011": {
+        "wholeNodes": 3,
+        "partialNodes": 0,
+        "missingVariants": 3,
+        "routeKeys": [
+          "1011:7",
+          "1011:27",
+          "1011:28"
+        ]
+      },
+      "1015": {
+        "wholeNodes": 4,
+        "partialNodes": 0,
+        "missingVariants": 4,
+        "routeKeys": [
+          "1015:27",
+          "1015:36",
+          "1015:38",
+          "1015:42"
+        ]
+      },
+      "3005": {
+        "wholeNodes": 3,
+        "partialNodes": 0,
+        "missingVariants": 3,
+        "routeKeys": [
+          "3005:15",
+          "3005:32",
+          "3005:37"
+        ]
+      },
+      "3010": {
+        "wholeNodes": 2,
+        "partialNodes": 0,
+        "missingVariants": 2,
+        "routeKeys": [
+          "3010:19",
+          "3010:28"
+        ]
+      },
+      "3011": {
+        "wholeNodes": 6,
+        "partialNodes": 0,
+        "missingVariants": 6,
+        "routeKeys": [
+          "3011:7",
+          "3011:12",
+          "3011:28",
+          "3011:31",
+          "3011:33",
+          "3011:47"
+        ]
+      },
+      "3017": {
+        "wholeNodes": 2,
+        "partialNodes": 0,
+        "missingVariants": 2,
+        "routeKeys": [
+          "3017:21",
+          "3017:26"
+        ]
+      },
+      "3030": {
+        "wholeNodes": 8,
+        "partialNodes": 3,
+        "missingVariants": 11,
+        "routeKeys": [
+          "3030:5",
+          "3030:18",
+          "3030:20",
+          "3030:24",
+          "3030:30",
+          "3030:33",
+          "3030:34",
+          "3030:35",
+          "3030:55",
+          "3030:56",
+          "3030:59"
+        ]
+      },
+      "3105": {
+        "wholeNodes": 3,
+        "partialNodes": 0,
+        "missingVariants": 3,
+        "routeKeys": [
+          "3105:15",
+          "3105:32",
+          "3105:37"
+        ]
+      },
+      "3106": {
+        "wholeNodes": 3,
+        "partialNodes": 0,
+        "missingVariants": 3,
+        "routeKeys": [
+          "3106:15",
+          "3106:32",
+          "3106:37"
+        ]
+      },
+      "9001": {
+        "wholeNodes": 1,
+        "partialNodes": 0,
+        "missingVariants": 1,
+        "routeKeys": [
+          "9001:49"
+        ]
+      },
+      "x1": {
+        "wholeNodes": 2,
+        "partialNodes": 0,
+        "missingVariants": 2,
+        "routeKeys": [
+          "x1:13",
+          "x1:17"
+        ]
+      }
+    },
+    "wholeNodes": 47,
+    "partialNodes": 3,
+    "missingVariants": 50
+  },
+  "recordingVerification": {
+    "file": "test-results/reader-voice/recording-verification.json",
+    "sha256": "e7d92e5a126c2d0f810657ac4e2c55ed7f525f2b9eb93a776d05e5f1fe8bfdf0",
+    "counts": {
+      "requiredLineModes": 8,
+      "verifiedRecordings": 10,
+      "failures": 0
+    },
+    "maximumDestinationSampleError": 2.3283064365386963e-10,
+    "minimumDeliveredMP4Correlation": 0.999950125650898
+  },
+  "normalPlay": {
+    "mainReport": "test-results/reader-voice/browser-after/verification-summary.json",
+    "navigationSteps": 4684,
+    "fourSourceLinesBothModesPassed": true,
+    "productionBundle": "index-B9HoUjmR.js",
+    "delayedStartupPassed": true,
+    "ownedProcessObservation": "test-results/reader-voice/browser-after/final-process-observation.json",
+    "fullLocalMainReport": "test-results/reader-voice/browser-after/browser-report.json"
+  }
+}

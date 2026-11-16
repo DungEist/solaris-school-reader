@@ -1,0 +1,31 @@
+{
+  "pid": 2334010,
+  "command": [
+    "/usr/bin/node",
+    "/home/deist/Downloads/2ndsol/tools/reader-voice-browser.mjs",
+    "--phase=after",
+    "--route=later",
+    "--route-seconds=2400",
+    "--reuse-completed=true",
+    "--defer-encoding=true",
+    "--navigation-poll-ms=15"
+  ],
+  "profile": "/tmp/reader-voice-l3yumm",
+  "source": {
+    "html": {
+      "file": "/home/deist/Downloads/2ndsol/dist/index.html",
+      "sha256": "a1e9787426a867ef1da9c6e33cd97db8412b536fbc26e5303229c29a42f8669d"
+    },
+    "audioManifest": {
+      "file": "/home/deist/Downloads/2ndsol/dist/data/maps/audio-playback.json",
+      "sha256": "098f3d4cf6e64298ead419122beaa2d112963658f9a02cf6d512f3ab2f4146dc"
+    },
+    "harness": {
+      "file": "/home/deist/Downloads/2ndsol/tools/reader-voice-browser.mjs",
+      "sha256": "95404fe0956028a59828670e870b3771bc7cdcf55db79160fe8617ce501f2762"
+    }
+  },
+  "deferEncoding": true,
+  "navigationPollMs": 15,
+  "startedAtEpochMs": 1794825687621
+}

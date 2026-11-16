@@ -1,0 +1,189 @@
+{
+  "evidence_id": "ev_7fc9269be2c540e57d68d6fb5c39b2734726708bcd8e1d62ab510cecc76fb394",
+  "authority": "controlled-replay",
+  "confidence": "observed",
+  "provider": {
+    "id": "rea-process",
+    "name": "REA process capture",
+    "version": "3"
+  },
+  "parameters": {
+    "executable_name": "node",
+    "argument_count": 3,
+    "event_count": 0,
+    "filesystem_observation_path_count": 0,
+    "normalization": {
+      "paths": false,
+      "pids": true,
+      "ports": true,
+      "time_bucket_ms": 10,
+      "patterns": []
+    }
+  },
+  "manifest": {
+    "rea_version": "6.8.0",
+    "provider_version": "3",
+    "platform": "linux",
+    "architecture": "x64",
+    "pty_backend": "node-pty",
+    "started_at": "2026-11-16T10:16:40.609Z",
+    "completed_at": "2026-11-16T10:17:42.254Z",
+    "scenario": {
+      "executable": "/usr/bin/node",
+      "arguments": [
+        "tools/reader-voice-browser.mjs",
+        "--phase=after",
+        "--route=delayed"
+      ],
+      "working_directory": "/home/deist/Downloads/2ndsol",
+      "environment": {
+        "READER_RESULT_DIR": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-delayed"
+      },
+      "filesystem_observation_paths": [],
+      "terminal": {
+        "columns": 120,
+        "rows": 35,
+        "scrollback": 750
+      },
+      "events": [],
+      "timeout_ms": 180000,
+      "idle_timeout_ms": 180000,
+      "settle_ms": 100,
+      "limits": {
+        "output_bytes": 150000,
+        "files": 600,
+        "file_bytes": 1000000,
+        "processes": 100,
+        "filesystem_depth": 4
+      },
+      "normalization": {
+        "paths": false,
+        "pids": true,
+        "ports": true,
+        "time_bucket_ms": 10,
+        "patterns": []
+      },
+      "finalization_ms": 5000,
+      "executable_sha256": "459970888f2cbbf6b46fa65cd3b3cadcf3f482c8ed5a8dfa8c09b143ec59514c"
+    },
+    "comparison_contract": {
+      "working_directory": "/home/deist/Downloads/2ndsol",
+      "environment": {
+        "READER_RESULT_DIR": "/home/deist/Downloads/2ndsol/test-results/reader-voice/browser-delayed"
+      },
+      "ambient_environment": "unknown",
+      "filesystem_observation_paths": [],
+      "terminal": {
+        "columns": 120,
+        "rows": 35,
+        "scrollback": 750
+      },
+      "events": [],
+      "timeout_ms": 180000,
+      "idle_timeout_ms": 180000,
+      "settle_ms": 100,
+      "finalization_ms": 5000,
+      "limits": {
+        "output_bytes": 150000,
+        "files": 600,
+        "file_bytes": 1000000,
+        "processes": 100,
+        "filesystem_depth": 4
+      },
+      "normalization": {
+        "paths": false,
+        "pids": true,
+        "ports": true,
+        "time_bucket_ms": 10,
+        "patterns": []
+      },
+      "terminal_observation_version": "deferred-rendered-journal-v1",
+      "pid_normalization_version": "sampled-identifiers-v2",
+      "port_normalization_version": "contextual-endpoints-v3",
+      "rendered_line_format": "trailing-spaces-trimmed-v1"
+    },
+    "full_scenario_sha256": "e333db910d4e146c526ce71472f4f20c48a4d826b3ebc2107ae83f4f3d8548ba",
+    "comparison_contract_sha256": "87baf3a852831f66839f567c410cbe0bad9a471c0c13289a215ee8ad60e820fb",
+    "selected_executable_sha256": "459970888f2cbbf6b46fa65cd3b3cadcf3f482c8ed5a8dfa8c09b143ec59514c",
+    "executable_sha256": "459970888f2cbbf6b46fa65cd3b3cadcf3f482c8ed5a8dfa8c09b143ec59514c",
+    "executable_identity": {
+      "state": "path_metadata_unchanged",
+      "reason": null
+    },
+    "normalization_sha256": "5c58aa1aa890197f15f9c59ef755d01120e6e07f356fa1ef2f20787e63b6fa87"
+  },
+  "exit": {
+    "code": 0,
+    "signal": 0,
+    "reason": "exited"
+  },
+  "cleanup": {
+    "owned_process_group": "verified",
+    "temporary_root": "removed",
+    "unverified_processes": [
+      {
+        "pid": 2307850,
+        "reason": "EACCES: permission denied, open '/proc/2307850/environ'"
+      },
+      {
+        "pid": 2308376,
+        "reason": "EACCES: permission denied, open '/proc/2308376/environ'"
+      },
+      {
+        "pid": 2309049,
+        "reason": "EACCES: permission denied, open '/proc/2309049/environ'"
+      },
+      {
+        "pid": 2309171,
+        "reason": "EACCES: permission denied, open '/proc/2309171/environ'"
+      }
+    ]
+  },
+  "limitations": [
+    "Artifact identity is unavailable for this observation.",
+    "The executable digest is a prelaunch file sample; matching path metadata immediately after spawn does not prove an atomic operating-system image binding.",
+    "Process trees are sampled and may omit short-lived descendants.",
+    "Filesystem observations are before/after snapshots, not syscall traces.",
+    "Inherited host environment variables are not recorded and may affect results.",
+    "No filesystem observation paths were selected; filesystem effects remain unknown."
+  ],
+  "residual_unknowns": [
+    {
+      "scope": "process",
+      "reason": "Process trees are sampled and may omit short-lived descendants."
+    },
+    {
+      "scope": "process",
+      "reason": "The executable digest is a prelaunch file sample; operating-system image binding is not atomically observed."
+    },
+    {
+      "scope": "environment",
+      "reason": "Inherited host environment variables are not recorded."
+    },
+    {
+      "scope": "network",
+      "reason": "Network activity is not observed by this capture."
+    },
+    {
+      "scope": "filesystem",
+      "reason": "No filesystem observation paths were selected; filesystem effects remain unknown."
+    },
+    {
+      "scope": "process",
+      "reason": "Ownership of unrelated process 2307850 could not be verified; it was left untouched: EACCES: permission denied, open '/proc/2307850/environ'"
+    },
+    {
+      "scope": "process",
+      "reason": "Ownership of unrelated process 2308376 could not be verified; it was left untouched: EACCES: permission denied, open '/proc/2308376/environ'"
+    },
+    {
+      "scope": "process",
+      "reason": "Ownership of unrelated process 2309049 could not be verified; it was left untouched: EACCES: permission denied, open '/proc/2309049/environ'"
+    },
+    {
+      "scope": "process",
+      "reason": "Ownership of unrelated process 2309171 could not be verified; it was left untouched: EACCES: permission denied, open '/proc/2309171/environ'"
+    }
+  ],
+  "scope": "Controlled-process launch/exit/cleanup evidence; actual voice and public Reader navigation are recorded independently in browser-report.json and measurements.json."
+}

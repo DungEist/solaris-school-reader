@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "traversalPublicActions": 4684,
+  "traversalNextCycleClicks": [],
+  "automaticFirstLineBefore": {
+    "testid": "runner-state",
+    "status": "completed",
+    "scriptId": "3021",
+    "nid": "",
+    "flowActionIndex": "2",
+    "visitId": "4234",
+    "runId": "1",
+    "hiddenChoice": "false",
+    "inputReady": "false",
+    "textComplete": "true",
+    "historyOpen": "false",
+    "settingsOpen": "false",
+    "menuOpen": "false",
+    "uiHidden": "false",
+    "entryOpen": "false",
+    "vfxScreenOffset": "0,0",
+    "vfxPortraitTargets": ""
+  },
+  "automaticFirstLineTrigger": {
+    "available": true,
+    "publicControl": "ordinary Next cycle, armed before arrival"
+  },
+  "automaticFirstLineAfter": {
+    "testid": "runner-state",
+    "status": "dialogue",
+    "scriptId": "1002",
+    "nid": "1",
+    "flowActionIndex": "1",
+    "visitId": "1",
+    "runId": "2",
+    "hiddenChoice": "false",
+    "inputReady": "true",
+    "textComplete": "true",
+    "historyOpen": "false",
+    "settingsOpen": "false",
+    "menuOpen": "false",
+    "uiHidden": "false",
+    "entryOpen": "false",
+    "vfxScreenOffset": "0,0",
+    "vfxPortraitTargets": ""
+  },
+  "automaticFirstLineOriginalKey": "EVENT_AVGmain_5_1",
+  "captureArmedEpochMs": 1794826867243.7,
+  "voiceSourceStartedEpochMs": 1794826867399.4,
+  "armPrecedesActualVoiceSourceStart": true,
+  "completeDecodedVoiceFrames": 824109,
+  "maximumPCMError": 2.3283064365386963e-10,
+  "frameBeforeClick": "train-later-first-auto/frame-0000.jpg",
+  "ownedBrowserCleanup": [
+    {
+      "target": "owned-browser",
+      "exitCode": 0,
+      "signalCode": null,
+      "exited": true
+    },
+    {
+      "target": "temporary-browser-profile",
+      "removed": true
+    }
+  ],
+  "canonicalGuardUpdateScope": "The current canonical publicStep returns a boundary at Next cycle and publicRouteToNextCycle dismisses notices before checking it. The completed recorded run finished before an active-driver patch was applied; its actual route/arm evidence passes independently."
+}
